@@ -1,0 +1,39 @@
+{
+  "name": "Burglary",
+  "_id": "LPGzs3K7Kd3Q2h0P",
+  "_key": "!items!LPGzs3K7Kd3Q2h0P",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You know how to bypass security to enter a place and take anything that strikes your fancy.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You know your way around security systems. When you succeed at an Intelligence (Security) test to study a lock, alarm, guards, or any part of a security system or protocol, the GM provides you with one more piece of information.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Security measures cannot stop you. If you fail an Intelligence (Technology) test involving a security measure, you can re-roll it, but must keep the results of the second roll.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>No valuable escapes your notice. If you fail a Perception (Searching) test, you can re-roll it, but must keep the results of the second roll.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

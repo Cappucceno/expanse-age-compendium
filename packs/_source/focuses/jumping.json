@@ -1,0 +1,24 @@
+{
+  "name": "Jumping",
+  "_id": "fNIO0nKSVErOHkrc",
+  "_key": "!items!fNIO0nKSVErOHkrc",
+  "folder": "eTWHzaS8gBqZo9st",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Making standing or running jumps.</p>",
+    "useAbl": "str",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Single Weapon Style",
+  "_id": "KWn2j2B99YsD5rFz",
+  "_key": "!items!KWn2j2B99YsD5rFz",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can fight more effectively wielding a single-handed melee weapon.</p>",
+    "shortDesc": "",
+    "requirement": "Perception 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Fighting with a single-handed weapon demands increased awareness. If you take the Activate action, you gain a +1 Defense bonus until the end of the encounter while fighting in this style.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can wield your weapon to block and parry attacks. Your bonus to Defense increases to +2 while fighting in this style.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You know how to fight several enemies at once. Opponents making melee attacks against you never gain a bonus on their attack rolls for outnumbering you.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

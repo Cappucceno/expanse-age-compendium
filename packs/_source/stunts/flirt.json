@@ -1,0 +1,26 @@
+{
+  "name": "Flirt",
+  "_id": "qQciOVyV5MgBISOk",
+  "_key": "!items!qQciOVyV5MgBISOk",
+  "folder": "RYCI0kZp4Uq2YPRL",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Roll Communication (Seduction) vs. your target’s Willpower (Self-Discipline) as a simple social roll against a character whose Attitude toward you is Open or better, with a positive bent; if you win, they become enamored with your character, opening the door to future romance or intimacy. How this proceeds is up to you and the GM to work out together.</p>",
+    "type": "General Social",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

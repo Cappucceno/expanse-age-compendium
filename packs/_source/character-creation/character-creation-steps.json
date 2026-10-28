@@ -1,0 +1,138 @@
+{
+  "name": "Character Creation Steps",
+  "pages": [
+    {
+      "_id": "2bOhZtHCCNcHCXoJ",
+      "name": "The Ten Steps",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<ol><li><strong>Concept</strong></li><li><strong>Abilities:</strong> roll 3d6 nine times, or arrange the results, or buy 12 advancements (max 3).</li><li><strong>Origin:</strong> Belter, Earther or Martian.</li><li><strong>Background:</strong> roll Social Class, then a background.</li><li><strong>Profession</strong></li><li><strong>Drive</strong></li><li><strong>Income</strong> and equipment.</li><li><strong>Secondary abilities and Fortune.</strong></li><li><strong>Goals and ties.</strong></li><li><strong>Name and description.</strong></li></ol>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d9uZfoy4rXNZAzqe.2bOhZtHCCNcHCXoJ",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "NuWAWYNtL7CpTU5b",
+      "name": "Determining Abilities",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Roll 3d6 nine times, one per ability, and convert each result: 3 = –2; 4–5 = –1; 6–8 = 0; 9–11 = 1; 12–14 = 2; 15–17 = 3; 18 = 4. You may then swap any two scores.</p><table><thead><tr><th>3d6</th><th>Ability Score</th></tr></thead><tbody><tr><td>3</td><td>–2</td></tr><tr><td>4–5</td><td>–1</td></tr><tr><td>6–8</td><td>0</td></tr><tr><td>9–11</td><td>1</td></tr><tr><td>12–14</td><td>2</td></tr><tr><td>15–17</td><td>3</td></tr><tr><td>18</td><td>4</td></tr></tbody></table>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d9uZfoy4rXNZAzqe.NuWAWYNtL7CpTU5b",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "eOTEXo5pyYKRvDcz",
+      "name": "Income",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Starting Income is based on social class (Outsider 0, Lower 2, Middle 4, Upper 6), adjusted by talents and drive. Income can never fall below –2.</p><table><thead><tr><th>Income Score</th><th>Financial Condition</th></tr></thead><tbody><tr><td>–2 to +0</td><td>Impoverished or in debt</td></tr><tr><td>+1 to +2</td><td>Struggling</td></tr><tr><td>+3 to +5</td><td>Middle class</td></tr><tr><td>+6 to +8</td><td>Affluent</td></tr><tr><td>+9 to +10</td><td>Wealthy</td></tr><tr><td>+11 to +13</td><td>Rich</td></tr><tr><td>+14 or higher</td><td>Very rich</td></tr></tbody></table><p><strong>Income test:</strong> 3d6 + Income score vs. the item’s cost. If your Income + 4 is equal to or greater than the cost, you succeed automatically. If you succeed in buying something with a cost greater than your Income + 10, your Income decreases by 1.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d9uZfoy4rXNZAzqe.eOTEXo5pyYKRvDcz",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "5sFF3dmdyVUPy1it",
+      "name": "Secondary Abilities and Fortune",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Defense</strong> = 10 + Dexterity. <strong>Speed</strong> = 10 + Dexterity. <strong>Toughness</strong> = Constitution. <strong>Fortune</strong> starts at 15 (20 with the Fortune improvement from drive).</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d9uZfoy4rXNZAzqe.5sFF3dmdyVUPy1it",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "LT5vKy24tbyywLOV",
+      "name": "Starting Equipment",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Characters start with ordinary clothing, the essential tools or items of their profession (if any), and any weapon they have an associated focus or talent for using. Beyond this, equipment and lifestyle are determined by Income.</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d9uZfoy4rXNZAzqe.LT5vKy24tbyywLOV",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "d9uZfoy4rXNZAzqe",
+  "_key": "!journal!d9uZfoy4rXNZAzqe",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

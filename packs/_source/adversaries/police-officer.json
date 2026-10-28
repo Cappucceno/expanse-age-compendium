@@ -1,0 +1,242 @@
+{
+  "name": "Police Officer",
+  "_id": "dQYH8RoQXTTf7wkx",
+  "_key": "!actors!dQYH8RoQXTTf7wkx",
+  "folder": "PkhHQsUEkbbtXxsb",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 2
+      },
+      "comm": {
+        "value": 2
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 0
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 11,
+      "value": 11
+    },
+    "features": "<p><strong>AKA:</strong> Copper, Flatfoot</p><p>In many cities, a uniform isn’t enough to inspire confidence in a beleaguered populace. Victims cannot trust the police to take a crime seriously, because sometimes the police allowed the crime to take place. Clean uniformed cops struggle to keep their heads above the water as the city runs with filth. Too many fear becoming their corrupt superiors, jaded and disillusioned with the job. It is made more complicated by the fact that many police departments are owned and operated by large corporations, each with their own interests.</p><p><strong>Stunts:</strong> Benefit of the Doubt, Good Cop/Bad Cop, Short Burst</p><p><strong>Talents:</strong> Intrigue (Novice), Contacts (Novice)</p><p><strong>Equipment:</strong> badge and ID, hand terminal, pistol, restraints, taser</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "6PCBFkR4E2pz4Ahv",
+      "_key": "!actors.items!dQYH8RoQXTTf7wkx.6PCBFkR4E2pz4Ahv",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "3ndpNqnDsWsWmRKB",
+      "_key": "!actors.items!dQYH8RoQXTTf7wkx.3ndpNqnDsWsWmRKB",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Driving",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "SbiOmUikE7Q6HlYe",
+      "_key": "!actors.items!dQYH8RoQXTTf7wkx.SbiOmUikE7Q6HlYe",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Brawling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "Vd2A3wN5yYr2MZZr",
+      "_key": "!actors.items!dQYH8RoQXTTf7wkx.Vd2A3wN5yYr2MZZr",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Law",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "1Z11n2drRf0ZpZI0",
+      "_key": "!actors.items!dQYH8RoQXTTf7wkx.1Z11n2drRf0ZpZI0",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "S4Bjt6klAfsVOp1w",
+      "_key": "!actors.items!dQYH8RoQXTTf7wkx.S4Bjt6klAfsVOp1w",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 2d6+1.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Taser",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "2JfEY4n9Uv611Yj7",
+      "_key": "!actors.items!dQYH8RoQXTTf7wkx.2JfEY4n9Uv611Yj7",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +2, damage 1d6-3.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": -3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+-3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Police Officer",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

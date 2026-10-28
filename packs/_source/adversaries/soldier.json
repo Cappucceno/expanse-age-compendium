@@ -1,0 +1,316 @@
+{
+  "name": "Soldier",
+  "_id": "lZEYjwyaPXjLU3Gq",
+  "_key": "!actors!lZEYjwyaPXjLU3Gq",
+  "folder": "BlPNbL9yVLi7AiLr",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Moderate",
+    "abilities": {
+      "acc": {
+        "value": 3
+      },
+      "comm": {
+        "value": 2
+      },
+      "cons": {
+        "value": 3
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 1
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 2
+      },
+      "will": {
+        "value": 2
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 23,
+      "value": 23
+    },
+    "features": "<p><strong>AKA:</strong> Marines, Honor Guards, Mercs</p><p>Most soldiers belong to armies or small military detachments, following the orders of a military or government superior. Other soldiers operate independently, acting as hired killers or tacticians for private companies. The soldier n a standing army has access to the resources provided to any of their peers in the same unit. The soldier of fortune has less institutional protection, having to rely on their wits and training instead of a swift request for more reinorcements or supplies. One type of soldier works with egitimacy, the other does not, and the latter may be willing o perform tasks prohibited by established treaties and contracts. In the modern system, the line between the two ypes of soldiers is increasingly blurred.</p><p><strong>Stunts:</strong> Covering Fire, Group Tactics, Skirmish, Short Burst, Strafe, Take Cover</p><p><strong>Talents:</strong> Command (Novice), Rifle Style (Expert), Tactical Awareness (Expert)</p><p><strong>Equipment:</strong> light body armor, pistol, rifle, uniform and insignia</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "pGHeMUoMDoALCW02",
+      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.pGHeMUoMDoALCW02",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Rifles",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "duluOmkn3O1znbcv",
+      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.duluOmkn3O1znbcv",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "A5KiSMcP9wKTP89Z",
+      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.A5KiSMcP9wKTP89Z",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Brawling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "q8qUjMV8f4n9XHan",
+      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.q8qUjMV8f4n9XHan",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Hearing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "Nc9mfx1xWRCKicsH",
+      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.Nc9mfx1xWRCKicsH",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Courage",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "xDFp3DOlAt4l2Jqx",
+      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.xDFp3DOlAt4l2Jqx",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Morale",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "BcsgDc3yEKGXtAni",
+      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.BcsgDc3yEKGXtAni",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "l9ZQY23QYO7wChtU",
+      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.l9ZQY23QYO7wChtU",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5, damage 2d6+1.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Rifle",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "n8NQyKAXAfvJDXfh",
+      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.n8NQyKAXAfvJDXfh",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5, damage 3d6+1.</p>",
+        "useAbl": "acc",
+        "useFocus": "rifles",
+        "nrDice": "3",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "3d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Armor",
+      "type": "equipment",
+      "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+      "_id": "C2COpIaGU6KWqrsu",
+      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.C2COpIaGU6KWqrsu",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "equiped": true,
+        "modifiers": {
+          "ue1X1X6OVJywYlmE": {
+            "type": "impactArmor",
+            "formula": "2",
+            "flavor": "",
+            "isActive": true,
+            "valid": true,
+            "conditions": {},
+            "ftype": "",
+            "key": "ue1X1X6OVJywYlmE"
+          }
+        },
+        "longDesc": ""
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Soldier",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

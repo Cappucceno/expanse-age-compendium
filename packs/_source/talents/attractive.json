@@ -1,0 +1,39 @@
+{
+  "name": "Attractive",
+  "_id": "JJs2Oe4O8UDu5sKV",
+  "_key": "!items!JJs2Oe4O8UDu5sKV",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You have that special something that catches and holds people’s attention and interest.</p>",
+    "shortDesc": "",
+    "requirement": "",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Your presence is as stunning upon the second impression as it is on the first. You can use the Making an Entrance social stunt a second time at any point of an encounter. Also, if an NPC could be attracted to you, their initial attitude is one step more favorable towards you. See Social Encounters in Chapter 5 for details.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You know how to best exploit your appearance. You can perform the Flirt social stunt for 3 SP instead of its normal cost, and the target of your efforts can have a Neutral attitude instead of Open.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Every move you make captures the attention and interest of others. When interacting with characters who would be attracted to you, you can re-roll a failed Communication (Deception, Performing, Persuasion, or Seduction) test, but must keep the result of the second roll.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

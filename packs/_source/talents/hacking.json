@@ -1,0 +1,39 @@
+{
+  "name": "Hacking",
+  "_id": "AjggeAJZTuPwm4jJ",
+  "_key": "!items!AjggeAJZTuPwm4jJ",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Computer security systems and safeguards are more suggestions to you than anything else.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence (Security) and Intelligence (Technology) focuses",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>When you succeed at an Intelligence (Cryptography) or Intelligence (Security) test, the GM can provide you with an extra item of information about the subject. Also, you can use the Intelligence (Technology) focus instead of Communication (Investigation) and Intelligence (Research) if the information you seek can be found in an accessible computer system.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>If you fail an Intelligence (Technology) test, you can re-roll it, but must keep the results of the second roll.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When you make an advanced test using Intelligence (Cryptography) or Intelligence (Technology), add +2 to the result of the Drama Die for the purpose of reaching the test’s threshold. You can perform the Cover Your Tracks stunt on tests involving the Cryptography and Technology focuses for 2 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Accuracy",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "epZze6Wd6DHPWTAO",
+  "_key": "!folders!epZze6Wd6DHPWTAO",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

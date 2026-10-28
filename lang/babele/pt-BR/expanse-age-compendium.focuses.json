@@ -1,0 +1,200 @@
+{
+  "label": "Focos de Habilidade",
+  "mapping": {
+    "name": "name"
+  },
+  "entries": {
+    "Acrobatics": {
+      "name": "Acrobacia"
+    },
+    "Art": {
+      "name": "Arte"
+    },
+    "Bargaining": {
+      "name": "Barganha"
+    },
+    "Bows": {
+      "name": "Arcos"
+    },
+    "Brawling": {
+      "name": "Briga"
+    },
+    "Business": {
+      "name": "Negócios"
+    },
+    "Climbing": {
+      "name": "Escalar"
+    },
+    "Courage": {
+      "name": "Coragem"
+    },
+    "Crafting": {
+      "name": "Manufatura"
+    },
+    "Cryptography": {
+      "name": "Criptografia"
+    },
+    "Current Affairs": {
+      "name": "Atualidades"
+    },
+    "Deception": {
+      "name": "Enganação"
+    },
+    "Demolitions": {
+      "name": "Demolição"
+    },
+    "Disguise": {
+      "name": "Disfarce"
+    },
+    "Driving": {
+      "name": "Condução"
+    },
+    "Empathy": {
+      "name": "Empatia"
+    },
+    "Engineering": {
+      "name": "Engenharia"
+    },
+    "Etiquette": {
+      "name": "Etiqueta"
+    },
+    "Evaluation": {
+      "name": "Avaliação"
+    },
+    "Expression": {
+      "name": "Expressão"
+    },
+    "Faith": {
+      "name": "Fé"
+    },
+    "Free-fall": {
+      "name": "Queda Livre"
+    },
+    "Gambling": {
+      "name": "Jogatina"
+    },
+    "Grappling": {
+      "name": "Agarramento"
+    },
+    "Gunnery": {
+      "name": "Artilharia"
+    },
+    "Hearing": {
+      "name": "Audição"
+    },
+    "Heavy Weapons": {
+      "name": "Armas Pesadas"
+    },
+    "Initiative": {
+      "name": "Iniciativa"
+    },
+    "Intimidation": {
+      "name": "Intimidação"
+    },
+    "Intuition": {
+      "name": "Intuição"
+    },
+    "Investigation": {
+      "name": "Investigação"
+    },
+    "Jumping": {
+      "name": "Saltar"
+    },
+    "Law": {
+      "name": "Direito"
+    },
+    "Leadership": {
+      "name": "Liderança"
+    },
+    "Light Weapons": {
+      "name": "Armas Leves"
+    },
+    "Medicine": {
+      "name": "Medicina"
+    },
+    "Might": {
+      "name": "Potência"
+    },
+    "Navigation": {
+      "name": "Navegação"
+    },
+    "Performing": {
+      "name": "Atuação"
+    },
+    "Persuasion": {
+      "name": "Persuasão"
+    },
+    "Piloting": {
+      "name": "Pilotagem"
+    },
+    "Pistols": {
+      "name": "Pistolas"
+    },
+    "Research": {
+      "name": "Pesquisa"
+    },
+    "Rifles": {
+      "name": "Fuzis"
+    },
+    "Running": {
+      "name": "Corrida"
+    },
+    "Science": {
+      "name": "Ciência"
+    },
+    "Searching": {
+      "name": "Procurar"
+    },
+    "Security": {
+      "name": "Segurança"
+    },
+    "Seduction": {
+      "name": "Sedução"
+    },
+    "Seeing": {
+      "name": "Visão"
+    },
+    "Self-Discipline": {
+      "name": "Autodisciplina"
+    },
+    "Sleight of Hand": {
+      "name": "Prestidigitação"
+    },
+    "Smelling": {
+      "name": "Olfato"
+    },
+    "Stamina": {
+      "name": "Vigor"
+    },
+    "Stealth": {
+      "name": "Furtividade"
+    },
+    "Survival": {
+      "name": "Sobrevivência"
+    },
+    "Swimming": {
+      "name": "Natação"
+    },
+    "Tactics": {
+      "name": "Tática"
+    },
+    "Tasting": {
+      "name": "Paladar"
+    },
+    "Technology": {
+      "name": "Tecnologia"
+    },
+    "Throwing": {
+      "name": "Arremesso"
+    },
+    "Tolerance": {
+      "name": "Tolerância"
+    },
+    "Touching": {
+      "name": "Tato"
+    },
+    "Tracking": {
+      "name": "Rastrear"
+    }
+  }
+}

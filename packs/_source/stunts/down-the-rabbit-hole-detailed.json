@@ -1,0 +1,26 @@
+{
+  "name": "Down the Rabbit Hole (Detailed)",
+  "_id": "bLH9yiYId0684aqK",
+  "_key": "!items!bLH9yiYId0684aqK",
+  "folder": "emDfthNa99SyoHpm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>If this test led to a reveal, the GM also provides a brand new lead about a new subject that will lead to greater rewards.</p>",
+    "type": "Investigation",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

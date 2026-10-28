@@ -1,0 +1,24 @@
+{
+  "name": "Tasting",
+  "_id": "9Ocyq8e23lSX4Vk5",
+  "_key": "!items!9Ocyq8e23lSX4Vk5",
+  "folder": "G4YinXYFiER29Ial",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Perceiving using your gustatory sense.</p>",
+    "useAbl": "per",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

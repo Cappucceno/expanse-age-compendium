@@ -1,0 +1,24 @@
+{
+  "name": "Stealth",
+  "_id": "a0ImvzdXRQyD0lzH",
+  "_key": "!items!a0ImvzdXRQyD0lzH",
+  "folder": "F9dk45ZVyiRvDt45",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Moving around without being noticed.</p>",
+    "useAbl": "dex",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

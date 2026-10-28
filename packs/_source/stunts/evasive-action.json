@@ -1,0 +1,26 @@
+{
+  "name": "Evasive Action",
+  "_id": "WAzGI9RDRiMa5OhA",
+  "_key": "!items!WAzGI9RDRiMa5OhA",
+  "folder": "dPhyZYcxqCcyUgIT",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 3+ SP</em></p><p>Every 3 SP you spend grants a +1d6 Hull bonus to your ship that round for resisting damage from successful weapon attacks.</p>",
+    "type": "Space Combat Command",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

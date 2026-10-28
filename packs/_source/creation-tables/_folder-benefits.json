@@ -1,0 +1,17 @@
+{
+  "name": "Benefits",
+  "type": "RollTable",
+  "folder": null,
+  "sorting": "a",
+  "sort": 500000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "H8ydMcpygzMyt8US",
+  "_key": "!folders!H8ydMcpygzMyt8US",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

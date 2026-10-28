@@ -1,0 +1,39 @@
+{
+  "name": "Pilot",
+  "_id": "rISDTiOaA9mVOvc9",
+  "_key": "!items!rISDTiOaA9mVOvc9",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Any vehicle under your control becomes like an extension of yourself.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity (Driving or Piloting) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You are quick to get things going. Starting up a vehicle is a free action for you, and you can perform Dexterity (Driving or Piloting) tests as a minor action.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You push the performance of your means of transportation. When you control a vehicle, it gains a +2 bonus to tests involving its speed.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>If you fail an ability test to control a vehicle, you can re-roll it, but must keep the results of the second roll. In addition, while you are at the controls, your vehicle gains a +2 bonus to Defense as long as it is moving.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

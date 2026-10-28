@@ -1,0 +1,26 @@
+{
+  "name": "Lightning Attack",
+  "_id": "qqQrbpPLkoQVDrIy",
+  "_key": "!items!qqQrbpPLkoQVDrIy",
+  "folder": "iUVfhOY02Hq2jOoj",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Make a second attack on your turn, either against the same target or a different target.</p>",
+    "type": "General Combat",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

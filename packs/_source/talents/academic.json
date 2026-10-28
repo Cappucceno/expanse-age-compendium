@@ -1,0 +1,39 @@
+{
+  "name": "Academic",
+  "_id": "MR0W47dBrRBDOzCC",
+  "_key": "!items!MR0W47dBrRBDOzCC",
+  "folder": "y88XXvdfe5pCOOAm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are trained in finding information and putting it to use.</p><p>While the notion of “academic” often equates to irrelevant, you know that knowledge is power. You know how to find information and put it to work in order to achieve your goals, and you understand the value of information in the right hands.</p><p><em>Synergies:</em> An Academic-Hacker has the skills to find data anywhere, even in places where others might be unable to go. An Academic-Star might be a celebrity scientist, or a pop star with a secret PhD. An Academic-Executive might be the head of a government agency with access to all the information in the world.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence 2 or higher and the Intelligence (Research) focus",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You have a real skill in not only finding facts, but knowing where to look. If you fail an Intelligence (Research) test, you can re-roll it, but must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You have become adept at recalling relevant information. When you perform the A-Ha! stunt, you gain one free extra use of it; that is, if you spend 1 SP, you can perform the stunt twice, if you spend 2 SP, you can use it three times, and so on.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Your fact-finding abilities are unparalleled. When you make an Intelligence (Research) test as part of an advanced test, you gain a +1 bonus to the result of each Drama Die. This increases your total roll, and allows you to reach the success threshold faster.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

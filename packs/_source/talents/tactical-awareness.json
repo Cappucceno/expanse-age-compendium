@@ -1,0 +1,39 @@
+{
+  "name": "Tactical Awareness",
+  "_id": "UyCfP9lOyDP6oYyO",
+  "_key": "!items!UyCfP9lOyDP6oYyO",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You move calmly and expertly while in combat.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity and Perception 1 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can take the Melee Attack or Ranged Attack action at any point during your movement. Normally you have to finish your movement before attacking.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You seem to have eyes in the back of your head. When you perform the Take One for the Team exploration stunt, you only take half the damage from a trap or hazard and your ally remains unscathed.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are hard to pin down in combat. Opponents do not gain an attack bonus for outnumbering you in melee. If you also have the Expert degree in the Single Weapon Style, your Defense bonus increases to +3 when fighting in that style.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

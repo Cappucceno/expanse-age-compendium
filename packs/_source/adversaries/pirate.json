@@ -1,0 +1,348 @@
+{
+  "name": "Pirate",
+  "_id": "ySFkvHvYF1Krs03M",
+  "_key": "!actors!ySFkvHvYF1Krs03M",
+  "folder": "N3WRoFwp0q9l0Jar",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 2
+      },
+      "comm": {
+        "value": 0
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 0
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 1
+      },
+      "will": {
+        "value": 1
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 22,
+      "value": 22
+    },
+    "features": "<p><strong>AKA:</strong> Ship Raider, Hijacker</p><p>Ships hauling materials, fuel, and ice through the outer planets are targets for piracy. Pirates hide in the midst of small planetoids and debris along normal trade routes, waiting to ambush vessels with little to no security or defense. Many are part of independent crews, but some h r n l , r f , r e also work as arms of criminal organizations or corrupt corporations. Dealing with pirates out in the Belt was one of the primary duties of the navies of Earth and Mars prior to more recent conflicts, but now piracy is on the rise and patrols are fewer.</p><p><strong>Stunts:</strong> Knock Prone, Lightning Attack</p><p><strong>Talents:</strong> Living on the Fringe (Novice), Quick Reflexes (Novice)</p><p><strong>Equipment:</strong> flight coveralls, machine tools, makeshift club, pistol, utility knife</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "e4IDads8FKPQebI8",
+      "_key": "!actors.items!ySFkvHvYF1Krs03M.e4IDads8FKPQebI8",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Piloting",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "9Zqa6azlrh7VVhqA",
+      "_key": "!actors.items!ySFkvHvYF1Krs03M.9Zqa6azlrh7VVhqA",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stealth",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "wlrTIepc2fJWabnn",
+      "_key": "!actors.items!ySFkvHvYF1Krs03M.wlrTIepc2fJWabnn",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Engineering",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "KEu2GqYo4bhPDEfi",
+      "_key": "!actors.items!ySFkvHvYF1Krs03M.KEu2GqYo4bhPDEfi",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Evaluation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "n7qh4Ovy3pEOOrnA",
+      "_key": "!actors.items!ySFkvHvYF1Krs03M.n7qh4Ovy3pEOOrnA",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seeing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "s6FtLVIUPKjm2QlJ",
+      "_key": "!actors.items!ySFkvHvYF1Krs03M.s6FtLVIUPKjm2QlJ",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "wW93QeGKqHo5Kn52",
+      "_key": "!actors.items!ySFkvHvYF1Krs03M.wW93QeGKqHo5Kn52",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Club",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "6tkDRpYSWjGLeNOK",
+      "_key": "!actors.items!ySFkvHvYF1Krs03M.6tkDRpYSWjGLeNOK",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +2, damage 1d6+1.</p>",
+        "useAbl": "fight",
+        "useFocus": "",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Knife",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "9CCLDBTh2GzbTi5R",
+      "_key": "!actors.items!ySFkvHvYF1Krs03M.9CCLDBTh2GzbTi5R",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +2, damage 1d6+2.</p>",
+        "useAbl": "fight",
+        "useFocus": "light weapons",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "qN0VFwWUDcRu4bWJ",
+      "_key": "!actors.items!ySFkvHvYF1Krs03M.qN0VFwWUDcRu4bWJ",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 2d6+1.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Armor",
+      "type": "equipment",
+      "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+      "_id": "WF3m80cxXPbDgfr0",
+      "_key": "!actors.items!ySFkvHvYF1Krs03M.WF3m80cxXPbDgfr0",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "equiped": true,
+        "modifiers": {
+          "qS2vayvEIFXKAfcc": {
+            "type": "impactArmor",
+            "formula": "3",
+            "flavor": "",
+            "isActive": true,
+            "valid": true,
+            "conditions": {},
+            "ftype": "",
+            "key": "qS2vayvEIFXKAfcc"
+          }
+        },
+        "longDesc": ""
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Pirate",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

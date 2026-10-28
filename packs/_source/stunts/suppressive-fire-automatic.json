@@ -1,0 +1,26 @@
+{
+  "name": "Suppressive Fire (Automatic)",
+  "_id": "zlb4rHXfdFZ5zveB",
+  "_key": "!items!zlb4rHXfdFZ5zveB",
+  "folder": "HjZS0NpKrp9ecqIY",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>At the end of each character’s turn until the start of your next turn (including allies and your current target), make a new attack against that character if they’re within (SP) meters of the spot where your target stands right now.</p>",
+    "type": "Gun",
+    "stuntPoints": 1,
+    "stuntPointsMax": 5,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

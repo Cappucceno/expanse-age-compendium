@@ -1,0 +1,17 @@
+{
+  "name": "Perception",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 700000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "G4YinXYFiER29Ial",
+  "_key": "!folders!G4YinXYFiER29Ial",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

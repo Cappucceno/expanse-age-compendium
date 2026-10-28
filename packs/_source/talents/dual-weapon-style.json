@@ -1,0 +1,39 @@
+{
+  "name": "Dual Weapon Style",
+  "_id": "0IuVJ1Wv3Ce8WpfJ",
+  "_key": "!items!0IuVJ1Wv3Ce8WpfJ",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can fight in hand-to-hand combat with a weapon in your primary hand and another in your off-hand (a secondary weapon). Unless otherwise stated, attacks come from the primary weapon.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>While wielding two close combat weapons, if you take the Activate action, you gain either a +1 bonus on your melee attack rolls or a +1 Defense bonus vs. melee attacks until the end of the encounter. You can switch the bonus with another Activate action.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can perform the Lightning Attack stunt for 2 SP instead of the usual 3, but the extra attack must come from your secondary weapon.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can overwhelm opponents with attacks from both weapons. If you make a Melee Attack with your primary weapon and you are not charging, you can make another attack with your secondary weapon as a minor action. The second attack cannot generate stunt points, and you only add half of your Strength (rounded down) to damage.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

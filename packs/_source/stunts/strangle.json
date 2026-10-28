@@ -1,0 +1,26 @@
+{
+  "name": "Strangle",
+  "_id": "2GwxPOIkhCoM10gJ",
+  "_key": "!items!2GwxPOIkhCoM10gJ",
+  "folder": "hgBf5TCh65XH0uak",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Roll Fighting (Grappling) vs. your target’s Constitution (Stamina); if you win, the target loses their minor action catching their breath on their next turn.</p>",
+    "type": "Grappling",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

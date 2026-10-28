@@ -1,0 +1,39 @@
+{
+  "name": "Investigator",
+  "_id": "xrUgVrnokbcqryrP",
+  "_key": "!items!xrUgVrnokbcqryrP",
+  "folder": "y88XXvdfe5pCOOAm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You’re a skilled detective.</p><p>Just as the suspect is leaving, you have “just one more thing” to ask. You see the bead of sweat, the flicker of an eye, and it speaks volumes about their guilt. A room is just as telling as a suspect. A misplaced hair, an unidentified smudge, the angle of a piece of furniture: these things speak to you. You might not be a police investigator; you might just as easily work for a corporation or as a freelancer for whoever can meet your going rate.</p><p><em>Synergies:</em> An Investigator-Executive might be a police captain, the head of an Internal Affairs Bureau, or an executive of an investigation agency. An Investigator-Socialite could be a high-class amateur detective. Similarly, an Investigator-Performer might be a well known artist or performer who moonlights solving mysteries.</p>",
+    "shortDesc": "",
+    "requirement": "Perception and Intelligence 2 or higher and at least one Perception focus",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can always make a test to unlock a lead, even if you don’t have a primary or tangential focus relevant to the investigation, although you take a +2 increase in TN when you don’t have either (see Investigation in Chapter 5 for details). If you do have a primary or tangential focus for the lead, you get a +1 bonus to the test with a primary focus (in addition to the focus bonus) and no increase in TN for using a tangential focus.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>The real trick to being a great investigator isn’t finding clues, it’s knowing how to use them. You may use the Intuition stunt for 1 SP. Furthermore, if you have the primary focus required to unlock a lead, add another +1 to your roll to do so for a total of +2.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When all the evidence is gathered, you only need a flash of inspiration to put it together and find the solution. You can use the Breakthrough stunt on an investigation for only 3 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

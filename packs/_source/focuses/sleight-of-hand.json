@@ -1,0 +1,24 @@
+{
+  "name": "Sleight of Hand",
+  "_id": "GsIh72an3GXfuoS5",
+  "_key": "!items!GsIh72an3GXfuoS5",
+  "folder": "F9dk45ZVyiRvDt45",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Using sleight of hand and deft movements to trick others, hide things, or pick pockets.</p>",
+    "useAbl": "dex",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

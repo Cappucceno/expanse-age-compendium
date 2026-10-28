@@ -1,0 +1,26 @@
+{
+  "name": "Strafe (Automatic)",
+  "_id": "VOYaJGSahYtgknNk",
+  "_key": "!items!VOYaJGSahYtgknNk",
+  "folder": "HjZS0NpKrp9ecqIY",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Immediately move up to (SP spent) meters in any direction, and apply this attack to anyone within (SP spent) meters of your original target; you can’t selectively exclude anyone in the area. Halve the damage dealt to the additional targets (round up).</p>",
+    "type": "Gun",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

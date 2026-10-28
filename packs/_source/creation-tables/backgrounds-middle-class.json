@@ -1,0 +1,83 @@
+{
+  "name": "Backgrounds: Middle Class",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 4: Background",
+  "results": [
+    {
+      "_id": "lchgpQ7vU1fNssg0",
+      "type": "text",
+      "name": "Academic",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!V1L8fCSmcdRcULmr.lchgpQ7vU1fNssg0"
+    },
+    {
+      "_id": "3Stm3HzyEyKPIFxq",
+      "type": "text",
+      "name": "Suburban",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!V1L8fCSmcdRcULmr.3Stm3HzyEyKPIFxq"
+    },
+    {
+      "_id": "KvRy05Ejkem6Pt0S",
+      "type": "text",
+      "name": "Trade",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!V1L8fCSmcdRcULmr.KvRy05Ejkem6Pt0S"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "KupSToGvoqsE558E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "V1L8fCSmcdRcULmr",
+  "_key": "!tables!V1L8fCSmcdRcULmr"
+}

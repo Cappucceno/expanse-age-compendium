@@ -1,0 +1,39 @@
+{
+  "name": "Carousing",
+  "_id": "YEB5vWhGtSTL9nyj",
+  "_key": "!items!YEB5vWhGtSTL9nyj",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You take your fun seriously, and use it to good effect.</p>",
+    "shortDesc": "",
+    "requirement": "Communication and Constitution 1 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can drink other people under the table. When making Constitution (Tolerance) tests as part of an advanced test, you gain a +1 bonus to the result of each Drama Die.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Choose one of the following focuses: Communication (Seduction) or Perception (Empathy). If you fail a test with your chosen focus, you can re-roll it but must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When you’re having a good time, you’re invincible! Or so you think. Choose the Benefit of the Doubt or Flirt stunt. You can perform that stunt for 1 SP less than its normal cost.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

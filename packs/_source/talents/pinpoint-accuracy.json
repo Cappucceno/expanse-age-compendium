@@ -1,0 +1,39 @@
+{
+  "name": "Pinpoint Accuracy",
+  "_id": "VjTJDjIOkD1J1Mqh",
+  "_key": "!items!VjTJDjIOkD1J1Mqh",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>If you can see it, you can hit it. Hard.</p>",
+    "shortDesc": "",
+    "requirement": "Accuracy or Fighting 1 or higher, and Dexterity 1 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You strike where it hurts the most. Once per round, you can add 1d6 to the damage of a successful attack if your Dexterity is greater than your target’s.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your instinct is as sharp as your eyes. When you take the Aim action, the attack bonus you gain is +2 instead of +1.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can perform the Called Shot action stunt for 3 SP. You can also use it with any weapon, not just guns.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

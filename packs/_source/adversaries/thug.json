@@ -1,0 +1,232 @@
+{
+  "name": "Thug",
+  "_id": "QzZolXmVI51WG4fo",
+  "_key": "!actors!QzZolXmVI51WG4fo",
+  "folder": "N3WRoFwp0q9l0Jar",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 0
+      },
+      "comm": {
+        "value": 0
+      },
+      "cons": {
+        "value": 2
+      },
+      "dex": {
+        "value": 1
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 0
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 2
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 17,
+      "value": 17
+    },
+    "features": "<p><strong>AKA:</strong> Gang Member, Drug Dealer</p><p>Thugs run the gamut from heavies working for organized crime to drug dealers operating out of seedy dens in the outer planets, or opportunists stealing water from reclamae o d . d t t d e tion facilities. Typically armed with a handgun to fend off rival criminals, these gangsters are less prone to attacking innocents, knowing that attention from the law is detrimental to business. A thug acts as a valuable source of information if his loyalty is successfully bought, but snitches tend to disappear if their employers and allies discover their duplicity.</p><p><strong>Stunts:</strong> Adrenaline Rush, Benefit of the Doubt, Taunt</p><p><strong>Talents:</strong> Contacts (Novice), Intrigue (Novice)</p><p><strong>Equipment:</strong> knife, knuckle dusters, hand terminal, pistol</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "3aOEWmdDrFyoef3D",
+      "_key": "!actors.items!QzZolXmVI51WG4fo.3aOEWmdDrFyoef3D",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Bargaining",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "yw7SZRYO7cbQGnwU",
+      "_key": "!actors.items!QzZolXmVI51WG4fo.yw7SZRYO7cbQGnwU",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "gVCMuJJvvA1u9XLl",
+      "_key": "!actors.items!QzZolXmVI51WG4fo.gVCMuJJvvA1u9XLl",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Knife",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "nEBzpMazbqDqDTCU",
+      "_key": "!actors.items!QzZolXmVI51WG4fo.nEBzpMazbqDqDTCU",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +2, damage 1d6+2.</p>",
+        "useAbl": "fight",
+        "useFocus": "light weapons",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Knuckle Dusters",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "3VraRy4lG8jCHLvE",
+      "_key": "!actors.items!QzZolXmVI51WG4fo.3VraRy4lG8jCHLvE",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +2, damage 1d3+2.</p>",
+        "useAbl": "fight",
+        "useFocus": "light weapons",
+        "nrDice": "1",
+        "diceType": "3",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d3+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "Oqd2etijaq2ReMkz",
+      "_key": "!actors.items!QzZolXmVI51WG4fo.Oqd2etijaq2ReMkz",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +2, damage 2d6+1.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Thug",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

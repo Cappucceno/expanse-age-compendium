@@ -1,0 +1,39 @@
+{
+  "name": "Martial Artist",
+  "_id": "qBRZxtqmyYJLeyw6",
+  "_key": "!items!qBRZxtqmyYJLeyw6",
+  "folder": "y88XXvdfe5pCOOAm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are a master of hand-to-hand combat.</p><p>To you, close combat is an art, a dance, with a savage beauty you can express through many weapons, from your own body to a flashing sword. Your study of the martial arts could be just a hobby, or it could be an integral part of your training, perhaps as a special forces operative or a secret agent. It might be something you’ve trained in since you were a child, as part of your heritage.</p><p><em>Synergies:</em> A Martial Artist-Thief is a graceful and skilled warrior of the night, while a Martial Artist-Agent could be a spy trained as a living weapon or the deadliest of assassins. A Martial Artist-Gunfighter is dangerous both close up and from afar.</p>",
+    "shortDesc": "",
+    "requirement": "Fighting 2 or better and at least Novice rank in one hand-to-hand combat style, including Dual Weapon Style, Grappling Style, Overwhelm Style, Self-Defense Style, Single Weapon Style, Striking Style, or Two-Handed Style. Other combat style talents like these may also satisfy this requirement, at the GM’s discretion",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>When you make a Fighting-based attack roll, add +1 to damage on a successful hit.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You have excellent speed and timing. When you perform the Momentum stunt with SP gained from a Fighting attack roll, you gain a bonus to your initiative as if you spent one more SP than you have. So, if you spend 1 SP, you gain a +6 bonus to initiative; if you spend 2 SP, you gain a bonus of +9.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are a master of many close combat techniques. When you perform the Stunt Attack action with a Fighting attack roll, you automatically generate 2 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Fighting",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 500000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "vIKcPGO2z4LRDZkv",
+  "_key": "!folders!vIKcPGO2z4LRDZkv",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

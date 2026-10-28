@@ -1,0 +1,39 @@
+{
+  "name": "Command",
+  "_id": "1l5Ad84oQXEGzm0m",
+  "_key": "!items!1l5Ad84oQXEGzm0m",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are a skilled and capable leader.</p>",
+    "shortDesc": "",
+    "requirement": "Communication 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Your presence inspires allies. If you take a major action to offer guidance, your allies gain a +1 bonus to Willpower (Courage) and Willpower (Morale) tests for the rest of the encounter. You can do this once per encounter.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your allies follow your lead. Any NPCs you lead gain a +1 bonus when rolling for initiative.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When you stand firm, your allies stand with you. When you lead NPCs in an encounter, they do not have to make a Willpower (Morale) test until more than two-thirds of your side’s combatants are out of the fight (dead or incapacitated). If you leave the fight or are taken out, this benefit is lost.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

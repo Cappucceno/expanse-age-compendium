@@ -1,0 +1,26 @@
+{
+  "name": "In Good Standing",
+  "_id": "ZQT2GTPUY8xq3NVg",
+  "_key": "!items!ZQT2GTPUY8xq3NVg",
+  "folder": "cML2W7TSvQfzGtww",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>When targeting a member of an organization in which you have Membership, treat your rank as one higher for the purpose of gaining access to resources for the rest of this encounter.</p>",
+    "type": "Membership & Reputation",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "name": "Professions",
+  "pages": [
+    {
+      "_id": "QYivknDxXjSriujY",
+      "name": "Artist",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Outsider</em></p><p>You are about expression, whether it is sharing your sense of what is beautiful or expressing your pain or outrage in a form others can understand. You may or may not be making a living at it, but you need to express yourself regardless.</p><ul><li><strong>Focus:</strong> Communication (Expression) or Intelligence (Art)</li><li><strong>Talent:</strong> Artistry or Performance</li></ul>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.QYivknDxXjSriujY",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "skL5Rbxm634Bg2Z4",
+      "name": "Athlete",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Lower Class</em></p><p>You pit yourself against physical challenges, from other teams and rival athletes to your own limits and personal best. Your work involves a lot of training and practice to stay at the top of your game.</p><ul><li><strong>Focus:</strong> Constitution (Running or Swimming), Dexterity (Acrobatics or Free-fall), or Strength (Climbing or Jumping)</li><li><strong>Talent:</strong> Agility or Quick Reflexes</li></ul>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.skL5Rbxm634Bg2Z4",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "8nkHGcKyaVjTmued",
+      "name": "Brawler",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Outsider</em></p><p>There are always opportunities for people willing and able to knock some heads together. It’s not fancy fighting, and it’s certainly not fair, but you’d much rather have a reputation for winning and surviving than anything else.</p><ul><li><strong>Focus:</strong> Fighting (Brawling) or Fighting (Grappling)</li><li><strong>Talent:</strong> Grappling Style or Striking Style</li></ul>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.8nkHGcKyaVjTmued",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "PWBu4SCanvrbo40i",
+      "name": "Clergy",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Lower Class</em></p><p>People need faith. They need someone to look after their hearts and souls just as much as bodies or minds, perhaps even more so in some ways. You have a calling to do this work, along with tending to your own faith—whatever form that might take.</p><ul><li><strong>Focus:</strong> Intelligence (Theology) or Willpower (Faith)</li><li><strong>Talent:</strong> Inspire or Oratory</li></ul>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.PWBu4SCanvrbo40i",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "V7G0ZlZWhS80iStJ",
+      "name": "Commander",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Upper Class</em></p><p>You’re trained to lead military personnel in the field, as a noble calling or part of a professional elite. Your responsibility is to get the job done and to ensure as many of those under your command make it back as possible. Does a good commander put the first goal ahead of the second, or vice versa?</p><ul><li><strong>Focus:</strong> Communication (Leadership) or Intelligence (Tactics)</li><li><strong>Talent:</strong> Command or Tactical Awareness</li></ul>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.V7G0ZlZWhS80iStJ",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "Mi0E2HGTKGrcRIGX",
+      "name": "Criminal",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Outsider</em></p><p>When you’re on the outside, you often bend and break the law to survive. You might feel you have no choice in the matter because of circumstances, or maybe you chose those circumstances, loving crime with professional pride, or as a means to some political or personal end. Either way, you know how to work around the law.</p><ul><li><strong>Focus:</strong> Communication (Deception) or Dexterity (Forgery, Sleight of Hand, or Stealth)</li><li><strong>Talent:</strong> Burglary or Scouting</li></ul>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.Mi0E2HGTKGrcRIGX",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "iWXNSdNtpMVPv4qO",
+      "name": "Dilettante",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Upper Class</em></p><p>With so many possible things to learn and do, how can you choose? You’re happy to sample from the banquet of possibilities laid out before you, learning as much as you can about something before moving on to the next interest or option.</p><ul><li><strong>Focus:</strong> Intelligence (Research) or Perception (choose one)</li><li><strong>Talent:</strong> Improvisation or Know-It-All</li></ul>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.iWXNSdNtpMVPv4qO",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "TLIEwSgASheHTjx7",
+      "name": "Executive",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Upper Class</em></p><p>You are the take-charge type, able to see the big picture and organize people to get things done to move towards those goals. You need vision and the ability to lead people toward it. You decide whether it’s all about profit, about the thrill of your ventures, or some other agenda.</p><ul><li><strong>Focus:</strong> Communication (Leadership) or Intelligence (Business)</li><li><strong>Talent:</strong> Command or Intrigue</li></ul>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.TLIEwSgASheHTjx7",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "JPGBr5Y4dHVIPl38",
+      "name": "Expert",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Upper Class</em></p><p>There used to be a time when you could know everything, or nearly so, but that’s long gone. Still, you’re an expert in your chosen field. Experts tend to belong to highly paid and complex fields including finance, law, medicine, and the sciences.</p><ul><li><strong>Focus:</strong> Intelligence (choose one)</li><li><strong>Talent:</strong> Expertise or Know-It-All</li></ul>"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.JPGBr5Y4dHVIPl38",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "c1P5H2UR8FYqD5AI",
+      "name": "Explorer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Upper Class</em></p><p>There are still plenty of places in the System where few if any people have been, and you want to explore them. Your work might be for the expansion of human knowledge and achievement or simply to satisfy your own need to discover someplace new.</p><ul><li><strong>Focus:</strong> Intelligence (Navigation) or Perception (choose one)</li><li><strong>Talent:</strong> Pilot or Scouting</li></ul>"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.c1P5H2UR8FYqD5AI",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "tdTvFgKu5kOEsmXf",
+      "name": "Fixer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Outsider</em></p><p>You are good at getting things done, often in a less-thanstrictly-legal fashion or outside of the normal channels. While some Fixers are motivated by profit, others do what they can to help people within the context of a restrictive and often corrupt system.</p><ul><li><strong>Focus:</strong> Communication (Bargaining) or Intelligence (Evaluation)</li><li><strong>Talent:</strong> Fringer or Improvisation</li></ul>"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.tdTvFgKu5kOEsmXf",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "k3vDIJMMNtItJyjl",
+      "name": "Investigator",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Lower Class</em></p><p>People lie and keep secrets. They’ve been doing it since the dawn of time. Likewise, people like you, who know how to dig up the truth, have always dogged deceivers. You might bring criminals to justice, get information to the public, or find out what a client wants or needs to know.</p><ul><li><strong>Focus:</strong> Communication (Investigation) or Perception (choose one)</li><li><strong>Talent:</strong> Intrigue or Observation</li></ul>"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.k3vDIJMMNtItJyjl",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "mxiigQlRlA7Ssbe3",
+      "name": "Merchant",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Middle Class</em></p><p>Money makes the world go around, and you are a part of that time-honored tradition. You know how to buy at a discount, sell at a profit, and make trades that ensure you come out ahead of the game. You might be involved in trade, work in retail or wholesale, or deal in rarities that require knowledge to identify and eloquence to sell.</p><ul><li><strong>Focus:</strong> Communication (Bargaining) or Intelligence (Business)</li><li><strong>Talent:</strong> Affluent or Contacts</li></ul>"
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.mxiigQlRlA7Ssbe3",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "do4tk7q667IMPf47",
+      "name": "Negotiator",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Lower Class</em></p><p>The harder things are, the more people need each other to get by and the more likely it seems they are to disagree. You know how to get people together, to settle disputes, to find compromises, and to generally grease the rusty wheels of conflicting agendas so they turn in unison once more.</p><ul><li><strong>Focus:</strong> Communication (Bargaining or Persuasion) or Perception (Empathy)</li><li><strong>Talent:</strong> Intrigue or Oratory</li></ul>"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.do4tk7q667IMPf47",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "a167KnG2Sa9OwYaA",
+      "name": "Pilot",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Middle Class</em></p><p>You are at your best when you’re at the controls. You have the nerve and the skill needed to make your ship do what you need it to do. It becomes an extension of your body, its humming as essential as the beat of your heart.</p><ul><li><strong>Focus:</strong> Dexterity (Piloting)</li><li><strong>Talent:</strong> Pilot</li></ul>"
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.a167KnG2Sa9OwYaA",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "q3QiN0ruF0s9W391",
+      "name": "Politician",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Middle Class</em></p><p>From neighborhoods to nations, people need to be organized for society to function. You know the tricks it takes to get people to cooperate in that process, sometimes whether they want to or not. Your speeches help people devise collective political dreams, but behind closed doors you deal in the art of the possible. You might be virtuous or corrupt, but isn’t that a matter of perspective?</p><ul><li><strong>Focus:</strong> Communication (Deception or Persuasion) or Intelligence (Current Affairs or Law)</li><li><strong>Talent:</strong> Contacts or Oratory</li></ul>"
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.q3QiN0ruF0s9W391",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "1BmkEfXlDkGsWdpT",
+      "name": "Professional",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Middle Class</em></p><p>Whether from time toiling in a cubicle farm or your own private office, you know the “white collar” professional world. You might see it as a career path or a stepping stone towards something else, but you know your job and the skills and challenges that come with it.</p><ul><li><strong>Focus:</strong> Communication (Bargaining or Expression) or Intelligence (Business, Computers, or Research)</li><li><strong>Talent:</strong> Affluent or Expertise</li></ul>"
+      },
+      "sort": 1700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.1BmkEfXlDkGsWdpT",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "mWnRri5jyx0D53Gd",
+      "name": "Scavenger",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Outsider</em></p><p>Most people would be amazed at the things that get thrown away and forgotten, but not you. You are all too familiar with that bounty: how to find it, salvage it, and make the best use of it.</p><ul><li><strong>Focus:</strong> Intelligence (Technology) or Perception (Searching)</li><li><strong>Talent:</strong> Evaluation or Maker</li></ul>"
+      },
+      "sort": 1800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.mWnRri5jyx0D53Gd",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "ktZptAi0OYuDtdcE",
+      "name": "Scholar",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Middle Class</em></p><p>Knowledge and understanding are your fields, focused on a specific area of interest. Whereas the expert profession tends to be about applied knowledge, you focus on knowledge for knowledge’s sake. You might work in a university, or have an amateur obsession. You look to expand your own understanding of your field and, in so doing, perhaps expand the world’s understanding as well.</p><ul><li><strong>Focus:</strong> Intelligence (choose one)</li><li><strong>Talent:</strong> Expertise or Knowledge</li></ul>"
+      },
+      "sort": 1900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.ktZptAi0OYuDtdcE",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "G7M2nQfD1nF0EDkN",
+      "name": "Security",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Middle Class</em></p><p>You work to protect things—and people—providing the peace of mind others need to get their jobs done, or even just to live their lives. You might be a law-enforcement officer or a private security guard or consultant, but either way you focus on keeping the bad guys from getting what they want and keeping your charges safe.</p><ul><li><strong>Focus:</strong> Intelligence (Security) or Perception (Empathy, Intuition, or Seeing)</li><li><strong>Talent:</strong> One Fighting Style or Protector</li></ul>"
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.G7M2nQfD1nF0EDkN",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "MWHcdSAmpEfIxv9E",
+      "name": "Socialite",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Upper Class</em></p><p>Life is a never-ending series of social engagements, from parties and receptions to fundraisers, weddings, and even funerals, and you navigate all of them with style. Your social obligations might be a burden or a source of enjoyment for you but, whatever the case, they’re yours, and you handle them well. You might lead a life of pure recreation, but your engagements could have political or charitable dimensions as well.</p><ul><li><strong>Focus:</strong> Communication (Etiquette or Seduction) or Constitution (Tolerance)</li><li><strong>Talent:</strong> Attractive or Contacts</li></ul>"
+      },
+      "sort": 2100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.MWHcdSAmpEfIxv9E",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "bAi91tungLn7KBZd",
+      "name": "Soldier",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Lower Class</em></p><p>Your nation and people need someone to defend them, to stand on the front lines and, sometimes, to go to war against their enemies. You’re trained to follow orders, to fight, and to do what needs doing. Rather than duty to home and country, you might be a soldier-for-hire, working for whatever client can meet your fee.</p><ul><li><strong>Focus:</strong> Accuracy (Pistols or Rifles) or Fighting (Brawling)</li><li><strong>Talent:</strong> One Fighting Style or Tactical Awareness</li></ul>"
+      },
+      "sort": 2200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.bAi91tungLn7KBZd",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "iUWRhMnux5JXFlPw",
+      "name": "Survivalist",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Outsider</em></p><p>Survival is the most basic challenge of life, and you have learned how to do it, whether because you had to or because you prefer it that way. You know how to make do without many of the products and social networks most people depend upon for their everyday lives.</p><ul><li><strong>Focus:</strong> Accuracy (Bows or Pistols) or Perception (Survival)</li><li><strong>Talent:</strong> Fringer or Tactical Awareness</li></ul>"
+      },
+      "sort": 2300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.iUWRhMnux5JXFlPw",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "0jsLmAuD4bCkR2me",
+      "name": "Technician",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Lower Class</em></p><p>You fix things. Whether you’re a mechanic, maintenance technician, or even work in information technologies, people depend on you to keep it working. You might work in vast server farms, in lightless tunnels, in a massive factory, or in a nondescript office. These are all points where you maintain part of the System’s vast infrastructure.</p><ul><li><strong>Focus:</strong> Intelligence (Engineering or Technology)</li><li><strong>Talent:</strong> Expertise, Hacking, or Maker</li></ul>"
+      },
+      "sort": 2400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!nfkld5zluMxJjs2q.0jsLmAuD4bCkR2me",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "nfkld5zluMxJjs2q",
+  "_key": "!journal!nfkld5zluMxJjs2q",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

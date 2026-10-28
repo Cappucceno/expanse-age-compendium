@@ -1,0 +1,26 @@
+{
+  "name": "Hamstring",
+  "_id": "g7MeuGFa3t8m7p3h",
+  "_key": "!items!g7MeuGFa3t8m7p3h",
+  "folder": "5WLkOpAoM7Q1uty9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Cumulatively reduce your target’s Speed by 3 for the rest of the encounter. If it’s reduced to 0, they become restrained for the rest of the encounter and cannot move.</p>",
+    "type": "Melee",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

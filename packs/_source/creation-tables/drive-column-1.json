@@ -1,0 +1,143 @@
+{
+  "name": "Drive: Column 1",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 6: Drive. Roll 1d6 first: 1–3 use Column 1, 4–6 use Column 2.",
+  "results": [
+    {
+      "_id": "xWvHhFJLo75iZXtq",
+      "type": "text",
+      "name": "Achiever",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!6rWzBWrWb8ZhOx1i.xWvHhFJLo75iZXtq"
+    },
+    {
+      "_id": "G3Xs65VYF30MV7f0",
+      "type": "text",
+      "name": "Builder",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!6rWzBWrWb8ZhOx1i.G3Xs65VYF30MV7f0"
+    },
+    {
+      "_id": "KX7CGKfErKExM76r",
+      "type": "text",
+      "name": "Caregiver",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!6rWzBWrWb8ZhOx1i.KX7CGKfErKExM76r"
+    },
+    {
+      "_id": "lUCX2H6iupirs3hQ",
+      "type": "text",
+      "name": "Ecstatic",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!6rWzBWrWb8ZhOx1i.lUCX2H6iupirs3hQ"
+    },
+    {
+      "_id": "f12dhCfSDsQz9O8w",
+      "type": "text",
+      "name": "Judge",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!6rWzBWrWb8ZhOx1i.f12dhCfSDsQz9O8w"
+    },
+    {
+      "_id": "s0rtnqHxRcQPVYb4",
+      "type": "text",
+      "name": "Leader",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!6rWzBWrWb8ZhOx1i.s0rtnqHxRcQPVYb4"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "Ny17qhvgZk6kxwWX",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "6rWzBWrWb8ZhOx1i",
+  "_key": "!tables!6rWzBWrWb8ZhOx1i"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Vehicle Combat",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 1300000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "fbhZaRhBv5ffJFzO",
+  "_key": "!folders!fbhZaRhBv5ffJFzO",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

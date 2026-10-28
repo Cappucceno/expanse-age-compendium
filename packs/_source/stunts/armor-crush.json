@@ -1,0 +1,26 @@
+{
+  "name": "Armor Crush",
+  "_id": "FflRezZGTWT56KLU",
+  "_key": "!items!FflRezZGTWT56KLU",
+  "folder": "5WLkOpAoM7Q1uty9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Convert up to 3 points of damage you would inflict on your foe with this attack into a penalty to their worn armor instead, based on the type of damage you dealt. This penalty lasts for 1d6 rounds or until they take a major action to readjust their armor, whichever comes first.</p>",
+    "type": "Melee",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

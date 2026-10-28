@@ -1,0 +1,24 @@
+{
+  "name": "Evaluation",
+  "_id": "CzVnkSLyG2bGL03g",
+  "_key": "!items!CzVnkSLyG2bGL03g",
+  "folder": "TyLsoqrRehbelj4q",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Knowledge of the value of goods, works of art, and other valuables.</p>",
+    "useAbl": "int",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

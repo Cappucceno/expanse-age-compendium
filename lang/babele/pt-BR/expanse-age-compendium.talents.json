@@ -1,0 +1,167 @@
+{
+  "label": "Talentos e Especializações",
+  "mapping": {
+    "name": "name"
+  },
+  "entries": {
+    "Academic": {
+      "name": "Erudito"
+    },
+    "Ace": {
+      "name": "Ás"
+    },
+    "Affluent": {
+      "name": "Abastado"
+    },
+    "Agent": {
+      "name": "Agente"
+    },
+    "Agility": {
+      "name": "Agilidade"
+    },
+    "Artistry": {
+      "name": "Artístico"
+    },
+    "Attractive": {
+      "name": "Atraente"
+    },
+    "Burglary": {
+      "name": "Ladinagem"
+    },
+    "Carousing": {
+      "name": "Boemia"
+    },
+    "Command": {
+      "name": "Comandar"
+    },
+    "Commando": {
+      "name": "Comando"
+    },
+    "Contacts": {
+      "name": "Contatos"
+    },
+    "Doctor": {
+      "name": "Doutor"
+    },
+    "Dual Weapon Style": {
+      "name": "Estilo de Arma Dupla"
+    },
+    "Executive": {
+      "name": "Executivo"
+    },
+    "Expertise (Focus)": {
+      "name": "Especialização (Foco)"
+    },
+    "Fringer": {
+      "name": "À Margem"
+    },
+    "Grappling Style": {
+      "name": "Estilo de Agarramento"
+    },
+    "Gunfighter": {
+      "name": "Pistoleiro"
+    },
+    "Hacker": {
+      "name": "Hacker"
+    },
+    "Hacking": {
+      "name": "Hackear"
+    },
+    "Improvisation": {
+      "name": "Improvisação"
+    },
+    "Inspire": {
+      "name": "Inspirar"
+    },
+    "Intrigue": {
+      "name": "Intriga"
+    },
+    "Investigator": {
+      "name": "Investigador"
+    },
+    "Know-It-All": {
+      "name": "Sabe-Tudo"
+    },
+    "Knowledge": {
+      "name": "Conhecimento"
+    },
+    "Linguistics": {
+      "name": "Linguista"
+    },
+    "Maker": {
+      "name": "Criador"
+    },
+    "Martial Artist": {
+      "name": "Artista Marcial"
+    },
+    "Medic": {
+      "name": "Médico"
+    },
+    "Misdirection": {
+      "name": "Engodo"
+    },
+    "Observation": {
+      "name": "Observação"
+    },
+    "Oratory": {
+      "name": "Oratória"
+    },
+    "Overwhelm Style": {
+      "name": "Estilo Esmagador"
+    },
+    "Performance": {
+      "name": "Performance"
+    },
+    "Pilot": {
+      "name": "Piloto"
+    },
+    "Pinpoint Accuracy": {
+      "name": "Mira Precisa"
+    },
+    "Pistol Style": {
+      "name": "Estilo de Pistola"
+    },
+    "Protector": {
+      "name": "Protetor"
+    },
+    "Quick Reflexes": {
+      "name": "Reflexos Rápidos"
+    },
+    "Rifle Style": {
+      "name": "Estilo de Fuzil"
+    },
+    "Scouting": {
+      "name": "Batedor"
+    },
+    "Self-Defense Style": {
+      "name": "Estilo de Autodefesa"
+    },
+    "Single Weapon Style": {
+      "name": "Estilo de Arma Única"
+    },
+    "Sniper": {
+      "name": "Atirador"
+    },
+    "Socialite": {
+      "name": "Socialite"
+    },
+    "Star": {
+      "name": "Estrela"
+    },
+    "Striking Style": {
+      "name": "Estilo Desarmado"
+    },
+    "Tactical Awareness": {
+      "name": "Consciência Tática"
+    },
+    "Thief": {
+      "name": "Ladrão"
+    },
+    "Thrown Weapon Style": {
+      "name": "Estilo de Arma de Arremesso"
+    },
+    "Two-Handed Style": {
+      "name": "Estilo de Duas Mãos"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Short Burst (Automatic)",
+  "_id": "p9RkqWxjbVFaDl3s",
+  "_key": "!items!p9RkqWxjbVFaDl3s",
+  "folder": "HjZS0NpKrp9ecqIY",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Ignore one point of your opponent’s Toughness per SP spent.</p>",
+    "type": "Gun",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

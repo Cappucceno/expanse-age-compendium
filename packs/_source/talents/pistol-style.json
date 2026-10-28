@@ -1,0 +1,39 @@
+{
+  "name": "Pistol Style",
+  "_id": "a1E5AFTPHmoDClHx",
+  "_key": "!items!a1E5AFTPHmoDClHx",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Between the quick and the dead, you prefer the former.</p>",
+    "shortDesc": "",
+    "requirement": "Accuracy (Pistols) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You are deadlier close-up. You gain a +1 bonus to damage with pistols against targets within 6 meters.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>If you have a pistol in your hand, or draw or grab one as your first available action, you can roll initiative with an Accuracy (Pistols) test instead of a Dexterity (Initiative) test. You can also generate stunt points with this test, unlike a normal initiative roll, and spend them on general combat or gun stunts.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When hitting a target with a shot from a pistol, you can add your Dexterity to the damage total.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

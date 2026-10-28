@@ -1,0 +1,39 @@
+{
+  "name": "Grappling Style",
+  "_id": "xBtVHCruT7Q2q5fn",
+  "_key": "!items!xBtVHCruT7Q2q5fn",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You’re skilled in restraining and subduing opponents in unarmed combat.</p>",
+    "shortDesc": "",
+    "requirement": "Fighting (Grappling) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>If you fail an opposed Fighting (Grappling) test to avoid being grappled, as per the Grapple stunt’s description in Chapter 5, you can re-roll it, but must keep the results of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>If you successfully hit an opponent with an unarmed attack and choose a stunt from the Grappling category, you gain 1 additional SP to apply.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can perform the Pin stunt for 3 SP instead of the usual 4. In addition, your penalty to Defense when using the Grapple and Pin stunts is halved.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

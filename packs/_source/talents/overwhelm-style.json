@@ -1,0 +1,39 @@
+{
+  "name": "Overwhelm Style",
+  "_id": "4dzapmaliVexP15O",
+  "_key": "!items!4dzapmaliVexP15O",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>In hand-to-hand combat, you are relentless and overwhelming.</p>",
+    "shortDesc": "",
+    "requirement": "Fighting 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>When you make a close combat attack, you can take up to a –3 penalty on your attack roll to receive a corresponding bonus to your damage roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your expertise makes you dangerous. When you succeed with a close combat attack, you can add your focus bonus for that attack to your damage total.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You break opponent’s defenses with brutal or relentless attacks. If you spend 3 SP after a successful attack, your target must make an opposed Strength (Might) test against your attack roll; if they fail, they suffer a –2 penalty to Defense until the end of your next turn.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

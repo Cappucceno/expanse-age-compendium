@@ -1,0 +1,38 @@
+{
+  "name": "Ballistic Shield",
+  "_id": "kQRLBinoefNgSEfH",
+  "_key": "!items!kQRLBinoefNgSEfH",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A larger, heavier shield sufficient to crouch behind for cover, typically with a transparent viewing slit. Grants a +3 Defense bonus.</p>",
+    "weight": 0,
+    "cost": 14,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {
+      "UT5iBzaOsPneUoIG": {
+        "type": "defense",
+        "formula": "3",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "UT5iBzaOsPneUoIG"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

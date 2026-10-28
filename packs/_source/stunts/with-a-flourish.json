@@ -1,0 +1,26 @@
+{
+  "name": "With a Flourish",
+  "_id": "PhIj3xdln3H4iCvl",
+  "_key": "!items!PhIj3xdln3H4iCvl",
+  "folder": "jWxRAT01MmI484Bb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You impress everyone who watches you with your ability. Gain a +1 to opposed tests against them for the rest of the encounter.</p>",
+    "type": "General Exploration",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

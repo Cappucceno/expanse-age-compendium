@@ -1,0 +1,26 @@
+{
+  "name": "Sleep with One Eye Open",
+  "_id": "vJr7MUeDNgVvUswG",
+  "_key": "!items!vJr7MUeDNgVvUswG",
+  "folder": "RYCI0kZp4Uq2YPRL",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Applies to a test targeting someone you have a negative Relationship with, or who has harmed someone you have a Relationship with. The next attack you make against that target in this session is automatically a surprise attack, as long as they weren’t already in combat.</p>",
+    "type": "General Social",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

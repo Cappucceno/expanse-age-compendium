@@ -1,0 +1,26 @@
+{
+  "name": "Short Cut",
+  "_id": "PJeww4DYyt7a8xIC",
+  "_key": "!items!PJeww4DYyt7a8xIC",
+  "folder": "WC7yZ0ygjULwOXGj",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Add an additional +2 to your chase total.</p>",
+    "type": "Chase",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

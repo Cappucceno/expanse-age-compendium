@@ -1,0 +1,30 @@
+# The Expanse RPG Compendium for AGE System
+
+A Foundry VTT v14 **module** for the [AGE System (unofficial)](https://github.com/vkdolea/age-system) (`age-system` 5.0.0+).
+It carries the compendium content of the `expanse` system, converted to AGE System item and actor types, to be used with the
+**The Expanse** preset (Fortune, Income, Churn, profession/origin).
+
+| Compendium | Content (AGE type) |
+|---|---|
+| Talents and Specializations | 53 `talent` items (Novice/Expert/Master in `degree0..2`; `type` = talent or spec) |
+| Ability Focuses | 64 `focus` items (ability set, +2) |
+| Stunts | 132 `stunts` items (SP cost, category) |
+| Weapons / Armor / Shields | 8 `weapon`, 5 + 2 `equipment` items (armor rating, armor penalty and Defense as modifiers) |
+| Sample Spaceships | 11 `spaceship` actors (size, hull dice, crew, sensors, weapons as ship features) |
+| Sample Adversaries | 16 `char` actors with focuses, weapons and armor as embedded items |
+| Character Creation Guide / Tables, Setting Guide, Rules Reference / Tables | journals and roll tables (system independent) |
+
+Documents are grouped into folders inside each compendium. Texts are in English; with the **Babele** module active and the
+language set to Português (Brasil), names follow the terminology of the Jambô Editora edition (names and short labels only).
+
+## Install
+Put this folder in `Data/modules/` **named `expanse-age-compendium`**, restart Foundry, and enable it in a world that uses the AGE System.
+
+## Building
+From the repository root: `npm install`, then `npm run age:convert` (from `packs/_source`), `npm run age:build` and
+`npm run age:validate` (checks every field against `age-system/template.json`, default `../age-system/template.json`).
+
+## Notes
+- Not tested inside Foundry yet. Weapon damage uses the *Perception/Strength/Dexterity* modifier of the original item; focus names are matched by the AGE focus item name.
+- Adversary descriptions come from the book extraction and can contain stray sidebar text; check them before use.
+- See [NOTICE.md](NOTICE.md) for copyright and credits (Green Ronin Publishing, Daniel Abraham and Ty Franck, Jambô Editora).

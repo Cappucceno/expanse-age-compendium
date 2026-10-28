@@ -1,0 +1,26 @@
+{
+  "name": "Shrapnel",
+  "_id": "QJ3MZU9zIYD12qxh",
+  "_key": "!items!QJ3MZU9zIYD12qxh",
+  "folder": "fbhZaRhBv5ffJFzO",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 2+ SP</em></p><p>The attack causes a damaging explosion in the vehicle’s interior. The operator and all passengers in the same compartment suffer 1d6 damage for 2 SP or 2d6 damage for 4 SP.</p>",
+    "type": "Vehicle Combat",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Ace",
+  "_id": "T7aredTupq0VG8bb",
+  "_key": "!items!T7aredTupq0VG8bb",
+  "folder": "y88XXvdfe5pCOOAm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Few can fly like you do.</p><p>You’re in the cockpit, in the command chair, at the stick. You make your ship like an extension of yourself, maneuvering through tight spaces, coaxing out those extra few Gs, and praying to whoever you pray to that it all holds together through just one more burn to get you where you’re going. Plenty of people can fly from point A to point B, but only a handful of them are true pilots, and you’re one of them.</p><p><em>Synergies:</em> An Ace-Agent could be an undercover spy or an agent skilled in transportation of valuable cargo (or passengers). An Ace-Performer might be a showboat stunt performer, while an Ace-Executive might be a naval officer or ship captain, especially one promoted from the pilot’s seat.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity 3 or higher and the Dexterity (Piloting) focus",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can coax more out of your ship than most. When you perform the Punch It chase stunt, you gain an extra +1 bonus on your next chase test, above the bonus gained for the stunt (so the bonus is +2 when you spend 1 SP, +3 when you spend 2 SP and so on).</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Add +2 to the Drama Die when making tests using the Dexterity (Piloting) focus.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are a peerless pilot. Add +1 to tests made using Dexterity (Piloting) and you may re-roll a failed test, although you don’t get the bonus on the re-roll and must take the result of the second roll.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Heavy Armor",
+  "_id": "g3k2L2NrD7n5FQkB",
+  "_key": "!items!g3k2L2NrD7n5FQkB",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Layered anti-ballistic body sheath with impact gel, an integrated medical sensor net, a pressure-rated self-sealing environment suit and strap-on plating. Helmets have a built-in communications network.</p>",
+    "weight": 0,
+    "cost": 16,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {
+      "pXF5U4L5Izqi1URZ": {
+        "type": "impactArmor",
+        "formula": "6",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "pXF5U4L5Izqi1URZ"
+      },
+      "dgedhm4XC3WS8Cno": {
+        "type": "armorPenalty",
+        "formula": "3",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "dgedhm4XC3WS8Cno"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

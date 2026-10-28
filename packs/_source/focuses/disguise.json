@@ -1,0 +1,24 @@
+{
+  "name": "Disguise",
+  "_id": "a7dvnEet1XjwrDVq",
+  "_key": "!items!a7dvnEet1XjwrDVq",
+  "folder": "9Ty5RMegvUA30RKu",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Changing your appearance to look like someone else.</p>",
+    "useAbl": "comm",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

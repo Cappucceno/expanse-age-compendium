@@ -1,0 +1,24 @@
+{
+  "name": "Research",
+  "_id": "Z04lhJXtNwDphnbJ",
+  "_key": "!items!Z04lhJXtNwDphnbJ",
+  "folder": "TyLsoqrRehbelj4q",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Conducting a systematic search for information, usually using records, archives, and books.</p>",
+    "useAbl": "int",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

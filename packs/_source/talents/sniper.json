@@ -1,0 +1,39 @@
+{
+  "name": "Sniper",
+  "_id": "SK35wkEMnymaimFm",
+  "_key": "!items!SK35wkEMnymaimFm",
+  "folder": "y88XXvdfe5pCOOAm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are a crack shot.</p><p>While the Gunfighter dazzles with speed and accuracy at short range, it’s the Sniper who makes the most difficult shots. A Sniper could be an assassin or someone trained in supplying covering fire. Snipers often work for the police, military, security, or some informal militia (often after being drummed out of one of the previous jobs).</p><p><em>Synergies:</em> A Sniper-Martial Artist probably has strong opinions about who, what, and how to shoot, while a Sniper-Investigator relentlessly tracks quarry; no more peerless hunter exists.</p>",
+    "shortDesc": "",
+    "requirement": "Accuracy 3 or better and the Accuracy (Rifles) focus",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You know how to quietly set up a decisive shot. If you’re hidden from your target, you can re-roll your first Accuracy (Rifles) attack during an encounter, but must keep the results of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You know how to wait for a perfect shot to present itself. If you use the Aim action for an Accuracy (Rifles) attack, add a bonus to damage equal to the attack roll bonus your Aim provides. This includes any bonus from the Precision Marksmanship stunt.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are a deadly shot. When you are using the Accuracy (Rifles) focus, you can perform the Called Shot stunt for 2 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

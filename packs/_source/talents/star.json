@@ -1,0 +1,39 @@
+{
+  "name": "Star",
+  "_id": "f85DmlPLt70fTu5F",
+  "_key": "!items!f85DmlPLt70fTu5F",
+  "folder": "y88XXvdfe5pCOOAm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can sway people with your performance, personal charisma, and fame.</p><p>You love an audience, and they love you. A bad day might see you booed or savaged in reviews, but you’re already a star, one of the best, and your good days bring you the adulations of millions, perhaps even billions. However you captivate your audience, be it music, acting, dance, or rhetoric, you have the talent and skill to be famous and beloved—at least for now.</p><p><em>Synergies:</em> A Star-Executive could be a politician with a knack for working a crowd. A Star-Martial Artist performs graceful, acrobatic movements—maybe you’re a street dancer or an actor in martial arts movies. A Star-Gunfighter might be a trick shot, while a Star-Thief could be an expert escapologist or stage magician.</p>",
+    "shortDesc": "",
+    "requirement": "Communication 2 or higher and the Communication (Performing) focus",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>When using the Communication (Performing) focus, you may perform the Sway the Crowd stunt for 1 SP.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>A good performance opens doors, and makes people want to know you. You can perform the Oozing Confidence stunt for 2 SP.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When you need to, you can pull out all of the stops with a performance. When you attempt a social grand gesture (see Chapter 5: Game Play), your success threshold for each shift is one less than it would normally be.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

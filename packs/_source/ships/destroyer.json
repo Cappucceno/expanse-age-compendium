@@ -1,0 +1,115 @@
+{
+  "name": "Destroyer",
+  "_id": "ipY6UvnsM10dEedU",
+  "_key": "!actors!ipY6UvnsM10dEedU",
+  "folder": "tDRTDSD1PdCpoxfe",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "spaceship",
+  "img": "systems/age-system/resources/imgs/actor-icon/rocket.svg",
+  "system": {
+    "size": 5,
+    "drive": "Epstein, Thrusters",
+    "description": "<p><strong>Competence:</strong> Average to Skilled</p><p><strong>Qualities:</strong> Advanced Sensor Package (+1), Good Juice, Hull Plating (+1), Self- Destruct System</p><p><strong>Flaws:</strong> Usually none.</p><p><strong>Crew:</strong> 16 (64)</p><p><strong>Size:</strong> Huge (100 meters long)</p>",
+    "hull": {
+      "nrDice": 3,
+      "diceType": 6,
+      "extraValue": 1
+    },
+    "crew": {
+      "min": 16,
+      "current": 16,
+      "typical": 16,
+      "competence": 2
+    },
+    "systems": {
+      "sensors": {
+        "mod": 2
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Point Defense Network",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "qZY4qfhD8j1NcTcP",
+      "_key": "!actors.items!ipY6UvnsM10dEedU.qZY4qfhD8j1NcTcP",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "2d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Rail Gun",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "Hr1rdkajbgnNKxx0",
+      "_key": "!actors.items!ipY6UvnsM10dEedU.Hr1rdkajbgnNKxx0",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "3d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Two Torpedo Tubes",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "XidXhYVM1WT8mwFs",
+      "_key": "!actors.items!ipY6UvnsM10dEedU.XidXhYVM1WT8mwFs",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "4d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": ""
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Destroyer",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

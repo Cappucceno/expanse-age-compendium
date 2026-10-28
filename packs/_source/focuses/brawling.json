@@ -1,0 +1,24 @@
+{
+  "name": "Brawling",
+  "_id": "zE2D0s2hpTBqjeMV",
+  "_key": "!items!zE2D0s2hpTBqjeMV",
+  "folder": "vIKcPGO2z4LRDZkv",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Proficiency in fighting unarmed, from bareknuckle boxing to various styles of martial arts.</p>",
+    "useAbl": "fight",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

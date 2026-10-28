@@ -1,0 +1,26 @@
+{
+  "name": "Penetrate Hull",
+  "_id": "vxX9PuDBhH6WmugH",
+  "_key": "!items!vxX9PuDBhH6WmugH",
+  "folder": "fbhZaRhBv5ffJFzO",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p>Your attack overcomes the vehicle’s resistance to damage. If a vehicle has a Hull rating, you must spend SP equal to it on this stunt before spending SP on other stunts.</p>",
+    "type": "Vehicle Combat",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

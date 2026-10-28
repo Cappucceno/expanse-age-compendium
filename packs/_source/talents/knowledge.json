@@ -1,0 +1,39 @@
+{
+  "name": "Knowledge",
+  "_id": "weZP6Zb8biGajEv8",
+  "_key": "!items!weZP6Zb8biGajEv8",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You have an inquisitive mind and you’re a fast learner.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>When you make a successful Intelligence test with a knowledge focus, the GM should give you an extra piece of information on the topic. A knowledge focus is any Intelligence focus with a description that starts with “Knowledge”, such as Business or Science. The GM determines the nature of the additional information and it may or may not be pertinent to the main question at hand.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>When making Intelligence (Research) tests as part of an advanced test, you gain a +1 bonus to the result of each Drama Die. See Advanced Tests in Chapter 1 for details.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Pick any two of your knowledge focuses. When making tests using those focuses, you can re-roll a failed test but must keep the result of the second roll.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

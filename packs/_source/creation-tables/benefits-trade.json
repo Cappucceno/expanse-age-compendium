@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Trade",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefit for the Trade background (Step 4).",
+  "results": [
+    {
+      "_id": "b8RKYj2x2T898H1v",
+      "type": "text",
+      "name": "+1 Strength",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!EDBUnqMTEIwcEzeS.b8RKYj2x2T898H1v"
+    },
+    {
+      "_id": "0rM1JqEErzUfqu5k",
+      "type": "text",
+      "name": "Focus: Intelligence (Technology)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!EDBUnqMTEIwcEzeS.0rM1JqEErzUfqu5k"
+    },
+    {
+      "_id": "hs1RXBS6IevIUmsK",
+      "type": "text",
+      "name": "Focus: Intelligence (Art)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!EDBUnqMTEIwcEzeS.hs1RXBS6IevIUmsK"
+    },
+    {
+      "_id": "0ohM1Nq7SkaAjqtj",
+      "type": "text",
+      "name": "Focus: Constitution (Tolerance)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!EDBUnqMTEIwcEzeS.0ohM1Nq7SkaAjqtj"
+    },
+    {
+      "_id": "wgxFWG4aDWp83kTC",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!EDBUnqMTEIwcEzeS.wgxFWG4aDWp83kTC"
+    },
+    {
+      "_id": "JZTs50nr67wNixGa",
+      "type": "text",
+      "name": "Focus: Fighting (Grappling)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!EDBUnqMTEIwcEzeS.JZTs50nr67wNixGa"
+    },
+    {
+      "_id": "cHPkosssj36Q3gOn",
+      "type": "text",
+      "name": "Focus: Constitution (Stamina)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!EDBUnqMTEIwcEzeS.cHPkosssj36Q3gOn"
+    },
+    {
+      "_id": "edeqL5ipg0fbi5aa",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!EDBUnqMTEIwcEzeS.edeqL5ipg0fbi5aa"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "H8ydMcpygzMyt8US",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "EDBUnqMTEIwcEzeS",
+  "_key": "!tables!EDBUnqMTEIwcEzeS"
+}

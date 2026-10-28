@@ -1,0 +1,253 @@
+{
+  "name": "Combat Drone",
+  "_id": "V53GSgh3SUipQ9zT",
+  "_key": "!actors!V53GSgh3SUipQ9zT",
+  "folder": "BlPNbL9yVLi7AiLr",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Moderate",
+    "abilities": {
+      "acc": {
+        "value": 2
+      },
+      "comm": {
+        "value": -2
+      },
+      "cons": {
+        "value": 3
+      },
+      "dex": {
+        "value": 4
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 0
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 3
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 25,
+      "value": 25
+    },
+    "features": "<p><strong>AKA:</strong> Security Drone</p><p>Combat drones are used in various situations. They patrol government buildings such as the UNN or MCRN facilities and outposts. They are often used as deterrents on properties owned or operated by large corporations or wealthy individuals. They also serve in combat training exercises for soldiers and marines. A wide variety of other drones and semi-autonomous robots exist for combat, security, and surveillance purposes, from small roto-drones that are little more than flying grenades to remote-piloted and programmed vehicles with heavy weapons (see Vehicles in Combat in Chapter 5 for some useful guidelines for creating and using these). You can also create more robust combat drones by applying the guidelines under Adversary Improvement to the stats given here to create Major and higher threat level drones. You can treat some combat drones as having no Fortune score, but being capable of taking multiple injured and wounded conditions to deal with damage that gets past their armor, until the drone suffers enough losses to be rendered non-functional.</p><p><strong>Speed note:</strong> Flying 18</p><p><strong>Stunts:</strong> Lightning Attack, Skirmish</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Gunnery",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "KZRZqLqan49wtJs9",
+      "_key": "!actors.items!V53GSgh3SUipQ9zT.KZRZqLqan49wtJs9",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "lfVZ0kraRZgkTlnF",
+      "_key": "!actors.items!V53GSgh3SUipQ9zT.lfVZ0kraRZgkTlnF",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Light Weapons",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "IlXaUgYMmWSOsf4R",
+      "_key": "!actors.items!V53GSgh3SUipQ9zT.IlXaUgYMmWSOsf4R",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seeing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "XjeLB6ZKGkwOXYhF",
+      "_key": "!actors.items!V53GSgh3SUipQ9zT.XjeLB6ZKGkwOXYhF",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Mounted Guns",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "GtUQrtyQBDV62L0e",
+      "_key": "!actors.items!V53GSgh3SUipQ9zT.GtUQrtyQBDV62L0e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 2d6+3.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Stun Baton",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "HNQlSnB6jyLoSR7m",
+      "_key": "!actors.items!V53GSgh3SUipQ9zT.HNQlSnB6jyLoSR7m",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 1d6+4 Penetrating. Penetrating</p>",
+        "useAbl": "fight",
+        "useFocus": "light weapons",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 4,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+4",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Armor",
+      "type": "equipment",
+      "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+      "_id": "lY1KdYf1jFuBr4F4",
+      "_key": "!actors.items!V53GSgh3SUipQ9zT.lY1KdYf1jFuBr4F4",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "equiped": true,
+        "modifiers": {
+          "qS2vayvEIFXKAfcc": {
+            "type": "impactArmor",
+            "formula": "3",
+            "flavor": "",
+            "isActive": true,
+            "valid": true,
+            "conditions": {},
+            "ftype": "",
+            "key": "qS2vayvEIFXKAfcc"
+          }
+        },
+        "longDesc": ""
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Combat Drone",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

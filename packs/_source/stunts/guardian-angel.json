@@ -1,0 +1,26 @@
+{
+  "name": "Guardian Angel",
+  "_id": "QFeosShtAIdDjT3E",
+  "_key": "!items!QFeosShtAIdDjT3E",
+  "folder": "iUVfhOY02Hq2jOoj",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p>Choose an ally within 5 meters of you. If they would take damage before your next turn, 1 damage point per SP spent transfers to you instead as you interpose yourself in front of the attack.</p>",
+    "type": "General Combat",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

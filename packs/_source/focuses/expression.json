@@ -1,0 +1,24 @@
+{
+  "name": "Expression",
+  "_id": "zNKFfCn9L6A3lCXY",
+  "_key": "!items!zNKFfCn9L6A3lCXY",
+  "folder": "9Ty5RMegvUA30RKu",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Conveying thoughts and ideas effectively through words.</p>",
+    "useAbl": "comm",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

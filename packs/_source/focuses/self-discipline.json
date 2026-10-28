@@ -1,0 +1,24 @@
+{
+  "name": "Self-Discipline",
+  "_id": "msyuJGBcSxXKLuMG",
+  "_key": "!items!msyuJGBcSxXKLuMG",
+  "folder": "RJvS9GDi80RRCOt3",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Focusing your mental energy or controlling your impulses and emotions.</p>",
+    "useAbl": "will",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

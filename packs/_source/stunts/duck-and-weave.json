@@ -1,0 +1,26 @@
+{
+  "name": "Duck and Weave",
+  "_id": "TJQwgCXRsErkIwrn",
+  "_key": "!items!TJQwgCXRsErkIwrn",
+  "folder": "iUVfhOY02Hq2jOoj",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Core stunt.</em> Gain +1 to Defense per SP spent until the beginning of your next turn.</p>",
+    "type": "General Combat",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

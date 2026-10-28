@@ -1,0 +1,39 @@
+{
+  "name": "Thrown Weapon Style",
+  "_id": "aCGA07h3QPrk2xEA",
+  "_key": "!items!aCGA07h3QPrk2xEA",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are adept with weapons thrown by hand.</p>",
+    "shortDesc": "",
+    "requirement": "",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You gain a +1 bonus on attack rolls with thrown weapons.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can Ready a throwing weapon or grenade as a free action instead of a minor action.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Add your Accuracy score in meters to the range of throwing weapons and grenades when you throw them.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

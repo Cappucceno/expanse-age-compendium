@@ -1,0 +1,26 @@
+{
+  "name": "Bad Form",
+  "_id": "7Kep2n3zas853xyy",
+  "_key": "!items!7Kep2n3zas853xyy",
+  "folder": "nODsSBHTTvTskkj6",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Immediately regain the SP you spent on this stunt, plus 1 more. Then choose any character present; they now consider you a rival, threat, or enemy, shifting their Attitude to Hostile if it was Standoffish or Neutral, or shifting it to its negative variation if it was more positive. Inapplicable if all NPCs present are already Hostile toward you.</p>",
+    "type": "Attitude",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

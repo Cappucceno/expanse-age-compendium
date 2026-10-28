@@ -1,0 +1,17 @@
+{
+  "name": "Investigation",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 900000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "emDfthNa99SyoHpm",
+  "_key": "!folders!emDfthNa99SyoHpm",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

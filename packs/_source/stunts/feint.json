@@ -1,0 +1,26 @@
+{
+  "name": "Feint",
+  "_id": "rqz3eckYYAvMOCKA",
+  "_key": "!items!rqz3eckYYAvMOCKA",
+  "folder": "5WLkOpAoM7Q1uty9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Reduce your target’s initiative by 1 (to a minimum of 1) for the rest of the encounter.</p>",
+    "type": "Melee",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

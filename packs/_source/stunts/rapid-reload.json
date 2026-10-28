@@ -1,0 +1,26 @@
+{
+  "name": "Rapid Reload",
+  "_id": "4MHHRWB7uM6z8N3y",
+  "_key": "!items!4MHHRWB7uM6z8N3y",
+  "folder": "HjZS0NpKrp9ecqIY",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>The next time you need to reload a firearm, in this encounter, you may do so as a free action.</p>",
+    "type": "Gun",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

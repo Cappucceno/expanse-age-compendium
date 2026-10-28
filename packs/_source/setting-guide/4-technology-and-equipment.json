@@ -1,0 +1,498 @@
+{
+  "name": "4. Technology and Equipment",
+  "pages": [
+    {
+      "_id": "SGYzJ1YzGNKFUr98",
+      "name": "Transcription Notes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>This chapter was transcribed automatically from <em>The Expanse Roleplaying Game</em>. Sidebars and tables may appear out of order or merged with nearby text; consult the book for the exact layout of any table.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.SGYzJ1YzGNKFUr98",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "rLH5HHNdAW47uBCy",
+      "name": "EQUIPMENT",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Life beyond Earth would be impossible without technology. It first allowed humans to leave Earth and then establish a foothold in the expanse and survive there. Technology is so omnipresent it sometimes fades into the background—until a simple failure leads to catastrophe, reminding everyone how critical it is.</p><p>Technology in the system is full of wonders—expert systems running on ever-more-powerful computers; missing limbs replaced with cybernetic units hardwired to the wearer’s nervous system; and vast new ships intended to make the multi-generational trip between the stars. Technology in the system is also old and ubiquitous. The majority of ships are decades old, built using technology that hasn’t changed in generations; the majority of stations and colonies, even older. Technology is familiar, reliable, and useful.</p><p>The equipment listed in this chapter runs the gamut from weapons and armor to tools and items essential to survival in the expanse. Whether the crew is relying on their vac suits in the event of a hull breach or their weapons to fend off harm, having the right equipment can make the difference between life and death.</p><h2>Gear and Equipment</h2><p>Humans are tool-using creatures, and a lot of what constitutes gear or equipment are the various tools and devices we use to make life easier. Although the gear in The Expanse</p><blockquote><p>“Everyone too busy trying to survive to</p></blockquote><p>has gotten more sophisticated in a number of ways, it still largely serves the same function.</p><blockquote><p>spend any time creating something new.”</p></blockquote>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.rLH5HHNdAW47uBCy",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "nN2cqH3HWEBP7RuY",
+      "name": "Access and Availability",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<blockquote><p>—Leviathan Wakes</p></blockquote><p>In order to purchase or acquire an item at all, it must first be available, and the character must have access to it. Some items are restricted by legality, either requiring special permits or licensing or being restricted to only active-duty security or military personnel. Other items are restricted by rarity; while you can buy a new hand terminal at almost any station in the system, finding a custom-made item with all of the qualities you want may require you to shop in the right places.</p><p>An Expanse GM can use access and availability in two ways.</p><p>First, a GM can prevent the Player Characters from buying something just because they happen to have sufficient Income and are feeling lucky with their next Income test. Feel free to tell them that the item is not available, either at all or in the place where they are looking. The second use of availability is as a story hook. If a PC really wants something, dangling an opportunity to get it in front of them is a great way to get the crew involved in a story, and a good way to reward the players if they do well. Even if it’s nigh-impossible to buy a suit of military-grade power armor (even on the black market), you can still arrange things in an adventure to give a character a shot at acquiring some, provided they’re willing to put up with looking after it.</p><p>Speaking of looking after things, many of a character’s possessions require maintenance and upkeep of one sort or another.</p><p>Guns need ammo and regular cleaning; armor needs patching and mending; software needs updating and debugging; supplies of medicines and pharmaceuticals need replenishing; and more sophisticated technology needs regular maintenance work, such as the aforementioned power armor. All of this contributes to the character’s maintenance workload and the cost of maintaining the character’s lifestyle. The more there is, the more involved it gets. GMs should modify the maintenance demands on the crew during interludes based on how much stuff they’re hauling around with them, and modify the</p><p>Cost of their lifestyle as well. See Interludes in Chapter 5:</p><p>Game Play for details.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.nN2cqH3HWEBP7RuY",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "ac6N9Legh0iovr9Y",
+      "name": "Item Qualities and Flaws",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Not all things are made equally and, much like characters have their focuses and talents, items may have qualities that reflect certain improvements over common items of that type, or they may have flaws, which are drawbacks or problems compared to common items. Being able to afford flawless equipment, much less items of high quality, is a common goal for Expanse characters when they are starting out and have to make do with what they have.</p><p>As a general guideline, each quality an item has increases its Cost for Income tests to acquire it by +1, while each flaw decreases Cost by –1. The GM decides if a particular quality or flaw can apply to a particular item, as not all of them may be appropriate. If a quality or flaw is limited to a particular type of item, it generally says so in the description. Some special qualities and flaws are listed alongside specific types of items in this chapter as well.</p><h2>Item Qualities</h2><p>DURABLE The item is built to last. Under normal conditions, it lasts twice as long and for tests involving damaging it, it has +2 Toughness.</p><p>EFFECTIVE The item works better than a regular item of its type, gaining a +1 bonus to one of its abilities. This could be damage, armor bonus, or some other ability used for outcome or effectiveness but not for tests (see Fine, following, for that quality) or a 50% improvement in overall output. A Very Effective item has two qualities and provides a +2 bonus or a 100% improvement.</p><p>FAST The item works fast. It takes half the usual time to use a regular item of its type. For something used during action time, the character gains a +2 bonus to initiative when using the item (see Initiative in Chapter 5).</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.ac6N9Legh0iovr9Y",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "qxvYMgzMo0ar3sJk",
+      "name": "Maintenance and Upkeep",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>FAVORED STUNT The item is either especially well-suited for performing a particular stunt, granting a –1 SP modifier to its cost, or else the item grants access to a unique stunt the character can perform while wielding or using it. Each favored stunt is a separate quality and an item can have more than one.</p><p>FINE The item’s quality is such that the character gains a +1 bonus to tests for using or wielding it. Very Fine items have two qualities and provide a +2 bonus.</p><p>IMPRESSIVE The item’s quality is clearly apparent, providing a +1 bonus to social and roleplaying tests where such things are noteworthy, such as trying to make a good impression while wearing an Impressive outfit or intimidating someone with an Impressive weapon. Very Impressive items have two qualities and provide a +2 bonus.</p><p>LIGHT The item is lighter and more compact than normal, reducing any penalty to Dexterity and Speed it normally imposes by 1. Very Light items have two qualities and reduce penalties by 2.</p><h2>Item Flaws</h2><p>FRAGILE The item wasn’t made to take much punishment. A deliberate attempt to break it always succeeds. Furthermore, when a test to use the item fails and the Drama Die is 3 or less, the item breaks.</p><p>HEAVY The item is heavier or bulkier than normal, imposing a –1 penalty to the Dexterity and Speed of a character carrying or wearing it. Very Heavy items have two flaws and impose a –2 penalty to Dexterity and Speed.</p><p>INEFFECTIVE The item can’t inflict damage as easily as a proper weapon, imposing a –1 or –2 penalty to damage rolls, with a minimum damage roll of 1.</p><p>POOR The overall poor quality of the item imposes a –1 penalty to tests using or wielding it. Very Poor items have two flaws and impose a –2 penalty.</p><p>SHODDY The item’s flaws are glaringly apparent, imposing a –1 penalty to social and roleplaying tests where such things are noteworthy, such as trying to intimidate someone with a Shoddy weapon, or make a good first impression in a</p><p>Shoddy outfit. The GM may adjust the penalty, depending on the circumstances, but it is always negative.</p><p>SLOW The item works, but not fast. It takes twice as much time to use as a regular item of its type. For something that can be used with a major action during action time, a Slow item requires a Ready action after it is used each time to prepare it to be used again.</p><p>UNRELIABLE The item works...most of the time. When a test involving the item fails and the Drama Die is a 3 or less, the item stops working. If the item does not require a test to use, the GM should roll 3d6 when the item needs to work.</p><p>On a total roll of 10 or less where the Drama Die is a 3 or less, the item stops working. Getting an Unreliable item working again takes either an interlude to fix it or, during action time, a TN 13 challenge test with a success threshold of 10 and a time increment of 1 round.</p><h2>General Equipment</h2><p>Generally, any character with Income above 0 will have at least their own hand terminal and access to a local network unless they are under some kind of restriction (imprisoned, for example). Stationary computer terminals are a part of every ship, workplace, and home, and their quality varies based on where they are found. A new hand terminal is generally an Income TN of 11, but can be higher based on quality and availability.</p><p>Most computer-related tests are Intelligence (Technology), although no test is required for routine operation of a terminal to access unrestricted files, search networks, place calls, send messages, and so forth. The GM may apply a modifier to any required test based on the quality of the terminal, the local network, and the character’s access.</p><p>HAND TERMINAL</p><p>Almost everyone has a hand terminal, a palm-sized portable computer used to display information or run programs. Hand terminals have onboard processing and memory, allowing them to run “simple experts” to help organize the user’s daily life,</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.qxvYMgzMo0ar3sJk",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "X8kToEzJH06i8r3D",
+      "name": "Data Security",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>When data is moved around on nearby parts of a network, individual files are manipulated as easily as if they were on the user’s local terminal. But when data is moved across a connection where broadcast times are measured in significant fractions of a light-second, users sometimes take the time to assemble data into broadcast packets of related data. Distant or isolated partitions are called drop-sites, often used for long-term storage of data or the passing of data between anonymous users; a “black drop-site” was found running on a terminal and partition attached to an independent power source and mounted with a broadcast array on the exterior of an isolated asteroid. The truly paranoid or security conscious don’t trust their data to any communications network, maintaining an “air gap” and physically moving it from one place to another on physical media like a hand terminal or memory wafer.</p><p>play games and other entertainment software, or let the user read books, listen to music, or watch videos from the network or its internal library. A hand terminal can be used via controls displayed on its touchscreen or through voice recognition, letting the user give it commands in everyday language. Hand terminals are cheap and ubiquitously available, and when one is lost or damaged it is easily replaced and the user’s profile reloaded from backup on a partition.</p><p>TERMINAL</p><p>Other terminals range from portable networked data pads to fixed location terminals set on a desk- or table-top, or mounted on an articulated swing arm at a workstation, particularly on board a ship or station. Terminals can be paired with a stylus used to draw or write on the screen, processed by software able to turn the handwriting into plain text or calligraphy. Users can use gestures to “flick” or throw files across the network to nearby devices, as easily as tossing a physical object. Earbuds or a headset allow a wearer to privately listen to audio feeds or communicate and control the terminal sub-vocally via builtin microphones. Keyboards are available for those who prefer them as a form of input, and many professions have their own unique keyboard layouts, like the programing keyboards preferred by software engineers and hackers. On terminals with a fixed location, like home terminals, privacy baffles can be attached, preventing anyone other than the current user from seeing or interacting with what’s on the display. In technical environments, terminals can be attached to smart tables facilitating the collection of data, letting the user view and interact with three-dimensional visualizations of data in real time.</p><p>HEADS-UP DISPLAY (HUD)</p><p>Many spacesuit helmets include a heads-up display (HUD), projecting visual information onto the wearer’s field of vision. This can include anything normally displayed on a terminal, but tends to focus on operational information from helmet camera feeds to data about the suit-wearer’s vital signs, or the location of other members of a crew or squad. Tactical information like overview maps or highlighting the positions of enemy combatants are also common HUD displays.</p><p>PARTITION</p><p>Partitions are portions of computer memory on a device or in a larger archive, and a user typically has access to multiple partitions based on their needs to help keep their data secure. A hand terminal has a device partition on its own hardware, but it can be connected to a family partition on a home terminal, a local partition maintained by a ship, city, or other organization, or even a public partition shared by many users. These partitions can be open or locked with a password, and the files placed into them can similarly be left open or given multiple layers of security.</p><h2>Software</h2><p>The software on all these devices is simple to use, but more complex in the underlying code. By swapping back and forth among command profiles on a single display, a lone crew member can direct operations for an entire spaceship up to and sometimes including crisis situations or combat. This is greatly due to the rise of expert systems which can be called upon to perform with inhuman skill in their specified task.</p><p>These systems began with simple pattern recognition, ancestors to the systems that can identify ships by merging telescope, radar, and infrared heat data to verify radioed transponder codes. Encryption and decryption systems help keep voice and data traffic secure from uninvited parties. Multiple expert systems make up the targeting packages on board military vessels, gathering telemetry, filtering it to identify targets and their capabilities, helping the user select and prioritize targets, and firing the best available weapons to meet the desired combat solution, letting humans focus on tactical decisions rather than their implementation. Medical expert systems serve as auto-docs, allowing users to provide medical care as easily as operating a terminal.</p><p>Expert systems can generate identity masks for communications, injecting convincing artificial voices and dialects in place of the originals. Larger processing arrays, like those onboard military vessels or in major outposts, run expert systems as gel software on biologic networks that can grow back after combat damage or route around permanently damaged segments (though errors or chance mutations can cause the system to grow incorrectly and require it to be completely replaced in order to restore system capacity).</p><h2>Networks</h2><p>All these devices and systems communicate via a constantly shifting network of connections. Every element has its own network address, identifying it so commands and data can be transmitted to and from it no matter where it connects. Sometimes these elements are part of a simple local network, such as a hand terminal paired with its earbuds or a family’s closed network of home terminals, and keeping them isolated is a simple matter. As soon as an element of the network is connected to a network bridge or an open comm array, it becomes part of a larger network. Passwords, magnetic security cards, and biometric locks are common security measures, as are simple expert systems for networks with sufficient processing power. But hackers and the powerful expert systems employed by governments and corporations are formidable enough to penetrate nearly any connected network given access and time, so those who truly have data to hide do their best to keep it disconnected from the larger information networks of the solar system.</p><p>Given the physical isolation experienced by ships in the depths of space and the small populations of most established communities, most people are happy to keep a network connection open to communicate with others at a distance. The public network is made up of a seemingly infinite number of information feeds, from Martian planetary news feeds to entertainment feeds of live music and commentary. Some are open feeds intended for a broad audience, while others are “narrowcasts” created for a specific audience and sometimes limited to only those who have the password or paid for access. Some feeds allow users to participate, welcoming them into discussion groups or singles circles for those seeking romantic relationships. When bandwidth becomes a concern, feeds can limit themselves to audio- or text-only content. It can be an overwhelming amount of information, so many terminals come preinstalled with simple feed managers to help curate feeds and offer only the content of the user’s choice. The user’s personal correspondence comes via feed connections as</p>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.X8kToEzJH06i8r3D",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "8SCYZZniJhnr420C",
+      "name": "Information Access",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>One of the aspects of The Expanse setting is access to a lot of information: Anyone with a hand terminal can look up anything publicly available on the local network, and communicate with anyone publicly connected to that network. The Game Master is advised to keep these things in mind when it comes to creating challenges for the crew. Answering simple questions and finding people who are not deliberately trying to hide is as easy as asking. That said, some information is restricted, or only available from another network with a significant light-speed transmission delay, and there are plenty of times when you don’t want anyone else to know you’re looking into something. Also, information isn’t everything: Just because you can look up the schematics of a fusion reactor doesn’t mean you can use them to shut the reactor down in a crisis in time to prevent it from going super-critical. There are lots of situations where access to information is no substitute for knowledge, training, and experience.</p><p>well, and feed managers help ensure they don’t miss important communications—and can block unwelcome messages and flag high-priority or secure connections.</p><p>Like all forms of communication, networks are limited by the speed of light in transmitting and receiving data. On board a ship, station, or on a planet or moon, this delay is too brief to be noticed, but it can extend to hours out in the system.</p><p>Therefore, network software tends to queue data-traffic for transmission whenever there is an opportunity, updating the local network data as transmissions are received. See Communications, following, and System Communication and Travel</p><p>Times in Chapter 6 for additional information.</p><h2>Communications</h2><p>The actual communications connections between devices are often simple radio, though feeds broadcast this way are open to anyone with an antenna listening at the proper frequency. Private communications require laser arrays for tightbeam transmissions only receivable where the laser is aimed. The greater the distance between sender and receiver, the harder it is to keep the broadcast laser focused. To keep the broadcast laser as tight as possible across enormous distances, equally enormous and powerful comm lasers like the one aboard Tycho</p><p>Station must be used. Tightbeam transmissions also require knowledge of the target’s position, speed, and trajectory.</p><p>To help tightbeams maintain coherence, relays are set up across the solar system to receive a transmission laser, then rebroadcast it toward the intended recipient. Though these relay services work hard to maintain the trust of those who use them, corporations and intelligence agencies maintain private relays with onboard drop-sites, moving in orbits unknown to anyone but their owners and requiring not just the encryption keys necessary for communication but knowledge of the relay’s exactly position in order to beam a message at it.</p><p>Drones are semi-autonomous vehicles, most commonly small aerostats with propellers that allow them to hover and fly like helicopters in an atmosphere, or micro-thrusters that let them</p><p>“teakettle” maneuver in microgravity, with or without an atmosphere. Some drones are ground-bound, using either tracked or wheeled drives or multiple robotic legs to maneuver. Those designed for microgravity have magnetic adhesion, much like a vac suit’s boots. Drones are equipped with on-board computers and expert systems, allowing them to handle some simple tasks on their own, but most are remote controlled from a terminal, with the operator making Dexterity (Piloting) or</p><p>Intelligence (Technology) tests to operate the drone.</p><p>Drones are useful for surveillance, relying on their small size and maneuverability to record sensor data or send back live</p>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.8SCYZZniJhnr420C",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "Pop5z1IJT7rVg78F",
+      "name": "Drones and Mechs",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>feeds. They can also easily go into areas too tight or hazardous for people, either to gather information or to perform minor repairs or similar operations. Of course, these tasks can just as easily include sabotage. Drones may be equipped with weapons dependent on their size. A small drone is capable of carrying a weapon about as lethal as a pistol, although drone weapons are often designed to do stunning damage (see Stunning Weapons later in this chapter). See the Threats chapter for an example of a larger drone equipped for combat and security work.</p><p>Mechs are bulky exoskeletons, offering no actual life support but amplifying the wearer’s strength considerably. Mechs range from a simple arrangement strapped over the user’s shoulders, with mechanical, articulated arms, to an egg-shaped open cage with the wearer strapped into its center, equipped with four articulated limbs. These provide stability and utility, as each limb ends in a foot that can be rotated back to deploy a variety of cutting and welding tools. Mechs also have tether points where crew-mates can connect themselves to be carried to and from a labor site, and where loads of parts, salvage, or ore can be stowed.</p><p>Construction and labor mechs provide a substantial Strength bonus (usually +10), which affects Strength (Might) tests. Full-sized mechs are equivalent to vehicles, with their own Speed, and offer a measure of cover to someone strapped in, generally enough for a +2 armor bonus. See Vehicles in Combat in Chapter 5 for additional useful guidelines for these types of mechs.</p>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.Pop5z1IJT7rVg78F",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "Sw6Nq7wo324WULlO",
+      "name": "Life Support",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Surviving exposure to the void of space for more than a moment requires a spacesuit of some kind, making such life support equipment essential and common everywhere outside of Earth’s gravity well.</p><h2>Environment Suits</h2><p>The cheapest and most common spacesuit is the hooded environment suit, found by the dozen in emergency lockers on every ship and station. The thin plastic suits are airtight and have integrated short-duration air bladders with rebreathers, but provide little radiation shielding and are prone to tearing. Environment suits are designed to help wearers survive in an area of failing life support long enough for rescue or repair, although in extreme emergencies they have been used for treks across the surface of Mars and asteroids in the Belt in search of shelter.</p><h2>Vac Suits</h2><p>Heavier vac suits have corrugated joints connecting hardened plastic segments, helmets with thick transparent faceplates, and connections for separate air-supply units. Despite vac suits’ bulk, regular wearers complain they’re poorly insulated for use in space. They do have integrated magnetic boots and communications rigs, along with water tanks and food supplies running to dispensers inside the helmet. They’re also easy to repair, with some vac suits passed down from one generation to another among Belter mining families.</p><h2>Form-Fitting Suits</h2><p>More expensive, modern spacesuits are as light as the riot gear worn by law enforcement and just as tough, with heating and cooling systems sewn into a body sleeve worn beneath the impact-resistant segments of the outer shell. Also in the inner sleeve is a sensor network that provides data for a medical data feed shown on a HUD inside the helmet, as well as to other members of the wearer’s team. The suit gathers information from environmental sensors in the outer shell to monitor temperature, radiation, and local atmospheric conditions, projected on the HUD alongside overlays of technical specs for a ship’s maintenance crew, or geological survey data for a scientific scouting team. Display of this data along with other suit systems is manipulated via chin controls, as well as blinks and other eye movement. The most expensive suits are customsized and tailored for their wearers.</p><h2>Suit Accessories</h2><p>Nearly any suit can be customized in lesser ways to meet the needs of the wearer or the task. Exterior spotlights or wristmounted flashlights provide more illumination. For longer missions, additional water or food supplies can be attached in belt packs, as can an emergency first aid kit packed with drugs like adrenaline or amphetamines to supplement simple painkiller tabs dispensed in the helmet. Versatile tether ports on a suit’s belt or back can be used to simply secure the wearer to a fixed point so they can’t accidentally drift away, or they can be the attachment point for cables providing a constant feed of suit consumables or a shielded communications line immune to local jamming or radiation interference. Vac suits have simple thruster-packs for spacewalks, and some Belters even use them to “hop” from one dig to another. Thrusters are controlled by an on-board computer that calculates trajectories and use of reaction mass, making most short trips relatively easy and safe.</p>"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.Sw6Nq7wo324WULlO",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "Ttuc6SKZXSJNjuCw",
+      "name": "Tools",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Lots of jobs, particularly technical ones, require various tools and characters make use of portable toolkits and in-place workshops to get their jobs done. Tools are necessary for tests involving the following focuses: Communication (Disguise), Dexterity (Crafting), and Intelligence (Demolitions, Engineering, Research, or Technology). Without the necessary tools, characters cannot easily perform tasks involving those focuses; it’s hard to create a disguise out of nothing and harder still to repair a reactor or hack a network without the right equipment!</p><h2>Tool Qualities and Flaws</h2><p>Normally, tools simply enable characters to perform their associated tasks but, like other equipment, good tools may have certain qualities and poor or makeshift tools may have certain flaws, affecting how useful those tools are. So an engineer with a Fine and Effective workshop has a better chance of success and creates more effective work, while a spy making do with a Slow and Shoddy disguise kit takes longer to prepare and has a penalty in terms of carrying out the deception.</p><h2>Weapons</h2><p>Although humans have continued to refine tools for killing each other, many of the essential qualities of weapons used in the system have remained the same for centuries. Although weapons are often regulated in settled or populated areas, out in the expanse, it is usually wise to have a weapon close at hand.</p>"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.Ttuc6SKZXSJNjuCw",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "EjKOsvt3H7w00Jtv",
+      "name": "Close Weapon Descriptions",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>While many view close combat weapons as archaic, the truth is that sometimes cracking heads up close and personal is how things get done. Most modern close combat weapons tend to be batons and similar things wielded by security, or simple knives or shivs used (and often made) by those with nothing else available. The most common close combat weapon remains the empty hand or closed fist, and characters with the Self-Defense Style and Striking Style talents have some advantages in unarmed combat (see Chapter 3).</p><h2>Light Weapons</h2><p>Light weapons tend to be quick and easy to wield, lending themselves to a fast and agile fighting style. They include things like batons or similar short clubs, knives and short or light blades, light staff weapons (like the bo staff), knuckle-dusters like brass knuckles, and so forth. Light weapons can add either the wielder’s Dexterity or Strength score as a modifier to damage, depending on how they’re wielded.</p><h2>Heavy Weapons</h2><p>Heavy weapons rely much more on strength to wield, ranging from a sledgehammer or other heavy tool to literally “getting medieval” on an opponent with a heavy sword, axe, or similar weapon. Heavy weapons do more damage, but are limited to adding the wielder’s Strength score as a damage bonus, since finesse is not a part of their style.</p><h2>Makeshift Weapons</h2><p>Characters sometimes use objects not intended or designed for combat as makeshift weapons, ranging from a piece of construction rebar to a tool case or a heavy mug from a galley. When a character uses a makeshift weapon, the GM may apply one or more of the following flaws: Fragile, Ineffective, or Poor. See Item Qualities and Flaws earlier in this chapter for details.</p><h2>Stunning Weapons</h2><p>Some weapons are designed specifically to incapacitate without wounding their targets, particularly useful for security personnel or even civilians, as stunning weapons tend to be permitted for personal defense more than lethal weaponry. They include things like stun-guns and tasers, which use charges of electricity, or close range chemical weapons like mace or pepper spray.</p><p>As a general guideline, a stunning weapon does penetrating damage (see Penetrating Damage in Chapter 5) but inflicts one die less damage than a comparable lethal weapon, so tasers do 1d6 damage versus a pistol’s 2d6, for example. A target taken out by the damage from a stunning weapon cannot have the dying condition applied to them, since such weapons aren’t lethal. See Taken Out under Applying Damage in Chapter 5 for more.</p>"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.EjKOsvt3H7w00Jtv",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "8HQY8ET8Zee54lOx",
+      "name": "Ranged Weapon Descriptions",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Various forms of slug-throwers, using chemical propellants to fire projectiles, remain the standard ranged weapons. Although guns in The Expanse can use caseless ammo with its own accelerant to be fired in a vacuum, modern composite materials, and on-board chips for systems management, a gun is still a gun.</p><h2>Ranged Weapon Qualities</h2><p>In addition to the regular qualities listed for equipment under Item Qualities and Flaws, ranged weapons can have the following:</p><p>ARMOR PIERCING The weapon’s rounds reduce the Toughness bonus of worn armor by –2 in terms of reducing their damage. Unfortunately, armor-piercing rounds also have the ability to punch through vacuumsealed bulkheads, so a missed attack with one on a spaceship or station near an outside wall may cause a hull breach. Roll 1d6; on a roll of 1 or 2, a breach occurs and the air begins rushing out of the compartment. See the Threats chapter for details on suffocation hazards.</p><p>AUTOMATIC The weapon reloads and fires automatically so long as its trigger is depressed. This makes the weapon capable of performing stunts with the (Automatic) quality on the Gun Stunts table in Chapter 5.</p><p>HIGH CAPACITY The weapon carries a substantial amount of ammunition. Ignore the first roll indicating the weapon has run out of ammo (see Weapon</p><p>Capacity, following).</p><p>LONG RANGE The weapon’s effective ranges are doubled. See Range under Making Attacks in Chapter 5 for details.</p><p>SPREADING The weapon fires a spreading cone of pellets, shot, or similar small ammunition, like a shotgun. It does one die less damage, but can hit all targets within a roughly</p><p>30-degree angle in front of the shooter.</p><p>TRACER The weapon fires rounds that glow, leaving visible trails (tracers) behind. A tracer weapon allows the user to take the Aim action as a free action so long as the weapon was fired on the previous round (see Aim under Minor</p><p>Actions in Chapter 5).</p><p>TRANQUILIZER A tranquilizer or tranq weapon fires a hypodermic dart preloaded with a dose of a drug, usually a powerful tranquilizer to knock out its target. The dart won’t penetrate any armor, but if it hits an unarmored target, the character must make a TN 13 Constitution (Tolerance) test or become unconscious. A successful test means the character is only fatigued.</p><p>PISTOLS</p><p>Pistols are single-grip ranged weapons, usually semi-automatic slug-throwers. Cheap, second-hand, or makeshift pistols of the sort commonly traded on the black market usually have various flaws like Ineffective, Poor, Shoddy, or Unreliable, while higher-quality—usually security or military-grade—pistols have qualities like Durable, Effective, Fine, or Impressive.</p><p>Most slug-throwers in The Expanse fire ammo designed to flatten against rigid targets to prevent possible hull breaches on board ships and stations.</p><p>TASER A taser is a stunning pistol (see Stunning Weapons, previously) that fires a pair of darts that carry a powerful electrical charge that inflicts penetrating damage, but can only incapacitate the target.</p><p>RIFLES</p><p>Rifles are double-grip ranged weapons, usually semi-automatic slug-throwers like pistols, with similar qualities and flaws for high- and low-end models. Shotguns have the Spreading quality. Military-grade rifles may also have the Automatic quality, while sniper rifles have a Long Range quality that doubles their effective range.</p><p>THROWN WEAPONS</p><p>Characters can throw a variety of weapons, including many WEAPON</p><p>DAMAGE</p><p>COST light close combat weapons such as knives, heavy close Light Close 1d6 + Str or Dex 6 combat weapons designed to be thrown like spears, and light</p><p>Heavy Close</p><p>2d6 + Str weapons designed strictly for throwing like Japanese shuriken.</p><p>Pistol</p><p>2d6 + Per Most thrown weapons in The Expanse tend to be makeshift</p><p>Rifle</p><p>3d6 + Per weapons, using whatever is at hand and not fastened down 12 (see Makeshift Weapons, previously) but some characters do Grenade 3d6 (2 meter radius) 15 still carry and use throwing weapons.</p><h2>Weapon Capacity</h2><p>Guns have limited amounts of ammunition and are subject to mechanical problems like jamming. In game play, rather than having to track every round fired, you can use the following guideline to handle things like misfires, jams, and running out of ammo.</p><p>When an attack with a gun misses and the number on the Drama Die is a 6, then the weapon has jammed or run out of ammo. Reloading the gun or clearing the problem takes a minor action. The Rapid Reload stunt can reduce this time, as can some talents.</p><p>The GM can also have a gun jam or run out of ammo as a minor effect of the Churn and additionally say the weapon cannot be cleared or reloaded (because the character has no more ammo) as a major effect. See The Churn in the Game Mastering chapter for additional details.</p>"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.8HQY8ET8Zee54lOx",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "Wa1Bd4SEDrmYs1sQ",
+      "name": "Grenades and Explosives",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Unlike attacks with ranged weapons that must be aimed, you don’t need to score a direct hit on a target with a grenade or other explosive device, just</p><blockquote><p>“The mechanic had laid out two suits of their Martian-</p></blockquote><p>get close enough to catch them in the blast.</p><blockquote><p>made light combat armor, a number of rifles and</p></blockquote><h2>Grenades</h2><blockquote><p>shotguns, and stacks of ammunition and explosives. “What,” Holden said, “is all this?”</p></blockquote><p>Grenades are thrown weapons with a range of 10 + Strength meters. Use</p><blockquote><p>“You said to gear up for the drop.”</p></blockquote><p>the Ready action to have the grenade in your hand, and then you can take a Ranged Attack action to throw it. Grenade launchers load and fire</p><blockquote><p>“I meant, like, underwear and toothbrushes.”</p></blockquote><p>grenades automatically with the range of a rifle and don’t require a Ready action, but they’re subject to running out of grenades or jamming, as</p><blockquote><p>—Cibola Burn</p></blockquote><p>described under Weapon Capacity.</p><p>A grenade attack is a TN 11 Accuracy (Thrown) test, modified for difficult throws at the GM’s discretion. Success means the grenade lands and detonates where you intended, but failure means the grenade lands up to 1d6 meters away in a direction of the GM’s choosing, and then explodes. Grenades affect everything and everyone within 5 meters of the explosion, dealing damage and any additional effects.</p><p>You can use action stunts with grenade attacks. Each stunt can affect only one target, but you need not assign all stunts to the same target. If you catch two foes in the blast of a grenade and generate 4 SP, for example, you could use Overcome Toughness on one foe and Knock Prone on the other.</p><h2>Explosives</h2><p>Handling other types of explosives like demolition or breaching charges is generally an Intelligence (Demolitions) test, with the difficulty based on the task being performed and the Drama Die result determining the effectiveness of the outcome. So setting a charge to blow through a bulkhead door might require a TN 11 test, for example, with a 6 on the Drama Die meaning a perfect execution while a 1 means the door is just barely breached and might need an extra round to push open.</p>"
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.Wa1Bd4SEDrmYs1sQ",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "ehkoo7PVdWShgiTw",
+      "name": "Armor",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>When expecting combat, characters may make use of protective armor, although wearing armor also sends a signal that you are expecting a fight. While padding ARMOR TYPE ARMOR ARMOR COST or light armor may escape notice, especially in the rough-and-tumble places of the</p><p>BONUS PENALTY</p><p>Belt, medium and heavy armor tend to be restricted to military, police, and security</p><p>Padding +1 0 8 personnel on-duty and, even then, to personnel who are prepared for a fight. Waltzing</p><p>Light armor +2 –1 12 onto the docks of a station in full armor is sure to get station security wondering what Medium armor +4 –2 14 kind of trouble you are expecting—or looking for. Heavy armor +6 –3 16</p>"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.ehkoo7PVdWShgiTw",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "8qMfiwISIrGVzMTq",
+      "name": "Armor Descriptions",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Power armor +12 0 * SHIELD TYPE DEFENSE BONUS COST</p><p>Armor in The Expanse has two traits: its armor bonus, which is an increase in the wear-</p><p>Riot shield +2 13 er’s Toughness, and an armor penalty, which represents the armor’s bulk and restric- Ballistic shield +3 14 tion and applies as a penalty to a character’s Dexterity-based tests and Speed. The</p><p>* Not available for purchase Armor table lists all this, and also lists the usual Income target number to purchase that type of armor. Note that most armor above ballistic cloth may be restricted to military and licensed security personnel and thus only available on the black market to anyone lacking membership in those groups.</p><p>Medium and heavy armor (to say nothing of power armor) can draw unwanted attention, especially in heavily populated areas.</p><h2>Armor Qualities &amp; Flaws</h2><p>Qualities particular to armor in The Expanse include Effective (increased armor bonus), Impressive, and Light (reduced armor penalty). Common armor flaws include Heavy, Poor, and Shoddy, reducing the armor’s overall effectiveness.</p><p>sensor net capable of injecting the wearer with painkillers,</p><p>PADDING amphetamines, or anti-nausea medications as needed. On</p><p>This is any kind of heavy or thick material a character wears top of that goes a pressure-rated environment suit infused that can serve as armor, such as heavy leather or similar with self-sealing gel to close any knife or bullet punctures artificial material. An ordinary vac suit provides padding and maintain atmosphere. Finally, they add strap-on armor as well. Lacking the benefits of engineered anti-ballistic or plating. Helmets have a built-in communications network, impact-absorbing materials, padding tends to be fairly bulky and officers can be equipped with a command terminal, and obvious, and of only limited benefit. letting their HUD show medical readouts from members of their squad as well as maps and other tactical overlays.</p><p>LIGHT ARMOR</p><p>SHIELDS</p><p>Light body armor is made from modern anti-ballistic materials intended to stop bullets and other weapons from pene- Shields are essentially hand-held cover against attacks, trating to minimize damage. It is similar in weight to a light providing the user with a bonus to Defense, rather than an jacket or lined jumpsuit, and thus fairly easy to wear without armor rating. Any attack that misses the character due to drawing a great deal of notice. the Defense bonus can be assumed to have glanced off the shield.</p><p>MEDIUM ARMOR</p><p>RIOT SHIELD A small body shield, usually made of an</p><p>Bullet-resistant chest- and thigh-plates strapped over light anti-ballistic and impact-resistant polymer. Riot shields armor and a helmet with a reinforced face plate provide are commonly transparent, so as not to obstruct the medium armor, usually limited to security forces expecting user’s field of vision.</p><p>a riot or on a raid where they expect violent resistance, or military personnel on security detail.</p><p>BALLISTIC SHIELD A larger and heavier shield sufficient to crouch behind for cover, typically with a trans-</p><p>HEAVY ARMOR parent viewing slit made of riot shield material. Ballistic</p><p>Heavy armor used by soldiers and security forces for combat shields are intended for cover in heavier fire, particuduty is a layered affair of a body sheath of multiple layers of larly for security needing to remain in place rather than anti-ballistic material, impact gel, and an integrated medical seek cover elsewhere.</p><p>POWER ARMOR</p><p>One of the most fearsome sights on the battlefield is military power armor, like the Goliath suits worn by Martian Marines. Two and a half meters tall and weighing 400 kilograms even before a soldier climbs inside, power armor provides both a formidable offense and defense. Half armor and half spacesuit, the armor has radiation shielding sufficient to let soldiers walk through a nuclear bomb crater minutes after the blast. The armor’s titanium and ceramic-composite exterior shielding is typically painted with camouflage patterns appropriate to the assignment, and enemies are often surprised just how well an enormous soldier in power armor can blend into the environment when they stand still.</p><p>The armor’s hydraulics system magnifies the wearer’s strength, much like a mech rig, and carries most of the weight of the suit, allowing soldiers in power armor to undertake marathon hikes and move surprisingly fast. They also enable the armor to carry heavy weaponry, typically a rotary machine gun and sometimes a grenade launcher or micro-missile pack. Sensor packages feed data to the wearer on the helmet’s HUD, allowing them to identify and track infrared targeting lasers used by opponents’ weapons, and even visually parse those weapons using the suit’s camera feeds to match them against an internal database. Those same cameras monitor in all directions, sending feeds back to squad officers and their military command center, which can monitor the life signs of both the soldiers and opponents who have been detected and attacked.</p><p>Despite all these capabilities, power armor is still designed for maneuverability in tight spaces, enabling infantry to move in microgravity and storm their way through the narrow confines of ships. Less so is a newer addition to the Martian arsenal: 4-meter tall, 9-ton combat mechs, walking tanks carrying rail guns and missiles adapted from ship weapon systems. They are strictly ground-assault troops, and there are few installations or opponents able to stand against them for long.</p><p>In The Expanse game terms, power armor grants the wearer the following:</p><p>ARMOR +12 armor bonus with no armor penalty, so long as the armor is operational.</p><p>PHYSICAL ENHANCEMENT +10 effective bonus to Strength and Strength (Might) tests.</p><p>MOBILITY ENHANCEMENT +2 bonus to Speed and +4 bonus to Constitution (Endurance) tests.</p><p>WEAPONRY An integral rifle doing 3d6 + Perception damage and capable of performing automatic weapon gun stunts. May also have grenade or missile systems doing 3d6 damage in a 5 meter radius.</p><p>CAMOUFLAGE PACKAGE +2 bonus to Dexterity (Stealth) tests compatible with the unit’s camouflage.</p><p>SENSORS +2 bonus to Perception tests where the armor’s sensor package applies.</p><p>LIFE SUPPORT All of the benefits of a vac suit (see Vac Suits under Life Support, previously).</p><p>If power armor loses power, it becomes massive deadweight, effectively leaving the wearer restrained and unable to use any of the armor’s systems.</p><p>Power armor requires regular maintenance activities during interludes to remain in full working order (see Interludes in Chapter 5).</p><h2>Income and Lifestyle</h2>"
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.8qMfiwISIrGVzMTq",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "bMOPFLGXwSVR7V06",
+      "name": "Equipment List",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>ITEM COST</p><p>ARMOR As detailed in Chapter 2, Expanse characters have an Income rating measuring their overall financial resources and buying power. In the System, most financial transactions are handled elec-</p><p>Padding 8 tronically, and most credits—the standard of currency—are recorded and stored online as well. Of</p><p>Light Armor 12 course, there are still instances where forms of “hard” currency are in use, such as bearer bonds,</p><p>Medium Armor 14 bank notes, or corporate script. Some of a character’s assets may also be tied up in property</p><p>Heavy Armor 16 or trade goods of various sorts. Different governments, and even corporations, issue their own currency as well and exchange rates are set by various market factors. Barter is also still in use on</p><p>DATA</p><p>Hand Terminal 8 the fringes of civilization. Among other things, barter, trade, and hard currency do not leave data trails and transaction records, which is important to some individuals.</p><p>Heads-up Display 10</p><p>Generally, the ins and outs of various means of exchange in The Expanse are background color,</p><p>Virtual Display 12 to be used by the players and the GM to liven up descriptions and perhaps explain things like</p><p>DRONES AND MECHS momentary “shortages” when an Income check fails, or prices unexpectedly climb. The GM can</p><p>Small Drone 14 also use these elements as key parts of a story, such as tracking down transactions made entirely</p><p>Shoulder Mech 15 in hard currency, a sudden surge in counterfeit currency on a station or settlement, bargains struck</p><p>Construction Mech 16 in currencies other than standard credits, or the crew’s reward turning out to be corporate script or some other asset rather than a direct credit deposit to their accounts. How do they convert their</p><p>LIFESTYLE* newfound resources into easily spendable credit without losing too much of its value? You can use</p><p>Impoverished 8 the Selling Things guidelines in Chapter 2 for these situations.</p><p>Basic</p>"
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.bMOPFLGXwSVR7V06",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "CXCJXgCSXvMNYezA",
+      "name": "Lifestyle",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Middle Class 13</p><p>Affluent 16</p><p>A character’s Income ensures a certain lifestyle, the ability to live at a particular level of accom-</p><p>Wealthy 19 modation, diet, entertainment, and common “household” possessions and comforts. Lifestyle is</p><p>Rich largely determined by Income score, as given in Chapter 2 and described here.</p><p>Very Rich 24</p><p>LIFE SUPPORT IMPOVERISHED (INCOME –2 TO 0)</p><p>Environment Suit 9</p><p>The character’s circumstances are fairly difficult, involving cramped, often makeshift living arrange-</p><p>Vac Suit 11 ments and scavenging for even necessities like food and clean water. Spending on anything else is</p><p>Form-fitting Suit 13 pretty much out of the question, although some people at this level find ways to acquire drugs or</p><p>MEDICINE alcohol to numb their situation. If a character spends more than a month in this lifestyle, the GM may impose an ongoing fatigued condition—and the inability to recover from it—to reflect the rigors of it.</p><p>Medications 11**</p><p>Medical Treatment 13** BASIC (INCOME 1 TO 2) Limb or organ replacement 15**</p><p>This is the subsistence level of much of Earth’s population, consisting of a small apartment or the</p><p>TOOLS equivalent for housing, essential nutrition provided by bulk foodstuffs that don’t vary much in quality</p><p>Tool Kit 8 or flavor, and access to online entertainment and information channels and a steady, if not lavish,</p><p>Workshop 10 supply of legal recreational drugs. Clothing is pre-fabricated and as utilitarian as everything else.</p><p>WEAPONS Getting around is limited to public transportation and personal possessions are few and far between.</p><p>Close Light Weapon 6</p><p>MIDDLE CLASS (INCOME 3 TO 5)</p><p>Close Heavy Weapon 7</p><p>A modest lift out of the doldrums of Basic to an Income level where some personalization of one’s</p><p>Throwing Weapon</p><p>6 lifestyle is possible. This includes slightly better or larger living quarters, maybe in a better area</p><p>(set of 4–6) of the character’s choice, a greater variety of food with the possibility of occasionally patronizing</p><p>Pistol 10 restaurants, and some personal possessions of significance. Owning a vehicle outside of one</p><p>Rifle required for work is still relatively rare.</p><p>Grenade 15</p><p>AFFLUENT (INCOME 6 TO 8) *No income test needed if the character’s income is in the lifestyle’s bracket.</p><p>A noticeable amount of creature comforts, what people at the Impoverished or Basic levels think **These costs may be up to 3–4 more for advanced treatments. of as luxury, including possibly owning a house or some land or the equivalent in a dome or station off-Earth, a varied diet including a number of fresh foods, and little, if any, concern over small day-to-day purchases. The character can afford to enjoy regular entertainment, from nights-out to catered nights-in; albeit not every night, but easily a few times a month, maybe with the occasional trip or vacation in there.</p><p>WEALTHY (INCOME 9 TO 10)</p><p>Most of the expenses that concern Middle Class and lower people don’t worry the Wealthy at all. They have sufficient Income or expense accounts to largely live where they want, to eat what they want when they want it, and to enjoy most of what the world has to offer. At this level, a personal vehicle of some kind is common, and Wealthy characters may even have multiple homes, or one fairly lavish one.</p><p>RICH (INCOME 11 TO 13)</p><p>The truly Rich concern themselves with very little, except the opinions and goodwill of their peers (if that). This Income ensures personal quarters that would accommodate multiple families on Basic, and luxuries they could not afford with more than a year’s Income. The Rich have all of the benefits of the Wealthy and then some, including perhaps some significant quasi-legal ones.</p><p>VERY RICH (INCOME 14 OR GREATER)</p><p>It’s difficult for lower-Income characters to entirely conceive of this lifestyle, which often throws away and recycles more than the lower level lifestyles have. Characters living the Very Rich lifestyle live in mansions or even palaces (or their equivalent), usually with a staff of personnel to attend to their needs. They move freely using personal vehicles, including their own orbital lifters and spacecraft.</p><h2>Maintenance</h2><p>Of course, for most characters, Income is not self-maintaining. It requires a regular amount of work in order to maintain an Income, and often a great deal of work to improve it by any significant amount. Even the Wealthy must usually devote some time to the management of their various assets, overseeing (if not directly running) their business interests, keeping up important connections, and so forth.</p><h2>Living Above Your Means</h2><p>Generally, characters who maintain their Income can live at its lifestyle level indefinitely without any need for a test so long as they put in the work, barring some misfortune. Still, there are those occasions when a character wants or needs something that’s routinely beyond their reach, either a specific purchase or just an opportunity to enjoy a taste of the good life (or, at least, a better life). When characters look to live above their means, use the following guidelines.</p><p>The character makes an Income check with a difficulty of the minimum Income for the increase lifestyle +9. So, for</p><p>1 example, a character wanting to gain a benefit of the Affluent lifestyle would test Income against TN 15 (9 + the minimum Income for Affluent).</p><p>This success depletes the character’s Income, as described under Depleting Income in Chapter 2. Thus, living above their means for any length of time will rapidly decrease a character’s Income.</p><p>If the test succeeds, the character gains the benefit of that lifestyle, whether it is a lavish party, a personal item</p><p>3 (ranging from a piece of jewelry or clothing to personal electronics or a household item), or a temporary improvement in living conditions.</p><p>Since living above your means depletes your Income, it may mean the character’s lifestyle for the following month drops. For example, if Income is depleted from 6 to 5, the character drops from the Affluent to Middle Class lifestyle. This may mean some belt-tightening until the character’s Income recovers. If the character wants to maintain the higher lifestyle, then that’s another Income test, which further depletes Income, leading to a potentially rapid decline.</p><p>At the GM’s discretion, a short-term windfall (see the Rewards chapter) may temporarily grant the benefits of living at a higher lifestyle until the windfall is depleted and the character returns to the regular lifestyle level determined by their Income.</p>"
+      },
+      "sort": 1700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.CXCJXgCSXvMNYezA",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "dVhBJ2qIK8iDZsQN",
+      "name": "Food",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Food is a constant human need and complex biologicals originate only on Earth, although humanity has adapted. The simplest foodstuffs are wheat pastes mixed with honey or spices for flavor and dried fruit for texture. These are familiar to anyone who has tongued them out of a helmet-tube while working in an environment suit, but also available to those looking for nothing more than the simplest of fuels for</p><blockquote><p>Now that the OPA ran Ceres, there were</p></blockquote><p>their body. Equally infamous is the Martian Navy’s “slop,” a heated high-protein, high-carb food mix. Textured proteins derived from soy and mushrooms take all kinds of</p><blockquote><p>also other options. Dhejet and egg curry,</p></blockquote><p>forms from fake eggs to fake cheese and fake bacon to fake steak. Belters are used</p><blockquote><p>cow-style noodle bowl, red kibble. The foods</p></blockquote><p>to different kinds of “kibble,” protein pellets or crumbles with seasonings and flavor</p><blockquote><p>of her childhood. Belter foods.</p></blockquote><p>sauces, or versions of noodle bowls or similar food.</p><p>Better food is available, but its price scales with its quality. Vat-grown meat is said to</p><blockquote><p>—Nemesis Games</p></blockquote><p>be as good as the real thing—though few truly believe it. Microgravity fish farms produce shrimp, salmon, and other seafood well suited for microgravity. Hydroponic rigs are common, from family-scale up to the industrial, but fresh strawberries still command a fair price. Mushrooms and myco-proteins are a staple, easily grown and fertilized with organic waste. Among the rarest of foods is real cheese, worth more per ounce than precious metals out in the Belt, leading to a thriving black market.</p><h2>Drinks</h2><p>Beverages vary just as much as food, both in type and quality. A common late-night argument is whether or not it’s truly safe to drink ice-melt straight from Saturn, but the debate doesn’t keep Belter miners from doing it when needed. Others prefer the water after it’s been run through their particular local set of filters. Those who claim a particularly refined sense of taste seek out pricy water with clarity and taste improved through lengthy filtration and remineralization, using tweaked versions of the same systems used to provide precise water-mineral balance to high-end hydroponics.</p><blockquote><p>“Right,” Holden said. “No coffee. This is a</p></blockquote><p>Even if they are indifferent about water, everybody has their preferences when it comes to liquor. Nearly every ship and station where the rules allow (and most where</p><blockquote><p>terrible, terrible planet.”</p></blockquote><p>they can be bent) has stills and distilleries turning out a wide variety of beer and wine from cheap and terrible to surprisingly good. Drinks like fungal-culture whiskey started</p><blockquote><p>—Cibola Burn</p></blockquote><p>as desperate experiments and exploded into full-grown industries, and tweaks to recipes for pseudotequila and cheap Belter scotch are regularly traded while passing bottles of the end product.</p>"
+      },
+      "sort": 1800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.dVhBJ2qIK8iDZsQN",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "havpc36e5DZrY3Pz",
+      "name": "Housing",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A “hole” on Mars. A “cabin” on an ice freighter headed toward Saturn. A “common” on a mining family’s ship out past Anderson Station. There are an infinite variety of places space-going humanity calls home, but they have much in common.</p><h2>Space</h2><p>First and foremost, every cubic meter of space humans make into a home has to be claimed from a hostile environment and then defended from it. On a planet like Mars or a planetoid like Ceres, these spaces are mined out from solid rock and their walls sealed with a coating of plastic, tunnels off of tunnels in the warrens making up those habitats. On ships the walls are metal, often with the ship’s water tanks just beyond providing the radiation shielding that rock does planetside. Both rock and metal walls seal in a critical bubble of air. Of course, as the saying goes, “The only place air’s free is Earth.” Simple greenery like snake plants and devil’s ivy are common in many homes, staples of first-generation air recycling schemes now kept as good luck charms by those hoping for the most efficient use of expensive air consumed by the home.</p><h2>Amenities</h2><p>Once claimed, a space can be made into a home. Full-spectrum LEDs provide any level of illumination from candlelight to sunlight, and can be programmed to a custom cycle of day, night, and mood lighting. Most standard designs have a tiny shower, toilet, and half-sink crammed into a tight corner, not only for space efficiency but to make it easier for water vapor to be reclaimed from the air, and allowing the remaining volume to be divided up however the inhabitant desires. Sometimes utility channels allow wiring and ductwork to be hidden beyond the walls, but just as often it is attached to and painted the same color as the ceiling. For a touch of comfort or luxury, rock or metal surfaces can be given a veneer of wood-textured laminate or even a thin layer of real wood; lodge-pole pine has proven the most robust variety for growth in low gravity. Shipboard, when multiple travelers or crew share quarters, each still tends to have their own pressed-metal footlocker, with its edges magnetized to keep it stuck to deck plating during maneuvers or wall plating so it can act as a hanging cabinet. When space is particularly tight, even planetside, home furnishings take a cue from spaceships and are designed to fold against the walls. A home terminal linked to the inhabitants’ hand terminals and local memory partitions is standard. Some homes have screen walls, large high-resolution film displays covering entire walls that can mirror local data from terminals, show programming from a variety of feeds, or act as “windows” linked to cameras across the solar system. Real windows are follies on ships and stations, needless weak points and risks.</p><h2>Recycling</h2><p>Personal possessions tend to be useful or particularly valued by the inhabitants. Not every home has its own fabricator, sending the inhabitants to nearby shops or stores for their needs, but every home has a recycler, to ensure as little raw matter as possible goes to waste. A separate capture and disposal system takes care of organic waste, shunting it into its own processing system. Despite sparse possessions and quick disposal of unwanted material, the end appearance is not a spartan home but one that is simple and clean. Off Earth, it takes wealth, effort, or both to live in cluttered squalor.</p>"
+      },
+      "sort": 1900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.havpc36e5DZrY3Pz",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "PdmaX4DKiEJjqyqU",
+      "name": "Medicine",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Most medical tech is covered under the Recovering interlude (see Interludes in Chapter 5) and the care of a physician or auto-doc. At the GM’s discretion, a character who has ongoing medical needs like blood screenings, anti-cancer meds, or other regular treatments may have a +1 or +2 increase in the Income requirement for their lifestyle to reflect the additional expense. A one-time medical expense like the replacement of a limb or organ is generally Income TN 15 to 18 or more depending on the quality of the replacement, from a relatively inexpensive prosthetic to a new cloned limb.</p><p>When it comes to modern medicine, the question largely isn’t whether miracles are possible, but if they’re available and affordable. The need to maintain the body during long periods living in microgravity and surviving bursts of high acceleration has led to revolutions in the understanding of biology and physiology. Generations of biochemists working in microgravity have produced pharmaceuticals undreamed of before humanity left Earth, and the greatest accidental genetics experiment of all time—the rise of Belters through the influence of their environment—has given geneticists more data than even their expert systems can process. If necessity is the mother of invention, humanity’s settlement of space has placed a whole new set of demands on medical science, which has invented the means to meet them.</p><h2>Pharmaceuticals</h2><p>Everyone who lives and travels in space is familiar with standard medical supplements issued to encourage bone growth and density, descendants of the same drugs that once allowed short duration visits to orbit, but now enable humans to travel and live indefinitely in deep space. Similar improvements led to topical coagulation boosters which quickly staunch the flow of blood from a wound, critical for fighting blood loss in microgravity, and a variety of autophagic drugs helping control everything from fatigue to systemic cellular breakdown. Anti-cancer medications are necessary for those who have experienced significant radiation exposure due to poor shielding.</p><p>DRUGS AND CONDITIONS</p><p>A primary use of pharmaceuticals is to mitigate and ease various conditions (see Conditions in Chapter 1). From amphetamine derivatives intended to ward off being fatigued and exhausted to pain-killers to shrug off the effects of being injured or wounded, and even life-saving drugs to save people from dying, the right pharmaceutical cocktail can alleviate the effects of a condition, at least temporarily. The problem is that while drugs can treat the symptoms (and the game modifiers), generally only proper treatment can actually remove the underlying condition. See Recovering in the Interludes section of Chapter 5 for details.</p><p>DRUGS AND MAINTENANCE</p><p>Some medical conditions require an ongoing regimen of pharmaceuticals (and other treatments), such as anti-cancer medications, antivirals, blood filtration, and similar treatments. So long as the patient has these treatments, chronic conditions remain manageable and are often held at bay. This kind of medical maintenance can usually be reflected with a small (+1 or +2) increase to the Income requirement of the character’s lifestyle, representing the additional cost. The only problem arises when the character cannot afford the necessary treatment, or misses it for other reasons, such as lack of access. In those cases, the patient’s condition might change, as the GM imposes conditions reflecting the character’s declining health until they have the opportunity to partake of Recovering during an interlude.</p><p>DRUGS AND BONUSES</p><p>Certain drugs may grant a short-term bonus to certain abilities and ability tests. This is usually the equivalent of gaining an associated ability focus, like Constitution (Stamina), Perception (Empathy or Intuition), or Willpower (Courage). If the character already has the associated focus, then its bonus increases by +1. The benefits of an enhancement drug usually only last 2d6 minutes or so, and some cause conditions like fatigued as after-effects.</p><p>THE JUICE</p><p>Perhaps the greatest pharmacological development for space travel is “the juice,” a cocktail of drugs to help travelers endure the rigors of high-g acceleration. Passengers get a mix of the juice which protects and sedates them during the journey. The crew, however, gets a version that keeps them hyper-awake and -aware despite any pain or stress, mixing in focusing pharmaceuticals that push emotions into the background and reduce the mind to pure executive function.</p><p>Even on the juice, there tends to be a practical max of 7 to 8 g for prolonged acceleration and short bursts of up to 12 g for emergency maneuvers. Any more and the risk of medical problems rises precipitously as constant pressure on the body turns minute physiological flaws into crises, with blood pooling, weak arteries rupturing in aneurysms, hearts going into cardiac arrest, and lungs and digestive tracts collapsing. Strokes at high-g aren’t uncommon, and acceleration calculations often include what percentage of the crew and passengers are expected to have cardiac problems given the planned level and duration of acceleration. Even with the juice, recent travelers can sometimes be identified from black eyes and other pressure bruising, and the “acceleration swagger” from deep joint pain as cartilage slowly shifts back to its natural form and function.</p><p>As detailed in Chapter 6: Spaceships, the juice allows characters to take fatigued and exhausted conditions to mitigate acceleration damage before having to take injured and wounded conditions. The Cost of the supply of juice is included in the maintenance and upkeep of a ship.</p><h2>Limb and Organ Replacement</h2><p>The high number of mining and construction accidents during the settlement of Mars and deep-space harvesting of ore and ice quickly led to improvements in prosthetics to allow the injured to rejoin the workforce as quickly as possible. The connections between artificial limbs and the wearer’s nervous system have been refined over the years until the best modern limbs have force feedback, pressure and temperature sensors, and fine-motor software. While the prosthetics appear to be the same limbs they replace, few can pass the most casual inspection by touch. Experimental procedures on Earth, typically limited to the wealthy, use tailored biogel to grow connections between the patient and entirely new cloned limbs.</p>"
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dJOlZtgspkrPG0e6.PdmaX4DKiEJjqyqU",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": "TD8nJk5ZKoBh0xb1",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "dJOlZtgspkrPG0e6",
+  "_key": "!journal!dJOlZtgspkrPG0e6",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

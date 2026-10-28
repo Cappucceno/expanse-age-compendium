@@ -1,0 +1,24 @@
+{
+  "name": "Medicine",
+  "_id": "a69mKzdX3cXr0sck",
+  "_key": "!items!a69mKzdX3cXr0sck",
+  "folder": "TyLsoqrRehbelj4q",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Tending to the sick and injured, and understanding medical and anatomical knowledge.</p>",
+    "useAbl": "int",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

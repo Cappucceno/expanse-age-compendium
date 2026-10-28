@@ -1,0 +1,24 @@
+{
+  "name": "Gunnery",
+  "_id": "Yrk7SoG5SbDZ11J2",
+  "_key": "!items!Yrk7SoG5SbDZ11J2",
+  "folder": "epZze6Wd6DHPWTAO",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Proficiency with precision heavy ranged weapons, including ship-mounted weapons.</p>",
+    "useAbl": "acc",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

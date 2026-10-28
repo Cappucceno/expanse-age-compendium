@@ -1,0 +1,26 @@
+{
+  "name": "Hull Breach",
+  "_id": "9k2EfFsmVT1v9YJv",
+  "_key": "!items!9k2EfFsmVT1v9YJv",
+  "folder": "fbhZaRhBv5ffJFzO",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 3+ SP</em></p><p>You inflict significant damage to the vehicle, reducing its Hull rating by 1 per 3 SP spent. The loss of Hull rating lasts until repaired.</p>",
+    "type": "Vehicle Combat",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

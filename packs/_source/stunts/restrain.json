@@ -1,0 +1,26 @@
+{
+  "name": "Restrain",
+  "_id": "nvraXXmPuJOEQRMe",
+  "_key": "!items!nvraXXmPuJOEQRMe",
+  "folder": "hgBf5TCh65XH0uak",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>If you have appropriate equipment in hand, like handcuffs or rope, you and your target make opposed Fighting (Grappling) rolls; if you win, they become restrained (see Conditions in Chapter 1) and can’t do anything other than try to escape with a Strength (Might) or Dexterity (Sabotage) test as a major action, TN = 10 + (your Fighting (Grappling) score). Note: You may only choose stunts from this list when you earn the SP while making a Fighting (Grappling) attack.</p>",
+    "type": "Grappling",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

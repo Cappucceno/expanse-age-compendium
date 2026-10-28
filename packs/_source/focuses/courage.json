@@ -1,0 +1,24 @@
+{
+  "name": "Courage",
+  "_id": "8q2EjN89LSMtxdbZ",
+  "_key": "!items!8q2EjN89LSMtxdbZ",
+  "folder": "RJvS9GDi80RRCOt3",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Overcoming fear in the face of adversity.</p>",
+    "useAbl": "will",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

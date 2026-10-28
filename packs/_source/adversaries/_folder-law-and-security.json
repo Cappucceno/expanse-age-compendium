@@ -1,0 +1,17 @@
+{
+  "name": "Law and Security",
+  "type": "Actor",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "PkhHQsUEkbbtXxsb",
+  "_key": "!folders!PkhHQsUEkbbtXxsb",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "Escudos",
+  "mapping": {
+    "name": "name"
+  },
+  "entries": {
+    "Ballistic Shield": {
+      "name": "Escudo Balístico"
+    },
+    "Riot Shield": {
+      "name": "Escudo Antichoque"
+    }
+  }
+}

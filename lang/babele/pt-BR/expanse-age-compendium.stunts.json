@@ -1,0 +1,269 @@
+{
+  "label": "Façanhas",
+  "mapping": {
+    "name": "name"
+  },
+  "entries": {
+    "A Stitch in Time": {
+      "name": "Um Momento no Tempo"
+    },
+    "Adrenaline Rush": {
+      "name": "Surto de Adrenalina"
+    },
+    "Armor Crush": {
+      "name": "Esmagar Armadura"
+    },
+    "Attack on the Move": {
+      "name": "Ataque em Movimento"
+    },
+    "Bind Weapon": {
+      "name": "Travar Arma"
+    },
+    "Blockade": {
+      "name": "Bloqueio"
+    },
+    "Bravery": {
+      "name": "Bravura"
+    },
+    "Break Weapon": {
+      "name": "Quebrar Arma"
+    },
+    "Called Shot": {
+      "name": "Área Específica"
+    },
+    "Calming the Waters": {
+      "name": "Acalmando as Águas"
+    },
+    "Cover Your Tracks": {
+      "name": "Cobrir seus Rastros"
+    },
+    "Disable Drive": {
+      "name": "Desativar Propulsão"
+    },
+    "Disable Engine": {
+      "name": "Desativar Motor"
+    },
+    "Disarm": {
+      "name": "Desarmar"
+    },
+    "Double-Team": {
+      "name": "Em Dupla"
+    },
+    "Duck and Weave": {
+      "name": "Esquivar e Gingar"
+    },
+    "Efficient Gunner": {
+      "name": "Artilheiro Eficiente"
+    },
+    "Evasive Maneuver": {
+      "name": "Manobra Evasiva"
+    },
+    "Expose": {
+      "name": "Expor"
+    },
+    "Fancy Meeting You Here": {
+      "name": "Que Surpresa Te Ver Aqui"
+    },
+    "Feint": {
+      "name": "Fintar"
+    },
+    "Follow the Leader": {
+      "name": "Siga o Líder"
+    },
+    "Footwork": {
+      "name": "Jogo de Pernas"
+    },
+    "Frugal": {
+      "name": "Frugal"
+    },
+    "Good Instincts": {
+      "name": "Bons Instintos"
+    },
+    "Grapple": {
+      "name": "Agarrar"
+    },
+    "Group Tactics": {
+      "name": "Tática de Grupo"
+    },
+    "Guardian Angel": {
+      "name": "Anjo da Guarda"
+    },
+    "Hamstring": {
+      "name": "Rasgar Tendão"
+    },
+    "High Tech Hustle": {
+      "name": "Atividade High-Tech"
+    },
+    "Hinder": {
+      "name": "Limitar"
+    },
+    "Hostage": {
+      "name": "Refém"
+    },
+    "Hull Breach": {
+      "name": "Romper Casco"
+    },
+    "Human Shield": {
+      "name": "Escudo Humano"
+    },
+    "Injure": {
+      "name": "Ferir"
+    },
+    "Interference": {
+      "name": "Interferência"
+    },
+    "It Wasn’t Me": {
+      "name": "Não Fui Eu"
+    },
+    "Jury Rig": {
+      "name": "Improvisar"
+    },
+    "Just a Shadow": {
+      "name": "É Só uma Sombra"
+    },
+    "Keep It Steady": {
+      "name": "Manter Estável"
+    },
+    "Knock Out": {
+      "name": "Nocautear"
+    },
+    "Knock Prone": {
+      "name": "Derrubar"
+    },
+    "Lethal Blow": {
+      "name": "Golpe Letal"
+    },
+    "Lightning Attack": {
+      "name": "Ataque Relâmpago"
+    },
+    "Long Burst (Automatic)": {
+      "name": "Rajada Longa (Automática)"
+    },
+    "Momentum": {
+      "name": "Ímpeto"
+    },
+    "Off-Course": {
+      "name": "Tirar de Curso"
+    },
+    "Over Here!": {
+      "name": "Ei, Aqui!"
+    },
+    "Overcome Toughness": {
+      "name": "Superar Resistência"
+    },
+    "Overwatch": {
+      "name": "Vigia"
+    },
+    "Parry": {
+      "name": "Aparar"
+    },
+    "Pay Dirt": {
+      "name": "Descoberta Valiosa"
+    },
+    "Penetrate Hull": {
+      "name": "Penetrar Casco"
+    },
+    "Pin": {
+      "name": "Prender"
+    },
+    "Pistol Whip (Pistol)": {
+      "name": "Coronhada (Pistola)"
+    },
+    "Precision Marksmanship": {
+      "name": "Tiro Preciso"
+    },
+    "Punch It": {
+      "name": "Acelera"
+    },
+    "Rapid Reload": {
+      "name": "Recarga Rápida"
+    },
+    "Restrain": {
+      "name": "Deter"
+    },
+    "Ricochet": {
+      "name": "Ricochete"
+    },
+    "Rupture": {
+      "name": "Ruptura"
+    },
+    "Scuttle": {
+      "name": "Abater"
+    },
+    "Seize the Initiative": {
+      "name": "Tomar a Iniciativa"
+    },
+    "Shock and Awe": {
+      "name": "Choque e Pavor"
+    },
+    "Short Burst (Automatic)": {
+      "name": "Rajada Curta (Automática)"
+    },
+    "Short Cut": {
+      "name": "Atalho"
+    },
+    "Shrapnel": {
+      "name": "Estilhaço"
+    },
+    "Skewer": {
+      "name": "Espetar"
+    },
+    "Skirmish": {
+      "name": "Escaramuça"
+    },
+    "Slowdown": {
+      "name": "Desacelerar"
+    },
+    "Sniper’s Perch": {
+      "name": "Terreno Elevado"
+    },
+    "Speed Demon": {
+      "name": "Ridiculamente Rápido"
+    },
+    "Spray and Pray (Automatic)": {
+      "name": "Atirar para Todo Lado (Automática)"
+    },
+    "Strafe (Automatic)": {
+      "name": "Bombardear (Automática)"
+    },
+    "Strangle": {
+      "name": "Estrangular"
+    },
+    "Suppressive Fire (Automatic)": {
+      "name": "Tiro de Supressão (Automática)"
+    },
+    "System Damage": {
+      "name": "Dano ao Sistema"
+    },
+    "Take Cover": {
+      "name": "Procurar Cobertura"
+    },
+    "Take One for the Team": {
+      "name": "Levar uma Pelo Time"
+    },
+    "Takedown": {
+      "name": "Tombar"
+    },
+    "Taunt": {
+      "name": "Provocar"
+    },
+    "The Upper Hand": {
+      "name": "Vantagem"
+    },
+    "Vicious Blow": {
+      "name": "Golpe Violento"
+    },
+    "Whatever’s Handy": {
+      "name": "O que Estiver à Mão"
+    },
+    "When a Plan Comes Together": {
+      "name": "Quando Surge um Plano"
+    },
+    "With a Flourish": {
+      "name": "Com Estilo"
+    },
+    "Wound": {
+      "name": "Machucar"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Backgrounds",
+  "type": "RollTable",
+  "folder": null,
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "KupSToGvoqsE558E",
+  "_key": "!folders!KupSToGvoqsE558E",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

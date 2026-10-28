@@ -1,0 +1,39 @@
+{
+  "name": "Striking Style",
+  "_id": "Rg3rZR5AOKZIBlQ4",
+  "_key": "!items!Rg3rZR5AOKZIBlQ4",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>By training or raw talent, your unarmed strikes leave a lasting impression.</p>",
+    "shortDesc": "",
+    "requirement": "Fighting (Brawling) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>When you attack unarmed, you inflict 1d6 damage instead of 1d3.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your punch can drop the toughest opponents. You can perform the Knock Prone stunt for 1 SP when attacking unarmed.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can perform the Injure or Vicious Blow action stunts for 1 SP when attacking unarmed.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

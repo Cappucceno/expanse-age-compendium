@@ -1,0 +1,26 @@
+{
+  "name": "Break Weapon",
+  "_id": "CI4QTyvyChWZUCcF",
+  "_key": "!items!CI4QTyvyChWZUCcF",
+  "folder": "5WLkOpAoM7Q1uty9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You and your opponent make opposed melee attack rolls; if you win, your destroy your opponent’s weapon, rendering it unusable. Note: You may only choose stunts from this list when you earn the SP while making a melee attack.</p>",
+    "type": "Melee",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

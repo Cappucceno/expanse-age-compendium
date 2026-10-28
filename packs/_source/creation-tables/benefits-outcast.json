@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Outcast",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefit for the Outcast background (Step 4).",
+  "results": [
+    {
+      "_id": "mmKYfCKAj4pyMn7I",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!bp9zDs7k7FjIHfOp.mmKYfCKAj4pyMn7I"
+    },
+    {
+      "_id": "s6QDeEBufk9ZfZJx",
+      "type": "text",
+      "name": "Focus: Perception (Seeing)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!bp9zDs7k7FjIHfOp.s6QDeEBufk9ZfZJx"
+    },
+    {
+      "_id": "rpSYlyl4IKAg93nw",
+      "type": "text",
+      "name": "Focus: Fighting (Light Weapons)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!bp9zDs7k7FjIHfOp.rpSYlyl4IKAg93nw"
+    },
+    {
+      "_id": "J3AoS0J5HcuHKwTp",
+      "type": "text",
+      "name": "Focus: Intelligence (Technology)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!bp9zDs7k7FjIHfOp.J3AoS0J5HcuHKwTp"
+    },
+    {
+      "_id": "0n6ZCwnSF8p2Iacj",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!bp9zDs7k7FjIHfOp.0n6ZCwnSF8p2Iacj"
+    },
+    {
+      "_id": "ifCyzbJ5Gf8A0Rs0",
+      "type": "text",
+      "name": "Focus: Dexterity (Sleight of Hand)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!bp9zDs7k7FjIHfOp.ifCyzbJ5Gf8A0Rs0"
+    },
+    {
+      "_id": "SePQHRSm7kjcH7Wz",
+      "type": "text",
+      "name": "Focus: Willpower (Courage)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!bp9zDs7k7FjIHfOp.SePQHRSm7kjcH7Wz"
+    },
+    {
+      "_id": "eOOm4ZiPrz3PaNhs",
+      "type": "text",
+      "name": "+1 Communication",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!bp9zDs7k7FjIHfOp.eOOm4ZiPrz3PaNhs"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "H8ydMcpygzMyt8US",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "bp9zDs7k7FjIHfOp",
+  "_key": "!tables!bp9zDs7k7FjIHfOp"
+}

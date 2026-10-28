@@ -1,0 +1,143 @@
+{
+  "name": "Professions: Outsider",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 5: Profession",
+  "results": [
+    {
+      "_id": "yC6TXpnUoFOiV2Hl",
+      "type": "text",
+      "name": "Brawler",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!yP0ZFPxZo2jxqbp5.yC6TXpnUoFOiV2Hl"
+    },
+    {
+      "_id": "7sFMhNf9deC4p4Qd",
+      "type": "text",
+      "name": "Survivalist",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!yP0ZFPxZo2jxqbp5.7sFMhNf9deC4p4Qd"
+    },
+    {
+      "_id": "j4QtsWiReXdJpSRr",
+      "type": "text",
+      "name": "Criminal",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!yP0ZFPxZo2jxqbp5.j4QtsWiReXdJpSRr"
+    },
+    {
+      "_id": "zSUSmXKqLAjiKuJA",
+      "type": "text",
+      "name": "Scavenger",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!yP0ZFPxZo2jxqbp5.zSUSmXKqLAjiKuJA"
+    },
+    {
+      "_id": "RL37j1fhw1Nvj8c5",
+      "type": "text",
+      "name": "Fixer",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!yP0ZFPxZo2jxqbp5.RL37j1fhw1Nvj8c5"
+    },
+    {
+      "_id": "7ab89BLqIuAFU9Ob",
+      "type": "text",
+      "name": "Artist",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!yP0ZFPxZo2jxqbp5.7ab89BLqIuAFU9Ob"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "ssn45qOk4eAKtLb5",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "yP0ZFPxZo2jxqbp5",
+  "_key": "!tables!yP0ZFPxZo2jxqbp5"
+}

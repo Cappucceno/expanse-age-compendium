@@ -1,0 +1,23 @@
+{
+  "label": "Armaduras",
+  "mapping": {
+    "name": "name"
+  },
+  "entries": {
+    "Heavy Armor": {
+      "name": "Armadura Pesada"
+    },
+    "Light Armor": {
+      "name": "Armadura Leve"
+    },
+    "Medium Armor": {
+      "name": "Armadura Média"
+    },
+    "Padding": {
+      "name": "Proteção Leve"
+    },
+    "Power Armor": {
+      "name": "Armadura de Energia"
+    }
+  }
+}

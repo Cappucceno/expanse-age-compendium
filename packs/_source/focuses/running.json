@@ -1,0 +1,24 @@
+{
+  "name": "Running",
+  "_id": "uA64X6ubMOmHBLTl",
+  "_key": "!items!uA64X6ubMOmHBLTl",
+  "folder": "Ph6Gjb2albZaRSQM",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Moving quickly in both short sprints and long-distance hauls.</p>",
+    "useAbl": "cons",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

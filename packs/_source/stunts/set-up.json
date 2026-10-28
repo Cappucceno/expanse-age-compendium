@@ -1,0 +1,26 @@
+{
+  "name": "Set-Up",
+  "_id": "HCQbaKAWcrRpQgXJ",
+  "_key": "!items!HCQbaKAWcrRpQgXJ",
+  "folder": "dPhyZYcxqCcyUgIT",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 4+ SP</em></p><p>You maneuver an opposing ship into a hazard, such as a normally shorter range weapon, a field of debris, or even a floating rock. This stunt is considered a weapon attack (see Weapon Attacks) inflicting damage dice equal to half the SP spent (round down). The Set-Up can be evaded (see Evasion under Defensive Actions); the TN is 10 + your Intelligence + Leadership focus (if any) + half the SP spent. So if a character with Intelligence 2 and Leadership spends 5 SP on this stunt, the TN to evade the Set-Up is (10 + 2 + 2 + 2.5, rounded down to 2) or 16, and a failure on the evasion test results in 2d6 damage to the target ship.</p>",
+    "type": "Space Combat Command",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

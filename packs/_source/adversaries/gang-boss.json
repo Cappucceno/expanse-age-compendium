@@ -1,0 +1,422 @@
+{
+  "name": "Gang Boss",
+  "_id": "ZEGcaAKjge37UEVp",
+  "_key": "!actors!ZEGcaAKjge37UEVp",
+  "folder": "N3WRoFwp0q9l0Jar",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 2
+      },
+      "comm": {
+        "value": 2
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 3
+      },
+      "fight": {
+        "value": 3
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 3
+      },
+      "str": {
+        "value": 2
+      },
+      "will": {
+        "value": 2
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 21,
+      "value": 21
+    },
+    "features": "<p><strong>AKA:</strong> Crime Boss, Drug Lord, Head Goon</p><p>Gang bosses carve out territories in the seedier parts of cities, outposts, and space stations. They coordinate their goons to gain a hold over the populace either through distribution of drugs, intimidation, or subversion of law enforcement. Though many work behind the scenes, they often keep their lot in line through malicious shows of force and cruelty. The gang boss is seldom encountered on their own, usually accompanied by several minions who act as both enforcers and bodyguards. See the statistics for the Thug later in this chapter for more details.</p><p><strong>Stunts:</strong> Adrenaline Rush, Vicious Blow</p><p><strong>Talents:</strong> Contacts (Expert), Inspire (Novice), Intrigue (Novice)</p><p><strong>Equipment:</strong> brass knuckles, combat knife, drug paraphernalia, gang colors, light chain, pistol</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "D81xt5J6aQrqSZMb",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.D81xt5J6aQrqSZMb",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Bargaining",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "iukimQRZHssjezTO",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.iukimQRZHssjezTO",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Leadership",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "UEyVmpS6kl01i5Bg",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.UEyVmpS6kl01i5Bg",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Brawling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "yV7niDyZK8xe8rJw",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.yV7niDyZK8xe8rJw",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Light Weapons",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "xcbz2LAIi5aNco5P",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.xcbz2LAIi5aNco5P",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Evaluation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "TaMk398iOdqliXsx",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.TaMk398iOdqliXsx",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Law",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "H8LFUvJYPFtSx3UL",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.H8LFUvJYPFtSx3UL",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "VKcInuroaHNhgR7n",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.VKcInuroaHNhgR7n",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Morale",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "SOuAPbYTUY2fr4xW",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.SOuAPbYTUY2fr4xW",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Combat Knife",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "ywq9JPdJjFzCIOTp",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.ywq9JPdJjFzCIOTp",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5, damage 1d6+3.</p>",
+        "useAbl": "fight",
+        "useFocus": "light weapons",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Knuckles Dusters",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "Ymx46BOh4MtvStoD",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.Ymx46BOh4MtvStoD",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5, damage 1d3+3.</p>",
+        "useAbl": "fight",
+        "useFocus": "light weapons",
+        "nrDice": "1",
+        "diceType": "3",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d3+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Light Chain",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "oGfAKY7Y69Xzgceq",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.oGfAKY7Y69Xzgceq",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5, damage 1d6+2.</p>",
+        "useAbl": "fight",
+        "useFocus": "",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "N1Q0bCgACu0Pt0Xy",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.N1Q0bCgACu0Pt0Xy",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 2d6+1.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Armor",
+      "type": "equipment",
+      "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+      "_id": "RMmyF0SyW3KhtTmO",
+      "_key": "!actors.items!ZEGcaAKjge37UEVp.RMmyF0SyW3KhtTmO",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "equiped": true,
+        "modifiers": {
+          "d4jb7cmoSkVwq7e8": {
+            "type": "impactArmor",
+            "formula": "1",
+            "flavor": "",
+            "isActive": true,
+            "valid": true,
+            "conditions": {},
+            "ftype": "",
+            "key": "d4jb7cmoSkVwq7e8"
+          }
+        },
+        "longDesc": ""
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Gang Boss",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

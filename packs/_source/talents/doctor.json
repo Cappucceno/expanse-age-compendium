@@ -1,0 +1,39 @@
+{
+  "name": "Doctor",
+  "_id": "4CtO6zGnFJjMuc37",
+  "_key": "!items!4CtO6zGnFJjMuc37",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You have the skills to heal wounds and treat illness and other conditions. See Interludes in Chapter 5 for addiional details.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence (Medicine) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You’re skilled in treating patients. You can re-roll any dice with a result of 1 or 2 when making an Intelligence (Medicine) test.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>With access to medical supplies and tools, you can treat some conditions. With an hour and a basic TN 11 Intelligence (Medicine) test you can remove a wounded condition, leaving the patient only injured (see Conditions in Chapter 1). You can also remove other medical-related conditions with proper time and treatment, at the GM’s discretion, using the Interlude guidelines in Chapter 5.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can perform complex medical procedures to restore a patient to a normal, healthy condition, and you can re-roll any failed Intelligence (Medicine) test, but must keep the result of the second roll. When using Intelligence (Medicine) as a primary investigation focus, you generate +1 SP on any roll that generates stunt points.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Evasive Maneuver",
+  "_id": "UP4PeKIiKOibnoUd",
+  "_key": "!items!UP4PeKIiKOibnoUd",
+  "folder": "WC7yZ0ygjULwOXGj",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Until your next turn, attacks against you and your vehicle (if any) suffer a -2 penalty.</p>",
+    "type": "Chase",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

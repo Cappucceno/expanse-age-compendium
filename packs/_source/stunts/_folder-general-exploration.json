@@ -1,0 +1,17 @@
+{
+  "name": "General Exploration",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 400000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "jWxRAT01MmI484Bb",
+  "_key": "!folders!jWxRAT01MmI484Bb",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

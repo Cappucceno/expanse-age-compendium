@@ -1,0 +1,115 @@
+{
+  "name": "Cruiser",
+  "_id": "NxpaoWtnehREDBWU",
+  "_key": "!actors!NxpaoWtnehREDBWU",
+  "folder": "tDRTDSD1PdCpoxfe",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "spaceship",
+  "img": "systems/age-system/resources/imgs/actor-icon/rocket.svg",
+  "system": {
+    "size": 6,
+    "drive": "Epstein, Thrusters",
+    "description": "<p><strong>Competence:</strong> Skilled to Elite</p><p><strong>Qualities:</strong> Advanced Sensor Package (+2), Good Juice, Hangar Bay, Improved Stores, Medical Expert System, Plasma Torpedoes, Self-Destruct System</p><p><strong>Flaws:</strong> None.</p><p><strong>Crew:</strong> 64 (512)</p><p><strong>Size:</strong> Gigantic (250 meters long)</p>",
+    "hull": {
+      "nrDice": 4,
+      "diceType": 6,
+      "extraValue": 0
+    },
+    "crew": {
+      "min": 64,
+      "current": 64,
+      "typical": 64,
+      "competence": 4
+    },
+    "systems": {
+      "sensors": {
+        "mod": 2
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Point Defense Network",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "n1CVWN1uHPaDJjMi",
+      "_key": "!actors.items!NxpaoWtnehREDBWU.n1CVWN1uHPaDJjMi",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "2d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Rail Gun Turret",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "Azfo3ufv84CyyPhq",
+      "_key": "!actors.items!NxpaoWtnehREDBWU.Azfo3ufv84CyyPhq",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "3d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Three Torpedo Tubes",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "uG563IkiUkG8vyId",
+      "_key": "!actors.items!NxpaoWtnehREDBWU.uG563IkiUkG8vyId",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "4d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": ""
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Cruiser",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Agent",
+  "_id": "BxFvTQV3lHqFdhdq",
+  "_key": "!items!BxFvTQV3lHqFdhdq",
+  "folder": "y88XXvdfe5pCOOAm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You’re a skilled spy and infiltrator.</p><p>You hide in plain sight and deal in secrets. You work undercover and make few friends, and lying is second nature to you. You might have been in place for years, gaining authority in a group you are supposed to subvert, or even starting a family.</p><p><em>Synergies:</em> An Agent-Sniper is a peerless assassin. An Agent-Socialite is the suave sophisticate, as much at home in a casino or ballroom as in the field. An Agent-Ace is a great getaway artist, while an Agent-Investigator is the classic spy-catcher, or a delver into mysteries the police cannot touch. An Agent-Thief is a shadowy chameleon who avoids detection.</p>",
+    "shortDesc": "",
+    "requirement": "Perception 2 or higher and the Perception (Empathy) and Communication (Deception) focuses",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You built your life on lies. If you fail a Communication (Deception) test, you can re-roll it, but must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You are also adept at seeing through deception. When you use the Read the Room stunt, add +3 to your Perception (Empathy) roll when the stunt is opposed.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are a masterful spy. You gain two of the following focuses if you don’t have them already: Communication (Disguise), Communication (Investigation), Dexterity (Stealth), Intelligence (Cryptography), and Intelligence (Security). If you already have all of these, pick two and add +1 to all rolls made using them.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

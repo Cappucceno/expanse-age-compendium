@@ -1,0 +1,24 @@
+{
+  "name": "Light Weapons",
+  "_id": "ryCE0BnWSEffSx0y",
+  "_key": "!items!ryCE0BnWSEffSx0y",
+  "folder": "vIKcPGO2z4LRDZkv",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Proficiency with light close combat weapons like batons, knives, light staffs, and swords, among others.</p>",
+    "useAbl": "fight",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

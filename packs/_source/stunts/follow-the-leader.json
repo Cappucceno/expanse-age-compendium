@@ -1,0 +1,26 @@
+{
+  "name": "Follow the Leader",
+  "_id": "IDjsRkuZx4iYSnZj",
+  "_key": "!items!IDjsRkuZx4iYSnZj",
+  "folder": "WC7yZ0ygjULwOXGj",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Make a test with a TN you choose and an ability focus you work out with the GM for pulling off a tricky maneuver, such as Dexterity (Acrobatics) to slip through a small opening on the run, or Dexterity (Piloting) to do the same while flying. If you fail, you crash. Anyone following you using the same method of transport must make the same test or crash.</p>",
+    "type": "Chase",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

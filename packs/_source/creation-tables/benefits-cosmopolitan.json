@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Cosmopolitan",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefit for the Cosmopolitan background (Step 4).",
+  "results": [
+    {
+      "_id": "xyFQ91pNYSVBPYz2",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!LdWlnGGiRFLoJj2k.xyFQ91pNYSVBPYz2"
+    },
+    {
+      "_id": "UqUIC4NCMQE6fQrw",
+      "type": "text",
+      "name": "Focus: Intelligence (choose one)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!LdWlnGGiRFLoJj2k.UqUIC4NCMQE6fQrw"
+    },
+    {
+      "_id": "RPfTaeh0oMdGQXl3",
+      "type": "text",
+      "name": "Focus: Communication (Persuasion)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!LdWlnGGiRFLoJj2k.RPfTaeh0oMdGQXl3"
+    },
+    {
+      "_id": "prOcRkuXxRy3mFnc",
+      "type": "text",
+      "name": "Focus: Intelligence (Art)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!LdWlnGGiRFLoJj2k.prOcRkuXxRy3mFnc"
+    },
+    {
+      "_id": "HWiQQX2dHugJG4Cr",
+      "type": "text",
+      "name": "+1 Communication",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!LdWlnGGiRFLoJj2k.HWiQQX2dHugJG4Cr"
+    },
+    {
+      "_id": "uSKU7EzKxpLHfEqw",
+      "type": "text",
+      "name": "Focus: Communication (Bargaining)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!LdWlnGGiRFLoJj2k.uSKU7EzKxpLHfEqw"
+    },
+    {
+      "_id": "Ibo3EHnQFdEauii0",
+      "type": "text",
+      "name": "Focus: Perception (Seeing)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!LdWlnGGiRFLoJj2k.Ibo3EHnQFdEauii0"
+    },
+    {
+      "_id": "ytnKWErSGx5ztItU",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!LdWlnGGiRFLoJj2k.ytnKWErSGx5ztItU"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "H8ydMcpygzMyt8US",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "LdWlnGGiRFLoJj2k",
+  "_key": "!tables!LdWlnGGiRFLoJj2k"
+}

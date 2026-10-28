@@ -1,0 +1,39 @@
+{
+  "name": "Know-It-All",
+  "_id": "XIMkXH5iiHm6ffKB",
+  "_key": "!items!XIMkXH5iiHm6ffKB",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can bring your considerable knowledge to bear on any situation.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can attempt a test using an Intelligence focus somehow related to the test at hand rather than the called for ability, but with a –1 penalty. For example, using Intelligence (Business) instead of Communication (Persuasion) to convince a corporate middle-manager to agree with you. If this would be a tangential investigation focus, you do not suffer the +2 increase in TN.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You leverage every bit of information. You can perform the Breakthrough exploration stunt for 2 SP.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When you succeed at an ability test with a knowledge focus, you gain a +1 bonus to the result of each Drama Die on tests using related focuses for the duration of the encounter. For example, an Intelligence (Law) test can benefit Communication (Oratory) tests in a courtroom, or an Intelligence (Medicine) test can benefit a Perception (Intuition) test in a diagnosis.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

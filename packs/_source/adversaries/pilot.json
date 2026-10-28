@@ -1,0 +1,231 @@
+{
+  "name": "Pilot",
+  "_id": "pAj0zKlkStid9SnO",
+  "_key": "!actors!pAj0zKlkStid9SnO",
+  "folder": "BlPNbL9yVLi7AiLr",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 0
+      },
+      "comm": {
+        "value": 1
+      },
+      "cons": {
+        "value": 2
+      },
+      "dex": {
+        "value": 3
+      },
+      "fight": {
+        "value": 0
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 1
+      },
+      "will": {
+        "value": 1
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 12,
+      "value": 12
+    },
+    "features": "<p><strong>AKA:</strong> Ace, Space Jockey</p><p>Pilots live for the rush of blasting off into the stars or through the clouds. The hum of the engine, the speed and power with just a brush of the controls, and the feeling that you can go anywhere are the lifeblood of many pilots. A pilot’s skill is invaluable in every portion of life in the galaxy, from trade, to military, to recreation.</p><p><strong>Stunts:</strong> Jury Rig, Punch It, Speed Demon</p><p><strong>Talents:</strong> Pilot (Expert)</p><p><strong>Equipment:</strong> pistol, personal ship, vac suit</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "8P0OZmEaKNsjbjGD",
+      "_key": "!actors.items!pAj0zKlkStid9SnO.8P0OZmEaKNsjbjGD",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Piloting",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "NiaOBXTtdAHBxBWn",
+      "_key": "!actors.items!pAj0zKlkStid9SnO.NiaOBXTtdAHBxBWn",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Initiative",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "UTvj8bYSJmCctIGB",
+      "_key": "!actors.items!pAj0zKlkStid9SnO.UTvj8bYSJmCctIGB",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Astronomy",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ucbYIdi0v3Cjivgz",
+      "_key": "!actors.items!pAj0zKlkStid9SnO.ucbYIdi0v3Cjivgz",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Engineering",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "dd5I4jsiHL9LyDnb",
+      "_key": "!actors.items!pAj0zKlkStid9SnO.dd5I4jsiHL9LyDnb",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seeing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ZDTX8aE62a5EQ6p2",
+      "_key": "!actors.items!pAj0zKlkStid9SnO.ZDTX8aE62a5EQ6p2",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "ltAN0aVRMQP4vdKg",
+      "_key": "!actors.items!pAj0zKlkStid9SnO.ltAN0aVRMQP4vdKg",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +0, damage 2d6+2.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Pilot",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Riot Shield",
+  "_id": "N0Btbzbix3bTZjya",
+  "_key": "!items!N0Btbzbix3bTZjya",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A small body shield, usually made of an anti-ballistic and impact-resistant polymer, commonly transparent. Grants a +2 Defense bonus.</p>",
+    "weight": 0,
+    "cost": 13,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {
+      "NEBs7MH9nd5LA4GE": {
+        "type": "defense",
+        "formula": "2",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "NEBs7MH9nd5LA4GE"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

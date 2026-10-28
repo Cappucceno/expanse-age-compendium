@@ -1,0 +1,26 @@
+{
+  "name": "Stick Your Neck Out",
+  "_id": "42yfs4Krm8xGa0BX",
+  "_key": "!items!42yfs4Krm8xGa0BX",
+  "folder": "cML2W7TSvQfzGtww",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Your test puts your own Reputation in jeopardy to help someone else. An ally of your choice gains a +2 bonus to their next social test in this encounter; if they fail, you lose all Reputation bonuses from one honorific for the rest of the session.</p>",
+    "type": "Membership & Reputation",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

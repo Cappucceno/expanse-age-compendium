@@ -1,0 +1,1098 @@
+{
+  "name": "5. Game Play",
+  "pages": [
+    {
+      "_id": "JtaUuf1KAXm2ySFZ",
+      "name": "Transcription Notes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>This chapter was transcribed automatically from <em>The Expanse Roleplaying Game</em>. Sidebars and tables may appear out of order or merged with nearby text; consult the book for the exact layout of any table.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.JtaUuf1KAXm2ySFZ",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "R8oDunrGpGtaYqIC",
+      "name": "5. GAME PLAY",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Game play in The Expanse unfolds in a series of encounters and interludes. Think of these like the chapters or scenes of a novel. Encounters are further broken down into three types: action, exploration, and social, depending on the focus of the encounter. This chapter looks at the three types of encounters and how they play out using the basic rules given in Chapter 1, along with the interludes placed in between encounters, giving the characters some down time and the opportunity to pursue their own goals, or to simply recover from their last few encounters!</p><h2>Action Encounters</h2><p>When things get tense and it matters who does what, when, and in which order, action time begins. Action time is most commonly used to handle combat, but has other uses as well. Anything that would be considered an action scene in a movie can be handled as an action encounter.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.R8oDunrGpGtaYqIC",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "jPDH2sZZMz0fcolo",
+      "name": "Initiative",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>While narrative time is loose, action time is more tightly defined. Once it begins, the GM tracks time in 15-second increments called rounds (so there are 4 rounds in a minute). During each round, every individual in the encounter gets an opportunity to do something (called their turn) during which they can take a certain number of actions (see Taking Actions, following). Once everyone has taken their turn, the round ends, and a new round begins.</p><p>When action time begins, the following procedure takes effect.</p><p>1 The GM tells the players, “Roll for initiative.” Action time is now in effect.</p><p>Each player makes an initiative roll for their respective characters. This is a Dexterity (Initiative) test, essentially a “who goes first?” opposed test. The GM rolls initiative for each major NPC and each group of minor NPCs (major NPCs act individually, while minor NPCs generally act together in groups). Note that initiative rolls do not generate SP, even when the dice score doubles.</p><p>The GM compares the test results of all the characters and arranges them in a list from highest to lowest. This is the order in which characters take their turns for each round of the combat. If there’s a tie, whoever rolled higher on the</p><p>Drama Die wins. If it’s still a tie, whoever has the higher Dexterity score wins. The GM also determines if anyone involved in the conflict is surprised, as detailed in the Game Mastering chapter.</p><p>The character at the top of the initiative list takes a turn. On their turn, a character can take a major action and a minor</p><p>4 action, or two minor actions. Once these actions are resolved, the character’s turn is over. Surprised characters do not act on the first round of combat.</p><p>5 The next character on the initiative list takes a turn.</p><p>6 Repeat step 5 until every character has taken a turn.</p><p>Once every character has taken a turn, the round ends and a new one begins. Continue steps 4–7 each round. Initiative does not need to be rolled each round. The order remains set for the duration of the encounter. If new characters join the encounter, they roll initiative at the start of the round in which they appear, and get added to the initiative list.</p><p>Some stunts can change characters’ placement in the initiative order as well.</p><p>8 When the encounter is finished, the GM declares action time is over. Narrative time resumes.</p><p>EXAMPLE Amos and Holden, accompanied by Dr. Praxidike Meng and some Pinkwater mercenaries, face off against a dozen armed people in an isolated room on Ganymede. Amos hits one of them in the ribs with the butt of his rifle, knocking him down. Desperate to find his daughter, Dr. Meng cocks his pistol, and then everyone in the room goes for their weapon. “Roll for initiative,”</p><p>the GM tells the players. They report initiative test results of 15 for Amos, 13 for Holden, and 9 for Prax. The GM also rolls for the Pinkwater crew and the characters’ opponents, since they are both NPCs, getting test results of 12 for the Pinkwater mercs and 10 for the opposition.</p><p>So the initiative order for this encounter is: Amos (15), Holden (13), Pinkwater (12), the opposition (10), and Meng (9).</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.jPDH2sZZMz0fcolo",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "ZyObykLcoCcf0wSI",
+      "name": "Taking Actions",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>When it’s your turn during a round, you tell the GM what you want your character to do. On your turn, you may take a major action and a minor action. You can take your actions in any order, and can take fewer actions if you like. You may also replace your major action with a second minor action, if you want.</p><h2>Major Actions</h2><p>A major action requires a focused effort, often affecting something or someone else, and requiring an ability test. Taking a swing at an opponent, trying to override a lock in the midst of a firefight, and providing first aid to a wounded ally are all examples of major actions.</p><h2>Minor Actions</h2><p>A minor action is not as involved as a major action, but still represents a deliberate effort on the character’s part and usually works automatically with no test involved. Things like running toward a new position, fetching an item from a container, or reloading a gun are all examples of minor actions.</p><h2>Free Actions</h2><p>A free action takes a negligible amount of time, and doesn’t count toward your usual limitation on actions. The rules note when something is a free action. The GM can restrict the number of free actions you can take, if it wouldn’t be realistic for you to perform them all on your turn. You can talk as a free action, for example, but since a round is only 15 seconds long, what you can say in that time is limited.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.ZyObykLcoCcf0wSI",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "lyCgyT90Sc3aS1Sm",
+      "name": "Action Listings",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A list of the most common major and minor actions follows. If you want to do something else, just say so and the GM can adjudicate it. The GM may require you to roll an ability test for your character depending on what you are trying to do. MAJOR ACTIONS</p><p>ALL-OUT ATTACK You attack one adjacent enemy in close combat, throwing the full force of your Strength behind the attack at the cost of your ability to defend yourself. If your attack hits, you do +1 damage, but whether or not the attack hits, you have a –1 to your Defense until the start of your next turn. CHARGE You move up to half your Speed (rounded down) in meters and finish with a close combat attack against an adjacent enemy. If you moved at least 4 meters in a straight line before reaching your target, you gain a +1 bonus on your attack roll. You cannot take this action if you are prone (you’d need to use the Move action to stand up first). DEFEND You focus on defending yourself. Until the start of your next turn, you gain a +2 bonus to your Defense.</p><p>MELEE ATTACK You attack an enemy within 2 meters of you in hand-to-hand combat. See Making Attacks, following.</p><p>RANGED ATTACK You fire or throw a ranged weapon at one visible enemy within range. See Making Attacks, following.</p><p>RUN You move up to twice your Speed in meters, sacrificing the ability to perform another action so you can move farther. You cannot take this action if you are prone (you’d need to use the Move action to stand up first). STUNT ATTACK Instead of trying to damage an opponent, you focus on performing a specific action stunt, like subduing an enemy with a hold instead of hurting them (a Grapple stunt). Roll an attack test as usual. A successful test awards you 1 SP of a type appropriate for the attack, but the attack itself inflicts no damage. If you roll doubles, you earn additional SP as normal and may choose a stunt that damages your opponent, but there is still no damage from the base attack. You can attempt stunt attacks against objects as well as opponents, though the GM may rule that some stunts do not apply. See Attacking Objects in this chapter for more information.</p><p>MINOR ACTIONS</p><p>ACTIVATE This action allows you to start using certain abilities or items, such as certain talents or technology.</p><p>AIM You take the measure of your opponent and plan your next strike. If your next action after Aim is a melee or ranged attack, you gain a +1 bonus on your attack roll. GUARD UP You balance action and defense. Add +1 or +2 (your choice) to your Defense until the end of the round. However, the same modifier becomes a penalty to all tests you make, even opposed tests, until the end of the round as well (unlike the Defend action, which lasts until the beginning of your next turn). If you choose this minor action, you must do it before any major action on your turn, and you cannot Defend on the same turn. MOVE You move up to your Speed in meters and can combine this with actions like dropping prone, standing up, or climbing into a vehicle, but each of these types of actions consumes half your Speed (rounded down). PREPARE When you take this action, you postpone your major action. You declare one major action and your choice to Prepare it. After you do so, the next person in the initiative order acts, and so on, but at any time until the beginning of your next turn, you can interrupt another character and take your prepared action immediately. If you don’t use the prepared action by your next turn, you lose it. PRESS THE ATTACK You stand ready to pursue an enemy if they fall back or flee. You can take this action after successfully striking an enemy target with a melee attack (whether you inflict damage or not). After you declare this action, if that foe moves away from you, you may immediately move up to your Speed in meters in direct pursuit at no additional cost in actions. This occurs immediately after your foe’s movement, before they can do anything else. READY You draw a weapon, pull out a device, or otherwise ready a stowed item. As part of this action, you can put away something already in hand. You could holster a pistol and pull out a grenade with the same Ready action, for example.</p><p>STAND FIRM You stand firm and prepare to resist any effort to move you. Until the start of your next turn, any enemy using the Skirmish or Knock Prone stunts to move you or knock you to the ground must succeed in an opposed test of their Strength (Might) against your choice of your own Strength (Might) or Dexterity (Acrobatics). If you win the test, the attempt fails. If the attacker wins, the attempt proceeds normally. The attacker still spends the stunt points, regardless of whether the attempt to move you succeeds or fails.</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.lyCgyT90Sc3aS1Sm",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "OvkQqxKogZeE5vul",
+      "name": "Making Attacks",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>There are two basic types of attack: melee and ranged. Both are handled the same way:</p><p>CHOOSE A TARGET Pick who or what you you want to attack. To make a melee attack, you must be no more than 2</p><p>1 meters away from your target. To make a ranged attack, you must have a line of sight to your target and be within range of your target.</p><p>MAKE AN ATTACK ROLL An attack roll is an ability test based on the type of attack you are making—Fighting for a</p><p>2 melee attack, Accuracy for a ranged attack. This is modified by a focus, if applicable, and any other relevant bonuses</p><p>(talents and actions such as aiming, charging, etc.). Your target number is your opponent’s Defense.</p><p>DETERMINE THE RESULT If your test result is equal to or greater than your opponent’s Defense, your attack hits. If it</p><p>3 is less than your target’s Defense, the attack misses. If you miss with a gun attack, check the Drama Die for weapon capacity; your gun might jam or be out of ammo (see Weapon Capacity, following).</p><blockquote><p>Attack Roll = 3d6 + Fighting (melee) or Accuracy (ranged) + focus vs. Defense</p></blockquote><p>EXAMPLE It’s Bobbie’s turn. She sees an opponent 4 meters away and uses the charge action to close the distance and attack.</p><p>Bobbie’s player makes an attack roll. This is a Fighting (Brawling) test, right up Bobbie’s alley. The roll is a 9, and she gets +3 for her Fighting ability, +2 because she has the Brawling focus, and another +1 for charging. Her test result for the attack roll totals 15 (9 + 3 + 2 + 1). This handily beats the target’s 11 Defense, so Bobbie lands a solid hit.</p><h2>Range</h2><blockquote><p>It’s all fun and games till someone shoots</p></blockquote><p>Melee attacks occur only in close combat, a distance of about 2 meters, with the</p><blockquote><p>back, Holden thought.</p></blockquote><p>assumption that foes are moving slightly and shifting position; lunging forward to attack, then ducking and weaving to dodge attacks. Opponents within range for melee</p><blockquote><p>—Leviathan Wakes</p></blockquote><p>combat are also referred to as adjacent.</p><p>Ranged attacks take place over a distance, with each type of weapon having a range, given on the Weapon Range table. Attacks out to the weapon’s listed</p>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.OvkQqxKogZeE5vul",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "GvJurmzYp5Pp2Xlg",
+      "name": "Weapon Range",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>range are made without a modifier. Attacks beyond that range, out to the weapon’s maximum range (150% of range), have a –2 modifier WEAPON TYPE RANGE MAXIMUM RANGE to the attack roll. Unless you’re using a battle-map and miniatures or</p><p>Bow 100 meters 150 meters tokens to mark out distances, the GM determines and describes the</p><p>Pistol 50 meters 75 meters range between combatants and determines range modifiers, if any.</p><p>Rifle 200 meters 300 meters</p><p>Thrown 10 + Str meters</p><p>—</p>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.GvJurmzYp5Pp2Xlg",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "d7vHYlc6pP24OGwp",
+      "name": "Attack Damage",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Once an attack hits, you determine the attack’s damage, unless you’re doing something like a stunt attack. You roll dice based on the type of</p><p>ATTACK TYPE</p><p>DAMAGE attack (as shown on the Attack Damage table), modified by your abili-</p><p>Unarmed ties and the effects of any actions or stunts:</p><p>1d3* + Str</p><p>Makeshift</p><p>1d6** + Str</p><blockquote><p>Attack Damage = attack type dice roll + ability + modifiers</p></blockquote><p>Light Melee</p><p>1d6 + Str or Dex</p><p>Heavy Melee</p><p>2d6 + Str</p><p>EXAMPLE Since Bobbie’s landed her blow effectively, it’s time to</p><p>Pistol</p><p>2d6 + Per calculate her damage. Bobbie has Striking Style, so her unarmed hits do 1d6 damage, plus her Strength score of 3. Her player</p><p>Rifle</p><p>3d6 + Per rolls a 4, so that’s 7 points of damage to the target.</p><p>Grenade</p><p>3d6 (5 meter radius)</p><p>For any unusual weapons that may come up, the GM should deter-</p><p>*1d6 if you have Striking Style (see Chapter 3)</p><p>**Makeshift weapons have certain drawbacks (see Makeshift Weapons). mine their damage and the ability modifier (if any) that applies to it, and</p><p>Some may inflict greater damage, or use a different ability score whether or not the attack counts as using a makeshift weapon.</p><p>for damage, at the GM’s discretion.</p>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.d7vHYlc6pP24OGwp",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "O1NAaySyZBc9hUBe",
+      "name": "Determining Damage",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Makeshift Weapons</h2><p>Characters sometimes use objects not intended or designed for combat as makeshift weapons, ranging from a piece of construction rebar to a tool case or a heavy mug from a galley. When a character uses a makeshift weapon, the GM may apply one or more of the following drawbacks:</p><p>CLUMSY The weapon is awkward to wield, imposing a –1 or –2 penalty to attack tests.</p><p>FRAGILE The weapon wasn’t made to take much punishment. When an attack with it misses and the Drama Die is 3 or less, the object breaks and becomes useless as a weapon.</p><p>WEAK The object can’t inflict damage as easily as a proper weapon, imposing a –1 or –2 penalty to damage rolls, with a minimum damage roll of 1.</p><h2>Stunning Weapons</h2><blockquote><p>“I’m not asking you to sleep with him.”</p></blockquote><p>Some weapons are designed specifically to incapacitate without wounding their</p><blockquote><p>“Good, because I don’t use sex as a weapon,”</p></blockquote><p>targets, particularly useful for security personnel or even civilians, as stunning</p><blockquote><p>Bobbie said. “I use weapons as weapons.”</p></blockquote><p>weapons tend to be permitted for personal defense more than lethal weaponry. They include things like stun-guns and tasers, which use charges of electricity, or</p><blockquote><p>—Caliban’s War</p></blockquote><p>some short range chemical weapons like mace or pepper spray.</p><p>As a general guideline, a stunning weapon does penetrating damage (see Penetrating Damage, following) but inflicts one die less damage than a comparable lethal weapon, so tasers do 1d6 damage versus a pistol’s 2d6, for example. A target taken out by the damage from a stunning weapon cannot have the dying condition applied to them, since such weapons aren’t lethal. See Taken Out under Applying Damage for more.</p>"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.O1NAaySyZBc9hUBe",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "Jfzc9D8v2LtPyY3Z",
+      "name": "Applying Damage",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Once you’ve determined the attack’s damage, figure out what effect it has on the target:</p><p>1 Subtract the target’s Toughness—including armor, if any—from the damage.</p><p>2 Spend Fortune to eliminate some or all of the remaining damage.</p><p>3 Take an injured or wounded condition to account for the remaining damage.</p><p>4 If any damage remains, the target is taken out.</p><h2>Toughness</h2><p>First, subtract the target’s Toughness from the damage. For most characters, their Toughness is equal to their Constitution score, which can be 0, but not negative.</p><p>Some characters also wear armor, which enhances their Toughness, sometimes quite a lot, such as in the case of military power armor. Armor has an armor rating, which increases the wearer’s Toughness, and an armor penalty that decreases</p><p>Dexterity and Speed, as shown on the Armor table. See Armor in Chapter 4 for details on the kinds of armor commonly used in The Expanse.</p><p>EXAMPLE Bobbie’s opponent has Toughness 1 from Constitution and is wearing 1 point of armor for a total Toughness of 2. That reduces the damage from her hit from 7 to 5.</p>"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.Jfzc9D8v2LtPyY3Z",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "m04oPXJbIwVeLXuq",
+      "name": "Armor",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>ARMOR TYPE ARMOR BONUS ARMOR PENALTY Some damage is defined as penetrating, meaning it ignores a character’s Toughness. This includes some forms of energy and damage</p><p>Padding</p><p>+1 that affects a target internally or is applied with such precision that it</p><p>Light body armor +2</p><p>–1 bypasses the protection afforded by Toughness. If a target is hit with Medium body armor +4</p><p>–2 penetrating damage, ignore Toughness and move on to the next step. Heavy body armor +6</p><p>–3</p><p>Power armor +12</p><p>SHIELD TYPE While Toughness measures how hard a target is to hurt, Fortune</p><p>DEFENSE BONUS measures how difficult they are to take out due to sheer luck, cunning,</p><p>Riot shield</p><p>+2 and overall importance to the story. The Expanse is about fictional</p><p>Ballistic shield</p><p>+3 heroes and, as we all know, some characters in a story are more important than others.</p><p>Characters can spend points from their Fortune total to eliminate damage on a 1-to-1 basis: 1 FP removing 1 point of damage. If the damage is reduced to 0, the attack has no effect beyond the merely cosmetic; it might rip the character’s jacket or muss their hair, perhaps even leave a slight bruise, but nothing more than that. Characters with no Fortune points don’t have this option; any damage over their Toughness and they either need to take an injury or wound or be taken out.</p><blockquote><p>“Violence is what people do when they run</p></blockquote><p>EXAMPLE The tough Bobbie hit is a nobody with no Fortune, so he can’t reduce her damage</p><blockquote><p>out of good ideas. It’s attractive because it’s</p></blockquote><p>that way. If he were a more important character with a Fortune of, say, 15 points, he could just spend 5 of those points and take no damage from the hit, turning it into a glancing blow.</p><blockquote><p>simple, it’s direct, it’s almost always available as an option. When you can’t think of a good</p></blockquote><h2>Injuries &amp; Wounds</h2><blockquote><p>rebuttal for your opponent’s argument, you can always punch them in the face.”</p></blockquote><p>If Fortune isn’t enough to completely spare a character from damage, then it is going to hurt. The character is either going to be taken out (see the following) or needs to take</p><blockquote><p>—Abaddon’s Gate</p></blockquote><p>an injured or wounded condition to reflect the remaining damage. See Conditions in</p><p>Chapter 1 for details on injured and wounded.</p><h2>Penetrating Damage</h2><h2>Fortune</h2><p>If the character accepts an injured condition, the damage is reduced by 1d6. If any damage remains, or the character is already injured, the character must accept a wounded condition or be taken out. If the character accepts a wounded condition, the damage is further reduced by 1d6. If any damage remains, the character is taken out. Once a character has the wounded condition, any damage that gets past Fortune takes them out.</p><p>EXAMPLE Since the tough is still facing 5 points of damage and doesn’t want to be taken out, he takes the option of an injury and rolls 1d6, getting a 2. That still leaves 3 points of damage. Ouch! So he decides to take a wound as well and rolls</p><p>1d6 again, getting another 2. Unfortunately for the poor tough, that still leaves a point of damage. If he’d rolled a 3 instead, he would have just avoiding being taken out, albeit still with a wounded condition.</p><h2>Taken Out</h2><p>If damage remains after applying Toughness, Fortune, and taking an injury or a wound, then the target is taken out of the encounter. The attacker may choose to impose any one condition from the list in Chapter 1 that is reasonable for the type of attack which takes out the target. So, for example, an attacker may choose to take out a target with a gunshot and leave them dying, wounded, or even just unconscious, if the GM agrees that’s reasonable and that the shot may have just stunned the target due to armor or the like.</p><blockquote><p>“Last man standing,” Amos replied</p></blockquote><p>Similarly, a target taken out by a roundhouse punch or kick might be unconscious or even</p><blockquote><p>with another grin. “It’s in my job</p></blockquote><p>dying, or merely exhausted. The key point is that the attacker decides on the target’s condition.</p><blockquote><p>description.”</p></blockquote><p>EXAMPLE With a point of damage left, the tough is taken out. Bobbie’s player decides he’s uncon-</p><blockquote><p>—Cibola Burn</p></blockquote><p>scious, not dying, although he’s also still wounded. She definitely broke something though, hitting him that hard. If she really needed the tough conscious, Bobbie’s player might have decided he was only helpless when taken out: defeated, but still able to answer questions.</p><h2>Rolling Over</h2><p>An Expanse character can also choose to roll over in an encounter. In essence, the character’s player chooses to take that character out of the encounter, much like a taken out result (previously) except the player chooses the character’s condition, subject to the approval of the GM, rather than leaving their fate up to their opponent. Rolling over is a “live to fight another day” tactic for when it’s clear a character is overmatched and doesn’t have much of a chance otherwise. You can only roll over in an encounter before you are taken out. Once you begin applying damage from an attack that has the potential to take you out, it’s too late to roll over.</p><p>EXAMPLE That tough could have spared himself a beating and just rolled over to Bobbie, either getting out of her way, or accepting just being unconscious if the Martian</p><p>Marine was in the mood for a beat-down and would accept no less. At least then he wouldn’t have to recover from being wounded afterward!</p><h2>Breathers</h2><p>After an encounter, characters get a breather, a moment to recoup and catch a short break. When they do so, they regain 1d6 + Constitution + Level in Fortune. Regaining additional Fortune points or recovering from conditions requires an interlude and possibly the recovering activity. See Interludes later in this chapter for details.</p>"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.m04oPXJbIwVeLXuq",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "PE3vtPVPLlFLPqYi",
+      "name": "Defense and Cover",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>You usually don’t have to take any action to avoid attacks. It’s a reflex, and covered by your Defense score. You might take actions to modify your Defense, however, such as Defend, Guard Up, or a stunt attack that boosts Defense (see Taking</p><p>Actions, previously).</p><h2>Taking Cover</h2><p>Taking cover is a special case. The presence of guns often makes it prudent to put something solid between you and an opponent’s firing arc. You can take cover in two ways. First, you can jump behind cover using the Take Cover stunt as part of your action. Second, you can move behind cover as part of your movement. You may need to drop prone in order to gain the most benefit from available cover.</p>"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.PE3vtPVPLlFLPqYi",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "HfSlD19Aa4I8tQvV",
+      "name": "Cover",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Cover provides a bonus to your Armor Rating against all RATING ARMOR BONUS RANGED ATTACK PENALTY ranged attacks except for those that inflict penetrating</p><p>+2</p><p>–1 damage, and imposes a penalty to your own ranged</p><p>+3</p><p>–2 attacks. Total cover, where you are completely hidden,</p><p>+4</p><p>–3 means you can’t be targeted with ranged attacks but you Total Can’t be attacked at range Can’t make ranged attacks likewise cannot target ranged attacks at anyone on the other side of the cover. See the Cover table for details.</p><p>EXAMPLE In a flophouse on Eros, Amos draws on the woman holding a gun on the crew and a dozen men and women with automatic weapons burst into the room. Amos throws himself prone after shooting the woman with the taser, giving ranged attacks against him a –1 penalty, while Holden uses his action to drag Naomi behind the check-in desk, giving them total cover for the moment, as a hail of bullets fills the air. On his next turn, Amos rolls sideways to the desk, improving his cover just in time as more bullets tear up the floor and wall.</p>"
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.HfSlD19Aa4I8tQvV",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "AmN9iGtK68P3eVAt",
+      "name": "Attacking Objects",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>There are times you might want to shoot out a lock or kick in a door, essentially attacking an object. Attacking an object during combat is much like attacking a living opponent. You make an attack roll as usual, but instead of Defense, use a TN based on the object’s size, using the Object Combat Target Numbers table as a guideline.</p>"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.AmN9iGtK68P3eVAt",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "gXnbBxiHcIl4xklk",
+      "name": "Object Combat Target Numbers",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The GM may increase the TN if the object is moving, and based on other factors. In addition, if you’re adjacent to the object and it isn’t moving, it’s easy to hit; you get a +5 bonus</p><p>TARGET SIZE</p><p>TARGET NUMBER to your attack roll—after all, it’s easy to hit a standing kiosk</p><p>Very large (a truck, a tool shed) with a baseball bat if you’re standing right in front of it.</p><p>Large (a motorized cart, a dumpster)</p><p>9 In some cases, an attack roll isn’t appropriate. If the</p><p>Human-sized (a bicycle, a kiosk) object would be easy to hit, or what you really want to do is to disable or modify it instead of just wrecking it, a basic</p><p>Small (a vehicle tire, a specific window) test might be called for instead. The GM decides which</p><p>Very small (a small drone, a lamppost) approach to use. Finally, note that some stunts bypass the Diminutive (a wielded handgun, a bicycle tire) 17 rules here; in those cases, use the rules listed for the stunt,</p><p>Minuscule (a switch, a door handle)</p><p>19 instead of those in this section.</p><p>You’ll often attack an object as part of the Stunt Attack</p><p>Almost invisible (a keyhole, a spy camera) 21 action, in which case attacking it has whatever effect the stunt designates, or as an action where the results are determined by the GM. If an object might be gradually battered apart, the GM can assign it Toughness and Fortune based on the desired goal (it takes more damage to destroy a door than to just kick it open). The GM can also determine that some attacks inflict double damage to particular objects (roll damage dice twice and add them together), while others inflict half damage. The GM may decide that some attacks are penetrating, or even useless against given targets. This represents the fact that, for example, an axe will readily chop down a tree, but a bullet or a kick won’t.</p><h2>Cover Effects</h2>"
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.gXnbBxiHcIl4xklk",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "5KuSbUAFAZRSqNLo",
+      "name": "Weapon Capacity",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Guns have limited amounts of ammunition and are subject to mechanical problems like jamming. In game play, rather than having to track every round fired, you can use the following guidelines to handle things like misfires, jams, and running out of ammo.</p><h2>Weapon Jams</h2><p>When an attack with a gun misses and the number on the Drama Die is a 6, then the weapon has jammed or run out of ammo. Reloading the gun or clearing the problem takes a minor action. The Rapid Reload stunt can reduce this time, as can some talents.</p><h2>The Churn and Firearms</h2><p>The GM can also spend points from the Churn Pool (see Chapter 12) on a missed firearms attack, reducing the Churn Pool by 1 to cause a gun to jam or run out of ammo, or reducing the Pool by 2 to say the weapon cannot be cleared without a Fixing interlude (see Chapter 5).</p>"
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.5KuSbUAFAZRSqNLo",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "NuwTkXrHUaI9l95V",
+      "name": "Explosives",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Unlike attacks with ranged weapons that must be aimed, you don’t need to score a direct hit on a target with a grenade or other explosive device, just get close enough to catch them in the blast.</p><p>Grenades are thrown weapons with a range of 10 + Strength meters. Use the Ready action to have the grenade in your hand, and then you can take a Ranged Attack action to throw it. Grenade launchers load and fire grenades automatically and don’t require a Ready action, but they’re subject to running out of grenades or jamming, as described under Weapon Capacity, previously.</p><p>A grenade attack is a TN 11 Accuracy (Thrown) test, modified for difficult throws at the GM’s discretion. Success means the grenade lands and detonates where you intended, but failure means the grenade lands up to 1d6 meters away in a direction of the GM’s choosing, and then explodes. Grenades affect everything and everyone within 5 meters of the explosion, dealing damage and any additional effects.</p><p>You can use action stunts with grenade attacks. Each stunt can only affect one target but you need not assign all stunts to the same target. If you catch two foes in the blast of a grenade and generate 4 SP, for example, you could use Overcome Toughness on one foe and Knock Prone on the other.</p>"
+      },
+      "sort": 1700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.NuwTkXrHUaI9l95V",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "J4HCNeYH05cNTgSg",
+      "name": "Vehicles in Combat",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Combat between ships in space is covered in Chapter 6. Although it’s not often that Expanse characters make use of conventional air or ground vehicles in combat, here are guidelines for doing so: • Operating a vehicle counts as your Move action. If a vehicle provides cover, it hinders you as you shoot out an open window or attack in some other way, as per the usual rules for Defense and Cover, previously. • Characters in a vehicle can use the Activate action to operate built-in weaponry, if any. • Attacks on vehicles are variations of the Stunt Attack action. Generated stunt points are used to inflict damage with</p><p>Vehicle Combat Stunts (see Vehicle Combat Stunts). If the vehicle has a Hull rating, an attack must spend SP on the</p><p>Penetrate Hull stunt to overcome it before devoting them to other Vehicle Combat Stunts.</p><p>The GM can disallow certain attacks against vehicles for being inherently ineffective. Stabbing a car with a knife is unlikely to cause more than cosmetic damage, for example; the same for shooting a ship’s hull with a conventional firearm.</p><p>Furthermore, using the rules for attacking objects (presented earlier in this chapter), the GM can adjudicate damage to specific vehicle parts, and invent effects when those specific parts are damaged or destroyed. For instance, if a character shoots out the tire of a ground vehicle, the GM might decide this prompts a test to prevent a crash and, in any event, slows the vehicle down.</p><h2>Crashes</h2><p>Certain circumstances—usually loss of control—result in a crash. Crashes inflict damage to passengers by default, based on the vehicle’s Speed at the time, but can inflict more, less, or different forms of damage based on the</p>"
+      },
+      "sort": 1800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.J4HCNeYH05cNTgSg",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "pE9GFYtRbQWihp97",
+      "name": "Crash Damage",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>situation. The GM decides when these circumstances arise. For example, crashing a boat may inflict little damage to the passengers, but force them into the water to sink or swim. The GM likewise decides</p><p>SPEED DAMAGE on the conditions imposed if crash damage takes out any characters in the vehicle; a minor crash might</p><p>Slow 1d3 leave someone unconscious or injured, but a more serious crash can leave a character wounded, dying,</p><p>Average 1d6 or even result in instant death—such as in the case of a high-velocity spaceship crash.</p><p>Fast 2d6 A crash leaves a vehicle inoperative. Temporary repairs may be possible at the GM’s discretion, with the result of the Drama Die indicating how effective they are and how long they last. At the least, the</p><p>Very Fast 4d6 repaired vehicle has a penalty to tests to operate it equal to 7 minus the result of the Drama Die on the</p><p>Extreme 6d6 repair test until it undergoes more complete repair.</p>"
+      },
+      "sort": 1900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.pE9GFYtRbQWihp97",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "3Cb0eoAwgEoxxraB",
+      "name": "Chases",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Other action scenes revolve around chases. One or more characters are trying to get away or reach a specific destination while another character or group of characters try to catch or stop them. They might be leaping over obstacles on foot, tearing through narrow streets in a car, or blasting through space making high-g maneuvers. Like combats, chases occur during action time, with 1-round intervals that can include combat as well.</p>"
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.3Cb0eoAwgEoxxraB",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "EX3WLuqakQxdoG7M",
+      "name": "Chase Test Difficulties",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>CONDITIONS TARGET NUMBER</p><p>EXAMPLE</p><p>Chases begin when one character takes the Run action,</p><p>Ideal 9</p><p>A clear, unobstructed path and at least one other character follows in pursuit. Each</p><p>Average 11 Occasional obstacles or maneuvering round, all chase participants must take the Run action and</p><p>Rough 13 Regular obstacles or maneuvering make a chase test based on the method of movement, such as Constitution (Running or Swimming) or Dexterity (Driving</p><p>Hard 15 Constant obstacles or maneuvering or Piloting). The GM decides on the appropriate ability and</p><p>Almost</p><p>Constant maneuvering to avoid focus for a chase test, based on the situation. Passengers Impossible dangerous obstacles do not make chase tests, they’re just along for the ride.</p><p>The TN for a chase test depends on the conditions and how difficult it is to maneuver in a given area. Use the Chase Test</p><p>Difficulties table as a guideline.</p><h2>Tracking the Chase</h2><p>As in other advanced tests, characters keep a running total of the Drama Die results from successful chase tests. This is known as the chase total. Participants with chase totals within 10 of each other can attack with ranged weapons at their maximum range. Participants with chase totals within 5 of each other can make ranged attacks at normal range. Characters with chase totals within 2 of each other may perform close or ramming attacks. In most cases, attacks must be delivered by passengers, since keeping up with the chase is a major action, but vehicle operators may use the Activate action to operate vehicular weaponry or to ram with the vehicle itself.</p><h2>Relative Speed</h2><p>Faster chasers naturally have an advantage over slower ones. For every 2 points of Speed a chaser has over the slowest participant in the chase, they gain a +1 bonus to the Drama Die for chase tests. For spaceships, every Size category</p><h2>Chase Tests</h2><p>smaller than the largest participant in the chase grants a +1 bonus to the Drama Die for chase tests, as smaller ships tend to be faster and more maneuverable.</p><p>EXAMPLE Characters with Speed 10, 11, and 13 are engaged in a chase. The character with Speed 13 has a +1 bonus to chase tests, having a 3-point Speed advantage over the slowest character, which is 1.5 when divided by 2 and rounds down to 1. The character with Speed 11 has no modifier. For a chase between Small, Medium, and Gigantic spaceships, the Small ship has a</p><p>+4 bonus, the Medium ship a +3 bonus, and the Gigantic ship no modifier due to Size.</p><p>The bonus applies to both the chase test result and the chase total based on the Drama Die.</p><h2>Complications</h2><p>Characters moving at high speeds during a chase have a chance of going out of control if they fail a chase test, and complications during the chase may impose other adverse conditions, like those listed in the Challenge Test rules in Chapter 1.</p><p>MINOR The character, mount, or vehicle experiences some sort of problem, ranging from a pulled hamstring to engine trouble. Increase the chase test target number by +2 unless the character switches methods to get around the problem. For a ship, a TN 13 Intelligence (Engineering) test can eliminate this penalty for rounds equal to the result of the Drama Die.</p><p>MODERATE The character suffers a serious stumble or spins out of control. This eliminates half of the character’s accumulated chase total. Alternately, a wrong turn or vehicle trouble prompts a test determined by the GM (typically TN</p><p>13) that must be accomplished before the character can resume the chase.</p><p>MAJOR The character loses half their accumulated chase total and suffers a crash. See Crashes, earlier in this chapter.</p><h2>Planning a Chase</h2><p>Chases work best if handled fairly abstractly. The respective chase totals provide the relative positions of the participants. Trying to track the precise distance of all involve just bogs things down, especially at the vast distances in space. The important things players want to know are the general difficulty of maneuvering and whether their characters are close enough to interact with other participants in the chase. The GM may want to keep track of the types of conditions for the chase, modifying them according to how things unfold, such as if a character leads the chase through more difficult conditions, looking to lose pursuers.</p><h2>Resolving a Chase</h2><p>The GM decides when a chase ends, choosing from the following options:</p><p>SUCCESS THRESHOLD</p><p>Characters who hit the success threshold first escape. In the case of multiple participants, characters continue to make chase tests until either all the pursued characters have gotten away or the first pursuer reaches the success threshold, at which point any remaining pursued characters are caught.</p><p>TIME</p><p>The chase runs for a set number of rounds. In that case, rank the final chase totals from highest to lowest (breaking ties with comparative speeds or die rolls). All the pursued characters with chase totals higher than all of the pursuers get away. All other pursued characters are caught.</p><p>CIRCUMSTANCES</p><p>A chase can end for many other reasons, such as a crash, a character disappearing from sight, or attaining an unassailable lead in their chase total. This last circumstance occurs when the character with the lead can’t be attacked or affected by any other participants and has a chase total 12 or more greater than the participant with the next highest total.</p><p>What happens when a chase ends? It depends on the situation. The lead characters escape, or the chase returns to a standard action encounter, such as a combat. The end of a chase may also end action time, leading into an exploration or social encounter. The GM can also decide if the end of a chase imposes any conditions on either the pursuers or the pursued.</p>"
+      },
+      "sort": 2100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.EX3WLuqakQxdoG7M",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "wLrPCssIS6E4i96P",
+      "name": "Action Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A good fight should be dynamic and feature a lot of movement and action.</p><p>The AGE System uses stunts to represent those special moves heroes perform to throw their opponents off-balance, gain an edge in a fight, or simply do something spectacular that brings them closer to victory.</p><p>Attack rolls in combat generate stunt points according to the standard system described under Stunts in Chapter 1. Reference the stunt tables in this section and allocate your available SP to stunts suited to the action you’re performing. You can perform a given type of stunt only once in a round, though you may combine two or more different stunts as long as they make sense in the context of the story. If a stunt has a “+” listed after its cost, you can spend additional SP to enhance the basic effect of the stunt. If it has a range of numbers listed, you can choose to spend SP within that range for the stunt’s effect.</p><p>Once you have decided on what stunts you want to use, you can narrate how your character pulls them off. You can perform the stunts in any order you wish.</p><p>If you don’t want to trust your options to the dice, you can take the Stunt Attack action (see Taking Actions previously in this chapter). This action ensures you have at least 1 stunt point available, but in exchange your attack will do no damage by itself, which could be what you had planned anyway.</p>"
+      },
+      "sort": 2200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.wLrPCssIS6E4i96P",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "H0ZyI3ecqKjixlnU",
+      "name": "Chase Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP COST</p><p>STUNT</p><p>1+ (CORE) PUNCH IT: You gain a +1 bonus on your next chase test for each 1 SP you spend.</p><p>2 EVASIVE MANEUVER: Until your next turn, attacks against you and your vehicle (if any) suffer a -2 penalty.</p><p>FOLLOW THE LEADER: Make a test with a TN you choose and an ability focus you work out with the GM for pulling off a tricky</p><p>2 maneuver, such as Dexterity (Acrobatics) to slip through a small opening on the run, or Dexterity (Piloting) to do the same while flying. If you fail, you crash. Anyone following you using the same method of transport must make the same test or crash.</p><p>ATTACK ON THE MOVE: You can make a bonus melee or ranged attack, or use a bonus Activate action to use an in-built weapon system. You must have a loaded missile weapon to make a ranged attack.</p><p>KEEP IT STEADY: Until the beginning of your next turn, passengers gain a +1 bonus when making attacks or making other ability tests that would benefit from a stable platform (leaping from vehicle to vehicle, for example).</p><p>4 INTERFERENCE: A character of your choice suffers a -2 penalty on their next chase test.</p><p>5 SHORT CUT: Add an additional +2 to your chase total.</p>"
+      },
+      "sort": 2300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.H0ZyI3ecqKjixlnU",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "IOFSnegVEnTaz5qh",
+      "name": "General Combat Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP</p><p>SP</p><p>STUNT</p><p>STUNT COST</p><p>COST</p><p>(CORE) ADRENALINE RUSH:</p><p>Regain Fortune equal to the SP TAUNT:</p><p>Roll an opposed test of Communication (Deception) vs.</p><p>1-3 spent.</p><p>Willpower (Self-Discipline) against any target within 10 meters of</p><p>(CORE) MOMENTUM: Gain +3 to initiative per SP spent, you; if you win, they must attack or oppose you in some way on</p><p>1-3 changing your place in the initiative order. their next turn.</p><p>(CORE) DUCK AND WEAVE: Gain +1 to Defense per SP spent 2 VICIOUS BLOW: Inflict an extra 1d6 damage on this attack.</p><p>1-3</p><p>BLOCKADE: Move up to 3 meters, positioning yourself between until the beginning of your next turn.</p><p>TAKE COVER: If there is cover available in your immediate a foe and a target. Until the start of your next turn, the foe</p><p>1-3 vicinity, gain a cover rating equal to the SP spent, up to the 3 must succeed on a minor action Dexterity (Acrobatics) or maximum rating available. Strength (Might) test vs. your Defense to reach the target you’re protecting.</p><p>GUARDIAN ANGEL: Choose an ally within 5 meters of you. If they would take damage before your next turn, 1 damage point EXPOSE: Destroy or move any one object in weapon range,</p><p>1+ per SP spent transfers to you instead as you interpose yourself such as a door or crate, that could provide cover. This can take in front of the attack. 3 out small sections of larger objects like pillars or walls. The GM may rule some objects are too heavy or tough to be removed</p><p>SKIRMISH: Move yourself or your attack’s target 2 meters in by this stunt, such as the bulkheads of spaceships and stations.</p><p>any direction for each 1 SP you spend. If this movement would expose the target to a hazard, such as pushing them off a ledge, LIGHTNING ATTACK: Make a second attack on your turn, either</p><p>1+ 3 roll an opposed test of your attacking ability versus the target’s against the same target or a different target.</p><p>Strength (Might) or Dexterity (Acrobatics), whichever is higher. If SHOCK AND AWE: When you succeed at a non-attack physical you lose the test, the target doesn’t move.</p><p>feat or take an opponent out, anyone who witnesses it rolls</p><p>WHATEVER’S HANDY: Immediately arm yourself with anything Willpower (Courage or Morale) vs. your Strength (Intimidation).</p><p>1 in your environment you can reasonably wield as a makeshift If you win, they suffer a −1 to the next opposed roll they make weapon (see Makeshift Weapons in this chapter). against you, or a −1 to their Defense vs. your next attack against them, whichever comes first.</p><p>GROUP TACTICS: Choose one ally to move 2 meters in a</p><p>2+ direction of their choosing for each 2 SP spent. KNOCK OUT: If your target has lost half or more of their</p><p>4 Fortune, your attack imposes an unconscious condition so long</p><p>DOUBLE-TEAM: Choose one ally to make an immediate attack on as its damage exceeds the target’s Toughness.</p><p>your target, who must be within range and sight of the ally’s attack.</p><p>SEIZE THE INITIATIVE: Move to the top of the initiative order</p><p>INJURE: If your target has lost half or more of their Fortune,</p><p>4 until someone else seizes the initiative. You may get to take your attack imposes an injured condition so long as its damage another turn before some others act again.</p><p>exceeds the target’s Toughness. This condition does not reduce the attack’s damage. 5 LETHAL BLOW: Inflict an extra 2d6 damage on this attack.</p><p>KNOCK PRONE: Knock your enemy prone (see Prone under WOUND: If your target has lost half or more of their Fortune,</p><p>Conditions in Chapter 1). your attack imposes a wounded condition so long as its damage exceeds the target’s Toughness. This condition does</p><p>OVERCOME TOUGHNESS: Against this attack’s damage, the not reduce the attack’s damage.</p><p>2 target’s Toughness is considered to be half its normal value, rounded down.</p>"
+      },
+      "sort": 2400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.IOFSnegVEnTaz5qh",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "6UbbVfyDephMZamx",
+      "name": "Gun Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP COST</p><p>STUNT</p><p>1-3 (CORE) OVERWATCH: Your opponent suffers −1 to attack rolls per SP spent until the start of your next turn.</p><p>(CORE) PRECISION MARKSMANSHIP: If you make an attack with a firearm that benefits from an Aim bonus before the end of your</p><p>1-4 next turn, increase the aim bonus by +1 per SP spent.</p><p>1-3 RICOCHET: Make a trick shot that ignores (SP spent) of the armor rating of a target behind cover.</p><p>1-3 SHORT BURST (AUTOMATIC): Ignore one point of your opponent’s Toughness per SP spent.</p><p>STRAFE (AUTOMATIC): Immediately move up to (SP spent) meters in any direction, and apply this attack to anyone within (SP</p><p>1-3 spent) meters of your original target; you can’t selectively exclude anyone in the area. Halve the damage dealt to the additional targets (round up).</p><p>SUPPRESSIVE FIRE (AUTOMATIC): At the end of each character’s turn until the start of your next turn (including allies and your</p><p>1-5 current target), make a new attack against that character if they’re within (SP) meters of the spot where your target stands right now.</p><p>1 RAPID RELOAD: The next time you need to reload a firearm, in this encounter, you may do so as a free action.</p><p>EFFICIENT GUNNER: Next time you miss with a firearm, subtract 1 from the Drama Die’s result for each 2 SP spent, for purposes of</p><p>2+ checking against Capacity.</p><p>LONG BURST (AUTOMATIC): Make a second attack against the same target or a different one within 5 meters of the first; take a -2 to this attack roll, but gain a +2 to the damage roll if you hit. Roll a separate test for Weapon Capacity afterward (see p. 75).</p><p>PISTOL WHIP (PISTOL): If the attack hits an opponent adjacent to you, or next time you miss with a firearm against an opponent</p><p>3 adjacent to you and run out of ammo, make a second attack against the same target with Accuracy (Pistols) to club them with the gun, inflicting 1d6 + Strength damage.</p><p>4 CALLED SHOT: You target an exposed part of your opponent’s body. The attack’s damage becomes penetrating.</p><p>SNIPER’S PERCH: You find high ground or another advantageous shooting position. If you attack with a firearm on your next turn, double your weapon’s range and maximum range for that turn.</p><p>SPRAY AND PRAY (AUTOMATIC): Apply this attack to every target within a 5-meter radius of your original target, including allies, using the same attack test result. All additional targets gain +1 to Defense against this attack.</p><p>Note: You may only choose stunts from this list when you earn the SP while making an attack with a gun.</p><p>Some gun stunts require a specific type of gun, such as a pistol, rifle, or automatic weapon.</p>"
+      },
+      "sort": 2500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.6UbbVfyDephMZamx",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "5dUkaZhp4Mkg2jUk",
+      "name": "Grappling Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP COST</p><p>STUNT</p><p>1-3 (CORE) HINDER: Melee attacks your opponent makes before the start of your next turn reduce their damage by 2 per SP spent.</p><p>(CORE) GRAPPLE: You and your target make opposed Fighting (Grappling) rolls; if you win, they can’t move from where they are on their next turn. You and the target both take a −2 Defense penalty until the beginning of your next turn.</p><p>TAKEDOWN: You and your target make opposed Fighting (Grappling) rolls; if you win, you and your target fall prone. Your target takes an additional 1d6 damage and can’t stand up until you do, or until they succeed at an attack against you.</p><p>HUMAN SHIELD: You and your target make opposed Fighting (Grappling) rolls; if you win, any failed ranged attack against you hits your target instead, and ranged attacks against you take a −2 penalty, until the beginning of your next turn.</p><p>STRANGLE: Roll Fighting (Grappling) vs. your target’s Constitution (Stamina); if you win, the target loses their minor action catching their breath on their next turn.</p><p>HOSTAGE: You and your target make opposed Fighting (Grappling) rolls; if you win, you maneuver them into a vulnerable position. If</p><p>4 they do anything other than a free action on their next turn, or if anyone attacks you or your allies before the beginning of your next turn, you may make an immediate attack against your target with a +2 bonus to the Drama Die.</p><p>PIN: You and your target make opposed Fighting (Grappling) rolls; if you win, they can’t do anything other than a free action on their next turn. You and the target both take a −4 Defense penalty until the beginning of your next turn.</p><p>RESTRAIN: If you have appropriate equipment in hand, like handcuffs or rope, you and your target make opposed Fighting</p><p>5 (Grappling) rolls; if you win, they become restrained (see Conditions in Chapter 1) and can’t do anything other than try to escape with a Strength (Might) or Dexterity (Sabotage) test as a major action, TN = 10 + (your Fighting (Grappling) score).</p><p>Note: You may only choose stunts from this list when you earn the SP while making a Fighting (Grappling) attack.</p>"
+      },
+      "sort": 2600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.5dUkaZhp4Mkg2jUk",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "rS8VmAEL5DqxJzMd",
+      "name": "Melee Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP COST</p><p>STUNT</p><p>(CORE) PARRY: Your opponent suffers −1 to Defense per SP spent until your next turn, as you guide their limb or weapon off-center,</p><p>1-3 throwing off their balance.</p><p>(CORE) FOOTWORK: You maneuver effortlessly. Gain +1 per SP spent to one combat-related test of your choice before the end of</p><p>1+ your next turn.</p><p>1 FEINT: Reduce your target’s initiative by 1 (to a minimum of 1) for the rest of the encounter.</p><p>DISARM: You and your target make opposed melee attack rolls; if you win, knock your enemy’s weapon 1d6 + Strength meters away in a direction of your choice.</p><p>HAMSTRING: Cumulatively reduce your target’s Speed by 3 for the rest of the encounter. If it’s reduced to 0, they become restrained for the rest of the encounter and cannot move.</p><p>BIND WEAPON: You and your opponent make opposed melee attack rolls; if you win, your opponent’s next melee attack against you automatically misses.</p><p>ARMOR CRUSH: Convert up to 3 points of damage you would inflict on your foe with this attack into a penalty to their worn armor</p><p>4 instead, based on the type of damage you dealt. This penalty lasts for 1d6 rounds or until they take a major action to readjust their armor, whichever comes first.</p><p>BREAK WEAPON: You and your opponent make opposed melee attack rolls; if you win, your destroy your opponent’s weapon, rendering it unusable.</p><p>Note: You may only choose stunts from this list when you earn the SP while making a melee attack.</p>"
+      },
+      "sort": 2700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.rS8VmAEL5DqxJzMd",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "yjMpKgPrbX4RqARD",
+      "name": "Vehicle Combat Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP COST</p><p>STUNT</p><p>SYSTEM DAMAGE: Your attack damages the vehicle’s Handling, Sensors, or Weapons. Impose a –1 penalty per SP spent to the damaged ability (up to 3). Handling imposes a modifier on tests to operate the vehicle. This penalty remains until the vehicle is</p><p>1-3 repaired. Damage control with a TN 13 Intelligence (Engineering) test can negate (but not remove) the penalty for rounds equal to the</p><p>Drama Die result. If the ability is reduced below –2, the vehicle automatically fails tests calling for it. If Handling is reduced below –2, the vehicle is out of control and helpless.</p><p>PENETRATE HULL: Your attack overcomes the vehicle’s resistance to damage. If a vehicle has a Hull rating, you must spend SP equal</p><p>1+ to it on this stunt before spending SP on other stunts.</p><p>OFF-COURSE: The vehicle is thrown off-course and the operator must make a TN 15 test to maintain control. A new test can be made each round to regain control if it is lost.</p><p>2 SCUTTLE: Your attack destroys the target vehicle. This stunt is only available against a helpless vehicle.</p><p>SHRAPNEL: The attack causes a damaging explosion in the vehicle’s interior. The operator and all passengers in the same</p><p>2+ compartment suffer 1d6 damage for 2 SP or 2d6 damage for 4 SP.</p><p>HULL BREACH: You inflict significant damage to the vehicle, reducing its Hull rating by 1 per 3 SP spent. The loss of Hull rating lasts</p><p>3+ until repaired.</p><p>SLOWDOWN: You damage the vehicle’s propulsion, dropping its Speed class by one category. If it drops to Slow or less, the</p><p>3 operator must make a TN 15 test to maintain control. The slowdown remains until repaired. Damage control with a TN 13 Intelligence</p><p>(Engineering) test can negate (but not remove) the penalty for rounds equal to the Drama Die result.</p><p>DISABLE DRIVE: Your attack disables the vehicle’s propulsion. The operator must make a TN 15 test to maintain control and, even if</p><p>4 they succeed, must deal with a vehicle that can no longer move or maneuver under its own power. The vehicle is helpless. Damage control with a TN 13 Intelligence (Engineering) test can restore the vehicle’s propulsion for rounds equal to the Drama Die result.</p><p>SKEWER: Your attack is in just the right place to do serious damage inside the vehicle: One character suffers 4d6 damage for 4 SP, or</p><p>4+ for 6 SP, 6d6 damage or the full damage of your weapon +2d6, whichever is less.</p><p>RUPTURE: Your attack ruptures a fuel line or power conduit, causing an internal explosion. This deals 3d6 penetrating damage to everyone in a compartment of the vehicle and also causes the effects of either a System Damage (3 SP) or Slowdown stunt.</p><p>DISABLE ENGINE: Your attack disables the vehicle’s engine or main power, such as a ship’s reactor, causing the effect of a Disable</p><p>Drive stunt and leaving the vehicle completely without power other than emergency back-ups and essentially helpless. Damage control with a TN 13 Intelligence (Engineering) test can restore power for rounds equal to the Drama Die result. Otherwise the power remains offline until repaired.</p><p>Note: Stunts from this table are used when attacking or sabotaging a vehicle.</p><h2>Exploration Encounters</h2><p>Exploration encounters do not necessarily put the characters’ lives in danger and, because they happen mostly in narrative time, they do not require as many detailed rules as combat. Much of the time, exploration encounters can be resolved through roleplaying or describing the situation, or using advanced tests (see Advanced Tests in Chapter 1 and in the Game Mastering chapter).</p><p>Exploration encounters involve exploring or searching an area, investigating a mystery, making or modifying machines and other objects, and doing pretty much anything where the focus is on places, objects, and information instead of action or social exchanges. But there’s no strict division between encounter types, so exploration encounters flow into action encounters, and are punctuated with social situations.</p><h2>Exploration &amp; Infiltration Stunts</h2><p>As with action encounters, ability tests during exploration encounters generate stunt points according to the standard system described under Stunts in Chapter 1. Reference the Action Stunts section earlier in this chapter for general guidelines for spending stunt points.</p><p>Exploration stunts are most often used during encounters that revolve around investigation and discovery, covert operations, sabotage, and other kinds of adventure that don’t fall into the action category. Almost any kind of test can produce exploration stunts, at the GM’s discretion. However, if the GM has no more information to give or the characters are really barking up the wrong tree, the GM can simply rule an exploration stunt ineffective, signaling the players to look for a different approach.</p><p>Infiltration stunts may apply when physically breaking in somewhere or exploring a new place, hacking into a computer or network, pulling a con job, or otherwise evading consequences and getting away with things.</p>"
+      },
+      "sort": 2800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.yjMpKgPrbX4RqARD",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "spnxTpmqG6nLnAtI",
+      "name": "General Exploration Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP COST</p><p>STUNT</p><p>(CORE) WHEN A PLAN COMES TOGETHER: You reveal this test was part of your plan all along, granting a bonus equal to the SP</p><p>1-3 spent on one ally’s next test during the same encounter to accomplish the same goal. If desired, you can split the bonus among multiple allies, giving each a minimum +1. You must make this decision before any ally rolls.</p><p>A STITCH IN TIME: You put in the effort to do it right the first time, setting yourself up for greater success later. Gain +1 per SP</p><p>1+ spent on your next test related to this one during this encounter, as long as this roll was part of an advanced test.</p><p>PAY DIRT: In the course of your endeavor, you win a bet, happen across a conveniently abandoned stash, or discover something</p><p>1+ valuable you can pawn to make a buck, among other possibilities. Temporarily gain +1 Income per SP spent; this increase lasts until you next fail an Income test. Instances of this stunt don’t stack; only the highest bonus applies.</p><p>JURY RIG: You find or improvise a piece of equipment you need to be more effective. Negate any situational penalties you would suffer for lacking proper equipment on tests appropriate to the improvisation, for the rest of the encounter.</p><p>2 SPEED DEMON: You complete your test in half the time it would otherwise take.</p><p>3 THE UPPER HAND: If your success leads to combat within the encounter, you receive a +3 on your initiative roll.</p><p>WITH A FLOURISH: You impress everyone who watches you with your ability. Gain a +1 to opposed tests against them for the rest of the encounter.</p><p>FRUGAL: You use only what you must to get the job done, saving resources for a rainy day. This Income test doesn’t deplete your</p><p>Income even if it normally would.</p>"
+      },
+      "sort": 2900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.spnxTpmqG6nLnAtI",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "zSSHcJ1gDPcYAwFx",
+      "name": "Infiltration Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP COST</p><p>STUNT</p><p>1+ (CORE) JUST A SHADOW: Gain +1 per SP spent to your next test during this encounter as long as you remain unnoticed.</p><p>(CORE) GOOD INSTINCTS: Make a Perception test using an appropriate focus (GM’s choice) with the same TN as the test you just made to learn the most likely immediate consequence of the action you just performed.</p><p>1+ CALMING THE WATERS: Reduce the current Churn Pool by the SP spent. See The Churn in Chapter 12 for details.</p><p>BRAVERY: Your success bolsters your courage, granting you 1d6 extra Toughness against the next damaging hazard you face in this encounter.</p><p>OVER HERE!: Your flashy action makes you the center of attention. Each of your allies gains +1 to their next test to hide or pass</p><p>2 scrutiny in this encounter, such as Dexterity (Legerdemain or Stealth) or Communication (Disguise). Any action an opponent takes until then automatically targets you.</p><p>TAKE ONE FOR THE TEAM: When you successfully avoid damage from a hazard but an ally doesn’t, you may take the damage for that ally while they remain unaffected.</p><p>COVER YOUR TRACKS: Whether you’re hacking into a network, evading the cops, or infiltrating a military base, you impose a −2 on all future rolls to follow your trail related to this test.</p><p>HIGH TECH HUSTLE: With an injection of technobabble or a quick mod to a device, you sidestep one minor complication impeding your current goal, or give yourself the ability to perform one task you otherwise couldn’t in the current situation, at the GM’s discretion.</p><p>IT WASN’T ME: You leave evidence another character is responsible for the results of your test, such as breaking and entering,</p><p>4 cheating at cards, or uploading a computer virus. All failed tests to investigate the truth reveal that person as the culprit, and such tests suffer a −2 penalty.</p><p>FANCY MEETING YOU HERE: Choose a focus or talent your character doesn’t possess. An NPC of the GM’s choice with that focus</p><p>5 or talent appears in the scene within a few minutes, or a few rounds if your action leads directly to action time. This doesn’t dictate anything about their situation, attitude, or identity; these are all up to the GM.</p>"
+      },
+      "sort": 3000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.zSSHcJ1gDPcYAwFx",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "vO6Bc0MJefSvz9jm",
+      "name": "Hazards",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Opponents aren’t the only threats the characters face. They might contend with fire, vacuum, sudden falls and impacts, mechanical failures, and other perils. All these come under the general header of “hazards.”</p><p>The AGE System handles hazards with a general system for simulating everything from explosions to drowning. Adventures define specific hazards, but when you need to adjudicate them on your own, answer the following questions:</p><p>What is the nature of the hazard? Can it be avoided? How dangerous is the hazard?</p><p>Does it have any special effects? How long does it last?</p><h2>What is the Nature of the Hazard?</h2><blockquote><p>“How many times can you get</p></blockquote><p>Describe the nature of the hazard in a general way. It could be a treacherous path leading up the</p><blockquote><p>yourself massively irradiated</p></blockquote><p>side of a mountain, a raging fire, or a tripwire that sets off an explosive. Define the broad param-</p><blockquote><p>before it catches up with you?”</p></blockquote><p>eters.</p><blockquote><p>“At least once more?”</p></blockquote><h2>Can it be Avoided?</h2><blockquote><p>—Caliban’s War</p></blockquote><p>Some hazards, particularly traps, are hidden dangers. These might be detected with a Perception test, using a focus appropriate for the hazard. Use Seeing to notice a patch of disturbed earth over a buried landmine, for example. If there is a chance of detection, set the TN for the ability test as usual. PCs who make a successful test can avoid the hazard, or at least get a clue that may help them do so. Those that fail walk right into it.</p><h2>How Dangerous is the Hazard?</h2><p>Just as you assess difficulty for ability tests, so too must you assess the danger of hazards. Consult the Hazard Category table and pick the one that best suits the nature of the hazard. This determines the base damage the hazard inflicts. You might decide, for example, that falling from a height is a major hazard, so that would inflict 3d6 damage. Only rare, dangerous hazards inflict more than 6d6 damage.</p>"
+      },
+      "sort": 3100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.vO6Bc0MJefSvz9jm",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "NOYpWWmyGT5GsxGo",
+      "name": "Hazard Category",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>You can also allow an ability test to mitigate the hazard’s damage. A good guideline is that a successful test means the</p><p>CATEGORY DAMAGE EXAMPLE character suffers only half damage (rounded down). The falling</p><p>Minor Hazard 1d6 Floor littered with glass and debris character, for example, could be given a chance to make a TN 15 Moderate Hazard 2d6 High-g exposure Dexterity (Acrobatics) test to halve the damage.</p><p>Major Hazard 3d6 Exploding panel</p><p>Also decide if the hazard’s damage is penetrating or if Toughness Arduous Hazard 4d6 Shuttle crash protects against it, as usual, and the condition applied if a character is taken out by the hazard (see Taken Out under Action Encoun- Harrowing Hazard 5d6 Radiation poisoning ters, previously). For deadly hazards, this is usually dying, but others Murderous Hazard 6d6 Space vacuum exposure may simply leave characters unconscious or helpless instead.</p><h2>Does it Have any Special Conditions or Effects?</h2><p>Some hazards impose a temporary condition. Examples might include such things as smoke from a fire leaving characters blinded, or a blast leaving them deafened, an impact knocking characters prone, or special effects like reducing a character’s Speed, imposing a penalty for certain tests. The GM decides if any such effects are part of the hazard, and whether or not an ability test can mitigate them, much like reducing the hazard’s damage (previously). See Conditions in</p><p>Chapter 1 for options.</p><h2>How Long Does it Last?</h2><p>Many hazards happen once and then end. An explosive trap, for example, explodes once when triggered. Other hazards can be ongoing. Characters running through a burning building suffer damage each round until they escape, and characters exposed to radiation or vacuum likewise suffer damage every round. Use common sense as your guide to determine whether the hazard is a single incident or reoccurring and, if so, how often it reoccurs.</p><p>For specific examples of hazards and how they are handled, see Chapter 13: Threats.</p>"
+      },
+      "sort": 3200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.NOYpWWmyGT5GsxGo",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "YDJV8FT7uXoKykxJ",
+      "name": "Investigations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Information is power and, in The Expanse, finding information can be a major focus of an adventure. Note that some investigations have social components, and may mix with a social encounter (see Social Encounters, following).</p><h2>Simple Investigations</h2><p>Some investigation encounters are simple. Succeed on an ability test against a TN set by the GM, and you get the information you need. You just need to be in the right place at the right time. In some cases, a roll isn’t even required. The information is either obvious once you get there, or the GM assumes your character has the interest and ability to find it. The GM may also ask for a specific focus that represents the required knowledge or intuition to notice the information.</p><p>EXAMPLE Miller visits Julie Mao’s hole on Ceres for a look around. The GM asks for an Intelligence (Investigation) test. Miller finds an OPA armband, and scans through the files on Julie’s partition, as well as coming across an award granting Julie</p><p>Mao—not Juliette—purple belt status with the Ceres Center for Jiu Jitsu. Some solid leads to follow.</p><h2>Detailed Investigations</h2><p>Some investigations must be carried out across multiple steps, forming an investigative trail. Each step on the trail is a lead, and discovering the significance of a lead unearths a clue and a new lead. Discovering all of the clues produces a reveal: the ultimate truth the clues uncover.</p><p>A trail doesn’t need to be linear. It can have many branches, but in most cases following any branch to the end produces the same reveal. The GM should avoid putting dead ends in an investigation, unless an enemy blocks the trail deliberately, or as a momentary setback that can be</p><blockquote><p>“Too many dots,” Miller said. “Not enough lines.”</p></blockquote><p>reversed by creative heroes.</p><p>The GM doesn’t need to pre-plan the trail—they can improvise depending on</p><blockquote><p>—Leviathan Wakes</p></blockquote><p>what the heroes do. Instead, the GM creates several leads whose clues connect them. The GM must determine the following things for each lead.</p><p>SITUATION</p><p>What brings the characters to the lead, and what is the lead in the story? A discarded piece of clothing could be a lead, as could an anonymous email that, at first glance, seems to be full of nothing but digital gibberish. A combat encounter could also constitute a lead.</p><p>UNLOCKING METHOD</p><p>What events or actions unveils the clue and points toward the next lead? The following options are available.</p><p>AUTOMATIC Just showing up, finding the object, or otherwise doing whatever is necessary brings forth the clue. The GM can tell you when you need to know based on your character’s prior knowledge or common sense. An NPC might be willing to spill the beans.</p><p>HAVING THE FOCUS Like the automatic method, no roll is needed, but the character examining the lead must have one or more specific focuses. Noticing a gunman never intended to hit his target might be automatic for anyone examining bullet holes or a video of the firefight, as long as they possess any gun-related Accuracy focus. A character with the</p><p>Intelligence (Art) focus might notice an obvious forgery, and so forth.</p><p>ABILITY TEST Most commonly, unlocking a lead requires a character to succeed at an ability test. This is often an Intelligence, Communication, or Perception test, but any ability might be useful depending on the circumstances. For instance, a Fighting test might reveal that an enemy studied at a particular martial arts school. The GM determines the most useful, or primary focuses, and any tangential, or less useful focuses, along with the TN of the test. See Investigation Focuses for more details.</p><p>CLUE AND NEXT LEAD</p><p>Determine the payoff: the clue and next lead. The clue is simply information. The GM tells you what the unlocked lead means. The GM should not just provide information based on the lead itself, but add whatever the character’s previous knowledge and common sense would bring forth. The resolved lead points toward a new lead, until you’ve uncovered enough clues for the full reveal.</p><p>EXAMPLE Miller visits the Ceres Center for Jiu Jitsu and talks to the instructor, convincing him—through some interaction—that he wants to help Julie in spite of being on an official investigation without a warrant. He learns a bit more about Julie’s time training with the school but, more importantly, that she did light freighter work down on the docks, with a possible lead on the ship or ships she was working.</p><blockquote><p>It was a simple mental exercise. Look at the facts without judgment … Statement after statement, fact after fact, facet after facet. He didn’t try to put them in order or make some kind of narrative out of them; that would all come later. —Leviathan Wakes</p></blockquote><p>The GM doesn’t always have to provide a moment thinks it would be useful, they can inform you that you’ve recognize your cleverness.</p><p>EXAMPLE Following leads to the Scopuli, Protogen,</p><p>Holden and the crew of the Rocinante. In a an end when he finds what’s left of Julie Mao.</p><h2>Investigation Stunts</h2><p>Some investigation stunts have different effects depending denoted by parenthetical tags.</p><h2>Investigation Focuses</h2><p>The GM decides which, if any, focuses are helpful or required to unlock a lead. A focus best suited to unlock a lead is the primary focus. If an ability test is required, roll the dice and apply the focus as usual.</p><p>Some focuses are useful, but less than ideal. These are tangential focuses. For instance, you might not have Intelligence (Demolitions), the primary focus to examine a detonator, but you might ask the GM if your Intelligence (Technology) might help. The GM decides it’s a tangential focus and reveals less information, or information more suited to the focus in question. If an ability test is required, the TN increases by +2 for a test with a tangential focus.</p><p>If you don’t have a primary or tangential focus, the GM decides whether you can make a test to unlock the lead at all, especially for tests with a required focus (see Chapter 3:</p><p>Character Traits).</p><p>The GM doesn’t need to decide on primary and tangential focuses ahead of time, and can define them after talking to the players. If you present a good enough argument, an unlikely focus might become a tangential focus, or even a primary one!</p><p>EXAMPLE The GM decides the primary investigation focus for the Ceres Center is Communication (Persuasion), and that other Communication focuses like Bargaining and Deception are tangential, as is Fighting (Brawling) for connecting with the martial arts culture of the school. Fortunately, Miller has the primary focus, so he’s able to persuade the instructor without any added difficulty.</p><h2>The Reveal</h2><p>Once the GM decides you’ve unlocked enough leads and deciphered enough clues along the trail, they provide the reveal:</p><p>the final truth about the subjects being investigated. The GM can simply inform you, or provide it through an NPC, discovered documents, and other elements of the story. Again, the</p><p>GM draws on your prior knowledge and common sense. The reveal’s facts should be either scattered throughout the clues you’ve discovered, or the clues should bring you somewhere where it all comes to light. for the reveal. You may discover it with the facts at hand. If the GM figured everything out, and perhaps grant additional rewards to and the Outer Planets Alliance, Miller books passage to Eros following flophouse in one of its rougher neighborhoods, his investigation comes to on whether you are pursuing a simple or detailed investigation,</p>"
+      },
+      "sort": 3300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.YDJV8FT7uXoKykxJ",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "oVo0uDBZcD4dW53e",
+      "name": "Investigation Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP COST</p><p>STUNT</p><p>1-3 (CORE) A-HA!: The GM reveals an additional useful fact about the object of your test per SP spent (Simple); gain +1 per SP spent to your next test following up on the lead you just unlocked (Detailed).</p><p>1 FLASHBACK: This test reminds you of something important you forgot. The GM reveals the identity or existence of another source of information you didn’t know about (Simple); treat one of your tangential focuses as a primary one on the next test you make to unlock a lead related to this test (Detailed).</p><p>2 INTUITION: The GM reveals a fact about the object of your test you could not have noticed or deduced simply by interacting with it (Simple); when you uncover a clue, you gain two new leads instead of one, making the path branch (Detailed).</p><p>3 LUCKY BREAK (DETAILED): This test’s result leads fortuitously to putting two and two together later. Treat one irrelevant focus as a tangential one on the next test you make to unlock a lead related to this test.</p><p>4 DOWN THE RABBIT HOLE (DETAILED): If this test led to a reveal, the GM also provides a brand new lead about a new subject that will lead to greater rewards.</p><p>5 BREAKTHROUGH: You gain not only information but some form of incontrovertible proof (Simple); reduce the total number of leads on the path by one, jumping to a further point in the investigation immediately (Detailed).</p><h2>Social Encounters</h2><p>Social encounters involve interactions between people, and often combine with exploration or action encounters, as well as fitting in between them. An inves-</p><blockquote><p>“Players at their level didn’t deceive each other.</p></blockquote><p>tigation might require interviews, and combat can stop or start at the utterance</p><blockquote><p>They won even though their opponents knew exactly</p></blockquote><p>of a single, critical word.</p><blockquote><p>what was happening. Just like he was winning</p></blockquote><p>The GM may choose to run social encounters as a pure roleplaying exercise,</p><blockquote><p>against her right now.”</p></blockquote><p>without any rules. The GM plays the part of any NPCs, while you speak as your character, or tell the GM the sorts of things you’d like your hero to say. The rules</p><blockquote><p>—Caliban’s War</p></blockquote><p>in this section aren’t meant to get in the way of roleplaying, but to provide inspiration for social scenes, align improvised dialogue with the goals of the story, and streamline interactions that might be awkward or dull otherwise.</p><p>Morale rules, covering an NPC’s willingness to fight, are covered in Chapter 12: Game Mastering.</p>"
+      },
+      "sort": 3400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.oVo0uDBZcD4dW53e",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "39bZfmn4gDs3G5Qi",
+      "name": "Impressions and Attitudes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>First impressions matter. The GM decides how an NPC feels about you based on that character’s motives and emotions. In other words, the GM sets the NPC’s attitude. The GM doesn’t need to use any rules, but might find it useful to select an attitude from the Attitudes table, or roll 3d6, adding the following modifiers:</p><p>COMMUNICATION Add the Communication ability score of the character taking the lead in making contact. If a</p><p>Communication focus would apply to the first impression, add its bonus as well.</p><p>REPUTATION Add +2 for a Reputation that would impress the NPC.</p><p>Impose -2 for a Reputation that would offend the NPC. See the</p><p>Rewards chapter for more about Reputation.</p><p>3D6 ROLL ATTITUDE INTERACTION MODIFIER</p><p>3 or less Very Hostile -3</p><p>OTHER MODIFIERS The GM can add other modifiers to the roll based on</p><p>4-5 Hostile</p><p>-2 the NPC’s known feelings and motives.</p><p>6-8 Standoffish</p><p>-1</p><p>One overriding rule is that NPCs will never defy their most deeply held</p><p>9-11 Neutral</p><p>+0 values or sacrifice their personal safety without an exceptional circumstance</p><p>12-14 Open</p><p>+1 coming into play. Violent threats using Strength (Intimidation) are one way</p><p>15-17 Friendly</p><p>+2 to sway an unwilling NPC. Blackmail, lies, and other methods may work as well, but the NPC may resent you for this, with potential consequences in 18+ Very Friendly +3 the future.</p>"
+      },
+      "sort": 3500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.39bZfmn4gDs3G5Qi",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "iMdadiStX5STGWSU",
+      "name": "Attitudes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>VERY HOSTILE The very hostile NPC can barely contain their dislike, and is inclined to respond to contact with either violence or by leaving the characters’ presence. They may nurse a grudge and oppose the characters in the future. This is a rare spontaneous impression, and the GM should come up with a specific reason why any first impression would get a Very Hostile response.</p><p>HOSTILE The hostile NPC reacts to contact with ire, but might disguise this. They either refuse to provide help, or undermine the characters’ apparent interests.</p><p>STANDOFFISH The standoffish NPC would prefer that the characters just leave them alone. They either avoid the characters, ignore them, or firmly ask interlopers to go away.</p><p>NEUTRAL The neutral NPC hasn’t decided things either way about characters making contact, and responds with cool caution, bored disinterest, or polite detachment, depending on their personality.</p><p>OPEN The open NPC is curious or inclined to listen to the characters, and reacts appropriately based on their own motives and interests. Things could go either way. A negative variation of Open is Cowed, where the NPC is a bit afraid of what the characters might do if they don’t act receptive. Once the threat appears to be gone, the NPC becomes Standoffish.</p><p>FRIENDLY The friendly NPC takes a shine to characters making contact and is inclined to help them, but hesitates to provide any assistance that could cause them problems. A negative variation of Friendly is Shaken, where the NPC provides assistance out of fear. Once the threat appears to be gone, the NPC becomes Hostile.</p><p>VERY FRIENDLY The very friendly NPC is exceptionally welcoming, and provides gestures of respect or hospitality without being prompted. The NPC may provide extraordinary help, though nothing that contradicts their values. This is a rare spontaneous impression, and the GM should come up with a specific reason why any first impression would get a Very Friendly response. A negative variation of Very Friendly is Terrified, where the NPC anxiously does anything possible to avoid a perceived (or very real) threat. Once the threat is gone and the NPC feels safe, their attitude shifts to Very Hostile.</p>"
+      },
+      "sort": 3600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.iMdadiStX5STGWSU",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "ibgR7AaGaTsIdPyH",
+      "name": "Interactions",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>It’s possible to roleplay social interactions without using any rules, but sometimes the element of chance can create unexpected twists and inspire creative strategies.</p><h2>Simple Social Interactions</h2><p>The simplest way to carry out social interactions is to decide what you want from an NPC, and how you’d like to convince them to achieve it. After that, make an opposed test of your chosen strategy (often a Communication test with an appropriate focus) versus the NPC’s Willpower, which might apply a focus the GM considers relevant for the attempt (see Chapter 3: Character Traits).</p><blockquote><p>Soren’s smirk was of the psychic variety;</p></blockquote><p>If the GM has decided on the NPC’s attitude beforehand, you may gain a bonus or</p><blockquote><p>his face didn’t change at all.</p></blockquote><p>suffer a penalty to your interaction test based on the NPC’s attitude, as shown on the</p><p>Attitudes table. Unless events in the story dictate otherwise, most NPCs begin interac-</p><blockquote><p>—Caliban’s War</p></blockquote><p>tions with a Neutral attitude.</p><p>The GM can always decide an NPC will never do certain things, or acquiesces to some requests automatically. Otherwise, if you win the opposed test, the NPC basically does as you wish, though not always exactly as you might prefer.</p><p>EXAMPLE When Miller talks to the instructor of the Ceres Center, the GM decides the man’s attitude is Standoffish because Miller is a cop. That’s a -1 to Miller’s Communication (Persuasion) test. However, Miller wisely goes the route of appealing to the instructor’s fondness for Julie by explaining that he thinks she’s in trouble. The GM decides that shifts his attitude to Open for a +1 modifier. Miller succeeds on the ability test and learns what the man knows.</p><h2>Detailed Social Interactions</h2><p>Sometimes you want to flex your social muscles, or get The rules in this section are normally only used to sway NPCs, but you involved in deep intrigue. This is where detailed social can use them with other players to guide your roleplaying. In this case, the rules serve as advice, telling you what you might do, not what you interaction comes in. In these rules, the goal is to change must do. You select your own starting attitude. an NPC’s attitude to one where they feel inclined to do</p><p>If you change your attitude and put yourself at a disadvantage because something in your favor. This may involve significant the rules suggest your character would be swayed by social maneueffort, so this system is better applied to major favors vering, the GM may reward you in some fashion, including restoring or changes in a relationship with the NPC. Again, some Fortune or an award of Reputation, Relationship, or Membership rank. NPCs may never act in certain ways, as it contradicts their strongest beliefs.</p><p>The effort involved to achieve such significant influence is measured in shifts. A shift represents a change in attitude, opinion, object of attention, or any other social hurdle you must overcome.</p><p>SOCIAL “COMBAT”</p><p>The GM decides the NPC’s current attitude, and the attitude required to comply with your wishes. Note the number of shifts required to move along the scale from the current attitude to the target attitude. For instance, moving from Standoffish, to Neutral, to Open, to Friendly is 3 shifts. Add 1 shift to focus the NPC’s attention toward doing what you wish. Furthermore, the GM can add 1 or 2 shifts to represent the NPC’s greater resistance to your efforts if the desired actions would inconvenience or trouble them in some way.</p><p>The final number of shifts can be achieved in two ways: through social maneuvers, or in a grand gesture.</p><p>SOCIAL MANEUVERS</p><p>Each shift becomes an action you perform to adjust the NPC’s attitude. You can suggest an action, or the GM can require one. These may be opposed tests with the NPC or specific tasks for you to complete, such as giving the NPC a gift or laying low one of their rivals. These tasks clear any additional shifts that represent resistance first. Subsequent shifts improve the NPC’s attitude, and your last task directs them to your goal. Utterly blowing a task may set back progress by one or more shifts at the GM’s discretion, but in many cases nothing may happen, though any change in attitude can linger, providing a partial benefit. Thus, shifting attitudes is something that can happen between other encounters, as a gradual process.</p><p>EXAMPLE Chrisjen Avasarala confronts Jules-Pierre Mao, who is Hostile toward the UN, even if he is cooperating outwardly.</p><p>She wants to adjust his attitude (with a hammer, if necessary) to get him to cooperate, but she starts by trying to appeal to him and persuade him, first telling him she needs more information about the protomolecule and that their conversation is off the record and unmonitored. Even with Avasarala’s Communication score, Mao’s considerable Willpower and the negative modifier mean it yields nothing, which doesn’t surprise her, so she tries the tactic of following up on Mao’s daughter, Julie. Unfortunately, all that does is shift Mao’s attitude to Very Hostile, at least outwardly, worsening the modifier. That means the next two tests are unsuccessful as well, and Mao leaves the meeting with Avasarala learning nothing other than that he is clearly hiding something.</p><p>THE GRAND GESTURE</p><p>Instead of performing many small tasks to clear shifts, the GM may allow you to perform a single ambitious gesture intended to influence the NPC in one fell swoop. The grand gesture is an advanced test representing any complex project that might win the NPC’s favor. A grand gesture test has a success threshold of 3-5 (determined by the GM) multiplied by the number of shifts, with interval times and other details set by the GM. If you complete the gesture in time, you produce the desired attitude and response, but if you fall short, you get nothing.</p><p>EXAMPLE Avasarala knows Martian Marine Bobbie Draper is important because of what she saw on Ganymede. Not having time to faff around and needing to find out more about what happened on Ganymede and how it relates to the protomolecule and Venus, Avasarala makes the grand gesture of dropping in on the Dasihari Longue where Draper is drinking, sitting down and talking with her, and offering her a job. Bobbie’s initial attitude is Neutral, so the GM sets a success threshold of</p><p>10 to shift her to Friendly. A few Communication tests later, the Marine accepts Avasarala’s private number with an agreement to think about her offer.</p>"
+      },
+      "sort": 3700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.ibgR7AaGaTsIdPyH",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "k2cKYX1AvfqS2id8",
+      "name": "Social Rules for Player Characters",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Social Stunts</h2><p>Social stunts are those most commonly used during social encounters, but a social stunt during an action scene might help turn the tide of a battle or even suspend hostilities, if the GM sees fit. Include a description of your interactions along with a social stunt, and the two must be consistent. You can’t have your character deliver a scathing dressing-down and then use</p><p>Class Clown to say it’s funny (at least, not without a really clever justification).</p><p>Some social stunts have different effects depending on whether you use the simple or detailed social interaction rules, denoted by parenthetical tags. A stunt that worsens other characters’ attitudes toward you or another character can also negate the effects of one relevant Reputation or Membership benefit per shift instead for the rest of the session, at the option of whoever chose the stunt.</p>"
+      },
+      "sort": 3800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.k2cKYX1AvfqS2id8",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "XME7MkezRIuQ2xNr",
+      "name": "Attitude Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP COST</p><p>STUNT</p><p>(CORE) MAKING AN OFFER: Your test implies a promise or olive branch, temporarily shifting the target’s Attitude toward you up by</p><p>1-3 one per SP spent (even if this test already shifted it); it shifts back by the same amount as soon as you fail a social test against them.</p><p>Inapplicable when performing a grand gesture.</p><p>READ THE ROOM: The GM reveals the current Attitude, or an intention or mood indicator, for one character present of your choice,</p><p>1 in reaction to your test. You can choose this stunt multiple times per roll. Characters with either the Communication (Deception) or</p><p>Willpower (Self-Discipline) focus may roll vs. your Perception (Empathy) to avoid this.</p><p>ON THE FENCE: Choose a character you didn’t target who’s Standoffish, Neutral, or Open toward you. They’re convinced to take</p><p>2 your side in the conflict, as long as they don’t already oppose you (Simple); shift their Attitude toward you up by one for the rest of the encounter (Detailed).</p><p>BAD FORM: Immediately regain the SP you spent on this stunt, plus 1 more. Then choose any character present; they now consider</p><p>3 you a rival, threat, or enemy, shifting their Attitude to Hostile if it was Standoffish or Neutral, or shifting it to its negative variation if it was more positive. Inapplicable if all NPCs present are already Hostile toward you.</p><p>CAST OUT: Your action shames or embarrasses another character present, imposing a −2 penalty on their next social roll against anyone but you in this encounter (Simple) or worsening the Attitude of one other character present toward them by one shift (Detailed).</p><p>RISKY BUSINESS: Your action reveals a secret or contains a significant lie, shifting your target’s Attitude toward another character in the</p><p>4 scene from Neutral or worse to Very Hostile; it also worsens your target’s Attitude toward you by one shift, as they’re inclined to shoot the messenger. If you lied and the target later finds out, their Attitude toward you shifts to Very Hostile as well.</p><p>MEDDLE: Your action brings others together or drives a wedge between them. Choose two other characters present and shift their</p><p>Attitudes toward each other up or down by one (both in the same direction).</p>"
+      },
+      "sort": 3900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.XME7MkezRIuQ2xNr",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "ECXnVFtnLsMAHyQY",
+      "name": "Membership & Reputation Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP COST</p><p>STUNT</p><p>(CORE) BON MOT: You tag the perfect witty remark onto the end of your action. If you can’t think of one, let the group brainstorm and pick one among their ideas. Gain a temporary honorific you can use for passive Reputation only, for the rest of the session.</p><p>STICK YOUR NECK OUT: Your test puts your own Reputation in jeopardy to help someone else. An ally of your choice gains a +2 bonus to their next social test in this encounter; if they fail, you lose all Reputation bonuses from one honorific for the rest of the session.</p><p>IN GOOD STANDING: When targeting a member of an organization in which you have Membership, treat your rank as one higher for the purpose of gaining access to resources for the rest of this encounter.</p><p>BENEFIT OF THE DOUBT: Your action impresses or charms any one character present. Roll Communication (Persuasion) vs.</p><p>Willpower (Self-Discipline) to affect someone with an Attitude of Hostile or worse; no roll is necessary for others. Increase all relevant</p><p>Membership and Reputation bonuses by +1 while interacting with that character for the rest of the session; this may improve their</p><p>Attitude toward you, at the GM’s discretion.</p><p>GO VIRAL: Whether via you or others sharing a video or audio recording, news gets out quickly about what you’ve just done. For the rest of the session, the honorific most related to this test applies even in situations where it seems unrelated.</p><p>OOZING CONFIDENCE: Your action impresses or fools all the right people. Gain one temporary Reputation honorific or rank of</p><p>Membership for the rest of the session, or until you next fail a test relevant to this influence, whichever comes first.</p><p>NAME-DROPPING: Your action displays your affiliation with someone whose Membership rank is higher than yours in an organization to</p><p>5 which you belong, or who has a relevant honorific you don’t. You may use their Reputation or Membership benefits with that honorific or organization as your own for the rest of the session; if they find out and disapprove, worsen their Attitude toward you by one shift.</p>"
+      },
+      "sort": 4000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.ECXnVFtnLsMAHyQY",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "PAnOUaRwVmpUTnaz",
+      "name": "NPCs and Social Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Remember, social stunts are available to NPCs, too. Turnabout is fair play! But be sure to communicate openly when social stunts seem to take away the players’ agency to choose how their characters act. GMs should work with players to make sure no one is uncomfortable with the direction of the scene. In cases where a stunt doesn’t make sense for an NPC to use, such as when it would impact Attitude (which Player Characters don’t have) or Relationships (which NPCs don’t have), the GM can either approximate the results through roleplay with the player’s permission, or just choose something else. The GM might give Reputation or Membership to some important NPCs so they can participate in stunts that call on those traits; see the Threats chapter for more on this.</p><p>Using Attitude rules for Player Characters can help make NPCs’ social stunts feel less intrusive, since anyone who tries to change a character’s behavior or actions that way must do so gradually, with obvious steps to follow. Like NPCs, PCs can have certain inalienable values no social stunt can make them defy, and players may draw a hard line such that not even violent threats or coercion can change a character’s mind on these principles.</p><p>At the same time, players should keep in mind that good fun can arise from social influence on their characters, even if it leads in directions they wouldn’t necessarily choose themselves. As the Attitude rules suggest, the GM should make sure to reward players with Relationships, Reputation, etc. if they allow social stunts to put their characters at a disadvantage.</p><p>Ultimately, if everyone at the table doesn’t agree on how a social stunt should affect a character, just skip it and choose a different one.</p>"
+      },
+      "sort": 4100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.PAnOUaRwVmpUTnaz",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "m0ggdoNKBJREYR3y",
+      "name": "General Social Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>SP COST</p><p>STUNT</p><p>1–3 (CORE) IMPRESS: Gain a +1 per SP spent to your next social test against the same target as this test, during this encounter.</p><p>CARDS ON THE TABLE: If you were completely honest when making this test, your target must be completely honest in the next</p><p>1 social test they make against you during this encounter. This doesn’t stop either character from omitting information or offering misleading truths.</p><p>MAKING AN ENTRANCE: If this is your first action of the encounter, gain +1 to your next opposed roll against one character who witnessed it. You can choose this stunt multiple times per roll.</p><p>AND ANOTHER THING: Make a second, related test as part of your action, before anyone else has a chance to respond or make any tests of their own.</p><p>HIDDEN MESSAGE: Your words convey a different message to one person than to everyone else who hears them; the character you choose is the only one who can decipher your true meaning.</p><p>SWAY THE CROWD: Your words affect one additional person of your choice. You may choose this stunt multiple times per roll, but if someone opposed your test, you can’t expand the effect to anyone with a higher ability + focus total than the original target.</p><p>GOOD COP/BAD COP: Choose an ally to immediately make a test in seeming opposition to the one you just made, with the same target. If they succeed, rather than garnering the usual results, they prompt the target to give up a secret you didn’t already know.</p><p>3 LET’S MAKE A DEAL: Your action turns out to benefit a character you didn’t target, who now owes you a favor, however grudgingly.</p><p>OBJECTION!: You step in on someone else’s behalf. Another character in the scene may use your ability + focus score instead of their own next time they oppose a test during this encounter.</p><p>CLASS CLOWN: Your words lighten the mood, imposing a –2 penalty to all enemies’ initiative rolls if a fight breaks out during this encounter.</p><p>FLIRT: Roll Communication (Seduction) vs. your target’s Willpower (Self-Discipline) as a simple social roll against a character whose</p><p>4 Attitude toward you is Open or better, with a positive bent; if you win, they become enamored with your character, opening the door to future romance or intimacy. How this proceeds is up to you and the GM to work out together.</p><p>FROM THE HEART: You believe wholeheartedly in what you say. Choose one Willpower focus. If you don’t have it already, gain it for the rest of the encounter. If you do, it adds +3 instead of +2 to rolls you make with it.</p><p>SLEEP WITH ONE EYE OPEN: Applies to a test targeting someone you have a negative Relationship with, or who has harmed</p><p>4 someone you have a Relationship with. The next attack you make against that target in this session is automatically a surprise attack, as long as they weren’t already in combat.</p><p>ENRAGE: Choose one character present whose Attitude toward you is Neutral or worse, or a negative variant of a more positive</p><p>Attitude. They must immediately either attack you or storm out of the scene. If they attack, it needn’t be deadly, though it can be.</p><p>PATTER: Your rapid-fire words confuse your target, who must succeed at a Perception (Empathy) roll vs. your Communication</p><p>(Deception), or automatically fail their next non-attack test against you.</p><p>MY WORD IS MY BOND: Applies to a test relevant to completing a task you’ve promised someone you have a Relationship with you’ll</p><p>7 perform. Gain +2 to tests directly related to completing this task until the end of the session. This stunt requires bonus SP available from a Relationship in order to meet the necessary cost.</p><h2>Interludes</h2><p>Whereas encounters are largely GM-driven, with the GM presenting players with a situation and then adjudicating their characters’ actions, interludes are largely player-driven. These are segments of downtime in between encounters in the narrative of the game. The most common interludes in The Expanse occur during long travel times between destinations in the system, or during off-ship breaks like shore-leave on a station or colony. An interlude allows characters time to pursue their own interests and goals, to recover from the exertions of their adventures, and to handle the routine tasks of life that get pushed aside in the press of encounters and action time. The process for handling interludes in play is as follows:</p><p>The GM informs the players of an interlude, such as, “Your trip to Ganymede is going to take about a week, so you have an interlude.” In some cases, the players can also request an interlude like, “When we dock at the station, we</p><p>1 want to take some time for an interlude.” The GM decides when an interlude begins, however, since the players may not be aware of the circumstances, such as trouble awaiting them on the station with at least one (if not several!) encounters before they get a break.</p><p>The players declare how their characters will spend their time during the interlude. Depending on the length of time</p><p>2 available, they may pursue one activity or several, depending on their requirements. The characters may cooperate on some goals or split up for others.</p><p>Players and the GM make any necessary tests for the characters’ declared activities to see how they progress or</p><p>3 succeed, or not. Some interlude activities require no test so long as there is sufficient time, while others need a test to see if they are successful and, if so, to what degree.</p><p>Once all character activities during the interlude are resolved, the GM declares the end of the interlude and begins</p><p>4 the next encounter. By definition, an encounter always follows an interlude; two or more interludes simply add up to a single, longer interlude with more options for activities.</p><h2>Interludes Between Adventures</h2><blockquote><p>“Downtime’s easier to enjoy when I</p></blockquote><p>Generally, unless a game session ends on a cliffhanger in the middle of an encounter or leads</p><blockquote><p>know it’ll end.”</p></blockquote><p>directly into another encounter, it is common to insert an interlude between the end of one</p><blockquote><p>—Leviathan Wakes</p></blockquote><p>Expanse game session and the beginning of the next. The GM should decide whether to play out the interlude as the end of the session or the start of the next, as time and circumstances allow. You can even play out the interlude during the time between game sessions, with the players and the GM communicating via email or other means, so at the start of the next game, the interlude is already concluded and play jumps right into the next encounter.</p><h2>Interludes and Fortune</h2><p>Generally, during an interlude, characters recover expended Fortune points, returning to their usual starting total (see Fortune in Chapter 1 and Chapter 2). This reflects the opportunity for characters to regroup, gather their wits, and generally prepare themselves for whatever challenges await them next.</p><p>While Recovering, characters regain 10 + level Fortune every 8 hours. Additionally, a character can choose one favored activity where they regain Fortune at the same rate as Recovering: This might be Relating for a social character, Researching for a bookworm, and so forth. The character’s player chooses the activity, approved by the GM. Otherwise, characters regain 5 + level Fortune during an interlude.</p><blockquote><p>Recovering or Favored Activity = 10 + level Fortune per 8 hours Other Activities = 5 + level Fortune per interlude</p></blockquote>"
+      },
+      "sort": 4200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.m0ggdoNKBJREYR3y",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "zFMi04pzT9BRcDUy",
+      "name": "Interlude Activities",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Depending on the length of the interlude, characters can engage in one or more activities. These are similar to actions taken during action time, but on a more narrative time scale, and interlude activities are largely simultaneous, rather than handled in rounds like action time. This section describes the most common interlude activities but, like the Actions section of this chapter, players should feel free to come up with their own, with the GM adjudicating them using existing activities as guidelines.</p><p>In some cases, an interlude activity requires an advanced test, with the test total determining how long it takes the character to complete the activity (see Advanced Tests in Chapter 1). If the character does not complete the activity in the time of the interlude, it’s up to the GM whether or not those efforts carry forward to the next interlude, where the characters have the opportunity to pick up the activities where they left off. Generally,</p><p>Some of the activities described for interludes also fit the this should be the case, unless there’s a compelling reason why the parameters for exploration or social encounters. So how do initial time invested into the activity would be lost, such as changing you decide which is which? Generally speaking, interludes are conditions or time-sensitive work.</p><p>relatively brief parts of the narrative, even if they last for long periods of game time. They can usually be summed up with</p><p>ADVANCEMENT just a sentence or paragraph, such as, “Over the next couple of weeks, you recover, and then set to work on rebuilding that During the interlude, you spend time consolidating an advancement damaged cargo bay hatch” or “During the week-long trip, you within an organization.</p><p>spend some time together outside of doing routine ship maintenance, getting to know one another better.” The stakes in</p><p>REQUIREMENTS You must have received an advancement interludes also tend to be lower. The characters aren’t under in Membership as a reward prior to the start of the interlude pressure and usually the worst consequence is not having</p><p>(see Membership in Chapter 14). enough time or the right requirements to complete an activity.</p><p>Encounters, on the other hand, tend to focus on the moment-</p><p>RESOLUTION This requires a test only if the GM feels it is by-moment aspects of things. Exploration and social encounters may not break time down as minutely as action encounneeded to close the deal of an award of advancement in rank, ters do, but they still tend to progress with a fair amount of in which case it should generally be an advanced test of attention to detail: who does and says what when to whom</p><p>Communication, unless the organization prizes some other and so forth. That doesn’t mean you might not want to roleability you can use to demonstrate your worthiness. The test play out parts of an interlude activity, especially Relating, or should have a fairly low success threshold, between 5 and 10, gloss over some of the details of a social encounter with an reflecting your already existing value to the organization. ability test, but keep in mind the differences between them.</p>"
+      },
+      "sort": 4300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.zFMi04pzT9BRcDUy",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "mWBDk9gCnRS3brSq",
+      "name": "Interludes VS. Encounters",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>MAINTENANCE</p><p>You make sure things are functioning properly.</p><p>REQUIREMENTS You need the necessary tools, parts, and equipment. If you’re lacking them, or they are of poor quality, the GM may say your maintenance work takes longer or is less effective. If you need to acquire them, then an Income test is needed, with a Cost set by the GM using the guidelines in Chapters 3 and 4.</p><p>RESOLUTION Usually, no test is required, although the GM may require a character to have the appropriate focus, like Intelligence (Engineering or Technology) to do the work, and sufficient time and resources.</p><p>MAKING OR FIXING</p><p>You spend time making or fixing something.</p><p>REQUIREMENTS You need the necessary materials</p><p>(which can be acquired with an Income test with a TN equal to the item’s value –5) and necessary tools and equipment. If you are lacking in the latter, the GM may apply a penalty to the advanced test. If you are fixing rather than building something, subtract an additional</p><p>2 from the TN of the Income test.</p><p>RESOLUTION Make an advanced test using the appropriate focus, such as Dexterity (Crafting), Intelligence (Engineering), or Intelligence (Chemistry) with a</p><p>TN equal to the item’s cost –2. The GM determines the success threshold based on the item’s complexity:</p><p>5 for a simple item; 10 to 15 for more complex ones; up to 20 to 25 for truly complex works or pieces of equipment. Lower the success threshold by as much as half for fixing something rather than building it from scratch, so a threshold of 20 might become 10, for example. The GM can adjust this based on the extent of the repairs needed. Each roll represents 6 hours of work. When you reach the threshold, the item is complete.</p><p>RECOVERING</p><p>Sometimes, you need to spend an interlude, perhaps even several, recovering from the results of your prior encounters.</p><p>REQUIREMENTS While recovering, the character needs to engage in only light activity: resting, reading, conversation, and so forth. No other activities can be undertaken during the same interlude while recovering.</p><p>RESOLUTION Make an advanced TN 11 Constitution</p><p>(Stamina) test every 24 hours. If you are under medical care, your physician (or auto-doc) can make an Intelligence (Medicine) test against the same TN and you can use the better of the two rolls. Track the result of the</p><p>Drama Die for each successful test. At a success threshold of 5, you can remove an injured condition. At a success threshold of 15, you can remove a wounded condition. For recovering from additional conditions due to hazards, the GM sets the necessary success threshold.</p><p>If recovery conditions are less than ideal—like trying to recover in the wilderness with little shelter or food, or on a ship low on supplies with minimal life support—the GM may increase the TN of the test.</p><p>RELATING</p><p>You take time to get to know someone better, or to change the nature of your relationship.</p><p>REQUIREMENTS Relating only requires time and someone willing to relate to you, or given no choice but to do so by circumstances. At the GM’s discretion, you might need to at least get someone else to an attitude of Neutral toward you in a social encounter before you can really relate to them during an interlude.</p><p>RESOLUTION No test is required (except perhaps to improve the other person’s initial attitude, see Requirements). You just take time to either change your relationship with someone (see Changing Relationships in</p><p>Chapter 14) or to establish or strengthen a Bond (see</p><p>Adding Relationships in Chapter 14). The GM determines how long this takes: It might be anywhere from a heartfelt conversation for an hour or two to spending days or even longer together.</p><p>REPUTATION</p><p>You live up to your reputation, or create a new one for yourself.</p><p>REQUIREMENTS Either an existing reputation to maintain or a new one you are aiming for. See Reputation in</p><p>Chapter 14 for details.</p><p>RESOLUTION You spend time doing things in accordance with your reputation in order to maintain it; reputations and fame can be fleeting, and a known pattern of behavior can reinforce them. Exactly what depends on your reputation, but during an interlude it is often making your actions known in some way, whether it is giving an interview or broadcasting a video or a piece of writing out to the system. In some cases, the GM may require a test, such as Communication (Expression or Performing) after gaining a level (see Advancement in Chapter 1).</p><p>to measure the effectiveness of your efforts. You can The GM is free to reduce or even waive this time as likewise do things counter to a current reputation in best suits the overall story. Otherwise, interludes after order to try and rid yourself of it, or something new in characters gain a level can be assumed to be taken up order to gain a new reputation. The GM decides when it with at least some training time.</p><p>is appropriate to drop an old reputation or to award you</p><p>UPKEEP a new one, as given in Chapter 14.</p><p>You put time and Income into maintaining a lifestyle.</p><p>RESEARCHING</p><p>REQUIREMENTS The necessary Income. You spend time looking up (or digging for) information.</p><p>RESOLUTION No test is required, unless the charac-</p><p>REQUIREMENTS You need access to sources of inforters is trying to live above their means and enjoy a mation, usually your hand terminal and a network, higher lifestyle than their Income would normally allow.</p><p>although some research might also require specific</p><p>In that case, reduce the character’s Income by 1 per sources of data or even subjects of study, such as additional class of lifestyle, just like overextending biological or material samples.</p><p>Income on a purchase. Naturally, this makes this sort of</p><p>RESOLUTION Make an advanced Intelligence living quite unsustainable.</p><p>(Research) test with a TN based on how obscure or difficult to find the information you’re looking for is. WORKING</p><p>Each test represents 4 hours of work. The GM sets the</p><p>A prime way to handle upkeep is by working to get paid.</p><p>success threshold for when you find what you’re looking for. Optionally, the GM can set multiple thresh- REQUIREMENTS</p><p>A paying job the character can perform.</p><p>olds, each revealing a particular piece of information about the subject, until you have found out everything RESOLUTION Characters can spend interludes there is to know about it. working a job, either for a particular employer or a free-lance or gig approach of getting paid for certain tasks.</p><p>TRAINING</p><p>The default is that the character maintains their Income score, and may recover from any reduction in Income Practice makes perfect, or at least secures progress.</p><p>from expenses prior to the interlude, at the GM’s discretion. Alternately, the character can take a riskier</p><p>REQUIREMENTS You need the time and the right approach, making a test with a suitable focus for the conditions to train with whatever focus or talent you’re work against TN 13. If successful, the character scores practicing. This may also call for certain equipment, at a temporary windfall, a +1 to Income that lasts until after the GM’s discretion, such as a shooting range (or at the next purchase requiring an Income test. However, if least a virtual simulator) to train with guns, for example.</p><p>the test fails, the character suffers a reversal: a –1</p><p>RESOLUTION No test is needed, but you need a penalty to Income that lasts until the character’s next hundred hours of training (cumulative) to acquire a new opportunity to increase or restore Income by reward, focus or new degree in a talent, or to advance an ability leveling, or interlude.</p>"
+      },
+      "sort": 4400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.mWBDk9gCnRS3brSq",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "gUgLatpzNEvSTfMt",
+      "name": "Interlude Priorities",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Game Masters should emphasize the necessity of Maintenance, Upkeep, and Working during interludes, if the crew intends to maintain all of their equipment, technology, and their general Income and lifestyle (see Income in Chapter 3 and Lifestyle in Chapter 4). If these key activities are neglected, the GM should feel free to do things like lower the characters’ Income scores, apply Flaws to their equipment (or their ship!), have creditors come after them, impose trouble with finding (or leaving) a berth at a space-dock, and so forth until they take the necessary interludes to make up for lost time and effort. Sometimes this requires characters to juggle their priorities, especially when they would rather be pursuing some other activity (like Relating or Advancement) when they need to partake in an activity like Recovering. Fulfilling their needed interludes is a useful story hook as well; when the crew needs Income, time off, supplies, or a safe harbor, it gets them thinking and planning about their next moves.</p>"
+      },
+      "sort": 4500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MTxtrkL4gW0I0nNs.gUgLatpzNEvSTfMt",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": "TD8nJk5ZKoBh0xb1",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "MTxtrkL4gW0I0nNs",
+  "_key": "!journal!MTxtrkL4gW0I0nNs",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

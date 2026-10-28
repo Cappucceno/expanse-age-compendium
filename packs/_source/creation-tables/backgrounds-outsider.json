@@ -1,0 +1,83 @@
+{
+  "name": "Backgrounds: Outsider",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 4: Background",
+  "results": [
+    {
+      "_id": "OXTUgrOExZEOEojz",
+      "type": "text",
+      "name": "Bohemian",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!Wf8MjrlrCQ5PUIPK.OXTUgrOExZEOEojz"
+    },
+    {
+      "_id": "2DEnThcy2vVEkZEU",
+      "type": "text",
+      "name": "Exile",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!Wf8MjrlrCQ5PUIPK.2DEnThcy2vVEkZEU"
+    },
+    {
+      "_id": "xDSq1utibwzjcdrp",
+      "type": "text",
+      "name": "Outcast",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!Wf8MjrlrCQ5PUIPK.xDSq1utibwzjcdrp"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "KupSToGvoqsE558E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "Wf8MjrlrCQ5PUIPK",
+  "_key": "!tables!Wf8MjrlrCQ5PUIPK"
+}

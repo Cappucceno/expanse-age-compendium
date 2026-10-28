@@ -1,0 +1,24 @@
+{
+  "name": "Empathy",
+  "_id": "kSx9Akl49kHF4at5",
+  "_key": "!items!kSx9Akl49kHF4at5",
+  "folder": "G4YinXYFiER29Ial",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Picking up on and interpreting the feelings and emotions of others.</p>",
+    "useAbl": "per",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

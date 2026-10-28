@@ -1,0 +1,48 @@
+{
+  "name": "Light Armor",
+  "_id": "7lhdVs0ahiUrmSjU",
+  "_key": "!items!7lhdVs0ahiUrmSjU",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Modern anti-ballistic materials, similar in weight to a light jacket or lined jumpsuit, easy to wear without drawing notice.</p>",
+    "weight": 0,
+    "cost": 12,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {
+      "ue1X1X6OVJywYlmE": {
+        "type": "impactArmor",
+        "formula": "2",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "ue1X1X6OVJywYlmE"
+      },
+      "7Rl0HMiJvxLusB6G": {
+        "type": "armorPenalty",
+        "formula": "1",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "7Rl0HMiJvxLusB6G"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

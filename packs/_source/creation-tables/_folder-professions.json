@@ -1,0 +1,17 @@
+{
+  "name": "Professions",
+  "type": "RollTable",
+  "folder": null,
+  "sorting": "a",
+  "sort": 400000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "ssn45qOk4eAKtLb5",
+  "_key": "!folders!ssn45qOk4eAKtLb5",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

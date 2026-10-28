@@ -1,0 +1,24 @@
+{
+  "name": "Crafting",
+  "_id": "LhCDKMwEAghDjCTt",
+  "_key": "!items!LhCDKMwEAghDjCTt",
+  "folder": "F9dk45ZVyiRvDt45",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Making things with manual skills, including the various fine and plastic arts. Examples of specific Crafting focuses include Carpentry, Carving, Drawing, Glass-blowing, Leather-working, Painting, Origami, Sculpting, and so forth.</p>",
+    "useAbl": "dex",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Willpower",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 900000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "RJvS9GDi80RRCOt3",
+  "_key": "!folders!RJvS9GDi80RRCOt3",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "label": "Armas",
+  "mapping": {
+    "name": "name"
+  },
+  "entries": {
+    "Grenade": {
+      "name": "Granada"
+    },
+    "Heavy Close Weapon": {
+      "name": "Arma Pesada Corpo a Corpo"
+    },
+    "Light Close Weapon": {
+      "name": "Arma Leve Corpo a Corpo"
+    },
+    "Makeshift Weapon": {
+      "name": "Arma Improvisada"
+    },
+    "Pistol": {
+      "name": "Pistola"
+    },
+    "Rifle": {
+      "name": "Fuzil"
+    },
+    "Taser": {
+      "name": "Taser"
+    },
+    "Unarmed Strike": {
+      "name": "Ataque Desarmado"
+    }
+  }
+}

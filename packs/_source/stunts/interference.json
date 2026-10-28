@@ -1,0 +1,26 @@
+{
+  "name": "Interference",
+  "_id": "mropyjTZhBMDbz6B",
+  "_key": "!items!mropyjTZhBMDbz6B",
+  "folder": "WC7yZ0ygjULwOXGj",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>A character of your choice suffers a -2 penalty on their next chase test.</p>",
+    "type": "Chase",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

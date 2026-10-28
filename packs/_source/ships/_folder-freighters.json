@@ -1,0 +1,17 @@
+{
+  "name": "Freighters",
+  "type": "Actor",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "BUtV6XCY8EZEW0jp",
+  "_key": "!folders!BUtV6XCY8EZEW0jp",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

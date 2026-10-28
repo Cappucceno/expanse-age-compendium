@@ -1,0 +1,39 @@
+{
+  "name": "Agility",
+  "_id": "uwYnQ32OZe23s0lg",
+  "_key": "!items!uwYnQ32OZe23s0lg",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You move with grace, speed, and ease.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity 2 and the Dexterity (Acrobatics) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Every move you make is part of one fluid motion. Using the Move action to stand up, climb, dismount, etc. does not reduce your Speed. See Chapter 5 for details.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>When you move, terrain-based hazards do not reduce your Speed. When you fall, if you succeed at a Dexterity (Acrobatics) test with a TN determined by the GM based on height and nearby surfaces, you suffer only half damage.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Impressive acrobatics are just the way you naturally move. You can re-roll any die result of 1 on each die for Dexterity (Acrobatics), Stamina (Running), and Strength (Climbing, Jumping) tests, but must keep the results of the second roll.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

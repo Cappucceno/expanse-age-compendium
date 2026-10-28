@@ -1,0 +1,24 @@
+{
+  "name": "Intuition",
+  "_id": "mncSlPH3QLZnTenw",
+  "_key": "!items!mncSlPH3QLZnTenw",
+  "folder": "G4YinXYFiER29Ial",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Having a “gut feeling” about certain things you can’t otherwise sense.</p>",
+    "useAbl": "per",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

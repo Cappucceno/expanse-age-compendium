@@ -1,0 +1,231 @@
+{
+  "label": "Guia de Criação de Personagem",
+  "mapping": {
+    "name": "name",
+    "pages": {
+      "path": "pages",
+      "converter": "pages"
+    }
+  },
+  "entries": {
+    "Backgrounds": {
+      "name": "Antecedentes",
+      "pages": {
+        "Academic": {
+          "name": "Erudito"
+        },
+        "Aristocratic": {
+          "name": "Aristocrata"
+        },
+        "Bohemian": {
+          "name": "Boêmio"
+        },
+        "Corporate": {
+          "name": "Corporativo"
+        },
+        "Cosmopolitan": {
+          "name": "Cosmopolita"
+        },
+        "Exile": {
+          "name": "Exilado"
+        },
+        "Laborer": {
+          "name": "Trabalhador"
+        },
+        "Military": {
+          "name": "Militar"
+        },
+        "Outcast": {
+          "name": "Pária"
+        },
+        "Suburban": {
+          "name": "Suburbano"
+        },
+        "Trade": {
+          "name": "Comerciante"
+        },
+        "Urban": {
+          "name": "Urbano"
+        }
+      }
+    },
+    "Character Creation Steps": {
+      "name": "Criação de Personagem em Dez Passos Fáceis",
+      "pages": {
+        "The Ten Steps": {
+          "name": "Os Dez Passos"
+        },
+        "Determining Abilities": {
+          "name": "Determinando Habilidades"
+        },
+        "Income": {
+          "name": "Renda"
+        },
+        "Secondary Abilities and Fortune": {
+          "name": "Habilidades Secundárias e Destino"
+        },
+        "Starting Equipment": {
+          "name": "Equipamento Inicial"
+        }
+      }
+    },
+    "Drives": {
+      "name": "Motivações",
+      "pages": {
+        "Drive Benefits": {
+          "name": "Benefícios da Motivação"
+        },
+        "Achiever": {
+          "name": "Realizador"
+        },
+        "Builder": {
+          "name": "Construtor"
+        },
+        "Caregiver": {
+          "name": "Samaritano"
+        },
+        "Ecstatic": {
+          "name": "Extático"
+        },
+        "Judge": {
+          "name": "Juiz"
+        },
+        "Leader": {
+          "name": "Líder"
+        },
+        "Networker": {
+          "name": "Agregador"
+        },
+        "Penitent": {
+          "name": "Penitente"
+        },
+        "Protector": {
+          "name": "Protetor"
+        },
+        "Rebel": {
+          "name": "Rebelde"
+        },
+        "Survivor": {
+          "name": "Sobrevivente"
+        },
+        "Visionary": {
+          "name": "Visionário"
+        }
+      }
+    },
+    "Origins": {
+      "name": "Origens",
+      "pages": {
+        "Native Gravity": {
+          "name": "Gravidade Nativa"
+        },
+        "Belter": {
+          "name": "Cinturano"
+        },
+        "Earther": {
+          "name": "Terráqueo"
+        },
+        "Martian": {
+          "name": "Marciano"
+        }
+      }
+    },
+    "Professions": {
+      "name": "Profissões",
+      "pages": {
+        "Artist": {
+          "name": "Artista"
+        },
+        "Athlete": {
+          "name": "Atleta"
+        },
+        "Brawler": {
+          "name": "Lutador"
+        },
+        "Clergy": {
+          "name": "Sacerdote"
+        },
+        "Commander": {
+          "name": "Comandante"
+        },
+        "Criminal": {
+          "name": "Criminoso"
+        },
+        "Dilettante": {
+          "name": "Diletante"
+        },
+        "Executive": {
+          "name": "Administrador"
+        },
+        "Expert": {
+          "name": "Especialista"
+        },
+        "Explorer": {
+          "name": "Explorador"
+        },
+        "Fixer": {
+          "name": "Solucionador"
+        },
+        "Investigator": {
+          "name": "Investigador"
+        },
+        "Merchant": {
+          "name": "Mercador"
+        },
+        "Negotiator": {
+          "name": "Negociador"
+        },
+        "Pilot": {
+          "name": "Piloto"
+        },
+        "Politician": {
+          "name": "Político"
+        },
+        "Professional": {
+          "name": "Profissional"
+        },
+        "Scavenger": {
+          "name": "Catador"
+        },
+        "Scholar": {
+          "name": "Acadêmico"
+        },
+        "Security": {
+          "name": "Segurança"
+        },
+        "Socialite": {
+          "name": "Socialite"
+        },
+        "Soldier": {
+          "name": "Soldado"
+        },
+        "Survivalist": {
+          "name": "Sobrevivencialista"
+        },
+        "Technician": {
+          "name": "Técnico"
+        }
+      }
+    },
+    "Social Classes": {
+      "name": "Classes Sociais",
+      "pages": {
+        "Social Class Table": {
+          "name": "Tabela de Classe Social"
+        },
+        "Outsider": {
+          "name": "Marginalizado"
+        },
+        "Lower Class": {
+          "name": "Classe Baixa"
+        },
+        "Middle Class": {
+          "name": "Classe Média"
+        },
+        "Upper Class": {
+          "name": "Classe Alta"
+        }
+      }
+    }
+  }
+}

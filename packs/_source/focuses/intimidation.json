@@ -1,0 +1,24 @@
+{
+  "name": "Intimidation",
+  "_id": "gJw2NldWSinwGrCr",
+  "_key": "!items!gJw2NldWSinwGrCr",
+  "folder": "eTWHzaS8gBqZo9st",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Overawing others with your physical presence and threats.</p>",
+    "useAbl": "str",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

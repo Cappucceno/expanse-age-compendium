@@ -1,0 +1,26 @@
+{
+  "name": "Parry",
+  "_id": "tSTz3pGQTC1gZY4v",
+  "_key": "!items!tSTz3pGQTC1gZY4v",
+  "folder": "5WLkOpAoM7Q1uty9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Core stunt.</em> Your opponent suffers −1 to Defense per SP spent until your next turn, as you guide their limb or weapon off-center, throwing off their balance.</p>",
+    "type": "Melee",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

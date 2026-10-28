@@ -1,0 +1,24 @@
+{
+  "name": "Piloting",
+  "_id": "1h28Ip51l4cMpvp7",
+  "_key": "!items!1h28Ip51l4cMpvp7",
+  "folder": "F9dk45ZVyiRvDt45",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Operating vehicles that move in three dimensions like aircraft, drones, and spaceships.</p>",
+    "useAbl": "dex",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

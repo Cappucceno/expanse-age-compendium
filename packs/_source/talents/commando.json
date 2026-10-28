@@ -1,0 +1,39 @@
+{
+  "name": "Commando",
+  "_id": "gI3h74ipsJG9GEBs",
+  "_key": "!items!gI3h74ipsJG9GEBs",
+  "folder": "y88XXvdfe5pCOOAm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are trained to fight, and to win, no matter the odds.</p><p>For as long as there have been people, there have been wars, and there have been soldiers to fight them. You’re not just any soldier, however. You are one of the best there is: the elite special forces, like a UN commando or Martian Marine, or perhaps an OPA veteran of countless conflicts who knows all of the tricks. You might also be a mercenary, either working for corporate security or your latest client. SYNERGIES: A Commando-Executive might be a commanding officer while a Commando-Gunfighter or Commando-Sniper is probably a weapon specialist. A Commando-Thief might be a trained infiltration expert; the same for a Commando-Agent.</p>",
+    "shortDesc": "",
+    "requirement": "Constitution 2 or higher and the Willpower (Self-Discipline) focus",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>If you fail a Constitution or Willpower (SelfDiscipline) test, you can re-roll, but must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You know how to work with a team to get things done. At this degree, you gain an intensity 1 Relationship with your team, whoever that may be, and you keep the relationship even if the membership of your team changes. You can increase the intensity of this Relationship normally. See the Rewards chapter for details on Relationships.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can overcome the effects of some conditions through sheer grit. When you acquire the exhausted, fatigued, injured, or wounded conditions, make a TN 13 Constitution (Stamina) or Willpower (SelfDiscipline) test; if you succeed, you ignore the effects of the condition for the remainder of the encounter, although the condition itself remains.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "name": "9. Mars",
+  "pages": [
+    {
+      "_id": "OX9OigWA98xeULJ4",
+      "name": "9. Mars",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Mangala, Fire Star, Nergal…Ever since humanity started ascribing names to the stars, the striking color of the fourth planet has not gone unnoticed. It is the color of blood, and for Earth, Mars has ever been a portent of martial spirit and war. It still is in this jaded age, but for far more concrete reasons.The Martian Congressional Republic rules over four billion people who are spread across Mars, associated orbital stations, and the small but highly advanced military ﬂeets cruising the solar system.</p><p>Settled in the 21st century after a number of lengthy exploratory missions, Mars is a world of dreamers, devoted to a single vision: the greening of the red planet. It is a world of survivors, eking out every last erg of efficiency from machinery in a pitched centuries-long battle against an environment never meant for them. And Mars is a world of warriors, believing themselves stronger, smarter, and more determined than everything else under the sun.</p><p>Terraforming the Red Planet goes slowly, though the entire planet is focused on the endeavor in some capacity or another. Not a blade of grass grows on Mars that’s not under a dome, the planet’s sifting soil sterile as ever. Every person on Mars contributes to the work of terraforming—or in the military, to protect those who work. The whole of Mars is devoted to the great project, even as each generation knows they won’t be the ones to see its fruition. As the saying goes, great people plant trees knowing they’ll never sit in their shade, and Martians plant trees in red soil in hopes of a green future. To Martians, Earthers are lazy and indolent, living off the government dole without faith and without drive. Earth is the dying past, and Mars is the bold future, a desperate attempt to beat the ticking clock of extinction.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!wbKZchUpMsyI2FdH.OX9OigWA98xeULJ4",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "gIodLUoCkg14qf2M",
+      "name": "The Martians",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The ﬁrst Martians were colonists from Earth, weary from long</p><blockquote><p>“Earth. Mars. They’re not that different,” Miller said.</p></blockquote><p>months of travel. They were scientists and explorers, religionists</p><blockquote><p>“Try telling that to a Martian,” Havelock said with a bitter laugh.</p></blockquote><p>of every stripe, from Jainists to Mormons to born-again Christians</p><blockquote><p>“They’ll kick your ass for you.”</p></blockquote><p>(all of whom shunned the alcohol preferred by their fellows for surviving in a hostile land, but who still attended local honky-tonks</p><blockquote><p>— Leviathan Wakes</p></blockquote><p>for the company of their compatriots). The third planet sent their best and brightest, but that only ever resulted in long-term distress, as the first settlers treated the new Martians poorly. The distance between the third and fourth planets was vast, and Earth ruled the Red Planet as a colony. War might have been inevitable, and came within a hair’s breadth of happening a few times, but the UN invoked the breakaway province rule.</p><p>Freed from the mother world, Mars grew into a regional power, and eventually Earth’s only true rival in the Sol system. Mars’ lighter gravity caused minute but deﬁned changes to human physiology over hundreds of years, much like the Belters, who were shaped by living in microgravity. Natural selection and lesser gravity mean Martians have less muscle mass and bone density compared to Earthers, leaving them slender and taller than Earth norms, though not unusually so—hormone treatments are widely available most on Mars. Blood oxygen boosters, muscle fatigue inhibitors, and bone density enhancers allow Martians to tolerate even Earth, albeit with physical discomfort at the gravity and emotional discomfort at the barely disguised glee of United Nations diplomats. Martian selection pressures have favored those with better tolerances for low oxygen environments, however, and Martians use slightly less oxygen on average than other humans in the Sol system.</p><h2>Agoraphobia</h2><p>Martians spend their entire lives inside domed cities and tunnels underneath the surface of Mars, not experiencing the vastness of space the way that Belters do. Generations spent in the underground cities and tunnels of Mars mean many Martians suffer from agoraphobia, though few would characterize it as suffering. Martians exposed to the wide skies and seas of Earth are left gasping and hyperventilating, panicking at the shocking openness. The atmosphere is too thick, the sky too far. Martian visitors are often brought to Earth on the dark side of the planet, and told to focus only on the horizon when they leave. Compared to Mars, the average Earth city is an overcrowded assault on every physical and moral sense imaginable; their home tunnels are kept clean and well-lit, but even with teeming billions living in cramped quarters, there’s quiet to be found that is lost on Earth.</p><h2>Martian Character</h2><p>Modern Martian life expectancy exceeds 120 Earth-years; the oldest generation of Martians remembers the days when the best Martian entertainment was alcohol and an entertainment feed from Earth, which frequently issued directives to a people more technologically advanced than they.</p><p>The revolution for independence is still within living memory as well, and it is this sense of entitlement and</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!wbKZchUpMsyI2FdH.gIodLUoCkg14qf2M",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "1Lq23P4sdmeQPrHm",
+      "name": "Mars",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>6,779 km</p><p>DIAMETER</p><p>0.376 g (light)</p><p>GRAVITY</p><p>24 hours, 39 minutes, Earth Standard Time LENGTH OF DAY</p><p>1.9 Earth Standard years</p><p>LENGTH OF YEAR</p><p>ATMOSPHERIC</p><p>0.636 kPa</p><p>PRESSURE</p><p>95.97% carbon dioxide,</p><p>ATMOSPHERIC</p><p>1.93% argon, 1.89% nitrogen COMPOSITION</p><p>−143 °C (min), −63 °C (average), 35 °C (max) TEMPERATURE</p><p>Congressional democratic republic GOVERNMENT</p><p>Prime Minister Nathan Smith Books HEAD OF STATE</p><p>Martian Cabinet</p><p>EXECUTIVE BRANCH</p><p>Martian Congress</p><p>LEGISLATIVE BRANCH</p><p>Martian Court</p><p>JUDICIAL BRANCH</p><p>Ministry of Defense, Martian Congressional MILITARY</p><p>Republic Navy, Martian Marine Corps BRANCH</p><p>Londres Nova</p><p>CAPITAL</p><p>Londres Nova</p><p>LARGEST CITY ca. 4 billion</p><p>POPULATION</p><p>Trillions of MCR$</p><p>GDP</p><p>Martian Dollar (MCR$)</p><p>CURRENCY deﬁance that forms the bedrock and strata of Martian society. That generation of settlers built better ships, developed environmental science that outstripped Earth’s by decades, and reached a significant degree of self-sufficiency—and that was before a born-and-bred Martian opened up the solar system to humanity with the Epstein Drive. This generation, still ensconced within high-ranking government and military positions, is now challenged by a generation that refuses to see the forest for the trees— partly because they’ve never seen a forest, or trees for that matter, ﬁrst-hand.</p><p>By contrast, the younger generation is far more concerned with Martian lives and Martian supremacy, but in that order. They see their parents, and grandparents’ focus on terraforming as myopic and ignorant of the political and military realities of being one of the solar system’s superpowers. Mars has just over a tenth of the population of Earth and a mere fraction of the industrial base, but every Martian is consumed by the driving need to “pull themselves up by their bootstraps” and make Mars dominant, not just a rival to the cradle of humanity. This manifests as a strong and single-minded work ethic, and also in a disproportionately strong military and well-funded scientiﬁc research concerns, which in turn means the military gets ﬁrst cut of new technology such as stealth ships. Until a generation ago, routine air raid drills for schools were common, and three generations ago the inevitable victory of Earth in a war hung like a dust storm over every would-be revolutionary’s ﬁery rhetoric. Things have changed, but all the same, the youngest native Martians resent their lot in life. For the ﬁrst time, Mars is a victim of its own success, and unrest festers at the thought of constant readiness for battle and the slow progress of terraforming.</p><h2>Martian Military</h2><p>The Martian Congressional Republic is often in direct competition with the UN. This competitive spirit extends to the Martian Navy and the UNN, the Martian Marines and the UNMC, and virtually every parallel organization. In contrast to the bloated bureaucracy and centuriesold grudges of the UN, however, the MCR is driven by a united political will. Despite the smaller population, this unity and drive makes Mars a worthy rival to Earth. The Martian Congressional Republic Navy, although smaller, is acknowledged by all to be more advanced. Whether or not their superiority can overcome Earth’s far greater numbers is a question that has been asked for generations, but that neither side has dared to truly try to answer.</p><p>Mars’s disproportionate expenditures on military research and development mean their ships are on the cutting edge. Mars makes technological breakthroughs with startling frequency, despite—or perhaps because of—their relative lack of infrastructure compared to Earth. Many companies retain concerns on Mars, and corporate citizens are a common sight on the planet. Yet of all the areas of competition both subtle and gross between Mars and Earth, research and commerce aren’t among them. Both planets coordinate in maintaining research stations on various moons and parts of the system, and cooperate in joint projects such as research into space elevators for both planets. Both superpowers jointly control and exploit the bountiful resources of the Belt.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!wbKZchUpMsyI2FdH.1Lq23P4sdmeQPrHm",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "ZE9q9gdR0eaKatXo",
+      "name": "The Red Planet",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Life on Mars is a world of domes and vacuum-sealed, high-speed railways, shielded from a too-thin atmosphere and a too-harsh yet too-distant sun. It is a world of spaceports, underground apartments (called “holes”), and massive hydroponic farms. Humanity dug deep into the soil and rock when they reached their second home, crafting underground cities with UV sunlamps strung high overhead, using the soil as insulation and radiation shielding in lieu of a planetary magnetosphere. The clear insulating ceramic used by the earliest settlers to construct their walls and holes is starting to scratch and gray in the oldest settlements, warping and bubbling from the constant heat of humanity warring against the chill of the Martian atmosphere. Few on the Red Planet have much in the way of luxuries, from printed books to personal amenities. Luxuries are for public consumption or private expenditures outside the home.</p><h2>Life on Mars</h2><p>Mars’ large population centers required a standardized language of military and government, and even today many Martians default to English. Immigrants from Eastern and South Asia, the Americas, and other parts of Earth in the first and second generations led to a riotous variety of accents, maintained with characteristic Martian pride and equally characteristic stubbornness. It’s not unusual to meet</p><h2>Alex Kamal</h2><p>PILOT OF THE ROCINANTE, MARTIAN</p><p>Born in the Mariner Valley on Mars, Alex Kamal attended school in</p><p>Nova and eventually enlisted in the Martian Congressional Republic where he served for some twenty years. He was stationed at Hecate on Olympus Mons and also served aboard ships, including the Bandon. During this time, Alex met and married his wife Talissa, although the two of them later divorced when it became clear that Alex was “married” first and foremost to being a pilot.</p><p>Similarly, Alex’s retirement from the Martian Navy didn’t go well. He was restive and unhappy when no longer at the helm of a ship. He became a freighter pilot, eventually working for Pur’n’Kleen aboard the Cantebury. Alex was the pilot chosen to fly the Knight, the ship’s shuttle, over to investigate the Scopuli and its distress signal. Later, when the survivors of the Knight fled the doomed Martian battleship Donnager, Alex was tasked with piloting the corvette-class frigate Tachi, as he was the most qualified surviving pilot among the escapees.</p><p>Alex quickly settled into the prospect of full-time pilot of the renamed Rocinante, joining its crew on a permanent basis. Although Jim Holden is captain of the Rocinante, Alex thinks of her as “his” ship and frequently talks to her in his Mariner Valley Texan twang, referring to the ship as “darlin’”. He’s most comfortable on board and in his acceleration couch at the helm, and not fond of leaving the ship for too long.</p><h2>ALEX KAMAL</h2><p>ABILITIES (FOCUSES)</p><p>Accuracy 2 (Gunnery), Communication 0,</p><p>Constitution 1 (Tolerance), Dexterity 3 (Free-fall, Piloting),</p><p>Fighting 1, Intelligence 1 (Navigation),</p><p>Perception 2 (Seeing), Strength 1, Willpower 1</p><p>SPEED FORTUNE DEFENSE AR + TOUGHNESS</p><p>13 27 13 3 (2 armor)</p><p>WEAPON ATTACK ROLL DAMAGE</p><p>Pistol</p><p>+2</p><p>2d6+2</p><p>Unarmed +1</p><p>1d3+1</p><p>SPECIAL FEATURES</p><p>Favored Stunts: Attack on the Move, Evasive Maneuver,</p><p>When a Plan Comes Together</p><p>Talents: Expertise (Piloting, drones, Novice), Observation</p><p>(Seeing, Novice), Pilot (Master), Pistol Style (Novice)</p><p>Equipment: Hand terminal, light armor (medium, if expecting a fight), pistol, vac suit</p><p>Threat: Moderate Londres</p><p>Navy,</p><p>Base MCRN</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!wbKZchUpMsyI2FdH.ZE9q9gdR0eaKatXo",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "1aDdp3zzoOCKUrmE",
+      "name": "Mars and the Protomolecule",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The discovery of the protomolecule is a prime example of how sponsored miners landed on the ice moon Phoebe to survey it for investigated, silicate samples with organic signatures were found. the Earth-based company Protogen as a cosponsor of a long-term the research project resulting from this relationship—code-named Martian military. If this whole thing was made public, there are many leaders would throw away Martian lives for some sort of strategic a Martian with a strong Texan (especially from the Mariner</p><p>Valley) or British-English accent, no matter their apparent</p><p>Earther ethnic heritage. Martian farms grow crops in soil carefully cultured from dirt and organisms drawn from</p><p>Earth, either naturally selected over hundreds of years or otherwise meticulously crafted in planetside laboratories.</p><p>They’re fed by melted water from deep under the surface or piped in from the polar ice caps, but this is a paltry harvest compared to hydration-rich Ganymede and Europa.</p><p>Few Martians eat completely fresh food, the majority being potatoes, mushrooms, and varieties of coffee. Most eat meat grown in vats, along with varieties of vegetable paste resembling hummus. Their lasagnas are spread between layers of fake grains and smothered in fake tomato sauce and fake cheese, an evening’s repast to go with the morning’s breakfast of fake eggs. Martians visiting Earth, Ganymede, or Europa take the opportunity to gorge. Real food still tends to be dehydrated and full of preservatives.</p><p>Despite this, Martians enjoy restaurants with some regularity, gorging themselves on a dizzyingly ethnic palate from a planet many have never seen and many more despise:</p><p>Thai hot pots, Italian pasta, Japanese ramen.</p><p>Gone are the ramshackle bars of centuries past, fit only for entertainment screens and potato vodka. On Mars today, teahouses with elegant décor evoke old Parisian cafés. Martian hotels have wall fountains, a luxury unimagined by previous generations. Martians define opulence and excess by the cultures they’ve left behind; to their minds, the difference between Martians and Earthers is that the former work hard and deserve their trappings of wealth, while the latter are squander money on the lazy and undeserving..</p><h2>Olympus Mons</h2><p>The largest mountain in the solar system, Olympus Mons is the only natural monument large enough to truly represent</p><p>Martian ambition. Several smaller cities, farms, and prisons</p><blockquote><p>On Mars, the joke went, a man’s hole was his castle where values of castle approached dorm room. — “Drive”</p></blockquote><p>generational stratification on Mars affects Martian policy. MCNice mining. However, when core samples from the moon were</p><p>The highest echelons of the Martian government approached research facility. Backed by Mao-Kwikowski Mercantile, one of</p><p>Project Caliban—aimed to create hybrid super-soldiers for the in the current MCN that would be absolutely horrified that their advantage over Earth.</p><p>populated by rock-breaking chain gangs cut deep into the slopes of Olympus Mons, the most prominent of which is</p><p>Hecate Base: the main training facility for the Martian Navy.</p><p>The base has undergone renovation in the past few years, but few things change in the massive steel facility visible from low orbit. Sure, the crappy handball courts are gone and the Steel Cactus Mexican Grill is a Thai place now, but the complex still contains the pride of the Martian cadet corps. The slopes of Olympus Mons also host a dizzying array of towns and small cities. Syria Planum enjoys its closeness to Olympus, with a preponderance of Algerian and European immigrants leading to a long tradition of dense and complicated native Martian folk music going back generations.</p><h2>The Mariner Valley</h2><p>Valles Marineris stretches across the planet’s surface, a canyon beyond grand, four thousand kilometers of protection from the admittedly ungentle Martian elements. The</p><p>Mariner Valley was settled by Chinese, East Indian, and</p><p>Texan immigrants in one of the earliest waves of migration, and it remains one of the most well-developed sections of</p><p>Mars today. Sprawling across the sides of the canyons, five neighborhoods are linked by Haizhe, a network of bridges and tubes resembling nothing so much as a cartoon jellyfish. A high-speed rail line connects the Valley to Londres</p><p>Nova. Spurred by their ancient heritage on Earth, the residents of the Valley maintain a cowboy attitude and manner of speech, leading to an affected plain-spoken style and a propensity for drinking. It also led to a propensity for sports; football matches played in low Martian gravity are long-distance and graceful affairs, and the Mariner Valley teams enjoy a planet-wide fanbase.</p><h2>Londres Nova</h2><p>Londres Nova, “New London,” is a city located in the northern reach of the Aurorae Sinus. Like most Martian cities, it’s a partly underground webwork of tunnels under permafrost, dotted with tube stations determining the social structure of the long since built-up residential areas.</p><p>Ten agricultural domes press out to the surface, and seven neighborhoods radiate out below the surface. The oldest parts of the city bear the early marks of colonization, the scars carved into the planet by automated construction robots and the preference of the earliest colonists for function over form.</p><p>Aterpol is considered the “downtown” of the city, with tube connections to all other neighborhoods, and shops and restaurants catering to the high-class residents able to afford the neighborhood. The Martian Congressional Republic keeps their offices in Aterpol, right beside the downtown area known as Olympia. The government regularly broadcasts sessions in debate, but few find them as lively as the byzantine politics of Earth.</p><p>Salton has a high-speed surface monorail to the observatory at Dhanbad Nova, neatly connecting the upper university and technical clinics with the lower university in middle-class Breach Candy. Londres Nova’s two former industrial neighborhoods, Nariman and Martineztown, are struggling to reinvent themselves in the wake of obsolescence from technological development, with mostly lowerclass families living there. The worst parts of town are Innis Deep and Innis Shallows. Each has only a single tube route, making them cul-de-sacs and havens for Belter-like Martians: antisocial, independent, intolerant. Despite this, they’re perhaps the most welcoming to outsiders (if only because outsiders can’t get an apartment anywhere else), and Martians involved in social outreach move there to help the dispossessed. Drug dealers prowl the underbelly of the city, recruiting young chemists from the university to cook high-quality narcotics for sale to the Martian population.</p><h2>Dhanbad Nova</h2><p>The research center at Dhanbad Nova remains one of the largest on Mars, host to a wide variety of governmentfunded initiatives and regional research wings. The anti-cancer regimens available aboard every Martian ship were developed here, as were water reclamation techniques in wide use today and the beginnings of the Epstein Drive at Masstech. Today, Dhanbad Nova is still a hub of research, but has the standard complement of Martian hotels with all the supposed decadence of an Earther—fancy soaps, large baths, fluffy towels. Visitors to the research facilities can enjoy all the luxuries of home, no matter where they hail from—and they hail from everywhere. Powerful conglomerates such as Masstech and interplanetary concerns such as Kwikowski Mutual Interest Group maintain large stakes in the laboratories of Dhanbad Nova. Their corporate structures occupy massive levels both above and below the surface, between the noodle bars and the other evidence of ancient colonization.</p><h2>Deimos</h2><p>Deimos no longer exists as such. Following nuclear annihilation of the Earth-Mars joint Phoebe Research Station and the Saturnian satellite in the wake of the Eros Incident, the United Nations destroyed one of Mars’ two moons. Prior to becoming a smudge in the Martian sky, Deimos hosted military facilities and a deep radar station. Earth’s government declared the Phoebe demolition a provocation, despite Earth itself previously sending its own ship to trail Martian ships at a number of stations.</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!wbKZchUpMsyI2FdH.1aDdp3zzoOCKUrmE",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "slxnM95GUxtQ1NJk",
+      "name": "The Martian Congressional Republic Navy",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>In the wake of the Eros incident, Earth and Mars are at war: sometimes hot, sometimes cold. Long-simmering rivalries have boiled up, and tactical plans are being drawn up on both sides. Prior to this, their space navies were officially part of a coalition, policing the solar system against the threat of piracy and passing through Ceres on its way to Saturn, Jupiter, and the stations of the Belt, and this was where most Martian officers got their combat experience. Assignment to a pirate-hunting cruiser such as the Donnager was considered a prime posting. In the wake of the destruction of Eros, the once unified Earth-Mars Coalition Navy forces are now divided. Now, Deimos is a ring around Mars, a thin band of shattered rock encircling a planet girded for war. The fleets of the UNN and the MCRN jockey for position and supremacy in a crowded solar system.</p><p>The exploratory and military arms of Mars have the finest ships in the system, barring the exotic UN flagships funded by the ultra-wealthy of Earth. Pound for pound, any Martian ship can defeat an equivalent Earth or Belter craft. The MCRN consists of two fleets: the Home Fleet, stationed at Mars; and the Jupiter Fleet, cruising between Ceres and Ganymede. Both fleets see action from pirates and raiders, and both engage in exploratory cruises, classified weapons testing, and diplomatic transport missions.</p><h2>Design &amp; Deployment</h2><p>Most Martian ships are constructed in the same basic configuration, floor by floor from the drive cone and reactors. First is the engineering deck, then specialty compartments, then galley, followed by crew cabins. The next two decks are medical bays and interrogation chambers. The storage deck and airlocks follow, with the command deck and pilot (or the bridge in larger ships) at the “top”. Under thrust, Martian ships are essentially skyscrapers, with elevators and ladders connecting the various decks.</p><p>MRCN ships generally cruise separately from one another, or in pairs for smaller ships. The third-generation battleships are well armed enough to be considered fleets unto themselves. The pride of the MCRN is the Donnagerclass dreadnought, named after the former flagship of the navy. Donnager dreadnoughts measure nearly 500 meters long, or the length of a 130-story office building, and bristle with torpedo tubes, point defense cannons, and massive rail guns. They serve as flagships for MCRN fleets, and are large enough to carry smaller missile or escort frigates or escort within them.</p><p>Second-generation battleships still have a place in the MRCN, serving alongside fast-attack cruisers, destroyers and frigates capable of patrolling the entire Solar system. Mars also has advanced stealth technology, though dreadnoughts and larger ships typically avoid this in favor of the intimidating effect of an aggressive battle posture. Larger ships are basically mobile bases, carrying marines and military interrogators aided by pharmaceuticals. By virtue of superior technology, fiercer armament, and better-trained crew, the battlefleets of Mars are unmatched. Martians never cease to remind others of this, and make their military pride known at any and every opportunity.</p><h2>Roberta “Bobbie” Draper</h2><p>GUNNERY SERGEANT, MMC, MARTIAN</p><p>Gunnery Sergeant Roberta “Bobbie” Draper, 2nd Marine Expeditionary</p><p>Force, MMC, hails from a military family on her native Mars. Over two meters tall and an athletic and muscular 100 kilos, Draper served in the Martian Marine Corps for some eighteen years before she and her platoon of Marines were assigned to Ganymede following the Eros incident. Monitoring UN troop movement and patrolling the surface greenhouse domes, Draper’s platoon encountered a jamming signal and a group of UN Marines rushing their position. Initially assuming an attack, Draper quickly realized the UN troops were instead fleeing from something that turned out to be a protomolecule hybrid. The creature wiped out both the UN and Martian soldiers, and nearly finished Bobbie before it exploded, leaving her the sole survivor.</p><p>Sgt. Draper later attended a meeting between Martian and UN officials on Earth to discuss the Ganymede incident, where she blurted out the existence of the protomolecule “monster” that attacked her platoon. Admonished by her superiors, Draper ended up meeting Chrisjen Avasarala while drinking in a bar. Avasarala offered her a job as liaison with the Martian military, which she later accepted. This decision likely saved Avasarala’s life when Bobbie accompanied her on board Jules-Pierre Mao’s yacht, the Guanshiyin, serving as the undersecretary’s escort and using her military training—and Martian Goliath-Mk.III power armor—to seize control of the ship.</p><h2>ROBERTA “BOBBIE” DRAPER</h2><p>ABILITIES (FOCUSES)</p><p>Accuracy 3 (Rifles), Communication 0,</p><p>Constitution 4 (Running), Dexterity 2 (Initiative),</p><p>Fighting 3 (Brawling), Intelligence 1 (Tactics),</p><p>Perception 1, Strength 3, Willpower 2 (Self-Discipline)</p><p>SPEED FORTUNE DEFENSE AR + TOUGHNESS</p><p>12 32 12 7+ (2+ armor)</p><p>WEAPON ATTACK ROLL DAMAGE</p><p>Pistol</p><p>+3</p><p>2d6+1</p><p>Rifle</p><p>+5</p><p>3d6+1</p><p>Unarmed +5</p><p>1d6+3</p><p>SPECIAL FEATURES</p><p>Favored Stunts: Cards on the Table, Footwork, Knock Prone</p><p>Talents: Attractive (Novice), Commando (Novice), Protector</p><p>(Expert), Striking Style (Novice), Tactical Awareness (Novice)</p><p>Equipment: Hand terminal, light armor (power armor, if expecting a fight), pistol, vac suit</p><p>Threat: Moderate</p>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!wbKZchUpMsyI2FdH.slxnM95GUxtQ1NJk",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": "AtrGkSdrU6Dazfx6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "wbKZchUpMsyI2FdH",
+  "_key": "!journal!wbKZchUpMsyI2FdH",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

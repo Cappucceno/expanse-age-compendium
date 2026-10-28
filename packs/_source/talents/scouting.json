@@ -1,0 +1,39 @@
+{
+  "name": "Scouting",
+  "_id": "07EdiT4kdxigARU7",
+  "_key": "!items!07EdiT4kdxigARU7",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are skilled in reconnaissance and infiltration.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>If you fail a Dexterity (Stealth) test, you can re-roll it, but must keep the results of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You know how to get the drop on opponents. You can perform the Seize the Initiative stunt for 2 SP.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are a skilled observer. If you fail a Perception (Seeing) test, you can re-roll it, but must keep the results of the second roll.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

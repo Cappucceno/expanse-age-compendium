@@ -1,0 +1,24 @@
+{
+  "name": "Might",
+  "_id": "FYWRN9KQbmxiqjMM",
+  "_key": "!items!FYWRN9KQbmxiqjMM",
+  "folder": "eTWHzaS8gBqZo9st",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Feats of raw power, such as lifting or holding up heavy objects.</p>",
+    "useAbl": "str",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Cryptography",
+  "_id": "9oF1PSUfSAWiB4No",
+  "_key": "!items!9oF1PSUfSAWiB4No",
+  "folder": "TyLsoqrRehbelj4q",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Creating and deciphering codes and ciphers.</p>",
+    "useAbl": "int",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

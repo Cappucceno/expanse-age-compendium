@@ -1,0 +1,26 @@
+{
+  "name": "Keep It Steady",
+  "_id": "SctmZ7jXjvCTFKzn",
+  "_key": "!items!SctmZ7jXjvCTFKzn",
+  "folder": "WC7yZ0ygjULwOXGj",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Until the beginning of your next turn, passengers gain a +1 bonus when making attacks or making other ability tests that would benefit from a stable platform (leaping from vehicle to vehicle, for example).</p>",
+    "type": "Chase",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

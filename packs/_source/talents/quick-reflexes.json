@@ -1,0 +1,39 @@
+{
+  "name": "Quick Reflexes",
+  "_id": "g59TbPiB5SOMATaD",
+  "_key": "!items!g59TbPiB5SOMATaD",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You react to threats instantly and instinctually.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can prepare for action in an instant. Once per round on your turn you can use Ready as a free action.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can go prone or stand up as a free action rather than as part of a Move action.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>It is hard to get the drop on you. You may re-roll your initiative roll at the start of a combat encounter, but must keep the results of the second roll.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

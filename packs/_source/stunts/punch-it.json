@@ -1,0 +1,26 @@
+{
+  "name": "Punch It",
+  "_id": "yOv0lgwoCkuHT2VB",
+  "_key": "!items!yOv0lgwoCkuHT2VB",
+  "folder": "WC7yZ0ygjULwOXGj",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p><em>Core stunt.</em> You gain a +1 bonus on your next chase test for each 1 SP you spend.</p>",
+    "type": "Chase",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

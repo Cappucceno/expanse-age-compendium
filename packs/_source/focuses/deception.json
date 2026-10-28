@@ -1,0 +1,24 @@
+{
+  "name": "Deception",
+  "_id": "Yjtc4EPeqUpZ7lVe",
+  "_key": "!items!Yjtc4EPeqUpZ7lVe",
+  "folder": "9Ty5RMegvUA30RKu",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Tricking and lying to other people.</p>",
+    "useAbl": "comm",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

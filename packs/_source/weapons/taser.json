@@ -1,0 +1,38 @@
+{
+  "name": "Taser",
+  "_id": "oakkqYpPUajs1VrG",
+  "_key": "!items!oakkqYpPUajs1VrG",
+  "folder": "SULmovw6h5puY0gs",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>A stunning pistol firing a pair of darts that carry a powerful electrical charge. It inflicts penetrating damage but can only incapacitate the target; one die less than a comparable lethal weapon. A target taken out by it cannot gain the dying condition.</p><p><strong>Range:</strong> 50 m / 75 m maximum</p><p><strong>Quality:</strong> Stunning, penetrating damage</p>",
+    "useAbl": "acc",
+    "useFocus": "pistols",
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "penetrating",
+    "damageFormula": "1d6",
+    "weight": 0,
+    "cost": 10,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 50,
+    "rangeMax": 75
+  },
+  "ownership": {
+    "default": 0
+  }
+}

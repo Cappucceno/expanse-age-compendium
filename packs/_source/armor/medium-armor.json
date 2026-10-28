@@ -1,0 +1,48 @@
+{
+  "name": "Medium Armor",
+  "_id": "MkXCnzOSjP0g8PGB",
+  "_key": "!items!MkXCnzOSjP0g8PGB",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Bullet-resistant chest and thigh plates strapped over light armor, with a reinforced helmet. Usually limited to security forces and military personnel.</p>",
+    "weight": 0,
+    "cost": 14,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {
+      "nxEiNG8HHpnmRmNa": {
+        "type": "impactArmor",
+        "formula": "4",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "nxEiNG8HHpnmRmNa"
+      },
+      "vppsvndgvWdrDGZy": {
+        "type": "armorPenalty",
+        "formula": "2",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "vppsvndgvWdrDGZy"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

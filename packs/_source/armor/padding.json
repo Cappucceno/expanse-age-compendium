@@ -1,0 +1,38 @@
+{
+  "name": "Padding",
+  "_id": "WqGA8i2UoxoEyMBm",
+  "_key": "!items!WqGA8i2UoxoEyMBm",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Any heavy or thick material a character wears that can serve as armor, such as heavy leather. An ordinary vac suit provides padding as well. Bulky and only of limited benefit.</p>",
+    "weight": 0,
+    "cost": 8,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {
+      "d4jb7cmoSkVwq7e8": {
+        "type": "impactArmor",
+        "formula": "1",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "d4jb7cmoSkVwq7e8"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

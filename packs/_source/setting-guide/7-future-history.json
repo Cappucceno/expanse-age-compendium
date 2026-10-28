@@ -1,0 +1,186 @@
+{
+  "name": "7. Future History",
+  "pages": [
+    {
+      "_id": "0mdmuyGxeXHLlMx1",
+      "name": "7. Future History",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>In the beginning, more than 13 billion years ago, all matter in the universe was compressed into a single point, infinitely hot and dense. Then in an instant it exploded and expanded, thrusting that matter apart. As the matter separated, an ever-growing void formed between the bits that clung together—and the Expanse was born.</p><p>Some of those bits of matter clinging together grew denser and hotter until they ignited to form a star, and around that star spun planets, one of which would someday be called Earth. Eons passed while the Earth cooled and stabilized, until finally the conditions were right for abiogenesis—the birth of life. Yet it was not the only home to life in the universe: 2.3 billion years ago, while simple multi-celled eukaryotes were still struggling to evolve on Earth, a large mass of matter invaded its solar system, on a course to collide with the planet. But chance intervened, and the gravity of the ringed planet Saturn perturbed the invader’s course, drawing it close into a stable orbit where it would one day be mistaken for one of Saturn’s native moons.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!3wJ0zNpRAzmTwaAO.0mdmuyGxeXHLlMx1",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "fGJGIM2TiBgcPiKb",
+      "name": "Pre-Space Flight",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Undisturbed, life continued to evolve on Earth. Six million years ago, humans walked the planet for the first time. Two and a half million years ago, they began to make the tools to survive, thrive, and spread across the surface of the planet. Exploration at walking pace gave way to riding the Earth’s beasts, then building boats that took them across the planet’s lakes, seas, and oceans. Their use of both spoken and written language allowed them to develop writing, mathematics, and science that accelerated their progress, helping them become the dominant form of life on the planet, and perhaps the universe. To the best of their knowledge, they were alone.</p><p>Still, using simple, hand-ground lenses, humanity used telescopes to scan the skies, watching for signs of life. When they developed the technology that let them augment their written records with visual ones through photography, some of their earliest pictures were used to record the heavens, looking for the subtlest clues that would help them learn more. In the last days of what they called the nineteenth century, an astronomer studying one of these photographs was the first to use a photograph to discover a planetoid orbiting another planet, Saturn. He and other astronomers determined the newly discovered object was a locally born moon of Saturn and named it Phoebe, unaware of the planetoid’s true origins far outside the solar system.</p><p>In the decades that followed in the twentieth century of human history, humans left the surface of Earth and took to the skies. First they used aircraft to travel around their planet through its atmosphere. Then they left the planet using spacecraft to reach into orbit and then to the surface of Earth’s moon. Caught up in the excitement of a “space race”, dozens of unmanned probes were cast into space, helping humanity to learn about other planets in the solar system as well as revealing the enormous wealth of raw materials that awaited them if they could ever reach them.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!3wJ0zNpRAzmTwaAO.fGJGIM2TiBgcPiKb",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "J1kii2Q0tU6dD8De",
+      "name": "Mars and the United Nations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Much as humanity’s journey around its home planet was undertaken in fits and starts, its first steps into space proceeded in the same way. After those heady early days, humans maintained only a small toehold in space through orbital stations around their home planet. Progress only came years later when humanity took a bold leap through space to Earth’s nearest neighbor, the planet Mars. Later expeditions included colonists who went to stay. These scientists, engineers, and laborers developed the terraforming technologies needed to undertake the long project of turning Mars into a second home for humanity. In search of new work and new opportunities, entire families left their home planet and committed to the effort. Though on Earth they were from separate places and had been Chinese, Indians, or Texans, here they lived side by side and became one people, Martians.</p><p>The Martians needed a steady supply of raw materials unavailable on their new home world, which meant regular ships traveling between Earth and Mars. Supply missions were coordinated by an Earth coalition, the United Nations, which soon determined that a new shipyard was needed for constructing the new ships required for regular supply runs. To keep the construction as high as possible in Earth’s gravity well, the Bush Orbital Shipyards were established in orbit near Earth’s moon. Tiny outposts on that moon’s surface blossomed into colonies in their own right as construction companies, corporations with Martian interests, and even the UN established offices on the moon to be closer to their zero-gravity operations while also providing places where they could operate under a modicum of gravity when desired.</p><p>Down on Earth, the cost of humanity’s long journey was finally coming due. For thousands of years humans had extracted resources from the planet in ever-increasing amounts, and Earth’s exploding population had either disturbed or out-and-out replaced countless natural cycles and habitats. Worse, little had been done to remediate the effects of technological and industrial development, polluting much of the planet and leaving some parts nearly uninhabitable. The planet’s ecosystem teetered on</p><blockquote><p>A hundred and fifty years before, when the parochial disagreements between Earth and Mars had been on the verge of war, the Belt had been a far horizon of tremendous mineral wealth beyond viable economic reach, and the outer planets had been beyond even the most unrealistic corporate dream. — Leviathan Wakes</p></blockquote><p>the brink of collapse, and with it came a severe economic slump. When the disorganized leadership of the planet’s nations proved unable to turn the world back from disaster, their desperate people seized upon those who offered a chance for salvation: the United Nations.</p><p>For years the United Nations had been coordinating a mix of governments, corporations, and organizations from all over the world, sending resources from Earth to Mars. Now the UN assembled a plan to bring back what Earth most needed: the technological breakthroughs in environmental manipulation developed on Mars that could be used to help terraform Earth back to health. It was an ambitious project, but those nations that joined saw progress and prosperity slowly return, while those that continued on their own either clung to their status quo or slipped into chaos. One by one the nations of Earth gave up their authority to the United Nations, until eventually the majority of the world followed its lead. Drawing not just upon technology but also their logistical and organizational expertise, UN technocrats reshaped the world into “Shared Interest Zones”. Often built upon former state or national boundaries, Shared Interest Zones allowed residents of an area to work toward improving their lives and the lives of their neighbors, while also being part of an effort working to meet humanity’s needs wherever they were in the solar system.</p><p>As the authority and operations of the United Nations grew, so did its headquarters in the Hague. Similarly, the UN’s Martian Logistics Offices in the Moon’s Lovell City were expanded and officially given what had long been their nickname: New Hague. The UN established a program called “Basic” to ensure all of the population’s basic needs would be met regardless of what they chose to do with their lives. Those who did choose to do more were assigned tasks by the UN as pathways to further education, military service, or employment.</p><p>Martian scientists and engineers bringing their expertise back to Earth during the early years of the UN’s projects on Earth joined teams of Earthlings who volunteered to forego Basic, working together to repair Earth’s damaged ecosystem. But despite medications intended to help them adjust, Martians struggled not just with Earth’s gravity but also the growing cultural gap between Mars and Earth. The stories they told upon returning home only added to the frustrations Martians felt with Earth and the United Nations for drawing resources away as they were beginning to make progress in the Martian terraforming project.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!3wJ0zNpRAzmTwaAO.J1kii2Q0tU6dD8De",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "yGBIFzde4XjFqBQA",
+      "name": "The Epstein Drive",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>For decades the United Nations allowed Martians to refuse assignments on Earth, if they chose. While their numbers were always increasing, replacements could be found on Mars or trained on Earth. As Mars approached the possibility of self-sufficiency, the UN even tolerated widely distributed secessionist manifestos as the “free voice of the people”.</p><p>What the UN wouldn’t tolerate, however, was when Mars attempted to build eighteen cargo ships to decrease their dependence on the UN vessels that carried vital supplies from Earth to Mars. Invoking the breakaway province rule in their charter, forty UN warships immediately set out from Earth toward Mars. Everyone was certain humanity was on the brink of its first interplanetary war. To the surprise of nearly everyone, diplomacy won the day and the warships returned to Earth. But the damage had been done and tension between the worlds was now a constant.</p><p>As news feeds and diplomatic channels between the planets overflowed with bombast, employees of corporations and industrial conglomerates with their own interplanetary ties tried to exert a stabilizing influence. Yet critical elements to both worlds like lithium, molybdenum, and tungsten ran in shorter supply every year, despite deep mining into ancient landfills on Earth. Worse, the United Nations declared that all future ships were required to be built in Earth’s Bush Shipyards, and that Mars’ own shipyards were to be closed. Once again the two planets came to the brink of war.</p><p>Luckily, before war could begin, humanity’s journey took its next leap forward, a leap that began in the Martian shipyards at the heart of the crisis. For several years, Martian scientist Solomon Epstein had been laboring to improve starship engine efficiency. As the deadline for the shipyards’ closure approached, Epstein took the three-man yacht he had outfitted with his engine prototype into orbit for a rushed test, started the burn sequence…and discovered he had succeeded beyond his wildest dreams. His yacht accelerated to speeds beyond anything previously achieved by human technology, speeds that could only be measured as a fraction of the speed of light. Tragically, the ship’s unstoppable acceleration put Epstein under such intense pressure that he couldn’t lift his hand to turn the drive off. Telescopes on both Earth and Mars watched Epstein’s ship shoot toward the edges of the solar system and then beyond.</p><p>Though Epstein and his prototype were gone forever, he had left the plans for what would become known as the Epstein Drive on his home computer. Knowing they couldn’t keep its secrets to themselves for long, Mars instead chose to give them to the United Nations in exchange for independence. Mars formed its own government, the Martian Congressional Republic, and some of the first ships outfitted with the Epstein Drive were those belonging to the new Martian Congressional Republic Navy.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!3wJ0zNpRAzmTwaAO.yGBIFzde4XjFqBQA",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "JEa5bOLmIczYHFIP",
+      "name": "The Belt and the Outer Planets",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The Epstein Drive didn’t just put Mars and Earth on equal political and military footing. It also solved the worlds’ resource pressures by opening new frontiers in the solar system. Scouting and science expeditions ventured to most major bodies in the system, the announcements of first footsteps on yet another world soon becoming a routine feature of news feeds. But the main frontier for the first wave of expansion was the belt of asteroids between Mars and Jupiter, where increasingly rare materials on Earth or Mars could be found in abundance.</p><p>Mining vessels were quick to arrive in the asteroid belt, sent out by the wealthy conglomerates and eventually joined by smaller and smaller ships, some home to a single family of miners. Some of these prospectors struck it rich with claims that escaped the notice of the corporations, but many more traveled from rock to rock in search of their lucky strike. Soon the asteroid belt was just “the Belt” and those who called it home were “Belters”.</p><p>Whether small or large, every mining operation in the Belt measured their operations not just in what they managed to extract, but in what their human crew needed to survive while doing so, their “consumables”. So one of the biggest success stories in the early days of the Belt wasn’t a mining operation but that of Tycho Manufacturing and Engineering, which used a small fleet of ships to capture a comet as it passed through the solar system and parked it in a stable orbit within the Belt. Mining the comet’s ice, Tycho extracted both water and oxygen, resupplying Belters’ most critical consumables.</p><p>Though every Belter came to Tycho’s resupply station, the company wouldn’t allow Belters to establish their own businesses in the vicinity, or allow the security risk of ships docking long enough for lengthy repairs. Further, both Belter entrepreneurs and ship mechanics needed a place where they could operate in gravity that didn’t come from a ship under thrust. They had no gathering place in the Belt they could call home, so the Belters decided to build one. Eros, one of the first large asteroids to have been heavily prospected and mined, was considered but rejected when it was determined that its irregular shape made it too difficult for a pilot project. Instead, the enormous and more spherical Belt planetoid Ceres became the chosen location. Miners used their equipment to turn mining shafts into an organized network of tunnels and chambers, and hired Tycho to build a system of enormous reaction drives that imparted Ceres with a stable spin and gravity. It took a decade, but when the Ceres project was complete, the Belt had its first major city and Tycho’s engi-</p><blockquote><p>“Then Solomon Epstein had built his little modified fusion drive, popped it on the back of his three-man yacht, and turned it on. With a good scope, you could still see his ship going at a marginal percentage of the speed of light, heading out into the big empty. The best, longest funeral in the history of mankind. Fortunately, he’d left the plans on his home computer. The Epstein Drive hadn’t given humanity the stars, but it had delivered the planets.” — Leviathan Wakes</p></blockquote><p>neering expertise was famous throughout the system. A similar set of reaction drives was installed to give Eros a spin, but Ceres would ever after be the mercantile center of the Belt. Instead, Eros became a center for ship manufacture and repair, as well as casinos and other entertainment facilities intended to separate crews in port from their money.</p><p>Not long after Ceres and Eros came up to spin, the last of Tycho’s captured comet was broken down into consumables. But even this was to Tycho’s plan: their facilities on the comet had been prefabricated, broken down and moved to a new job as easily as they had been constructed, and the last cometary ice was sold just as prices tumbled downward. Ships that had taken colonists to establish Helium-3 refineries on the moons of Saturn had been retooled to return with loads of water-ice from the near-infinite supplies in the planet’s rings.</p><p>Meanwhile, Tycho’s engineers moved on to assist in another ambitious project in the outer planets beyond the Belt: upgrades to the agricultural stations on Jupiter’s moon Ganymede. Ganymede was one of the first permanent settlements in the outer planets, chosen because its magnetosphere was strong enough to shield the surface from Jupiter’s harsh radiation belts. Combined with heavy shielding, it was enough to allow crops to grow in hothouse domes built on Ganymede’s surface. Small mining stations could maintain their own hydroponic garden, if they were willing to dedicate consumables to the effort. But if they weren’t coming from Earth or Mars, quantities of real meat and vegetables came from only one place, Ganymede. More importantly, the same shielding that protected crops and herds also shielded human embryos in utero from the genetic defects that occurred out in open space. Common wisdom in the Belt and beyond was that if you wanted to have a healthy child, you conceived and gave birth to them on Ganymede. These two insatiable needs gave Ganymede the resources and drive it needed to enlarge and improve. Nearly every outer planets engineering firm, including Tycho, came to Ganymede to build new, larger domes and a set of enormous orbiting mirrors that gathered</p><h2>Chrisjen Avasarala</h2><p>DEPUTY UNDERSECRETARY OF THE UNITED NATIONS, EARTHER</p><p>There are the people who appear to run things in the solar system and then there are the people who really run things. Chrisjen Avasarala, UN Deputy Undersecretary of Executive Administration, is one of the latter, and you had better not fucking forget it. Avasarala is a long-time player in Earth politics, having served as the Treasurer of the Workers Provident Fund and district governor of the</p><p>Maharashtra-Karnataka-Goa Communal Interest Zone prior to her work at the UN.</p><p>She knows everyone, and anyone with sense in government circles knows her and her true level of influence.</p><p>It would be easy to mistake a tiny Indian woman in her seventies, with long gray hair and dressed in a colorful traditional sari, as a kindly grandmother, and that’s just as Avasarala prefers it. Much of the time, she’s happy to sit in the background of meetings, quietly snacking on pistachios from her handbag, while she absorbs information and plans out the next moves of the</p><p>UN government. It’s far easier to do with people focusing on popular figureheads and not paying any attention to the real levers of power.</p><p>When questioned, she has been known to swear like a career Marine.</p><p>That said, Avasarala is also a kind grandmother. Her daughter</p><p>Ashanti has two children, Kiki and Suri, whom she dotes upon.</p><p>Chrisjen is married to a poet named Arjun, and his kind nature helps to soothe her, a rare opportunity to lower the mask she must wear in dealing with people professionally. The two of them also had a son named Charanpal, who died in a skiing accident as a teenager. Madame</p><p>Avasarala carefully keeps her family life and her professional life separate to maintain an island of sanity in the middle of the often-harsh realities of her work.</p><p>ABILITIES (FOCUSES)</p><p>Accuracy 0, Communication 4 (Leadership, Persuasion),</p><p>Constitution 1, Dexterity 0, Fighting -1,</p><p>Intelligence 3 (Current Affairs, Law),</p><p>Perception 3 (Empathy), Strength -1,</p><p>Willpower 4 (Self-Discipline)</p><p>SPEED FORTUNE DEFENSE AR + TOUGHNESS</p><p>10 27 10 1</p><p>WEAPON ATTACK ROLL DAMAGE</p><p>Pistol</p><p>+0</p><p>2d6+3</p><p>Unarmed –1</p><p>1d3–1</p><p>SPECIAL FEATURES</p><p>Favored Stunts: And Another Thing, Bad Form, Cards on the</p><p>Table, Oozing Confidence</p><p>Talents: Contacts (Novice), Executive (UN, Expert), Intrigue</p><p>(Expert), Oratory (Novice)</p><p>Equipment: Hand terminal. Avasarala is rarely armed and is only equipped for operating in space when she absolutely has to be.</p><p>Threat: Moderate</p><h2>CHRISJEN AVASARALA</h2><p>the rays of the distant sun and concentrated them on the domes below.</p><p>Eventually a tiny outpost was even established on one of the moons of distant Uranus, but humanity wasn’t only pushing outward. An enormous and well-funded investment group contracted Tycho to design a network of colony cities that would float high in the atmosphere of the planet Venus. But just as the blueprints were being finalized, it was discovered that some members of the investment group didn’t have the rights to use their funds for off-planet development, while others had the rights but not the money they had promised. The entire group dissolved into a tangle of lawsuits, and aside from Tycho the only group to prosper from the plan was one of the legal firms that mediated the eternal dispute. Funneling their profits into shipping and interplanetary transport, the legal firm was soon dwarfed by its one-time subsidiary Mao Mercantile, the heart of a new fortune. Tycho, meanwhile, moved on to a new project for the Church of Latter-Day Saints, construction of a gigantic generation ship they planned to use for the long journey to colonize another star system.</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!3wJ0zNpRAzmTwaAO.JEa5bOLmIczYHFIP",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "aImnhOgXBCeuAEXg",
+      "name": "The Outer Planets Alliance",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>As decades passed and whole generations were born, lived, and died in the Belt, life without gravity made Belters taller and leaner than humans from Earth or Mars. Isolation also led Belters to develop their own language, a “Belter Creole” incorporating words and phrases from a wide range of Earth languages, along with gestures and body language easily seen while wearing a vac suit. It was the slow, invisible growth of a new culture, a new people. There was one thing even the first Belters knew they had in common and shared wherever they got together, from Eros to the distant docking of two prospector family ships: complaints about the corporations of the inner planets, now working in conjunction with planetary governments as the Earth-Mars Coalition. Belters extracted enormously valuable raw materials from the Belt, but saw little of that wealth when it came time to sell their ore to the Coalition. For smaller outfits, what profits they did make were sometimes almost entirely eaten up in purchasing the consumables they needed to survive like oxygen, water, and fuel— consumables sold by the same conglomerates purchasing the ore. Independence and self-reliance were core beliefs among Belters, but even the most stubborn could feel the noose tightening. If they didn’t stand together and advocate for their rights as a group, they could risk becoming indentured employees of the inner planets. From those complaints and conversations, a new group formed: the Outer Planets Alliance.</p><p>As anyone could declare themselves a member of the Outer Planets Alliance, the OPA had a thousand demands but no single voice. Attempts to negotiate by regional OPA groups were often ignored by inner planet corporations. Events came to a head after the administrator of a distant Belt resupply station run by the Anderson-Hyosung Cooperative Industries Group increased the rates charged for consumables. These increased costs drove miners beyond the point of desperation, enough so that they gathered what aging weapons they could muster and seized control of the station. In response, the Coalition sent in their Marine Corps, armed with cutting-edge heavy weaponry to retake the station by force. Led by Colonel Fred Johnson, the marines killed more than a hundred OPA insurgents and a thousand civilians in a decisive strike intended to be a deterrent against future actions. Only in the aftermath was it discovered that during the entire three-day attack, the OPA had broadcast surveillance footage from the massacre, including their surrender just before the attack began. Labeled the “Butcher of Anderson Station” by the public and furious that his superiors had ordered the slaughter in an attempt to brand the OPA as extremists unwilling to negotiate, Anderson resigned and publicly apologized for his role in events. Retreating to Ceres and ready to drink himself to death, Anderson was instead recruited by the OPA, proving as apt at political strategy as he had been at military strategy and rising through its ranks to become the leader and voice it had lacked.</p>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!3wJ0zNpRAzmTwaAO.aImnhOgXBCeuAEXg",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "60szwAQtEnEFFPB5",
+      "name": "The Protomolecule",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Meanwhile, a Martian scientific survey crew on a routine mission to explore Saturn’s moons made a landing on Phoebe. Drawing core samples to see if ice might be mined from the moon as it was from the planet’s rings, the scientists found unexpected silicate anomalies. To investigate the mystery, the Martian government contracted the Protogen Corporation to operate a research facility on the moon.</p><p>Protogen was quick to discover answers that it kept secret, even from its Martian partners: the entire moon was in fact an object that had arrived from outside the solar system billions of years ago, captured by Saturn’s gravity before it could reach its true destination, Earth. What’s more, deep inside the planetoid Protogen found what they believed to be the payload Phoebe was intended to bring to Earth: an adaptable set of encodings able to replicate and manipulate matter at a molecular level. Set free, Protogen believed these would have used early life on Earth as raw materials, rebuilding and replacing it with whatever was desired by its creators. Though the origins of the planetoid and the final goals of those who sent it were a mystery, Protogen recognized the power of the tool they had discovered and gave it a name: the protomolecule.</p><p>Protogen’s plan to investigate the power of the protomolecule was quick and increasingly ruthless. First, they trapped their Martian partner scientists in a lab on Phoebe and exposed them to the protomolecule. When that failed to provide enough data due to lack of raw genetic material for the protomolecule to transform, Protogen destroyed the station to hide their tracks, framing the OPA for the damage. They then framed Mars for an attack on an Earth ship, to spark tensions between the two planets and distract them from Protogen’s actions until it was too late. Setting up a secret lab on Eros Station in the Belt, they unleashed the protomolecule upon the station’s population. Finally free to pursue its agenda, the alien molecular machine painfully and horrifically transformed all 1.5 million people on the station.</p><p>In charge of Tycho Station and its construction projects, the OPA tried to use the enormous bulk of the generation ship Nauvoo to push Eros into the sun to destroy the protomolecule—only to have the station suddenly and impossibly dodge the approaching ship. In apparent defiance of everything humanity knew about thrust, momentum, and acceleration, the asteroid began moving—towards Earth. A desperate attempt to destroy Eros using Earth’s entire arsenal of nuclear missiles not only failed when Eros somehow cloaked itself against all conventional sensors, but left the missiles under the control of the OPA, enormously increasing the Alliance’s military might.</p><p>In the end, Earth was spared by two people, a missing young woman who had been one of the protomolecule’s first victims, the “seed crystal” of its growth on Eros, and the Belter detective hired to find her. Although they were both absorbed by the protomolecule, together they managed to have enough influence over it to guide the asteroid to a crash landing on another world in the system: the uninhabited planet Venus. Thick clouds closed in over the impact site and the protomolecule continued its mysterious work on a planetary scale, raising mysterious crystalline towers and making flickering, ghostly lights visible to probes. Everyone now knew that humanity was not alone in the Expanse.</p><p>Whether humanity is ready or not, the next great step in their journey is about to begin.</p>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!3wJ0zNpRAzmTwaAO.60szwAQtEnEFFPB5",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": "AtrGkSdrU6Dazfx6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "3wJ0zNpRAzmTwaAO",
+  "_key": "!journal!3wJ0zNpRAzmTwaAO",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

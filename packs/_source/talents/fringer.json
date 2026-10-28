@@ -1,0 +1,39 @@
+{
+  "name": "Fringer",
+  "_id": "iRBtP3D4lLG7GtZj",
+  "_key": "!items!iRBtP3D4lLG7GtZj",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You know how to navigate and survive on the fringes of civilization.</p>",
+    "shortDesc": "",
+    "requirement": "Communication 1 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You cover your own tracks well. Other characters suffer a –2 penalty to any tests to find information about you or your activities. This stacks with the Cover Your Tracks stunt (see Chapter 5).</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You know how to find and navigate the local black market. Once per session, you can gain a +2 bonus on an Income test by using black market channels, but your Income is depleted by 1 regardless of the test result and the cost of the item.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are experienced at living life hidden from the system. The penalty for tests to find information about you increases to –3, and when you buy on the black market, your Income score is depleted following the normal rules given in Chapter 2.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

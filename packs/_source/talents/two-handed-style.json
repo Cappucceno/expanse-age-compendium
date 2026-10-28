@@ -1,0 +1,39 @@
+{
+  "name": "Two-Handed Style",
+  "_id": "H4srfeyEaJ6br9d2",
+  "_key": "!items!H4srfeyEaJ6br9d2",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are deadly with heavy melee weapons.</p>",
+    "shortDesc": "",
+    "requirement": "Strength 3 or higher and Fighting 1 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Your weapon and the power of your attacks force foes to yield ground. When you hit with a melee attack with a heavy weapon, you can move the target 2 meters in any direction like the Skirmish stunt.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You strike fearsome blows with your weapon. You can perform the Vicious Blow stunt for 1 SP when wielding a heavy weapon.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You and your weapon are as one. When you are wielding a heavy weapon and gain SP, you gain +2 SP to use exclusively for the following stunts: Expose, Knock Prone, Shock and Awe, Skirmish, and Wound.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

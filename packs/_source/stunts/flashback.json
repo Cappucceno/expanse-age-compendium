@@ -1,0 +1,26 @@
+{
+  "name": "Flashback",
+  "_id": "8wFaSmqV0gt6ievZ",
+  "_key": "!items!8wFaSmqV0gt6ievZ",
+  "folder": "emDfthNa99SyoHpm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>This test reminds you of something important you forgot. The GM reveals the identity or existence of another source of information you didn’t know about (Simple); treat one of your tangential focuses as a primary one on the next test you make to unlock a lead related to this test (Detailed).</p>",
+    "type": "Investigation",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

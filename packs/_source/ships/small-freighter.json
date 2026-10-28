@@ -1,0 +1,45 @@
+{
+  "name": "Small Freighter",
+  "_id": "n6IeTFrif0XhIZhb",
+  "_key": "!actors!n6IeTFrif0XhIZhb",
+  "folder": "BUtV6XCY8EZEW0jp",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "spaceship",
+  "img": "systems/age-system/resources/imgs/actor-icon/rocket.svg",
+  "system": {
+    "size": 4,
+    "drive": "Epstein, Thrusters",
+    "description": "<p><strong>Competence:</strong> Poor to Average</p><p><strong>Qualities:</strong> Improved Stores. A smuggler might have Hidden Compartments, while a pirate might remote the Fragile Flaw or add Hull Plating or a Weapons System.</p><p><strong>Flaws:</strong> Fragile. Another one or two is common.</p><p><strong>Crew:</strong> 4 (16)</p><p><strong>Size:</strong> Large (50 meters long)</p>",
+    "hull": {
+      "nrDice": 2,
+      "diceType": 6,
+      "extraValue": 0
+    },
+    "crew": {
+      "min": 4,
+      "current": 4,
+      "typical": 4,
+      "competence": 1
+    },
+    "systems": {
+      "sensors": {
+        "mod": 0
+      }
+    }
+  },
+  "items": [],
+  "prototypeToken": {
+    "name": "Small Freighter",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

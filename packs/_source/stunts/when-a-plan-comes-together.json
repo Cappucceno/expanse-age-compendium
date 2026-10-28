@@ -1,0 +1,26 @@
+{
+  "name": "When a Plan Comes Together",
+  "_id": "RHu1BadxCGNtuTUy",
+  "_key": "!items!RHu1BadxCGNtuTUy",
+  "folder": "jWxRAT01MmI484Bb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Core stunt.</em> You reveal this test was part of your plan all along, granting a bonus equal to the SP spent on one ally’s next test during the same encounter to accomplish the same goal. If desired, you can split the bonus among multiple allies, giving each a minimum +1. You must make this decision before any ally rolls.</p>",
+    "type": "General Exploration",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Drop Ship",
+  "_id": "6OlFExwNqFIFpeea",
+  "_key": "!actors!6OlFExwNqFIFpeea",
+  "folder": "MF5fkx6kakqh8OzS",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "spaceship",
+  "img": "systems/age-system/resources/imgs/actor-icon/rocket.svg",
+  "system": {
+    "size": 3,
+    "drive": "Thrusters (surface-to-orbit and ship-to-ship only)",
+    "description": "<p><strong>Weapons:</strong> None. A military drop ship might have a PDC. <strong>Competence:</strong> Average to Capable Thrusters (surface-to-orbit</p><p><strong>Qualities:</strong> Usually none. A military drop ship might have Hull Plating, possibly an Advanced Sensor Package.</p><p><strong>Flaws:</strong> Usually none.</p><p><strong>Crew:</strong> 2 (4)</p><p><strong>Size:</strong> Medium (25 meters long)</p>",
+    "hull": {
+      "nrDice": 1,
+      "diceType": 6,
+      "extraValue": 0
+    },
+    "crew": {
+      "min": 2,
+      "current": 2,
+      "typical": 2,
+      "competence": 2
+    },
+    "systems": {
+      "sensors": {
+        "mod": 1
+      }
+    }
+  },
+  "items": [],
+  "prototypeToken": {
+    "name": "Drop Ship",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

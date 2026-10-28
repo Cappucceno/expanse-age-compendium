@@ -1,0 +1,45 @@
+{
+  "name": "Medium Freighter",
+  "_id": "7i1guM0EcZInG0hk",
+  "_key": "!actors!7i1guM0EcZInG0hk",
+  "folder": "BUtV6XCY8EZEW0jp",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "spaceship",
+  "img": "systems/age-system/resources/imgs/actor-icon/rocket.svg",
+  "system": {
+    "size": 6,
+    "drive": "Epstein, Thrusters",
+    "description": "<p><strong>Competence:</strong> Poor to Average</p><p><strong>Qualities:</strong> None (see Small Freighter)</p><p><strong>Flaws:</strong> Fragile, possibly others, depending on condition.</p><p><strong>Crew:</strong> 64 (512)</p><p><strong>Size:</strong> Gigantic (250 meters long)</p>",
+    "hull": {
+      "nrDice": 3,
+      "diceType": 6,
+      "extraValue": 0
+    },
+    "crew": {
+      "min": 64,
+      "current": 64,
+      "typical": 64,
+      "competence": 1
+    },
+    "systems": {
+      "sensors": {
+        "mod": 0
+      }
+    }
+  },
+  "items": [],
+  "prototypeToken": {
+    "name": "Medium Freighter",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

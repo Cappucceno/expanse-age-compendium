@@ -1,0 +1,39 @@
+{
+  "name": "Affluent",
+  "_id": "Inoy8DfOt05kse0M",
+  "_key": "!items!Inoy8DfOt05kse0M",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You have access to greater resources than most.</p>",
+    "shortDesc": "",
+    "requirement": "",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>When you select this talent, increase your Income by +2.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>When you gain this degree, increase your Income by +1. You may add 2 to your Income score when comparing your score with an item’s cost to purchase it automatically, without a test, or to determine whether the purchase will deplete your Income. You enjoy this benefit only once per game session, and you must choose whether it applies to an automatic purchase or to avoid depleting your Income.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When you gain this degree, increase your Income by +1. You can re-roll a failed Income test, but must keep the result of the second roll.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

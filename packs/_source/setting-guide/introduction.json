@@ -1,0 +1,186 @@
+{
+  "name": "Introduction",
+  "pages": [
+    {
+      "_id": "3kJ6Zn5TdDUH7HpK",
+      "name": "Introduction",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Welcome to the future, and the next stage of human history, spreading out into the solar system towards the distant stars: welcome to The Expanse. In the 23rd Century, humanity has long since left the cradle of Earth to colonize the solar system. Now an independent Mars vies with old Earth for political power and influence while the settled asteroid belt and the moon systems of Jupiter and Saturn supply the inner planets with the resources they so desperately need. The people of the Belt and the Outer Planets—the Belters—labor and chafe under the rule of the Inners, and unbeknownst to humanity, history is taking a most unexpected turn.</p><p>The Expanse Roleplaying Game is a tabletop roleplaying game (or “RPG” for short). It is a game of the imagination, where you and your friends take on the roles of characters in a solar system on the verge of an exciting—and dangerous—new era. It is a moment when people in the right place at the right time willing to do the right thing can potentially change the course of history and the future of humanity, and you can be those people. You may have played other tabletop roleplaying games before, or this may be your introduction to new worlds of storytelling and adventure. Either way, welcome to The Expanse.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CfqIZknIUEccwiSL.3kJ6Zn5TdDUH7HpK",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "g61fOLphh8k7PROu",
+      "name": "What Is Roleplaying?",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>If The Expanse RPG is your introduction to the world of fantasy roleplaying games, then you might be wondering, “What is all this ‘roleplaying’ stuff about?”</p><p>Essentially, in a roleplaying game, you and a group of friends (the players) take on the roles of fictional characters in a world fueled by your imagination. One player in the group is the Game Master, or “GM” for short, who acts like the narrator of a story or the director of a play or movie. The Game Master sets the scene and describes what happens in the world around your characters. Then the other players decide what their characters do in response. The GM describes the outcome of those actions, and on you go, creating your own story.</p><p>Roleplaying is much like cooperative fan fiction or simulation gaming, where a group of people work together to build a fun and exciting story. Although it’s the Game Master’s job to portray the various antagonists in the story, as well as the heroes’ allies, the GM isn’t playing against everyone else. In</p><blockquote><p>“His words were full of hope</p></blockquote><p>fact, it’s the Game Master’s job to help ensure everyone has fun and that the group tells an interesting,</p><blockquote><p>and threat. Like the stars.”</p></blockquote><p>enjoyable story.</p><p>Think of a roleplaying game like an extended version of various games of make-believe we all</p><blockquote><p>— Abaddon’s Gate</p></blockquote><p>played as children, only with rules to help guide the story and a central narrator and manager to set the stage and help keep things moving along smoothly: “next stage make-believe” if you like.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CfqIZknIUEccwiSL.g61fOLphh8k7PROu",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "Etw0Gc8IguRzEcDA",
+      "name": "The Expanse Fiction",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The following are the various published stories of The</p><p>The Expanse is a science fiction universe created by James S.A. Corey (the Expanse universe, in order of publication.</p><p>pen name of Daniel Abraham and Ty Franck) starting with the novel Leviathan NOVELS</p><p>Wakes in 2011 and progressing through seven other novels and various novellas and short stories (see The Expanse Fiction sidebar). In the future, humanity has</p><p>(2011) Leviathan Wakes Nemesis Games (2015) spread throughout the solar system using the energy-efficient Epstein Drive,</p><p>Caliban’s War (2012) Babylon’s Ashes (2016) colonizing Mars, the asteroid belt, and the moons of Jupiter and Saturn. An Abaddon’s Gate (2013) Persepolis Rising (2017) unsteady peace exists between the United Nations of Earth and the Martian</p><p>Cibola Burn (2014) Tiamat’s Wrath (2019)</p><p>Congressional Republic, a balance upset by the events of the first novel. NOVELLAS</p><p>The Expanse series focuses on the lives and adventures of the crew of “Gods of Risk” (2012) “The Vital Abyss” (2015) the Rocinante, a repurposed military ship, as they become entangled with</p><p>“The Churn” (2014) “Strange Dogs” (2017) significant events in human history. It also takes in the sweep of events on a larger scale from the points of view of other characters in the solar system. SHORT STORIES</p><p>Although The Expanse is “hard” science fiction in terms of extrapolating</p><p>“The Butcher of Anderson Station” (2011) technology and dealing with the realities of orbital mechanics, space travel,</p><p>“Drive” (2012) and living in non-terrestrial environments, it also features epic science fiction speculation in terms of ancient alien artifacts which change the course of human history.</p><h2>Spoiler Warnings</h2><p>The Expanse Roleplaying Game focuses on the period between the first and second novels of the series (Leviathan</p><p>Wakes and Caliban’s War) and contains information about the events in the first novel, some of which may be considered</p><p>“spoilers” for its plot, and touches upon elements of the second novel. If this book is your introduction to The Expanse, you may wish to read Leviathan Wakes, and possibly Caliban’s War, first to ensure nothing here spoils your enjoyment of the story. While future Expanse RPG products will detail events and information related to the later books, there shouldn’t be any significant spoilers for them in this book.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CfqIZknIUEccwiSL.Etw0Gc8IguRzEcDA",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "RqfE163MniuuOlQY",
+      "name": "Getting Started",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The first thing you need for an Expanse game is a group of friends to play with, and one of you willing to take on the role of</p><p>Game Master. While you can play with as small a group as one player and a GM, the game works best with a GM and three to six players. It is possible to play with more players, but that can slow down the pace of the game. The Game Master has a key role, so try to make sure they really want the job! Running a game is fun, but it’s a different experience from playing.</p><p>Chapter 12 explains the Game Master’s role in detail.</p><p>Once you’ve settled on a GM, everyone else needs to create characters, also known as Player Characters (PCs) since they are controlled by the players. Your character is your primary responsibility as a player in a roleplaying game. This is your alter ego in the universe of The Expanse. Over the course of many adventures, your character will grow and change, but every story needs a beginning. That is exactly what Chapter 2: Character Creation provides, giving you not only game stats—the abilities and corresponding numbers that tell you what your character is good at—but also a character concept, starting goals, and relationships with other characters. Once play begins, the portrayal and development of your character is all up to you. Playing your character, achieving goals, and navigating the challenges and perils of a fantastic universe—this is the fun of taking part in a roleplaying game.</p><h2>Playing Your Character</h2><p>When playing a roleplaying game, ask yourself, “What would my character do?” The Game Master describes a situation, setting the scene for the players. It is then up to you to decide what your character does and why. You tell the GM what you want to do, as do the other players in turn, and then you all work out what happens. Sometimes, you use dice and the rules of the game to resolve actions in a specific order. At other times, you simply interact with the other players and the characters portrayed by the GM, who are known as non-player characters, or NPCs, to differentiate them from the Player Characters.</p><p>When you create your Expanse character, you choose things like their goals and strong and weak personality traits. You can then flesh your character out further. There are two basic approaches to this. The first is to paint your character in a few broad strokes and then jump right in to playing. The intention here is to come up with details about your character during the game, often using the springboard of the current story to create connections to their past. This is a common storytelling technique and a perfectly valid approach if you don’t want to spend a lot of time working on your character’s backstory before starting play. The second approach is to come up with a lot of details and roleplaying ideas before the first game session. If you can come to the table with a good idea of who your character is before the first dice are even rolled, that can help get the game going.</p><p>However you approach your character, playing the game will help you refine your ideas. After you have played for a while, you should have a strong sense of your character’s personality and an intuitive sense of what they would do in a particular situation. Of course, not all situations present easy choices, and it is from those difficult decisions that tension and drama emerge.</p><h2>Adventure and Series</h2><p>An adventure is a discrete story in a roleplaying game. Think of it as a single short story, a chapter of a novel, or an episode of a TV show. There may be several plot threads, but in the end it tells one tale. The difference between a roleplaying adventure and a book or show is that you have authorship. The decisions made by you and your fellow players help drive the story to its conclusion.</p><p>A series is made up of interlinked adventures. If an adventure is a chapter or episode, a series is a novel or season of a show, or a series of novels or seasons. Some adventures may have self-contained plots, while others tie together to tell a larger story, what is sometimes referred to as an arc. During a series the characters advance, improve, and change. Over time they gain more abilities, influence, and resources, face greater challenges, and perhaps gain renown for their deeds. A full Expanse series can take characters from levels 1 through 20, and provide hundreds of hours of entertainment.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CfqIZknIUEccwiSL.RqfE163MniuuOlQY",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "Okhyryy8q1F8KG9U",
+      "name": "The Group Dynamic",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Much of this book is focused on teaching you the rules of the game and how to create a character. It is important to remember, however, that roleplaying is a social activity. There are two aspects to this: the character group and the player group.</p><p>Your character is one member of a group of characters, often referred to in this book as the crew, since Expanse characters are often part of the crew of the same ship or station. Each character in the crew has individual goals, but there should also be larger shared goals. The characters may have their disagreements and even conflicts, but for the game to go on they must remain together. The adventures themselves often ensure this by their plot and structure, but a good group dynamic can help. This can start during character creation when everyone is settling on what they want to play. It’s a smart idea, for example, to make sure you have characters with diverse backgrounds, focuses, and talents. When working out things like goals and relationships, you can build in reasons for the characters in the crew to work together. The Expanse is often about human relationships and families, both those we choose and those chosen for us by circumstance.</p><p>The people gaming with you make up the player group, and that, too, has a dynamic. You and your fellow players are going to be spending a lot of time together, so you want a group of people who fundamentally get along. Role-</p><p>The rules system for The playing is meant to be fun for everyone, so be aware of any tensions around</p><p>Expanse Roleplaying Game the table. Some players try to make the game all about them, hogging the is known as the Advenspotlight and attempting to insert themselves into every scene. Don’t act ture Game Engine (or AGE) that way—it just makes the other players fed up. Everyone likewise deserves System. It was originally a chance to shine, so be ready to take a step back when someone has designed by Chris Pramas for a good idea or is pursuing something important for their character. Some the Dragon Age RPG, also by Green Ronin Publishing.</p><p>It was later published in stand-alone books, the players may make others uncomfortable with inappropriate behavior. When</p><p>Fantasy AGE Basic Rulebook and Modern AGE Basic this happens, it is important for the group as a whole to make it clear such</p><p>Rulebook, as well as being used to create the Titansbehavior won’t be tolerated—the game is about everyone having fun, and grave: Ashes of Valkana setting and adventures and that can’t happen unless everyone also feels comfortable and at ease. the Blue Rose Romantic Fantasy Roleplaying game. If</p><p>If a game session didn’t go well for some reason, talk it about it afterwards. you learn to play The Expanse, you can easily pick up other AGE System games. Although they are not iden- It won’t do any good if everyone just goes home to stew. Try to figure out tical, their basic structure and rules are, and you should where things went wrong and see if you can come up with solutions so it find the others easy to learn. If you enjoy playing in the doesn’t happen again. If players have concerns, encourage them to bring universe of The Expanse with the AGE System, you them up for discussion. Chapter 12 offers some advice about handling may want to explore the family of other worlds and games from Green Ronin Publishing based on it. problems that might crop up in the player group dynamic.</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CfqIZknIUEccwiSL.Okhyryy8q1F8KG9U",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "dklEloXyUPr2J6YJ",
+      "name": "Basic Game Concepts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Before you dive into the rest of the book, here’s a brief overview of the basic concepts of the game. You’ll learn more about all of these things in more detail as you read on.</p><p>DICE</p><p>The Expanse uses six-sided dice, abbreviated as “d6.” This is the most common type of die, and they can be found in many classic boardgames if you need to scrounge for some. In general, dice are rolled four different ways in the game:</p><p>Sometimes you need to generate a number from</p><p>As 1d6, but you roll two dice and add them</p><p>2D6</p><p>1D3</p><p>1-3. In this case you roll a d6 but halve the result, together. If you rolled a 3 and a 6, for example, rounding up, so a roll of 1-2 = 1, a roll of 3-4 = 2, and a your result would be 9.</p><p>roll of 5-6 = 3.</p><p>As above, but you roll three dice and add them</p><p>3D6</p><p>You roll a single die and simply read the result.</p><p>together. If you are making an ability test, you</p><p>1D6</p><p>Sometimes there is a modifier attached, such as must ensure that two of the dice are one color and the</p><p>1d6+3 or 1d6–1. In that case, just add or subtract the third a different color, or otherwise differentiated in some modifier from the die roll. If you rolled a 2, for example, way. That third die is known as the Drama Die, and it’s you’d add the modifier of +3 to get a result of 5, or important. The result of the Drama Die can determine subtract the modifier of –1 to get a result of 1.</p><p>your level of success and allow you to perform stunts.</p><p>CHARACTERS</p><p>To play The Expanse you create a character. You choose your character’s origin (Earth, Mars, or one of the many colonies of the Belt or Outer Planets), as well as background, profession, and what drives your character. Your character begins at level 1 as a novice. By surviving encounters and overcoming challenges, characters gradually gain experience and increase in level (commonly called “leveling up”). Your character may eventually make it to level 20 and become one of the most capable and important people in known space.</p><p>TESTS</p><p>Your character has nine abilities, such as Intelligence and Strength, each with a numeric rating from –2 to 4, with 1 being average. When your character wants to do something, the Game Master may call for an ability test. This is a dice roll to determine success or failure, and it’s the most common roll in the game. To make an ability test, you roll three six-sided dice (3d6), add the results together, and add the appropriate ability. This generates a test result, which you want to be as high as possible.</p><blockquote><p>It was a real book—onionskin pages bound in what might have been Test result = 3d6 + Ability actual leather. Miller had seen pictures of them before; the idea of that much weight for a single megabyte of data struck him as decadent.</p></blockquote><p>You may have to apply other bonuses or penalties, most commonly ability focuses that represent areas of expertise.</p><blockquote><p>— Leviathan Wakes</p></blockquote><p>Once you determine your test result, the Game Master lets you know if it’s a success or a failure and what happens as a result.</p>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CfqIZknIUEccwiSL.dklEloXyUPr2J6YJ",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "PLHe1WLL6mCgpqOO",
+      "name": "What’s Next?",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>If you are a player, then the first two sections of this book, Chapters 1–4 and Chapters 5–10, are for you. They provide the key information you need to know about how to play the game and about the setting of The Expanse. When you are ready to make a character, go to Chapter 2: Character Creation. It explains the process to get you going.</p><p>If you are the Game Master, you, too, should familiarize yourself with Chapters 1–11, as they contain the core of the game and the setting. Then move on to Chapters 12–14. They explain your important role in a tabletop roleplaying game, as well as giving you valuable advice and resources. Once you’re acquainted with the game and setting, there’s an introductory adventure, “To Sleep, Perchance to Dream,” in the back of the book to help launch your new Expanse series and start your characters off on their exciting adventures.</p><h2>PLAYER’S</h2>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CfqIZknIUEccwiSL.PLHe1WLL6mCgpqOO",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": "TD8nJk5ZKoBh0xb1",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "CfqIZknIUEccwiSL",
+  "_key": "!journal!CfqIZknIUEccwiSL",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

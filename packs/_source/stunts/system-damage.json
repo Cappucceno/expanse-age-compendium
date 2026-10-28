@@ -1,0 +1,26 @@
+{
+  "name": "System Damage",
+  "_id": "S9zfsfALpRJ4NTSB",
+  "_key": "!items!S9zfsfALpRJ4NTSB",
+  "folder": "fbhZaRhBv5ffJFzO",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Your attack damages the vehicle’s Handling, Sensors, or Weapons. Impose a –1 penalty per SP spent to the damaged ability (up to 3). Handling imposes a modifier on tests to operate the vehicle. This penalty remains until the vehicle is repaired. Damage control with a TN 13 Intelligence (Engineering) test can negate (but not remove) the penalty for rounds equal to the Drama Die result. If the ability is reduced below –2, the vehicle automatically fails tests calling for it. If Handling is reduced below –2, the vehicle is out of control and helpless.</p>",
+    "type": "Vehicle Combat",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

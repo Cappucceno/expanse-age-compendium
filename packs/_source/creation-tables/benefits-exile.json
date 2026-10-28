@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Exile",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefit for the Exile background (Step 4).",
+  "results": [
+    {
+      "_id": "rvvOxnKCWmn86aag",
+      "type": "text",
+      "name": "+1 Fighting",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!rsh3JNsuznoc94l6.rvvOxnKCWmn86aag"
+    },
+    {
+      "_id": "xaxMwvRO89s69bol",
+      "type": "text",
+      "name": "Focus: Communication (Bargaining)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!rsh3JNsuznoc94l6.xaxMwvRO89s69bol"
+    },
+    {
+      "_id": "t3ViSmBvv2ibuotc",
+      "type": "text",
+      "name": "Focus: Dexterity (Stealth)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!rsh3JNsuznoc94l6.t3ViSmBvv2ibuotc"
+    },
+    {
+      "_id": "u7qp8vGlRqN1w3lg",
+      "type": "text",
+      "name": "Focus: Perception (Searching)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!rsh3JNsuznoc94l6.u7qp8vGlRqN1w3lg"
+    },
+    {
+      "_id": "bIikJT60qmSO7pxU",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!rsh3JNsuznoc94l6.bIikJT60qmSO7pxU"
+    },
+    {
+      "_id": "zyVrFMoBFpFcO28M",
+      "type": "text",
+      "name": "Focus: Accuracy (Pistols)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!rsh3JNsuznoc94l6.zyVrFMoBFpFcO28M"
+    },
+    {
+      "_id": "PsAlwpT3TMEd6TyO",
+      "type": "text",
+      "name": "Focus: Dexterity (Driving)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!rsh3JNsuznoc94l6.PsAlwpT3TMEd6TyO"
+    },
+    {
+      "_id": "UdSl3u1XPEpTt6zW",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!rsh3JNsuznoc94l6.UdSl3u1XPEpTt6zW"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "H8ydMcpygzMyt8US",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "rsh3JNsuznoc94l6",
+  "_key": "!tables!rsh3JNsuznoc94l6"
+}

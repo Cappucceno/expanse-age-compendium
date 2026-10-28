@@ -1,0 +1,26 @@
+{
+  "name": "Footwork",
+  "_id": "IWqv7K4gBfc0OYYc",
+  "_key": "!items!IWqv7K4gBfc0OYYc",
+  "folder": "5WLkOpAoM7Q1uty9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p><em>Core stunt.</em> You maneuver effortlessly. Gain +1 per SP spent to one combat-related test of your choice before the end of your next turn.</p>",
+    "type": "Melee",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

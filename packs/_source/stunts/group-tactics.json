@@ -1,0 +1,26 @@
+{
+  "name": "Group Tactics",
+  "_id": "zBn34aztGQjckSpC",
+  "_key": "!items!zBn34aztGQjckSpC",
+  "folder": "iUVfhOY02Hq2jOoj",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 2+ SP</em></p><p>Choose one ally to move 2 meters in a direction of their choosing for each 2 SP spent.</p>",
+    "type": "General Combat",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Misdirection",
+  "_id": "0qgon6oqq7nvwByx",
+  "_key": "!items!0qgon6oqq7nvwByx",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can sow confusion among friends and foes alike.</p>",
+    "shortDesc": "",
+    "requirement": "Communication (Deception) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>As a major action, you can make a Communication (Deception) test opposed by an opponent’s Willpower (Self-Discipline); if you succeed, your opponent cannot perform stunts until the end of your next turn.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your targets become too focused on you to do anything else. When you use the Over Here! exploration stunt, the bonus your allies gain is +2 instead of +1, and you gain a +1 bonus yourself.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When you use a Communication focus in combat and roll doubles, you gain +1 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

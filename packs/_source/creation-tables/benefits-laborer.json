@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Laborer",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefit for the Laborer background (Step 4).",
+  "results": [
+    {
+      "_id": "m8mtK0B9EIxiIGYA",
+      "type": "text",
+      "name": "+1 Fighting",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!p0pyo36KHNNfhRTt.m8mtK0B9EIxiIGYA"
+    },
+    {
+      "_id": "aS4jlEjvuzLgIVkA",
+      "type": "text",
+      "name": "Focus: Fighting (Brawling)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!p0pyo36KHNNfhRTt.aS4jlEjvuzLgIVkA"
+    },
+    {
+      "_id": "m8l5YIVqS74QwqcB",
+      "type": "text",
+      "name": "Focus: Intelligence (Engineering)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!p0pyo36KHNNfhRTt.m8l5YIVqS74QwqcB"
+    },
+    {
+      "_id": "DQSEtQshrn8OzRoO",
+      "type": "text",
+      "name": "Focus: Willpower (Self-Discipline)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!p0pyo36KHNNfhRTt.DQSEtQshrn8OzRoO"
+    },
+    {
+      "_id": "uHmp9zZx2syXOFPn",
+      "type": "text",
+      "name": "+1 Strength",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!p0pyo36KHNNfhRTt.uHmp9zZx2syXOFPn"
+    },
+    {
+      "_id": "8UMigEkbJWx6hqby",
+      "type": "text",
+      "name": "Focus: Communication (Gambling)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!p0pyo36KHNNfhRTt.8UMigEkbJWx6hqby"
+    },
+    {
+      "_id": "9ISzWkpAhZqT10xo",
+      "type": "text",
+      "name": "Focus: Constitution (Stamina)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!p0pyo36KHNNfhRTt.9ISzWkpAhZqT10xo"
+    },
+    {
+      "_id": "JOOncVJki8LlKbmz",
+      "type": "text",
+      "name": "+1 Dexterity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!p0pyo36KHNNfhRTt.JOOncVJki8LlKbmz"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "H8ydMcpygzMyt8US",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "p0pyo36KHNNfhRTt",
+  "_key": "!tables!p0pyo36KHNNfhRTt"
+}

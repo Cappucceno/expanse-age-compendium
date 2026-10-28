@@ -1,0 +1,26 @@
+{
+  "name": "Disable Drive",
+  "_id": "L2NfsE2Who8J0hKp",
+  "_key": "!items!L2NfsE2Who8J0hKp",
+  "folder": "fbhZaRhBv5ffJFzO",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Your attack disables the vehicle’s propulsion. The operator must make a TN 15 test to maintain control and, even if they succeed, must deal with a vehicle that can no longer move or maneuver under its own power. The vehicle is helpless. Damage control with a TN 13 Intelligence (Engineering) test can restore the vehicle’s propulsion for rounds equal to the Drama Die result.</p>",
+    "type": "Vehicle Combat",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

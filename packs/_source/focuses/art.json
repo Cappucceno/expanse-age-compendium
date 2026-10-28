@@ -1,0 +1,24 @@
+{
+  "name": "Art",
+  "_id": "kTNTSZRskCIu5hCH",
+  "_key": "!items!kTNTSZRskCIu5hCH",
+  "folder": "TyLsoqrRehbelj4q",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Knowledge of artistic movements, styles, artists, and works in any of the fine arts. Making art uses the Crafting focus.</p>",
+    "useAbl": "int",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

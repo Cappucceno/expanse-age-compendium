@@ -1,0 +1,26 @@
+{
+  "name": "Pay Dirt",
+  "_id": "NAI2FDHfzL2KtW23",
+  "_key": "!items!NAI2FDHfzL2KtW23",
+  "folder": "jWxRAT01MmI484Bb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p>In the course of your endeavor, you win a bet, happen across a conveniently abandoned stash, or discover something valuable you can pawn to make a buck, among other possibilities. Temporarily gain +1 Income per SP spent; this increase lasts until you next fail an Income test. Instances of this stunt don’t stack; only the highest bonus applies.</p>",
+    "type": "General Exploration",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Overwatch",
+  "_id": "eW4dEKm80dLe3Uk0",
+  "_key": "!items!eW4dEKm80dLe3Uk0",
+  "folder": "HjZS0NpKrp9ecqIY",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Core stunt.</em> Your opponent suffers −1 to attack rolls per SP spent until the start of your next turn.</p>",
+    "type": "Gun",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Pistols",
+  "_id": "jY2YtFtWTV8z2WGE",
+  "_key": "!items!jY2YtFtWTV8z2WGE",
+  "folder": "epZze6Wd6DHPWTAO",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Proficiency with single-grip, short-barrel ballistic weapons.</p>",
+    "useAbl": "acc",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

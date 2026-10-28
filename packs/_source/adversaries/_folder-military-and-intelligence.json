@@ -1,0 +1,17 @@
+{
+  "name": "Military and Intelligence",
+  "type": "Actor",
+  "folder": null,
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "BlPNbL9yVLi7AiLr",
+  "_key": "!folders!BlPNbL9yVLi7AiLr",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

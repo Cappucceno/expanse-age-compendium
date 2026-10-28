@@ -1,0 +1,39 @@
+{
+  "name": "Thief",
+  "_id": "qb3481y9QL9LRxir",
+  "_key": "!items!qb3481y9QL9LRxir",
+  "folder": "y88XXvdfe5pCOOAm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are adept at stealing things and avoiding getting caught.</p><p>You’ve got a knack—some might say a calling—for taking things that don’t belong to you. You might work for a government agency, a corporation, or a criminal syndicate, or you may be a solo act motivated by greed, the thrill of the take, sticking it to the rich, or some other goal. Maybe you’re a thief because you always have been, or because someone has dirt on you and you don’t have a choice.</p><p><em>Synergies:</em> A Thief-Performer might be a street entertainer with a knack for picking pockets, or a master of sleight of hand and stage illusion. Meanwhile, a Thief-Academic, whether a relic hunter or a burglar with exquisite taste, knows exactly what to steal. A Thief-Executive might run a criminal network or steal from peers. A Thief-Socialite is the most charming of rogues, a criminal whose tracks vanish under a veneer of genteel charm. A Thief-Gunfighter could be an armed robber or a freedom fighter.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity 2 or higher and the Dexterity (Sleight of Hand) and Dexterity (Stealth) focuses",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>The first thing a skilled thief perfects is the ability to work unnoticed. You add +1 to all tests made with the Dexterity (Stealth) or the Dexterity (Sleight of Hand) focuses. Choose which focus receives this benefit when you attain this degree.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>When you make a Dexterity test to hide or steal an object, you can re-roll the test if you choose, but must keep the result of the second roll. You become an expert in avoiding suspicion. You may perform the It Wasn’t Me stunt for 2 SP.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Add another +1 to tests using either Dexterity (Sleight of Hand) or Dexterity (Stealth), selecting the focus when you attain this degree.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

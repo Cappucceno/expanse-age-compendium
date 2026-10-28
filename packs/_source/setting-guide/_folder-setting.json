@@ -1,0 +1,17 @@
+{
+  "name": "Setting",
+  "type": "JournalEntry",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "AtrGkSdrU6Dazfx6",
+  "_key": "!folders!AtrGkSdrU6Dazfx6",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

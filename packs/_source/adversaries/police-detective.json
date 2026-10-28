@@ -1,0 +1,210 @@
+{
+  "name": "Police Detective",
+  "_id": "FFBau5KE0snsmoyr",
+  "_key": "!actors!FFBau5KE0snsmoyr",
+  "folder": "PkhHQsUEkbbtXxsb",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 2
+      },
+      "comm": {
+        "value": 3
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 0
+      },
+      "will": {
+        "value": -1
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 11,
+      "value": 11
+    },
+    "features": "<p><strong>AKA:</strong> Bent Copper, Burnout</p><p>In the more densely populated cities and outposts, it’s nearly impossible to tell the dirty cops from the clean ones. Plainclothes cops and security confuse matters, as they attempt to blend in and “empathize” with the people they want to interview or interrogate. A whole bunch of them will turn the other way if given enough cash. They say once the cop comes out of the uniform, the protective layer guarding them from the reality of crime is gone for good. It certainly seems to be the case that the detectives, who have to wade deepest into the festering mire of crime, come out the dirtiest.</p><p><strong>Stunts:</strong> Bad Form, Good Cop/Bad Cop, Take Cover</p><p><strong>Talents:</strong> Intrigue (Novice), Contacts (Expert)</p><p><strong>Equipment:</strong> badge and ID, hand terminal, pistol</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "YpeteuVrIflPZ0b1",
+      "_key": "!actors.items!FFBau5KE0snsmoyr.YpeteuVrIflPZ0b1",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Bargaining",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "daTjLQOw3PZ2PcRz",
+      "_key": "!actors.items!FFBau5KE0snsmoyr.daTjLQOw3PZ2PcRz",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ddYVIOStqswzt08c",
+      "_key": "!actors.items!FFBau5KE0snsmoyr.ddYVIOStqswzt08c",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Brawling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "nDo3vaoWZssTO5U1",
+      "_key": "!actors.items!FFBau5KE0snsmoyr.nDo3vaoWZssTO5U1",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Law",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "KAq2eUGAxpVnOXda",
+      "_key": "!actors.items!FFBau5KE0snsmoyr.KAq2eUGAxpVnOXda",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "d8pLOXP9GiTL2gkn",
+      "_key": "!actors.items!FFBau5KE0snsmoyr.d8pLOXP9GiTL2gkn",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 2d6+1.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Police Detective",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

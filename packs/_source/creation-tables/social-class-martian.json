@@ -1,0 +1,103 @@
+{
+  "name": "Social Class: Martian",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 4: Social Class",
+  "results": [
+    {
+      "_id": "yrh0QjAr6r8HuAFt",
+      "type": "text",
+      "name": "Outsider",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!Ej3wAgOGnQOlarFu.yrh0QjAr6r8HuAFt"
+    },
+    {
+      "_id": "dHmUpcjKMH7PDabP",
+      "type": "text",
+      "name": "Lower Class",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        3,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!Ej3wAgOGnQOlarFu.dHmUpcjKMH7PDabP"
+    },
+    {
+      "_id": "d0ieHiZxxiBl7WZl",
+      "type": "text",
+      "name": "Middle Class",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        7,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!Ej3wAgOGnQOlarFu.d0ieHiZxxiBl7WZl"
+    },
+    {
+      "_id": "TXqv25nmNED2j75J",
+      "type": "text",
+      "name": "Upper Class",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!Ej3wAgOGnQOlarFu.TXqv25nmNED2j75J"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "By65iEGdtzaMjbre",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "Ej3wAgOGnQOlarFu",
+  "_key": "!tables!Ej3wAgOGnQOlarFu"
+}

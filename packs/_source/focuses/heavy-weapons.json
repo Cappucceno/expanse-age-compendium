@@ -1,0 +1,24 @@
+{
+  "name": "Heavy Weapons",
+  "_id": "pERyO1TZ7UueqYLj",
+  "_key": "!items!pERyO1TZ7UueqYLj",
+  "folder": "vIKcPGO2z4LRDZkv",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Proficiency with large or heavy close combat weapons like axes, clubs, hammers, and large swords, to name a few.</p>",
+    "useAbl": "fight",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

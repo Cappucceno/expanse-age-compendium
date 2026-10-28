@@ -1,0 +1,26 @@
+{
+  "name": "Go Viral",
+  "_id": "rGlSu6tsjZeEGrkz",
+  "_key": "!items!rGlSu6tsjZeEGrkz",
+  "folder": "cML2W7TSvQfzGtww",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Whether via you or others sharing a video or audio recording, news gets out quickly about what you’ve just done. For the rest of the session, the honorific most related to this test applies even in situations where it seems unrelated.</p>",
+    "type": "Membership & Reputation",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

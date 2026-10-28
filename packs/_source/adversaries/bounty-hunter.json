@@ -1,0 +1,390 @@
+{
+  "name": "Bounty Hunter",
+  "_id": "Ax2TI7BlDQ0ksB8L",
+  "_key": "!actors!Ax2TI7BlDQ0ksB8L",
+  "folder": "N3WRoFwp0q9l0Jar",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Moderate",
+    "abilities": {
+      "acc": {
+        "value": 2
+      },
+      "comm": {
+        "value": 1
+      },
+      "cons": {
+        "value": 2
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 3
+      },
+      "str": {
+        "value": 2
+      },
+      "will": {
+        "value": 1
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 22,
+      "value": 22
+    },
+    "features": "<p><strong>AKA:</strong> Hound, Recovery Agent, Tracker</p><p>When people slip past security, evade the authorities, and escape the military, they become prey for bounty hunters. Sample Adversaries dversaries wish to disable, obstruct, or kill the characters. The type sary who would use their fists instead of the law, or a gun instead e room bargain, is an action adversary. While security guards, and thugs are all ostensibly capable of communication, indepenught, and even reason, they excel in the field of violence. Some of PCs are low-threat hired muscle, while others fit the bill of a “boss he GM should adjust any traits they see fit for the purposes of the o, using the guidelines under Adversary Improvement. d Bounty hunters are kept on retainer by corporations, including some security providers, and operate on their own or as a part of a larger team of hunters. Depending on their level of ethics, many prefer to earn their pay by bringing in the target dead rather than alive. Most of the time, it’s just easier that way. These stats represent a fairly professional bounty hunter, as opposed to a hooligan or a pirate looking to make some quick credits or a security guard or soldier with a side job. See those adversaries for less “formal” bounty hunters. Those with years of experience have a correspondingly higher threat level (see Adversary Improvement).</p><p><strong>Stunts:</strong> Skirmish, Efficient Gunner, Called Shot</p><p><strong>Talents:</strong> Expertise (Tracking, Expert), Living on the Fringe (Expert), Scouting (Expert)</p><p><strong>Equipment:</strong> knife, pistol, stun gun, light body armor, hand terminal, survival gear</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "aqkAimsz2CKp2jTt",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.aqkAimsz2CKp2jTt",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Bargaining",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "oDwkk5YxmkqK9P2F",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.oDwkk5YxmkqK9P2F",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "sg3ukizdd2iZuNZ9",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.sg3ukizdd2iZuNZ9",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Piloting",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "HIRxNwzvWmCoeWf7",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.HIRxNwzvWmCoeWf7",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stealth",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "lEmpxXTD7bwZmVsM",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.lEmpxXTD7bwZmVsM",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Light Weapons",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "A6TI27esAHfsDx5z",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.A6TI27esAHfsDx5z",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Law",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "3Cp87KGCfxKiM3Q9",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.3Cp87KGCfxKiM3Q9",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seeing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "XgsAqf7amcDZnZgz",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.XgsAqf7amcDZnZgz",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Tracking",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "6uwwHqjkrR3Ek5aE",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.6uwwHqjkrR3Ek5aE",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Knife",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "1qaDOg4cYKWTTUMo",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.1qaDOg4cYKWTTUMo",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 1d6+2.</p>",
+        "useAbl": "fight",
+        "useFocus": "light weapons",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "7242RoMHIXmniV94",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.7242RoMHIXmniV94",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 2d6+3.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Stun Gun",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "JrHF6YhsmVDRa6wE",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.JrHF6YhsmVDRa6wE",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 1d6+3.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Armor",
+      "type": "equipment",
+      "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+      "_id": "o6mSVKQ4f0qRZUrL",
+      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.o6mSVKQ4f0qRZUrL",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "equiped": true,
+        "modifiers": {
+          "ue1X1X6OVJywYlmE": {
+            "type": "impactArmor",
+            "formula": "2",
+            "flavor": "",
+            "isActive": true,
+            "valid": true,
+            "conditions": {},
+            "ftype": "",
+            "key": "ue1X1X6OVJywYlmE"
+          }
+        },
+        "longDesc": ""
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Bounty Hunter",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

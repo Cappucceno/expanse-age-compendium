@@ -1,0 +1,17 @@
+{
+  "name": "Explosives",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "Mn4VY07pZZ9uGOmR",
+  "_key": "!folders!Mn4VY07pZZ9uGOmR",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "label": "Tabelas de Criação de Personagem",
+  "mapping": {
+    "name": "name",
+    "results": {
+      "path": "results",
+      "converter": "tableResults"
+    }
+  },
+  "entries": {
+    "Ability Score (3d6)": {
+      "name": "Valor de Habilidade (3d6)",
+      "results": {}
+    },
+    "Backgrounds: Lower Class": {
+      "name": "Antecedentes: Classe Baixa",
+      "results": {
+        "1-2": "Militar",
+        "3-4": "Trabalhador",
+        "5-6": "Urbano"
+      }
+    },
+    "Backgrounds: Middle Class": {
+      "name": "Antecedentes: Classe Média",
+      "results": {
+        "1-2": "Erudito",
+        "3-4": "Suburbano",
+        "5-6": "Comerciante"
+      }
+    },
+    "Backgrounds: Outsider": {
+      "name": "Antecedentes: Marginalizado",
+      "results": {
+        "1-2": "Boêmio",
+        "3-4": "Exilado",
+        "5-6": "Pária"
+      }
+    },
+    "Backgrounds: Upper Class": {
+      "name": "Antecedentes: Classe Alta",
+      "results": {
+        "1-2": "Aristocrata",
+        "3-4": "Corporativo",
+        "5-6": "Cosmopolita"
+      }
+    },
+    "Benefits: Academic": {
+      "name": "Benefícios: Erudito",
+      "results": {
+        "2-2": "+1 Comunicação",
+        "3-4": "Foco: Inteligência (Pesquisa)",
+        "5-5": "+2 Renda",
+        "6-6": "Foco: Inteligência (História)",
+        "7-8": "+1 Percepção",
+        "9-9": "Foco: Vontade (Autodisciplina)",
+        "10-11": "Foco: Inteligência (escolha um)",
+        "12-12": "+1 Vontade"
+      }
+    },
+    "Benefits: Aristocratic": {
+      "name": "Benefícios: Aristocrata",
+      "results": {
+        "2-2": "+1 Pontaria",
+        "3-4": "+2 Renda",
+        "5-5": "Foco: Comunicação (Persuasão)",
+        "6-6": "Foco: Destreza (Pilotagem)",
+        "7-8": "+1 Percepção",
+        "9-9": "Foco: Comunicação (Jogatina)",
+        "10-11": "Foco: Comunicação (Liderança)",
+        "12-12": "+1 Vontade"
+      }
+    },
+    "Benefits: Bohemian": {
+      "name": "Benefícios: Boêmio",
+      "results": {
+        "2-2": "+1 Destreza",
+        "3-4": "Foco: Percepção (Empatia)",
+        "5-5": "Foco: Vontade (Coragem ou Fé)",
+        "6-6": "Foco: Comunicação (escolha um)",
+        "7-8": "+1 Constituição",
+        "9-9": "Foco: Destreza (Acrobacia ou Queda Livre)",
+        "10-11": "Foco: Comunicação (Persuasão)",
+        "12-12": "+1 Percepção"
+      }
+    },
+    "Benefits: Corporate": {
+      "name": "Benefícios: Corporativo",
+      "results": {
+        "2-2": "+1 Percepção",
+        "3-4": "Foco: Comunicação (Persuasão)",
+        "5-5": "Foco: Inteligência (Avaliação)",
+        "6-6": "Foco: Percepção (Empatia)",
+        "7-8": "+1 Inteligência",
+        "9-9": "Foco: Comunicação (Expressão)",
+        "10-11": "Foco: Comunicação (Liderança)",
+        "12-12": "+1 Pontaria"
+      }
+    },
+    "Benefits: Cosmopolitan": {
+      "name": "Benefícios: Cosmopolita",
+      "results": {
+        "2-2": "+1 Percepção",
+        "3-4": "Foco: Inteligência (escolha um)",
+        "5-5": "Foco: Comunicação (Persuasão)",
+        "6-6": "Foco: Inteligência (Arte)",
+        "7-8": "+1 Comunicação",
+        "9-9": "Foco: Comunicação (Barganha)",
+        "10-11": "Foco: Percepção (Visão)",
+        "12-12": "+1 Vontade"
+      }
+    },
+    "Benefits: Exile": {
+      "name": "Benefícios: Exilado",
+      "results": {
+        "2-2": "+1 Combate",
+        "3-4": "Foco: Comunicação (Barganha)",
+        "5-5": "Foco: Destreza (Furtividade)",
+        "6-6": "Foco: Percepção (Procurar)",
+        "7-8": "+1 Percepção",
+        "9-9": "Foco: Pontaria (Pistolas)",
+        "10-11": "Foco: Destreza (Condução)",
+        "12-12": "+1 Vontade"
+      }
+    },
+    "Benefits: Laborer": {
+      "name": "Benefícios: Trabalhador",
+      "results": {
+        "2-2": "+1 Combate",
+        "3-4": "Foco: Combate (Briga)",
+        "5-5": "Foco: Inteligência (Engenharia)",
+        "6-6": "Foco: Vontade (Autodisciplina)",
+        "7-8": "+1 Força",
+        "9-9": "Foco: Comunicação (Jogatina)",
+        "10-11": "Foco: Constituição (Vigor)",
+        "12-12": "+1 Destreza"
+      }
+    },
+    "Benefits: Military": {
+      "name": "Benefícios: Militar",
+      "results": {
+        "2-2": "+1 Vontade",
+        "3-4": "Foco: Pontaria (Fuzis)",
+        "5-5": "Foco: Comunicação (Liderança)",
+        "6-6": "Foco: Inteligência (Segurança)",
+        "7-8": "+1 Força",
+        "9-9": "Foco: Percepção (Procurar)",
+        "10-11": "Foco: Combate (Briga)",
+        "12-12": "+1 Constituição"
+      }
+    },
+    "Benefits: Outcast": {
+      "name": "Benefícios: Pária",
+      "results": {
+        "2-2": "+1 Percepção",
+        "3-4": "Foco: Percepção (Visão)",
+        "5-5": "Foco: Combate (Armas Leves)",
+        "6-6": "Foco: Inteligência (Tecnologia)",
+        "7-8": "+1 Constituição",
+        "9-9": "Foco: Destreza (Prestidigitação)",
+        "10-11": "Foco: Vontade (Coragem)",
+        "12-12": "+1 Comunicação"
+      }
+    },
+    "Benefits: Suburban": {
+      "name": "Benefícios: Suburbano",
+      "results": {
+        "2-2": "+1 Destreza",
+        "3-4": "Foco: Inteligência (escolha um)",
+        "5-5": "+2 Renda",
+        "6-6": "Foco: Comunicação (Persuasão)",
+        "7-8": "+1 Percepção",
+        "9-9": "Foco: Percepção (escolha um)",
+        "10-11": "Foco: Destreza (Condução)",
+        "12-12": "+1 Inteligência"
+      }
+    },
+    "Benefits: Trade": {
+      "name": "Benefícios: Comerciante",
+      "results": {
+        "2-2": "+1 Força",
+        "3-4": "Foco: Inteligência (Tecnologia)",
+        "5-5": "Foco: Inteligência (Arte)",
+        "6-6": "Foco: Constituição (Tolerância)",
+        "7-8": "+1 Percepção",
+        "9-9": "Foco: Combate (Agarramento)",
+        "10-11": "Foco: Constituição (Vigor)",
+        "12-12": "+1 Constituição"
+      }
+    },
+    "Benefits: Urban": {
+      "name": "Benefícios: Urbano",
+      "results": {
+        "2-2": "+1 Pontaria",
+        "3-4": "Foco: Destreza (Acrobacia)",
+        "5-5": "Foco: Comunicação (Enganação)",
+        "6-6": "Foco: Destreza (Prestidigitação)",
+        "7-8": "+1 Percepção",
+        "9-9": "Foco: Percepção (Audição)",
+        "10-11": "Foco: Força (Escalar ou Saltar)",
+        "12-12": "+1 Combate"
+      }
+    },
+    "Drive: Column 1": {
+      "name": "Motivação: Coluna 1",
+      "results": {
+        "1-1": "Realizador",
+        "2-2": "Construtor",
+        "3-3": "Samaritano",
+        "4-4": "Extático",
+        "5-5": "Juiz",
+        "6-6": "Líder"
+      }
+    },
+    "Drive: Column 2": {
+      "name": "Motivação: Coluna 2",
+      "results": {
+        "1-1": "Agregador",
+        "2-2": "Penitente",
+        "3-3": "Protetor",
+        "4-4": "Rebelde",
+        "5-5": "Sobrevivente",
+        "6-6": "Visionário"
+      }
+    },
+    "Professions: Lower Class": {
+      "name": "Profissões: Classe Baixa",
+      "results": {
+        "1-1": "Atleta",
+        "2-2": "Soldado",
+        "3-3": "Investigador",
+        "4-4": "Técnico",
+        "5-5": "Sacerdote",
+        "6-6": "Negociador"
+      }
+    },
+    "Professions: Middle Class": {
+      "name": "Profissões: Classe Média",
+      "results": {
+        "1-1": "Piloto",
+        "2-2": "Segurança",
+        "3-3": "Profissional",
+        "4-4": "Acadêmico",
+        "5-5": "Mercador",
+        "6-6": "Político"
+      }
+    },
+    "Professions: Outsider": {
+      "name": "Profissões: Marginalizado",
+      "results": {
+        "1-1": "Lutador",
+        "2-2": "Sobrevivencialista",
+        "3-3": "Criminoso",
+        "4-4": "Catador",
+        "5-5": "Solucionador",
+        "6-6": "Artista"
+      }
+    },
+    "Professions: Upper Class": {
+      "name": "Profissões: Classe Alta",
+      "results": {
+        "1-1": "Comandante",
+        "2-2": "Explorador",
+        "3-3": "Diletante",
+        "4-4": "Especialista",
+        "5-5": "Administrador",
+        "6-6": "Socialite"
+      }
+    },
+    "Social Class: Belter": {
+      "name": "Classe Social: Cinturano",
+      "results": {
+        "2-5": "Marginalizado",
+        "6-8": "Classe Baixa",
+        "9-11": "Classe Média",
+        "12-12": "Classe Alta"
+      }
+    },
+    "Social Class: Earther": {
+      "name": "Classe Social: Terráqueo",
+      "results": {
+        "2-3": "Marginalizado",
+        "4-6": "Classe Baixa",
+        "7-10": "Classe Média",
+        "11-12": "Classe Alta"
+      }
+    },
+    "Social Class: Martian": {
+      "name": "Classe Social: Marciano",
+      "results": {
+        "2-2": "Marginalizado",
+        "3-6": "Classe Baixa",
+        "7-11": "Classe Média",
+        "12-12": "Classe Alta"
+      }
+    }
+  }
+}

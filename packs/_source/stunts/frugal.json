@@ -1,0 +1,26 @@
+{
+  "name": "Frugal",
+  "_id": "SxwVoiZdRLivHpnJ",
+  "_key": "!items!SxwVoiZdRLivHpnJ",
+  "folder": "jWxRAT01MmI484Bb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You use only what you must to get the job done, saving resources for a rainy day. This Income test doesn’t deplete your Income even if it normally would.</p>",
+    "type": "General Exploration",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

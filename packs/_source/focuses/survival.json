@@ -1,0 +1,24 @@
+{
+  "name": "Survival",
+  "_id": "XSW3wj7MXhNDdHwD",
+  "_key": "!items!XSW3wj7MXhNDdHwD",
+  "folder": "G4YinXYFiER29Ial",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Practical skills of wilderness survival.</p>",
+    "useAbl": "per",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

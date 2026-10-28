@@ -1,0 +1,69 @@
+{
+  "name": "Large Freighter",
+  "_id": "sPwqwo1sU2o769WA",
+  "_key": "!actors!sPwqwo1sU2o769WA",
+  "folder": "BUtV6XCY8EZEW0jp",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "spaceship",
+  "img": "systems/age-system/resources/imgs/actor-icon/rocket.svg",
+  "system": {
+    "size": 7,
+    "drive": "Epstein, Thrusters",
+    "description": "<p><strong>Competence:</strong> Poor to Capable</p><p><strong>Qualities:</strong> Improved Stores (see Small Freighter)</p><p><strong>Flaws:</strong> Fragile, High Maintenance (or another Flaw that has developed due to lack of maintenance)</p><p><strong>Crew:</strong> 256 (2,048)</p><p><strong>Size:</strong> Colossal (500 meters long)</p>",
+    "hull": {
+      "nrDice": 4,
+      "diceType": 6,
+      "extraValue": 0
+    },
+    "crew": {
+      "min": 256,
+      "current": 256,
+      "typical": 256,
+      "competence": 1
+    },
+    "systems": {
+      "sensors": {
+        "mod": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Point Defense Network",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "G9MPqxWvZfwSDiqQ",
+      "_key": "!actors.items!sPwqwo1sU2o769WA.G9MPqxWvZfwSDiqQ",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "2d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": ""
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Large Freighter",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

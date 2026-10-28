@@ -1,0 +1,24 @@
+{
+  "name": "Driving",
+  "_id": "4IK0BwdhZ1N0CPCX",
+  "_key": "!items!4IK0BwdhZ1N0CPCX",
+  "folder": "F9dk45ZVyiRvDt45",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Handling surface vehicles like cars, trucks, or motorized carts, to name a few.</p>",
+    "useAbl": "dex",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

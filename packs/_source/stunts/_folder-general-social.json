@@ -1,0 +1,17 @@
+{
+  "name": "General Social",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 500000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "RYCI0kZp4Uq2YPRL",
+  "_key": "!folders!RYCI0kZp4Uq2YPRL",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

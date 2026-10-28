@@ -1,0 +1,26 @@
+{
+  "name": "Impress",
+  "_id": "AaZGoRloY1VaQZAw",
+  "_key": "!items!AaZGoRloY1VaQZAw",
+  "folder": "RYCI0kZp4Uq2YPRL",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Core stunt.</em> Gain a +1 per SP spent to your next social test against the same target as this test, during this encounter.</p>",
+    "type": "General Social",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

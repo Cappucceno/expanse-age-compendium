@@ -1,0 +1,24 @@
+{
+  "name": "Throwing",
+  "_id": "Rnib02dVO9c6Z61Q",
+  "_key": "!items!Rnib02dVO9c6Z61Q",
+  "folder": "epZze6Wd6DHPWTAO",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Proficiency with thrown weapons, including grenades.</p>",
+    "useAbl": "acc",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

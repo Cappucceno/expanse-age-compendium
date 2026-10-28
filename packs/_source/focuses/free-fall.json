@@ -1,0 +1,24 @@
+{
+  "name": "Free-fall",
+  "_id": "aThejYU9yh0S1ROb",
+  "_key": "!items!aThejYU9yh0S1ROb",
+  "folder": "F9dk45ZVyiRvDt45",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Maneuvering and moving while in free-fall, usually in microgravity.</p>",
+    "useAbl": "dex",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

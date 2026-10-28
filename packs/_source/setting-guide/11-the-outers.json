@@ -1,0 +1,402 @@
+{
+  "name": "11. The Outers",
+  "pages": [
+    {
+      "_id": "HOgbD7Yp7mg44WzR",
+      "name": "11. The Outers",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Like the gold rush sent Americans to the wilderness to seek their fortune, once the</p><blockquote><p>“The inner planets look on us as their labor</p></blockquote><p>stars were in reach humanity spread across the Belt and beyond for similar reasons:</p><p>the hope of a better life and a better future. The hundreds of small settlements,</p><blockquote><p>force. They tax us. They direct what we do.</p></blockquote><p>stations, and ships that form the Belt were built at the same time as the shipyards,</p><blockquote><p>They enforce their laws and ignore ours in</p></blockquote><p>bases, mines, and farms of the Outer Planets. Though Belters are considered the heart</p><blockquote><p>the name of stability. In the last year, they’ve</p></blockquote><p>and soul of the OPA, it was named the Outer Planets Alliance for a reason.</p><blockquote><p>doubled the tariffs to Titania. Five thousand</p></blockquote><p>The Inners have even gained control here, in the deepest, furthest reaches of the</p><blockquote><p>people on an ice ball orbiting Neptune,</p></blockquote><p>solar system. The major moons of Jupiter and Saturn have fully functioning settlements on them, some protected by UN and/or MCRN ships and troops, the extent determined</p><blockquote><p>months from anywhere. The sun’s just a</p></blockquote><p>by strategic and economic importance. The Jovian and Saturnian Systems are so large</p><blockquote><p>bright star to them. Do you think they’re in a</p></blockquote><p>and well-populated that they could be almost be considered tiny solar systems of their</p><blockquote><p>position to get redress?”</p></blockquote><p>own. The Uranian and Neptunian Systems are far more sparsely populated, and often ignored by the Inners unless it’s time to collect tariffs or taxes. Though not actually</p><blockquote><p>— Leviathan Wakes</p></blockquote><p>within the Belt, these systems are considered to be a large part of it—and their inhabitants have similar concerns and complaints.</p><h2>The Jovian System</h2><p>Named for the gas giant it surrounds, the Jovian System has drawn the largest population in the Outer Planets to Jupiter’s moons. The planet itself is—of course—uninhabitable, but there are dozens of settlements and orbiting space stations around it and its moons. Metis, Adrastea, Amalthea, and Thebe are unpopulated primarily due to their proximity to Jupiter and location in its harsh radiation belt—even aboveground structures on moons further from the planet require heavy shielding. Leda, Himalia, Lysithea, Elara, Ananke, Carme, Pasiphae, and Sinope are all too small to support a colony.</p><p>The Jovian System is responsible for growing and distributing most of the food in the Outers and the Belt. Most extrasolar astronomy was done in the Jovian System before the Uranian System was colonized. It is a vital piece of humanity’s survival in the furthest reaches of the solar system, and of the Belt’s economy.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.HOgbD7Yp7mg44WzR",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "dkC4lgayOqiRJLoK",
+      "name": "Callisto",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>This large moon’s tectonic stability and significant deposits of rare minerals made it an ideal location for Mars’ shipyards, the largest in the Outers. Most of the MCRN’s fleet has been built orbiting Callisto, where the shipyards are</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.dkC4lgayOqiRJLoK",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "NWMCeLHGrthz536q",
+      "name": "Jupiter",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>ORBIT 778,330,000 km (5.20 AU) from the sun</p><p>142,984 km</p><p>DIAMETER</p><p>2.528 g (heavy)</p><p>GRAVITY LENGTH OF DAY 9 hours, 56 minutes, Earth Standard Time</p><p>12 Earth Standard years LENGTH OF YEAR</p><p>ATMOSPHERIC</p><p>100 kPa</p><p>PRESSURE</p><p>ATMOSPHERIC</p><p>89.8% hydrogen, 10.2% helium, 0.3% methane</p><p>COMPOSITION</p><p>−145 °C (average)</p><p>TEMPERATURE</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.NWMCeLHGrthz536q",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "QMnyAvMerGjtTuYT",
+      "name": "Callisto (2)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>DIAMETER 4,820 km</p><p>GRAVITY 0.126 g (light) LENGTH OF DAY 16.7 days, Earth Standard Time</p><p>Jupiter orbit, 17 days, Earth Standard Time; LENGTH OF YEAR</p><p>Sun orbit, 12 Earth Standard years</p><p>ATMOSPHERIC</p><p>7.5×10−10 kPa</p><p>PRESSURE</p><p>ATMOSPHERIC</p><p>Carbon dioxide, molecular oxygen; thin</p><p>COMPOSITION</p><p>TEMPERATURE −218 °C (average)</p><p>Martian Colony</p><p>GOVERNMENT</p><p>Port Hampton</p><p>CAPITAL ca. 3 million</p><p>POPULATION</p><p>Martian Dollar (MCR$)</p><p>CURRENCY</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.QMnyAvMerGjtTuYT",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "4b0faxeSoUWb04FY",
+      "name": "Europa",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>DIAMETER 6,200 km</p><p>GRAVITY 0.134 g (light) LENGTH OF DAY 3.551 days, Earth Standard Time</p><p>Jupiter orbit, 3.551 days, Earth Standard Time; LENGTH OF YEAR</p><p>Sun orbit, 12 Earth Standard years</p><p>ATMOSPHERIC</p><p>0.1 µPa</p><p>PRESSURE</p><p>ATMOSPHERIC</p><p>Molecular oxygen; thin</p><p>COMPOSITION</p><p>TEMPERATURE −171 °C (average)</p><p>GOVERNMENT Earth Colony</p><p>Kensington</p><p>CAPITAL ca. 23 million</p><p>POPULATION</p><p>UN Dollar (UN$)</p><p>CURRENCY capable of building hulls up to 700 meters in length: Donnager class ships.</p><p>Port Hampton is the moon’s only settlement, dug into the walls of a large crater used as a launching point for ships carrying minerals up to the orbiting shipyards. Like many cities built around industries that require hard physical labor and long hours and weeks on shift, it has a frontier town reputation: a place for the jarheads and contractors to party and blow off steam on shore leave. Most of its permanent inhabitants are involved in businesses that profit from said shore leaves. A security force is maintained to handle any issues that stem from drunk marines and miners, supplemented by an MCRN battle group on station near the docks. MCRN’s most significant presence is, of course, in orbit.</p><p>Callisto is one of the only moons of Jupiter where radioactive minerals are close enough to the surface for easy extraction, however it hasn’t created a strong economy. Mining and shipbuilding are the only sources of revenue, and revenue that comes only from Mars. The moon is one of the truest examples of a buyer’s market.</p><p>One of the most populated of Jupiter’s moons, Europa has some similarities to Ganymede—they both have stable tectonics and aboveground dome greenhouses, and were amongst the first moons to be colonized. Earthers, Belters, and Martians (including Jim Holden and Naomi Nagata) all store eggs and sperm on Europa and Ganymede, as well as Luna and Earth. However, while Ganymede has significantly increased its investment in agricultural and medical technology over the decades, Europa has fallen behind— possibly due to the lower radiation levels on Ganymede that allow crops to thrive there that faltered on Europa.</p><p>Now, the moon’s primary advantage is its thick surface layer of ice, which allows its settlements to supply themselves with water and oxygen without outside help. A large percentage of Europans work in surface construction, a difficult job requiring long days in a heavy vaccuum suit, as the moon plays catch up with its more advanced sibling. Europans are not poor by Belt standards, but by no means are well-off by Earth standards.</p><p>Europa has a significant population of Methodists, under the pastorship of Reverend Doctor Anna Volovodov.</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.4b0faxeSoUWb04FY",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "x3Ym4Sw4jtSVrEsJ",
+      "name": "Ganymede",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Ganymede Station is the bread basket and the main birthing center for the Outers and the Belt, one of the first permanent human toeholds in the outer planets, and a center of civilization in the far reaches of the solar system. It is the safest station in the Jovian system, where people come to give birth, avoiding the defects that can come with carrying to term in low or zero g. Until recently, the inner planets had shared Ganymede and most of the solar system like one big, happy, slightly dysfunctional family. Then came Eros. And Protogen. And Pheobe. After that, the two superpowers began to divide stations and moons between them like belongings after a divorce, and the one moon neither side was or is willing to give up to the other is Ganymede.</p><p>As the only moon with any magnetosphere, it’s the only place where dome-grown crops stand a chance in Jupiter’s harsh radiation belt, even with heavy shielding on the domes and habitats. Ganymede is also unique in its intricate system of orbital mirror stations that shine concentrated sunlight down onto the dome greenhouses that produce vegetables, fruits, and even some meat for those that can afford it in the Outers. The moon’s ice, on the surface and reaching into the depths of the moon, provides all the water necessary for life; human, plant, and animal. With wide hallways lush with plantlife, lit with full-spectrum LEDs that mimic the white-gold of sunlight, it is as close to living on Earth as one is likely to get in space.</p><p>Ganymede’s construction has continued over decades, with narrower, older first generation tunnels abandoned or disused as newer, wider, more attractive areas were built, with plants to supplement the oxygen production, better</p><p>5,268 km</p><p>DIAMETER</p><p>0.146 g (light)</p><p>GRAVITY</p><p>Tidally locked</p><p>LENGTH OF DAY Jupiter orbit, 7 days, Earth Standard Time; LENGTH OF</p><p>Sun orbit, 12 Earth Standard years YEAR</p><p>ATMOSPHERIC</p><p>Trace</p><p>PRESSURE</p><p>ATMOSPHERIC</p><p>Oxygen</p><p>COMPOSITION</p><p>−171 to −297 °C (average)</p><p>TEMPERATURE</p><p>Disputed</p><p>GOVERNMENT</p><p>N/A</p><p>CAPITAL ca. 17 million</p><p>POPULATION</p><p>Mixed</p><p>CURRENCY</p><blockquote><p>It had been built with the long term in mind, not only in its own architecture, but also in how it would fit with the grand human expansion out into the darkness at the edge of the solar system. The possibility of catastrophe was in its DNA and had been from the beginning. — Caliban’s War</p></blockquote>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.x3Ym4Sw4jtSVrEsJ",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "7CrMluUYvFDzAj9C",
+      "name": "Io",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>DIAMETER 3,643 km</p><p>GRAVITY 0.183 g (light) LENGTH OF DAY Tidally locked</p><p>Jupiter orbit, 1.77 days, Earth Standard Time; Sun LENGTH OF YEAR orbit, 12 Earth Standard years</p><p>ATMOSPHERIC</p><p>Trace</p><p>PRESSURE</p><p>ATMOSPHERIC</p><p>90% sulfur dioxide</p><p>COMPOSITION</p><p>TEMPERATURE −163 °C (average)</p><p>GOVERNMENT Earth Colony</p><p>CAPITAL Kelvin ca. 1.2 million</p><p>POPULATION</p><p>UN Dollar (UN$)</p><p>CURRENCY</p><blockquote><p>“Make no mistake,” Bobbie said. “Io is one of the worst places in the solar system. Tectonically unstable and radioactive as hell. Easy to see why they hid here, but do not underestimate the peril that just being on this shit moon carries.” — Caliban’s War</p></blockquote><p>lighting, and large common areas. Not all of Ganymede’s residents have completely neglected the old tunnels however; they’ve been found to have their uses, most commonly illicit, untaxed marijuana hydroponic grow-ops.</p><p>There are persistent rumors of unapproved tunnelling and construction in some of the older areas of the station, but so far there’s been little more than that.</p><p>As might be expected, Ganymede’s economy is strong, with hundreds of transports a day shipping foodstuffs offworld. Top doctors, botanists, and agriculturalists are employed on the moon, and there are enough of them to support service industries: schools and parks for their children, restaurants and bars for relaxing, theatres and clubs for entertainment. The moon’s stability has proven</p><h2>The Saturnian System</h2><p>Surrounding the second largest gas giant in the solar system, the Saturnian System has—or had—one large orbiting station functioning as a way point for exploration and resource harvesting inside Saturn’s rings, and a few settled moons. Pan, Atlas, Prometheus, Pandora,</p><p>Epimetheus, Janus, Mimas, Enceladus, Tethys, Telesto,</p><p>Calypso, Dione, and Helene all exist within the rings of</p><p>Saturn and are too small to support any long-term habitat.</p><p>Hyperion has not yet been developed. attractive to many families, and even during the worst of Martian-Earth hostilities post-protomolecule, violence on Ganymede was limited to a small revolt ending in sixteen dead. It could have been worse.</p><p>Ganymede’s security center is on the third level down from the surface, independently powered in case of emergencies. The hospital is a state-of-the-art facility with a massive maternity wing. Put simply, Ganymede was designed for safety and longevity.</p><p>One of Jupiter’s larger moons, Io is an extremely hostile and unforgiving environment for colonists. Its atmosphere of sulfur dixoide and hot spots of volcanic and tectonic activity make Io a very dangerous environment for humanity. What would make people consider living there? Money.</p><p>Io’s volcanos produce vents of heat in excess of 2,000° K, and the moon itself creates an intense electrical field when its nickel and iron core passes through Jupiter’s magnetic field, producing in excess of 1 trillion watts. Power stations dotted around the surface converting heat transfer and atmospheric electrical charge into usable energy have made Io one of the primary storable energy production facilities in the Outer Planets. The need for energy in the Outers and the Belt has made Io’s economy strong for a moon that few would choose to live on otherwise. Ships leave Io almost on the hour loaded with power cells for moons and stations across the solar system.</p><p>Due to its atmosphere, most habitats for Io’s workers are underground in the few tectonically stable areas of the moon. Work at the power stations on the surface is both difficult and dangerous, but the pay is high enough that new workers are continually drawn in by the idea of making a quick buck.</p><p>Some workers who live on Io have sworn there’s a science station on the surface of the moon, but neither Earth nor Mars are known to have built anything like that there, nor is there much left to study about its magnetic field and tectonics. Most believe that the stress of the jobs on Io leads to conspiracy theories.</p><p>The Saturnian System is now infamous for Pheobe Station, which thanks to Mars, no longer exists. Whether that is a blessing or a curse remains to be seen.</p>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.7CrMluUYvFDzAj9C",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "qHxyjBTDdV1y7W7d",
+      "name": "Rhea",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>One of the frontiers of human civilization, Rhea is only just large enough for a colony, and primarily composed of water, ice, and rock. The only thing the moon has to offer the rest of the system is Helium-3 deposits, and some small mineral mining operations.</p><p>Rhea’s several small underground habitats provide all the living space required for its population, mostly comprised of miners and workers in the Helium-3 refineries. Most of their food must be imported from Titan, increasing costs, and mineral and Helium-3 exports do not bring much money into the local economy.</p><p>The fact that anyone lives on Rhea at all is a testament to human stubbornness and determination. Humanity will try to live and thrive just about anywhere.</p>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.qHxyjBTDdV1y7W7d",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "GxlnHwkDI5XpUbDl",
+      "name": "Phoebe",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Eight years ago, the first manned landing was made on Phoebe. Now, it’s nothing more than dust, if even that, nuked by the planet that helped the protomolecule spread across the solar system, infecting Eros Station.</p><p>In the early days of Phoebe’s colonization, the story was that a science station was established there by Mars in collaboration with the Protogen corporation to study early solar system formation and Oort cloud objects. Study of the moon suggested, from its unique, eccentric, retrograde orbit and unusual albedo, that it might have been a captured comet or Kuiper Belt object.</p>"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.GxlnHwkDI5XpUbDl",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "H6S7Y6LgnGcGL7rz",
+      "name": "Saturn",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>1,429,400,000 km (9.54 AU) from the sun ORBIT</p><p>120,536 km</p><p>DIAMETER</p><p>1.065 g (average)</p><p>GRAVITY</p><p>10 hours, 42 minutes, Earth Standard Time LENGTH OF DAY</p><p>29.5 Earth Standard years</p><p>LENGTH OF YEAR</p><p>ATMOSPHERIC</p><p>140 kPa</p><p>PRESSURE</p><p>ATMOSPHERIC</p><p>96.3% hydrogen, 3.25% helium, 0.45% methane</p><p>COMPOSITION</p><p>−178 °C (average)</p><p>TEMPERATURE</p><blockquote><p>Miller nodded. “The Phoebe science station,” he said. “Mars quarantined it.” “Fuck that, Pampaw. Autoclaved it, them. Moon is gone. Dropped enough nukes on it to split it subatomic.” — Leviathan Wakes</p></blockquote><p>Wherever it came from, it proved to be unique in other ways. Scientists discovered what appeared to be the remnants of bacterial life forms, making Phoebe perhaps the only body in the solar system other than Earth that once supported life. With the hubris of humans who had always been top of the food chain on any planet, moon, or rock they chose to claim, the scientists named the bacterial lifeform after the corporation they worked for: the protomolecule.</p><p>Protogen’s analyses came to the conclusion that the protomolecule was a two billion year old weapon, meant to hijack and reprogram biological life on a basic, cellular level. Despite this, they chose to continue studying and testing it with the goal of using it against other humans, for no other reason than greater glory for Protogen.</p>"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.H6S7Y6LgnGcGL7rz",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "85JWyjf57atKbTkd",
+      "name": "Titan",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>DIAMETER 5,151 km</p><p>GRAVITY 0.14 g (light) LENGTH OF DAY 15 days, 22 hours, Earth Standard Time</p><p>Saturn orbit, 15 days, 22 hours Earth Standard Time; LENGTH OF YEAR</p><p>Sun orbit, 12 Earth Standard years</p><p>ATMOSPHERIC</p><p>146.7 kPa</p><p>PRESSURE</p><p>ATMOSPHERIC</p><p>98% nitrogen, 1.4% methane, 0.2% hydrogen</p><p>COMPOSITION</p><p>TEMPERATURE −179°C (average)</p><p>GOVERNMENT Martian Colony</p><p>CAPITAL Titan City</p><p>POPULATION ca. 18 million</p><p>Martian Dollar (MCR$)</p><p>CURRENCY</p><p>This initiative, ambition, and bold action resulted in the protomolecule’s release on the Scopuli, then, through Julie Mao, on Eros. Releasing the ‘viral agent’ on Eros had been the plan from the beginning. A million and a half people were sacrificed in the name of science, technology, and proof that humanity was not alone in the universe.</p><p>Once the news went out about Phoebe and Thoth Station, the feeds from Eros had more than done their job in instilling horror and fear across the Belt and the Outers, and even deep down the gravity well. The Martian Navy seemed to cut their losses, and Phoebe was no more.</p><p>The most populous moon in the system has a thick cloud cover that generates strange and beautiful solar wind displays as the moon moves in and out of Saturn’s powerful magnetic field. These stunning storms and formations are visible through the aboveground domed habitats on Titan, providing the moon’s main source of income: tourism. The moon is a popular vacation spot for visitors from the Outers, and sometimes even those from the Inner Planets will make the long trip to spend a few weeks on Titan, watching the spectacle of colorful clouds and eating in the best restaurants the Outer Planets have to offer.</p><p>Titan is also the most chemically active body in the solar system, aside from Earth. Both the atmosphere and icy surface of the moon are filled with organic compounds not found anywhere else. Easy access to ice suitable for oxygen and water production and a lack of available sunlight have put Titan on the forefront of sunlight-free food production. The yeasts and other compounds produced as food on the moon might be considered strange to those accustomed to their food being grown in the dirt, or walking on it—but Titan is a long, long way from Earth.</p><p>Due to both food production and tourist cash, Titan’s economy is strong. If someone on the moon isn’t working, it’s because they don’t want to, or are unable.</p>"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.85JWyjf57atKbTkd",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "clUenQBHHg85xIno",
+      "name": "Iapetus",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Since Pheobe has been obliterated, Iapetus is the only one of Saturn’s moons that does not orbit within range of the planet’s equator. Aside from that, the moon is primarily known for its leading and trailing hemispheres being radically different. The albedo of most of the leading hemisphere is as dark as lampblack, while the trailing hemisphere’s albedo is as bright as Europa. The most recent prevailing theory for this odd dark/light phenomenon is that Iapetus must have absorbed another, darker body at some point over the millennia: the remnants of another moon,</p><h2>The Uranian System</h2><p>Another gas giant, Uranus’ mysterious outer layer of thick blue gas gives no indication as to what might lie beneath. Its delicate, barely perceptible set of rings, sideways orbit, and unusual weather patterns make it unique amongst the planets. Only one of its many moons has been settled: Cordelia, Ophelia, Bianca, Cressida, Desdemona, Juliet, Portia, Rosalind, Belinda, Puck, Miranda, Ariel, and Umbriel are still undeveloped, along with Oberon, Caliban, Sycorax, Prospero, Setebos, Stephano, and Trinculo. Most extrasolar astronomy is now done in the Uranian System.</p><p>The system is among the last colonized, in the farthest reaches of the solar system. This and the Neptunian system are the edge of human civilization, where only the fearless and the desperate venture—for better or worse.</p>"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.clUenQBHHg85xIno",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "xwqL5B3JFPaq26f7",
+      "name": "Titania",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The first and only of Uranus’ moons to be settled by colonists for the long term, this ‘ice ball’ orbiting Uranus is so far from the sun that almost no solar energy can be captured. Materials must be imported from other systems to generate fusion energy, though there is hope amongst Titanians that the necessary materials can be found in the other moons surrounding them. Ice is the one thing that is plentiful, so water and oxygen are not an issue, but organic material is practically non-existent otherwise and must be imported as well. The five thousand Titanians</p><blockquote><p>He’d never been to Titan. Suddenly he wanted to go there very much. A few weeks of sleeping late, eating in fine restaurants, and lying on a hammock, watching Titan’s colorful atmosphere storm above him sounded like heaven. — Leviathan Wakes</p></blockquote><p>one of Saturn’s rings... or after Phoebe, perhaps something more sinister.</p><p>Whatever it was, and whatever the cause, the ‘dark’ side of Iapetus is covered in minerals ready for harvesting right there on the surface. The colonists have built special mechs that make regular runs to sweep the surface for these materials for export and sale off-moon. This type of ‘mining’ costs so much less than traditional methods that the moon has been able to support itself entirely through mineral sweeping and sales. Recent discovery of Helium-3 deposits and the building of refineries has only strengthened and diversified their economy. Most of Iapetus’ residents work in the collection and refinement of minerals for export, and live in its small group of underground habitats.</p>"
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.xwqL5B3JFPaq26f7",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "hi7dLdUdtgCEaU4F",
+      "name": "Uranus",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>2,870,990,000 km (19.218 AU) from the sun ORBIT</p><p>51,118 km</p><p>DIAMETER</p><p>0.886 g (light)</p><p>GRAVITY</p><p>17 hours, 40 minutes, Earth Standard Time LENGTH OF DAY</p><p>84.3 Earth Standard years</p><p>LENGTH OF YEAR</p><p>ATMOSPHERIC</p><p>Variable</p><p>PRESSURE</p><p>ATMOSPHERIC</p><p>83.3% hydrogen, 15.3% helium, 2.3% methane</p><p>COMPOSITION</p><p>−197 °C (average)</p><p>TEMPERATURE</p><blockquote><p>“You know how they usually send supplies out there? They load them into a single-use braking rocket, and fling them at Uranus’ orbit with a rail gun.” — Abaddon’s Gate</p></blockquote><p>living on the moon are pioneers, and their existence is accordingly basic.</p><p>Skepticism about the odds for a colony like Titania’s becoming a stable foothold for humanity so far from the sun is high across the solar system, but it was the same for the Saturnian System 100 years past, and so it will be for every great venture humanity takes as time marches on.</p><h2>The Neptunian System</h2><p>The most distant of the planets, the ice giant Neptune is dark, cold, and constantly under the force of supersonic windstorms. Its moons are not much better, so far from the sun they barely receive any light or solar energy. They are largely considered uninhabitable at this time, but so were the moons of Uranus, once upon a time. Even so, no one has yet set mag boot on Naiad, Thalassa, Despina, Galatea,</p><p>Larissa, Proteus, Nereid, Pluto, or Charon.</p>"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.hi7dLdUdtgCEaU4F",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "JOdB6B7o29LC5AbW",
+      "name": "Neptune",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>ORBIT 4,504,000,000 km (30.06 AU) from the sun</p><p>49,532 km</p><p>DIAMETER</p><p>1.14 g (average)</p><p>GRAVITY</p><p>LENGTH OF</p><p>24 hours, Earth Standard Time</p><p>DAY</p><p>LENGTH OF</p><p>165 Earth Standard years</p><p>YEAR ATMOSPHERIC</p><p>10 kPa</p><p>PRESSURE ATMOSPHERIC</p><p>80% hydrogen, 19% helium, 1.5% methane COMPOSITION</p><p>−201°C (average) TEMPERATURE</p>"
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.JOdB6B7o29LC5AbW",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    },
+    {
+      "_id": "fUyKmaAvxY49uyYc",
+      "name": "Triton",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Of Neptune’s moons, Triton is the largest, and the only moon in the solar system with a retrograde orbit. Due to this orbit and a composition that is comparable to Pluto’s, scientists believe that the moon may have been a dwarf planet from the Kuiper Belt, captured in Neptune’s orbit. The mass of ice on its surface and below ground can produce both water and oxygen—one advantage the moon does have. Tectonic activity on the moon, with nitrogen gas geysers, makes work directly on the surface perilous, but underground habitats in stable tectonic areas are thought to be safe.</p><p>Only a hardy and motley band of astronomers and prospectors live on Triton—the furthest any human has ever lived from Earth. The deep astronomy labs are responsible for charting into the unexplored reaches of the galaxy, while the prospectors are exploring mining possibilities on Neptune’s moons.</p><p>During the Protogen incidents, the labs were occupied by a handful of prospectors sympathetic to the OPA, who turned the array in-system and broadcasted the location of every Martian ship in the system along with high-definition images of the surface of Mars, down to the topless sunbathers in the dome parks. Though Mars was not impressed and threats were made, they saved their nukes for Phoebe. The astronomers regained the lab, and most of the prospectors went on to mine another day.</p><h2>Beyond</h2><p>Out past the orbit of Neptune, humanity has sent numerous automated probes and landers to study bodies like Pluto, Charon, and the Oort Cloud beyond. But even with the Epstein Drive, the human need to explore and settle hasn’t reached this far yet. To most, the next step beyond the Outer Planets isn’t the farthest reaches, but leapfrogging over them altogether and launching generation ships like the Nauvoo out towards the distant stars.</p><p>There is little of interest in the far reaches of the System to draw anyone out here, although the knowledge that Phoebe originated from somewhere beyond may spark expeditions looking for other evidence of extra-solar intervention. Given the existence of the protomolecule, who knows what else might be out there, waiting?</p><p>Want to find out?</p>"
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C4c8DzeoJquvtnH2.fUyKmaAvxY49uyYc",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": "AtrGkSdrU6Dazfx6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "C4c8DzeoJquvtnH2",
+  "_key": "!journal!C4c8DzeoJquvtnH2",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

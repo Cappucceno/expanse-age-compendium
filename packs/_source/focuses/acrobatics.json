@@ -1,0 +1,24 @@
+{
+  "name": "Acrobatics",
+  "_id": "NnMgEhJCaoDOWw2G",
+  "_key": "!items!NnMgEhJCaoDOWw2G",
+  "folder": "F9dk45ZVyiRvDt45",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Executing gymnastic, balancing, and tumbling maneuvers.</p>",
+    "useAbl": "dex",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

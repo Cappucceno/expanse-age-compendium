@@ -1,0 +1,26 @@
+{
+  "name": "Skirmish",
+  "_id": "HGLZoNdNyI7CcD2t",
+  "_key": "!items!HGLZoNdNyI7CcD2t",
+  "folder": "iUVfhOY02Hq2jOoj",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p>Move yourself or your attack’s target 2 meters in any direction for each 1 SP you spend. If this movement would expose the target to a hazard, such as pushing them off a ledge, roll an opposed test of your attacking ability versus the target’s Strength (Might) or Dexterity (Acrobatics), whichever is higher. If you lose the test, the target doesn’t move.</p>",
+    "type": "General Combat",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

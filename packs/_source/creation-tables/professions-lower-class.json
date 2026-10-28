@@ -1,0 +1,143 @@
+{
+  "name": "Professions: Lower Class",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 5: Profession",
+  "results": [
+    {
+      "_id": "FZFFxeSZ9GlqMi6F",
+      "type": "text",
+      "name": "Athlete",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!gVD7NEyJOecFx7Ex.FZFFxeSZ9GlqMi6F"
+    },
+    {
+      "_id": "eog8MtGHoM8hARpH",
+      "type": "text",
+      "name": "Soldier",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!gVD7NEyJOecFx7Ex.eog8MtGHoM8hARpH"
+    },
+    {
+      "_id": "fgCocDUzxAL7ERfH",
+      "type": "text",
+      "name": "Investigator",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!gVD7NEyJOecFx7Ex.fgCocDUzxAL7ERfH"
+    },
+    {
+      "_id": "oM0IZpIzcnauFCVR",
+      "type": "text",
+      "name": "Technician",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!gVD7NEyJOecFx7Ex.oM0IZpIzcnauFCVR"
+    },
+    {
+      "_id": "Mioc2dGDhtj6nPnD",
+      "type": "text",
+      "name": "Clergy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!gVD7NEyJOecFx7Ex.Mioc2dGDhtj6nPnD"
+    },
+    {
+      "_id": "9QYtpOhnSx3MNLnt",
+      "type": "text",
+      "name": "Negotiator",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!gVD7NEyJOecFx7Ex.9QYtpOhnSx3MNLnt"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "ssn45qOk4eAKtLb5",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "gVD7NEyJOecFx7Ex",
+  "_key": "!tables!gVD7NEyJOecFx7Ex"
+}

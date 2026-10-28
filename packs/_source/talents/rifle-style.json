@@ -1,0 +1,39 @@
+{
+  "name": "Rifle Style",
+  "_id": "bSzCK0iQqlH8nOsY",
+  "_key": "!items!bSzCK0iQqlH8nOsY",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>A rifle is far more dangerous in your hands.</p>",
+    "shortDesc": "",
+    "requirement": "Accuracy (Rifles) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can assume a highly ready stance; as long as you are not moving more than half your normal speed, you can make an attack with a loaded rifle you are holding as a reaction before rolling initiative, even if surprised. This attack uses up your major action for the round, which means that you only have a minor action available during your next turn.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You trust in your weapon’s power to punch through cover. The attack roll modifier for a target behind light cover does not apply to your attacks with a rifle. This includes the penalty from the Human Shield action stunt.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Penalties to the attack roll due to range do not apply to your attacks with a rifle.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

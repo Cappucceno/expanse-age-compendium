@@ -1,0 +1,38 @@
+{
+  "name": "Power Armor",
+  "_id": "wdFCFieCZro1xojM",
+  "_key": "!items!wdFCFieCZro1xojM",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Military power armor such as the Martian Goliath suit. +12 armor bonus with no penalty while operational; +10 effective bonus to Strength and Strength (Might) tests; +2 Speed and +4 to Constitution (Endurance); integral rifle doing 3d6 + Perception; +2 Dexterity (Stealth) with the camouflage package; +2 Perception with the sensor package; all benefits of a vac suit. If it loses power it becomes deadweight and the wearer is restrained. Not available for purchase.</p>",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {
+      "jI1JGtYQ8hRexNeC": {
+        "type": "impactArmor",
+        "formula": "12",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "jI1JGtYQ8hRexNeC"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

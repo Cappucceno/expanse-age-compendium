@@ -1,0 +1,63 @@
+{
+  "name": "Churn Over: Pool at 10",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Roll 1d6 when the Churn Pool reaches 10 (optional rule, Chapter 12).",
+  "results": [
+    {
+      "_id": "QhJ053elKpsyOEW0",
+      "type": "text",
+      "name": "Minor Effect",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        1,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!U9yKgGAKRLg9wPoV.QhJ053elKpsyOEW0"
+    },
+    {
+      "_id": "Ce8x66dbm7EV77Fy",
+      "type": "text",
+      "name": "No Effect",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        4,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!U9yKgGAKRLg9wPoV.Ce8x66dbm7EV77Fy"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "U9yKgGAKRLg9wPoV",
+  "_key": "!tables!U9yKgGAKRLg9wPoV"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "A-Ha!",
+  "_id": "OCY42wydF2xdWMjR",
+  "_key": "!items!OCY42wydF2xdWMjR",
+  "folder": "emDfthNa99SyoHpm",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Core stunt.</em> The GM reveals an additional useful fact about the object of your test per SP spent (Simple); gain +1 per SP spent to your next test following up on the lead you just unlocked (Detailed).</p>",
+    "type": "Investigation",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

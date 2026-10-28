@@ -1,0 +1,17 @@
+{
+  "name": "Constitution",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "Ph6Gjb2albZaRSQM",
+  "_key": "!folders!Ph6Gjb2albZaRSQM",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Medic",
+  "_id": "BnCOG7bjuI6H7h83",
+  "_key": "!items!BnCOG7bjuI6H7h83",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can treat certain conditions in the field. See Conditions in Chapter 1 for details.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence 1 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Your treatment allows a patient to add your Intelligence (and Medicine focus, if any) to a test to avoid or overcome a medical hazard, or grants the patient a new test to overcome that hazard, if there is one. This includes saving a patient from dying and reviving an unconscious character.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>If you treat a patient, you can alleviate the effects of the exhausted, fatigued, injured, or wounded conditions. This takes an advanced TN 11 Intelligence (Medicine) test (threshold 5) with each roll taking one minute. If you succeed, the patient ignores the effects of those conditions for 1d6 hours. The conditions are still present, however, and the effects return when the duration ends or if any of the conditions worsen, such as an injured character becoming wounded, for example.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can quickly treat wounds to prevent them from becoming serious. If you treat a wounded condition within an hour of it occurring, you can make a basic TN 13 Intelligence (Medicine) test. Success downgrades the wounded condition to injured.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

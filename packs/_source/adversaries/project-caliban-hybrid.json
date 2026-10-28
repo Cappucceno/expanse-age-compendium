@@ -1,0 +1,200 @@
+{
+  "name": "Project Caliban Hybrid",
+  "_id": "9TmOQNg2tVMUR5bN",
+  "_key": "!actors!9TmOQNg2tVMUR5bN",
+  "folder": "k2v4gHZlFEkxkIPV",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Dire",
+    "abilities": {
+      "acc": {
+        "value": 2
+      },
+      "comm": {
+        "value": -2
+      },
+      "cons": {
+        "value": 7
+      },
+      "dex": {
+        "value": 3
+      },
+      "fight": {
+        "value": 5
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 3
+      },
+      "str": {
+        "value": 14
+      },
+      "will": {
+        "value": 4
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 35,
+      "value": 35
+    },
+    "features": "<p><strong>AKA:</strong> Mao protomolecule hybrid</p><p>Project Caliban is a secret effort by Mao-Kwikowski Mercantile (parent corporation of Protogen), in cooperation with the Martian government, to deliberately infect test subjects with the protomolecule to create super-soldiers. They at least partially succeeded using human subjects without immune systems, creating a hybrid creature with tremendous strength, durability, and speed, able to survive in vacuum unaided. Without incinerating them, caliban hybrids are very difficult to kill. Caliban hybrids are humanoid, but tall, with enlarged heads and elongated arms and limbs. Their skin is flat black and covered in armored scales and their eyes glow with a cold blue light associated with protomolecule creations. The hybrids are drawn to sources of radiation, which feed the protomolecule. Their creators implanted caliban hybrids with incendiary devices in their torsos, intended to destroy them if they got out of control, but the adaptability of the protomolecule allowed some of the hybrids to expel these devices without setting them off.</p><p>Burst of Speed: When a caliban hybrid takes the Run action, it moves at ten times its Speed, rather than double. Immunity: A caliban hybrid can operate in hard vacuum without a vac suit and suffers no harm from any associated environmental hazards. Regeneration: The hybrid recovers quickly from any damage that bypasses its Toughness. At the start of each of its turns, roll a die for SP for a special stunt: the caliban can remove an injured condition (2 SP), remove a wounded condition (4 SP), or recover Fortune Points equal to the SP spent in any combination. The hybrid cannot regenerate on the round immediately after taking burning damage, such as from acid or fire. Signal Jamming: A caliban hybrid can emit a jamming transmission that blocks all communications signals within a kilometer of it.</p><p><strong>Stunts:</strong> Grapple, Skirmish</p><p><strong>Talents:</strong> Grappling Style (Expert), Overwhelm Style (Master)</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Throwing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "CExHRSD3B204Y5xZ",
+      "_key": "!actors.items!9TmOQNg2tVMUR5bN.CExHRSD3B204Y5xZ",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Tolerance",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "3JHnFbEjBmFMegUx",
+      "_key": "!actors.items!9TmOQNg2tVMUR5bN.3JHnFbEjBmFMegUx",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Might",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ozRCtyCRyhb1vhBe",
+      "_key": "!actors.items!9TmOQNg2tVMUR5bN.ozRCtyCRyhb1vhBe",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "zUoG3jhs3sn90y6A",
+      "_key": "!actors.items!9TmOQNg2tVMUR5bN.zUoG3jhs3sn90y6A",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5, damage 1d6+14.</p>",
+        "useAbl": "fight",
+        "useFocus": "brawling",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 14,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+14",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Armor",
+      "type": "equipment",
+      "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+      "_id": "CqcLU6aDBkrOZXVj",
+      "_key": "!actors.items!9TmOQNg2tVMUR5bN.CqcLU6aDBkrOZXVj",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "equiped": true,
+        "modifiers": {
+          "eLXaZfVbssgxoI2e": {
+            "type": "impactArmor",
+            "formula": "5",
+            "flavor": "",
+            "isActive": true,
+            "valid": true,
+            "conditions": {},
+            "ftype": "",
+            "key": "eLXaZfVbssgxoI2e"
+          }
+        },
+        "longDesc": ""
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Project Caliban Hybrid",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

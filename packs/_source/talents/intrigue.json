@@ -1,0 +1,39 @@
+{
+  "name": "Intrigue",
+  "_id": "enkBx2SE1ewqc6HU",
+  "_key": "!items!enkBx2SE1ewqc6HU",
+  "folder": "opoX9skfsSqnhBs0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are a master of secrets.</p>",
+    "shortDesc": "",
+    "requirement": "Communication 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You understand how to navigate complex social situations. Choose one of the following Communication focuses: Deception, Etiquette, or Seduction. If you fail a Communication test with your chosen focus, you can re-roll it but must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can squeeze information from the most reluctant sources. If the focus you chose in the Novice degree is considered a tangential focus during an investigation (see Chapter 5), you ignore the +2 increase to the TN of the test. In addition, if you use the focus you chose in the Novice degree to successfully complete a task in a complex social interaction, you clear two shifts instead of only one.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>The secrets you know can raise or ruin anyone’s good standing. You can perform the Cast Out and Oozing Confidence social stunts for 1 SP lower than their normal cost. In addition, you can use Oozing Confidence to benefit another character.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

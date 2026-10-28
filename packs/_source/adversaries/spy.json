@@ -1,0 +1,358 @@
+{
+  "name": "Spy",
+  "_id": "CpF88KNjQ7CUT6bT",
+  "_key": "!actors!CpF88KNjQ7CUT6bT",
+  "folder": "BlPNbL9yVLi7AiLr",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 1
+      },
+      "comm": {
+        "value": 2
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 3
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 2
+      },
+      "per": {
+        "value": 3
+      },
+      "str": {
+        "value": 1
+      },
+      "will": {
+        "value": 2
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 11,
+      "value": 11
+    },
+    "features": "<p><strong>AKA:</strong> Agent, Operative</p><p>Information is one of the most valuable commodities in the system. Governments, corporations, and organizations go through costly measures to obtain data on their allies and enemies, employing those who specialize in obtaining it. Spies have networks of contacts in both government and the criminal underworld. Some follow a code or represent a cause, while others take pride in playing all sides against each other for the highest price.</p><p><strong>Stunts:</strong> Disarm, It Wasn’t Me, Take Cover</p><p><strong>Talents:</strong> Burglary (Expert), Contacts (Master), Misdirection (Expert)</p><p><strong>Equipment:</strong> knife, pistol, stun gun, various tool kits and covert gear</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Deception",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "L7EelVu08Ozo9dP2",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.L7EelVu08Ozo9dP2",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "zWockpg9soEGkgqN",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.zWockpg9soEGkgqN",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Sleight of Hand",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "POMSzeGcxKSzBA1N",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.POMSzeGcxKSzBA1N",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stealth",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "1iOvXJS7DFju5o0w",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.1iOvXJS7DFju5o0w",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Security",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "aPUbdKRNwY94JqYT",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.aPUbdKRNwY94JqYT",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Technology",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "k9vipdSBIslzVkhH",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.k9vipdSBIslzVkhH",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Hearing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ogb2hk9pUwMux3Pn",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.ogb2hk9pUwMux3Pn",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seeing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "gAQFT5jWvIpZr0cn",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.gAQFT5jWvIpZr0cn",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Self-Discipline",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "PowoXv0DOofUJCkn",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.PowoXv0DOofUJCkn",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Knife",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "wayRoJsRAlTMGePe",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.wayRoJsRAlTMGePe",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +1, damage 1d6+1. The printed attack roll differs from the ability + focus value the sheet calculates.</p>",
+        "useAbl": "fight",
+        "useFocus": "light weapons",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "wX9can05L4K3nVsT",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.wX9can05L4K3nVsT",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +1, damage 1d6+3.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "Stun Gun",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "aOdAVt6Omy7ldjxP",
+      "_key": "!actors.items!CpF88KNjQ7CUT6bT.aOdAVt6Omy7ldjxP",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +1, damage 1d6+3.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Spy",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

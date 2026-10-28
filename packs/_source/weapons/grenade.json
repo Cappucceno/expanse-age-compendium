@@ -1,0 +1,35 @@
+{
+  "name": "Grenade",
+  "_id": "XOt8f609ioH3QQKP",
+  "_key": "!items!XOt8f609ioH3QQKP",
+  "folder": "Mn4VY07pZZ9uGOmR",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>A thrown explosive: TN 11 Accuracy (Thrown) test. On a hit it detonates on target; on a miss it lands up to 1d6 meters away and explodes. Affects everything within 5 meters.</p><p><strong>Range:</strong> 10 + Str meters; 5 m radius</p>",
+    "useAbl": "acc",
+    "useFocus": "throwing",
+    "nrDice": "3",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "3d6",
+    "weight": 0,
+    "cost": 15,
+    "quantity": 1,
+    "equiped": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Performing",
+  "_id": "4T80rI0giDte0CtI",
+  "_key": "!items!4T80rI0giDte0CtI",
+  "folder": "9Ty5RMegvUA30RKu",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Entertaining an audience with a type of performance art.</p>",
+    "useAbl": "comm",
+    "initialValue": 2
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Drive: Column 2",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 6: Drive. Roll 1d6 first: 1–3 use Column 1, 4–6 use Column 2.",
+  "results": [
+    {
+      "_id": "GUKL9LrYAPUQcGYi",
+      "type": "text",
+      "name": "Networker",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!7eRAaxh1VnJ501zK.GUKL9LrYAPUQcGYi"
+    },
+    {
+      "_id": "MerfACRVfc6NFkEz",
+      "type": "text",
+      "name": "Penitent",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!7eRAaxh1VnJ501zK.MerfACRVfc6NFkEz"
+    },
+    {
+      "_id": "PDm3pmXCu12wy5zv",
+      "type": "text",
+      "name": "Protector",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!7eRAaxh1VnJ501zK.PDm3pmXCu12wy5zv"
+    },
+    {
+      "_id": "ABD37VatyxHdKSzV",
+      "type": "text",
+      "name": "Rebel",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!7eRAaxh1VnJ501zK.ABD37VatyxHdKSzV"
+    },
+    {
+      "_id": "HhwodMadbr9MxHO7",
+      "type": "text",
+      "name": "Survivor",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!7eRAaxh1VnJ501zK.HhwodMadbr9MxHO7"
+    },
+    {
+      "_id": "T0jofDPuBvhcVGK9",
+      "type": "text",
+      "name": "Visionary",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "expanse",
+        "systemVersion": "4.0.0"
+      },
+      "_key": "!tables.results!7eRAaxh1VnJ501zK.T0jofDPuBvhcVGK9"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "Ny17qhvgZk6kxwWX",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "7eRAaxh1VnJ501zK",
+  "_key": "!tables!7eRAaxh1VnJ501zK"
+}
