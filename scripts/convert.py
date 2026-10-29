@@ -353,83 +353,43 @@ def is_item_head(e):
     return e["size"] == 15 and e["color"] != "#ffffff" and txt(e).replace("’", "'").upper() == txt(e).replace("’", "'") or (e["size"] == 15 and e["color"] in ("#0e4f75",))
 
 
-def item_entries(pdf, pages):
-    """[{name, cost, page, lines}] for entries made of a size-15 heading and a 'COST n' label on the same row, with their text below
-    (the text of an entry is read inside its column, or across the whole page for a full-width entry)."""
+def raw_lines(pdf, first, last):
+    """Lines of PDF pages in content-stream order (the story order of the book), without running heads and page numbers."""
     out = []
-    for n in pages:
-        els = page_elements(pdf, n)
-        heads = []
-        size15 = sorted([e for e in els if e["size"] == 15], key=lambda e: (e["top"], e["left"]))
-        rows15 = []
-        for e in size15:
-            if rows15 and abs(rows15[-1][0]["top"] - e["top"]) <= 3:
-                rows15[-1].append(e)
-            else:
-                rows15.append([e])
-        for row in rows15:
-            parts = []
-            for e in sorted(row, key=lambda e: e["left"]):
-                t = txt(e)
-                m = re.match(r"^(.+?)\s+COST\s*(\d+|-|\*)$", t)
-                if m:
-                    name, cost, left, right = m.group(1), m.group(2), e["left"], e["left"] + e["width"]
-                elif re.match(r"^COST\s*(\d+|-|\*)$", t) and parts:
-                    name, cost, left, right = " ".join(txt(x) for x in parts), re.sub(r"^COST\s*", "", t), parts[0]["left"], e["left"] + e["width"]
-                    nm = parts[0]
-                    above = [x for x in size15 if 10 < nm["top"] - x["top"] < 30 and abs(x["left"] - nm["left"]) < 6 and not re.match(r"^COST", txt(x))]
-                    if above:        # a name that wraps onto two lines has its first line directly above
-                        name = txt(above[0]) + " " + name
-                else:
-                    if not re.match(r"^COST", t):
-                        parts.append(e)
-                    continue
-                name = re.sub(r"(?<!\S)(\S+) \1(?!\S)", r"\1", name)
-                full = right > 700 and left < 300
-                zone = (0, ZW) if full else ((0, MIDX) if left < MIDX else (MIDX, ZW))
-                heads.append({"name": name, "cost": cost, "top": row[0]["top"], "zone": zone, "page": n})
-                parts = []
-        heads.sort(key=lambda h: h["top"])
-        stops = [e for e in els if (e["family"].startswith("Spectrashell") and e["size"] >= 21) or (e["size"] == 17 and e["color"] == "#ffffff")
-                 or (e["size"] == 15 and e["color"] != "#ffffff" and not re.search(r"COST\s*(\d+|-|\*)$", txt(e)) and not any(abs(h["top"] - e["top"]) <= 3 for h in heads))]
-        for h in heads:
-            nxt = [x["top"] for x in heads if x["top"] > h["top"] + 3 and x["zone"][0] < h["zone"][1] and x["zone"][1] > h["zone"][0]]
-            nxt += [e["top"] for e in stops if e["top"] > h["top"] + 3 and (e["left"] < h["zone"][1] and e["left"] + e["width"] > h["zone"][0]
-                                                                            or (e["family"].startswith("Spectrashell") and e["size"] >= 30))]
-            end = min(nxt) if nxt else 10 ** 6
-            body = [e for e in els if h["top"] + 3 < e["top"] < end and e["size"] in (13, 14, 15) and h["zone"][0] - 5 <= e["left"] + e["width"] / 2 <= h["zone"][1]
-                    and not re.search(r"COST\s*(\d+|-|\*)$", txt(e))]
-            h["lines"] = [" ".join(txt(x) for x in ln["els"]) for ln in prose.lines_of(body)]
-            if h["name"] == "HEADS-UP DISPLAY":        # the text wraps around a table of numbers
-                h["lines"] = [re.sub(r"^(?:[+\-–−]?\d\s+)+", "", re.sub(r"(?<=\s)[+\-–−]\d(?=\s)", "", l)) if "cost" not in l else l for l in h["lines"]]
-            h["lines"] = [l for l in h["lines"] if not re.fullmatch(r"[+\-–−]?\d+|ARMOR|BONUS PENALTY|ARMOR ARMOR", l)]
-            h["last"] = not nxt
-            out.append(h)
-    # a left-column entry that ends mid-sentence continues at the top of the right column
-    for h in out:
-        if h["last"] and h["lines"] and not re.search(r"[.!?)”]$", h["lines"][-1]) and h["zone"] == (0, MIDX):
-            els = page_elements(pdf, h["page"])
-            zone = (MIDX, ZW)
-            tops = [e["top"] for e in els if ((e["family"].startswith("Spectrashell") and e["size"] >= 21) or (e["size"] in (15, 17) and e["color"] != "#ffffff"))
-                    and e["left"] < zone[1] and e["left"] + e["width"] > zone[0]]
-            first_stop = min(tops or [10 ** 6])
-            body = [e for e in els if e["top"] < first_stop and e["size"] in (13, 14) and zone[0] - 5 <= e["left"] + e["width"] / 2 <= zone[1]]
-            h["lines"] += [" ".join(txt(x) for x in ln["els"]) for ln in prose.lines_of(body)]
-    # an entry that ends mid-sentence at the foot of a page continues at the top of the next one: a right-column entry in the left column
-    for h in out:
-        if h["last"] and h["lines"] and not re.search(r"[.!?)”]$", h["lines"][-1]) and h["page"] + 1 <= max(pages) + 1 and h["zone"] != (0, ZW):
-            els = page_elements(pdf, h["page"] + 1)
-            zone = (0, MIDX) if h["zone"][0] > 0 else h["zone"]
-            tops = [e["top"] for e in els if ((e["family"].startswith("Spectrashell") and e["size"] >= 21) or (e["size"] in (15, 17) and e["color"] != "#ffffff"))
-                    and e["left"] < zone[1] and e["left"] + e["width"] > zone[0]]
-            first_stop = min(tops or [10 ** 6])
-            body = [e for e in els if e["top"] < first_stop and e["size"] in (13, 14) and zone[0] - 5 <= e["left"] + e["width"] / 2 <= zone[1]]
-            if body:
-                h["lines"] += [" ".join(txt(x) for x in ln["els"]) for ln in prose.lines_of(body)]
+    for t in pdftotext(pdf, first, last, "-raw"):
+        out += [l.strip() for l in t.splitlines() if l.strip() and not re.fullmatch(r"\d{1,3}|\d+: [A-Z][A-Za-z &]+", l.strip())]
     return out
 
 
-# --------------------------------------------------------------------------- equipment, weapons and armor (p70-88)
+def item_entries(pdf, pages, label=r"(?:COST\s*(?:\d+|-|\*)|(?:\d+\+?|\d+ OR \d+)\s+SLOTS?)"):
+    """[{name, cost, lines}] for the 'NAME COST n' (or 'NAME n SLOTS') entries of the pages, with the text that follows each heading
+    in the book's story order, up to the next heading."""
+    lines = raw_lines(pdf, min(pages), max(pages))
+    out, cur, prev = [], None, None
+    for l in lines:
+        m = re.match(r"^(.+?)\s*(" + label + r")$", l)
+        if m and m.group(1).replace("’", "'").upper() == m.group(1):
+            if (m.group(1), m.group(2)) == prev:       # every heading is printed twice (dark text and its white shadow)
+                continue
+            prev = (m.group(1), m.group(2))
+            cost = re.sub(r"^COST\s*", "", m.group(2))
+            if cur is not None and not cur["lines"] and cur["cost"] == cost and cur["name"].endswith(m.group(1)):
+                continue        # 'TOOLKIT, ELECTRONICS COST 7' printed again as 'ELECTRONICS COST 7' 
+            cur = {"name": m.group(1).rstrip(), "cost": cost, "lines": []}
+            out.append(cur)
+            continue
+        if cur is None:
+            continue
+        if re.fullmatch(r"ARMOR|BONUS PENALTY|ARMOR BONUS|[+\-–−]?\d", l):
+            continue        # cells of a table that sits inside the text (Heads-Up Display)
+        letters = [c for c in l if c.isalpha()]
+        headingish = len(letters) >= 4 and sum(c.isupper() for c in letters) >= 0.75 * len(letters) and not re.search(r"[a-z]{3}", l)      # small capitals leave a stray lowercase letter
+        if headingish and not l.startswith("AREA OF EFFECT") and not re.fullmatch(r"[A-Z0-9 .,+\-–−/()x×]*\d[A-Z0-9 .,+\-–−/()x×]*", l):
+            cur = None
+            continue
+        cur["lines"].append(l)
+    return out
+
 
 ACRONYMS = {"Smg": "SMG", "Emp": "EMP", "Hud": "HUD", "Lva": "LVA"}
 
@@ -445,7 +405,10 @@ def item_desc(e, pdf):
     head = []
     if lines and lines[0].startswith("AREA OF EFFECT"):
         head.append(f"<p><strong>{esc(smallcaps(lines.pop(0)).replace('Area Of Effect', 'Area of Effect'))}</strong></p>")
-    return "".join(head) + p(para(lines, pdf)) if lines else "".join(head)
+    text_ = para(lines, pdf).replace("hard?ened", "hardened") if lines else ""
+    if text_ and not re.search(r"[.!?)”]$", text_):
+        text_ += "."
+    return "".join(head) + (p(text_) if text_ else "")
 
 
 GEAR_FOLDERS = {
