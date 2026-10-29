@@ -65,8 +65,29 @@ def col_lines(pdf, first, last, cols=COL):
     return out
 
 
+def join_lines(lines, pdf):
+    """Join wrapped lines; a line-end hyphen is dropped when the joined word is a dictionary word or one of its halves is not a word."""
+    words(pdf)
+    d = _BOOK["dict"]
+    out = ""
+    for l in lines:
+        l = l.strip()
+        if not l:
+            continue
+        if not out:
+            out = l
+        elif out.endswith("-") and l[:1].islower() and re.search(r"[A-Za-z]-$", out):
+            last = re.split(r"[^A-Za-z]", out[:-1])[-1].lower()
+            first = re.match(r"[A-Za-z]*", l).group(0).lower()
+            drop = (last + first) in d or not (last in d and first in d)
+            out = (out[:-1] if drop else out) + l
+        else:
+            out += " " + l
+    return re.sub(r"\s{2,}", " ", out)
+
+
 def para(lines, pdf):
-    return hyphens(fix_split_words(paragraph(lines, words(pdf))))
+    return hyphens(fix_split_words(join_lines(lines, pdf)))
 
 
 def smallcaps(s):
@@ -168,7 +189,37 @@ def build_talents(pdf):
     return pack
 
 
-BUILDERS = {"talents": build_talents}
+# --------------------------------------------------------------------------- ability focuses (p45-47)
+
+FOCUS_ENTRY = re.compile(r"^([A-Z][A-Za-z\- ]{2,30}): (.*)$")
+ABILITY_HEAD = re.compile(r"^(" + "|".join(ABILITIES).upper() + r") FOCUSES$")
+
+
+def build_focuses(pdf):
+    pack = Pack("focuses")
+    ability, cur = None, None
+    for l in col_lines(pdf, 45, 47):
+        m = ABILITY_HEAD.match(l.upper()) if l.isupper() else None
+        if m:
+            ability, cur = m.group(1).capitalize(), None
+            continue
+        if ability is None:
+            continue
+        m = FOCUS_ENTRY.match(l)
+        if m and m.group(1).upper() == m.group(1) and m.group(1) != "OPTIONAL":
+            cur = {"name": smallcaps(m.group(1)), "abl": ability, "lines": [m.group(2)]}
+            pack.docs_pending = getattr(pack, "docs_pending", []) + [cur]
+        elif cur is not None and not cur["lines"][-1].endswith((".", "!", "?")):
+            cur["lines"].append(l)
+        else:
+            cur = None
+    for f in pack.docs_pending:
+        pack.item(f["name"], "focus", {"longDesc": p(para(f["lines"], pdf)), "useAbl": ABILITIES[f["abl"]], "initialValue": 2},
+                  "gift-of-knowledge.svg", folder=f["abl"], uid=f"{f['abl']}:{f['name']}")
+    return pack
+
+
+BUILDERS = {"talents": build_talents, "focuses": build_focuses}
 
 
 def main():
