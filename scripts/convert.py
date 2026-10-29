@@ -391,12 +391,12 @@ def item_entries(pdf, pages, label=r"(?:COST\s*(?:\d+|-|\*)|(?:\d+\+?|\d+ OR \d+
     return out
 
 
-ACRONYMS = {"Smg": "SMG", "Emp": "EMP", "Hud": "HUD", "Lva": "LVA"}
+ACRONYMS = {"Smg": "SMG", "Emp": "EMP", "Hud": "HUD", "Lva": "LVA", "Av": "AV"}
 
 
 def item_name(raw):
     name = smallcaps(raw)
-    return re.sub(r"\b(Smg|Emp|Hud|Lva)\b", lambda m: ACRONYMS[m.group(1)], name)
+    return re.sub(r"\b(Smg|Emp|Hud|Lva|Av)\b", lambda m: ACRONYMS[m.group(1)], name)
 
 
 def item_desc(e, pdf):
@@ -430,6 +430,10 @@ def build_equipment(pdf):
     seen = set()
     for e in gear_entries(pdf):
         name = item_name(e["name"])
+        if name == "Heads-Up Display":        # the Space Suit Protection sidebar interrupts its text; the rest follows the sidebar table
+            raw = raw_lines(pdf, 72, 73)
+            k = next(i for i, l in enumerate(raw) if l.startswith("information like overview maps"))
+            e["lines"] = e["lines"] + raw[k:k + 3]
         folder = next((f for f, names in GEAR_FOLDERS.items() if name in names), None)
         assert folder, f"equipment without a folder: {name!r}"
         seen.add(name)
@@ -538,8 +542,20 @@ def build_shields(pdf):
     return pack
 
 
+def build_implants(pdf):
+    pack = Pack("implants")
+    for e in item_entries(pdf, range(99, 104), label=r"((?:\d+\+?|\d+ OR \d+)\s+SLOTS?)"):
+        name = item_name(e["name"])
+        slots = e["cost"].title().replace("Or", "or")
+        pack.item(name, "equipment", {
+            "longDesc": f"<p><strong>Capacity:</strong> {esc(slots)}</p>" + item_desc({"lines": e["lines"]}, pdf), "shortDesc": slots, "weight": 0, "cost": 0,
+            "quantity": 1, "equiped": False, "modifiers": {},
+        }, "briefcase.svg", folder="Enhancement Implants")
+    return pack
+
+
 BUILDERS = {"talents": build_talents, "focuses": build_focuses, "stunts": build_stunts,
-            "equipment": build_equipment, "weapons": build_weapons, "armor": build_armor, "shields": build_shields}
+            "equipment": build_equipment, "implants": build_implants, "weapons": build_weapons, "armor": build_armor, "shields": build_shields}
 
 
 def main():
