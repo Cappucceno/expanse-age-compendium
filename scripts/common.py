@@ -111,11 +111,11 @@ class Pack:
             "system": system, "ownership": {"default": 0},
         })
 
-    def actor(self, name, type_, system, folder=None):
+    def actor(self, name, type_, system, folder=None, img=None):
         did = make_id(self.name, name)
         self.docs.append({
             "name": name, "_id": did, "_key": f"!actors!{did}", "folder": self.folder(folder, 100000 * (len(self.folders) + 1)) if folder else None,
-            "sort": 0, "flags": {}, "effects": [], "_stats": SYSTEM_STATS, "type": type_, "img": ACTOR_ICON,
+            "sort": 0, "flags": {}, "effects": [], "_stats": SYSTEM_STATS, "type": type_, "img": img or ACTOR_ICON,
             "system": system, "prototypeToken": {"name": name, "actorLink": True}, "ownership": {"default": 0},
         })
 

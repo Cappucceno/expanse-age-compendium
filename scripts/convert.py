@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import (ABILITIES, Pack, SYSTEM_STATS, Words, clean_lines, esc, journal_doc, li, make_id, modifier, num, p, paragraph,  # noqa: E402
+from common import (ABILITIES, ICON, Pack, SYSTEM_STATS, Words, clean_lines, esc, journal_doc, li, make_id, modifier, num, p, paragraph,  # noqa: E402
                     pdftotext, table_doc, table_html)
 
 COL = ((0, 306), (306, 306))          # x, width of the two text columns in PDF points
@@ -554,8 +554,92 @@ def build_implants(pdf):
     return pack
 
 
+# --------------------------------------------------------------------------- sample spaceships (p146-153)
+
+SIZES = {"Tiny": 1, "Small": 2, "Medium": 3, "Large": 4, "Huge": 5, "Gigantic": 6, "Colossal": 7, "Titanic": 8}
+COMPETENCE = {"Incompetent": 0, "Poor": 1, "Average": 2, "Capable": 3, "Skilled": 4, "Elite": 5}
+SHIP_FOLDERS = {"Small Craft": ("Shuttle", "Drop Ship", "Ship’s Boat"), "Freighters": ("Small Freighter", "Freighter", "Medium Freighter", "Large Freighter"),
+                "Warships": ("Light Frigate", "Light Frigate (Transport Union Advanced)", "Heavy Frigate", "Destroyer", "Cruiser", "Battleship"),
+                "Other Ships": ("Heavy Scout", "Colony Ship")}
+SHIP_ICON = "systems/age-system/resources/imgs/actor-icon/rocket.svg"
+
+
+def ship_lines(pdf):
+    lines = raw_lines(pdf, 145, 155)
+    start = next(i for i, l in enumerate(lines) if l == "SHuTTLE")
+    end = next(i for i, l in enumerate(lines) if l == "SPACE COMBAT")
+    return lines[start:end]
+
+
+def build_ships(pdf):
+    pack = Pack("ships", "Actor")
+    lines = ship_lines(pdf)
+    starts = [i for i, l in enumerate(lines) if l.startswith("SIZE.")]
+    for n, i in enumerate(starts):
+        name_line = lines[i - 1]
+        if name_line.startswith("("):
+            name_line = lines[i - 2] + " " + name_line
+        end = starts[n + 1] - 1 if n + 1 < len(starts) else len(lines)
+        if n + 1 < len(starts) and lines[starts[n + 1] - 1].startswith("("):
+            end -= 1
+        body = lines[i:end]
+        text_ = " ".join(body)
+        name = item_name(name_line)
+        size = re.search(r"SIZE\.\s*(\w+) \((\d+) meters long\)", text_)
+        hull = re.search(r"HULL\.?\s*(\d+)d(\d+)(?:\+(\d+))?", text_)
+        crew = re.search(r"CREW\.?\s*(\d+) \((\d+)", text_)
+        comp = re.search(r"COMPETENCE\.?\s*(\w+)(?: to (\w+))?", text_)
+        drive = re.search(r"DRIVE\.?\s*(.+?)(?= SENSORS|\s\*|$)", text_)
+        sens = re.search(r"SENSORS\.?\s*(\d+)", text_)
+        assert size and hull and crew and comp and sens, f"ship {name}: unexpected stat block"
+        qual = re.search(r"QUALITIES\.?\s*(.*?)\s*FLAWS\.?\s*(.*)$", text_)
+        # weapons: names followed by 'RANGE... DAMAGE' lines
+        wsec = re.search(r"WEAPONS\.?\s*(.*?)\s*QUALITIES", text_)
+        items, parts = [], []
+        for l in body[next((k for k, x in enumerate(body) if x.startswith("WEAPONS") and not re.search(r"WEAPONS\.? None", x)), len(body)):]:
+            if l.startswith("QUALITIES"):
+                break
+            if l.startswith("WEAPONS"):
+                rest = re.sub(r"^WEAPONS\.?\s*", "", l)
+                if rest:
+                    parts.append(rest)
+                continue
+            parts.append(l)
+        weapon_lines, cur = [], []
+        for l in parts:
+            cur.append(l)
+            if re.search(r"DAMAGE$", l):
+                weapon_lines.append(cur)
+                cur = []
+        competence_txt = comp.group(0).split(None, 1)[1] if " " in comp.group(0) else comp.group(1)
+        desc = (f"<p><strong>Competence:</strong> {esc(competence_txt)}</p>"
+                f"<p><strong>Qualities:</strong> {esc(squash(qual.group(1)))}</p><p><strong>Flaws:</strong> {esc(squash(qual.group(2)))}</p>"
+                f"<p><strong>Crew:</strong> {crew.group(1)} ({crew.group(2)})</p><p><strong>Size:</strong> {esc(size.group(1))} ({size.group(2)} meters long)</p>")
+        did = make_id("ships", name)
+        folder = next((f for f, names in SHIP_FOLDERS.items() if name in names), "Other Ships")
+        pack.actor(name, "spaceship", {
+            "size": SIZES[size.group(1)], "drive": squash(drive.group(1)).rstrip("*").strip() if drive else "", "description": desc,
+            "hull": {"nrDice": int(hull.group(1)), "diceType": int(hull.group(2)), "extraValue": int(hull.group(3) or 0)},
+            "crew": {"min": int(crew.group(1)), "current": int(crew.group(1)), "typical": int(crew.group(1)), "competence": COMPETENCE[comp.group(1).title()]},
+            "systems": {"sensors": {"mod": int(sens.group(1))}},
+        }, folder=folder, img=SHIP_ICON)
+        actor = pack.docs[-1]
+        actor["items"] = []
+        for wl in weapon_lines:
+            wtext = squash(" ".join(wl))
+            m = re.match(r"^(.*?)\s*((?:FORE|AFT|FULL COVERAGE)?[^,]*,? ?(?:CLOSE|MEDIUM|LONG) RANGE.*?(\d+D6) DAMAGE|AFT, CLOSE RANGE, 0 DAMAGE)$", wtext)
+            dmg = re.search(r"(\d+D6|0) DAMAGE$", wtext)
+            wname = re.sub(r"\s*(FORE|AFT|FULL COVERAGE|MEDIUM RANGE|CLOSE RANGE|LONG RANGE).*$", "", wtext)
+            iid = make_id(did, wname)
+            actor["items"].append({"name": smallcaps(wname).replace("×", "×"), "type": "shipfeatures", "img": ICON + "processor.svg", "_id": iid,
+                                   "_key": f"!actors.items!{actor['_id']}.{iid}", "flags": {}, "effects": [], "folder": None, "sort": 0, "_stats": SYSTEM_STATS,
+                                   "system": {"type": "weapon", "damage": (dmg.group(1).lower() if dmg else ""), "quality": "quality", "isActive": True,
+                                              "longDesc": p(smallcaps(wtext[len(wname):].strip(" ,")) if wtext[len(wname):].strip(" ,") else "")}})
+    return pack
+
+
 BUILDERS = {"talents": build_talents, "focuses": build_focuses, "stunts": build_stunts,
-            "equipment": build_equipment, "implants": build_implants, "weapons": build_weapons, "armor": build_armor, "shields": build_shields}
+            "equipment": build_equipment, "ships": build_ships, "implants": build_implants, "weapons": build_weapons, "armor": build_armor, "shields": build_shields}
 
 
 def main():
