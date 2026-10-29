@@ -454,7 +454,7 @@ GRENADES = {"EMP Grenade": "0", "Flash Grenade": "2d6", "Fragmentation Grenade":
 
 
 def dice(formula):
-    m = re.match(r"^(\d+)d(\d+)(?:\+(\d+))?$", formula)
+    m = re.match(r"^(\d+)d(\d+)(?:([+-]\d+))?$", formula)
     return (m.group(1), m.group(2), int(m.group(3) or 0)) if m else ("0", "6", int(formula or 0))
 
 
@@ -638,8 +638,148 @@ def build_ships(pdf):
     return pack
 
 
+# --------------------------------------------------------------------------- adversaries and supporting characters (p251-266)
+
+ADV_FOLDERS = {
+    "Criminals": ("Bounty Hunter", "Gang Boss", "Pirate", "Pirate Captain", "Saboteur", "Smuggler", "Smuggler Captain", "Thug"),
+    "Law and Security": ("Police Detective", "Police Officer", "Transport Union Security", "Transport Union Inspector"),
+    "Military and Intelligence": ("Laconian Agent", "Laconian Black Ops", "Martian Marine", "Soldier", "Spy", "Veteran"),
+    "Specialists": ("Ambassador", "Engineer", "Pilot"),
+    "Machines": ("Combat Drone (Minor)", "Combat Drone (Moderate)", "Combat Drone (Major)", "Combat Mech"),
+    "Aliens and Monsters": ("Hydrapod", "Death Slug", "Project Caliban Hybrid", "Mimic Lizard", "Ultrasalix", "Vomit Zombie", "Slithersquirrel"),
+    "Supporting Characters": ("Zeroes", "Argo Dimas", "Cassidy Cooker", "Ohemaa Gbeho", "Tong Liu"),
+}
+ABL_NAMES = {"Accuracy": "acc", "Communication": "comm", "Constitution": "cons", "Dexterity": "dex", "Fighting": "fight", "Intelligence": "int",
+             "Perception": "per", "Strength": "str", "Willpower": "will"}
+ACTOR_IMG = "systems/age-system/resources/imgs/actor-icon/sensousness.svg"
+
+
+def adversary_blocks(pdf):
+    L = raw_lines(pdf, 245, 266)
+    idx = [i for i, l in enumerate(L) if l == "ABILITIES (FOCUSES)"]
+    out = []
+    for n, i in enumerate(idx):
+        end = idx[n + 1] - 2 if n + 1 < len(idx) else len(L)
+        out.append((L[i - 1], L[i + 1:end], i))
+    return L, out
+
+
+def parse_adversary(name, body):
+    stop = re.compile(r"^(SPEED FORTUNE|WEAPON ATTACK|SPECIAL FEATURES|Threat:)")
+    k = next((j for j, l in enumerate(body) if stop.match(l)), len(body))
+    abl_text = " ".join(body[:k])
+    abilities, focuses = {}, {}
+    for m in re.finditer(r"(" + "|".join(ABL_NAMES) + r")\s*([−–-]?\s*\d+)\s*(?:\(([^)]*)\))?", abl_text):
+        key = ABL_NAMES[m.group(1)]
+        abilities[key] = num(m.group(2).replace(" ", ""))
+        focuses[key] = [x.strip() for x in (m.group(3) or "").split(",") if x.strip()]
+    assert len(abilities) == 9, f"{name}: abilities {abl_text!r}"
+    out = {"abilities": abilities, "focuses": focuses, "weapons": [], "features": [], "speed": None}
+    rest = body[k:]
+    if rest and rest[0].startswith("SPEED FORTUNE"):
+        m = re.match(r"^(\d+)(?: \(([^)]*)\))? (\d+) (\d+) (\d+)$", rest[1])
+        assert m, f"{name}: stats line {rest[1]!r}"
+        out.update(speed=int(m.group(1)), speed_note=m.group(2), fortune=int(m.group(3)), defense=int(m.group(4)), armor=int(m.group(5)))
+        rest = rest[2:]
+    if rest and rest[0].startswith("WEAPON ATTACK"):
+        j = next((q for q, l in enumerate(rest) if q and (l.startswith("SPECIAL FEATURES") or l.startswith("Threat:"))), len(rest))
+        for l in rest[1:j]:
+            m = re.match(r"^(.+?) ([+−–-]\d+) (\d+d\d+(?:\s*[+−–-]\s*\d+)?)(?: (.+))?$", l)
+            if m:
+                out["weapons"].append((m.group(1), num(m.group(2)), re.sub(r"\s+", "", m.group(3)).replace("−", "-").replace("–", "-"), m.group(4) or ""))
+        rest = rest[j:]
+    if rest and rest[0].startswith("SPECIAL FEATURES"):
+        j = next((q for q, l in enumerate(rest) if l.startswith("Threat:")), len(rest))
+        cur = None
+        for l in rest[1:j]:
+            m = re.match(r"^([A-Z][A-Z0-9 ’'\-()/,]+): (.*)$", l)
+            if m:
+                cur = [m.group(1), [m.group(2)]]
+                out["features"].append(cur)
+            elif cur:
+                cur[1].append(l)
+        rest = rest[j:]
+    th = next((re.sub(r"^Threat:\s*", "", l) for l in rest if l.startswith("Threat:") and len(l) > 8), "")
+    out["threat"] = th.split()[0] if th else ""
+    return out
+
+
+def heading_like(l):
+    letters = [c for c in l if c.isalpha()]
+    return len(letters) >= 4 and sum(c.isupper() for c in letters) >= 0.75 * len(letters) and not re.search(r"[a-z]{3}", l)
+
+
+def adversary_descriptions(L, names):
+    """Paragraphs printed under a name heading that is not followed by a stat block, in the story order of the book."""
+    out = {}
+    keys = {n: re.sub(r"[^a-z]", "", n.lower()) for n in names}
+    for i, l in enumerate(L):
+        key = re.sub(r"[^a-z]", "", l.lower())
+        hit = next((n for n, k in keys.items() if heading_like(l) and (key == k or key.startswith(k))), None)
+        if not hit or hit in out:
+            continue
+        if i + 1 < len(L) and (L[i + 1] == l or L[i + 1] == "ABILITIES (FOCUSES)"):
+            continue
+        j, texts = i + 1, []
+        while j < len(L) and not heading_like(L[j]) and not re.fullmatch(r"\d{3}", L[j]) and not L[j].startswith(("Threat:", "AKA:", "HOMEWORLD:")):
+            texts.append(L[j])
+            j += 1
+        out[hit] = texts
+    return out
+
+
+def build_adversaries(pdf):
+    pack = Pack("adversaries", "Actor")
+    L, blocks_ = adversary_blocks(pdf)
+    names = {name: smallcaps(name) for name, _, _ in blocks_}
+    for raw_name, body, i in blocks_:
+        name = item_name(raw_name)
+        name = re.sub(r"\s*\((Minor|Moderate|Major)\)", lambda m: f" ({m.group(1)})", name)
+        a = parse_adversary(name, body)
+        folder = next((f for f, ns in ADV_FOLDERS.items() if name in ns), None)
+        assert folder, f"adversary without a folder: {name!r}"
+        feats = ""
+        for label, lines_ in a["features"]:
+            feats += f"<p><strong>{esc(smallcaps(label))}:</strong> {esc(para(lines_, pdf))}</p>"
+        if a.get("armor") is not None:
+            feats += f"<p><strong>Armor + Toughness:</strong> {a['armor']}</p>"
+        if a.get("speed_note"):
+            feats += f"<p><strong>Speed:</strong> {esc(a['speed_note'])}</p>"
+        system = {
+            "threat": a["threat"], "abilities": {k: {"value": v} for k, v in a["abilities"].items()},
+            "speed": {"base": a["speed"] or 10}, "defense": {"base": a.get("defense", 10)},
+            "health": {"set": a.get("fortune", 10), "value": a.get("fortune", 10)}, "features": feats, "statBlockView": True,
+        }
+        pack.actor(name, "char", system, folder=folder, img=ACTOR_IMG)
+        actor = pack.docs[-1]
+        actor["flags"] = {"core": {"sheetClass": "age-system.ageSystemSheetCharStatBlock"}}
+        actor["prototypeToken"]["actorLink"] = False
+        actor["items"] = []
+        for key, fs in a["focuses"].items():
+            for fname in fs:
+                iid = make_id(actor["_id"], fname + key)
+                actor["items"].append({"name": fname, "type": "focus", "img": ICON + "gift-of-knowledge.svg", "_id": iid, "_key": f"!actors.items!{actor['_id']}.{iid}",
+                                       "flags": {}, "effects": [], "folder": None, "sort": 0, "_stats": SYSTEM_STATS,
+                                       "system": {"useAbl": key, "initialValue": 2, "longDesc": ""}})
+        for wname, atk, dmg, note in a["weapons"]:
+            iid = make_id(actor["_id"], wname)
+            n_, d_, extra = dice(dmg.replace("+-", "-"))
+            ranged = wname.lower() in ("pistol", "rifle", "stun gun") or "gun" in wname.lower()
+            actor["items"].append({"name": wname, "type": "weapon", "img": ICON + "fist.svg", "_id": iid, "_key": f"!actors.items!{actor['_id']}.{iid}",
+                                   "flags": {}, "effects": [], "folder": None, "sort": 0, "_stats": SYSTEM_STATS,
+                                   "system": {"longDesc": p(f"Attack roll {atk:+d}" + (f"; {note}" if note else "")), "useAbl": "acc" if ranged else "fight", "nrDice": n_, "diceType": d_,
+                                              "extraValue": extra, "dmgAbl": "no-abl", "dmgType": "wound", "dmgSource": "penetrating" if "enetrating" in note else "normalDamage",
+                                              "damageFormula": dmg, "weight": 0, "cost": 0, "quantity": 1, "equiped": False, "ranged": ranged}})
+    descs = adversary_descriptions(L, [n for n, _, _ in blocks_])
+    for doc in pack.docs:
+        raw = next((n for n in descs if item_name(n) == doc["name"].replace(" (", " (")), None)
+        if raw and descs[raw]:
+            doc["system"]["features"] = p(para(descs[raw], pdf)) + doc["system"]["features"]
+    return pack
+
+
 BUILDERS = {"talents": build_talents, "focuses": build_focuses, "stunts": build_stunts,
-            "equipment": build_equipment, "ships": build_ships, "implants": build_implants, "weapons": build_weapons, "armor": build_armor, "shields": build_shields}
+            "equipment": build_equipment, "adversaries": build_adversaries, "ships": build_ships, "implants": build_implants, "weapons": build_weapons, "armor": build_armor, "shields": build_shields}
 
 
 def main():
