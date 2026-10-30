@@ -354,11 +354,22 @@ def is_item_head(e):
 
 
 def raw_lines(pdf, first, last):
-    """Lines of PDF pages in content-stream order (the story order of the book), without running heads and page numbers."""
+    """Lines of PDF pages in content-stream order (the story order of the book), without running heads, page numbers and the epigraph
+    quotes ('“...” / — Leviathan Wakes') that float in the margins."""
     out = []
     for t in pdftotext(pdf, first, last, "-raw"):
         out += [l.strip() for l in t.splitlines() if l.strip() and not re.fullmatch(r"\d{1,3}|\d+: [A-Z][A-Za-z &]+", l.strip())]
-    return out
+    res = []
+    for l in out:
+        if re.match(r"^— [A-Z][^.]{2,50}$", l):
+            k = len(res) - 1
+            while k >= 0 and len(res) - k <= 7 and not res[k].startswith("“"):
+                k -= 1
+            if k >= 0 and res[k].startswith("“"):
+                del res[k:]
+                continue
+        res.append(l)
+    return res
 
 
 def item_entries(pdf, pages, label=r"(?:COST\s*(?:\d+|-|\*)|(?:\d+\+?|\d+ OR \d+)\s+SLOTS?)"):
@@ -778,8 +789,225 @@ def build_adversaries(pdf):
     return pack
 
 
+# --------------------------------------------------------------------------- character creation (p27-44)
+
+CLASSES = ("OUTSIDER", "LOWER", "MIDDLE", "UPPER")
+CLASS_NAMES = {"OUTSIDER": "Outsider", "LOWER": "Lower Class", "MIDDLE": "Middle Class", "UPPER": "Upper Class"}
+TYPES = ("SKILLED", "PHYSICAL", "SOCIAL")
+BEN_ROW = re.compile(r"^(\d+(?:[–-]\d+)?) (.+)$")
+
+
+def split_blocks(L, header, first=0, last=None):
+    """[(match, lines)] for the lines between heading lines; a heading printed twice in a row counts once."""
+    out, cur = [], None
+    for l in L[first:last]:
+        m = header.match(l)
+        if m:
+            if cur is not None and not cur[1]:
+                continue                    # the shadow copy of the heading
+            cur = (m, [])
+            out.append(cur)
+        elif cur is not None:
+            cur[1].append(l)
+    return out
+
+
+def field(lines, label, stops):
+    """Text of 'LABEL ...' up to the next line starting with one of `stops` (labels or headings)."""
+    k = next((i for i, l in enumerate(lines) if l == label or l.startswith(label + " ")), None)
+    if k is None:
+        return None
+    out = [lines[k][len(label):].strip()]
+    for l in lines[k + 1:]:
+        if any(l == x or l.startswith(x + " ") for x in stops) or l.isupper() and len(l) > 8 or l.startswith(("“", "—", "EXAMPLE")):
+            break
+        out.append(l)
+    return " ".join(x for x in out if x)
+
+
+def parse_backgrounds(pdf):
+    L = raw_lines(pdf, 28, 34)
+    header = re.compile(r"^([A-Z]+) (" + "|".join(CLASSES) + r")$")
+    out = []
+    for m, lines in split_blocks(L, header):
+        name = smallcaps(m.group(1))
+        k = next((i for i, l in enumerate(lines) if l.startswith("ABILITY ")), None)
+        if k is None:
+            continue
+        desc = para(lines[:k], pdf)
+        rest = lines[k:]
+        ability = field(rest, "ABILITY", ("FOCUS", "TALENT"))
+        focus = field(rest, "FOCUS", ("TALENT",))
+        talent = field(rest, "TALENT", (name.upper() + " BENEFITS",))
+        b = next(i for i, l in enumerate(rest) if l == name.upper() + " BENEFITS")
+        rows = []
+        for l in rest[b + 1:]:
+            mm = BEN_ROW.match(l)
+            if mm and not l.startswith("2D6"):
+                rows.append((mm.group(1), mm.group(2)))
+            if rows and rows[-1][0] == "12":
+                break
+        assert len(rows) == 8, f"{name}: benefits {rows}"
+        out.append({"name": name, "cls": CLASS_NAMES[m.group(2)], "desc": desc, "ability": ability, "focus": focus, "talent": talent, "benefits": rows})
+    return out
+
+
+def parse_professions(pdf):
+    L = raw_lines(pdf, 34, 41)
+    header = re.compile(r"^([A-Z]+) (" + "|".join(TYPES) + r"), (" + "|".join(CLASSES) + r")$")
+    out = []
+    for m, lines in split_blocks(L, header):
+        k = next((i for i, l in enumerate(lines) if l.startswith("FOCUS")), None)
+        if k is None:
+            continue
+        desc = para([l for l in lines[:k] if not l.startswith(("“", "—"))], pdf)
+        focus = field(lines[k:], "FOCUS", ("TALENT",))
+        talent = field(lines[k:], "TALENT", ())
+        out.append({"name": smallcaps(m.group(1)), "type": m.group(2).title(), "cls": CLASS_NAMES[m.group(3)], "desc": desc, "focus": focus, "talent": talent})
+    by = {x["name"]: x for x in out}
+    # printing errors and layout accidents of the book
+    brawler = by["Brawler"]
+    assert brawler["focus"].endswith("Style"), "Brawler layout changed"
+    brawler["focus"], brawler["talent"] = brawler["talent"], brawler["focus"]       # focus and talent are printed swapped
+    by["Dilettante"]["focus"] = "Intelligence (Research) or Perception (choose one)"
+    tech, sec = by["Technician"], by["Security"]
+    assert tech["talent"].startswith("Expertise, Hacking, or Maker focus on keeping"), "Technician layout changed"
+    tail = re.search(r"Maker (focus on keeping.*?safe\.) FOCUS (.*?) TALENT (.*)$", tech["talent"])
+    soldier_focus, soldier_talent = sec["focus"], sec["talent"]      # printed in the middle of Security's text
+    tech["talent"] = "Expertise, Hacking, or Maker"
+    sec["desc"] += " " + tail.group(1)
+    sec["focus"], sec["talent"] = tail.group(2), tail.group(3)
+    L = raw_lines(pdf, 34, 41)
+    k = next(i for i, l in enumerate(L) if l == "SOLDIER PHYSICAL, LOWER")
+    j = next(i for i, l in enumerate(L) if i > k + 1 and l == "CAREGIVER")
+    out.append({"name": "Soldier", "type": "Physical", "cls": "Lower Class", "desc": para(L[k + 2:j], pdf), "focus": soldier_focus, "talent": soldier_talent})
+    return sorted(out, key=lambda x: x["name"])
+
+
+def parse_drives(pdf):
+    L = raw_lines(pdf, 36, 46)
+    names = ("ACHIEVER", "BUILDER", "CAREGIVER", "ECSTATIC", "JUDGE", "LEADER", "NETWORKER", "PENITENT", "PROTECTOR", "REBEL", "SURVIVOR", "VISIONARY")
+    header = re.compile(r"^(" + "|".join(names) + r")$")
+    blocks_ = split_blocks(L, header)
+    # the last drive is followed by the Income section
+    end = next(i for i, l in enumerate(L) if l == "INCOME")
+    out, pending = {}, None
+    for m, lines in blocks_:
+        name = m.group(1)
+        if name == "VISIONARY":
+            lines = lines[: next(i for i, l in enumerate(lines) if l == "INCOME")] if "INCOME" in lines else lines
+        k = next((i for i, l in enumerate(lines) if l.startswith("TALENT")), None)
+        if k is None:
+            pending = {"name": name, "lines": lines}
+            out[name] = pending
+            continue
+        out[name] = {"name": name, "lines": lines[: k + 1]}
+        extra = lines[k + 1:]
+        if extra and pending is not None and not any(l.startswith("TALENT") for l in pending["lines"]):
+            pending["lines"] = pending["lines"] + extra       # the rest of the previous drive is printed after this one (page layout)
+            pending = None
+    result = []
+    for name in names:
+        lines = out[name]["lines"]
+        k = next(i for i, l in enumerate(lines) if l.startswith("TALENT"))
+        text_ = para([l for l in lines[:k] if not l.startswith(("STEP 6", "DRIVE", "Roll 1d6"))], pdf)
+        qd = re.search(r"Your quality is (.*?)\s*Your downfall is (.*)$", text_)
+        talent = lines[k][len("TALENT"):].strip()
+        result.append({"name": smallcaps(name), "desc": text_[: qd.start()].strip() if qd else text_, "quality": qd.group(1) if qd else "",
+                       "downfall": qd.group(2) if qd else "", "talent": talent.replace("Contract or", "Contacts or")})      # 'Contract' is a misprint
+    return result
+
+
+def parse_origins(pdf):
+    L = raw_lines(pdf, 27, 29)
+    out = []
+    for name in ("BELTER", "EARTHER", "MARTIAN"):
+        k = next(i for i, l in enumerate(L) if l == name)
+        j = next((i for i, l in enumerate(L) if i > k and (l in ("BELTER", "EARTHER", "MARTIAN", "STEP 4: BACkGROuNd") or l.startswith("EXAMPLE"))), len(L))
+        body = L[k + 1:j]
+        t = next(i for i, l in enumerate(body) if l.startswith("As a"))
+        traits, cur = [], None
+        for l in body[t + 1:]:
+            if l.startswith("• "):
+                cur = [l[2:]]
+                traits.append(cur)
+            elif cur is not None:
+                cur.append(l)
+        out.append({"name": smallcaps(name), "desc": para(body[:t], pdf), "intro": body[t], "traits": [para(x, pdf) for x in traits]})
+    return out
+
+
+def build_creation(pdf):
+    pack = Pack("character-creation", "JournalEntry")
+    journal_doc(pack, "Origins", [(o["name"], p(o["desc"]) + p(o["intro"]) + "<ul>" + "".join(f"<li>{esc(t)}</li>" for t in o["traits"]) + "</ul>") for o in parse_origins(pdf)])
+    journal_doc(pack, "Backgrounds", [
+        (b["name"], f"<p><em>{b['cls']}</em></p>" + p(b["desc"]) + "<ul>" + li("Ability", b["ability"]) + li("Focus", b["focus"]) + li("Talent", b["talent"]) + "</ul>"
+         + f"<h2>{esc(b['name'])} Benefits</h2>" + table_html(["2d6 Roll", "Benefit"], b["benefits"])) for b in sorted(parse_backgrounds(pdf), key=lambda x: x["name"])])
+    journal_doc(pack, "Professions", [
+        (x["name"], f"<p><em>{x['type']}, {x['cls']}</em></p>" + p(x["desc"]) + "<ul>" + li("Focus", x["focus"]) + li("Talent", x["talent"]) + "</ul>") for x in parse_professions(pdf)])
+    journal_doc(pack, "Drives", [
+        (d["name"], p(d["desc"]) + "<ul>" + li("Quality", d["quality"]) + li("Downfall", d["downfall"]) + li("Talent", d["talent"]) + "</ul>") for d in parse_drives(pdf)])
+    return pack
+
+
+def ranges(text_):
+    parts = [int(x) for x in re.split(r"[–-]", text_)]
+    return parts[0], parts[-1]
+
+
+def build_creation_tables(pdf):
+    pack = Pack("creation-tables")
+    L = raw_lines(pdf, 25, 46)
+    # social class by origin (2d6)
+    k = next(i for i, l in enumerate(L) if l == "BELTER EARTHER MARTIAN")
+    rows = [re.match(r"^(\S+) (\S+) (\S+) (Outsider|Lower Class|Middle Class|Upper Class)$", l) for l in L[k + 1:k + 5]]
+    assert all(rows), "social class table changed"
+    for col, origin in enumerate(("Belter", "Earther", "Martian"), 1):
+        table_doc(pack, f"Social Class ({origin})", "2d6", f"Social class of a {origin} character.",
+                  [(*ranges(m.group(col)), m.group(4)) for m in rows], "Backgrounds")
+    # backgrounds by social class (1d6)
+    for cls in ("OUTSIDER", "LOWER CLASS", "MIDDLE CLASS", "UPPER CLASS"):
+        k = next(i for i, l in enumerate(L) if l == cls and L[i + 1] == "BACKGROUNDS")
+        res = []
+        for l in L[k + 2:k + 9]:
+            m = re.match(r"^(\d+(?:[–-]\d+)?) ([A-Z][a-z]+)$", l)
+            if m:
+                res.append((*ranges(m.group(1)), m.group(2)))
+        assert len(res) == 3, f"{cls}: backgrounds {res}"
+        table_doc(pack, f"{cls.title()} Backgrounds", "1d6", f"Backgrounds of the {cls.lower()} social class.", res, "Backgrounds")
+    # benefits of each background (2d6)
+    for b in parse_backgrounds(pdf):
+        table_doc(pack, f"{b['name']} Benefits", "2d6", f"Benefits table of the {b['name']} background ({b['cls']}).",
+                  [(*ranges(r), t) for r, t in b["benefits"]], "Benefits")
+    # drives
+    k = next(i for i, l in enumerate(L) if l.startswith("D6 COLUMN 1 COLUMN 2"))
+    col1, col2 = [], []
+    for l in L[k + 1:k + 7]:
+        m = re.match(r"^(\d) (\w+) (\w+)$", l)
+        assert m, f"drive table row {l!r}"
+        col1.append(m.group(2))
+        col2.append(m.group(3))
+    table_doc(pack, "Drive Column", "1d6", "Roll 1d6: 1–3 = roll on Column 1, 4–6 = roll on Column 2 of the Drive table.", [(1, 3, "Column 1"), (4, 6, "Column 2")], "Drives")
+    table_doc(pack, "Drive (Column 1)", "1d6", "Drives, column 1.", [(i + 1, i + 1, n) for i, n in enumerate(col1)], "Drives")
+    table_doc(pack, "Drive (Column 2)", "1d6", "Drives, column 2.", [(i + 1, i + 1, n) for i, n in enumerate(col2)], "Drives")
+    # determining abilities (3d6)
+    k = next(i for i, l in enumerate(L) if l == "3D6 ROLL ABILITY SCORE")
+    res = []
+    for l in L[k + 1:k + 20]:
+        m = re.match(r"^(\d+) ([−–-]?\d)$", l)
+        if m:
+            res.append((int(m.group(1)), num(m.group(2))))
+    assert len(res) == 16, f"ability table {res}"
+    rows_ = []
+    for score in sorted({v for _, v in res}):
+        rolls = [r for r, v in res if v == score]
+        rows_.append((min(rolls), max(rolls), f"Ability score {score:+d}" if score else "Ability score 0"))
+    table_doc(pack, "Determining Abilities", "3d6", "Roll once per ability (in order) and read the ability score.", rows_, "Ability Scores")
+    return pack
+
+
 BUILDERS = {"talents": build_talents, "focuses": build_focuses, "stunts": build_stunts,
-            "equipment": build_equipment, "adversaries": build_adversaries, "ships": build_ships, "implants": build_implants, "weapons": build_weapons, "armor": build_armor, "shields": build_shields}
+            "equipment": build_equipment, "character-creation": build_creation, "creation-tables": build_creation_tables, "adversaries": build_adversaries, "ships": build_ships, "implants": build_implants, "weapons": build_weapons, "armor": build_armor, "shields": build_shields}
 
 
 def main():
