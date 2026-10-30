@@ -1,0 +1,39 @@
+{
+  "name": "Suppression Grenade",
+  "_id": "98d207931134807c",
+  "_key": "!items!98d207931134807c",
+  "folder": "1144c14e1a28e8de",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>This nonlethal type of grenade releases a burst of foam on detonation, which hardens into a stone-like substance almost instantly (similar to the material used in suppression rounds). Those caught in the blast suffer the Hindered condition instead of taking damage. This condition lasts until the hardened material returns to its foam state (in 2d6 x 10 minutes), the afflicted or a helper makes a TN 16 Strength test, or the hardened material is neutralized in some way (possibly using the Intelligence (Chemistry) focus).</p><p><em>Thrown: short range 4 m, long range 8 m (Accuracy (Throwing) test, TN 11).</em></p>",
+    "useAbl": "acc",
+    "useFocus": "throwing",
+    "minStr": 0,
+    "nrDice": "0",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "0",
+    "weight": 0,
+    "cost": 11,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 4,
+    "rangeMax": 8
+  },
+  "ownership": {
+    "default": 0
+  }
+}

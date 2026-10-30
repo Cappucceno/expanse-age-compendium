@@ -1,0 +1,305 @@
+{
+  "name": "Naomi Nagata",
+  "_id": "98586a92048a1ae1",
+  "_key": "!actors!98586a92048a1ae1",
+  "folder": "c430b71b29cbcebb",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Moderate",
+    "abilities": {
+      "acc": {
+        "value": 1
+      },
+      "comm": {
+        "value": 2
+      },
+      "cons": {
+        "value": 0
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 1
+      },
+      "int": {
+        "value": 4
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 0
+      },
+      "will": {
+        "value": 3
+      }
+    },
+    "speed": {
+      "base": 12
+    },
+    "defense": {
+      "base": 16
+    },
+    "health": {
+      "set": 56,
+      "value": 56
+    },
+    "features": "<p><em>Executive Officer of the Rocinante, Belter</em></p><p><strong>Favored Stunts:</strong> Cover Your Tracks, Jury Rig, When a Plan Comes Together</p><p><strong>Talents:</strong> Affluent (Expert), Fringer (Expert), Hacking (Master), Improvisation (Novice), Inspire (Novice), Know-It- All (Expert), Knowledge (Expert)</p><p><strong>Specialization:</strong> Hacker (Master)</p><p><strong>Equipment:</strong> Hand terminal, light armor (medium, if expecting a fight), pistol, vac suit</p><p><strong>Armor + Toughness:</strong> 0</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Naomi Nagata",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "4d277da89268f3a5",
+      "_key": "!actors.items!98586a92048a1ae1.4d277da89268f3a5",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Deception",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "1566dd6bdb376365",
+      "_key": "!actors.items!98586a92048a1ae1.1566dd6bdb376365",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Leadership",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "b58cbdb943023f7a",
+      "_key": "!actors.items!98586a92048a1ae1.b58cbdb943023f7a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Free-fall",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "f6a39b67a92da442",
+      "_key": "!actors.items!98586a92048a1ae1.f6a39b67a92da442",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Cryptography",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ec1fc9fbc684ad60",
+      "_key": "!actors.items!98586a92048a1ae1.ec1fc9fbc684ad60",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Technology",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "a031149134cc3204",
+      "_key": "!actors.items!98586a92048a1ae1.a031149134cc3204",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Searching",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "85819d33b866cbe2",
+      "_key": "!actors.items!98586a92048a1ae1.85819d33b866cbe2",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Self-Discipline",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "9199325a8e37fd8d",
+      "_key": "!actors.items!98586a92048a1ae1.9199325a8e37fd8d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "f7044b9714c1078f",
+      "_key": "!actors.items!98586a92048a1ae1.f7044b9714c1078f",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +3</p>",
+        "useAbl": "acc",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": true
+      }
+    },
+    {
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "33a6a91cd06a8f76",
+      "_key": "!actors.items!98586a92048a1ae1.33a6a91cd06a8f76",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +1</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "3",
+        "extraValue": 0,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    }
+  ]
+}

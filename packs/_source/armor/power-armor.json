@@ -1,7 +1,7 @@
 {
   "name": "Power Armor",
-  "_id": "wdFCFieCZro1xojM",
-  "_key": "!items!wdFCFieCZro1xojM",
+  "_id": "9376ff257f84aef4",
+  "_key": "!items!9376ff257f84aef4",
   "folder": null,
   "sort": 0,
   "flags": {},
@@ -14,13 +14,13 @@
   "type": "equipment",
   "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
   "system": {
-    "longDesc": "<p>Military power armor such as the Martian Goliath suit. +12 armor bonus with no penalty while operational; +10 effective bonus to Strength and Strength (Might) tests; +2 Speed and +4 to Constitution (Endurance); integral rifle doing 3d6 + Perception; +2 Dexterity (Stealth) with the camouflage package; +2 Perception with the sensor package; all benefits of a vac suit. If it loses power it becomes deadweight and the wearer is restrained. Not available for purchase.</p>",
+    "longDesc": "<p>One of the most fearsome sights on the battlefield is military power armor, like the Goliath suits worn by Martian Marines. Two and a half meters tall, and weighing 400 kilograms even before a soldier climbs inside, power armor provides both a formidable offense and defense. Half armor and half spacesuit, the armor has radiation shielding sufficient to let soldiers walk through a nuclear bomb crater minutes after the blast. The armor’s titanium and ceramic-composite exterior shielding is typically painted with camouflage patterns appropriate to the assignment, and enemies are often surprised just how well an enormous soldier in power armor can blend into the environment when they stand still. The armor’s hydraulics system magnifies the wearer’s strength much like a mech rig and carries most of the weight of the suit, allowing soldiers in power armor to undertake marathon hikes and move surprisingly fast. They also allow the armor to carry heavy weaponry, typically a rotary machine gun and sometimes a grenade launcher or micro-missile pack. Sensor packages feed data to the wearer on the helmet’s HUD, allowing them to identify and track infrared targeting lasers used by opponents’ weapons, and even visually parse those weapons using the suit’s camera feeds to match them against an internal database. Those same cameras monitor in all directions, sending feeds back to squad officers and their military command center, which can monitor the life signs of both the soldiers and opponents who have been detected and attacked. Despite all these capabilities, power armor is still designed for maneuverability in tight spaces, enabling infantry to move in microgravity and storm their way through the narrow confines of ships. Less so, however, is the newest addition to the Martian arsenal: 4-meter tall, 9-ton combat mechs, walking tanks carrying rail guns and missiles adapted from ship weapon systems. They are strictly ground-assault troops, so their deployment is rather limited, but there are few installations or opponents able to stand against them for long. In The Expanse game terms, power armor grants the wearer the benefits listed below. If power armor loses power, it becomes massive deadweight, effectively leaving the wearer restrained and unable to use any of the armor’s systems. Power armor requires regular maintenance activities during interludes to remain in full working order (see Interludes in Chapter 5).</p><p>Armor bonus +12, armor penalty 0. Not available for purchase.</p>",
     "weight": 0,
     "cost": 0,
     "quantity": 1,
     "equiped": false,
     "modifiers": {
-      "jI1JGtYQ8hRexNeC": {
+      "e2caecb036d4e1b3": {
         "type": "impactArmor",
         "formula": "12",
         "flavor": "",
@@ -28,7 +28,7 @@
         "valid": true,
         "conditions": {},
         "ftype": "",
-        "key": "jI1JGtYQ8hRexNeC"
+        "key": "e2caecb036d4e1b3"
       }
     }
   },

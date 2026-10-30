@@ -1,0 +1,28 @@
+{
+  "name": "Med-Injector",
+  "_id": "ab8149600430ee84",
+  "_key": "!items!ab8149600430ee84",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Implanted drug and stimulant injectors allow you to take a breather once during an encounter with an Activate action (see Breathers in Chapter 5 ). The Med-Injector also activates automatically if you are reduced to 0 Fortune.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

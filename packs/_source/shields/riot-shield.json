@@ -1,7 +1,7 @@
 {
   "name": "Riot Shield",
-  "_id": "N0Btbzbix3bTZjya",
-  "_key": "!items!N0Btbzbix3bTZjya",
+  "_id": "42fe54bcdc0e2bcf",
+  "_key": "!items!42fe54bcdc0e2bcf",
   "folder": null,
   "sort": 0,
   "flags": {},
@@ -14,13 +14,13 @@
   "type": "equipment",
   "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
   "system": {
-    "longDesc": "<p>A small body shield, usually made of an anti-ballistic and impact-resistant polymer, commonly transparent. Grants a +2 Defense bonus.</p>",
+    "longDesc": "<p>A small body shield usually made of an anti-ballistic and impact-resistant polymer. Riot shields are commonly transparent so as not to obstruct the user’s field of vision.</p><p>Defense bonus +2, Income TN 13.</p>",
     "weight": 0,
     "cost": 13,
     "quantity": 1,
     "equiped": false,
     "modifiers": {
-      "NEBs7MH9nd5LA4GE": {
+      "516e6c54601c3a36": {
         "type": "defense",
         "formula": "2",
         "flavor": "",
@@ -28,7 +28,7 @@
         "valid": true,
         "conditions": {},
         "ftype": "",
-        "key": "NEBs7MH9nd5LA4GE"
+        "key": "516e6c54601c3a36"
       }
     }
   },

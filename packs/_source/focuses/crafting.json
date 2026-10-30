@@ -1,8 +1,8 @@
 {
   "name": "Crafting",
-  "_id": "LhCDKMwEAghDjCTt",
-  "_key": "!items!LhCDKMwEAghDjCTt",
-  "folder": "F9dk45ZVyiRvDt45",
+  "_id": "c991bbc97c4c068e",
+  "_key": "!items!c991bbc97c4c068e",
+  "folder": "24d5b9a122c50245",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "focus",
   "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
   "system": {
-    "longDesc": "<p>Making things with manual skills, including the various fine and plastic arts. Examples of specific Crafting focuses include Carpentry, Carving, Drawing, Glass-blowing, Leather-working, Painting, Origami, Sculpting, and so forth.</p>",
+    "longDesc": "<p>Making things with manual skills, including the various fine and plastic arts. Examples of specific Crafting focuses include Carpentry, Carving, Drawing, Glass-blowing, Leather-working, Painting, Origami, Sculpting, and so forth, but feel free to come up with your own. See the Unusual Focuses sidebar for more.</p>",
     "useAbl": "dex",
     "initialValue": 2
   },

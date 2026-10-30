@@ -1,8 +1,8 @@
 {
   "name": "Perceived Weakness",
-  "_id": "TqM9oIFk392stHPU",
-  "_key": "!items!TqM9oIFk392stHPU",
-  "folder": "dPhyZYcxqCcyUgIT",
+  "_id": "142ae57a4518775c",
+  "_key": "!items!142ae57a4518775c",
+  "folder": "148550387751e9f4",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,8 +14,8 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>You increase the damage of one successful weapon attack by 1d6. This stunt is a risk, as it has to come in Step 5 of the round, and requires a successful hit.</p>",
-    "type": "Space Combat Command",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p><em>A gunner has access to the Weapon Online and On-Target Command stunts.</em></p><p>You increase the damage of one successful weapon attack by 1d6. Note that this stunt is risky since it has to come in Weapon Attacks phase of the round and requires a successful hit.</p>",
+    "type": "Gunnery",
     "stuntPoints": 3,
     "stuntPointsMax": 3,
     "costType": "fixed"

@@ -1,0 +1,17 @@
+{
+  "name": "Specialists",
+  "type": "Actor",
+  "folder": null,
+  "sorting": "a",
+  "sort": 400000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "4c637dca0422b145",
+  "_key": "!folders!4c637dca0422b145",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

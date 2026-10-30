@@ -1,8 +1,8 @@
 {
   "name": "Good Instincts",
-  "_id": "53gc6S8USeueHg5e",
-  "_key": "!items!53gc6S8USeueHg5e",
-  "folder": "i9FAKCYRBr8cJoGO",
+  "_id": "f47d29536a68b0cd",
+  "_key": "!items!f47d29536a68b0cd",
+  "folder": "e6a09dfc5152643c",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Core stunt.</em> Make a Perception test using an appropriate focus (GM’s choice) with the same TN as the test you just made to learn the most likely immediate consequence of the action you just performed.</p>",
+    "longDesc": "<p><em>Cost: 1 SP</em></p><p><em>Infiltration stunts may apply when physically breaking in somewhere or exploring a new place, hacking into a computer or network, pulling a con job, or otherwise evading consequences and getting away with things.</em></p><p>Make a Perception test using an appropriate focus (GM’s choice) with the same TN as the test you just made to learn the most likely immediate consequence of the action you just performed.</p>",
     "type": "Infiltration",
     "stuntPoints": 1,
     "stuntPointsMax": 1,

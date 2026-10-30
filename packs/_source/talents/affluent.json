@@ -1,8 +1,8 @@
 {
   "name": "Affluent",
-  "_id": "Inoy8DfOt05kse0M",
-  "_key": "!items!Inoy8DfOt05kse0M",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "fb93ab208e298cc7",
+  "_key": "!items!fb93ab208e298cc7",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "longDesc": "<p>You have access to greater resources than most.</p>",
     "shortDesc": "",
-    "requirement": "",
+    "requirement": "None",
     "type": "talent",
     "degree": 0,
     "activate": true,
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>When you gain this degree, increase your Income by +1. You can re-roll a failed Income test, but must keep the result of the second roll.</p>",
+      "desc": "<p>When you gain this degree, increase your Income by +1. You can re-roll a failed Income test but must keep the result of the second roll.</p>",
       "isActive": true
     }
   },

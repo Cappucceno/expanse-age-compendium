@@ -1,0 +1,17 @@
+{
+  "name": "Electronic Equipment",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "a824f49866272be9",
+  "_key": "!folders!a824f49866272be9",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

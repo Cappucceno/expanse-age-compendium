@@ -1,0 +1,306 @@
+{
+  "name": "Chapter 2: Character Creation",
+  "pages": [
+    {
+      "_id": "33dbcad1c3ee80b9",
+      "name": "Introduction",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>ike an actor on a stage, your <strong>character</strong> is how you take part in <em>The Expanse Roleplaying Game</em>, your alter ego in the context of the game’s universe. The <strong>player characters </strong>are those created by the players for this purpose. Since the stories 2: Character Creationfeatured in the game revolve around the player characters, it is important to define who they are, what they can do, and what they want. It’s important to take some time to consider all of these questions about your character.</p><h2>Getting Started</h2><p>This chapter provides all of the steps to create an <em>Expanse</em> character, presented in order so you can go through the chapter, step by step, as you build your alter ego. You may encounter unfamiliar rules or game terms here for the first time: Don’t worry! They are explained in detail in the following chapters of this book; don’t be afraid to look up an unfamiliar game term in the <strong>Glossary</strong> section at the back of this book and then come back to where you left off. When you begin creating a character, in addition to this chapter, you will likely want a copy of the character sheet presented in the back of the book. This is a paper record of your character that you can use as a kind of “worksheet” when building a character as well as a reference during gameplay. You can photocopy the sheet in the back of the book or download and print out an electronic version of the sheet from <em>greenronin.com</em>. You’ll also want some scratch paper for making notes and considering your options, something to write with, and three six-sided dice.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.33dbcad1c3ee80b9",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "938e6246a8de89dd",
+      "name": "Character Creation in Ten Easy Steps",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Making an <em>Expanse </em>character is a process of ten steps, outlined here and detailed in the rest of this chapter. Just follow the steps and, at the end, you’ll have a complete new character!</p><p>1Consider the type of character you want to play and that character’s overall role in the group of char- CONCEPT acters the other players will create.</p><p>2Determine your character’s core physical and mental abilities. These are areas where your character</p><p><strong>ABILITIES</strong> is strong or talented, average, or on the weak side.</p><p>3Choose a place of origin for your character, whether they are an Earther, Martian, or Belter. ORIGIN</p><p>4Choose a background that describes what your character’s earlier life was like and the capabili-</p><p><strong>BACKGROUND</strong> ties your character gained from it.</p><p>5Choose a profession that defines what your character does now—or did just before the first adven-</p><p><strong>PROFESSION</strong> ture—which provides additional things the character can do.</p><p>6Decide what drives your character and why they do the things they do. DRIVE 7Based on background and other factors, find out what your character’s Income looks like. INCOME</p><p>8SECONDARY ABILITIES Figure out your character’s Defense, Speed, and Toughness scores based on their abilities</p><p><strong>AND FORTUNE</strong> and their starting Fortune score.</p><p>9GOALS Based on everything you’ve worked out thus far, choose your character’s goals, both short and long</p><p><strong>AND TIES</strong> term, and your character’s ties with other characters.</p><p>10NAME AND Lastly, give your character a name and describe both the character’s appearance and overall</p><p><strong>DESCRIPTION</strong> personality and reputation.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.938e6246a8de89dd",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "35e7b304c2986da1",
+      "name": "Character Creation in Ten Easy Steps: Step 1: Concept",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Come up with the type of character you’re interested in playing. You may want to read through the options in this and the following chapters for a sense of the range “Rebecca Byers, the comm officer on duty, could of characters you can create and play, especially if you are not already familiar with have been bred from a shark and a hatchet.” <em>The Expanse</em> setting and characters. Talk with the GM and the other players in your</p><p>— <em>Leviathan Wakes</em> group about your character concept and how well it will fit into the kind of game the GM is looking to run and the kind of characters the other players want to create. For example, a hard-bitten ex-mercenary might or might not fit in with a game about Martian naval officers but could easily have a place in one focusing on a team of for-hire medical experts, even if just as a bodyguard for other characters. You may also want to come up with a set of abilities, as detailed in <strong>Step 2</strong>, and then consider potential concepts that work with those abilities as a jumping-off point.</p><p><strong>EXAMPLE</strong> <em>We’re creating an Expanse character for a game set in the Belt and the outer planets and want someone with some experience aboard ships and stations. Let’s also focus on a character with some technical skills.</em></p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.35e7b304c2986da1",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "01f68cdaee6fe0e6",
+      "name": "Character Creation in Ten Easy Steps: Step 2: Abilities",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>AGE System</em> characters are defined by nine <strong>abilities</strong>. They’re scored on a numeric scale from −2 (quite poor) to 4 (truly outstanding). A score of 1 is considered average for player characters and other extraordinary people. 0 is average for everyday individuals, the sort of folks who avoid having adventures. Your character’s ability scores provide a useful “snapshot” of the areas where your character is outstanding, above average, poor, or just average, and you use ability scores to determine the outcome of most actions in the game via ability tests. The abilities in <em>The Expanse</em> are:</p><table><tbody><tr><td>ACCURACYMeasures aim and</td><td>DEXTERITYDeftness, agility, and</td><td>PERCEPTIONThe ability to pick</td></tr><tr><td>precision; your ability to hit targets</td><td>reaction time, affecting how quickly</td><td>up on and notice things using any</td></tr><tr><td>with ranged or thrown weapons.</td><td>and gracefully you move.</td><td>of the character’s senses.</td></tr></tbody></table><p>COMMUNICATIONcovers social FIGHTINGCapability in close STRENGTHSheer muscle power</p><table><tbody><tr><td>skills and generally making friends</td><td>combat, ranging from brawling to</td><td>and the ability to apply it, from lifting</td></tr><tr><td>and influencing people.</td><td>wielding advanced melee weapons.</td><td>heavy things to feats of athletics.</td></tr></tbody></table><p>CONSTITUTIONYour character’s INTELLIGENCE</p><p>A character’s mind, WILLPOWERSelf-control, mental</p><table><tbody><tr><td>overall health, fortitude, and resis-</td><td>reasoning, ability to problem-solve,</td><td>fortitude, self-discipline, and confi-</td></tr><tr><td>tance to harm, illness, and fatigue.</td><td>memory, and overall knowledge.</td><td>dence.</td></tr></tbody></table><h3>Determining Abilities</h3><p>DETERMINING ABILITIES 3D6 ROLLABILITY SCORE</p><p>Roll dice to determine your character’s starting ability scores. You need three six-sided dice 3–2 (3d6). Roll all three and add the numbers together to get a result from 3 to 18. If you roll 3, 4, and</p><table><tbody><tr><td>4</td><td>–1</td><td>6, for example, your result is 13 (3 + 4 + 6 = 13).</td></tr><tr><td>5</td><td>–1</td><td>Make nine such rolls, one for each ability. Then consult the <strong>Determining Abilities</strong> table to see</td></tr><tr><td>6</td><td>0</td><td>what ability score each roll gives each ability. A roll of 11 on the table, for example, means the abil-</td></tr></tbody></table><p>ity’s starting score is 1. When you are done with all nine abilities, you can swap any two scores. 70 This gives you a chance to customize your character a bit further. 80</p><table><tbody><tr><td>9</td><td>1</td><td><strong>EXAMPLE</strong><em>Starting off, we make nine 3d6 rolls on the <strong>Determining Abilities</strong> table, giving the character </em></td></tr></tbody></table><p><em>the following scores: Accuracy 2, Communication 1, Constitution 0, Dexterity 2, Fighting 1, Intelligence 1, </em> 101 <em>Perception 2, Strength 3, Willpower 2. Since we want more of a technical character, let’s swap the rolled </em></p><table><tbody><tr><td>11</td><td>1</td><td><em>Strength and Intelligence scores, for Intelligence 3, Strength 1.</em></td></tr></tbody></table><p>122</p><h3>Ability Focuses</h3><p>132</p><table><tbody><tr><td>14</td><td>2</td><td>An <strong>ability focus</strong> (or just <strong>focus,</strong> for short) is an area of specialty or expertise within the broader</td></tr><tr><td>15</td><td>3</td><td>ability. For example, while Intelligence determines in general how smart and knowledgeable</td></tr><tr><td>16</td><td>3</td><td>your character is, the Research focus indicates your character is particularly capable when it</td></tr></tbody></table><p>comes to digging up information using available resources. In game terms, if you have a focus, 173 your ability is effectively 2 higher than normal when working within that focus or specialty. This is</p><table><tbody><tr><td>18</td><td>4</td><td>explained in detail in <strong>Chapter 3</strong>.</td></tr></tbody></table><p>Focuses add detail and definition to your character. While there may be another char-</p><h4>Ability Options</h4><p>acter in the group who is just as accurate, for example, having the same Accuracy score, Character creation in <em>The Expanse</em> is your character might have the Pistols focus while the other character has a focus in presented with beginning gamers in Rifles, or none at all. mind. Random rolls make the process Your character gains focuses through background, profession, and drive, so you choose easier because they cut down on deci-them during those steps. You can find details on specific ability focuses in <strong>Chapter 3</strong>. sion-making. If you have some experi- <em>The Expanse</em> includes the following focuses. Other focuses may appear in various <em>AGE </em> ence or just prefer more control when determining your character’s abilities, <em>System</em> setting and source books, and your GM may introduce new ones to suit the game: you can use one of the following two options, with your GM’s permission.ABILITY FOCUSES</p><p>OPTION 1: ARRANGING ABILITIESACCURACYBows, Gunnery, Pistols, Rifles, Throwing</p><p>Roll your abilities randomly, as described</p><p>Bargaining, Deception, Disguise, Etiquette, Expression, Gambling, under <strong>Determining Abilities</strong>. However, COMMUNICATION you can arrange the results in whatever Investigation, Leadership, Performing, Persuasion, Seduction order you wish, deciding which result goes with which ability. Instead of rolling CONSTITUTIONRunning, Stamina, Swimming, Tolerance the abilities in order, just make nine rolls on the <strong>Determining Abilities</strong> table and Acrobatics, Crafting, Driving, Free-fall, Initiative, Piloting, Sleight of assign the results to the nine abilities as DEXTERITY Hand, Stealth you see fit. OPTION 2: BUYING ABILITIESFIGHTINGBrawling, Grappling, Heavy Weapons, Light Weapons</p><p>Your character’s abilities all start at 0 and Art, Business, Cryptography, Current Affairs, Demolitions, you get 12 advancements to increase</p><p><strong>INTELLIGENCE</strong> Engineering, Evaluation, Law, Medicine, Navigation, Research, them. Each advancement increases an Science, Security, Tactics, Technology ability by 1, but no ability can be greater than 3. You must spend all 12 advancements. The later steps of character Empathy, Hearing, Intuition, Searching, Seeing, Smelling, Survival, PERCEPTION creation can increase your abilities, as Tasting, Touching, Tracking usual. Note that under this system you cannot have abilities lower than 0, nor do STRENGTHClimbing, Intimidation, Jumping, Might you have a chance of getting an ability score of 4.WILLPOWERCourage, Faith, Self-Discipline</p><h4>Talent Requirements</h4><p>Many of the talents described in <strong>Chapter 3 </strong>have specific require - ments—a minimum ability score or focus, for example—these requirements apply only to acquiring the talent through advancement and do not apply during character creation. If the talent appears as part of your character’s background, profession, or drive, then you can ignore the listed requirements.</p><p>STACKED TRAITS</p><p>In some instances, combinations of origin, background, profession, and drive may give a character the same ability focus or the same talent more than once. In cases where focuses and talents “stack”, use the following general rules:</p><ul><li>If a character already has an ability focus and would acquire that focus again, choose one of the other options available. If no other option is presented, take another focus of your choice.</li><li>If a character already has a degree of a talent and acquires that talent again, gain the next degree of the talent.</li></ul>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.01f68cdaee6fe0e6",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "827c6a19973754a6",
+      "name": "Character Creation in Ten Easy Steps: Step 3: Origin",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>As humanity has spread throughout the System, where you are from has increasingly had an effect on who you are. There are people for whom Earth is just a distant story they’ve heard about and seen on screens, who have never experienced being outside without a vac suit. Consider and choose your character’s origin. If you want to decide randomly, just roll a die:</p><h3>Origin and Native Gravity</h3><p>Each origin has a “native gravity” to which it is acclimated: microgravity (less than 0.1 g), low-gravity (between 0.1 and 0.8 g or so), or normal gravity (1 g, or slightly more or less). There are also heavy gravity (2 g or more) and very heavy gravity (4 g or more), which can be encountered as a result of acceleration or some colony worlds. Gravity conditions can impact a character’s actions and even apply penalties depending upon their native gravity. The Gravity Penalties table provides details for the penalties and Conditions (see <strong>Conditions</strong> in <strong>Chapter 1</strong>) applied under different gravities based on your origin. The penalties apply to any test that involves physical activity.</p><p>GRAVITY PENALTIES</p><table><tbody><tr><td>GRAVITY</td><td>BELTERS</td><td>EARTHERS</td><td>MARTIANS</td></tr><tr><td>Microgravity</td><td>— (none)</td><td>–2</td><td>–1</td></tr><tr><td>Low g</td><td>Fatigued</td><td>–1</td><td>—</td></tr><tr><td>Normal g</td><td>Hindered</td><td>— (none)</td><td>Fatigued</td></tr><tr><td>Heavy g</td><td>Restrained</td><td>Fatigued</td><td>Hindered</td></tr><tr><td>Very Heavy g</td><td>Restrained</td><td>Hindered</td><td>Restrained</td></tr></tbody></table><p>BELTER</p><p>You were born and raised in the Black, on a station or ship, and have lived most, if not all, of your life out in the Belt or the Outer Planets. Separated from death by nothing more than basic support systems your whole life, you have learned to be cautious and aware of your environment. As a Belter, your character has the following traits:</p><ul><li>Your native gravity is microgravity; Belters are most comfortable “on the float” and handle moving in free-fall easily. You automatically have the Dexterity (Free-fall) focus. Conversely, Earth-normal gravity is crushingly heavy for a Belter.</li><li>You speak Belter Creole, a combination of loan-words and phrases from various languages, combined with gestures useful for communicating while wearing a vac suit and unable to speak.</li><li>Belters tend to be tall and willowy as a result of being raised in low- or microgravity environments. Regimens of bone-density drugs and genetic treatments are needed to keep Belters healthy, and some Belters have minor physical abnormalities because of this.</li><li>Belters often have a diverse ethnic heritage, given the “melting pot” of the Belt, with ancestors from many different Earth cultures.</li></ul><p>EARTHER</p><p>With a population of some 30 billion, many Earthers are unemployed and live on government-provided Basic Assistance (generally known as just “Basic”), which provides for their essential food, housing, and medical needs, but little else. You are likely one of the few to leave Earth to find a new life elsewhere. As an Earther, your character has the following traits:</p><ul><li>Your native gravity is normal gravity—”Earth-normal” or 1 g. Earthers can and do learn to operate in lower gravity but lack the instincts of people raised in it.</li><li>Earthers have greater muscle and bone density from being raised in a gravity well, making them shorter and more broadly built than Belters or even native-born Martians, but Earthers in space need regular exercise and medical treatments to avoid muscle atrophy and bone density loss.</li></ul><p>MARTIAN</p><p>Born in Martian Congressional Republic, your life has been influenced by the Martian dream: to terraform the Red Planet into a lush and life-sustaining garden. Like the generations before you, you know that you will likely never see the completion of this work in your lifetime. As a Martian, your character has the following traits:</p><ul><li>Your native gravity is low—the gravity of Mars rather than Earth. Martians are more comfortable with microgravity than Earthers and better able to tolerate a full 1 g than Belters, giving them more flexibility than the other</li></ul><p>two origins.</p><p><strong>EXAMPLE</strong></p><p><em> Since our game takes place out in the Belt, we decide to go with a Belter origin, although some of the characters may have different ones. We take note of the Belter traits; hopefully, the characters won’t be spending much time in normal gravity environments like Earth.</em></p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.827c6a19973754a6",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "afbb8fa00989b90f",
+      "name": "Character Creation in Ten Easy Steps: Step 4: Background",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Characters don’t just spring from nowhere, fully formed. Their stories started somewhere; they had a life and experiences prior to the start of the story being told around the game table. This is the “Same here, Cap’n,” Amos said.</p><p>“I got a lot of past in my past.”</p><p>Backgrounds are broad by design. They offer room for deciding exactly what a given background means in the context of your character’s story. Backgrounds are intended to offer inspira-<em>— Abaddon’s Gate</em> tion as to your character’s history, early life, and personality. Determining your character’s background involves two rolls: First, roll on the <strong>Social Class</strong> table for your character’s origin. Once you have that result, roll on the appropriate backgrounds table for that social class. So if your character is Middle Class, roll 1d6 on the <strong>Middle Class Backgrounds</strong> table and record the result. At the Game Master’s discretion, you can just choose your character’s social class, background, or both, rather than rolling on the tables.</p><table><tbody><tr><td>BELTER</td><td>EARTHER</td><td>MARTIAN</td><td></td></tr><tr><td>2–5</td><td>2–3</td><td>2</td><td>Outsider</td></tr></tbody></table><p><strong>• A roll on a benefits table for the background, giving the character one addi-</strong> 6–84–63–6Lower Class tional benefit.</p><h3>Social Class Descriptions</h3><table><tbody><tr><td>9–11</td><td>7–10</td><td>7–11</td><td>Middle Class</td></tr><tr><td>12</td><td>11–12</td><td>12</td><td>Upper Class</td></tr></tbody></table><h3>Background Descriptions</h3><p>Feel free to fill out the framework of your character’s background with details about how it affected the character’s early life, and how that relates to the traits the background provides. For example, a character with a corporate background might be the scion of an upper class family with an important position in the business world, groomed to inherit the family business. But what business is it, and did the character accept this future or seek to forge a different path? How did those choices bring the character to where they are now?</p><p><strong>EXAMPLE</strong> <em> Rolling a die on the <strong>Lower Class Backgrounds</strong> table, we get a 5 for Urban. Looking at the background, we give our character +1 Dexterity and choose the Misdirection talent and the Communication (Persuasion) focus, feeling like our techie character is more cunning than athletic. Then we roll once on the <strong>Urban Benefits Table</strong>, getting an 8 for +1 Perception.</em></p><p>OUTSIDER MIDDLE CLASS BACKGROUNDSBACKGROUNDS</p><table><tbody><tr><td>1D6</td><td>BACKGROUND</td><td>1D6</td><td>BACKGROUND</td></tr><tr><td>1–2</td><td>Bohemian</td><td>1–2</td><td>Academic</td></tr><tr><td>3–4</td><td>Exile</td><td>3–4</td><td>Suburban</td></tr><tr><td>5–6</td><td>Outcast</td><td>5–6</td><td>Trade</td></tr></tbody></table><p>LOWER CLASS UPPER CLASS BACKGROUNDSBACKGROUNDS</p><table><tbody><tr><td>1D6</td><td>BACKGROUND</td><td>1D6 ROLL</td><td>BACKGROUND</td></tr><tr><td>1–2</td><td>Military</td><td>1–2</td><td>Aristocratic</td></tr><tr><td>3–4</td><td>Laborer</td><td>3–4</td><td>Corporate</td></tr><tr><td>5–6</td><td>Urban</td><td>5–6</td><td>Cosmopolitan</td></tr></tbody></table><h4>Academic Middle</h4><p>You spent a lot more time at schools and academic environments than your peers. Perhaps you lived at a boarding school on Earth or Luna, or even one of the outer planets. You’re inclined to be a bit more bookish and to know your way around academic institutions.</p><p><strong>ABILITY</strong> +1 Intelligence</p><p>ACADEMIC BENEFITS 2D6BENEFIT 2+1 Communication 3–4<strong>Focus:</strong> Intelligence (Research) 5+2 Income 6<strong>Focus:</strong> Intelligence (History) 7–8+1 Perception 9<strong>Focus:</strong> Willpower (Self-Discipline) 10–11<strong>Focus:</strong> Intelligence (choose one) 12+1 Willpower</p><p>ARISTOCRATIC UPPERARISTOCRATIC UPPER</p><p>You come from a family with a history of privilege and responsibility. You might actually be nobility from an Earth culture that still has it, or “just” belong to an important family with wealth and influence, or even a prominent Belter family.</p><p><strong>ABILITY</strong> +1 Communication</p><p><strong>FOCUS</strong> (History)</p><p>ARISTOCRATIC BENEFITS 2D6BENEFIT 2+1 Accuracy 3–4+2 Income 5<strong>Focus:</strong> Communication (Persuasion) 6<strong>Focus:</strong> Dexterity (Piloting) 7–8+1 Perception 9<strong>Focus:</strong> Communication (Gambling) 10–11<strong>Focus:</strong> Communication (Leadership) 12+1 Willpower</p><h4>Bohemian Outsider</h4><p>You grew up in an experimental, eccentric, or creative community. Perhaps you belonged to a commune, cult, or artist colony. An Earther might be the child of a group or polyam-orous marriage or some “off the grid” intentional community. As a Belter you might be from a station or ship that maintains an unorthodox lifestyle. You’re unfamiliar with some of the things people take for granted. You might be trying to fit into mainstream society after some time away, or you might revel in your offbeat nature.</p><p><strong>ABILITY</strong> +1 Communication</p><p><strong>FOCUS</strong> (choose one)</p><p>BOHEMIAN BENEFITS 2D6 ROLLBENEFIT 2+1 Dexterity 3–4<strong>Focus:</strong> Perception (Empathy) 5<strong>Focus:</strong> Willpower (Courage or Faith) 6<strong>Focus:</strong> Communication (choose one) 7–8+1 Constitution 9<strong>Focus:</strong> Dexterity (Acrobatics or Free-fall) 10–11<strong>Focus:</strong> Communication (Persuasion) 12+1 Perception</p><p>CORPORATE UPPERCORPORATE UPPER</p><p><strong>ABILITY</strong> +1 Communication</p><p><strong>FOCUS</strong> (Business)</p><p>CORPORATE BENEFITS 2D6 ROLLBENEFIT 2+1 Perception 3–4<strong>Focus:</strong> Communication (Persuasion) 5<strong>Focus:</strong> Intelligence (Evaluation) 6<strong>Focus:</strong> Perception (Empathy) 7–8+1 Intelligence 9<strong>Focus:</strong> Communication (Expression) 10–11<strong>Focus:</strong> Communication (Leadership)</p><h4>Cosmopolitan Upper</h4><p><strong>ABILITY</strong> +1 Intelligence</p><p><strong>FOCUS</strong> (Current Affairs)</p><p>COSMOPOLITAN BENEFITS 2D6 ROLLBENEFIT 2+1 Perception 3–4<strong>Focus:</strong> Intelligence (choose one) 5<strong>Focus:</strong> Communication (Persuasion) 6<strong>Focus:</strong> Intelligence (Art) 7–8+1 Communication 9<strong>Focus:</strong> Communication (Bargaining) 10–11<strong>Focus:</strong> Perception (Seeing) 12+1 Willpower</p><p>EXILE OUTSIDEREXILE OUTSIDER</p><p><strong>ABILITY</strong> +1 Constitution</p><p>EXILE BENEFITS 2D6 ROLLBENEFIT 2+1 Fighting 3–4<strong>Focus:</strong> Communication (Bargaining) 5<strong>Focus:</strong> Dexterity (Stealth) 6<strong>Focus:</strong> Perception (Searching) 7–8+1 Perception 9<strong>Focus:</strong> Accuracy (Pistols) 10–11<strong>Focus:</strong> Dexterity (Driving) 12+1 Willpower</p><h4>Military Lower</h4><p><strong>ABILITY</strong> +1 Fighting</p><p>MILITARY BENEFITS 2D6 ROLLBENEFIT 2+1 Willpower 3–4<strong>Focus:</strong> Accuracy (Rifles) 5<strong>Focus:</strong> Communication (Leadership) 6<strong>Focus:</strong> Intelligence (Security) 7–8+1 Strength 9<strong>Focus:</strong> Perception (Searching) 10–11<strong>Focus:</strong> Fighting (Brawling) 12+1 Constitution</p><p>OUTCAST OUTSIDEROUTCAST OUTSIDER</p><p><strong>ABILITY</strong> +1 Willpower</p><p><strong>FOCUS</strong> (Stealth)</p><p>OUTCAST BENEFITS 2D6 ROLLBENEFIT 2+1 Perception 3–4<strong>Focus:</strong> Perception (Seeing) 5<strong>Focus:</strong> Fighting (Light Weapons) 6<strong>Focus:</strong> Intelligence (Technology) 7–8+1 Constitution 9<strong>Focus:</strong> Dexterity (Sleight of Hand) 10–11<strong>Focus:</strong> Willpower (Courage) 12+1 Communication</p><h4>Laborer Lower</h4><p>Your family is used to hard, physical work—and so are you. Generations have worked the factory line, or the mines, the assembly line, or the dockyards. You might be looking to move on and move up from there, or stick with it, or something might have upended the life you once knew, forcing you to move on.</p><p><strong>ABILITY</strong> +1 Constitution</p><p>LABORER BENEFITS 2D6 ROLLBENEFIT 2+1 Fighting 3–4<strong>Focus:</strong> Fighting (Brawling) 5<strong>Focus:</strong> Intelligence (Engineering) 6<strong>Focus:</strong> Willpower (Self-Discipline) 7–8+1 Strength 9<strong>Focus:</strong> Communication (Gambling) 10–11<strong>Focus:</strong> Constitution (Stamina) 12+1 Dexterity</p><p>SUBURBAN MIDDLESUBURBAN MIDDLE</p><p><strong>ABILITY</strong> +1 Communication</p><p><strong>FOCUS</strong> (Current Affairs)</p><p>SUBURBAN BENEFITS 2D6 ROLLBENEFIT 2+1 Dexterity 3–4<strong>Focus:</strong> Intelligence (choose one) 5+2 Income 6<strong>Focus:</strong> Communication (Persuasion) 7–8+1 Perception 9<strong>Focus:</strong> Perception (choose one) 10–11<strong>Focus:</strong> Dexterity (Driving) 12+1 Intelligence</p><h4>Trade Middle</h4><p>Your family lived off a skilled trade of some sort. It might not have been glamorous (far from it, quite possibly) but it definitely paid the bills. You may have picked up some practical lessons and skills along the way. Perhaps you were ready to enter the family trade yourself, but you yearned for something new—and even dangerous.</p><p><strong>ABILITY</strong> +1 Dexterity</p><p>TRADE BENEFITS 2D6 ROLLBENEFIT 2+1 Strength 3–4<strong>Focus:</strong> Intelligence (Technology) 5<strong>Focus:</strong> Intelligence (Art) 6<strong>Focus:</strong> Constitution (Tolerance) 7–8+1 Perception 9<strong>Focus:</strong> Fighting (Grappling) 10–11<strong>Focus:</strong> Constitution (Stamina) 12+1 Constitution</p><h4>Urban Lower</h4><p>You lived in the inner city or in the most densely inhabited part of a large station in the depths of an asteroid or moon. This was not a place with private security and luxury, but rather in the core of the city. Its streets, vacant lots, and abandoned structures were your playgrounds. You know the ins and outs of an urban environment, even if it’s not the particular city where you lived. You know how to navigate the city’s dangers and where to find what you need.</p><p><strong>ABILITY</strong> +1 Dexterity</p><p><strong>FOCUS</strong> (Stamina)</p><p>URBAN BENEFITS 2D6 ROLLBENEFIT 2+1 Accuracy 3–4<strong>Focus:</strong> Dexterity (Acrobatics) 5<strong>Focus:</strong> Communication (Deception) 6<strong>Focus:</strong> Dexterity (Sleight of Hand) 7–8+1 Perception 9<strong>Focus:</strong> Perception (Hearing) 10–11<strong>Focus:</strong> Strength (Climbing or Jumping) 12+1 Fighting</p>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.afbb8fa00989b90f",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "ae7ebefe2a6d9915",
+      "name": "Character Creation in Ten Easy Steps: Step 5: Profession",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Your character’s <strong>profession</strong> describes what they do, their vocation, their training, and, often, how they earn a living. Your character’s profession provides the following benefits:</p><p>PROFESSION OUTSIDER MIDDLE CLASS</p><table><tbody><tr><td>1D6</td><td>PROFESSION</td><td>1D6</td><td>PROFESSION</td></tr><tr><td>1</td><td>Brawler</td><td>1</td><td>Pilot</td></tr><tr><td>2</td><td>Survivalist</td><td>2</td><td>Security</td></tr><tr><td>3</td><td>Criminal</td><td>3</td><td>Professional</td></tr><tr><td>4</td><td>Scavenger</td><td>4</td><td>Scholar</td></tr><tr><td>5</td><td>Fixer</td><td>5</td><td>Merchant</td></tr><tr><td>6</td><td>Artist</td><td>6</td><td>Politician</td></tr></tbody></table><p>LOWER CLASS UPPER CLASS</p><table><tbody><tr><td>1D6</td><td>PROFESSION</td><td>1D6</td><td>PROFESSION</td></tr><tr><td>1</td><td>Athlete</td><td>1</td><td>Commander</td></tr><tr><td>2</td><td>Soldier</td><td>2</td><td>Explorer</td></tr><tr><td>3</td><td>Investigator</td><td>3</td><td>Dilettante</td></tr><tr><td>4</td><td>Technician</td><td>4</td><td>Expert</td></tr><tr><td>5</td><td>Clergy</td><td>5</td><td>Executive</td></tr><tr><td>6</td><td>Negotiator</td><td>6</td><td>Socialite</td></tr></tbody></table><h3>Profession Descriptions</h3><h3>Professions Below Your Class</h3><p>You can choose a profession from a social class below yours or roll on a table below your social class, if you prefer. If you choose or roll for a profession of a lower social class, your character starts with the Income of the profession’s social class but gains +1 Income per level your social class is higher than that of the profession. For example, an upper class character who chooses the artist profession, which is outsider class, has +3 Income to that of the usual “starving” artist (Income 3 rather than the base 0 for an outsider profession).</p><h4>Artist Social, Outsider</h4><h4>Athlete Physical, Lower</h4><h4>Brawler Physical, Outsider</h4><h4>Clergy Social, Lower</h4><h4>Commander Physical, Upper</h4><p>You’re trained to lead military personnel in the field, as a noble calling or part of a professional elite. Your responsibility is to get the job done and to ensure as many of those under your command make it back as possible. Does a good commander put the first goal ahead of the second, or vice versa?</p><p><strong>FOCUS</strong> (Tactics)</p><h4>Criminal Skilled, Outsider</h4><p><strong>FOCUS</strong> (Forgery, Sleight of Hand, or Stealth)</p><h4>Dilettante Skilled, Upper</h4><p>With so many possible things to learn and do, how can you choose? You’re happy to sample from the banquet of possibilities laid out before you, learning as much as you can about something before moving on to the next interest or option.</p><p><strong>FOCUS</strong> Intelligence (Research) or Perception (choose one)</p><h4>Executive Social, Upper</h4><p><strong>FOCUS</strong> (Business)</p><h4>Expert Skilled, Upper</h4><p>“I’m an engineer, not a damned hairstylist,” Naomi said.</p><h4>Explorer Physical, Upper</h4><p><strong>FOCUS</strong> (choose one)</p><h4>Fixer Social, Outsider</h4><p><strong>FOCUS</strong> (Evaluation)</p><h4>Investigator Skilled, Lower</h4><p><strong>FOCUS</strong> (choose one)</p><h4>Merchant Social, Middle</h4><p><strong>FOCUS</strong> (Business)</p><h4>Negotiator Social, Lower</h4><h4>Pilot Physical, Middle</h4><p><strong>TALENT</strong> Pilot</p><p>“He’d never been to military pilot school, but he knew that years of training had compartmentalized Alex’s brain into two halves: piloting problems and, secondarily, everything else.”</p><p><em>— Leviathan Wakes</em></p><h4>Politician Social, Middle</h4><p>From neighborhoods to nations, people need to be organized for society to function. You know the tricks it takes to get people to cooperate in that process, sometimes whether they want to or not. Your speeches help people devise collective political dreams, but behind closed doors, you deal in the art of the possible. You might be virtuous or corrupt, but isn’t that a matter of perspective?</p><p><strong>FOCUS</strong> Intelligence (Current Affairs or Law)</p><h4>Professional Skilled, Middle</h4><p><strong>FOCUS</strong> Intelligence (one of Business, Research, or Technology</p><h4>Scavenger Skilled, Outsider</h4><p><strong>FOCUS</strong> (Searching)</p><h4>Scholar Skilled, Middle</h4><p>Knowledge and understanding are your fields, focused on a specific area of interest. Whereas the expert profession tends to be about applied knowledge, you focus on knowledge for knowledge’s sake. You might work in a university, or have an amateur obsession. You look to expand your own understanding of your field and, in so doing, perhaps expend the world’s understanding as well.</p><h4>Security Physical, Middle</h4><p><strong>FOCUS</strong> Intuition, or Seeing)</p><h4>Socialite Social, Upper</h4><h4>Soldier Physical, Lower</h4><h4>Survivalist Physical, Outsider</h4><p><strong>FOCUS</strong> (Survival)</p><h4>Technician Skilled, Lower</h4>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.ae7ebefe2a6d9915",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "7a10cc0192a5004c",
+      "name": "Character Creation in Ten Easy Steps: Step 6: Drive",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>DRIVE• A quality and a downfall. These help to guide roleplaying and your character’s choices. <strong>Roll 1d6:</strong> 1–3 = roll on <strong>Column 1</strong>, 4–6 = roll on <strong>Column 2</strong>• A choice of one of two specific talents given in the drive’s description.</p><table><tbody><tr><td>D6</td><td>COLUMN 1</td><td>COLUMN 2</td><td>• One of the following improvements: <strong>Fortune</strong> (+5 increase), <strong>Membership</strong></td></tr></tbody></table><table><tbody><tr><td>1</td><td>Achiever</td><td>Networker</td><td>honorific).</td></tr><tr><td>2</td><td>Builder</td><td>Penitent</td><td></td></tr></tbody></table><table><tbody><tr><td>3</td><td>Caregiver</td><td>Protector</td></tr></tbody></table><p><strong>Chapter 14: Rewards</strong>.</p><table><tbody><tr><td>4</td><td>Ecstatic</td><td>Rebel</td></tr></tbody></table><h3>Drive Descriptions</h3><table><tbody><tr><td>5</td><td>Judge</td><td>Survivor</td></tr><tr><td>6</td><td>Leader</td><td>Visionary</td></tr></tbody></table><p><strong>EXAMPLE</strong> <em> Looking over the drives, there are several appealing ones. Unsure which to choose, let’s roll randomly: We get a 5, indicating Column 2, and a 4, giving us Rebel, which suggests this character is a nonconformist who has gotten in trouble in the past. That fits. From this drive, we choose Improvisation to add to the character’s talents and Reputation for our improvement.</em></p><h4>Achiever</h4><p>You want to accomplish things for which you will be recognized. Some achievers want success, fame, and accolades, while others are looking to leave a legacy, something for which they will be remembered, but all achievers are keenly aware that life is short and everyone has the same number of hours in a day; it’s how you spend them that matters. Your quality is <strong>ambition</strong>, knowing what you want and going after it. Your downfall is <strong>obsession</strong>, becoming too focused on your goals and unable to see anything (or anyone) else.</p><h4>Builder</h4><p>You want to create something lasting. It might be an institution, an organization, a movement, a community, or something else. Unlike the Achiever, who is all about the accomplishment, you’re all about the end product, willing to do what it takes, for as long as it takes, to get there. Your quality is <strong>organization</strong>, being able to figure out how to structure “He hadn’t been aware things so they work. Your downfall is he’d felt wrong until he <strong>stubbornness</strong>, becoming so caught up in structure that you lose flex - suddenly felt right again.” ibility. <em>— Leviathan Wakes</em></p><h4>Caregiver</h4><h4>Ecstatic</h4><h4>Judge</h4><p>Life is all about making decisions and exercising good judgment. You believe in finding out as much as you can about things so you can make informed and carefully considered judgements about them. Your quality is <strong>discernment</strong>, paying close attention to details and information. Your downfall is <strong>aloofness</strong>, a tendency to distance yourself from the world around you to remain objective.</p><h4>Leader</h4><p>Somebody needs to stand up, take responsibility, and get things done. You might relish the opportunity to lead or take it up reluctantly but, either way, you’re a natural at it and it’s hard to resist an opportunity to take charge. Your quality is <strong>responsibility</strong>, able to take on and make decisions and live with the outcome. Your downfall is <strong>isolation</strong>, the distance imposed by your role as leader, which can affect relationships and how close you can be with people you lead.</p><h4>Networker</h4><h4>Penitent</h4><h4>Protector</h4><p>There are a lot of threats in this world, and you are going to guard against them. Exactly what you consider a threat, and who or what you are protecting from it, might vary, but the most important thing is you are not going to stand idly by when you could act instead. Your quality is <strong>devotion</strong> to those under your protection and to your ideals, no matter what challenges lie in your path. Your downfall is <strong>recklessness</strong> when it comes to putting yourself (and even others) in harm’s way to protect your charges.</p><h4>Rebel</h4><h4>Survivor</h4><h4>Visionary</h4><p>You have a vision to share with the world, sometimes whether the world wants it or not. This vision might be your unique artistic expression, a personal philosophy, or religious or spiritual gnosis, but you’re driven to share it, regardless of the risks. Your quality is <strong>faith</strong> in your vision and its ability to reach the right people, given the opportunity. Your downfall is <strong>zealotry</strong>, where your vision becomes confused with absolute and unwavering truth, which might lead you to offer it where it is unwelcome or to try and eliminate other visions you see as false or competition. Alternatively, your downfall is <strong>doubt</strong>, where you experience a crisis of faith and are uncertain how to follow your vision—or if you should continue to follow it at all.</p>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.7a10cc0192a5004c",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "ba2548172bb0b7ef",
+      "name": "Character Creation in Ten Easy Steps: Step 7: Income and Equipment",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>To prepare your character for adventure, determine the character’s<strong> Income</strong> based on profession with modifiers from background, talents, and drive, and then use that Income to determine your character’s access to equipment.</p><h3>Income</h3><h4>Starting Income</h4><p>A character’s starting Income score is based on social class, adjusted by talent or improvements from drive. Over the course of play, a character’s Income score may decrease from major expenditures and STARTING INCOMEincrease as the character gains wealth and access to resources. A character’s</p><table><tbody><tr><td>SOCIAL CLASS</td><td>INCOME SCORE</td><td>Income score can never fall below −2, but there is no effective limit to how high</td></tr><tr><td>Outsider</td><td>0</td><td>Income can increase.</td></tr></tbody></table><p>Since Income score is an abstract concept, it’s sometimes difficult to determine Lower2 exactly how materially well-off a character is. To get a general sense, check the Middle4 <strong>Income Score</strong> table. Upper6</p><h4>The Income Test</h4><p>INCOME SCORE Income tests are used to determine what you can afford and what goods and INCOME SCOREFINANCIAL CONDITION services you can reasonably access. Income score reflects a character’s buying –2 to +0Impoverished or in debt power. Every item has a target number to purchase, also called its Cost. To +1 to +2Struggling purchase an item, make an Income test against the item’s cost.</p><table><tbody><tr><td>+3 to +5</td><td>Middle class</td><td>An Income test is just like a regular ability test: a 3d6 roll plus your current Income</td></tr><tr><td>+6 to +8</td><td>Affluent</td><td>score. If your test result equals or exceeds the cost of an item, you successfully</td></tr><tr><td>+9 to +10</td><td>Wealthy</td><td>purchase it. If you fail, you can’t afford it at this time.</td></tr></tbody></table><p>+11 to +13Rich</p><p>+14 or higherVery rich</p><h4>Automatic Success</h4><h4>Purchasing and Time</h4><h4>Resource Depletion</h4><h4>Try Again?</h4><h4>Material Support</h4><h4>Depleting Income</h4><h4>Gaining Income</h4><p>The GM may grant an Income award at the end of an adventure where the characters acquired wealth or received particular financial rewards. This is generally a +1 increase in Income, although the GM may award a +2 increase in cases where the characters acquired a significant windfall. Characters can also restore 1 point of depleted Income upon gaining a new level. Otherwise, Income score only increases from GM-granted rewards. See <strong>Chapter 14: Rewards</strong> for details.</p><h4>Pooling Income</h4><h3>Equipment</h3><ul><li>Ordinary clothing</li></ul><h4>Selling Things</h4><p>In some cases, characters may want to sell a particular valuable item. To do so, first determine the item’s cost, as if purchasing it. The item’s value is equal to its cost minus 1. If the item’s value is greater than the seller’s Income, selling the item grants a +1 increase in Income. If it’s value is 6 or more greater than the seller’s Income, selling the item grants a +2 increase. This assumes the item is sold legally: Selling something illegally— either due to how it was obtained, or because it is illegal by nature— reduces its value by an additional 1 (so cost −2) and the GM may require a Communication (Bargaining) test to avoid the notice of the authorities. Failure means the sale does not go through, and the character may have to evade arrest! Generally speaking, the GM should handle the acquisition and sale of valuables acquired from the characters’ adventures with an Income award (previously) rather than managing the value and sale of individual items to minimize bookkeeping and smooth gameplay.</p><p>Beyond these basics, available equipment and the character’s overall lifestyle—things like a home, vehicle, and other day-to-day necessities—are determined by Income. Some items, particularly military-grade equipment, may be limited in terms of availability.</p>"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.ba2548172bb0b7ef",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "c40e1351591ae62f",
+      "name": "Character Creation in Ten Easy Steps: Step 9: Goals and Ties",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h4>Toughness</h4><h4>Fortune</h4><p>Characters start out with a Fortune score of 15, modified by any improvement from drive, which can give the character a starting Fortune score of up to 20. Fortune improves as characters gain in levels and overall importance.</p><p><strong>EXAMPLE</strong> <em>So our character’s starting Fortune is 15, unmodified because we applied the improvement from drive to Reputation. The character’s Dexterity is 2, giving us Defense 12 (10 + 2) and Speed 12 and Constitution is 0, so the character has Toughness 0. Sounds like our Belter techie is going to want to stay far from the front lines!</em></p><h3>Goals</h3><p><em>Expanse</em> characters can have any number of <strong>goals</strong>, but think of up to three for your character to start. Goals are often connected with a character’s drive, or at least their drive is how they tend to pursue their goals. Ideally, goals should help to define what is important to your character and offer the GM inspiration for stories and ways to involve your character in adventures. When considering goals, try for a mix of short-term and long-term ones. Short-term goals are fairly immediate and provide the GM with ways to involve your character in adventures “An idealist. The most dangerous kind of man right away, such as looking for a particular person, thing, or piece of information. Long-there was.”term goals may take years to achieve, and can be played out over much of the campaign depending on how they’re set up, including things like bringing down a powerful nemesis, <em>— Caliban’s War</em> making a scientific breakthrough, or achieving tremendous success in a particular field. If you can’t come up with any goals for your character right away, that’s all right. Think about the character’s goals in the first few game sessions. As you play your character, ideas for goals may suggest themselves. If you can, come up with just one short-term goal for your character to follow initially until you think of some others. The GM may also set up or define goals for your character as part of the start of the game, ranging from finding a missing person to surviving the destruction of your ship.</p><h3>Ties</h3><p>While some roleplaying games start the characters off not knowing each other, thrown together by circumstances, the group’s cohesion is stronger if they have some existing <strong>ties</strong>. This doesn’t necessarily mean the characters all know each other, much less <em>like</em> each other, before the game begins, just that there is something tying them together. For example, two characters might have served together in the same theater of war or worked for the same employer, even if they didn’t meet then. Characters might be distant family members, have a shared enemy, or perhaps they shared a mutual encounter with a strange phenomenon. Of course, it’s equally possible for two or more characters to be long-time acquaintances with a lot of history behind them. Try and come up with at least one tie for each of the other player characters. The group’s relationships will evolve and grow during play, but these ties set some useful starting points.</p><p><strong>EXAMPLE</strong> <em>As a low-class Belter and hacker, our character has plenty of opportunities to make both friends and enemies. She may know fellow Belters who worked security or some other job that brought them to her part of the station, or she may have run into characters with lower class or criminal backgrounds. As a hacker, she may also know some characters from online interactions, perhaps even some who think she is someone else entirely.</em></p>"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.c40e1351591ae62f",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "80d04ac7b476ac06",
+      "name": "Character Creation in Ten Easy Steps: Step 10: Name and Description",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Lastly, what is your character’s name and what are they like? Although this step is the end of character creation, don’t make it an afterthought. You’re likely to be hearing your character’s name a lot, and the right name can really help bring your character to life. Likewise, paint a picture with your character’s appearance and personality that tells the other players something about who that character is as a person. You might want to focus on including at least one or two memorable details. Keep in mind that the future of <em>The Expanse</em> is a diverse one: Humans from everywhere on Earth went out into space to colonize Mars, the Belt, and the Outer Planets, and some of their descendants have been living out in the Black for generations. So your character can belong to any ethnic or racial heritage, or many, melded together over the centuries. You can likewise play a character of any gender, or gender-fluid, gender-neutral, or transgender, and of any romantic or sexual orientation. Consider using the opportunity to step into someone else’s life for your game by playing a character different from your own experience.</p><p><strong>EXAMPLE</strong> <em>We work out some more details of our character. We decided somewhere along the line that it’s a woman and the notion that she’s of Asian heritage comes to mind. Since she’s a Belter, we decide her heritage is mixed, a combination of Korean, Indian, and Brazilian in her more recent ancestry. Searching some online resources for suitable names, we come up with Isabella Anika Moon, who is ready for her first adventure!</em></p>"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.80d04ac7b476ac06",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "4394fc7ff20a3b23",
+      "name": "Advancement",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>As <em>Expanse </em>characters adventure and overcome challenges, they advance in <strong>level</strong>, representing the sum total of their experi ences. Advancement in level gives characters opportunities to improve their abilities and talents, and possibly some other things as well. The GM decides when the characters have achieved enough to gain a level. This usually happens after a major achievement in the game, such as the end of an adventure or plot arc, but an achievement can happen during a game session, especially if there is a lot of in-game downtime.</p><h2>Leveling Improvements</h2><p>When characters gain a level, they gain various improvements:</p><p><strong>FORTUNE</strong> Your character gains 3 Fortune points per level for levels 2–10. After level 10, the character gains 2 Fortune points per level up to level 20, for a total gain of 47 Fortune by level 20.</p><p><strong>DEFENSE AND TOUGHNESS</strong> At level 4, add 1 to either your character’s Defense or Toughness, doing so again every 4 levels for a total of five increases. You cannot increase the same trait (Defense or Toughness) twice in a row, but must alternate between them.</p><p><strong>ABILITY ADVANCEMENT</strong> Each level, you get one advancement to spend on one ability of your choice. You cannot advance the same ability two levels in a row. The number of advancements needed to improve your ability’s score by 1 depends on the new score you wish to obtain: For scores up to 5, it requires one advancement. For abilities from 6 to 8, it requires two. For abilities from 9 to 12, it requires three. You get no benefit from advancements until you’ve gained enough for the new score, so keep track of advancements spent that have not yet increased the ability score. Improvement of an ability score improves everything based on that score as well, such as secondary abilities. So when your character’s Dexterity increases, for example, their Defense and Speed improve as well. These are in addition to improvements in Defense and Toughness gained separately as part of advancement (previously).</p><p><strong>ABILITY FOCUS</strong> Each level, you can choose one new ability focus for your character. You cannot choose a new focus for the same ability two levels in a row. Starting at level 11, you can choose a focus you already have and increase its bonus from +2 to +3.</p><p><strong>TALENT IMPROVEMENT</strong> Each level, you can choose a new novice talent for your character, or gain a degree in a talent your character already has. At level 4, you can take a specialization as your character’s talent choice for that level, and another at level 12, provided your character meets all of the requirements. See <strong>Specializations</strong> in <strong>Chapter 3</strong> for details.</p><p><strong>INCOME</strong> When your character gain a level, they can regain 1 point of depleted Income, as described in <strong>Income</strong>, previously.</p><p><strong>GOALS</strong> In addition, when your character gains a level, take stock of your character’s goals. Have any been achieved? Have any changed from the last level? Based on events since the last level, does your character have any new goals? A new level is a good time to take stock.</p><p><strong>EXAMPLE</strong> <em> After an initial adventure with her new crew, Isabella has earned a level! Looking over the checklist, we improve her Fortune by 3, from 15 to 18. She gets one ability advancement, which we decide to put into Constitution to improve her long-term chances, giving Isabella a point of Toughness. We can choose a new ability focus and either improve an existing talent by one degree or choose a novice degree in a new talent. We decide to add Intelligence (Research) and to improve her Hacking talent to Expert. Recent events have helped to solidify Isabella’s reputation as a hacker and have already offered some opportunities for her to shake off the influence of her past—if she chooses to pursue them.</em></p>"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4f3cdb4442438cea.4394fc7ff20a3b23",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "4f3cdb4442438cea",
+  "_key": "!journal!4f3cdb4442438cea",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

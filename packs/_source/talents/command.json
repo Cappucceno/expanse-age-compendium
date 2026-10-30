@@ -1,8 +1,8 @@
 {
   "name": "Command",
-  "_id": "1l5Ad84oQXEGzm0m",
-  "_key": "!items!1l5Ad84oQXEGzm0m",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "4df874ae4a7ec6ff",
+  "_key": "!items!4df874ae4a7ec6ff",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -25,11 +25,11 @@
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>Your allies follow your lead. Any NPCs you lead gain a +1 bonus when rolling for initiative.</p>",
+      "desc": "<p>Your allies follow your lead. Any NPCs or PCs you lead gain a +1 bonus when rolling for initiative.</p>",
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>When you stand firm, your allies stand with you. When you lead NPCs in an encounter, they do not have to make a Willpower (Morale) test until more than two-thirds of your side’s combatants are out of the fight (dead or incapacitated). If you leave the fight or are taken out, this benefit is lost.</p>",
+      "desc": "<p>When you stand firm, your allies stand with you. When you lead NPCs or PCs in an encounter, they do not have to make a Willpower (Morale) test until more than two-thirds of your side’s combatants are out of the fight (dead or incapacitated). PCs also gain a +2 to Willpower (Courage) tests. If you leave the fight or are taken out, this benefit is lost.</p>",
       "isActive": true
     }
   },

@@ -1,0 +1,28 @@
+{
+  "name": "Gecko Pads",
+  "_id": "7f4cab5931efe77c",
+  "_key": "!items!7f4cab5931efe77c",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your hands and feet have powerful micro-adhesion pads you can deploy at will. This allows you to automatically succeed on tests to climb walls and other sheer surfaces, although the GM may require a Strength (Climbing) test for Imposing or Nigh Impossible climbs, with a +8 bonus to your roll. It takes an Activate action to deploy or stop using your gecko pads, you cannot use them through materials covering your hands and feet, and you have a +2 Difficulty to actions involving your hands and feet other than climbing while they are active.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

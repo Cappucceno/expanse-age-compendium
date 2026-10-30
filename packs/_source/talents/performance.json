@@ -1,8 +1,8 @@
 {
   "name": "Performance",
-  "_id": "mUUWYCmROCBKqO5k",
-  "_key": "!items!mUUWYCmROCBKqO5k",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "7b62908ea2b758e5",
+  "_key": "!items!7b62908ea2b758e5",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -25,7 +25,7 @@
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>You can add an additional form of performance. You get a feel for a room and adapt accordingly. If you have at least 15 minutes to observe a crowd before performing or speaking in front of them, you gain a +1 bonus to any Communication-based tests to persuade or entertain them. You can also choose a number of individuals in the crowd equal to your Perception (minimum 1); at the end of the 15 minutes of observation you know their initial attitudes toward you, and you know if they changed by the end of your performance and, if so, by how much.</p>",
+      "desc": "<p>You can add an additional form of performance to your repertoire. You get a feel for a room and adapt accordingly. If you have at least 15 minutes to observe a crowd before performing or speaking in front of them, you gain a +1 bonus to any Communicationbased tests to persuade or entertain them. You can also choose a number of individuals in the crowd equal to your Perception (minimum 1); at the end of the 15 minutes of observation, you know their initial attitudes toward you, and you know if they changed by the end of your performance and, if so, by how much.</p>",
       "isActive": true
     },
     "degree2": {

@@ -1,0 +1,27 @@
+{
+  "name": "Lifting Mech",
+  "_id": "f9a9af18c3f0aff6",
+  "_key": "!items!f9a9af18c3f0aff6",
+  "folder": "c906dfff0ed9e7bf",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A variant of loader mech, the squat, blocky, lifting mechs are designed to carry much heavier loads than standard loaders work with, such as slabs of ferrocrete. Unlike loader mechs, which spend most of their time moving uniform cargo containers, lifting mechs are also better-suited to handle nonstandard loads.</p>",
+    "weight": 0,
+    "cost": 16,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

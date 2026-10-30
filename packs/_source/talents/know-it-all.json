@@ -1,8 +1,8 @@
 {
   "name": "Know-It-All",
-  "_id": "XIMkXH5iiHm6ffKB",
-  "_key": "!items!XIMkXH5iiHm6ffKB",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "835b00f03383e357",
+  "_key": "!items!835b00f03383e357",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,16 +16,16 @@
   "system": {
     "longDesc": "<p>You can bring your considerable knowledge to bear on any situation.</p>",
     "shortDesc": "",
-    "requirement": "Intelligence 2 or higher",
+    "requirement": "Intelligence 2+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You can attempt a test using an Intelligence focus somehow related to the test at hand rather than the called for ability, but with a –1 penalty. For example, using Intelligence (Business) instead of Communication (Persuasion) to convince a corporate middle-manager to agree with you. If this would be a tangential investigation focus, you do not suffer the +2 increase in TN.</p>",
+      "desc": "<p>You can attempt a test using an Intelligence focus somehow related to the test at hand rather than the called-for ability, but with a −1 penalty. For example, using Intelligence (Business) instead of Communication (Persuasion) to convince a corporate middle-manager to agree with you. If this would be a tangential investigation focus, you do not suffer the +2 increase in TN.</p>",
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>You leverage every bit of information. You can perform the Breakthrough exploration stunt for 2 SP.</p>",
+      "desc": "<p>You leverage every bit of information available to you. You can perform the Breakthrough exploration stunt for 2 SP.</p>",
       "isActive": true
     },
     "degree2": {

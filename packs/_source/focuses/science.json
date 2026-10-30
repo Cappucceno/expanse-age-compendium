@@ -1,8 +1,8 @@
 {
   "name": "Science",
-  "_id": "FZkUMG4u7KpsyZeQ",
-  "_key": "!items!FZkUMG4u7KpsyZeQ",
-  "folder": "TyLsoqrRehbelj4q",
+  "_id": "46d945db5c8bc04f",
+  "_key": "!items!46d945db5c8bc04f",
+  "folder": "b2c151c64a8dda83",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "focus",
   "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
   "system": {
-    "longDesc": "<p>Knowledge of an organized field of study and the ability to understand things related to it. Examples of Science focuses include Anthropology, Astronomy, Botany, Biology, Chemistry, Economics, Genetics, History, Planetary or “Earth” Sciences, Physics, Psychology, and Theology, but you can choose another scientific field, if you wish.</p>",
+    "longDesc": "<p>Knowledge of an organized field of study and the ability to understand things related to it. Examples of Science focuses include: Anthropology, Astronomy, Botany, Biology, Chemistry, Economics, Genetics, History, Planetary or “Earth” Sciences, Physics, Psychology, and Theology, but you can choose another scientific field, if you wish (see the Unusual Focuses sidebar).</p>",
     "useAbl": "int",
     "initialValue": 2
   },

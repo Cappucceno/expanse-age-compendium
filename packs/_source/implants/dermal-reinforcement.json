@@ -1,0 +1,28 @@
+{
+  "name": "Dermal Reinforcement",
+  "_id": "33638937ec503d0b",
+  "_key": "!items!33638937ec503d0b",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>You gain +1 Toughness due to reinforcement of your dermal layer using carbon fiber, ballistic memory materials, and the like. Each additional enhancement grants another +1 Toughness. Your dermal reinforcement stacks with armor worn over it, but the alterations to your epidermis make it clear your flesh is armored, ranging from a scaly texture of tiny overlapping armor plates to a thick, leathery texture. You can choose the cosmetic effect, so long as the augmentation is evident. For another additional slot, your Dermal Reinforcement is subcutaneous and otherwise concealed, meaning it is not visible or noticeable until it stops damage.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

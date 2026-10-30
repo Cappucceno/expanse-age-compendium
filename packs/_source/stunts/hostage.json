@@ -1,8 +1,8 @@
 {
   "name": "Hostage",
-  "_id": "nFDx2nRG9iQc6wex",
-  "_key": "!items!nFDx2nRG9iQc6wex",
-  "folder": "hgBf5TCh65XH0uak",
+  "_id": "5fa98b18c2904ccd",
+  "_key": "!items!5fa98b18c2904ccd",
+  "folder": "2f16f3061def0478",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>You and your target make opposed Fighting (Grappling) rolls; if you win, you maneuver them into a vulnerable position. If they do anything other than a free action on their next turn, or if anyone attacks you or your allies before the beginning of your next turn, you may make an immediate attack against your target with a +2 bonus to the Drama Die.</p>",
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making a Fighting (Grappling) attack.</em></p><p>You and your target make opposed Fighting (Grappling) rolls; if you win, you maneuver them into a vulnerable position. If they do anything other than a free action on their next turn, or if anyone attacks you or your allies before the beginning of your next turn, you may make an immediate attack against your target with a +2 bonus to the Drama Die.</p>",
     "type": "Grappling",
     "stuntPoints": 4,
     "stuntPointsMax": 4,

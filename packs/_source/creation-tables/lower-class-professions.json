@@ -1,0 +1,143 @@
+{
+  "name": "Lower Class Professions",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Professions of the lower class social class.",
+  "results": [
+    {
+      "_id": "61742b84ba33f6c6",
+      "type": "text",
+      "name": "Athlete",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!566f8574dbe4802a.61742b84ba33f6c6"
+    },
+    {
+      "_id": "759a51dffa35a0d4",
+      "type": "text",
+      "name": "Soldier",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!566f8574dbe4802a.759a51dffa35a0d4"
+    },
+    {
+      "_id": "e584a761f51b71f6",
+      "type": "text",
+      "name": "Investigator",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!566f8574dbe4802a.e584a761f51b71f6"
+    },
+    {
+      "_id": "35fef1a6b1425d52",
+      "type": "text",
+      "name": "Technician",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!566f8574dbe4802a.35fef1a6b1425d52"
+    },
+    {
+      "_id": "a9dba656d335edcd",
+      "type": "text",
+      "name": "Clergy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!566f8574dbe4802a.a9dba656d335edcd"
+    },
+    {
+      "_id": "f4e5d4db0c6b4fc1",
+      "type": "text",
+      "name": "Negotiator",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!566f8574dbe4802a.f4e5d4db0c6b4fc1"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "0d1789835cb40bc6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "566f8574dbe4802a",
+  "_key": "!tables!566f8574dbe4802a"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Toolkit, Electronics",
+  "_id": "f859e765048143b4",
+  "_key": "!items!f859e765048143b4",
+  "folder": "58f127634f188c6b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>An electronic toolkit is a small kit for making repairs to electronic and computer systems. It has an array of tools including an electric screwdriver with various bits, power meter, small pliers, and other tools needed to make electronic repairs.</p>",
+    "weight": 0,
+    "cost": 7,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

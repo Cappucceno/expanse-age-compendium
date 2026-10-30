@@ -1,8 +1,8 @@
 {
   "name": "Freighter",
-  "_id": "xjgFcnprzGm8SCSw",
-  "_key": "!actors!xjgFcnprzGm8SCSw",
-  "folder": "BUtV6XCY8EZEW0jp",
+  "_id": "7ca0bd880d74a755",
+  "_key": "!actors!7ca0bd880d74a755",
+  "folder": "662c0ba651dcc634",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "size": 5,
     "drive": "Epstein, Thrusters",
-    "description": "<p><strong>Competence:</strong> Poor to Average</p><p><strong>Qualities:</strong> Improved Stores. A smuggler might have Hidden Compartments, while a pirate might remove the Fragile Flaw or add Hull Plating or a Weapons System.</p><p><strong>Flaws:</strong> Fragile. Another one or two is common.</p><p><strong>Crew:</strong> 16 (64)</p><p><strong>Size:</strong> Huge (100 meters long)</p>",
+    "description": "<p><strong>Competence:</strong> Poor to Average</p><p><strong>Qualities:</strong> Improved Stores. A smuggler might have Hidden Compartments, while a pirate might remove the Fragile Flaw or add Hull Plating (I or II) or a Weapons System.</p><p><strong>Flaws:</strong> Fragile. Another one or two is common.</p><p><strong>Crew:</strong> 16 (64)</p><p><strong>Size:</strong> Huge (100 meters long)</p>",
     "hull": {
       "nrDice": 2,
       "diceType": 6,
@@ -30,16 +30,16 @@
     },
     "systems": {
       "sensors": {
-        "mod": 0
+        "mod": 3
       }
     }
   },
-  "items": [],
   "prototypeToken": {
     "name": "Freighter",
     "actorLink": true
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "items": []
 }

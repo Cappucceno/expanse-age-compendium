@@ -1,0 +1,27 @@
+{
+  "name": "Thermal Goggles",
+  "_id": "ba914fa81b3c7a94",
+  "_key": "!items!ba914fa81b3c7a94",
+  "folder": "a824f49866272be9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>These goggles allow their wearers to see heat signatures, allowing them to locate targets that would otherwise be invisible or to gain valuable sensory information (such as where a suit of powered armor’s energy source is located, or if someone is running a fever). Spacesuit helmets can also be outfitted with thermal technology. (Add +2 to the cost of a spacesuit for this upgrade.)</p>",
+    "weight": 0,
+    "cost": 12,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

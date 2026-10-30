@@ -1,0 +1,83 @@
+{
+  "name": "Lower Class Backgrounds",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Backgrounds of the lower class social class.",
+  "results": [
+    {
+      "_id": "98f6d35a3a22af53",
+      "type": "text",
+      "name": "Military",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!d4d3397be950022d.98f6d35a3a22af53"
+    },
+    {
+      "_id": "bcded908a867f85c",
+      "type": "text",
+      "name": "Laborer",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!d4d3397be950022d.bcded908a867f85c"
+    },
+    {
+      "_id": "c4b96404dd920acd",
+      "type": "text",
+      "name": "Urban",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!d4d3397be950022d.c4b96404dd920acd"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e40bfc57fae3ea33",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "d4d3397be950022d",
+  "_key": "!tables!d4d3397be950022d"
+}

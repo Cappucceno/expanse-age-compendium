@@ -1,8 +1,8 @@
 {
   "name": "Medium Freighter",
-  "_id": "7i1guM0EcZInG0hk",
-  "_key": "!actors!7i1guM0EcZInG0hk",
-  "folder": "BUtV6XCY8EZEW0jp",
+  "_id": "62211a362668a8bb",
+  "_key": "!actors!62211a362668a8bb",
+  "folder": "662c0ba651dcc634",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "size": 6,
     "drive": "Epstein, Thrusters",
-    "description": "<p><strong>Competence:</strong> Poor to Average</p><p><strong>Qualities:</strong> None (see Small Freighter)</p><p><strong>Flaws:</strong> Fragile, possibly others, depending on condition.</p><p><strong>Crew:</strong> 64 (512)</p><p><strong>Size:</strong> Gigantic (250 meters long)</p>",
+    "description": "<p><strong>Competence:</strong> Poor to Average</p><p><strong>Qualities:</strong> A smuggler might have Hidden Compartments, while a pirate might remove the Fragile Flaw or add Hull Plating (I or II) or a Weapons System.</p><p><strong>Flaws:</strong> Fragile, possibly others depending on the condition.</p><p><strong>Crew:</strong> 64 (512)</p><p><strong>Size:</strong> Gigantic (250 meters long)</p>",
     "hull": {
       "nrDice": 3,
       "diceType": 6,
@@ -34,12 +34,12 @@
       }
     }
   },
-  "items": [],
   "prototypeToken": {
     "name": "Medium Freighter",
     "actorLink": true
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "items": []
 }

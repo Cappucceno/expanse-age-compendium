@@ -1,0 +1,39 @@
+{
+  "name": "Generic Rifle",
+  "_id": "4b97805c8f80b06d",
+  "_key": "!items!4b97805c8f80b06d",
+  "folder": "f7d0a20963996302",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Simplified weapon of the Generic Weapons table, for games that do not need the details of individual weapons.</p>",
+    "useAbl": "acc",
+    "useFocus": "rifles",
+    "minStr": 0,
+    "nrDice": "3",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "3d6",
+    "weight": 0,
+    "cost": 12,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 200,
+    "rangeMax": 300
+  },
+  "ownership": {
+    "default": 0
+  }
+}

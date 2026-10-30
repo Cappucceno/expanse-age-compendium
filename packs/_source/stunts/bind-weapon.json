@@ -1,8 +1,8 @@
 {
   "name": "Bind Weapon",
-  "_id": "URnAixp0GyxwuOIT",
-  "_key": "!items!URnAixp0GyxwuOIT",
-  "folder": "5WLkOpAoM7Q1uty9",
+  "_id": "3e910d823f9ed091",
+  "_key": "!items!3e910d823f9ed091",
+  "folder": "39317e98651d4677",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>You and your opponent make opposed melee attack rolls; if you win, your opponent’s next melee attack against you automatically misses.</p>",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making a melee attack.</em></p><p>You and your opponent make opposed melee attack rolls; if you win, your opponent’s next melee attack against you automatically misses.</p>",
     "type": "Melee",
     "stuntPoints": 3,
     "stuntPointsMax": 3,

@@ -1,8 +1,8 @@
 {
   "name": "Shrapnel",
-  "_id": "QJ3MZU9zIYD12qxh",
-  "_key": "!items!QJ3MZU9zIYD12qxh",
-  "folder": "fbhZaRhBv5ffJFzO",
+  "_id": "9df12b4d64f82f15",
+  "_key": "!items!9df12b4d64f82f15",
+  "folder": "eddb77218243b5e9",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,11 +14,11 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Cost: 2+ SP</em></p><p>The attack causes a damaging explosion in the vehicle’s interior. The operator and all passengers in the same compartment suffer 1d6 damage for 2 SP or 2d6 damage for 4 SP.</p>",
+    "longDesc": "<p><em>Cost: 2+ SP</em></p><p><em>Stunts from this table are used when attacking or sabotaging a vehicle.</em></p><p>The attack causes a damaging explosion in the vehicle’s interior. The operator and all passengers in the same compartment suffer 1d6 damage for 2 SP or 2d6 damage for 4 SP.</p>",
     "type": "Vehicle Combat",
     "stuntPoints": 2,
     "stuntPointsMax": 2,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

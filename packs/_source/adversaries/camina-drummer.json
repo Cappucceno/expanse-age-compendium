@@ -1,0 +1,368 @@
+{
+  "name": "Camina Drummer",
+  "_id": "1a833993b705f4f6",
+  "_key": "!actors!1a833993b705f4f6",
+  "folder": "c430b71b29cbcebb",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Moderate",
+    "abilities": {
+      "acc": {
+        "value": 2
+      },
+      "comm": {
+        "value": 2
+      },
+      "cons": {
+        "value": 2
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 3
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 3
+      },
+      "str": {
+        "value": 2
+      },
+      "will": {
+        "value": 2
+      }
+    },
+    "speed": {
+      "base": 12
+    },
+    "defense": {
+      "base": 15
+    },
+    "health": {
+      "set": 52,
+      "value": 52
+    },
+    "features": "<p><em>Director of Tycho Station, Belter</em></p><p><strong>Favored Stunts:</strong> Lightning Attack, Oozing Confidence, Skirmish</p><p><strong>Talents:</strong> Agility (Expert), Carousing (Novice), Command (Expert), Contacts (Expert), Fringer (Expert), Intrigue (Expert), Observation (Expert), Striking Style (Expert)</p><p><strong>Specialization:</strong> Executive (Transport Union) as President</p><p><strong>Equipment:</strong> Hand terminal, pistol, light armor when she’s working security</p><p><strong>Armor + Toughness:</strong> 2</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Camina Drummer",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "2299a12d2701b969",
+      "_key": "!actors.items!1a833993b705f4f6.2299a12d2701b969",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "39b7a797ad255970",
+      "_key": "!actors.items!1a833993b705f4f6.39b7a797ad255970",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Leadership",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ef0a2f4714878646",
+      "_key": "!actors.items!1a833993b705f4f6.ef0a2f4714878646",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Free-Fall",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "8f341dc01a8c0bca",
+      "_key": "!actors.items!1a833993b705f4f6.8f341dc01a8c0bca",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Initiative",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "7bc6dd50747137d0",
+      "_key": "!actors.items!1a833993b705f4f6.7bc6dd50747137d0",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Brawling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "e965b1a2ace69f11",
+      "_key": "!actors.items!1a833993b705f4f6.e965b1a2ace69f11",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Current Affairs",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "7199be9b8e65a17a",
+      "_key": "!actors.items!1a833993b705f4f6.7199be9b8e65a17a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Security",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "7677747e90af9816",
+      "_key": "!actors.items!1a833993b705f4f6.7677747e90af9816",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Tactics",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "af50668ef8612e86",
+      "_key": "!actors.items!1a833993b705f4f6.af50668ef8612e86",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Intuition",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "557bba99a28e222a",
+      "_key": "!actors.items!1a833993b705f4f6.557bba99a28e222a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Self-Discipline",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "bd27d8692f64c7cb",
+      "_key": "!actors.items!1a833993b705f4f6.bd27d8692f64c7cb",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "d44488c721c7ff45",
+      "_key": "!actors.items!1a833993b705f4f6.d44488c721c7ff45",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4</p>",
+        "useAbl": "acc",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": true
+      }
+    },
+    {
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "ba655f88c12c767e",
+      "_key": "!actors.items!1a833993b705f4f6.ba655f88c12c767e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    }
+  ]
+}

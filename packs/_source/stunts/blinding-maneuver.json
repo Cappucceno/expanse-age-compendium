@@ -1,8 +1,8 @@
 {
   "name": "Blinding Maneuver",
-  "_id": "W2UbaX5PuWAWEMma",
-  "_key": "!items!W2UbaX5PuWAWEMma",
-  "folder": "dPhyZYcxqCcyUgIT",
+  "_id": "fd41e1824684184d",
+  "_key": "!items!fd41e1824684184d",
+  "folder": "0c23c3a9338525c5",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,11 +14,11 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Cost: 1+ SP</em></p><p>You maneuver your ship in such a way as to blind or limit an opponent’s Sensors. Each SP you spend reduces an opposing ship’s Sensors score by 1 (to a minimum score of –2) until the start of the next round.</p>",
-    "type": "Space Combat Command",
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p>You coordinate with the pilot to maneuver your ship in such a way as to blind or limit an opponent’s Sensors. Each SP you spend reduces an opposing ship’s Sensors score by 1 (to a minimum score of 2) until the start of the next round.</p>",
+    "type": "Command",
     "stuntPoints": 1,
     "stuntPointsMax": 1,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

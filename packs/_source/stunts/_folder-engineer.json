@@ -1,0 +1,17 @@
+{
+  "name": "Engineer",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 1700000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "04ec43dd466bbcf2",
+  "_key": "!folders!04ec43dd466bbcf2",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

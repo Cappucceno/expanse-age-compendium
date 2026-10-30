@@ -1,8 +1,8 @@
 {
   "name": "Cards on the Table",
-  "_id": "tfIjm7myxw7wKxhj",
-  "_key": "!items!tfIjm7myxw7wKxhj",
-  "folder": "RYCI0kZp4Uq2YPRL",
+  "_id": "5dc9e683bd158ec2",
+  "_key": "!items!5dc9e683bd158ec2",
+  "folder": "a7eaf3a981654930",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>If you were completely honest when making this test, your target must be completely honest in the next social test they make against you during this encounter. This doesn’t stop either character from omitting information or offering misleading truths.</p>",
+    "longDesc": "<p><em>Cost: 1 SP</em></p><p>If you were completely honest when making this test, your target must be completely honest in the next social test they make against you during this encounter. This doesn’t stop either character from omitting information or offering misleading truths.</p>",
     "type": "General Social",
     "stuntPoints": 1,
     "stuntPointsMax": 1,

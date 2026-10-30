@@ -1,8 +1,8 @@
 {
   "name": "Read the Room",
-  "_id": "05WM5WpIDNkTMwle",
-  "_key": "!items!05WM5WpIDNkTMwle",
-  "folder": "nODsSBHTTvTskkj6",
+  "_id": "cfad31e2cf5789da",
+  "_key": "!items!cfad31e2cf5789da",
+  "folder": "d4cdcee684a7d10b",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>The GM reveals the current Attitude, or an intention or mood indicator, for one character present of your choice, in reaction to your test. You can choose this stunt multiple times per roll. Characters with either the Communication (Deception) or Willpower (Self-Discipline) focus may roll vs. your Perception (Empathy) to avoid this.</p>",
+    "longDesc": "<p><em>Cost: 1 SP</em></p><p>The GM reveals the current Attitude, or an intention or mood indicator, for one character present of your choice, in reaction to your test. You can choose this stunt multiple times per roll. Characters with either the Communication (Deception) or Willpower (Self-Discipline) focus may roll vs. your Perception (Empathy) to avoid this.</p>",
     "type": "Attitude",
     "stuntPoints": 1,
     "stuntPointsMax": 1,

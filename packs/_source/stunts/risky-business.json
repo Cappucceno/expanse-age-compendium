@@ -1,8 +1,8 @@
 {
   "name": "Risky Business",
-  "_id": "GBApbqZHqTcqAIA8",
-  "_key": "!items!GBApbqZHqTcqAIA8",
-  "folder": "nODsSBHTTvTskkj6",
+  "_id": "3c89d83b67b30f95",
+  "_key": "!items!3c89d83b67b30f95",
+  "folder": "d4cdcee684a7d10b",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your action reveals a secret or contains a significant lie, shifting your target’s Attitude toward another character in the scene from Neutral or worse to Very Hostile; it also worsens your target’s Attitude toward you by one shift, as they’re inclined to shoot the messenger. If you lied and the target later finds out, their Attitude toward you shifts to Very Hostile as well.</p>",
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p>Your action reveals a secret or contains a significant lie, shifting your target’s Attitude toward another character in the scene from Neutral or worse to Very Hostile; it also worsens your target’s Attitude toward you by one shift, as they’re inclined to shoot the messenger. If you lied and the target later finds out, their Attitude toward you shifts to Very Hostile as well.</p>",
     "type": "Attitude",
     "stuntPoints": 4,
     "stuntPointsMax": 4,

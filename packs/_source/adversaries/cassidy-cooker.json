@@ -1,0 +1,157 @@
+{
+  "name": "Cassidy Cooker",
+  "_id": "35a64df4f19e3bc8",
+  "_key": "!actors!35a64df4f19e3bc8",
+  "folder": "4fc72d0aee69b5a5",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Supporting",
+    "abilities": {
+      "acc": {
+        "value": 1
+      },
+      "comm": {
+        "value": 0
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 3
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 0
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 0
+      },
+      "will": {
+        "value": 1
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 10,
+      "value": 10
+    },
+    "features": "<p>Technically, Cassidy snuck aboard the Union freighter Glimpse the Horizon and refused to leave. But the crew took a shine to the kid and didn’t feel right being the next to abandon her, so now she’s de facto crew. Characters brought aboard Glimpse the Horizon either win over an ally or deal with a nuisance who knows they mean trouble.</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Cassidy Cooker",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Acrobatics",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "faacb6e7eeafaa56",
+      "_key": "!actors.items!35a64df4f19e3bc8.faacb6e7eeafaa56",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stealth",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "add2241d4d3049b2",
+      "_key": "!actors.items!35a64df4f19e3bc8.add2241d4d3049b2",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Brawling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "fb23b871aeb854e2",
+      "_key": "!actors.items!35a64df4f19e3bc8.fb23b871aeb854e2",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Hearing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "b9ad00e1ce99996b",
+      "_key": "!actors.items!35a64df4f19e3bc8.b9ad00e1ce99996b",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    }
+  ]
+}

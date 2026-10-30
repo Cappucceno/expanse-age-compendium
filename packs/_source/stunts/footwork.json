@@ -1,8 +1,8 @@
 {
   "name": "Footwork",
-  "_id": "IWqv7K4gBfc0OYYc",
-  "_key": "!items!IWqv7K4gBfc0OYYc",
-  "folder": "5WLkOpAoM7Q1uty9",
+  "_id": "beca54f777d3ef43",
+  "_key": "!items!beca54f777d3ef43",
+  "folder": "39317e98651d4677",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,11 +14,11 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Cost: 1+ SP</em></p><p><em>Core stunt.</em> You maneuver effortlessly. Gain +1 per SP spent to one combat-related test of your choice before the end of your next turn.</p>",
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making a melee attack.</em></p><p>You maneuver effortlessly. Gain +1 per SP spent to one combat-related test of your choice before the end of your next turn.</p>",
     "type": "Melee",
     "stuntPoints": 1,
     "stuntPointsMax": 1,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

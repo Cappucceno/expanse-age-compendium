@@ -1,0 +1,27 @@
+{
+  "name": "Support Mech",
+  "_id": "74c9449a6ffcf6b9",
+  "_key": "!items!74c9449a6ffcf6b9",
+  "folder": "c906dfff0ed9e7bf",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>This minimalist mech is an exoskeleton designed to provide general-purpose work assistance, typically in tasks that could benefit from enhanced strength or stability, such as working on heavy vehicles. Support mechs also see use as locomotion assistance for operators with disabilities or those unaccustomed to higher gravity.</p>",
+    "weight": 0,
+    "cost": 15,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

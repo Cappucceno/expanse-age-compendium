@@ -1,8 +1,8 @@
 {
   "name": "Oratory",
-  "_id": "NDge4gn6StuzixOj",
-  "_key": "!items!NDge4gn6StuzixOj",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "de110343e44640af",
+  "_key": "!items!de110343e44640af",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,14 +14,14 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>You are a skilled public speaker who can sway others with your words.</p>",
+    "longDesc": "<p>You are a skilled and charismatic public speaker.</p>",
     "shortDesc": "",
     "requirement": "Communication (Persuasion) focus",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You know how to work a crowd. If you fail a Communication (Persuasion) test when trying to convince a group (not an individual), you can re-roll it, but must keep the results of the second roll.</p>",
+      "desc": "<p>You know how to work a crowd. If you fail a Communication (Persuasion) test when trying to convince a group (not an individual), you can re-roll it but must keep the results of the second roll.</p>",
       "isActive": true
     },
     "degree1": {

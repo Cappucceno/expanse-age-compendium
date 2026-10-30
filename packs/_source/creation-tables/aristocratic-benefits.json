@@ -1,0 +1,183 @@
+{
+  "name": "Aristocratic Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Aristocratic background (Upper Class).",
+  "results": [
+    {
+      "_id": "f4e6b51ae67ede92",
+      "type": "text",
+      "name": "+1 Accuracy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3c9fd43f09ad3efb.f4e6b51ae67ede92"
+    },
+    {
+      "_id": "8a25c7ddde882a46",
+      "type": "text",
+      "name": "+2 Income",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3c9fd43f09ad3efb.8a25c7ddde882a46"
+    },
+    {
+      "_id": "57968066871a2170",
+      "type": "text",
+      "name": "Focus: Communication (Persuasion)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3c9fd43f09ad3efb.57968066871a2170"
+    },
+    {
+      "_id": "e4443ee1aab981fa",
+      "type": "text",
+      "name": "Focus: Dexterity (Piloting)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3c9fd43f09ad3efb.e4443ee1aab981fa"
+    },
+    {
+      "_id": "ff3b9c138acd1a90",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3c9fd43f09ad3efb.ff3b9c138acd1a90"
+    },
+    {
+      "_id": "f1847b8d469e3a77",
+      "type": "text",
+      "name": "Focus: Communication (Gambling)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3c9fd43f09ad3efb.f1847b8d469e3a77"
+    },
+    {
+      "_id": "b9590762573bcf92",
+      "type": "text",
+      "name": "Focus: Communication (Leadership)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3c9fd43f09ad3efb.b9590762573bcf92"
+    },
+    {
+      "_id": "4065d46695c2d844",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3c9fd43f09ad3efb.4065d46695c2d844"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "3c9fd43f09ad3efb",
+  "_key": "!tables!3c9fd43f09ad3efb"
+}

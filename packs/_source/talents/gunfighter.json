@@ -1,8 +1,8 @@
 {
   "name": "Gunfighter",
-  "_id": "T0CVyBL3VJ66f7l6",
-  "_key": "!items!T0CVyBL3VJ66f7l6",
-  "folder": "y88XXvdfe5pCOOAm",
+  "_id": "f6e399d3a70bd39b",
+  "_key": "!items!f6e399d3a70bd39b",
+  "folder": "80ce7cbdc4864d90",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,9 +14,9 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>No one shoots as quickly or as accurately as you.</p><p>Few can match your skill with a gun. You might be a swashbuckling revolutionary, a talented private soldier, a bodyguard, or a cop. Perhaps you trained your whole life, but maybe it’s a knack. Do you regret the lives you’ve taken, or have you only ever hit the bullseye in virtual simulations? Maybe you’ve killed, and don’t sleep easy—or maybe you sleep just fine, which could be a problem of its own.</p><p><em>Synergies:</em> A Gunfighter-Sniper is deadly, taking quiet, patient aim from afar. A Gunfighter-Socialite could be a level-headed duelist or a real show-off. A Gunfighter-Investigator matches keen insight with perfect aim.</p>",
+    "longDesc": "<p>Few can match your skill with a gun. You might be a swashbuckling revolutionary, a talented private soldier, a bodyguard, or a cop. Perhaps you trained your whole life, but maybe it’s a knack. Do you regret the lives you’ve taken, or are have you only ever hit the bullseye in virtual simulations? Maybe you’ve killed, and don’t sleep easy—or maybe you sleep just fine, which could be a problem of its own.</p><p><em>Synergies:</em> A Gunfighter-Sniper is deadly, taking quiet, patient aim from afar. A Gunfighter-Socialite could be a level-headed duelist or a real show-off. A GunfighterInvestigator matches keen insight with perfect aim.</p><p>No one shoots as quickly or as accurately as you.</p>",
     "shortDesc": "",
-    "requirement": "Dexterity 2 and Accuracy 2 or higher",
+    "requirement": "Dexterity 2 and Accuracy 2+.",
     "type": "spec",
     "degree": 0,
     "activate": true,
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>You’re one with the gun. Choose one of the following stunts: Lightning Attack, Overwatch, Lethal Blow, or Wound. You can perform the chosen stunt for 1 SP less than usual when wielding a firearm. In the case of Overwatch, spending 1 SP gives you the effects of spending 2 SP, and spending 2 SP gives you the 3 SP effect. See Chapter 5 for details on these stunts.</p>",
+      "desc": "<p>You’re one with the gun. Choose one of the following stunts: Lightning Attack, Overwatch, Lethal Blow, or Instant Kill. You can perform the chosen stunt for 1 SP less than usual when wielding a firearm. In the case of Overwatch, spending 1 SP gives you the effects of spending 2 SP, and spending 2 SP is equivalent to the 3 SP effect. See Chapter 5 for details on these stunts.</p>",
       "isActive": true
     }
   },

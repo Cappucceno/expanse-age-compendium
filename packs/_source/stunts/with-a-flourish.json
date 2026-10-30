@@ -1,8 +1,8 @@
 {
   "name": "With a Flourish",
-  "_id": "PhIj3xdln3H4iCvl",
-  "_key": "!items!PhIj3xdln3H4iCvl",
-  "folder": "jWxRAT01MmI484Bb",
+  "_id": "009e397723b9e74f",
+  "_key": "!items!009e397723b9e74f",
+  "folder": "5abc8d2c694b22f5",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>You impress everyone who watches you with your ability. Gain a +1 to opposed tests against them for the rest of the encounter.</p>",
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p>You impress everyone who watches you with your ability. Gain a +1 to opposed tests against them for the rest of the encounter.</p>",
     "type": "General Exploration",
     "stuntPoints": 4,
     "stuntPointsMax": 4,

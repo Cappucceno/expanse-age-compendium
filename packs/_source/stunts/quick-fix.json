@@ -1,0 +1,26 @@
+{
+  "name": "Quick Fix",
+  "_id": "036854b8c50948df",
+  "_key": "!items!036854b8c50948df",
+  "folder": "04ec43dd466bbcf2",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 3+ SP</em></p><p><em>An engineer has access to the Weapon Online Command stunt.</em></p><p>Every 3 SP spent allows the engineer to instantly repair a single loss to Maneuverability, Sensors, or Weapons.</p>",
+    "type": "Engineer",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

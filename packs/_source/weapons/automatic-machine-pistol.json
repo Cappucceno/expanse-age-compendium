@@ -1,0 +1,39 @@
+{
+  "name": "Automatic Machine Pistol",
+  "_id": "10731894eedb4c69",
+  "_key": "!items!10731894eedb4c69",
+  "folder": "746fdfef8f42fae6",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Small, concealable machine guns are a popular weapon among any number of covert forces, official or otherwise. They come in many models, but all have both the Automatic quality and the Concealable quality (see Ranged Weapon Qualities, above). Compact machine guns sometimes suffer from the Ineffective flaw.</p>",
+    "useAbl": "acc",
+    "useFocus": "pistols",
+    "minStr": 0,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "2d6",
+    "weight": 0,
+    "cost": 14,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 50,
+    "rangeMax": 75
+  },
+  "ownership": {
+    "default": 0
+  }
+}

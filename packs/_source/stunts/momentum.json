@@ -1,8 +1,8 @@
 {
   "name": "Momentum",
-  "_id": "2MRGL1UdYFOAsYoj",
-  "_key": "!items!2MRGL1UdYFOAsYoj",
-  "folder": "iUVfhOY02Hq2jOoj",
+  "_id": "0a9e3a329e1bfd8a",
+  "_key": "!items!0a9e3a329e1bfd8a",
+  "folder": "5905993f12458e24",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Core stunt.</em> Gain +3 to initiative per SP spent, changing your place in the initiative order.</p>",
+    "longDesc": "<p><em>Cost: 1–3 SP</em></p><p>Gain +3 to initiative per SP spent, changing your place in the initiative order.</p>",
     "type": "General Combat",
     "stuntPoints": 1,
     "stuntPointsMax": 3,

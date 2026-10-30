@@ -1,8 +1,8 @@
 {
   "name": "Grapple",
-  "_id": "lR726beZm7cD4DNv",
-  "_key": "!items!lR726beZm7cD4DNv",
-  "folder": "hgBf5TCh65XH0uak",
+  "_id": "5ad2df61a49ffa76",
+  "_key": "!items!5ad2df61a49ffa76",
+  "folder": "2f16f3061def0478",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Core stunt.</em> You and your target make opposed Fighting (Grappling) rolls; if you win, they can’t move from where they are on their next turn. You and the target both take a −2 Defense penalty until the beginning of your next turn.</p>",
+    "longDesc": "<p><em>Cost: 1 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making a Fighting (Grappling) attack.</em></p><p>You and your target make opposed Fighting (Grappling) rolls; if you win, they can’t move from where they are on their next turn. You and the target both take a −2 Defense penalty until the beginning of your next turn.</p>",
     "type": "Grappling",
     "stuntPoints": 1,
     "stuntPointsMax": 1,

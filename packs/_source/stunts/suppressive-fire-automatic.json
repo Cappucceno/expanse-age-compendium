@@ -1,8 +1,8 @@
 {
   "name": "Suppressive Fire (Automatic)",
-  "_id": "zlb4rHXfdFZ5zveB",
-  "_key": "!items!zlb4rHXfdFZ5zveB",
-  "folder": "HjZS0NpKrp9ecqIY",
+  "_id": "122c298166701483",
+  "_key": "!items!122c298166701483",
+  "folder": "50729435b57d6849",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>At the end of each character’s turn until the start of your next turn (including allies and your current target), make a new attack against that character if they’re within (SP) meters of the spot where your target stands right now.</p>",
+    "longDesc": "<p><em>Cost: 1–5 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making an attack with a gun. Some gun stunts require a specific type of gun, such as a pistol, rifle, or automatic weapon.</em></p><p>At the end of each character’s turn until the start of your next turn (including allies and your current target), make a new attack against that character if they’re within (SP) meters of the spot where your target stands right now.</p>",
     "type": "Gun",
     "stuntPoints": 1,
     "stuntPointsMax": 5,

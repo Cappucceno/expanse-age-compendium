@@ -1,0 +1,157 @@
+{
+  "name": "Argo Dimas",
+  "_id": "209a4e8ccf57405f",
+  "_key": "!actors!209a4e8ccf57405f",
+  "folder": "4fc72d0aee69b5a5",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Supporting",
+    "abilities": {
+      "acc": {
+        "value": 0
+      },
+      "comm": {
+        "value": 3
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 0
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 1
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 10,
+      "value": 10
+    },
+    "features": "",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Argo Dimas",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Bargaining",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "1ebb258a8885863c",
+      "_key": "!actors.items!209a4e8ccf57405f.1ebb258a8885863c",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Crafting",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "f1ed78a9341a206f",
+      "_key": "!actors.items!209a4e8ccf57405f.f1ed78a9341a206f",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Art",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "c260f3faa537be07",
+      "_key": "!actors.items!209a4e8ccf57405f.c260f3faa537be07",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Business",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "50d1a4989b78526e",
+      "_key": "!actors.items!209a4e8ccf57405f.50d1a4989b78526e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    }
+  ]
+}

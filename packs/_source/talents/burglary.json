@@ -1,8 +1,8 @@
 {
   "name": "Burglary",
-  "_id": "LPGzs3K7Kd3Q2h0P",
-  "_key": "!items!LPGzs3K7Kd3Q2h0P",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "693c43240279b611",
+  "_key": "!items!693c43240279b611",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "longDesc": "<p>You know how to bypass security to enter a place and take anything that strikes your fancy.</p>",
     "shortDesc": "",
-    "requirement": "Dexterity 2 or higher",
+    "requirement": "Dexterity 2+",
     "type": "talent",
     "degree": 0,
     "activate": true,

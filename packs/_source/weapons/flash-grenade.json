@@ -1,0 +1,39 @@
+{
+  "name": "Flash Grenade",
+  "_id": "727706321f53ac0a",
+  "_key": "!items!727706321f53ac0a",
+  "folder": "1144c14e1a28e8de",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p><strong>Area of Effect 5 Meters/15 Meters</strong></p><p>Instead of dealing their blast damage, flash grenades create a bright flash, inflicting the Blinded condition on anyone in line-of-sight within a 15-meter radius who looked in the direction of the explosion. The condition goes away after 2d6 rounds.</p><p><em>Thrown: short range 4 m, long range 8 m (Accuracy (Throwing) test, TN 11).</em></p>",
+    "useAbl": "acc",
+    "useFocus": "throwing",
+    "minStr": 0,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "2d6",
+    "weight": 0,
+    "cost": 8,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 4,
+    "rangeMax": 8
+  },
+  "ownership": {
+    "default": 0
+  }
+}

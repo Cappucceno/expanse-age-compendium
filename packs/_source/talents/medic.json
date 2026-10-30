@@ -1,8 +1,8 @@
 {
   "name": "Medic",
-  "_id": "BnCOG7bjuI6H7h83",
-  "_key": "!items!BnCOG7bjuI6H7h83",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "72940a1028102c8a",
+  "_key": "!items!72940a1028102c8a",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,16 +16,16 @@
   "system": {
     "longDesc": "<p>You can treat certain conditions in the field. See Conditions in Chapter 1 for details.</p>",
     "shortDesc": "",
-    "requirement": "Intelligence 1 or higher",
+    "requirement": "Intelligence 1+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>Your treatment allows a patient to add your Intelligence (and Medicine focus, if any) to a test to avoid or overcome a medical hazard, or grants the patient a new test to overcome that hazard, if there is one. This includes saving a patient from dying and reviving an unconscious character.</p>",
+      "desc": "<p>Your treatment allows a patient to add your Intelligence (and Medicine focus, if any) to a test to avoid or overcome a medical hazard, or it grants the patient a new test to overcome that hazard, if there is one. This includes saving a patient from dying and reviving an unconscious character.</p>",
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>If you treat a patient, you can alleviate the effects of the exhausted, fatigued, injured, or wounded conditions. This takes an advanced TN 11 Intelligence (Medicine) test (threshold 5) with each roll taking one minute. If you succeed, the patient ignores the effects of those conditions for 1d6 hours. The conditions are still present, however, and the effects return when the duration ends or if any of the conditions worsen, such as an injured character becoming wounded, for example.</p>",
+      "desc": "<p>If you treat a patient, you can alleviate the effects of the Exhausted, Fatigued, Injured, and Wounded conditions. This takes an advanced TN 11 Intelligence (Medicine) test (threshold 5) with each roll taking one minute. If you succeed, the patient ignores the effects of all these conditions for 1d6 hours, even if they have more than one of them. The conditions are still present, however, and the effects return when the 1d6 hours you rolled are up. Furthermore, If the patient takes one of these conditions while under the effects of your treatment or they gain a new degree of Fatigued, the period of alleviation stops immediately, though you can treat the patient again.</p>",
       "isActive": true
     },
     "degree2": {

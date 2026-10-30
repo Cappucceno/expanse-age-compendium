@@ -1,0 +1,147 @@
+{
+  "name": "Slithersquirrel",
+  "_id": "1f8214654e4123cf",
+  "_key": "!actors!1f8214654e4123cf",
+  "folder": "4004dd723b44d73e",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 1
+      },
+      "comm": {
+        "value": -2
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 4
+      },
+      "fight": {
+        "value": 1
+      },
+      "int": {
+        "value": 0
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 2
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "speed": {
+      "base": 14
+    },
+    "defense": {
+      "base": 14
+    },
+    "health": {
+      "set": 0,
+      "value": 0
+    },
+    "features": "<p><strong>Favored Stunts:</strong> Short Cut, Vicious Blow</p><p><strong>Slick Coat:</strong> The slithersquirrel’s oily fur gives it a +2 bonus on Dexterity (Acrobatics) tests or when opposing a test made to capture or hold it.</p><p><strong>Talents:</strong> Quick Reflexes</p><p><strong>Armor + Toughness:</strong> 1</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Slithersquirrel",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Acrobatics",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "3bf32b861749804d",
+      "_key": "!actors.items!1f8214654e4123cf.3bf32b861749804d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Jumping",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "306609aaec70fbf5",
+      "_key": "!actors.items!1f8214654e4123cf.306609aaec70fbf5",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "fa69db757890f93d",
+      "_key": "!actors.items!1f8214654e4123cf.fa69db757890f93d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +1</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "3",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d3+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 {
   "name": "Backgrounds",
-  "type": "RollTable",
+  "type": "Item",
   "folder": null,
   "sorting": "a",
-  "sort": 300000,
+  "sort": 100000,
   "color": null,
   "description": "",
   "flags": {},
-  "_id": "KupSToGvoqsE558E",
-  "_key": "!folders!KupSToGvoqsE558E",
+  "_id": "e40bfc57fae3ea33",
+  "_key": "!folders!e40bfc57fae3ea33",
   "_stats": {
     "coreVersion": "14",
     "systemId": "age-system",

@@ -1,8 +1,8 @@
 {
   "name": "And Another Thing",
-  "_id": "Sh7yBBFilSzFLNUG",
-  "_key": "!items!Sh7yBBFilSzFLNUG",
-  "folder": "RYCI0kZp4Uq2YPRL",
+  "_id": "e7a5863d96ac1623",
+  "_key": "!items!e7a5863d96ac1623",
+  "folder": "a7eaf3a981654930",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Make a second, related test as part of your action, before anyone else has a chance to respond or make any tests of their own.</p>",
+    "longDesc": "<p><em>Cost: 2 SP</em></p><p>Make a second, related test as part of your action, before anyone else has a chance to respond or make any tests of their own.</p>",
     "type": "General Social",
     "stuntPoints": 2,
     "stuntPointsMax": 2,

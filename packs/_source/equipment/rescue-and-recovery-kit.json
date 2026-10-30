@@ -1,0 +1,27 @@
+{
+  "name": "Rescue-and-Recovery Kit",
+  "_id": "af39df4894cc378b",
+  "_key": "!items!af39df4894cc378b",
+  "folder": "959b4153636fe8b2",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Commonly carried on passenger ships, shuttles, and search-and-rescue craft, these kits (also known as R-and-R packs) look like massive backpacks. They contain two emergency vac suits, a collapsible emergency airlock, a single-use cutting torch, a distress beacon, and a medical kit.</p>",
+    "weight": 0,
+    "cost": 14,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

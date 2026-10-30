@@ -1,8 +1,8 @@
 {
   "name": "Saboteur",
-  "_id": "71Et6WC0uSUVYGLW",
-  "_key": "!actors!71Et6WC0uSUVYGLW",
-  "folder": "BlPNbL9yVLi7AiLr",
+  "_id": "901b054bb5e9526e",
+  "_key": "!actors!901b054bb5e9526e",
+  "folder": "0a0697cfb3499f42",
   "sort": 0,
   "flags": {
     "core": {
@@ -49,25 +49,32 @@
       }
     },
     "speed": {
-      "base": 10
+      "base": 13
     },
     "defense": {
-      "base": 10
+      "base": 13
     },
     "health": {
       "set": 16,
       "value": 16
     },
-    "features": "<p><strong>AKA:</strong> Detractor, Rebel, Terrorist</p><p>Saboteurs walk a fine line. They may have once been activists who turned to more extreme methods. If they work for a cause they truly believe in, they may not pay too much attention to their moral compass. Some see them as assets in corporate conflicts, others as either terrorists or crusaders and freedom fighters against the overreaching powers that be.</p><p><strong>Stunts:</strong> Collateral Damage, Cover Your Tracks, It Wasn’t Me</p><p><strong>Talents:</strong> Contacts (Novice), Fringer (Expert)</p><p><strong>Equipment:</strong> kit of tools and disguises, various explosives, pistol, light body armor</p>",
+    "features": "<p>Saboteurs walk a fine line. If they work for a cause they truly believe in, they may not pay too much attention to their moral compass. Some see them as assets in corporate conflicts, others as either terrorists or crusaders and freedom fighters against the overreaching powers that be.</p><p><strong>Favored Stunts:</strong> Cover Your Tracks, It Wasn’t Me</p><p><strong>Talents:</strong> Contacts (Novice), Fringer (Expert)</p><p><strong>Equipment:</strong> kit of tools and disguises, various explosives, pistol, light body armor</p><p><strong>Armor + Toughness:</strong> 3</p>",
     "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Saboteur",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
   },
   "items": [
     {
       "name": "Pistols",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "B1fWACzTMIkPCLzX",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.B1fWACzTMIkPCLzX",
+      "_id": "972a0e3dd597ddb9",
+      "_key": "!actors.items!901b054bb5e9526e.972a0e3dd597ddb9",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -87,8 +94,8 @@
       "name": "Throwing",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "6Yio6DlVjjHTxvI8",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.6Yio6DlVjjHTxvI8",
+      "_id": "1f3a91850fcddad5",
+      "_key": "!actors.items!901b054bb5e9526e.1f3a91850fcddad5",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -108,8 +115,8 @@
       "name": "Disguise",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "Msl07cDh9I7nq1oQ",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.Msl07cDh9I7nq1oQ",
+      "_id": "67e69027f9437c8d",
+      "_key": "!actors.items!901b054bb5e9526e.67e69027f9437c8d",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -129,8 +136,8 @@
       "name": "Running",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "HCnWFHHMK0m6WZHt",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.HCnWFHHMK0m6WZHt",
+      "_id": "555d9aae61ac890a",
+      "_key": "!actors.items!901b054bb5e9526e.555d9aae61ac890a",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -150,8 +157,8 @@
       "name": "Sleight of Hand",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "x5obI6zACq2oG9Ep",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.x5obI6zACq2oG9Ep",
+      "_id": "8627cee13bde4bee",
+      "_key": "!actors.items!901b054bb5e9526e.8627cee13bde4bee",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -171,8 +178,8 @@
       "name": "Stealth",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "Uey7pqGYOE7LHiKn",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.Uey7pqGYOE7LHiKn",
+      "_id": "45810eed836fcb41",
+      "_key": "!actors.items!901b054bb5e9526e.45810eed836fcb41",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -192,8 +199,8 @@
       "name": "Brawling",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "wArXR5NCTwn2JpHd",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.wArXR5NCTwn2JpHd",
+      "_id": "12b7e34e37a1e079",
+      "_key": "!actors.items!901b054bb5e9526e.12b7e34e37a1e079",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -213,8 +220,8 @@
       "name": "Demolitions",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "w8wJatY6cA0cDTsG",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.w8wJatY6cA0cDTsG",
+      "_id": "68cac2602a29b5b4",
+      "_key": "!actors.items!901b054bb5e9526e.68cac2602a29b5b4",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -234,8 +241,8 @@
       "name": "Engineering",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "dJSv0xJMOwJ41nGY",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.dJSv0xJMOwJ41nGY",
+      "_id": "cb65d9eaa4d590c2",
+      "_key": "!actors.items!901b054bb5e9526e.cb65d9eaa4d590c2",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -255,8 +262,8 @@
       "name": "Technology",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "4gY0vNRU1kdN9koE",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.4gY0vNRU1kdN9koE",
+      "_id": "eaca8379c9aa9ca4",
+      "_key": "!actors.items!901b054bb5e9526e.eaca8379c9aa9ca4",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -273,11 +280,53 @@
       }
     },
     {
+      "name": "Hearing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "b67c2a9648273b76",
+      "_key": "!actors.items!901b054bb5e9526e.b67c2a9648273b76",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seeing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "0637ec0458a09a96",
+      "_key": "!actors.items!901b054bb5e9526e.0637ec0458a09a96",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
       "name": "Courage",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "JiAzkIdTKZFAwazN",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.JiAzkIdTKZFAwazN",
+      "_id": "62c472b0517f3e47",
+      "_key": "!actors.items!901b054bb5e9526e.62c472b0517f3e47",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -297,8 +346,8 @@
       "name": "Self-Discipline",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "2Tzz0VCDlc9xGhU3",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.2Tzz0VCDlc9xGhU3",
+      "_id": "b692a61f9d1ebc59",
+      "_key": "!actors.items!901b054bb5e9526e.b692a61f9d1ebc59",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -318,8 +367,8 @@
       "name": "Grenade",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "NJFg0g12R1F2J6P6",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.NJFg0g12R1F2J6P6",
+      "_id": "26866ff185ee283a",
+      "_key": "!actors.items!901b054bb5e9526e.26866ff185ee283a",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -330,9 +379,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +4, damage 3d6.</p>",
-        "useAbl": "acc",
-        "useFocus": "throwing",
+        "longDesc": "<p>Attack roll +4</p>",
+        "useAbl": "fight",
         "nrDice": "3",
         "diceType": "6",
         "extraValue": 0,
@@ -343,15 +391,16 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": false
       }
     },
     {
       "name": "Pistol",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "ugMRGLwm6uWwdYym",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.ugMRGLwm6uWwdYym",
+      "_id": "1fc2ae63e1236495",
+      "_key": "!actors.items!901b054bb5e9526e.1fc2ae63e1236495",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -362,9 +411,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +4, damage 2d6+2.</p>",
+        "longDesc": "<p>Attack roll +4</p>",
         "useAbl": "acc",
-        "useFocus": "pistols",
         "nrDice": "2",
         "diceType": "6",
         "extraValue": 2,
@@ -375,15 +423,16 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": true
       }
     },
     {
       "name": "Unarmed",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "CsYSvouCTT4lgULI",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.CsYSvouCTT4lgULI",
+      "_id": "44a9bf269339fecf",
+      "_key": "!actors.items!901b054bb5e9526e.44a9bf269339fecf",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -394,9 +443,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +4, damage 1d3+1.</p>",
+        "longDesc": "<p>Attack roll +4</p>",
         "useAbl": "fight",
-        "useFocus": "brawling",
         "nrDice": "1",
         "diceType": "3",
         "extraValue": 1,
@@ -407,47 +455,9 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
-      }
-    },
-    {
-      "name": "Armor",
-      "type": "equipment",
-      "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
-      "_id": "ITUaMOS8ADeALdsB",
-      "_key": "!actors.items!71Et6WC0uSUVYGLW.ITUaMOS8ADeALdsB",
-      "flags": {},
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "_stats": {
-        "coreVersion": "14",
-        "systemId": "age-system",
-        "systemVersion": "5.0.0"
-      },
-      "system": {
-        "equiped": true,
-        "modifiers": {
-          "ue1X1X6OVJywYlmE": {
-            "type": "impactArmor",
-            "formula": "2",
-            "flavor": "",
-            "isActive": true,
-            "valid": true,
-            "conditions": {},
-            "ftype": "",
-            "key": "ue1X1X6OVJywYlmE"
-          }
-        },
-        "longDesc": ""
+        "equiped": false,
+        "ranged": false
       }
     }
-  ],
-  "prototypeToken": {
-    "name": "Saboteur",
-    "actorLink": false
-  },
-  "ownership": {
-    "default": 0
-  }
+  ]
 }

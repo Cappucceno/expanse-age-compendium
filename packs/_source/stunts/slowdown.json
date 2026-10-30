@@ -1,8 +1,8 @@
 {
   "name": "Slowdown",
-  "_id": "zC7ATXDvvle2hfsw",
-  "_key": "!items!zC7ATXDvvle2hfsw",
-  "folder": "fbhZaRhBv5ffJFzO",
+  "_id": "166ae5a6bccdbc5e",
+  "_key": "!items!166ae5a6bccdbc5e",
+  "folder": "eddb77218243b5e9",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>You damage the vehicle’s propulsion, dropping its Speed class by one category. If it drops to Slow or less, the operator must make a TN 15 test to maintain control. The slowdown remains until repaired. Damage control with a TN 13 Intelligence (Engineering) test can negate (but not remove) the penalty for rounds equal to the Drama Die result.</p>",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p><em>Stunts from this table are used when attacking or sabotaging a vehicle.</em></p><p>You damage the vehicle’s propulsion, dropping its Speed class by one category. If it drops to Slow or less, the operator must make a TN 15 test to maintain control. The slowdown remains until repaired. Damage control with a TN 13 Intelligence (Engineering) test can negate (but not remove) the penalty for rounds equal to the Drama Die result.</p>",
     "type": "Vehicle Combat",
     "stuntPoints": 3,
     "stuntPointsMax": 3,

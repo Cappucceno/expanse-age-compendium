@@ -1,0 +1,27 @@
+{
+  "name": "Loader Drone",
+  "_id": "115cc21156f266cc",
+  "_key": "!items!115cc21156f266cc",
+  "folder": "7d5d9b37ac4c4e55",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Although no drone can lift a large amount of weight individu ally, in large numbers, they are formidable. They attach to an object using strong but lightweight cables and maneuver collectively using networked programming. An advanced variant called a transport drone is designed to move larger or more unwieldy objects, potentially across greater distances.</p>",
+    "weight": 0,
+    "cost": 14,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

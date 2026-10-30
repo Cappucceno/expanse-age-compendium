@@ -1,0 +1,26 @@
+{
+  "name": "Skimming",
+  "_id": "c6c3cd841f4c1bb0",
+  "_key": "!items!c6c3cd841f4c1bb0",
+  "folder": "a4b3612d20ccffc7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p><em>In addition to the stunts listed here, pilots also have access to the following Command stunts at the same SP cost: Blinding Maneuver, Evasive Action, On-Target, Misdirect, and Set-Up.</em></p><p>If a space battle takes place near a planet with an atmosphere, you can dive into the planet’s atmosphere to avoid being targeted, perhaps losing your pursuer completely. Your pilot must make an opposed TN 17 Dexterity (Piloting) test to succeed. If successful, the pursuing ship loses track of your ship in the atmosphere, at least temporarily. (If either pilot fails this test they could end up in peril–see Using Atmosphere under Ship Maneuvers later in this chapter.) On following rounds, the pursuing ship can make opposed TN 11 Intelligence (Technology) + Sensors tests to reacquire a target on your ship.</p>",
+    "type": "Pilot",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

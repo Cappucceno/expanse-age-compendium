@@ -1,8 +1,8 @@
 {
   "name": "Quick Reflexes",
-  "_id": "g59TbPiB5SOMATaD",
-  "_key": "!items!g59TbPiB5SOMATaD",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "a4bbd916aa5ca44d",
+  "_key": "!items!a4bbd916aa5ca44d",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,12 +16,12 @@
   "system": {
     "longDesc": "<p>You react to threats instantly and instinctually.</p>",
     "shortDesc": "",
-    "requirement": "Dexterity 2 or higher",
+    "requirement": "Dexterity 2+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You can prepare for action in an instant. Once per round on your turn you can use Ready as a free action.</p>",
+      "desc": "<p>You can prepare yourself for action in an instant. Once per round, on your turn, you can use Ready as a free action.</p>",
       "isActive": true
     },
     "degree1": {
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>It is hard to get the drop on you. You may re-roll your initiative roll at the start of a combat encounter, but must keep the results of the second roll.</p>",
+      "desc": "<p>It is very hard for an opponent to get the drop on you. You may re-roll your initiative roll at the start of a combat encounter but must keep the results of the second roll.</p>",
       "isActive": true
     }
   },

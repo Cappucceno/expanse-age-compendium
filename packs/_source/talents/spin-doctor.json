@@ -1,0 +1,39 @@
+{
+  "name": "Spin Doctor",
+  "_id": "34fe32d9840c40ac",
+  "_key": "!items!34fe32d9840c40ac",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are well-versed in disseminating information to large audiences, even throughout the solar system and beyond. You may be an ethical communicator spreading truth and dispelling misinformation. Or you might be a disseminator of false narratives and half-truths. You are skilled at crafting narratives that guide public opinion in the direction of your choice. The medium you choose is of no consequence; your message will spread amongst the stars.</p><p><em>Synergies:</em> A Spin Doctor-Hacker uses the internet to spread or combat lies, while a Spin Doctor-Thief might use their abilities to create chaos and misinformation to make their heist easier. Meanwhile a Spin DoctorSocialite can make or break the reputations of the rich and powerful.</p><p>You can shape the hearts and minds of the masses.</p>",
+    "shortDesc": "",
+    "requirement": "Communication 2+, Perception (Insight) focus, and either Communication (Expression) or Communication (Persuasion) focus.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can create fake news or expose the truth. When you witness a news story or statement in person or over the media, you can make a Communication (Persuasion) test for spoken communications or Communication (Expression ) test for other forms, such as writing or video, with a TN set by the GM or in an opposed roll with the person issuing the statement. If you succeed, people who witness your response believe your alternate point of view regarding the story or statement. This undoes the social effects (attitude shifts and stunts, for instance) of the original statement. When using widely distributed media, the Drama Die result gives you a rough idea of how much of the target population you reach. (A 1 means only a few while a 6 means you managed to get as broad of an audience as possible.) Though without Membership in a media organization, social media firm, or a Reputation that inclines people to heed your words, you won’t reach everybody.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your words can build or destroy reputations. Pick an individual to compliment or smear, and make a Communication (Persuasion) or Communication (Expression) test, depending on the medium, with a TN set by the GM; make an opposed roll with your target’s Willpower (Self-Discipline) if done in person or a Communication (Expression) if it plays out in the media. If you win, you can impose a Reputation honorific or remove one the target already has. This lasts a number of days equal to your perception + the result of the Drama Die.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Your ability to shape and mold people’s opinions is strong. You may re-roll a failed Communication (Persuasion) or Communication (Expression) test but must keep the re-rolled result. Furthermore, anyone who agreed with any statements you made using prior degrees of this talent automatically shifts their attitude one step in your favor if they know you’re the author.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

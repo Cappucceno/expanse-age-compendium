@@ -1,8 +1,8 @@
 {
   "name": "Guardian Angel",
-  "_id": "QFeosShtAIdDjT3E",
-  "_key": "!items!QFeosShtAIdDjT3E",
-  "folder": "iUVfhOY02Hq2jOoj",
+  "_id": "3e16d1ee97629d3a",
+  "_key": "!items!3e16d1ee97629d3a",
+  "folder": "5905993f12458e24",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -18,7 +18,7 @@
     "type": "General Combat",
     "stuntPoints": 1,
     "stuntPointsMax": 1,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

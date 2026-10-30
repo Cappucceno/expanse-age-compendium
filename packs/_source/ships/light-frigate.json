@@ -1,0 +1,92 @@
+{
+  "name": "Light Frigate",
+  "_id": "7b9131cc19885bc5",
+  "_key": "!actors!7b9131cc19885bc5",
+  "folder": "a4e1452b7f1ca471",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "spaceship",
+  "img": "systems/age-system/resources/imgs/actor-icon/rocket.svg",
+  "system": {
+    "size": 4,
+    "drive": "Epstein, Thrusters",
+    "description": "<p><strong>Competence:</strong> Skilled to Elite</p><p><strong>Qualities:</strong> Good Juice, Improved Stores, Medical Expert System. Common other Qualities include an Advanced Sensor Package, Hull Plating, Improved Medical Expert System, or an additional Weapon System, like a spinal-mounted Rail Gun.</p><p><strong>Flaws:</strong> None</p><p><strong>Crew:</strong> 4 (16)</p><p><strong>Size:</strong> Large (45 meters long)</p>",
+    "hull": {
+      "nrDice": 2,
+      "diceType": 6,
+      "extraValue": 0
+    },
+    "crew": {
+      "min": 4,
+      "current": 4,
+      "typical": 4,
+      "competence": 4
+    },
+    "systems": {
+      "sensors": {
+        "mod": 1
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Light Frigate",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Point Defense Network",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "325f7c79c12a2fc1",
+      "_key": "!actors.items!7b9131cc19885bc5.325f7c79c12a2fc1",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "2d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": "<p>Full Coverage, Close Range, 2d6 Damage</p>"
+      }
+    },
+    {
+      "name": "2 × Torpedo Tubes",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "8c8372a9091907e3",
+      "_key": "!actors.items!7b9131cc19885bc5.8c8372a9091907e3",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "4d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": "<p>Fore, Long Range, 4d6 Damage</p>"
+      }
+    }
+  ]
+}

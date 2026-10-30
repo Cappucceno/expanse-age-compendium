@@ -1,0 +1,26 @@
+{
+  "name": "Not My Ship!",
+  "_id": "2539c6289641cd15",
+  "_key": "!items!2539c6289641cd15",
+  "folder": "04ec43dd466bbcf2",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p><em>An engineer has access to the Weapon Online Command stunt.</em></p><p>The Engineer can spend Fortune to reduce damage taken by the ship just as it were part of the hull. The engineer can spend 1d6 Fortune to reduce damage to the ship for every SP spent.</p>",
+    "type": "Engineer",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

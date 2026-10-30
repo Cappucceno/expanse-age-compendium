@@ -1,0 +1,27 @@
+{
+  "name": "Form-Fitting Space Suit",
+  "_id": "b7eea270037013c8",
+  "_key": "!items!b7eea270037013c8",
+  "folder": "959b4153636fe8b2",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>More expensive, modern spacesuits are as light as the riot gear worn by law enforcement and just as tough, with heating and cooling systems sewn into a body sleeve worn beneath the impact-resistant segments of the outer shell. Also in the inner sleeve is a sensor network providing data for a medical data feed shown on a HUD inside the helmet—as well as to other members of the wearer’s team. The suit gathers information from environmental sensors in the outer shell to monitor temperature, radiation, and local atmospheric conditions, projected on the HUD alongside overlays of technical specs for a ship’s maintenance crew, or geological survey data for a scientific scouting team. Display of this data along with other suit systems is manipulated via chin controls, as well as blinks and other eye movement. The most expensive suits are often customized and tailored for their wearers.</p>",
+    "weight": 0,
+    "cost": 15,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

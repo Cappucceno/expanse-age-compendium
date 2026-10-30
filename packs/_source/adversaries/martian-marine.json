@@ -1,0 +1,453 @@
+{
+  "name": "Martian Marine",
+  "_id": "127b406cace656b8",
+  "_key": "!actors!127b406cace656b8",
+  "folder": "39ddd256d87021bb",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Moderate",
+    "abilities": {
+      "acc": {
+        "value": 3
+      },
+      "comm": {
+        "value": 1
+      },
+      "cons": {
+        "value": 3
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 3
+      },
+      "will": {
+        "value": 3
+      }
+    },
+    "speed": {
+      "base": 12
+    },
+    "defense": {
+      "base": 12
+    },
+    "health": {
+      "set": 25,
+      "value": 25
+    },
+    "features": "<p><strong>Favored Stunts:</strong> Group Tactics, Skirmish, Shock and Awe, Short Burst, Strafe, Take Cover</p><p><strong>Talents:</strong> Command (Novice), Grappling Style (Expert), Rifle Style (Expert), Tactical Awareness (Expert)</p><p><strong>Equipment:</strong> light body armor, automatic pistol, automatic rifle, uniform and insignia</p><p><strong>Armor + Toughness:</strong> 5</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Martian Marine",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "da121dbfd4591419",
+      "_key": "!actors.items!127b406cace656b8.da121dbfd4591419",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Rifles",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "3a5814167bc45c18",
+      "_key": "!actors.items!127b406cace656b8.3a5814167bc45c18",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Gunnery",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "69c34a209ac1d861",
+      "_key": "!actors.items!127b406cace656b8.69c34a209ac1d861",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "cf54ff9e5fadadb6",
+      "_key": "!actors.items!127b406cace656b8.cf54ff9e5fadadb6",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Tolerance",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "8f374ab774637e1d",
+      "_key": "!actors.items!127b406cace656b8.8f374ab774637e1d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Grappling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ef9fd3c8b13cae47",
+      "_key": "!actors.items!127b406cace656b8.ef9fd3c8b13cae47",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seeing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "e01f628f2d6a9e0c",
+      "_key": "!actors.items!127b406cace656b8.e01f628f2d6a9e0c",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "f29751cfe649788f",
+      "_key": "!actors.items!127b406cace656b8.f29751cfe649788f",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Jumping",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "13df9d1a891e055c",
+      "_key": "!actors.items!127b406cace656b8.13df9d1a891e055c",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Might",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "4b6ba368d2acd5a2",
+      "_key": "!actors.items!127b406cace656b8.4b6ba368d2acd5a2",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Courage",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ee0ec2c49a323c28",
+      "_key": "!actors.items!127b406cace656b8.ee0ec2c49a323c28",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Self-Discipline",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "49931b813f261309",
+      "_key": "!actors.items!127b406cace656b8.49931b813f261309",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "cfd00c9f5787456e",
+      "_key": "!actors.items!127b406cace656b8.cfd00c9f5787456e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5</p>",
+        "useAbl": "acc",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": true
+      }
+    },
+    {
+      "name": "Rifle",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "4e89ab9b3c208c35",
+      "_key": "!actors.items!127b406cace656b8.4e89ab9b3c208c35",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5</p>",
+        "useAbl": "acc",
+        "nrDice": "3",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "3d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": true
+      }
+    },
+    {
+      "name": "Grenade",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "93f9a3d186b119a5",
+      "_key": "!actors.items!127b406cace656b8.93f9a3d186b119a5",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +3</p>",
+        "useAbl": "fight",
+        "nrDice": "3",
+        "diceType": "6",
+        "extraValue": 0,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "3d6",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    },
+    {
+      "name": "Grapple",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "db72183800fe960b",
+      "_key": "!actors.items!127b406cace656b8.db72183800fe960b",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4; (1d6+2 in armor)</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "3",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d3+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    }
+  ]
+}

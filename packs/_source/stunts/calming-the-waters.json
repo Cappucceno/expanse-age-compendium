@@ -1,8 +1,8 @@
 {
   "name": "Calming the Waters",
-  "_id": "iUc37m0cQJxDjVo1",
-  "_key": "!items!iUc37m0cQJxDjVo1",
-  "folder": "i9FAKCYRBr8cJoGO",
+  "_id": "e236782f1cc7ca57",
+  "_key": "!items!e236782f1cc7ca57",
+  "folder": "e6a09dfc5152643c",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,11 +14,11 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Cost: 1+ SP</em></p><p>Reduce the current Churn Pool by the SP spent. See The Churn in Chapter 12 for details.</p>",
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p><em>Infiltration stunts may apply when physically breaking in somewhere or exploring a new place, hacking into a computer or network, pulling a con job, or otherwise evading consequences and getting away with things.</em></p><p>Reduce the current Churn Pool by the SP spent. See The Churn in Chapter 12: Game Mastering for details.</p>",
     "type": "Infiltration",
     "stuntPoints": 1,
     "stuntPointsMax": 1,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

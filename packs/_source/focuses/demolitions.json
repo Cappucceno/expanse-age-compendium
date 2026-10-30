@@ -1,8 +1,8 @@
 {
   "name": "Demolitions",
-  "_id": "TmdZJG7TisS3zPt2",
-  "_key": "!items!TmdZJG7TisS3zPt2",
-  "folder": "TyLsoqrRehbelj4q",
+  "_id": "f2a524ae53b16d89",
+  "_key": "!items!f2a524ae53b16d89",
+  "folder": "b2c151c64a8dda83",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "focus",
   "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
   "system": {
-    "longDesc": "<p>Identifying, using, and safely handling explosives, as well as understanding their effects and detonation methods.</p>",
+    "longDesc": "<p>Identifying, using and safely handling explosives, as well as understanding their effects and detonation methods.</p>",
     "useAbl": "int",
     "initialValue": 2
   },

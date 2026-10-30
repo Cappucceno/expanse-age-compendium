@@ -1,8 +1,8 @@
 {
   "name": "Dual Weapon Style",
-  "_id": "0IuVJ1Wv3Ce8WpfJ",
-  "_key": "!items!0IuVJ1Wv3Ce8WpfJ",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "dfd1071865bd4bd2",
+  "_key": "!items!dfd1071865bd4bd2",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,9 +14,9 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>You can fight in hand-to-hand combat with a weapon in your primary hand and another in your off-hand (a secondary weapon). Unless otherwise stated, attacks come from the primary weapon.</p>",
+    "longDesc": "<p>You can fight in hand-to-hand combat with a weapon in your primary hand and another in your offhand (a secondary weapon). Unless otherwise stated, attacks come from the primary weapon.</p>",
     "shortDesc": "",
-    "requirement": "Dexterity 2 or higher",
+    "requirement": "Dexterity 2+",
     "type": "talent",
     "degree": 0,
     "activate": true,

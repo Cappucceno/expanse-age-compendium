@@ -1,0 +1,83 @@
+{
+  "name": "Upper Class Backgrounds",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Backgrounds of the upper class social class.",
+  "results": [
+    {
+      "_id": "8967f8b1d7f21ad7",
+      "type": "text",
+      "name": "Aristocratic",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7fffa7fd82b1862e.8967f8b1d7f21ad7"
+    },
+    {
+      "_id": "2cff1ff5181dd501",
+      "type": "text",
+      "name": "Corporate",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7fffa7fd82b1862e.2cff1ff5181dd501"
+    },
+    {
+      "_id": "b0a41eb12fa26753",
+      "type": "text",
+      "name": "Cosmopolitan",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7fffa7fd82b1862e.b0a41eb12fa26753"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e40bfc57fae3ea33",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "7fffa7fd82b1862e",
+  "_key": "!tables!7fffa7fd82b1862e"
+}

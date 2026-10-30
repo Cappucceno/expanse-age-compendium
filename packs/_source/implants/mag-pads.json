@@ -1,0 +1,28 @@
+{
+  "name": "Mag Pads",
+  "_id": "089853f2d6173abc",
+  "_key": "!items!089853f2d6173abc",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Magnetic pads inserted into the feet allow a character to move about in microgravity as if they are wearing magnetic boots—as long as they have a magnetic surface on which to walk. The magnetic pads function even while wearing foot coverings as long as they are not very thick and made of a non-metallic material.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

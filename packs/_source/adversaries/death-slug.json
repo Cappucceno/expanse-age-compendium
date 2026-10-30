@@ -1,0 +1,189 @@
+{
+  "name": "Death Slug",
+  "_id": "d1172bbeaddcb2a0",
+  "_key": "!actors!d1172bbeaddcb2a0",
+  "folder": "4004dd723b44d73e",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 0
+      },
+      "comm": {
+        "value": -2
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 1
+      },
+      "int": {
+        "value": 0
+      },
+      "per": {
+        "value": 3
+      },
+      "str": {
+        "value": 1
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "speed": {
+      "base": 12
+    },
+    "defense": {
+      "base": 12
+    },
+    "health": {
+      "set": 13,
+      "value": 13
+    },
+    "features": "<p><strong>Favored Stunts:</strong> Just a Shadow, Neurotoxin (2 SP)</p><p><strong>Neurotoxin (2 Sp):</strong> The death slug secretes coniine on a character it can touch. If the target’s skin is exposed, they must make a TN 17 Constitution (Tolerance) test or immediately enter respiratory failure. After a number of rounds equal to double their Constitution score, the character falls unconscious (see Suffocation).</p><p><strong>Slime Trail:</strong> The death slug leaves a thin mucus trail in its wake that is also faintly bioluminescent. The trail fades after 1d6 minutes.</p><p><strong>Vibration Sense:</strong> Lacking eyes or ears, the death slug senses movement based on vibration.</p><p><strong>Armor + Toughness:</strong> 1</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Death Slug",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "61386bf35d3de53e",
+      "_key": "!actors.items!d1172bbeaddcb2a0.61386bf35d3de53e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stealth",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "de79ef717794f1d3",
+      "_key": "!actors.items!d1172bbeaddcb2a0.de79ef717794f1d3",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Hearing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "00fe332aa909471a",
+      "_key": "!actors.items!d1172bbeaddcb2a0.00fe332aa909471a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Touching",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "6ea1f55580051c06",
+      "_key": "!actors.items!d1172bbeaddcb2a0.6ea1f55580051c06",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "8e61891fe9138408",
+      "_key": "!actors.items!d1172bbeaddcb2a0.8e61891fe9138408",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +0</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "3",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d3+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    }
+  ]
+}

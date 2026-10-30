@@ -1,8 +1,8 @@
 {
   "name": "Just a Shadow",
-  "_id": "KXfssJof0SfhyqIs",
-  "_key": "!items!KXfssJof0SfhyqIs",
-  "folder": "i9FAKCYRBr8cJoGO",
+  "_id": "5bdd8ca83bf5896e",
+  "_key": "!items!5bdd8ca83bf5896e",
+  "folder": "e6a09dfc5152643c",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,11 +14,11 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Cost: 1+ SP</em></p><p><em>Core stunt.</em> Gain +1 per SP spent to your next test during this encounter as long as you remain unnoticed.</p>",
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p><em>Infiltration stunts may apply when physically breaking in somewhere or exploring a new place, hacking into a computer or network, pulling a con job, or otherwise evading consequences and getting away with things.</em></p><p>Gain +1 per SP spent to your next test during this encounter as long as you remain unnoticed.</p>",
     "type": "Infiltration",
     "stuntPoints": 1,
     "stuntPointsMax": 1,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

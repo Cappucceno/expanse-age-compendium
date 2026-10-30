@@ -1,8 +1,8 @@
 {
   "name": "Technology",
-  "_id": "bGZAoPcsYOFAdtVR",
-  "_key": "!items!bGZAoPcsYOFAdtVR",
-  "folder": "TyLsoqrRehbelj4q",
+  "_id": "b23ae788b423f9b9",
+  "_key": "!items!b23ae788b423f9b9",
+  "folder": "b2c151c64a8dda83",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "focus",
   "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
   "system": {
-    "longDesc": "<p>Knowledge of the design and operation of technology, particularly computers, which are incorporated into nearly all technological items in The Expanse.</p>",
+    "longDesc": "<p>Knowledge of the design and operation of technology, particular computers, which are incorporated into nearly all technological items in The Expanse.</p>",
     "useAbl": "int",
     "initialValue": 2
   },

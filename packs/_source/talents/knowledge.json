@@ -1,8 +1,8 @@
 {
   "name": "Knowledge",
-  "_id": "weZP6Zb8biGajEv8",
-  "_key": "!items!weZP6Zb8biGajEv8",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "59b0f0ddea2c0916",
+  "_key": "!items!59b0f0ddea2c0916",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,14 +14,14 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>You have an inquisitive mind and you’re a fast learner.</p>",
+    "longDesc": "<p>You’re a fast learner and have an inquisitive mind.</p>",
     "shortDesc": "",
-    "requirement": "Intelligence 2 or higher",
+    "requirement": "Intelligence 2+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>When you make a successful Intelligence test with a knowledge focus, the GM should give you an extra piece of information on the topic. A knowledge focus is any Intelligence focus with a description that starts with “Knowledge”, such as Business or Science. The GM determines the nature of the additional information and it may or may not be pertinent to the main question at hand.</p>",
+      "desc": "<p>When you make a successful Intelligence test with a knowledge focus, the GM should give you an extra piece of information on the topic. A knowledge focus is any Intelligence focus with a description that starts with “Knowledge”, such as Business or Science. The GM determines the additional information, and it may or may not be pertinent to the main question at hand.</p>",
       "isActive": true
     },
     "degree1": {

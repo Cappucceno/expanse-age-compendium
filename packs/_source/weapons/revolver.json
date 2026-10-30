@@ -1,0 +1,39 @@
+{
+  "name": "Revolver",
+  "_id": "25b463d3b8aa37e7",
+  "_key": "!items!25b463d3b8aa37e7",
+  "folder": "746fdfef8f42fae6",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Invented in the 15th century, the revolver hasn’t changed much since the 19th century. They generally have one barrel and use a revolving cylinder with multiple chambers (usually six). While limited in ammo capacity, they are still popular both for the nostalgia and for the fact that they are extremely unlikely to jam. Unlike other firearms, revolvers do not have clips of ammunition and so are limited in the number of rounds they can fire. Most revolvers hold six bullets, although models exist that hold as many as 10. If a player is using a revolver, you can choose to suspend the normal rules for running out of ammo (see Weapon Capacity in Chapter 5) and instead allow the player to count the number of shots until they run out. This can add a level of tension to a firefight if the PC doesn’t have any additional ammo available.</p>",
+    "useAbl": "acc",
+    "useFocus": "pistols",
+    "minStr": 0,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "2d6",
+    "weight": 0,
+    "cost": 9,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 50,
+    "rangeMax": 75
+  },
+  "ownership": {
+    "default": 0
+  }
+}

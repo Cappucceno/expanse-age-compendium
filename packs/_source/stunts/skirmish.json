@@ -1,8 +1,8 @@
 {
   "name": "Skirmish",
-  "_id": "HGLZoNdNyI7CcD2t",
-  "_key": "!items!HGLZoNdNyI7CcD2t",
-  "folder": "iUVfhOY02Hq2jOoj",
+  "_id": "764946b8b49d95e1",
+  "_key": "!items!764946b8b49d95e1",
+  "folder": "5905993f12458e24",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -18,7 +18,7 @@
     "type": "General Combat",
     "stuntPoints": 1,
     "stuntPointsMax": 1,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

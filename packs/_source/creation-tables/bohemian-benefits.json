@@ -1,0 +1,183 @@
+{
+  "name": "Bohemian Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Bohemian background (Outsider).",
+  "results": [
+    {
+      "_id": "1d8af2864c7abfd4",
+      "type": "text",
+      "name": "+1 Dexterity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!d6dbf7c2fcfe579e.1d8af2864c7abfd4"
+    },
+    {
+      "_id": "568c5b81ba2ff6cb",
+      "type": "text",
+      "name": "Focus: Perception (Empathy)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!d6dbf7c2fcfe579e.568c5b81ba2ff6cb"
+    },
+    {
+      "_id": "ea54b243097a0037",
+      "type": "text",
+      "name": "Focus: Willpower (Courage or Faith)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!d6dbf7c2fcfe579e.ea54b243097a0037"
+    },
+    {
+      "_id": "c116937a32de3c8c",
+      "type": "text",
+      "name": "Focus: Communication (choose one)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!d6dbf7c2fcfe579e.c116937a32de3c8c"
+    },
+    {
+      "_id": "84b810386a4d816f",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!d6dbf7c2fcfe579e.84b810386a4d816f"
+    },
+    {
+      "_id": "c452ecde5a5ef8ab",
+      "type": "text",
+      "name": "Focus: Dexterity (Acrobatics or Free-fall)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!d6dbf7c2fcfe579e.c452ecde5a5ef8ab"
+    },
+    {
+      "_id": "be5b27ee56e1bb11",
+      "type": "text",
+      "name": "Focus: Communication (Persuasion)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!d6dbf7c2fcfe579e.be5b27ee56e1bb11"
+    },
+    {
+      "_id": "acb9cb56b06be27d",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!d6dbf7c2fcfe579e.acb9cb56b06be27d"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "d6dbf7c2fcfe579e",
+  "_key": "!tables!d6dbf7c2fcfe579e"
+}

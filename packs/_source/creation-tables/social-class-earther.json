@@ -1,10 +1,10 @@
 {
-  "name": "Social Class: Earther",
+  "name": "Social Class (Earther)",
   "img": "icons/svg/d20-grey.svg",
-  "description": "Step 4: Social Class",
+  "description": "Social class of a Earther character.",
   "results": [
     {
-      "_id": "vfDRye8Va3oQjrwl",
+      "_id": "5b65591ddca7efe1",
       "type": "text",
       "name": "Outsider",
       "description": "",
@@ -18,13 +18,13 @@
       "flags": {},
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       },
-      "_key": "!tables.results!uF1A4tOZcqKcxlXY.vfDRye8Va3oQjrwl"
+      "_key": "!tables.results!470694b90cab22ce.5b65591ddca7efe1"
     },
     {
-      "_id": "KBKtm8ogjlMimsNB",
+      "_id": "fc5975ce3d509ffe",
       "type": "text",
       "name": "Lower Class",
       "description": "",
@@ -38,13 +38,13 @@
       "flags": {},
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       },
-      "_key": "!tables.results!uF1A4tOZcqKcxlXY.KBKtm8ogjlMimsNB"
+      "_key": "!tables.results!470694b90cab22ce.fc5975ce3d509ffe"
     },
     {
-      "_id": "SiO1VrpooumYVxAE",
+      "_id": "d2715e973dc7d7e9",
       "type": "text",
       "name": "Middle Class",
       "description": "",
@@ -58,13 +58,13 @@
       "flags": {},
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       },
-      "_key": "!tables.results!uF1A4tOZcqKcxlXY.SiO1VrpooumYVxAE"
+      "_key": "!tables.results!470694b90cab22ce.d2715e973dc7d7e9"
     },
     {
-      "_id": "2H4KmzSapKQsSYXa",
+      "_id": "f2fbc67eb712dd91",
       "type": "text",
       "name": "Upper Class",
       "description": "",
@@ -78,17 +78,17 @@
       "flags": {},
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       },
-      "_key": "!tables.results!uF1A4tOZcqKcxlXY.2H4KmzSapKQsSYXa"
+      "_key": "!tables.results!470694b90cab22ce.f2fbc67eb712dd91"
     }
   ],
   "formula": "2d6",
   "replacement": true,
   "displayRoll": true,
   "flags": {},
-  "folder": "By65iEGdtzaMjbre",
+  "folder": "e40bfc57fae3ea33",
   "sort": 0,
   "ownership": {
     "default": 0
@@ -98,6 +98,6 @@
     "systemId": "age-system",
     "systemVersion": "5.0.0"
   },
-  "_id": "uF1A4tOZcqKcxlXY",
-  "_key": "!tables!uF1A4tOZcqKcxlXY"
+  "_id": "470694b90cab22ce",
+  "_key": "!tables!470694b90cab22ce"
 }

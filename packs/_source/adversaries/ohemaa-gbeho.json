@@ -1,0 +1,157 @@
+{
+  "name": "Ohemaa Gbeho",
+  "_id": "d5a6134f6e4d11da",
+  "_key": "!actors!d5a6134f6e4d11da",
+  "folder": "4fc72d0aee69b5a5",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Supporting",
+    "abilities": {
+      "acc": {
+        "value": 1
+      },
+      "comm": {
+        "value": 3
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 0
+      },
+      "int": {
+        "value": 2
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 1
+      },
+      "will": {
+        "value": 1
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 10,
+      "value": 10
+    },
+    "features": "<p>On the hunt for her first major break, Ohemaa is a junior reporter away from Earth for the first time. All she needs is to get over her queasiness whenever she’s in zero-g and she can bring her quirky, excitable reporting attitude to bear.</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Ohemaa Gbeho",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Expression",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ddab6f1414c7c769",
+      "_key": "!actors.items!d5a6134f6e4d11da.ddab6f1414c7c769",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stealth",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "4f6a527ab88efda8",
+      "_key": "!actors.items!d5a6134f6e4d11da.4f6a527ab88efda8",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Current Affairs",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "77e447cce8471eae",
+      "_key": "!actors.items!d5a6134f6e4d11da.77e447cce8471eae",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Searching",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "271c5d0e0d1cd233",
+      "_key": "!actors.items!d5a6134f6e4d11da.271c5d0e0d1cd233",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    }
+  ]
+}

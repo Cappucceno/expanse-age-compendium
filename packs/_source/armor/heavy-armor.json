@@ -1,7 +1,7 @@
 {
   "name": "Heavy Armor",
-  "_id": "g3k2L2NrD7n5FQkB",
-  "_key": "!items!g3k2L2NrD7n5FQkB",
+  "_id": "6a08db0f106a8eb4",
+  "_key": "!items!6a08db0f106a8eb4",
   "folder": null,
   "sort": 0,
   "flags": {},
@@ -14,13 +14,13 @@
   "type": "equipment",
   "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
   "system": {
-    "longDesc": "<p>Layered anti-ballistic body sheath with impact gel, an integrated medical sensor net, a pressure-rated self-sealing environment suit and strap-on plating. Helmets have a built-in communications network.</p>",
+    "longDesc": "<p>Heavy armor used by soldiers and security forces for combat duty is a layered affair of a body sheath of multiple layers of anti-ballistic material, impact gel, and an integrated medical sensor net capable of injecting the wearer with painkillers, amphetamines, or anti-nausea medications as needed. On top of that goes a pressure-rated environment suit infused with self-sealing gel to close any knife or bullet punctures and maintain atmosphere. Finally, they add strap-on armor plating. Helmets have a built-in communications network, and officers can be equipped with a command terminal, letting their HUD show medical readouts from members of their squad as well as maps and other tactical overlays.</p><p>Armor bonus +6, armor penalty -3, Income TN 16.</p>",
     "weight": 0,
     "cost": 16,
     "quantity": 1,
     "equiped": false,
     "modifiers": {
-      "pXF5U4L5Izqi1URZ": {
+      "e72890404363a205": {
         "type": "impactArmor",
         "formula": "6",
         "flavor": "",
@@ -28,9 +28,9 @@
         "valid": true,
         "conditions": {},
         "ftype": "",
-        "key": "pXF5U4L5Izqi1URZ"
+        "key": "e72890404363a205"
       },
-      "dgedhm4XC3WS8Cno": {
+      "703b091b8ee139ab": {
         "type": "armorPenalty",
         "formula": "3",
         "flavor": "",
@@ -38,7 +38,7 @@
         "valid": true,
         "conditions": {},
         "ftype": "",
-        "key": "dgedhm4XC3WS8Cno"
+        "key": "703b091b8ee139ab"
       }
     }
   },

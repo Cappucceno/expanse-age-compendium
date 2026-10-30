@@ -1,0 +1,27 @@
+{
+  "name": "Surveillance Drone",
+  "_id": "22211640825861e2",
+  "_key": "!items!22211640825861e2",
+  "folder": "7d5d9b37ac4c4e55",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Spying is one of the most popular uses for drones, as miniature machines can reach ideal snooping points much more easily than human bodies can. These drones are capable of recording targets using audio, video, radio, and, even more invasively, with x-ray scanners, thermal imagers, and more. They typically report their findings using either tightbeam laser (to avoid interception) or in person via direct data upload.</p>",
+    "weight": 0,
+    "cost": 15,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Vac Suit",
+  "_id": "a67ade86f48d0f0c",
+  "_key": "!items!a67ade86f48d0f0c",
+  "folder": "959b4153636fe8b2",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Vac suits are heavier space suits that have corrugated joints connecting hardened plastic segments, helmets with thick transparent faceplates, and connections for separate air-supply units. Despite a vac suit’s bulk and complaints that they’re poorly heated and cooled, they’re quite effective at keeping the wearer alive and functional. They feature integrated magnetic boots and communications rigs, along with water tanks and food supplies running to dispensers inside the helmet. They’re also easy to repair, with some vac suits passed down from one generation to another among Belter mining families.</p>",
+    "weight": 0,
+    "cost": 11,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

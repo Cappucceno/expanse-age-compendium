@@ -1,8 +1,8 @@
 {
   "name": "Double-Team",
-  "_id": "7uzRB0kOheuYABLs",
-  "_key": "!items!7uzRB0kOheuYABLs",
-  "folder": "iUVfhOY02Hq2jOoj",
+  "_id": "bd8a0e016dee5660",
+  "_key": "!items!bd8a0e016dee5660",
+  "folder": "5905993f12458e24",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Choose one ally to make an immediate attack on your target, who must be within range and sight of the ally’s attack.</p>",
+    "longDesc": "<p><em>Cost: 2 SP</em></p><p>Choose one ally to make an immediate attack on your target, who must be within range and sight of the ally’s attack.</p>",
     "type": "General Combat",
     "stuntPoints": 2,
     "stuntPointsMax": 2,

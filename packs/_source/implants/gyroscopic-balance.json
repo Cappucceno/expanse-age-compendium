@@ -1,0 +1,28 @@
+{
+  "name": "Gyroscopic Balance",
+  "_id": "cbe5c1940cc5dcc5",
+  "_key": "!items!cbe5c1940cc5dcc5",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your inner ears are augmented, giving you improved balance and a +2 bonus on Dexterity (Acrobatics) tests and any tests to avoid hazards, stunts, or other effects that would throw you off-balance or cause you to become prone.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

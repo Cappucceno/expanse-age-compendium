@@ -1,0 +1,17 @@
+{
+  "name": "Generic Weapons",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 500000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "f7d0a20963996302",
+  "_key": "!folders!f7d0a20963996302",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

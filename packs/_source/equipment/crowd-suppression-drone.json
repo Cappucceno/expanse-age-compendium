@@ -1,0 +1,27 @@
+{
+  "name": "Crowd-Suppression Drone",
+  "_id": "1b3dbef015649cae",
+  "_key": "!items!1b3dbef015649cae",
+  "folder": "7d5d9b37ac4c4e55",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>This variant of the security drone employs crowd-suppression rounds (see the new Suppression quality under Ranged Weapon Qualities) to pacify groups of combatants, typically civilians during a riot.</p>",
+    "weight": 0,
+    "cost": 15,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

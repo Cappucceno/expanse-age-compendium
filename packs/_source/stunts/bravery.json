@@ -1,8 +1,8 @@
 {
   "name": "Bravery",
-  "_id": "iMqT3su4j6vk60Yz",
-  "_key": "!items!iMqT3su4j6vk60Yz",
-  "folder": "i9FAKCYRBr8cJoGO",
+  "_id": "5d2d7301ce239055",
+  "_key": "!items!5d2d7301ce239055",
+  "folder": "e6a09dfc5152643c",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your success bolsters your courage, granting you 1d6 extra Toughness against the next damaging hazard you face in this encounter.</p>",
+    "longDesc": "<p><em>Cost: 1 SP</em></p><p><em>Infiltration stunts may apply when physically breaking in somewhere or exploring a new place, hacking into a computer or network, pulling a con job, or otherwise evading consequences and getting away with things.</em></p><p>Your success bolsters your courage, granting you 1d6 extra Toughness against the next damaging hazard you face in this encounter.</p>",
     "type": "Infiltration",
     "stuntPoints": 1,
     "stuntPointsMax": 1,

@@ -1,0 +1,39 @@
+{
+  "name": "Semi-Automatic Pistol",
+  "_id": "e77cc89e35f1a8b3",
+  "_key": "!items!e77cc89e35f1a8b3",
+  "folder": "746fdfef8f42fae6",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>A semi-automatic pistol automatically ejects and reloads a new cartridge with every shot. A semi-automatic only fires one shot per pull of the trigger. This is the most common type of handgun found in The Expanse and is carried as a sidearm by everyone from military officers and security forces to pirates and mercenaries. It can fire a wide variety of ammunition and can be fit with many different modifications.</p>",
+    "useAbl": "acc",
+    "useFocus": "pistols",
+    "minStr": 0,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "2d6",
+    "weight": 0,
+    "cost": 10,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 50,
+    "rangeMax": 75
+  },
+  "ownership": {
+    "default": 0
+  }
+}

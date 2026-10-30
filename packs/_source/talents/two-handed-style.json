@@ -1,8 +1,8 @@
 {
   "name": "Two-Handed Style",
-  "_id": "H4srfeyEaJ6br9d2",
-  "_key": "!items!H4srfeyEaJ6br9d2",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "df1e5c8cbf17ec5f",
+  "_key": "!items!df1e5c8cbf17ec5f",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,9 +14,9 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>You are deadly with heavy melee weapons.</p>",
+    "longDesc": "<p>With heavy melee weapon in your hands, you are a truly formidable opponent.</p>",
     "shortDesc": "",
-    "requirement": "Strength 3 or higher and Fighting 1 or higher",
+    "requirement": "Strength 3+ and Fighting 1++",
     "type": "talent",
     "degree": 0,
     "activate": true,

@@ -1,8 +1,8 @@
 {
   "name": "Police Officer",
-  "_id": "dQYH8RoQXTTf7wkx",
-  "_key": "!actors!dQYH8RoQXTTf7wkx",
-  "folder": "PkhHQsUEkbbtXxsb",
+  "_id": "b3eab0ecb0a9b468",
+  "_key": "!actors!b3eab0ecb0a9b468",
+  "folder": "c5a37520f25f718c",
   "sort": 0,
   "flags": {
     "core": {
@@ -49,25 +49,32 @@
       }
     },
     "speed": {
-      "base": 10
+      "base": 12
     },
     "defense": {
-      "base": 10
+      "base": 12
     },
     "health": {
       "set": 11,
       "value": 11
     },
-    "features": "<p><strong>AKA:</strong> Copper, Flatfoot</p><p>In many cities, a uniform isn’t enough to inspire confidence in a beleaguered populace. Victims cannot trust the police to take a crime seriously, because sometimes the police allowed the crime to take place. Clean uniformed cops struggle to keep their heads above the water as the city runs with filth. Too many fear becoming their corrupt superiors, jaded and disillusioned with the job. It is made more complicated by the fact that many police departments are owned and operated by large corporations, each with their own interests.</p><p><strong>Stunts:</strong> Benefit of the Doubt, Good Cop/Bad Cop, Short Burst</p><p><strong>Talents:</strong> Intrigue (Novice), Contacts (Novice)</p><p><strong>Equipment:</strong> badge and ID, hand terminal, pistol, restraints, taser</p>",
+    "features": "<p><strong>Favored Stunts:</strong> Benefit of the Doubt, Good Cop/Bad Cop, Short Burst</p><p><strong>Talents:</strong> Intrigue (Novice), Contacts (Novice)</p><p><strong>Equipment:</strong> badge and ID, hand terminal, pistol, restraints, stun pistol</p><p><strong>Armor + Toughness:</strong> 1</p>",
     "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Police Officer",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
   },
   "items": [
     {
       "name": "Pistols",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "6PCBFkR4E2pz4Ahv",
-      "_key": "!actors.items!dQYH8RoQXTTf7wkx.6PCBFkR4E2pz4Ahv",
+      "_id": "94097ae4e28773b5",
+      "_key": "!actors.items!b3eab0ecb0a9b468.94097ae4e28773b5",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -87,8 +94,8 @@
       "name": "Persuasion",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "3ndpNqnDsWsWmRKB",
-      "_key": "!actors.items!dQYH8RoQXTTf7wkx.3ndpNqnDsWsWmRKB",
+      "_id": "d71a91123523bc40",
+      "_key": "!actors.items!b3eab0ecb0a9b468.d71a91123523bc40",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -108,8 +115,8 @@
       "name": "Driving",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "SbiOmUikE7Q6HlYe",
-      "_key": "!actors.items!dQYH8RoQXTTf7wkx.SbiOmUikE7Q6HlYe",
+      "_id": "62334f4a05029537",
+      "_key": "!actors.items!b3eab0ecb0a9b468.62334f4a05029537",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -129,8 +136,8 @@
       "name": "Brawling",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "Vd2A3wN5yYr2MZZr",
-      "_key": "!actors.items!dQYH8RoQXTTf7wkx.Vd2A3wN5yYr2MZZr",
+      "_id": "0e2651e95beb1144",
+      "_key": "!actors.items!b3eab0ecb0a9b468.0e2651e95beb1144",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -150,8 +157,8 @@
       "name": "Law",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "1Z11n2drRf0ZpZI0",
-      "_key": "!actors.items!dQYH8RoQXTTf7wkx.1Z11n2drRf0ZpZI0",
+      "_id": "f53b83847357ec90",
+      "_key": "!actors.items!b3eab0ecb0a9b468.f53b83847357ec90",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -168,11 +175,11 @@
       }
     },
     {
-      "name": "Pistol",
+      "name": "Stun Pistol",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "S4Bjt6klAfsVOp1w",
-      "_key": "!actors.items!dQYH8RoQXTTf7wkx.S4Bjt6klAfsVOp1w",
+      "_id": "6ab4f03f8893912a",
+      "_key": "!actors.items!b3eab0ecb0a9b468.6ab4f03f8893912a",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -183,9 +190,40 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +4, damage 2d6+1.</p>",
+        "longDesc": "<p>Attack roll +4</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": -3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6-3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "87871a3088f07299",
+      "_key": "!actors.items!b3eab0ecb0a9b468.87871a3088f07299",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4</p>",
         "useAbl": "acc",
-        "useFocus": "pistols",
         "nrDice": "2",
         "diceType": "6",
         "extraValue": 1,
@@ -196,47 +234,9 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
-      }
-    },
-    {
-      "name": "Taser",
-      "type": "weapon",
-      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "2JfEY4n9Uv611Yj7",
-      "_key": "!actors.items!dQYH8RoQXTTf7wkx.2JfEY4n9Uv611Yj7",
-      "flags": {},
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "_stats": {
-        "coreVersion": "14",
-        "systemId": "age-system",
-        "systemVersion": "5.0.0"
-      },
-      "system": {
-        "longDesc": "<p>Attack roll +2, damage 1d6-3.</p>",
-        "useAbl": "acc",
-        "useFocus": "pistols",
-        "nrDice": "1",
-        "diceType": "6",
-        "extraValue": -3,
-        "dmgAbl": "no-abl",
-        "dmgType": "wound",
-        "dmgSource": "normalDamage",
-        "damageFormula": "1d6+-3",
-        "weight": 0,
-        "cost": 0,
-        "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": true
       }
     }
-  ],
-  "prototypeToken": {
-    "name": "Police Officer",
-    "actorLink": false
-  },
-  "ownership": {
-    "default": 0
-  }
+  ]
 }

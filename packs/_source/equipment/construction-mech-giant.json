@@ -1,0 +1,27 @@
+{
+  "name": "Construction Mech (Giant)",
+  "_id": "f84e9018ec5afafa",
+  "_key": "!items!f84e9018ec5afafa",
+  "folder": "c906dfff0ed9e7bf",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>The larger variety of construction mech is bigger than a house and takes a generally humanoid shape—plus several extra limbs and protrusions. These mechs are used for similar purposes as their smaller kin but done on a larger scale. Giant construction mechs are often automated.</p>",
+    "weight": 0,
+    "cost": 18,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "Shuttle",
-  "_id": "5azSVk0szNGPFhUZ",
-  "_key": "!actors!5azSVk0szNGPFhUZ",
-  "folder": "MF5fkx6kakqh8OzS",
+  "_id": "0caca42ecc1a6eae",
+  "_key": "!actors!0caca42ecc1a6eae",
+  "folder": "ed051f0764cce6db",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "size": 2,
     "drive": "Epstein, Thrusters",
-    "description": "<p><strong>Competence:</strong> Poor to Average</p><p><strong>Qualities:</strong> None</p><p><strong>Flaws:</strong> None, although one or more is common for a poorly maintained or old shuttle, particularly Faulty System or Fragile.</p><p><strong>Crew:</strong> 1 (2)</p><p><strong>Size:</strong> Small (10 meters long)</p>",
+    "description": "<p><strong>Competence:</strong> Poor to Average</p><p><strong>Qualities:</strong> None</p><p><strong>Flaws:</strong> None, although one or more is common for a poorly maintained or old shuttle, particularly Faulty System or Fragile</p><p><strong>Crew:</strong> 1 (2)</p><p><strong>Size:</strong> Small (10 meters long)</p>",
     "hull": {
       "nrDice": 1,
       "diceType": 3,
@@ -34,12 +34,12 @@
       }
     }
   },
-  "items": [],
   "prototypeToken": {
     "name": "Shuttle",
     "actorLink": true
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "items": []
 }

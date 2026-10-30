@@ -1,0 +1,37 @@
+{
+  "name": "Combat Knife",
+  "_id": "ebf504c8146eaa68",
+  "_key": "!items!ebf504c8146eaa68",
+  "folder": "bd112ac0955d347d",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>These double-sided blades are usually about 18 cm long and are crafted with high carbon steel for high durability and sharpness. They often have a serrated edge on one side, closest to the grip.</p><p><em>Damage as a light close weapon.</em></p>",
+    "useAbl": "fight",
+    "useFocus": "light weapons",
+    "minStr": 0,
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "str",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "1d6",
+    "weight": 0,
+    "cost": 6,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

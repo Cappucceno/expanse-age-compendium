@@ -1,8 +1,8 @@
 {
   "name": "Seize the Initiative",
-  "_id": "1SwcXyFf1JVInD91",
-  "_key": "!items!1SwcXyFf1JVInD91",
-  "folder": "iUVfhOY02Hq2jOoj",
+  "_id": "0aa5bd5e304f6750",
+  "_key": "!items!0aa5bd5e304f6750",
+  "folder": "5905993f12458e24",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Move to the top of the initiative order until someone else seizes the initiative. You may get to take another turn before some others act again.</p>",
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p>Move to the top of the initiative order until someone else seizes the initiative. You may get to take another turn before some others act again.</p>",
     "type": "General Combat",
     "stuntPoints": 4,
     "stuntPointsMax": 4,

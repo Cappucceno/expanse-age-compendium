@@ -1,8 +1,8 @@
 {
   "name": "Feint",
-  "_id": "rqz3eckYYAvMOCKA",
-  "_key": "!items!rqz3eckYYAvMOCKA",
-  "folder": "5WLkOpAoM7Q1uty9",
+  "_id": "69c861e80ff418cb",
+  "_key": "!items!69c861e80ff418cb",
+  "folder": "39317e98651d4677",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Reduce your target’s initiative by 1 (to a minimum of 1) for the rest of the encounter.</p>",
+    "longDesc": "<p><em>Cost: 1 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making a melee attack.</em></p><p>Reduce your target’s initiative by 1 (to a minimum of 1) for the rest of the encounter.</p>",
     "type": "Melee",
     "stuntPoints": 1,
     "stuntPointsMax": 1,

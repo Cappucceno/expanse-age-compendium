@@ -1,8 +1,8 @@
 {
   "name": "Rifle Style",
-  "_id": "bSzCK0iQqlH8nOsY",
-  "_key": "!items!bSzCK0iQqlH8nOsY",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "98dc89115337051c",
+  "_key": "!items!98dc89115337051c",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -21,11 +21,11 @@
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You can assume a highly ready stance; as long as you are not moving more than half your normal speed, you can make an attack with a loaded rifle you are holding as a reaction before rolling initiative, even if surprised. This attack uses up your major action for the round, which means that you only have a minor action available during your next turn.</p>",
+      "desc": "<p>You can assume a high ready stance; as long as you do not move more than half your Speed, you can make an attack with a loaded rifle you are holding as a reaction before rolling initiative, even if surprised. This attack uses up your major action for the round, which means that you only have a minor action available during your next turn.</p>",
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>You trust in your weapon’s power to punch through cover. The attack roll modifier for a target behind light cover does not apply to your attacks with a rifle. This includes the penalty from the Human Shield action stunt.</p>",
+      "desc": "<p>You skillfully leverage your weapon’s ability to punch through cover. You ignore 2 points of any armor bonus provided by cover when using a longarm or assault rifle. When using those weapons, you also ignore the attack roll penalty imposed by the Human Shield action stunt.</p>",
       "isActive": true
     },
     "degree2": {

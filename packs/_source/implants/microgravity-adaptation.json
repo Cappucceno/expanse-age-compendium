@@ -1,0 +1,28 @@
+{
+  "name": "Microgravity Adaptation",
+  "_id": "6026f0b765c119cb",
+  "_key": "!items!6026f0b765c119cb",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your body has a host of minor adjustments to make you better suited to long-term life in microgravity. You do not experience bone density loss and your muscles atrophy at a much slower rate. Simple, regular exercise keeps you in healthy shape. Your inner ear and sense of balance are such that you’re not easily disorientated by a lack of gravity, and you ignore any penalties for moving and operating in free-fall. This adaptation is common for Earthers who move to the Belt—and can afford it.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "Taunt",
-  "_id": "kNeqK0HAnhrq4mNy",
-  "_key": "!items!kNeqK0HAnhrq4mNy",
-  "folder": "iUVfhOY02Hq2jOoj",
+  "_id": "7a06b66ef46f7096",
+  "_key": "!items!7a06b66ef46f7096",
+  "folder": "5905993f12458e24",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Roll an opposed test of Communication (Deception) vs. Willpower (Self-Discipline) against any target within 10 meters of you; if you win, they must attack or oppose you in some way on their next turn.</p>",
+    "longDesc": "<p><em>Cost: 2 SP</em></p><p>Roll an opposed test of Communication (Deception) vs. Willpower (Self-Discipline) against any target within 10 meters of you; if you win, they must attack or oppose you in some way on their next turn.</p>",
     "type": "General Combat",
     "stuntPoints": 2,
     "stuntPointsMax": 2,

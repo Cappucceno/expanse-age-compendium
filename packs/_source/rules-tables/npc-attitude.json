@@ -1,0 +1,163 @@
+{
+  "name": "NPC Attitude",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "First impressions: the GM decides the attitude of an NPC or rolls 3d6 and adds the modifiers (Communication, a focus, Reputation +2/−2).",
+  "results": [
+    {
+      "_id": "62c76eb276c4ce2a",
+      "type": "text",
+      "name": "Very Hostile (interaction modifier -3)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!95c5bafa90d6885d.62c76eb276c4ce2a"
+    },
+    {
+      "_id": "9d65d2f3743fe629",
+      "type": "text",
+      "name": "Hostile (interaction modifier -2)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!95c5bafa90d6885d.9d65d2f3743fe629"
+    },
+    {
+      "_id": "07c676b4b43a510a",
+      "type": "text",
+      "name": "Standoffish (interaction modifier -1)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        6,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!95c5bafa90d6885d.07c676b4b43a510a"
+    },
+    {
+      "_id": "47220d59a7fafe91",
+      "type": "text",
+      "name": "Neutral (interaction modifier +0)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        9,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!95c5bafa90d6885d.47220d59a7fafe91"
+    },
+    {
+      "_id": "d58efeaaac27cc1d",
+      "type": "text",
+      "name": "Open (interaction modifier +1)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        12,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!95c5bafa90d6885d.d58efeaaac27cc1d"
+    },
+    {
+      "_id": "129dc51932d4e781",
+      "type": "text",
+      "name": "Friendly (interaction modifier +2)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        15,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!95c5bafa90d6885d.129dc51932d4e781"
+    },
+    {
+      "_id": "aad018578d057f1e",
+      "type": "text",
+      "name": "Very Friendly (interaction modifier +3)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!95c5bafa90d6885d.aad018578d057f1e"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "26fc23d202776847",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "95c5bafa90d6885d",
+  "_key": "!tables!95c5bafa90d6885d"
+}

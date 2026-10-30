@@ -1,8 +1,8 @@
 {
   "name": "Vicious Blow",
-  "_id": "TUNrmTkYaMzfzSWV",
-  "_key": "!items!TUNrmTkYaMzfzSWV",
-  "folder": "iUVfhOY02Hq2jOoj",
+  "_id": "c6ddf64ee9120086",
+  "_key": "!items!c6ddf64ee9120086",
+  "folder": "5905993f12458e24",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Inflict an extra 1d6 damage on this attack.</p>",
+    "longDesc": "<p><em>Cost: 2 SP</em></p><p>Inflict an extra 1d6 damage on this attack.</p>",
     "type": "General Combat",
     "stuntPoints": 2,
     "stuntPointsMax": 2,

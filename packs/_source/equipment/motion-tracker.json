@@ -1,0 +1,27 @@
+{
+  "name": "Motion Tracker",
+  "_id": "c41bf3a931c74b75",
+  "_key": "!items!c41bf3a931c74b75",
+  "folder": "a824f49866272be9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>This is a handheld device with a screen that displays any detected movement within 10 meters. The tracker can sense movement around corners to a limited degree, but not on the other side of sealed compartments. The user can pair the display to one or more hand terminals.</p>",
+    "weight": 0,
+    "cost": 15,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

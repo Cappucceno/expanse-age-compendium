@@ -1,0 +1,26 @@
+{
+  "name": "Rapid Reload",
+  "_id": "b9dbed587f78aeb4",
+  "_key": "!items!b9dbed587f78aeb4",
+  "folder": "148550387751e9f4",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p><em>A gunner has access to the Weapon Online and On-Target Command stunts.</em></p><p>Your ship can fire one additional torpedo (in excess of its number of torpedo tubes) this round. Each additional SP spent allows you to fire one more torpedo. You can never fire more torpedoes than double the number of torpedo tubes on your ship.</p>",
+    "type": "Gunnery",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

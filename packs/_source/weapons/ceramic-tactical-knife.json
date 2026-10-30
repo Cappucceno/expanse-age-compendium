@@ -1,0 +1,37 @@
+{
+  "name": "Ceramic Tactical Knife",
+  "_id": "9f4e070def7d53e3",
+  "_key": "!items!9f4e070def7d53e3",
+  "folder": "bd112ac0955d347d",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>These combat knives are crafted of high strength ceramic and can easily pass through a metal detector if the hilt is only ceramic and plastic.</p><p><em>Damage as a light close weapon.</em></p>",
+    "useAbl": "fight",
+    "useFocus": "light weapons",
+    "minStr": 0,
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "str",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "1d6",
+    "weight": 0,
+    "cost": 8,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "Vomit Zombie",
-  "_id": "9jItYyV1aKMlZnU3",
-  "_key": "!actors!9jItYyV1aKMlZnU3",
-  "folder": "k2v4gHZlFEkxkIPV",
+  "_id": "6bb9efe553dd700e",
+  "_key": "!actors!6bb9efe553dd700e",
+  "folder": "4004dd723b44d73e",
   "sort": 0,
   "flags": {
     "core": {
@@ -49,25 +49,32 @@
       }
     },
     "speed": {
-      "base": 10
+      "base": 8
     },
     "defense": {
-      "base": 10
+      "base": 8
     },
     "health": {
       "set": 0,
       "value": 0
     },
-    "features": "<p><strong>AKA:</strong> protomolecule infected</p><p>Those unfortunate enough to become infected with the protomolecule are inevitably consumed by it, becoming stumbling, fevered puppets with the sole purpose of spewing their infectious fluids over any other creatures they encounter before the protomolecule eventually disassembles them into raw material for its work.</p><p>Disgorge (2 SP): A vomit zombie performing the Disgorge stunt vomits brown fluid all over an adjacent target. If the target is a living creature, they are subject to being infected by the protomolecule (see The Protomolecule under Hazards in this chapter). Swarm Tactics: If a vomit zombie is attacking with at least two other zombies, it can perform action stunts, including Disgorge, for 1 less SP than normal.</p><p><strong>Stunts:</strong> Disgorge (2 SP), Knock Prone</p>",
+    "features": "<p><strong>Favored Stunts:</strong> Disgorge (2 SP), Knock Prone</p><p><strong>Disgorge (2 Sp):</strong> A vomit zombie projects brown fluid all over an adjacent target. If the target is a living creature, they are subject to being infected by the protomolecule.</p><p><strong>Swarm Tactics:</strong> If a vomit zombie is attacking with at least two other zombies, it can perform action stunts, including Disgorge, for 1 less SP than normal.</p><p><strong>Armor + Toughness:</strong> 5</p>",
     "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Vomit Zombie",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
   },
   "items": [
     {
-      "name": "Unarmed",
-      "type": "weapon",
-      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "HJFWFFPm4R3dN5gf",
-      "_key": "!actors.items!9jItYyV1aKMlZnU3.HJFWFFPm4R3dN5gf",
+      "name": "Intuition",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ad1c7a11ca6961d7",
+      "_key": "!actors.items!6bb9efe553dd700e.ad1c7a11ca6961d7",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -78,9 +85,50 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +1, damage 1d3+2.</p>",
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Survival",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "4a1c194ab6b055ae",
+      "_key": "!actors.items!6bb9efe553dd700e.4a1c194ab6b055ae",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "d263c404f1d43569",
+      "_key": "!actors.items!6bb9efe553dd700e.d263c404f1d43569",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +1</p>",
         "useAbl": "fight",
-        "useFocus": "brawling",
         "nrDice": "1",
         "diceType": "3",
         "extraValue": 2,
@@ -91,15 +139,9 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": false
       }
     }
-  ],
-  "prototypeToken": {
-    "name": "Vomit Zombie",
-    "actorLink": false
-  },
-  "ownership": {
-    "default": 0
-  }
+  ]
 }

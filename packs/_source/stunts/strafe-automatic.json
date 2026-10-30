@@ -1,8 +1,8 @@
 {
   "name": "Strafe (Automatic)",
-  "_id": "VOYaJGSahYtgknNk",
-  "_key": "!items!VOYaJGSahYtgknNk",
-  "folder": "HjZS0NpKrp9ecqIY",
+  "_id": "e9514a3b7b876140",
+  "_key": "!items!e9514a3b7b876140",
+  "folder": "50729435b57d6849",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Immediately move up to (SP spent) meters in any direction, and apply this attack to anyone within (SP spent) meters of your original target; you can’t selectively exclude anyone in the area. Halve the damage dealt to the additional targets (round up).</p>",
+    "longDesc": "<p><em>Cost: 1–3 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making an attack with a gun. Some gun stunts require a specific type of gun, such as a pistol, rifle, or automatic weapon.</em></p><p>Immediately move up to (SP spent) meters in any direction, and apply this attack to anyone within (SP spent) meters of your original target; you can’t selectively exclude anyone in the area. Halve the damage dealt to the additional targets (round up).</p>",
     "type": "Gun",
     "stuntPoints": 1,
     "stuntPointsMax": 3,

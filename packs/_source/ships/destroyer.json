@@ -1,8 +1,8 @@
 {
   "name": "Destroyer",
-  "_id": "ipY6UvnsM10dEedU",
-  "_key": "!actors!ipY6UvnsM10dEedU",
-  "folder": "tDRTDSD1PdCpoxfe",
+  "_id": "80d38bb359356c33",
+  "_key": "!actors!80d38bb359356c33",
+  "folder": "a4e1452b7f1ca471",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "size": 5,
     "drive": "Epstein, Thrusters",
-    "description": "<p><strong>Competence:</strong> Average to Skilled</p><p><strong>Qualities:</strong> Advanced Sensor Package (+1), Good Juice, Hull Plating (+1), Self- Destruct System</p><p><strong>Flaws:</strong> Usually none.</p><p><strong>Crew:</strong> 16 (64)</p><p><strong>Size:</strong> Huge (100 meters long)</p>",
+    "description": "<p><strong>Competence:</strong> Average to Skilled</p><p><strong>Qualities:</strong> Advanced Sensor Package I, Good Juice, Hull Plating I, Improved Stores, Medical Expert System, Self-Destruct System</p><p><strong>Flaws:</strong> Usually none</p><p><strong>Crew:</strong> 16 (64)</p><p><strong>Size:</strong> Huge (100 meters long)</p>",
     "hull": {
       "nrDice": 3,
       "diceType": 6,
@@ -34,13 +34,20 @@
       }
     }
   },
+  "prototypeToken": {
+    "name": "Destroyer",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  },
   "items": [
     {
       "name": "Point Defense Network",
       "type": "shipfeatures",
       "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
-      "_id": "qZY4qfhD8j1NcTcP",
-      "_key": "!actors.items!ipY6UvnsM10dEedU.qZY4qfhD8j1NcTcP",
+      "_id": "164bd38b4ac84a2a",
+      "_key": "!actors.items!80d38bb359356c33.164bd38b4ac84a2a",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -55,15 +62,15 @@
         "damage": "2d6",
         "quality": "quality",
         "isActive": true,
-        "longDesc": ""
+        "longDesc": "<p>Full Coverage, Close Range, 2d6 Damage</p>"
       }
     },
     {
-      "name": "Rail Gun",
+      "name": "1 × Rail Gun",
       "type": "shipfeatures",
       "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
-      "_id": "Hr1rdkajbgnNKxx0",
-      "_key": "!actors.items!ipY6UvnsM10dEedU.Hr1rdkajbgnNKxx0",
+      "_id": "3624e8fb54452536",
+      "_key": "!actors.items!80d38bb359356c33.3624e8fb54452536",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -78,15 +85,15 @@
         "damage": "3d6",
         "quality": "quality",
         "isActive": true,
-        "longDesc": ""
+        "longDesc": "<p>Medium Range, 3d6 Damage</p>"
       }
     },
     {
-      "name": "Two Torpedo Tubes",
+      "name": "4 × Torpedo Tubes",
       "type": "shipfeatures",
       "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
-      "_id": "XidXhYVM1WT8mwFs",
-      "_key": "!actors.items!ipY6UvnsM10dEedU.XidXhYVM1WT8mwFs",
+      "_id": "7a189db29cc7910a",
+      "_key": "!actors.items!80d38bb359356c33.7a189db29cc7910a",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -101,15 +108,31 @@
         "damage": "4d6",
         "quality": "quality",
         "isActive": true,
-        "longDesc": ""
+        "longDesc": "<p>Long Range, 4d6 Damage</p>"
+      }
+    },
+    {
+      "name": "2 × Grapplers",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "177255e3c51748be",
+      "_key": "!actors.items!80d38bb359356c33.177255e3c51748be",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "0",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": "<p>Aft, Close Range, 0 Damage</p>"
       }
     }
-  ],
-  "prototypeToken": {
-    "name": "Destroyer",
-    "actorLink": true
-  },
-  "ownership": {
-    "default": 0
-  }
+  ]
 }

@@ -1,0 +1,28 @@
+{
+  "name": "Blood Filters",
+  "_id": "959de7110f0635d9",
+  "_key": "!items!959de7110f0635d9",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1+ Slot</p><p>Special filters and binding agents in your bloodstream reduce the damage of any contact or injected toxin by 1 die. If this reduces the damage dice to 0, the toxin simply doesn’t affect you. You also cannot become drunk while you have this enhancement, regardless of how much alcohol you consume. More effective blood filters require additional enhancements and reduce toxin damage by 1 die per additional enhancement, up to 5. Alternately, 1 slot of this augmentation can instead give you total immunity to a single specific toxin that it targets while having no effect against others.</p>",
+    "shortDesc": "1+ Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

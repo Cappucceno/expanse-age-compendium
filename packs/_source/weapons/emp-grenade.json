@@ -1,0 +1,39 @@
+{
+  "name": "EMP Grenade",
+  "_id": "1c062c233415b97c",
+  "_key": "!items!1c062c233415b97c",
+  "folder": "1144c14e1a28e8de",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p><strong>Area of Effect 15-Meter Radius</strong></p><p>These devices generate an electromagnetic pulse instead of inflicting blast damage. This pulse disables any electronic devices within 15 meters of the detonation point for 2d6 rounds. With proper placement, an EMP grenade could have the same effect on one system of a spacecraft or habitat (such as sensors or computers if a grenade goes off in the command center or a single weapon or thruster if that’s where the device detonates).</p><p><em>Thrown: short range 4 m, long range 8 m (Accuracy (Throwing) test, TN 11).</em></p>",
+    "useAbl": "acc",
+    "useFocus": "throwing",
+    "minStr": 0,
+    "nrDice": "0",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "0",
+    "weight": 0,
+    "cost": 12,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 4,
+    "rangeMax": 8
+  },
+  "ownership": {
+    "default": 0
+  }
+}

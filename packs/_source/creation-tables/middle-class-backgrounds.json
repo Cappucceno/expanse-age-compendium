@@ -1,0 +1,83 @@
+{
+  "name": "Middle Class Backgrounds",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Backgrounds of the middle class social class.",
+  "results": [
+    {
+      "_id": "341e3deb3fa284ff",
+      "type": "text",
+      "name": "Academic",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!afc9277f5e3f5ab1.341e3deb3fa284ff"
+    },
+    {
+      "_id": "2d331995da887142",
+      "type": "text",
+      "name": "Suburban",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!afc9277f5e3f5ab1.2d331995da887142"
+    },
+    {
+      "_id": "ea99ab5b847fb95d",
+      "type": "text",
+      "name": "Trade",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!afc9277f5e3f5ab1.ea99ab5b847fb95d"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e40bfc57fae3ea33",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "afc9277f5e3f5ab1",
+  "_key": "!tables!afc9277f5e3f5ab1"
+}

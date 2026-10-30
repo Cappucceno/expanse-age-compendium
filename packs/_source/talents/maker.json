@@ -1,8 +1,8 @@
 {
   "name": "Maker",
-  "_id": "HNOutWifLu1gQnzm",
-  "_key": "!items!HNOutWifLu1gQnzm",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "1b7a917a06a64594",
+  "_key": "!items!1b7a917a06a64594",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>Make-it-yourself is your motto and you use manufacturing focuses to do just that. Use Dexterity (Craft) for most handcrafted and artistic items and Intelligence (Engineering) for most technological items. The GM may approve other manufacturing focuses as appropriate for certain items.</p>",
+    "longDesc": "<p>Make-it-yourself is your motto, and you use manufacturing focuses to do just that. Use Dexterity (Craft) for most handcrafted and artistic items and Intelligence (Engineering) for most technological items. The GM may approve other manufacturing focuses as appropriate for certain items.</p>",
     "shortDesc": "",
     "requirement": "Any manufacturing focus (see below)",
     "type": "talent",
@@ -25,11 +25,11 @@
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>Your workmanship is reliable and steady. If you fail a test with a manufacturing focus, you can re-roll it, but must keep the results of the second roll.</p>",
+      "desc": "<p>Your workmanship is reliable and steady. If you fail a test with a manufacturing focus, you can re-roll it but must keep the results of the second roll.</p>",
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>When you perform an advanced test with a manufacturing focus, you gain a +1 bonus to the result of each Drama Die for the purpose of reaching the success threshold.</p>",
+      "desc": "<p>When you perform an advanced test with a manufacturing focus, you gain a +1 bonus to the result of each Drama Die toward reaching the success threshold.</p>",
       "isActive": true
     }
   },

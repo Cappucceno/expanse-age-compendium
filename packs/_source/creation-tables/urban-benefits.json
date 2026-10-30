@@ -1,0 +1,183 @@
+{
+  "name": "Urban Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Urban background (Lower Class).",
+  "results": [
+    {
+      "_id": "afe5308b559d46a6",
+      "type": "text",
+      "name": "+1 Accuracy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e68e012ef4a29587.afe5308b559d46a6"
+    },
+    {
+      "_id": "b65922effe84f451",
+      "type": "text",
+      "name": "Focus: Dexterity (Acrobatics)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e68e012ef4a29587.b65922effe84f451"
+    },
+    {
+      "_id": "9f0b1094b905f689",
+      "type": "text",
+      "name": "Focus: Communication (Deception)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e68e012ef4a29587.9f0b1094b905f689"
+    },
+    {
+      "_id": "ec36104b78c2779f",
+      "type": "text",
+      "name": "Focus: Dexterity (Sleight of Hand)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e68e012ef4a29587.ec36104b78c2779f"
+    },
+    {
+      "_id": "4e2468e1fa225ebe",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e68e012ef4a29587.4e2468e1fa225ebe"
+    },
+    {
+      "_id": "54abc7a696d90db7",
+      "type": "text",
+      "name": "Focus: Perception (Hearing)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e68e012ef4a29587.54abc7a696d90db7"
+    },
+    {
+      "_id": "cb6c28a8dfbe40ac",
+      "type": "text",
+      "name": "Focus: Strength (Climbing or Jumping)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e68e012ef4a29587.cb6c28a8dfbe40ac"
+    },
+    {
+      "_id": "798bad89ddf848ed",
+      "type": "text",
+      "name": "+1 Fighting",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e68e012ef4a29587.798bad89ddf848ed"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "e68e012ef4a29587",
+  "_key": "!tables!e68e012ef4a29587"
+}

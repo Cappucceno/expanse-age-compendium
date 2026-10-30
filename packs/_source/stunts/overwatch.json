@@ -1,8 +1,8 @@
 {
   "name": "Overwatch",
-  "_id": "eW4dEKm80dLe3Uk0",
-  "_key": "!items!eW4dEKm80dLe3Uk0",
-  "folder": "HjZS0NpKrp9ecqIY",
+  "_id": "819df1d919f01379",
+  "_key": "!items!819df1d919f01379",
+  "folder": "50729435b57d6849",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Core stunt.</em> Your opponent suffers −1 to attack rolls per SP spent until the start of your next turn.</p>",
+    "longDesc": "<p><em>Cost: 1–3 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making an attack with a gun. Some gun stunts require a specific type of gun, such as a pistol, rifle, or automatic weapon.</em></p><p>Your opponent suffers −1 to attack rolls per SP spent until the start of your next turn.</p>",
     "type": "Gun",
     "stuntPoints": 1,
     "stuntPointsMax": 3,

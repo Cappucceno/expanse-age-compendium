@@ -1,0 +1,26 @@
+{
+  "name": "Hack the System",
+  "_id": "e895aa79e67b4441",
+  "_key": "!items!e895aa79e67b4441",
+  "folder": "dbd03bf508e08c25",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p><em>The character conducting electronic warfare on the ship has access to the Misdirect Command stunt and the Perceived S Weakness Gunnery stunt.</em></p><p>While scanning the enemy ship for weaknesses, the sensors operator detects an opening in the enemy ship’s computer system. They can attempt to hack the enemy’s ship to temporarily disable one or more systems. See S Electronic Warfare later in this chapter for details.</p>",
+    "type": "Electronic Warfare",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

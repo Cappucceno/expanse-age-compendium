@@ -1,8 +1,8 @@
 {
   "name": "Pilot",
-  "_id": "rISDTiOaA9mVOvc9",
-  "_key": "!items!rISDTiOaA9mVOvc9",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "569778031563d5ed",
+  "_key": "!items!569778031563d5ed",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>If you fail an ability test to control a vehicle, you can re-roll it, but must keep the results of the second roll. In addition, while you are at the controls, your vehicle gains a +2 bonus to Defense as long as it is moving.</p>",
+      "desc": "<p>If you fail an ability test to control a vehicle, you can re-roll it but must keep the results of the second roll. In addition, while you are at the controls, your vehicle gains a +2 bonus to Defense as long as it is moving.</p>",
       "isActive": true
     }
   },

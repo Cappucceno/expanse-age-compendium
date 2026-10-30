@@ -1,0 +1,28 @@
+{
+  "name": "Weapon Implant",
+  "_id": "1fd3a2f567e9ceb3",
+  "_key": "!items!1fd3a2f567e9ceb3",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1+ Slots</p><p>You have a concealed weapon implanted in your body, usually in one of your forearms, that pops out with an Activate action when you want to use it. It is a TN 19 Perception (Seeing) test to notice your weapon implant when it is retracted, barring the use of scanning technology able to penetrate your skin. The nature of the weapon and its capabilities determine how many slots the augmentation requires: CLAWS - 1 SLOT Short, sharp blades emerge from under your fingernails, letting you inflict 1d6 + Strength Impact damage with a Fighting (Brawling) attack. SPIKES - 1 SLOT Short, blunt spikes emerge from your knuckles, inflicting 1d6 + Strength Impact damage with a Fighting (Brawling) attack. BLADES - 2 SLOTS Longer blades pop out of your wrist or just above your knuckles, stored in your forearms. They inflict 1d6 + 3 + Strength damage using either Fighting (Brawling) or (Light Blades), as you choose. HAND MACE - 1 SLOT Your reinforced fist can detach at the end of a yard-long cable or chain, letting you swing it from the end of your arm like a mace. It inflicts 1d6 + Strength Impact damage with a Fighting (Flexible Weapons) attack roll. SNAKE - 2 SLOTS A flexible cybernetic “snake” lunges out of your body to attack an adjacent foe. It does so as part of your attack action and does not require an Activate action. This counts as a melee attack, generally using Fighting (Brawling). A successful hit does 2d6 Impact damage, but your Strength does not apply. Most often, the snake emerges from your mouth (stored in your throat and upper chest), but it could also emerge from your stomach or another area. A mouth snake can be used as a devastating weapon in an intimate moment, inflicting penetrating damage and allowing you to maintain a grapple or hold on your target while still attacking. For an additional slot, the implant can attack as a minor rather than a major action. HOLDOUT - 2 SLOTS A gun implanted in your forearm can pop out, firing above the back of your hand, or it can fire through your palm or finger. It does 1d6 + Perception damage with a range of 50 meters. An additional slot can add either 1d6 to the holdout’s damage or double its range to 100 meters. STUNNER - 2 SLOTS Two of your fingers are modified to act as leads for a powerful electrical discharge when you touch a target with a Fighting (Brawling) roll. A hit inflicts 1d6 Stunning damage, and the target must succeed on a Constitution (Stamina) test with a TN of 10 + the damage inflicted or be paralyzed and unable to take actions for 1d6 rounds. For an additional slot, the stunner fires trailing wires like a stun pistol, making it usable at a range of up to 20 meters. At the Game Master’s discretion, other weapon implants may be available. Use the Innate Attack enhancement and the existing weapons here as guidelines for creating them.</p>",
+    "shortDesc": "1+ Slots",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

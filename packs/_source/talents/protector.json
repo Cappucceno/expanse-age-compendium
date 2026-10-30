@@ -1,8 +1,8 @@
 {
   "name": "Protector",
-  "_id": "NTEGxgzJDk6arvwf",
-  "_key": "!items!NTEGxgzJDk6arvwf",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "8d8b03ab1c024aba",
+  "_key": "!items!8d8b03ab1c024aba",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,12 +16,12 @@
   "system": {
     "longDesc": "<p>You are the shield that protects your friends.</p>",
     "shortDesc": "",
-    "requirement": "Perception and Willpower 1 or higher",
+    "requirement": "Perception and Willpower 1+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>Your desire to protect others lends you speed. When you perform the Blockade action stunt, you can move up to 6 meters instead of 3.</p>",
+      "desc": "<p>Your desire to protect others lends you speed. When you perform the Bodyguard action stunt, you can move up to 6 meters instead of 3.</p>",
       "isActive": true
     },
     "degree1": {

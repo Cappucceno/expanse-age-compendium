@@ -1,8 +1,8 @@
 {
   "name": "Police Detective",
-  "_id": "FFBau5KE0snsmoyr",
-  "_key": "!actors!FFBau5KE0snsmoyr",
-  "folder": "PkhHQsUEkbbtXxsb",
+  "_id": "2786cf92548e8d31",
+  "_key": "!actors!2786cf92548e8d31",
+  "folder": "c5a37520f25f718c",
   "sort": 0,
   "flags": {
     "core": {
@@ -49,25 +49,32 @@
       }
     },
     "speed": {
-      "base": 10
+      "base": 12
     },
     "defense": {
-      "base": 10
+      "base": 12
     },
     "health": {
       "set": 11,
       "value": 11
     },
-    "features": "<p><strong>AKA:</strong> Bent Copper, Burnout</p><p>In the more densely populated cities and outposts, it’s nearly impossible to tell the dirty cops from the clean ones. Plainclothes cops and security confuse matters, as they attempt to blend in and “empathize” with the people they want to interview or interrogate. A whole bunch of them will turn the other way if given enough cash. They say once the cop comes out of the uniform, the protective layer guarding them from the reality of crime is gone for good. It certainly seems to be the case that the detectives, who have to wade deepest into the festering mire of crime, come out the dirtiest.</p><p><strong>Stunts:</strong> Bad Form, Good Cop/Bad Cop, Take Cover</p><p><strong>Talents:</strong> Intrigue (Novice), Contacts (Expert)</p><p><strong>Equipment:</strong> badge and ID, hand terminal, pistol</p>",
+    "features": "<p><strong>Favored Stunts:</strong> Bad Form, Good Cop/Bad Cop, Take Cover</p><p><strong>Talents:</strong> Intrigue (Novice), Contacts (Expert)</p><p><strong>Equipment:</strong> badge and ID, hand terminal, pistol</p><p><strong>Armor + Toughness:</strong> 1</p>",
     "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Police Detective",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
   },
   "items": [
     {
       "name": "Pistols",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "YpeteuVrIflPZ0b1",
-      "_key": "!actors.items!FFBau5KE0snsmoyr.YpeteuVrIflPZ0b1",
+      "_id": "13cd6bd129cf1af6",
+      "_key": "!actors.items!2786cf92548e8d31.13cd6bd129cf1af6",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -87,8 +94,8 @@
       "name": "Bargaining",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "daTjLQOw3PZ2PcRz",
-      "_key": "!actors.items!FFBau5KE0snsmoyr.daTjLQOw3PZ2PcRz",
+      "_id": "3ee847c766c20e8a",
+      "_key": "!actors.items!2786cf92548e8d31.3ee847c766c20e8a",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -108,8 +115,8 @@
       "name": "Investigation",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "ddYVIOStqswzt08c",
-      "_key": "!actors.items!FFBau5KE0snsmoyr.ddYVIOStqswzt08c",
+      "_id": "a49db59ce8719f42",
+      "_key": "!actors.items!2786cf92548e8d31.a49db59ce8719f42",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -129,8 +136,8 @@
       "name": "Brawling",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "nDo3vaoWZssTO5U1",
-      "_key": "!actors.items!FFBau5KE0snsmoyr.nDo3vaoWZssTO5U1",
+      "_id": "d5cc2301cd1a09a3",
+      "_key": "!actors.items!2786cf92548e8d31.d5cc2301cd1a09a3",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -150,8 +157,8 @@
       "name": "Law",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "KAq2eUGAxpVnOXda",
-      "_key": "!actors.items!FFBau5KE0snsmoyr.KAq2eUGAxpVnOXda",
+      "_id": "4e0380fdebe38d80",
+      "_key": "!actors.items!2786cf92548e8d31.4e0380fdebe38d80",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -171,8 +178,8 @@
       "name": "Pistol",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "d8pLOXP9GiTL2gkn",
-      "_key": "!actors.items!FFBau5KE0snsmoyr.d8pLOXP9GiTL2gkn",
+      "_id": "1ea6981648aee228",
+      "_key": "!actors.items!2786cf92548e8d31.1ea6981648aee228",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -183,9 +190,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +4, damage 2d6+1.</p>",
+        "longDesc": "<p>Attack roll +4</p>",
         "useAbl": "acc",
-        "useFocus": "pistols",
         "nrDice": "2",
         "diceType": "6",
         "extraValue": 1,
@@ -196,15 +202,9 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": true
       }
     }
-  ],
-  "prototypeToken": {
-    "name": "Police Detective",
-    "actorLink": false
-  },
-  "ownership": {
-    "default": 0
-  }
+  ]
 }

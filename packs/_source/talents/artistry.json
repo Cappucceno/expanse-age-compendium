@@ -1,8 +1,8 @@
 {
   "name": "Artistry",
-  "_id": "prL6KLYZGFkdUFVN",
-  "_key": "!items!prL6KLYZGFkdUFVN",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "9b9d69e3468fed75",
+  "_key": "!items!9b9d69e3468fed75",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,12 +16,12 @@
   "system": {
     "longDesc": "<p>You can create fine works of art. For the performing arts, see the Performance talent.</p>",
     "shortDesc": "",
-    "requirement": "Communication 1 or higher and the Dexterity (Crafting) focus or Communication (Expression) focus",
+    "requirement": "Communication 1+ and the Dexterity (Crafting) focus or Communication (Expression) focus",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You can use the Dexterity (Crafting) or Communication (Expression) focuses to create works of art. Choose a field of visual (painting, sculpture, illustration, animation, photography, etc.) or literary (poetry, fiction, scriptwriting, journalism, etc.) arts. The GM determines the time and TN of the test, depending on your intentions, and the Drama Die determines your work’s quality if you succeed. You can sell your work if you know a buyer, giving you a temporary bonus to Income tests equal to half the result of the Drama Die (minimum 1); this bonus disappears upon your first successful Income test to purchase something, or at the end of the current story if you have not used it. As an option you can waive the bonus to Income and gain a temporary reputation instead. This reputation fades over time if you don’t produce other works of similar quality. Any reputation derived from your art disappears after a number of months equal to the result of the Drama Die.</p>",
+      "desc": "<p>You can use the Dexterity (Crafting) or Communication (Expression) focuses to create works of art. Choose a field of visual (painting, sculpture, illustration, animation, photography, etc.) or literary (poetry, fiction, scriptwriting, journalism, etc.) arts. The GM determines the time and TN of the test, depending on your intentions, and the Drama Die determines your work’s quality if you succeed. You can sell your work if you know a buyer, giving you a temporary bonus to Income tests equal to half the result of the Drama Die (minimum 1). This bonus disappears upon your first successful Income test to purchase something, or at the end of the current story if you have not used it. As an option, you can waive the bonus to Income and gain a temporary Reputation bonus instead. This Reputation fades over time if you don’t produce other works of similar quality. Any reputation derived from your art disappears after a number of months equal to the result of the Drama Die.</p>",
       "isActive": true
     },
     "degree1": {
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>You become an undisputed master of your craft. You learn the tools and tricks of a number of artistic fields equal to your Communication, or select one of the fields you are trained in and add your Willpower to the Drama Die to determine the quality of your work. Upon successfully creating a work of art, you can re-roll the Drama Die to determine its quality, but must keep the result of the second roll.</p>",
+      "desc": "<p>You become an undisputed master of your craft. You learn the tools and tricks of a number of artistic fields equal to your Communication, or select one of the fields you are trained in and add your Willpower to the Drama Die to determine the quality of your work. Upon successfully creating a work of art, you can re-roll the Drama Die to determine its quality but must keep the result of the second roll.</p>",
       "isActive": true
     }
   },

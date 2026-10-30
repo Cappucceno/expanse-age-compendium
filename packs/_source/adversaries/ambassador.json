@@ -1,0 +1,221 @@
+{
+  "name": "Ambassador",
+  "_id": "9b141b43cb7bd191",
+  "_key": "!actors!9b141b43cb7bd191",
+  "folder": "4c637dca0422b145",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 0
+      },
+      "comm": {
+        "value": 3
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 1
+      },
+      "fight": {
+        "value": 1
+      },
+      "int": {
+        "value": 3
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 0
+      },
+      "will": {
+        "value": 3
+      }
+    },
+    "speed": {
+      "base": 11
+    },
+    "defense": {
+      "base": 11
+    },
+    "health": {
+      "set": 15,
+      "value": 15
+    },
+    "features": "<p>An ambassador represents their world to other governments, typically by living and working in foreign territory as an outsider with political standing. They foster close ties with other leaders, host meetings at an embassy, and when necessary, champion their world’s needs—albeit mostly as a mouthpiece for their leaders. Ambassadors are often political appointees, so their skills and efficacy can vary greatly. Some commit to being friendly and personable while others try to throw their weight around, whether justified or not.</p><p><strong>Favored Stunts:</strong> Hidden Message, Making an Offer</p><p><strong>Talents:</strong> Affluent (Novice), Contacts (Expert), Intrigue (Novice)</p><p><strong>Equipment:</strong> concealed knife, hand terminal</p><p><strong>Armor + Toughness:</strong> 1</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Ambassador",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Bargaining",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "61cebdd13713b816",
+      "_key": "!actors.items!9b141b43cb7bd191.61cebdd13713b816",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Etiquette",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "197dec05b852b58d",
+      "_key": "!actors.items!9b141b43cb7bd191.197dec05b852b58d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Current Affairs",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "687e01eab2265fcd",
+      "_key": "!actors.items!9b141b43cb7bd191.687e01eab2265fcd",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Empathy",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "5ab1bafd8763c743",
+      "_key": "!actors.items!9b141b43cb7bd191.5ab1bafd8763c743",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "23c072929fd14a4f",
+      "_key": "!actors.items!9b141b43cb7bd191.23c072929fd14a4f",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +1</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "3",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d3+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    },
+    {
+      "name": "Knife",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "facccb47848526b1",
+      "_key": "!actors.items!9b141b43cb7bd191.facccb47848526b1",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +1</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    }
+  ]
+}

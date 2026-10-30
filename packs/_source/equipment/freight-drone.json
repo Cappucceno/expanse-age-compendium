@@ -1,0 +1,27 @@
+{
+  "name": "Freight Drone",
+  "_id": "42642a0631956369",
+  "_key": "!items!42642a0631956369",
+  "folder": "7d5d9b37ac4c4e55",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Closet-sized freight drones are common for shipping cargo between locations in space, such as from one habitat to another, or from station to ship. In times of emergency, freight drones have served as makeshift escape capsules, as they have room enough for a person though not comfortably, and not always safely.</p>",
+    "weight": 0,
+    "cost": 14,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

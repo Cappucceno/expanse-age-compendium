@@ -1,8 +1,8 @@
 {
   "name": "Rapid Reload",
-  "_id": "4MHHRWB7uM6z8N3y",
-  "_key": "!items!4MHHRWB7uM6z8N3y",
-  "folder": "HjZS0NpKrp9ecqIY",
+  "_id": "66bf2ef4ff04e83f",
+  "_key": "!items!66bf2ef4ff04e83f",
+  "folder": "50729435b57d6849",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>The next time you need to reload a firearm, in this encounter, you may do so as a free action.</p>",
+    "longDesc": "<p><em>Cost: 1 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making an attack with a gun. Some gun stunts require a specific type of gun, such as a pistol, rifle, or automatic weapon.</em></p><p>Next time you miss with a firearm, immediately reload without checking against Capacity.</p>",
     "type": "Gun",
     "stuntPoints": 1,
     "stuntPointsMax": 1,

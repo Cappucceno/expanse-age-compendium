@@ -1,8 +1,8 @@
 {
   "name": "Tactics",
-  "_id": "LSO0tmPkoJ45ouKW",
-  "_key": "!items!LSO0tmPkoJ45ouKW",
-  "folder": "dPhyZYcxqCcyUgIT",
+  "_id": "10469ab7993e36f2",
+  "_key": "!items!10469ab7993e36f2",
+  "folder": "0c23c3a9338525c5",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -15,10 +15,10 @@
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
     "longDesc": "<p><em>Cost: 2+ SP</em></p><p>Every 2 SP you spend increases the TN of an opposing ship commander’s next command test by +1.</p>",
-    "type": "Space Combat Command",
+    "type": "Command",
     "stuntPoints": 2,
     "stuntPointsMax": 2,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

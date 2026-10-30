@@ -1,8 +1,8 @@
 {
   "name": "Scouting",
-  "_id": "07EdiT4kdxigARU7",
-  "_key": "!items!07EdiT4kdxigARU7",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "f2a3fb2e8dd431be",
+  "_key": "!items!f2a3fb2e8dd431be",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,12 +16,12 @@
   "system": {
     "longDesc": "<p>You are skilled in reconnaissance and infiltration.</p>",
     "shortDesc": "",
-    "requirement": "Dexterity 2 or higher",
+    "requirement": "Dexterity 2+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>If you fail a Dexterity (Stealth) test, you can re-roll it, but must keep the results of the second roll.</p>",
+      "desc": "<p>If you fail a Dexterity (Stealth) test, you can re-roll it but must keep the results of the second roll.</p>",
       "isActive": true
     },
     "degree1": {
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>You are a skilled observer. If you fail a Perception (Seeing) test, you can re-roll it, but must keep the results of the second roll.</p>",
+      "desc": "<p>You are a skilled observer. If you fail a Perception (Seeing) test, you can re-roll it but must keep the results of the second roll.</p>",
       "isActive": true
     }
   },

@@ -1,8 +1,8 @@
 {
   "name": "Rupture",
-  "_id": "ecFMVnN4cHnlaQ3s",
-  "_key": "!items!ecFMVnN4cHnlaQ3s",
-  "folder": "fbhZaRhBv5ffJFzO",
+  "_id": "f550d60cc0d0bd96",
+  "_key": "!items!f550d60cc0d0bd96",
+  "folder": "eddb77218243b5e9",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your attack ruptures a fuel line or power conduit, causing an internal explosion. This deals 3d6 penetrating damage to everyone in a compartment of the vehicle and also causes the effects of either a System Damage (3 SP) or Slowdown stunt.</p>",
+    "longDesc": "<p><em>Cost: 5 SP</em></p><p><em>Stunts from this table are used when attacking or sabotaging a vehicle.</em></p><p>Your attack ruptures a fuel line or power conduit, causing an internal explosion. This deals 3d6 penetrating damage to everyone in a particular compartment of the vehicle and also causes the effects of either a System Damage (3 SP) or Slowdown stunt.</p>",
     "type": "Vehicle Combat",
     "stuntPoints": 5,
     "stuntPointsMax": 5,

@@ -1,8 +1,8 @@
 {
   "name": "Cast Out",
-  "_id": "JDIT4PzetW1YLonv",
-  "_key": "!items!JDIT4PzetW1YLonv",
-  "folder": "nODsSBHTTvTskkj6",
+  "_id": "9e1dd21d69ebebb3",
+  "_key": "!items!9e1dd21d69ebebb3",
+  "folder": "d4cdcee684a7d10b",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your action shames or embarrasses another character present, imposing a −2 penalty on their next social roll against anyone but you in this encounter (Simple) or worsening the Attitude of one other character present toward them by one shift (Detailed).</p>",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p>Your action shames or embarrasses another character present, imposing a 2 penalty on their next social roll against anyone but you in this encounter (Simple) or worsening the Attitude of one other character present toward them by one shift (Detailed).</p>",
     "type": "Attitude",
     "stuntPoints": 3,
     "stuntPointsMax": 3,

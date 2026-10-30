@@ -1,0 +1,27 @@
+{
+  "name": "Advertising Drone",
+  "_id": "48b30127d6861dbe",
+  "_key": "!items!48b30127d6861dbe",
+  "folder": "7d5d9b37ac4c4e55",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>One of the simplest of drones, this model plays audio or video ads to promote products, services, or even govern ments or political movements.</p>",
+    "weight": 0,
+    "cost": 14,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "Let’s Make a Deal",
-  "_id": "aYZu0hey4OXvJjUI",
-  "_key": "!items!aYZu0hey4OXvJjUI",
-  "folder": "RYCI0kZp4Uq2YPRL",
+  "_id": "0b32f3d3fe182243",
+  "_key": "!items!0b32f3d3fe182243",
+  "folder": "a7eaf3a981654930",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your action turns out to benefit a character you didn’t target, who now owes you a favor, however grudgingly.</p>",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p>Your action turns out to benefit a character you didn’t target, who now owes you a favor—no matter how much they protest.</p>",
     "type": "General Social",
     "stuntPoints": 3,
     "stuntPointsMax": 3,

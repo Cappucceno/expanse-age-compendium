@@ -1,0 +1,27 @@
+{
+  "name": "Security Drone",
+  "_id": "f91f43131c1cab0c",
+  "_key": "!items!f91f43131c1cab0c",
+  "folder": "7d5d9b37ac4c4e55",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>The typical security drone used by police and security forces has audio/video monitoring capabilities as well as either a light slugthrower or stun pistol. Some advanced models add motion trackers, night vision, or other sensory upgrades. Operators can talk through the drone’s speakers, and the drone itself can also issue programmed warnings in its own mechanical voice.</p>",
+    "weight": 0,
+    "cost": 16,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

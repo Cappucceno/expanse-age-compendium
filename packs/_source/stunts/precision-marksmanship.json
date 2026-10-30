@@ -1,8 +1,8 @@
 {
   "name": "Precision Marksmanship",
-  "_id": "Mwukc0P9nHhIOSgB",
-  "_key": "!items!Mwukc0P9nHhIOSgB",
-  "folder": "HjZS0NpKrp9ecqIY",
+  "_id": "e0fc7bd84a80ea74",
+  "_key": "!items!e0fc7bd84a80ea74",
+  "folder": "50729435b57d6849",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Core stunt.</em> If you make an attack with a firearm that benefits from an Aim bonus before the end of your next turn, increase the aim bonus by +1 per SP spent.</p>",
+    "longDesc": "<p><em>Cost: 1–4 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making an attack with a gun. Some gun stunts require a specific type of gun, such as a pistol, rifle, or automatic weapon.</em></p><p>If you make an attack with a firearm that benefits from an Aim bonus before the end of your next turn, increase the aim bonus by +1 per SP spent.</p>",
     "type": "Gun",
     "stuntPoints": 1,
     "stuntPointsMax": 4,

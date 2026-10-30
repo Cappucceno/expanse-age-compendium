@@ -1,0 +1,28 @@
+{
+  "name": "Cybernetic Eye",
+  "_id": "8f3c865950017fac",
+  "_key": "!items!8f3c865950017fac",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1+ Slot</p><p>One or both of your eyes are replaced or improved with implanted technology. For each enhancement applied, choose one of the following: • You gain the Perception (Seeing) focus, or increase its bonus by +1, if you already have it. • You can see normally in the dark, as if it were lit, out to 10 meters. • You can see infrared heat signatures out to 10 meters. Among other things, this means you can pick out warm-blooded creatures and machines if they are warmer than the surrounding temperature and gain a +2 bonus on tests to track such subjects within a few minutes of their passage by the residual heat. • You can visualize radio waves and things like wireless networks and communications systems. This allows you to see the various networking “clouds” around you and to see radio sources within your visual range, including things like active commlinks. • You gain a ×2 Force Multiplier for your sight, able to see over twice the normal distance. Additional enhancements can improve this multiplier. You do not incur a −2 penalty to attack rolls with ranged weapons at ×1.5 range with this augmentation. • Your eyes automatically compensate for bright light and other overstimulation, meaning you cannot be blinded or otherwise have your vision disabled by such attacks or environmental hazards. • If you fail a test involving your vision, you can re-roll and use the second result. A cybernetic eye that replaces your existing eye or restores your vision to normal human levels counts as a 0-slot cosmetic alteration. This is also true of eye replacements that change the appearance of your eyes, including things such as cat- or goat-like pupils, exotic colors, changes to the sclera or iris (including making your eyes one solid apparent color), and so forth.</p>",
+    "shortDesc": "1+ Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "Down the Rabbit Hole (Detailed)",
-  "_id": "bLH9yiYId0684aqK",
-  "_key": "!items!bLH9yiYId0684aqK",
-  "folder": "emDfthNa99SyoHpm",
+  "_id": "01bdd10215818687",
+  "_key": "!items!01bdd10215818687",
+  "folder": "f19d512036b73b4c",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>If this test led to a reveal, the GM also provides a brand new lead about a new subject that will lead to greater rewards.</p>",
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p><em>Some investigation stunts have different effects depending on whether you are pursuing a simple or detailed investigation, denoted by parenthetical tags.</em></p><p>If this test led to a reveal, the GM also provides a brand new lead about a new subject that will lead to greater rewards.</p>",
     "type": "Investigation",
     "stuntPoints": 4,
     "stuntPointsMax": 4,

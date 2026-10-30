@@ -1,8 +1,8 @@
 {
   "name": "Soldier",
-  "_id": "lZEYjwyaPXjLU3Gq",
-  "_key": "!actors!lZEYjwyaPXjLU3Gq",
-  "folder": "BlPNbL9yVLi7AiLr",
+  "_id": "911962efc27c33bb",
+  "_key": "!actors!911962efc27c33bb",
+  "folder": "39ddd256d87021bb",
   "sort": 0,
   "flags": {
     "core": {
@@ -21,7 +21,7 @@
     "threat": "Moderate",
     "abilities": {
       "acc": {
-        "value": 3
+        "value": 2
       },
       "comm": {
         "value": 2
@@ -49,25 +49,32 @@
       }
     },
     "speed": {
-      "base": 10
+      "base": 12
     },
     "defense": {
-      "base": 10
+      "base": 12
     },
     "health": {
       "set": 23,
       "value": 23
     },
-    "features": "<p><strong>AKA:</strong> Marines, Honor Guards, Mercs</p><p>Most soldiers belong to armies or small military detachments, following the orders of a military or government superior. Other soldiers operate independently, acting as hired killers or tacticians for private companies. The soldier n a standing army has access to the resources provided to any of their peers in the same unit. The soldier of fortune has less institutional protection, having to rely on their wits and training instead of a swift request for more reinorcements or supplies. One type of soldier works with egitimacy, the other does not, and the latter may be willing o perform tasks prohibited by established treaties and contracts. In the modern system, the line between the two ypes of soldiers is increasingly blurred.</p><p><strong>Stunts:</strong> Covering Fire, Group Tactics, Skirmish, Short Burst, Strafe, Take Cover</p><p><strong>Talents:</strong> Command (Novice), Rifle Style (Expert), Tactical Awareness (Expert)</p><p><strong>Equipment:</strong> light body armor, pistol, rifle, uniform and insignia</p>",
+    "features": "<p>Most soldiers belong to armies or small military detachments, following the orders of a superior. Other soldiers operate independently, acting as hired killers or tacticians for private companies. The soldier in a standing army has access to resources provided to their unit. The soldier of fortune has less institutional protection, having to rely on their wits and training instead of swift reinforcements or supplies. Amid wide-ranging conflicts, the line between the two types of soldiers is increasingly blurred. SPY Information is one of the most valuable commodities in the system and colonies. Governments, corporations, and organizations go through costly measures to obtain data on their allies and enemies, employing those who specialize in obtaining it. Spies have networks of contacts in government, military and the criminal underworld. Some follow a code or represent a cause while others take pride in playing all sides against each other for the highest price.</p><p><strong>Favored Stunts:</strong> Group Tactics, Skirmish, Short Burst, Strafe, Take Cover</p><p><strong>Talents:</strong> Command (Novice), Rifle Style (Expert), Tactical Awareness (Expert)</p><p><strong>Equipment:</strong> light body armor, pistol, rifle, uniform and insignia</p><p><strong>Armor + Toughness:</strong> 5</p>",
     "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Soldier",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
   },
   "items": [
     {
       "name": "Pistols",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "pGHeMUoMDoALCW02",
-      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.pGHeMUoMDoALCW02",
+      "_id": "270e4364d695b2d1",
+      "_key": "!actors.items!911962efc27c33bb.270e4364d695b2d1",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -87,8 +94,8 @@
       "name": "Rifles",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "duluOmkn3O1znbcv",
-      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.duluOmkn3O1znbcv",
+      "_id": "f0f1399eaaad33a6",
+      "_key": "!actors.items!911962efc27c33bb.f0f1399eaaad33a6",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -108,8 +115,8 @@
       "name": "Stamina",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "A5KiSMcP9wKTP89Z",
-      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.A5KiSMcP9wKTP89Z",
+      "_id": "cc5bd220eefa3ee0",
+      "_key": "!actors.items!911962efc27c33bb.cc5bd220eefa3ee0",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -129,8 +136,8 @@
       "name": "Brawling",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "q8qUjMV8f4n9XHan",
-      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.q8qUjMV8f4n9XHan",
+      "_id": "21d2b388d9f03694",
+      "_key": "!actors.items!911962efc27c33bb.21d2b388d9f03694",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -150,8 +157,8 @@
       "name": "Hearing",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "Nc9mfx1xWRCKicsH",
-      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.Nc9mfx1xWRCKicsH",
+      "_id": "96ab5ef1a49b8ef0",
+      "_key": "!actors.items!911962efc27c33bb.96ab5ef1a49b8ef0",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -171,29 +178,8 @@
       "name": "Courage",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "xDFp3DOlAt4l2Jqx",
-      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.xDFp3DOlAt4l2Jqx",
-      "flags": {},
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "_stats": {
-        "coreVersion": "14",
-        "systemId": "age-system",
-        "systemVersion": "5.0.0"
-      },
-      "system": {
-        "useAbl": "will",
-        "initialValue": 2,
-        "longDesc": ""
-      }
-    },
-    {
-      "name": "Morale",
-      "type": "focus",
-      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "BcsgDc3yEKGXtAni",
-      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.BcsgDc3yEKGXtAni",
+      "_id": "93fc74202756bf83",
+      "_key": "!actors.items!911962efc27c33bb.93fc74202756bf83",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -213,8 +199,8 @@
       "name": "Pistol",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "l9ZQY23QYO7wChtU",
-      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.l9ZQY23QYO7wChtU",
+      "_id": "7c695e17f75fde23",
+      "_key": "!actors.items!911962efc27c33bb.7c695e17f75fde23",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -225,28 +211,28 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +5, damage 2d6+1.</p>",
+        "longDesc": "<p>Attack roll +4</p>",
         "useAbl": "acc",
-        "useFocus": "pistols",
         "nrDice": "2",
         "diceType": "6",
-        "extraValue": 1,
+        "extraValue": 2,
         "dmgAbl": "no-abl",
         "dmgType": "wound",
         "dmgSource": "normalDamage",
-        "damageFormula": "2d6+1",
+        "damageFormula": "2d6+2",
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": true
       }
     },
     {
       "name": "Rifle",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "n8NQyKAXAfvJDXfh",
-      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.n8NQyKAXAfvJDXfh",
+      "_id": "192e3f7bd6ab5dab",
+      "_key": "!actors.items!911962efc27c33bb.192e3f7bd6ab5dab",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -257,60 +243,21 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +5, damage 3d6+1.</p>",
+        "longDesc": "<p>Attack roll +4</p>",
         "useAbl": "acc",
-        "useFocus": "rifles",
         "nrDice": "3",
         "diceType": "6",
-        "extraValue": 1,
+        "extraValue": 2,
         "dmgAbl": "no-abl",
         "dmgType": "wound",
         "dmgSource": "normalDamage",
-        "damageFormula": "3d6+1",
+        "damageFormula": "3d6+2",
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
-      }
-    },
-    {
-      "name": "Armor",
-      "type": "equipment",
-      "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
-      "_id": "C2COpIaGU6KWqrsu",
-      "_key": "!actors.items!lZEYjwyaPXjLU3Gq.C2COpIaGU6KWqrsu",
-      "flags": {},
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "_stats": {
-        "coreVersion": "14",
-        "systemId": "age-system",
-        "systemVersion": "5.0.0"
-      },
-      "system": {
-        "equiped": true,
-        "modifiers": {
-          "ue1X1X6OVJywYlmE": {
-            "type": "impactArmor",
-            "formula": "2",
-            "flavor": "",
-            "isActive": true,
-            "valid": true,
-            "conditions": {},
-            "ftype": "",
-            "key": "ue1X1X6OVJywYlmE"
-          }
-        },
-        "longDesc": ""
+        "equiped": false,
+        "ranged": true
       }
     }
-  ],
-  "prototypeToken": {
-    "name": "Soldier",
-    "actorLink": false
-  },
-  "ownership": {
-    "default": 0
-  }
+  ]
 }

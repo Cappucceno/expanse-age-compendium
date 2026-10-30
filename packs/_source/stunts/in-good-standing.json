@@ -1,8 +1,8 @@
 {
   "name": "In Good Standing",
-  "_id": "ZQT2GTPUY8xq3NVg",
-  "_key": "!items!ZQT2GTPUY8xq3NVg",
-  "folder": "cML2W7TSvQfzGtww",
+  "_id": "ba934cd172e325e0",
+  "_key": "!items!ba934cd172e325e0",
+  "folder": "ee6463460422c182",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,8 +14,8 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>When targeting a member of an organization in which you have Membership, treat your rank as one higher for the purpose of gaining access to resources for the rest of this encounter.</p>",
-    "type": "Membership & Reputation",
+    "longDesc": "<p><em>Cost: 2 SP</em></p><p>When targeting a member of an organization in which you have Membership, treat your rank as one higher for purposes of gaining access to resources for the rest of this encounter.</p>",
+    "type": "Membership and Reputation",
     "stuntPoints": 2,
     "stuntPointsMax": 2,
     "costType": "fixed"

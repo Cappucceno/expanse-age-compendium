@@ -1,8 +1,8 @@
 {
   "name": "Inspire",
-  "_id": "oY68GyfZc3vVAABn",
-  "_key": "!items!oY68GyfZc3vVAABn",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "06a009b4c8ab90d8",
+  "_key": "!items!06a009b4c8ab90d8",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,22 +14,22 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>Your words and presence motivate others to action. The benefits of Inspire do not stack, if you happen to have multiple characters on the same side who have it, other han their ability to continue inspiring their side after one or more of them has been taken out.</p>",
+    "longDesc": "<p>Your words and presence motivate others to action. Note that other than the ability to activate and extend the Inspire effects one after the other, there is no benefit to having multiple characters in a party with this trait; the benefits of Inspire do not stack.</p>",
     "shortDesc": "",
-    "requirement": "Communication 2 or higher",
+    "requirement": "Communication 2+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You inspire your friends and allies. If you are conscious and they are within sight of you, your allies gain a +1 bonus to all Willpower-related tests.</p>",
+      "desc": "<p>You inspire calm and courage in your friends and allies. If you are conscious and they are within sight of you, your allies gain a +1 bonus to all Willpowerrelated tests.</p>",
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>You inspire greatness in your friends and allies. If you are conscious and they are within sight of you, any ally generating stunt points gains +1 SP.</p>",
+      "desc": "<p>You inspire greatness in your friends and allies. If you are conscious and they are within sight of you, any ally generating stunt points gains an additional +1 SP.</p>",
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>With you around, things don’t seem quite as bad. Once per encounter, you can spend two minor actions to offer words of inspiration to your allies. All who hear these words regain 1d6 + your Communication in Fortune, and receive a +2 bonus on their next test.</p>",
+      "desc": "<p>With you around, things don’t seem quite as bad. Once per encounter, you can spend two minor actions to offer words of inspiration to your allies. All who hear these words regain 1d6 + your Communication in Fortune and a +2 bonus on their next test.</p>",
       "isActive": true
     }
   },

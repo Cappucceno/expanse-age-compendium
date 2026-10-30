@@ -1,0 +1,26 @@
+{
+  "name": "Patch",
+  "_id": "2dd7a94750c17489",
+  "_key": "!items!2dd7a94750c17489",
+  "folder": "04ec43dd466bbcf2",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p><em>An engineer has access to the Weapon Online Command stunt.</em></p><p>The ship’s engineer can attempt a quick weld job to temporarily reinforce hull damage to the ship. The engineer can attempt a TN 17 Intelligence (Engineering) test to make the patch. If successful, they temporarily remove hull losses up to the number rolled on the Drama Die by the engineer. This patch only lasts until the end of the combat and the ship must receive proper maintenance at a spaceport.</p>",
+    "type": "Engineer",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

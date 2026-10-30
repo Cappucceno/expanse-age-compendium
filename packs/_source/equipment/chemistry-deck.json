@@ -1,0 +1,27 @@
+{
+  "name": "Chemistry Deck",
+  "_id": "ad07a5709744ef3c",
+  "_key": "!items!ad07a5709744ef3c",
+  "folder": "58f127634f188c6b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A tool commonly used by chemists and life scientists, this suitcase-sized device is a portable chemistry lab. It can run a multitude of scientific tests—including material and cellular analysis, blood tests, gravimetric and volumetric analysis, microscopy,.</p>",
+    "weight": 0,
+    "cost": 15,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

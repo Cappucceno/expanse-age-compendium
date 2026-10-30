@@ -1,0 +1,26 @@
+{
+  "name": "Calculation",
+  "_id": "efb2b872cb9fff42",
+  "_key": "!items!efb2b872cb9fff42",
+  "folder": "0c23c3a9338525c5",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 3+ SP</em></p><p>Instead of performing another stunt, choosing this stunt lets you bank SP to use on a later stunt. The amount banked is your earned SP on this roll +1. You can also combine these SP with future SP earned.</p>",
+    "type": "Command",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

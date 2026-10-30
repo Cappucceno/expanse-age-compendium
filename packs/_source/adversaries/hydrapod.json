@@ -1,0 +1,242 @@
+{
+  "name": "Hydrapod",
+  "_id": "f12d2f561b42e172",
+  "_key": "!actors!f12d2f561b42e172",
+  "folder": "4004dd723b44d73e",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Major",
+    "abilities": {
+      "acc": {
+        "value": 3
+      },
+      "comm": {
+        "value": 1
+      },
+      "cons": {
+        "value": 5
+      },
+      "dex": {
+        "value": 3
+      },
+      "fight": {
+        "value": 4
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 5
+      },
+      "will": {
+        "value": 1
+      }
+    },
+    "speed": {
+      "base": 13
+    },
+    "defense": {
+      "base": 13
+    },
+    "health": {
+      "set": 25,
+      "value": 25
+    },
+    "features": "<p><strong>Favored Stunts:</strong> Armor Crush, Drag Underwater (2 SP), Grapple, Lightning Attack, Strangle</p><p><strong>Chromatophores:</strong> Hydrapods communicate through splashes of color across their flesh in a rudimentary language slightly more advanced than an Earth octopus.</p><p><strong>Drag Underwater (2 Sp):</strong> If the hydrapod succeeds on an opposed Fighting (Grappling) test, it can perform this stunt to submerge the target and attempt to drown them.</p><p><strong>Water Breathing:</strong> Hydrapods can spend days underwater without needing to surface.</p><p><strong>Talents:</strong> Pinpoint Accuracy, Quick Reflexes</p><p><strong>Armor + Toughness:</strong> 5</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Hydrapod",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Swimming",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "7729fd46b1b3a0af",
+      "_key": "!actors.items!f12d2f561b42e172.7729fd46b1b3a0af",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stealth",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "65e454b6cd62d67a",
+      "_key": "!actors.items!f12d2f561b42e172.65e454b6cd62d67a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Grappling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "09f4672fb5cdadee",
+      "_key": "!actors.items!f12d2f561b42e172.09f4672fb5cdadee",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seeing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "95ae8e97e3ca1516",
+      "_key": "!actors.items!f12d2f561b42e172.95ae8e97e3ca1516",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Might",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "681cdf413c0828e3",
+      "_key": "!actors.items!f12d2f561b42e172.681cdf413c0828e3",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "f3a4769d2416792d",
+      "_key": "!actors.items!f12d2f561b42e172.f3a4769d2416792d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 5,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+5",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    },
+    {
+      "name": "Tendril",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "603330d19ab0d5f7",
+      "_key": "!actors.items!f12d2f561b42e172.603330d19ab0d5f7",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +6</p>",
+        "useAbl": "fight",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 5,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+5",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    }
+  ]
+}

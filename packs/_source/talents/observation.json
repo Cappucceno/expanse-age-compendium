@@ -1,8 +1,8 @@
 {
   "name": "Observation",
-  "_id": "lZG39w7uYuj7vWaJ",
-  "_key": "!items!lZG39w7uYuj7vWaJ",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "b4833b357642efa9",
+  "_key": "!items!b4833b357642efa9",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,12 +16,12 @@
   "system": {
     "longDesc": "<p>You have an eye for detail.</p>",
     "shortDesc": "",
-    "requirement": "Perception 2 or higher",
+    "requirement": "Perception 2+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You notice things others do not. Choose a Perception focus. If you fail a Perception test with your chosen focus, you can re-roll it but must keep the result of the second roll.</p>",
+      "desc": "<p>Choose a Perception focus. If you fail a Perception test with your chosen focus, you can re-roll it but must keep the result of the second roll.</p>",
       "isActive": true
     },
     "degree1": {

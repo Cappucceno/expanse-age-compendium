@@ -1,8 +1,8 @@
 {
   "name": "Tactical Awareness",
-  "_id": "UyCfP9lOyDP6oYyO",
-  "_key": "!items!UyCfP9lOyDP6oYyO",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "27205a8dabff99ef",
+  "_key": "!items!27205a8dabff99ef",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "longDesc": "<p>You move calmly and expertly while in combat.</p>",
     "shortDesc": "",
-    "requirement": "Dexterity and Perception 1 or higher",
+    "requirement": "Dexterity and Perception 1+",
     "type": "talent",
     "degree": 0,
     "activate": true,
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>You are hard to pin down in combat. Opponents do not gain an attack bonus for outnumbering you in melee. If you also have the Expert degree in the Single Weapon Style, your Defense bonus increases to +3 when fighting in that style.</p>",
+      "desc": "<p>You are hard to pin down in combat. Opponents do not gain an attack bonus for outnumbering you in melee. If you also have the Master degree in the Single Weapon Style, your Defense bonus increases to +3 when fighting in that style.</p>",
       "isActive": true
     }
   },

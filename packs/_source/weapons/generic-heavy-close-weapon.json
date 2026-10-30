@@ -1,0 +1,37 @@
+{
+  "name": "Generic Heavy Close Weapon",
+  "_id": "0f0f8d5472a4d397",
+  "_key": "!items!0f0f8d5472a4d397",
+  "folder": "f7d0a20963996302",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Simplified weapon of the Generic Weapons table, for games that do not need the details of individual weapons.</p>",
+    "useAbl": "fight",
+    "useFocus": "heavy weapons",
+    "minStr": 0,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "str",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "2d6",
+    "weight": 0,
+    "cost": 7,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

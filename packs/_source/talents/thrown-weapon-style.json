@@ -1,8 +1,8 @@
 {
   "name": "Thrown Weapon Style",
-  "_id": "aCGA07h3QPrk2xEA",
-  "_key": "!items!aCGA07h3QPrk2xEA",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "0a6245bd70777da3",
+  "_key": "!items!0a6245bd70777da3",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "longDesc": "<p>You are adept with weapons thrown by hand.</p>",
     "shortDesc": "",
-    "requirement": "",
+    "requirement": "None",
     "type": "talent",
     "degree": 0,
     "activate": true,

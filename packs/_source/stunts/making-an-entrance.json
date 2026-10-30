@@ -1,8 +1,8 @@
 {
   "name": "Making an Entrance",
-  "_id": "InG022eauqDeEG7n",
-  "_key": "!items!InG022eauqDeEG7n",
-  "folder": "RYCI0kZp4Uq2YPRL",
+  "_id": "1241f1fc587c9942",
+  "_key": "!items!1241f1fc587c9942",
+  "folder": "a7eaf3a981654930",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>If this is your first action of the encounter, gain +1 to your next opposed roll against one character who witnessed it. You can choose this stunt multiple times per roll.</p>",
+    "longDesc": "<p><em>Cost: 1 SP</em></p><p>If this is your first action of the encounter, gain +1 to your next opposed roll against one character who witnessed it. You can choose this stunt multiple times per roll.</p>",
     "type": "General Social",
     "stuntPoints": 1,
     "stuntPointsMax": 1,

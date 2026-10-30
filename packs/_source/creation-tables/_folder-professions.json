@@ -1,14 +1,14 @@
 {
   "name": "Professions",
-  "type": "RollTable",
+  "type": "Item",
   "folder": null,
   "sorting": "a",
-  "sort": 400000,
+  "sort": 300000,
   "color": null,
   "description": "",
   "flags": {},
-  "_id": "ssn45qOk4eAKtLb5",
-  "_key": "!folders!ssn45qOk4eAKtLb5",
+  "_id": "0d1789835cb40bc6",
+  "_key": "!folders!0d1789835cb40bc6",
   "_stats": {
     "coreVersion": "14",
     "systemId": "age-system",

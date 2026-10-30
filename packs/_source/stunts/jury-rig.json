@@ -1,8 +1,8 @@
 {
   "name": "Jury Rig",
-  "_id": "Au9wLdfoXK6GEa2T",
-  "_key": "!items!Au9wLdfoXK6GEa2T",
-  "folder": "jWxRAT01MmI484Bb",
+  "_id": "9359d32c63b88e90",
+  "_key": "!items!9359d32c63b88e90",
+  "folder": "5abc8d2c694b22f5",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>You find or improvise a piece of equipment you need to be more effective. Negate any situational penalties you would suffer for lacking proper equipment on tests appropriate to the improvisation, for the rest of the encounter.</p>",
+    "longDesc": "<p><em>Cost: 2 SP</em></p><p>You find or improvise a piece of equipment you need to be more effective. For the rest of the encounter, negate any situational penalties you would suffer for lacking proper equipment on tests appropriate to the improvisation.</p>",
     "type": "General Exploration",
     "stuntPoints": 2,
     "stuntPointsMax": 2,

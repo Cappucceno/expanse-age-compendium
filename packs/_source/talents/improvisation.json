@@ -1,8 +1,8 @@
 {
   "name": "Improvisation",
-  "_id": "Yrxat1Wc7l5iAp5L",
-  "_key": "!items!Yrxat1Wc7l5iAp5L",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "9ddf5d8d90419254",
+  "_key": "!items!9ddf5d8d90419254",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,20 +16,20 @@
   "system": {
     "longDesc": "<p>Whatever the situation is, you’re sure you can handle it.</p>",
     "shortDesc": "",
-    "requirement": "Intelligence 1 or Willpower 1 or higher",
+    "requirement": "Intelligence 1+ or Willpower 1+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You adapt to the situation. You can make an ability test that requires a specific focus, even if you don’t have that focus. You don’t gain the focus bonus to your roll and don’t generate SP on such rolls, but in investigations you are always considered to have a tangential focus (see Investigation Focuses in Chapter 5).</p>",
+      "desc": "<p>You adapt to the situation. You can make an ability test that requires a specific focus, even if you don’t have that focus. You don’t gain the focus bonus to your roll and don’t generate SP on such rolls, but in investigations, you are always considered to have a tangential focus (see Investigation Focuses in Chapter 5).</p>",
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>Anything is a potential weapon or a tool in your hands. When you perform the Whatever’s Handy combat stunt, the penalty of your makeshift weapon is reduced by 1 and it lasts 2d6 rounds before breaking. If improvising a tool instead of a weapon, you can perform tests that require the tool, but you don’t generate SP while doing so.</p>",
+      "desc": "<p>In your hands, just about anything is a potential weapon or a tool. When you perform the Whatever’s Handy combat stunt, the penalty of your makeshift weapon is reduced by 1 and lasts 2d6 rounds before breaking. If improvising a tool instead of a weapon, you can perform tests that require the tool, but you don’t generate SP while doing so.</p>",
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>You can turn failure into some measure of success. If you roll doubles on a failed test, you generate SP equal to the result of the Drama Die –2 (minimum 1). The test still fails, but you can try to salvage the situation with a stunt you perform with the SP you gain. Unfortunately, your stunt cannot achieve your original intended action. The GM determines if the desired stunt is permitted, based on the situation.</p>",
+      "desc": "<p>You can turn failure into some measure of success. If you roll doubles on a failed test, you generate SP equal to the result of the Drama Die 2 (minimum 1). The test still fails, but you can try to salvage the situation with a stunt you perform with the SP you gain. Unfortunately, your stunt cannot achieve your original intended action. The GM determines if the desired stunt is permitted, based on the situation.</p>",
       "isActive": true
     }
   },

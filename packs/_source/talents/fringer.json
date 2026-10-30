@@ -1,8 +1,8 @@
 {
   "name": "Fringer",
-  "_id": "iRBtP3D4lLG7GtZj",
-  "_key": "!items!iRBtP3D4lLG7GtZj",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "dcc4346926073cf3",
+  "_key": "!items!dcc4346926073cf3",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,12 +16,12 @@
   "system": {
     "longDesc": "<p>You know how to navigate and survive on the fringes of civilization.</p>",
     "shortDesc": "",
-    "requirement": "Communication 1 or higher",
+    "requirement": "Communication 1+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You cover your own tracks well. Other characters suffer a –2 penalty to any tests to find information about you or your activities. This stacks with the Cover Your Tracks stunt (see Chapter 5).</p>",
+      "desc": "<p>You can effectively cover your own tracks. Other characters suffer a −2 penalty to any tests to find information about you or your activities. This stacks with the Cover Your Tracks stunt (see Chapter 5).</p>",
       "isActive": true
     },
     "degree1": {
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>You are experienced at living life hidden from the system. The penalty for tests to find information about you increases to –3, and when you buy on the black market, your Income score is depleted following the normal rules given in Chapter 2.</p>",
+      "desc": "<p>The penalty for tests to find information about you increases to −3, and when you buy on the black market, your Income score is depleted following normal rules given in Chapter 2.</p>",
       "isActive": true
     }
   },

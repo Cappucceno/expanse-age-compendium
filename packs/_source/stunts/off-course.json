@@ -1,8 +1,8 @@
 {
   "name": "Off-Course",
-  "_id": "riVCqyk9rMHsi4Qd",
-  "_key": "!items!riVCqyk9rMHsi4Qd",
-  "folder": "fbhZaRhBv5ffJFzO",
+  "_id": "b56bad6ff2318b91",
+  "_key": "!items!b56bad6ff2318b91",
+  "folder": "eddb77218243b5e9",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>The vehicle is thrown off-course and the operator must make a TN 15 test to maintain control. A new test can be made each round to regain control if it is lost.</p>",
+    "longDesc": "<p><em>Cost: 2 SP</em></p><p><em>Stunts from this table are used when attacking or sabotaging a vehicle.</em></p><p>The vehicle is thrown off-course and the operator must make a TN 15 test to maintain control. A new test can be made each round to regain control if it is lost.</p>",
     "type": "Vehicle Combat",
     "stuntPoints": 2,
     "stuntPointsMax": 2,

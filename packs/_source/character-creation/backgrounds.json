@@ -2,7 +2,7 @@
   "name": "Backgrounds",
   "pages": [
     {
-      "_id": "Ov4dyAGQx9oXdlqZ",
+      "_id": "961bf76f01ba35c8",
       "name": "Academic",
       "type": "text",
       "title": {
@@ -11,22 +11,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Middle Class</em></p><p>You spent a lot more time in schools and academic environments than your peers. Perhaps you lived at a boarding school, or someone in your family worked at a college or university. You’re inclined to be a bit more bookish and to know your way around academic institutions.</p><ul><li><strong>Ability:</strong> +1 Intelligence</li><li><strong>Focus:</strong> Intelligence (choose one)</li><li><strong>Talent:</strong> Knowledge or Linguistics</li></ul><h2>Academic Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Communication</td></tr><tr><td>3–4</td><td>Focus: Intelligence (Research)</td></tr><tr><td>5</td><td>+2 Income</td></tr><tr><td>6</td><td>Focus: Intelligence (History)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Willpower (Self-Discipline)</td></tr><tr><td>10–11</td><td>Focus: Intelligence (choose one)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
+        "content": "<p><em>Middle Class</em></p><p>You spent a lot more time at schools and academic environments than your peers. Perhaps you lived at a boarding school on Earth or Luna, or even one of the outer planets. You’re inclined to be a bit more bookish and to know your way around academic institutions.</p><ul><li><strong>Ability:</strong> +1 Intelligence</li><li><strong>Focus:</strong> Intelligence (choose one)</li><li><strong>Talent:</strong> Knowledge or Linguistics</li></ul><h2>Academic Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Communication</td></tr><tr><td>3–4</td><td>Focus: Intelligence (Research)</td></tr><tr><td>5</td><td>+2 Income</td></tr><tr><td>6</td><td>Focus: Intelligence (History)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Willpower (Self-Discipline)</td></tr><tr><td>10–11</td><td>Focus: Intelligence (choose one)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
       },
       "sort": 100000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.Ov4dyAGQx9oXdlqZ",
+      "_key": "!journal.pages!97951171e5b08147.961bf76f01ba35c8",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "n6xrBjI22YYxIdHz",
+      "_id": "a5409e824265696c",
       "name": "Aristocratic",
       "type": "text",
       "title": {
@@ -35,22 +35,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Upper Class</em></p><p>You come from a family with a history of privilege and responsibility, although it might have less of both these days. You might be actual nobility from an Earth culture that still has it, or “just” belong to an important family with equivalent wealth and influence.</p><ul><li><strong>Ability:</strong> +1 Communication</li><li><strong>Focus:</strong> Communication (Etiquette) or Intelligence (History)</li><li><strong>Talent:</strong> Affluent or Contacts</li></ul><h2>Aristocratic Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Accuracy</td></tr><tr><td>3–4</td><td>+2 Income</td></tr><tr><td>5</td><td>Focus: Communication (Persuasion)</td></tr><tr><td>6</td><td>Focus: Dexterity (Piloting)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Communication (Gambling)</td></tr><tr><td>10–11</td><td>Focus: Communication (Leadership)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
+        "content": "<p><em>Upper Class</em></p><p>You come from a family with a history of privilege and responsibility. You might actually be nobility from an Earth culture that still has it, or “just” belong to an important family with wealth and influence, or even a prominent Belter family.</p><ul><li><strong>Ability:</strong> +1 Communication</li><li><strong>Focus:</strong> Communication (Etiquette) or Intelligence (History)</li><li><strong>Talent:</strong> Affluent or Contacts</li></ul><h2>Aristocratic Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Accuracy</td></tr><tr><td>3–4</td><td>+2 Income</td></tr><tr><td>5</td><td>Focus: Communication (Persuasion)</td></tr><tr><td>6</td><td>Focus: Dexterity (Piloting)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Communication (Gambling)</td></tr><tr><td>10–11</td><td>Focus: Communication (Leadership)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
       },
       "sort": 200000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.n6xrBjI22YYxIdHz",
+      "_key": "!journal.pages!97951171e5b08147.a5409e824265696c",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "2vOGiicdeAHoy5L8",
+      "_id": "c3ca3bf0ed437fa6",
       "name": "Bohemian",
       "type": "text",
       "title": {
@@ -59,22 +59,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Outsider</em></p><p>You grew up in an experimental, eccentric, or creative community. Perhaps you belonged to a commune, an artist colony, or some “off the grid” intentional community. You may be the child of a group or polyamorous marriage, particularly on Earth. You’re unfamiliar with some of the things people take for granted, but had plenty of opportunities to expand your horizons. You might be trying to fit into mainstream society after some time away, or you might revel in your offbeat lifestyle.</p><ul><li><strong>Ability:</strong> +1 Communication</li><li><strong>Focus:</strong> Communication (Performing) or Intelligence (choose one)</li><li><strong>Talent:</strong> Carousing or Performance</li></ul><h2>Bohemian Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Dexterity</td></tr><tr><td>3–4</td><td>Focus: Perception (Empathy)</td></tr><tr><td>5</td><td>Focus: Willpower (Courage or Faith)</td></tr><tr><td>6</td><td>Focus: Communication (choose one)</td></tr><tr><td>7–8</td><td>+1 Constitution</td></tr><tr><td>9</td><td>Focus: Dexterity (Acrobatics or Free-fall)</td></tr><tr><td>10–11</td><td>Focus: Communication (Persuasion)</td></tr><tr><td>12</td><td>+1 Perception</td></tr></tbody></table>"
+        "content": "<p><em>Outsider</em></p><p>You grew up in an experimental, eccentric, or creative community. Perhaps you belonged to a commune, cult, or artist colony. An Earther might be the child of a group or polyamorous marriage or some “off the grid” intentional community. As a Belter you might be from a station or ship that maintains an unorthodox lifestyle. You’re unfamiliar with some of the things people take for granted. You might be trying to fit into mainstream society after some time away, or you might revel in your offbeat nature.</p><ul><li><strong>Ability:</strong> +1 Communication</li><li><strong>Focus:</strong> Communication (Performing) or Intelligence (choose one)</li><li><strong>Talent:</strong> Carousing or Performance</li></ul><h2>Bohemian Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Dexterity</td></tr><tr><td>3–4</td><td>Focus: Perception (Empathy)</td></tr><tr><td>5</td><td>Focus: Willpower (Courage or Faith)</td></tr><tr><td>6</td><td>Focus: Communication (choose one)</td></tr><tr><td>7–8</td><td>+1 Constitution</td></tr><tr><td>9</td><td>Focus: Dexterity (Acrobatics or Free-fall)</td></tr><tr><td>10–11</td><td>Focus: Communication (Persuasion)</td></tr><tr><td>12</td><td>+1 Perception</td></tr></tbody></table>"
       },
       "sort": 300000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.2vOGiicdeAHoy5L8",
+      "_key": "!journal.pages!97951171e5b08147.c3ca3bf0ed437fa6",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "sUdjDtLJPHVXd8yx",
+      "_id": "faac8f8685c7e655",
       "name": "Corporate",
       "type": "text",
       "title": {
@@ -90,15 +90,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.sUdjDtLJPHVXd8yx",
+      "_key": "!journal.pages!97951171e5b08147.faac8f8685c7e655",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "y7suw3OdC71W5cVD",
+      "_id": "92cd8f6777fff17b",
       "name": "Cosmopolitan",
       "type": "text",
       "title": {
@@ -107,22 +107,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Upper Class</em></p><p>You were raised in a cosmopolitan environment: a big city, or even a series of great cities, where people from all over the world came and mixed. You were exposed to some of the best—and, potentially, the worst—of humanity and human achievement.</p><ul><li><strong>Ability:</strong> +1 Intelligence</li><li><strong>Focus:</strong> Communication (Etiquette) or Intelligence (Current Affairs)</li><li><strong>Talent:</strong> Knowledge or Observation</li></ul><h2>Cosmopolitan Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Perception</td></tr><tr><td>3–4</td><td>Focus: Intelligence (choose one)</td></tr><tr><td>5</td><td>Focus: Communication (Persuasion)</td></tr><tr><td>6</td><td>Focus: Intelligence (Art)</td></tr><tr><td>7–8</td><td>+1 Communication</td></tr><tr><td>9</td><td>Focus: Communication (Bargaining)</td></tr><tr><td>10–11</td><td>Focus: Perception (Seeing)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
+        "content": "<p><em>Upper Class</em></p><p>You were raised in a cosmopolitan environment—a massive Earth city, a large space station, a void city, or even one of the larger colonies. You were exposed to a wide variety of people―some of the best and, potentially, the worst of humanity and human achievement.</p><ul><li><strong>Ability:</strong> +1 Intelligence</li><li><strong>Focus:</strong> Communication (Etiquette) or Intelligence (Current Affairs)</li><li><strong>Talent:</strong> Knowledge or Observation</li></ul><h2>Cosmopolitan Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Perception</td></tr><tr><td>3–4</td><td>Focus: Intelligence (choose one)</td></tr><tr><td>5</td><td>Focus: Communication (Persuasion)</td></tr><tr><td>6</td><td>Focus: Intelligence (Art)</td></tr><tr><td>7–8</td><td>+1 Communication</td></tr><tr><td>9</td><td>Focus: Communication (Bargaining)</td></tr><tr><td>10–11</td><td>Focus: Perception (Seeing)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
       },
       "sort": 500000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.y7suw3OdC71W5cVD",
+      "_key": "!journal.pages!97951171e5b08147.92cd8f6777fff17b",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "hElgzxrosnfatwxf",
+      "_id": "d39ab64be037f656",
       "name": "Exile",
       "type": "text",
       "title": {
@@ -138,15 +138,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.hElgzxrosnfatwxf",
+      "_key": "!journal.pages!97951171e5b08147.d39ab64be037f656",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "WSwbrFYvbWyLDGod",
+      "_id": "ce5dd693790b1e22",
       "name": "Laborer",
       "type": "text",
       "title": {
@@ -155,22 +155,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Lower Class</em></p><p>Your family is used to hard, physical work—and so are you. Generations have worked the factory line, the mines, the assembly line, or the dockyards. You might be looking to move on and move up from there, or stick with it, or something might have upended the life you once knew, forcing you to move on.</p><ul><li><strong>Ability:</strong> +1 Constitution</li><li><strong>Focus:</strong> Dexterity (Crafting) or Strength (Might)</li><li><strong>Talent:</strong> One Unarmed Combat Style or Carousing</li></ul><h2>Laborer Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Fighting</td></tr><tr><td>3–4</td><td>Focus: Fighting (Brawling)</td></tr><tr><td>5</td><td>Focus: Intelligence (Engineering)</td></tr><tr><td>6</td><td>Focus: Willpower (Self-Discipline)</td></tr><tr><td>7–8</td><td>+1 Strength</td></tr><tr><td>9</td><td>Focus: Communication (Gambling)</td></tr><tr><td>10–11</td><td>Focus: Constitution (Stamina)</td></tr><tr><td>12</td><td>+1 Dexterity</td></tr></tbody></table>"
+        "content": "<p><em>Lower Class</em></p><p>Your family is used to hard, physical work—and so are you. Generations have worked the factory line, or the mines, the assembly line, or the dockyards. You might be looking to move on and move up from there, or stick with it, or something might have upended the life you once knew, forcing you to move on.</p><ul><li><strong>Ability:</strong> +1 Constitution</li><li><strong>Focus:</strong> Dexterity (Crafting) or Strength (Might)</li><li><strong>Talent:</strong> One Unarmed Combat Style or Carousing</li></ul><h2>Laborer Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Fighting</td></tr><tr><td>3–4</td><td>Focus: Fighting (Brawling)</td></tr><tr><td>5</td><td>Focus: Intelligence (Engineering)</td></tr><tr><td>6</td><td>Focus: Willpower (Self-Discipline)</td></tr><tr><td>7–8</td><td>+1 Strength</td></tr><tr><td>9</td><td>Focus: Communication (Gambling)</td></tr><tr><td>10–11</td><td>Focus: Constitution (Stamina)</td></tr><tr><td>12</td><td>+1 Dexterity</td></tr></tbody></table>"
       },
       "sort": 700000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.WSwbrFYvbWyLDGod",
+      "_key": "!journal.pages!97951171e5b08147.ce5dd693790b1e22",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "8TekBKIAji11Pdos",
+      "_id": "bb6911e4567258b6",
       "name": "Military",
       "type": "text",
       "title": {
@@ -179,22 +179,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Lower Class</em></p><p>You grew up as a military brat. You were either a dependent with family members in military service, or you lived close by or on a military installation. You’re familiar with military culture and picked up a thing or two from it along the way.</p><ul><li><strong>Ability:</strong> +1 Fighting</li><li><strong>Focus:</strong> Accuracy (Pistols) or Intelligence (Tactics)</li><li><strong>Talent:</strong> One Combat Style or Observation</li></ul><h2>Military Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Willpower</td></tr><tr><td>3–4</td><td>Focus: Accuracy (Rifles)</td></tr><tr><td>5</td><td>Focus: Communication (Leadership)</td></tr><tr><td>6</td><td>Focus: Intelligence (Security)</td></tr><tr><td>7–8</td><td>+1 Strength</td></tr><tr><td>9</td><td>Focus: Perception (Searching)</td></tr><tr><td>10–11</td><td>Focus: Fighting (Brawling)</td></tr><tr><td>12</td><td>+1 Constitution</td></tr></tbody></table>"
+        "content": "<p><em>Lower Class</em></p><p>You grew up as a military brat. One or more of your family members was in military service, or you lived close by or on a military base or other installation. The service could be Earth, Mars, or the defense arm of the Transport Union. You’re familiar with military culture and picked up a thing or two from it along the way.</p><ul><li><strong>Ability:</strong> +1 Fighting</li><li><strong>Focus:</strong> Accuracy (Pistols) or Intelligence (Tactics)</li><li><strong>Talent:</strong> One Combat Style or Observation</li></ul><h2>Military Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Willpower</td></tr><tr><td>3–4</td><td>Focus: Accuracy (Rifles)</td></tr><tr><td>5</td><td>Focus: Communication (Leadership)</td></tr><tr><td>6</td><td>Focus: Intelligence (Security)</td></tr><tr><td>7–8</td><td>+1 Strength</td></tr><tr><td>9</td><td>Focus: Perception (Searching)</td></tr><tr><td>10–11</td><td>Focus: Fighting (Brawling)</td></tr><tr><td>12</td><td>+1 Constitution</td></tr></tbody></table>"
       },
       "sort": 800000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.8TekBKIAji11Pdos",
+      "_key": "!journal.pages!97951171e5b08147.bb6911e4567258b6",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "AFHPVyprIvlIRuvv",
+      "_id": "103035c1dbe1ad2f",
       "name": "Outcast",
       "type": "text",
       "title": {
@@ -210,15 +210,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.AFHPVyprIvlIRuvv",
+      "_key": "!journal.pages!97951171e5b08147.103035c1dbe1ad2f",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "9HxvFjn3gGzOqDdn",
+      "_id": "74e8ebf438bd1f98",
       "name": "Suburban",
       "type": "text",
       "title": {
@@ -227,22 +227,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Middle Class</em></p><p>Life for you once existed in the picturesque neighborhoods outside of the city but still just a short ride on public transportation to the shopping center. It might have been just as idyllic for you as the housing development brochures portrayed, or perhaps it was a cookie-cutter, conformist nightmare you couldn’t wait to escape.</p><ul><li><strong>Ability:</strong> +1 Communication</li><li><strong>Focus:</strong> Communication (Etiquette) or Intelligence (Current Affairs)</li><li><strong>Talent:</strong> Affluent or Contacts</li></ul><h2>Suburban Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Dexterity</td></tr><tr><td>3–4</td><td>Focus: Intelligence (choose one)</td></tr><tr><td>5</td><td>+2 Income</td></tr><tr><td>6</td><td>Focus: Communication (Persuasion)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Perception (choose one)</td></tr><tr><td>10–11</td><td>Focus: Dexterity (Driving)</td></tr><tr><td>12</td><td>+1 Intelligence</td></tr></tbody></table>"
+        "content": "<p><em>Middle Class</em></p><p>You grew up in a picturesque neighborhood outside the city center, but still just a short ride on public transportation to more urban areas. Even space stations have their “middle class” neighborhoods. It might have been an idyllic life, or perhaps it was a colony world cookie-cutter, conformist nightmare you couldn’t wait to escape.</p><ul><li><strong>Ability:</strong> +1 Communication</li><li><strong>Focus:</strong> Communication (Etiquette) or Intelligence (Current Affairs)</li><li><strong>Talent:</strong> Affluent or Contacts</li></ul><h2>Suburban Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Dexterity</td></tr><tr><td>3–4</td><td>Focus: Intelligence (choose one)</td></tr><tr><td>5</td><td>+2 Income</td></tr><tr><td>6</td><td>Focus: Communication (Persuasion)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Perception (choose one)</td></tr><tr><td>10–11</td><td>Focus: Dexterity (Driving)</td></tr><tr><td>12</td><td>+1 Intelligence</td></tr></tbody></table>"
       },
       "sort": 1000000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.9HxvFjn3gGzOqDdn",
+      "_key": "!journal.pages!97951171e5b08147.74e8ebf438bd1f98",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "wcOx7YdIWwXo8c8L",
+      "_id": "344e77a3f7ddc5f6",
       "name": "Trade",
       "type": "text",
       "title": {
@@ -258,15 +258,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.wcOx7YdIWwXo8c8L",
+      "_key": "!journal.pages!97951171e5b08147.344e77a3f7ddc5f6",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "IydQjGvHyKALAIdW",
+      "_id": "a04dfc2a0fcba316",
       "name": "Urban",
       "type": "text",
       "title": {
@@ -275,18 +275,18 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Lower Class</em></p><p>You lived in the city, not in a high-rise or someplace with private security, but in the city. Its streets and vacant lots were your playgrounds, and you were navigating public transportation long before you could drive (as if you ever needed to drive). You know the ins and outs of an urban environment, even if it’s not the particular city where you lived, even if it’s a large station in the depths of an asteroid or moon, in fact. You know local eccentrics, dangerous people, and the secrets from the heart of the city.</p><ul><li><strong>Ability:</strong> +1 Dexterity</li><li><strong>Focus:</strong> Communication (Persuasion) or Constitution (Stamina)</li><li><strong>Talent:</strong> Agility or Misdirection</li></ul><h2>Urban Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Accuracy</td></tr><tr><td>3–4</td><td>Focus: Dexterity (Acrobatics)</td></tr><tr><td>5</td><td>Focus: Communication (Deception)</td></tr><tr><td>6</td><td>Focus: Dexterity (Sleight of Hand)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Perception (Hearing)</td></tr><tr><td>10–11</td><td>Focus: Strength (Climbing or Jumping)</td></tr><tr><td>12</td><td>+1 Fighting</td></tr></tbody></table>"
+        "content": "<p><em>Lower Class</em></p><p>You lived in the inner city or in the most densely inhabited part of a large station in the depths of an asteroid or moon. This was not a place with private security and luxury, but rather in the core of the city. Its streets, vacant lots, and abandoned structures were your playgrounds. You know the ins and outs of an urban environment, even if it’s not the particular city where you lived. You know how to navigate the city’s dangers and where to find what you need.</p><ul><li><strong>Ability:</strong> +1 Dexterity</li><li><strong>Focus:</strong> Communication (Persuasion) or Constitution (Stamina)</li><li><strong>Talent:</strong> Agility or Misdirection</li></ul><h2>Urban Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Accuracy</td></tr><tr><td>3–4</td><td>Focus: Dexterity (Acrobatics)</td></tr><tr><td>5</td><td>Focus: Communication (Deception)</td></tr><tr><td>6</td><td>Focus: Dexterity (Sleight of Hand)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Perception (Hearing)</td></tr><tr><td>10–11</td><td>Focus: Strength (Climbing or Jumping)</td></tr><tr><td>12</td><td>+1 Fighting</td></tr></tbody></table>"
       },
       "sort": 1200000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nPEJtxbY3qOlk1MN.IydQjGvHyKALAIdW",
+      "_key": "!journal.pages!97951171e5b08147.a04dfc2a0fcba316",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     }
   ],
@@ -296,8 +296,8 @@
   "ownership": {
     "default": 0
   },
-  "_id": "nPEJtxbY3qOlk1MN",
-  "_key": "!journal!nPEJtxbY3qOlk1MN",
+  "_id": "97951171e5b08147",
+  "_key": "!journal!97951171e5b08147",
   "_stats": {
     "coreVersion": "14",
     "systemId": "age-system",

@@ -1,0 +1,39 @@
+{
+  "name": "Generic Pistol",
+  "_id": "9b6d6c4d903b2c1c",
+  "_key": "!items!9b6d6c4d903b2c1c",
+  "folder": "f7d0a20963996302",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Simplified weapon of the Generic Weapons table, for games that do not need the details of individual weapons.</p>",
+    "useAbl": "acc",
+    "useFocus": "pistols",
+    "minStr": 0,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "2d6",
+    "weight": 0,
+    "cost": 10,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 50,
+    "rangeMax": 75
+  },
+  "ownership": {
+    "default": 0
+  }
+}

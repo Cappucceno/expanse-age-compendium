@@ -1,6 +1,6 @@
 # Notices and credits
 
-*The Expanse Roleplaying Game* is © 2019 Green Ronin Publishing, LLC. All rights reserved. Green Ronin, *The Expanse Roleplaying Game* and their associated logos are trademarks of Green Ronin Publishing, LLC. *The Expanse* is © 2011-2019 Daniel Abraham and Ty Franck. The Adventure Game Engine (AGE) was created by Chris Pramas. This system and its compendiums are an official Green Ronin product for Foundry VTT.
+*The Expanse Roleplaying Game: Transport Union Edition* is © 2025 Green Ronin Publishing, LLC (writing and design: Steve Kenson and Ian Lemke; development: Ian Lemke). All rights reserved. Green Ronin, *The Expanse Roleplaying Game* and their associated logos are trademarks of Green Ronin Publishing, LLC. *The Expanse* is © 2011-2025 Daniel Abraham and Ty Franck. The Adventure Game Engine (AGE) was created by Chris Pramas. This system and its compendiums are an official Green Ronin product for Foundry VTT.
 
 ## Brazilian edition (pt-BR)
 
