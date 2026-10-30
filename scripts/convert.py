@@ -575,7 +575,7 @@ SHIP_FOLDERS = {"Small Craft": ("Shuttle", "Drop Ship", "Ship’s Boat"), "Freig
 SHIP_ICON = "systems/age-system/resources/imgs/actor-icon/rocket.svg"
 
 
-def ship_lines(pdf):
+def ship_lines(pdf):  # noqa
     lines = raw_lines(pdf, 145, 155)
     start = next(i for i, l in enumerate(lines) if l == "SHuTTLE")
     end = next(i for i, l in enumerate(lines) if l == "SPACE COMBAT")
@@ -991,6 +991,15 @@ def build_creation_tables(pdf):
     for b in parse_backgrounds(pdf):
         table_doc(pack, f"{b['name']} Benefits", "2d6", f"Benefits table of the {b['name']} background ({b['cls']}).",
                   [(*ranges(r), t) for r, t in b["benefits"]], "Benefits")
+    # professions by social class (1d6)
+    for cls in ("OUTSIDER", "LOWER CLASS", "MIDDLE CLASS", "UPPER CLASS"):
+        k = next(i for i, l in enumerate(L) if l == cls and L[i + 1] == "1D6 PROFESSION")
+        res = []
+        for l in L[k + 2:k + 8]:
+            m = re.match(r"^(\d) ([A-Z][a-z]+)$", l)
+            assert m, f"{cls}: profession row {l!r}"
+            res.append((int(m.group(1)), int(m.group(1)), m.group(2)))
+        table_doc(pack, f"{cls.title()} Professions", "1d6", f"Professions of the {cls.lower()} social class.", res, "Professions")
     # drives
     k = next(i for i, l in enumerate(L) if l.startswith("D6 COLUMN 1 COLUMN 2"))
     col1, col2 = [], []
@@ -1038,7 +1047,7 @@ def split_pages(bl, level=1, intro="Introduction"):
     return out
 
 
-def chapter_pages(pdf, first, last, skip=(), skip_pages=(), stop_at=(), limit=16000, intro="Introduction"):
+def chapter_pages(pdf, first, last, skip=(), skip_pages=(), stop_at=(), limit=16000, intro="Introduction", drop=None):
     """[(title, html)] for PDF pages first..last: one page per top-level heading, split at the next heading level when a page gets longer than `limit`."""
     pages, words_ = book(pdf)
     bl = []
@@ -1049,6 +1058,8 @@ def chapter_pages(pdf, first, last, skip=(), skip_pages=(), stop_at=(), limit=16
             bl = bl[:i]
             break
     bl = prose.merge_paragraphs(bl, words_)
+    if drop:
+        bl = [b for b in bl if not drop(b)]
     bl = prose._drop_sections(bl, set(skip))
     out = []
 
@@ -1070,8 +1081,158 @@ def chapter_pages(pdf, first, last, skip=(), skip_pages=(), stop_at=(), limit=16
     return out
 
 
+# --------------------------------------------------------------------------- rules tables (p5, p234, p...)
+
+def build_rules_tables(pdf):
+    pack = Pack("rules-tables")
+    table_doc(pack, "Churn Over: Pool at 10", "1d6", "Roll 1d6 when the Churn Pool reaches 10 (Chapter 12).", [(1, 3, "Minor Effect"), (4, 6, "No Effect")], "The Churn")
+    table_doc(pack, "Churn Over: Pool at 20", "1d6", "Roll 1d6 when the Churn Pool reaches 20. At 30 an Epic Effect occurs automatically and the pool resets to 0.",
+              [(1, 3, "Major Effect"), (4, 6, "Minor Effect")], "The Churn")
+    L = raw_lines(pdf, 100, 125)
+    k = next(i for i, l in enumerate(L) if l == "3D6 ROLL ATTITUDE INTERACTION MODIFIER")
+    rows = []
+    for l in L[k + 1:k + 8]:
+        m = re.match(r"^(\d+)(?:–(\d+))?( or less|\+)? (.+?) ([+\-−–]\d)$", l)
+        assert m, f"attitude row {l!r}"
+        lo = 3 if m.group(3) == " or less" else int(m.group(1))
+        hi = int(m.group(2)) if m.group(2) else (int(m.group(1)) if m.group(3) != "+" else 18)
+        if m.group(3) == " or less":
+            lo, hi = 3, int(m.group(1))
+        rows.append((lo, hi, f"{m.group(4)} (interaction modifier {m.group(5).replace('−', '-').replace('–', '-')})"))
+    table_doc(pack, "NPC Attitude", "3d6", "First impressions: the GM decides the attitude of an NPC or rolls 3d6 and adds the modifiers (Communication, a focus, Reputation +2/−2).", rows, "Social Encounters")
+    return pack
+
+
+def toks(s):
+    """Lowercase words without digits, so numbers glued to a word do not break a comparison."""
+    out = []
+    for w in re.split(r"[^a-z0-9]+", s.lower()):
+        w = re.sub(r"^\d+", "", w)
+        if w:
+            out.append(w)
+    return out
+
+
+def make_dropper(texts):
+    """Predicate for blocks whose text already appears (as 3-word runs) in `texts`: the garbled copies of tables and stat blocks
+    that live in items and actors of the module."""
+    words_ = []
+    for t in texts:
+        words_ += toks(t)
+    grams = {tuple(words_[i:i + 3]) for i in range(len(words_) - 2)}
+
+    def drop(b):
+        if b[0] not in ("p", "li"):
+            return False
+        w = toks(prose.plain(b[1]))
+        if len(w) < 3:
+            return False
+        return all(tuple(w[i:i + 3]) in grams for i in range(len(w) - 2))
+    return drop
+
+
+def stunt_texts(pdf):
+    out = []
+    for title, note, rows in stunt_tables(pdf, list(range(116, 129)) + list(range(155, 160))):
+        out += [title or "", note] + rows
+    return out
+
+
+def talent_names(pdf):
+    lines = col_lines(pdf, 48, 65)
+    return {smallcaps(b["name"]) for b in parse_talent_blocks(lines, pdf)}
+
+
+def clean_pages(pages_):
+    out = []
+    for t, h in pages_:
+        if not re.search(r"[A-Za-z]{3}", t) or (len(h) < 120 and t != "Introduction"):
+            continue
+        out.append((re.sub(r"^Introduction: ", "", t), h))
+    return out
+
+
+class IntroLines(list):
+    intro = True
+
+
+def churn_effects_html(pdf):
+    """The Churn Effects table (three tiers of effects, each with a bullet per kind of scene), read in story order."""
+    L = raw_lines(pdf, 234, 238)
+    k = next(i for i, l in enumerate(L) if l == "CHURN EFFECTS")
+    out, tier, cur, items = [], None, None, []
+    skip = ("CHURN OVER", "CHURN POOL D6 RESULT", "10 Minor Effect", "20 Major Effect")
+    for l in L[k + 1:]:
+        if l in ("EFFECTS", "CHURN") or l.startswith(skip):
+            continue
+        if l in ("MINOR", "MAJOR", "EPIC"):
+            if cur:
+                items.append(cur)
+            if tier:
+                out.append((tier, items))
+            tier, cur, items = l.title(), None, []
+            continue
+        if l in ("MIN", "O", "R", "C", "H", "U", "N") or re.fullmatch(r"[A-Z]", l):
+            break
+        if tier is None:
+            continue
+        if l.startswith("• "):
+            if cur:
+                items.append(cur)
+            cur = [l[2:]]
+        elif cur:
+            cur.append(l)
+        elif items and items[-1] is not None and not isinstance(items[-1], list):
+            pass
+        else:
+            if items and getattr(items[-1], "intro", False):
+                items[-1].append(l)
+            else:
+                items.append(IntroLines([l]))
+    if cur:
+        items.append(cur)
+    if tier:
+        out.append((tier, items))
+    assert [t for t, _ in out] == ["Minor", "Major", "Epic"], f"churn tiers {[t for t, _ in out]}"
+    html_ = ""
+    for tier, items_ in out:
+        html_ += f"<h2>{tier} Churn Effects</h2>"
+        for it in items_:
+            text_ = para(it, pdf)
+            m = re.match(r"^([A-Z]+): (.*)$", text_)
+            html_ += f"<p><strong>{smallcaps(m.group(1))}:</strong> {esc(m.group(2))}</p>" if m else p(text_)
+    return html_
+
+
+def build_rules_reference(pdf):
+    pack = Pack("rules-reference", "JournalEntry")
+    pages, words_ = book(pdf)
+    item_names = {item_name(e["name"]) for e in item_entries(pdf, range(70, 89))} | {item_name(e["name"]) for e in item_entries(pdf, range(99, 104))}
+    stunts_drop = make_dropper(stunt_texts(pdf) + ship_lines(pdf) + raw_lines(pdf, 95, 125)[:0])
+    journal_doc(pack, "Chapter 1: Game Basics", clean_pages(chapter_pages(pdf, 12, 23)))
+    journal_doc(pack, "Chapter 3: Character Traits", clean_pages(chapter_pages(pdf, 45, 65, skip=talent_names(pdf))))
+    journal_doc(pack, "Chapter 4: Technology and Equipment", clean_pages(chapter_pages(pdf, 66, 103, skip=item_names)))
+    journal_doc(pack, "Chapter 5: Gameplay", clean_pages(chapter_pages(pdf, 104, 131, drop=stunts_drop)))
+    journal_doc(pack, "Chapter 6: Spaceships", clean_pages(chapter_pages(pdf, 132, 165, drop=stunts_drop)))
+    journal_doc(pack, "Chapter 12: Game Mastering", clean_pages(chapter_pages(pdf, 214, 244)) + [("Churn Effects", churn_effects_html(pdf))])
+    journal_doc(pack, "Chapter 13: Threats", clean_pages(chapter_pages(pdf, 245, 252, stop_at=("Sample Adversaries",))))
+    journal_doc(pack, "Chapter 14: Rewards", clean_pages(chapter_pages(pdf, 264, 269)))
+    return pack
+
+
+def build_setting_guide(pdf):
+    pack = Pack("setting-guide", "JournalEntry")
+    journal_doc(pack, "Chapter 7: Future History", clean_pages(chapter_pages(pdf, 166, 176)))
+    journal_doc(pack, "Chapter 8: Earth", clean_pages(chapter_pages(pdf, 177, 185)))
+    journal_doc(pack, "Chapter 9: Mars", clean_pages(chapter_pages(pdf, 186, 192)))
+    journal_doc(pack, "Chapter 10: The Belt", clean_pages(chapter_pages(pdf, 193, 204)))
+    journal_doc(pack, "Chapter 11: Beyond the Ring", clean_pages(chapter_pages(pdf, 205, 213)))
+    journal_doc(pack, "Chapter 15: The Expanse Series", clean_pages(chapter_pages(pdf, 270, 284)))
+    return pack
+
+
 BUILDERS = {"talents": build_talents, "focuses": build_focuses, "stunts": build_stunts,
-            "equipment": build_equipment, "character-creation": build_creation, "creation-tables": build_creation_tables, "adversaries": build_adversaries, "ships": build_ships, "implants": build_implants, "weapons": build_weapons, "armor": build_armor, "shields": build_shields}
+            "equipment": build_equipment, "rules-reference": build_rules_reference, "setting-guide": build_setting_guide, "rules-tables": build_rules_tables, "character-creation": build_creation, "creation-tables": build_creation_tables, "adversaries": build_adversaries, "ships": build_ships, "implants": build_implants, "weapons": build_weapons, "armor": build_armor, "shields": build_shields}
 
 
 def main():
