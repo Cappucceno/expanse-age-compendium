@@ -8,13 +8,13 @@ import re
 import subprocess
 from collections import defaultdict
 
-PAGE_W = 904          # width of the XML page space (the PDF page is 603 pt wide)
+PAGE_W = 918          # width of the XML page space (the PDF page is 612 pt wide)
 MID = PAGE_W / 2
-LINE_TOL = 7          # elements within this many units vertically are on the same line (small caps sit 4-5 lower)
-PARA_GAP = 21         # a vertical step bigger than this between two lines starts a new paragraph
-CELL_GAP = 22         # horizontal gap between two elements of a line above which they are table cells
-FOOTER_TOP = 1095
-ACCENT = ("#0076a7", "#9d0651")   # accent colour of the book (blue in Modern AGE, magenta in the Cyberpunk Slice)
+LINE_TOL = 6          # elements within this many units vertically are on the same line
+PARA_GAP = 24         # a vertical step bigger than this between two lines starts a new paragraph
+CELL_GAP = 30         # horizontal gap between two elements of a line above which they are table cells
+HEAD_TOP = 70         # running heads sit above this
+FOOTER_TOP = 1120
 BODY = ("#1d1d1b", "#231f20")
 
 TEXT = re.compile(r'<text top="(-?\d+)" left="(-?\d+)" width="(\d+)" height="(\d+)" font="(\d+)">(.*?)</text>', re.S)
@@ -38,24 +38,28 @@ def load(pdf):
 
 
 def heading_level(el):
-    """h1..h4 for heading typefaces, None for body text."""
-    if "EternalKnight" not in el["family"] and "Archive" not in el["family"]:
-        return None
+    """h1..h4 for the heading typefaces of the Transport Union Edition, None for body text."""
     white = el["color"] in ("#ffffff", "#f6f6f6")
-    s = el["size"]
-    if s >= 90 and not white:
-        return 5   # drop cap
-    if white:
-        return 3 if s == 17 else None
-    if s >= 42 and s < 60:
-        return 1
-    if s == 30 or s == 21:
-        return 2
-    if s == 18 and el["color"] in ACCENT:
-        return 6   # a formula shown in blue
-    if s == 18:
-        return 3
+    fam, s = el["family"], el["size"]
+    if fam.startswith("Spectrashell"):
+        if white:
+            return 1 if s >= 40 else (2 if s >= 30 else (4 if s >= 20 else None))
+        if s >= 30:
+            return 2
+        if s >= 20:
+            return 3
+        return None
+    if fam.startswith("ProximaNova") and s == 15 and not white:
+        return 4
     return None
+
+
+def titlecase(s):
+    """Small-capital headings come out with stray lowercase capitals ('PLAYING YOuR CHARACTER'): restore a title case."""
+    small = ("of", "and", "the", "in", "to", "a", "for", "on", "vs.")
+    words = s.strip().lower().split()
+    out = [w if (i and w in small) else "-".join(x.capitalize() for x in w.split("-")) for i, w in enumerate(words)]
+    return re.sub(r"\((\w)", lambda m: "(" + m.group(1).upper(), " ".join(out)).replace("’S", "’s")
 
 
 def convert_markup(h):
@@ -71,19 +75,24 @@ def plain(h):
 
 
 def fix_small_caps(els):
-    """Small-caps words are stored as a 14-size run of capitals-as-lowercase plus a 9-size run; restore the real case."""
-    small = {(e["page"], e["family"]) for e in els if e["size"] == 9 and "EternalKnight" not in e["family"]}
+    """Nothing to do in this book: its small capitals are handled when a heading is turned into a title (titlecase)."""
+    return
+
+
+def prepare(els):
+    """Page elements without running heads, page numbers and the white shadow copies of dark headings."""
+    keep = []
     for e in els:
-        if "EternalKnight" in e["family"] or (e["page"], e["family"]) not in small:
+        if e["top"] <= HEAD_TOP or e["top"] >= FOOTER_TOP or "VenusRising" in e["family"]:
             continue
-        if e["size"] == 9:
-            e["html"] = _case(e["html"], str.lower)
-        elif e["size"] == 14 and e["color"] != "#ffffff" and re.fullmatch(r"\s*<b>[^<]*</b>\s*", e["html"]):
-            e["html"] = _case(e["html"], str.upper)
-
-
-def _case(h, fn):
-    return re.sub(r"(>|^)([^<]+)", lambda m: m.group(1) + fn(m.group(2)), h)
+        t = plain(e["html"]).strip()
+        if not t:
+            continue
+        if e["color"] == "#ffffff" and any(o is not e and o["color"] != "#ffffff" and abs(o["top"] - e["top"]) <= 2 and abs(o["left"] - e["left"]) <= 2
+                                           and plain(o["html"]).strip() == t for o in els):
+            continue
+        keep.append(e)
+    return keep
 
 
 def lines_of(els):
@@ -203,22 +212,24 @@ def blocks_from_page(els, words):
             if not plain(text).strip():
                 continue
             lvl = heading_level(ln["els"][0])
-            if lvl and len(ln["els"]) > 1 and all(e["color"] == "#ffffff" and e["size"] <= 12 for e in ln["els"][1:]):
-                # sidebar entry: heading plus a small prerequisite line on the same row
+            first = ln["els"][0]
+            if first["color"] == "#ffffff" and first["size"] <= 12 and not lvl and len(ln["els"]) > 1 and all(e["color"] != "#ffffff" for e in ln["els"][1:]):
+                # a label on a dark bar (NOVICE, EXAMPLE, a quality name) followed by its text on the same row
                 flush_para()
                 flush_rows()
-                out.append(("h", 4, plain(convert_markup(ln["els"][0]["html"])).strip()))
-                out.append(["p", "<em>" + " ".join(plain(convert_markup(e["html"])).strip() for e in ln["els"][1:]) + "</em>"])
+                label = html.escape(plain(convert_markup(first["html"])).strip())
+                rest = "".join(convert_markup(e["html"]) for e in ln["els"][1:]).strip()
+                para = ["p", f"<strong>{label}</strong> {rest}"]
                 prev_top = ln["top"]
                 continue
             if lvl and all(heading_level(e) for e in ln["els"]):
                 flush_para()
                 flush_rows()
                 size = ln["els"][0]["size"]
-                if size >= 90 and len(plain(text).strip()) <= 2:   # drop cap: glue to the next text line
-                    cap = plain(text).strip()
+                if len(plain(text).strip()) <= 2 and (size >= 60 or plain(text).strip().isdigit()):   # drop cap or list number: glue to the next text line
+                    cap = plain(text).strip() + (". " if plain(text).strip().isdigit() else "")
                     continue
-                label = " ".join(plain(convert_markup(e["html"])).strip() for e in ln["els"]).strip()
+                label = titlecase(" ".join(plain(convert_markup(e["html"])).strip() for e in ln["els"]).strip())
                 if lvl == 6:
                     out.append(["p", f"<strong>{html.escape(label)}</strong>"])
                     prev_top = ln["top"]
@@ -293,8 +304,7 @@ def chapter_sections(pages, first, last, words, skip=(), skip_pages=(), stop_at=
     """[(title, html)] for PDF pages first..last, one entry per top-level (h1) heading."""
     blocks = []
     for n in range(first, last + 1):
-        els = [e for e in pages[n] if e["top"] < FOOTER_TOP and not _noise(e)]
-        fix_small_caps(els)
+        els = prepare(pages[n])
         blocks += blocks_from_page(els, words)
     for i, b in enumerate(blocks):
         if b[0] == "h" and b[2].strip() in stop_at:
@@ -334,13 +344,6 @@ def merge_paragraphs(blocks, words):
                 continue
         out.append(b)
     return [tuple(b) for b in out]
-
-
-def _noise(e):
-    # running tabs, page numbers and chapter banners (white EternalKnight at the page edge or large)
-    if "EternalKnight" in e["family"] and e["color"] == "#ffffff" and e["size"] in (18, 20, 36, 48, 59, 42):
-        return True
-    return False
 
 
 def _drop_sections(blocks, skip):

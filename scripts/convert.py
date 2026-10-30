@@ -402,12 +402,12 @@ def item_entries(pdf, pages, label=r"(?:COST\s*(?:\d+|-|\*)|(?:\d+\+?|\d+ OR \d+
     return out
 
 
-ACRONYMS = {"Smg": "SMG", "Emp": "EMP", "Hud": "HUD", "Lva": "LVA", "Av": "AV"}
+ACRONYMS = {"Smg": "SMG", "Emp": "EMP", "Hud": "HUD", "Lva": "LVA", "Av": "AV", "Mmc": "MMC", "bobbi": "Bobbi"}
 
 
 def item_name(raw):
     name = smallcaps(raw)
-    return re.sub(r"\b(Smg|Emp|Hud|Lva|Av)\b", lambda m: ACRONYMS[m.group(1)], name)
+    return re.sub(r"\b(Smg|Emp|Hud|Lva|Av|Mmc|bobbi)\b", lambda m: ACRONYMS[m.group(1)], name)
 
 
 def item_desc(e, pdf):
@@ -676,7 +676,7 @@ def adversary_blocks(pdf):
 
 
 def parse_adversary(name, body):
-    stop = re.compile(r"^(SPEED FORTUNE|WEAPON ATTACK|SPECIAL FEATURES|Threat:)")
+    stop = re.compile(r"^(SPEED FORTUNE|WEAPON ATTACK|SPECIAL FEATURES|Threat:|THREAT:)")
     k = next((j for j, l in enumerate(body) if stop.match(l)), len(body))
     abl_text = " ".join(body[:k])
     abilities, focuses = {}, {}
@@ -688,30 +688,30 @@ def parse_adversary(name, body):
     out = {"abilities": abilities, "focuses": focuses, "weapons": [], "features": [], "speed": None}
     rest = body[k:]
     if rest and rest[0].startswith("SPEED FORTUNE"):
-        m = re.match(r"^(\d+)(?: \(([^)]*)\))? (\d+) (\d+) (\d+)$", rest[1])
+        m = re.match(r"^(\d+)(?: \(([^)]*)\))? (\d+) (\d+) (.+)$", rest[1])
         assert m, f"{name}: stats line {rest[1]!r}"
-        out.update(speed=int(m.group(1)), speed_note=m.group(2), fortune=int(m.group(3)), defense=int(m.group(4)), armor=int(m.group(5)))
+        out.update(speed=int(m.group(1)), speed_note=m.group(2), fortune=int(m.group(3)), defense=int(m.group(4)), armor=m.group(5))
         rest = rest[2:]
     if rest and rest[0].startswith("WEAPON ATTACK"):
-        j = next((q for q, l in enumerate(rest) if q and (l.startswith("SPECIAL FEATURES") or l.startswith("Threat:"))), len(rest))
+        j = next((q for q, l in enumerate(rest) if q and (l.startswith("SPECIAL FEATURES") or l.upper().startswith("THREAT:"))), len(rest))
         for l in rest[1:j]:
             m = re.match(r"^(.+?) ([+−–-]\d+) (\d+d\d+(?:\s*[+−–-]\s*\d+)?)(?: (.+))?$", l)
             if m:
                 out["weapons"].append((m.group(1), num(m.group(2)), re.sub(r"\s+", "", m.group(3)).replace("−", "-").replace("–", "-"), m.group(4) or ""))
         rest = rest[j:]
     if rest and rest[0].startswith("SPECIAL FEATURES"):
-        j = next((q for q, l in enumerate(rest) if l.startswith("Threat:")), len(rest))
+        j = next((q for q, l in enumerate(rest) if l.upper().startswith("THREAT:")), len(rest))
         cur = None
         for l in rest[1:j]:
-            m = re.match(r"^([A-Z][A-Z0-9 ’'\-()/,]+): (.*)$", l)
+            m = re.match(r"^([A-Z][A-Za-z0-9 ’'\-()/,]{2,40}): (.*)$", l)
             if m:
                 cur = [m.group(1), [m.group(2)]]
                 out["features"].append(cur)
             elif cur:
                 cur[1].append(l)
         rest = rest[j:]
-    th = next((re.sub(r"^Threat:\s*", "", l) for l in rest if l.startswith("Threat:") and len(l) > 8), "")
-    out["threat"] = th.split()[0] if th else ""
+    th = next((re.sub(r"^Threat:\s*", "", l, flags=re.I) for l in rest if l.upper().startswith("THREAT:") and len(l) > 8), "")
+    out["threat"] = th.split()[0].title() if th else ""
     return out
 
 
@@ -739,17 +739,29 @@ def adversary_descriptions(L, names):
     return out
 
 
+def named_blocks(pdf):
+    """The stat blocks of the named characters printed in the setting chapters: (name, subtitle, body lines)."""
+    L = raw_lines(pdf, 166, 213)
+    idx = [i for i, l in enumerate(L) if l == "ABILITIES (FOCUSES)"]
+    out = []
+    for n, i in enumerate(idx):
+        end = idx[n + 1] - 4 if n + 1 < len(idx) else len(L)
+        out.append((L[i - 3], L[i - 1], L[i + 1:end], i))
+    return L, out
+
+
 def build_adversaries(pdf):
     pack = Pack("adversaries", "Actor")
     L, blocks_ = adversary_blocks(pdf)
-    names = {name: smallcaps(name) for name, _, _ in blocks_}
-    for raw_name, body, i in blocks_:
+    named = [(n, sub, body, i) for n, sub, body, i in named_blocks(pdf)[1]]
+    jobs = [(raw_name, body, None) for raw_name, body, i in blocks_] + [(n, body, sub) for n, sub, body, i in named]
+    for raw_name, body, subtitle in jobs:
         name = item_name(raw_name)
         name = re.sub(r"\s*\((Minor|Moderate|Major)\)", lambda m: f" ({m.group(1)})", name)
         a = parse_adversary(name, body)
-        folder = next((f for f, ns in ADV_FOLDERS.items() if name in ns), None)
+        folder = "Named Characters" if subtitle else next((f for f, ns in ADV_FOLDERS.items() if name in ns), None)
         assert folder, f"adversary without a folder: {name!r}"
-        feats = ""
+        feats = f"<p><em>{esc(smallcaps(subtitle).replace(', ', ', '))}</em></p>" if subtitle else ""
         for label, lines_ in a["features"]:
             feats += f"<p><strong>{esc(smallcaps(label))}:</strong> {esc(para(lines_, pdf))}</p>"
         if a.get("armor") is not None:
@@ -1004,6 +1016,58 @@ def build_creation_tables(pdf):
         rows_.append((min(rolls), max(rolls), f"Ability score {score:+d}" if score else "Ability score 0"))
     table_doc(pack, "Determining Abilities", "3d6", "Roll once per ability (in order) and read the ability score.", rows_, "Ability Scores")
     return pack
+
+
+# --------------------------------------------------------------------------- prose chapters (journals)
+
+from blocks import book  # noqa: E402
+
+
+def split_pages(bl, level=1, intro="Introduction"):
+    """[(title, blocks)] with one entry per heading of `level`; blocks before the first one go under `intro`."""
+    out, cur = [], [intro, []]
+    for b in bl:
+        if b[0] == "h" and b[1] == level:
+            if cur[1]:
+                out.append(cur)
+            cur = [b[2], []]
+        else:
+            cur[1].append(b)
+    if cur[1]:
+        out.append(cur)
+    return out
+
+
+def chapter_pages(pdf, first, last, skip=(), skip_pages=(), stop_at=(), limit=16000, intro="Introduction"):
+    """[(title, html)] for PDF pages first..last: one page per top-level heading, split at the next heading level when a page gets longer than `limit`."""
+    pages, words_ = book(pdf)
+    bl = []
+    for n in range(first, last + 1):
+        bl += prose.blocks_from_page(prose.prepare(pages[n]), words_)
+    for i, b in enumerate(bl):
+        if b[0] == "h" and b[2].strip() in stop_at:
+            bl = bl[:i]
+            break
+    bl = prose.merge_paragraphs(bl, words_)
+    bl = prose._drop_sections(bl, set(skip))
+    out = []
+
+    def emit(title, body, level):
+        html_ = prose.render(body)
+        if len(html_) > limit and level < 4:
+            parts = split_pages(body, level + 1, "Overview")
+            if len(parts) > 1:
+                for t, sub in parts:
+                    emit(f"{title}: {t}" if t != "Overview" else title, sub, level + 1)
+                return
+        if body:
+            out.append((squash(title), html_))
+
+    for t, body in split_pages(bl, 1, intro):
+        if t.strip() in skip_pages:
+            continue
+        emit(t, body, 1)
+    return out
 
 
 BUILDERS = {"talents": build_talents, "focuses": build_focuses, "stunts": build_stunts,

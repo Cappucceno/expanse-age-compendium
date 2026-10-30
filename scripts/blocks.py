@@ -30,8 +30,7 @@ def blocks(pdf, first, last):
     pages, words = book(pdf)
     out = []
     for n in range(first, last + 1):
-        els = [e for e in pages[n] if e["top"] < prose.FOOTER_TOP and not prose._noise(e)]
-        prose.fix_small_caps(els)
+        els = prose.prepare(pages[n])
         out += prose.blocks_from_page(els, words)
     return prose.merge_paragraphs(out, words)
 
