@@ -1,0 +1,28 @@
+{
+  "name": "Cybernetic Leg",
+  "_id": "6e23d96400f9565e",
+  "_key": "!items!6e23d96400f9565e",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>One of your legs is replaced with a cybernetic prosthetic, twice as strong and effective for Strength tests related solely to your leg. With two slots, both legs are augmented. In this case, add twice your Dexterity score to determine your Speed, and you can jump twice the normal distances. A cybernetic leg that simply serves as a replacement prosthesis, with no enhanced abilities, has no Capacity cost and is considered a “cosmetic” modification. This includes legs with unusual configurations like digitigrade (letting you walk on your toes like canine or feline) or leg-blades, which serve a similar function.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

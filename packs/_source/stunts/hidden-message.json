@@ -1,8 +1,8 @@
 {
   "name": "Hidden Message",
-  "_id": "QUni38NgiX0TAnMO",
-  "_key": "!items!QUni38NgiX0TAnMO",
-  "folder": "RYCI0kZp4Uq2YPRL",
+  "_id": "a0a793c4bd7bb731",
+  "_key": "!items!a0a793c4bd7bb731",
+  "folder": "a7eaf3a981654930",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your words convey a different message to one person than to everyone else who hears them; the character you choose is the only one who can decipher your true meaning.</p>",
+    "longDesc": "<p><em>Cost: 2 SP</em></p><p>Your words convey a different message to one person than to everyone else who hears them; the character you choose is the only one who can decipher your true meaning.</p>",
     "type": "General Social",
     "stuntPoints": 2,
     "stuntPointsMax": 2,

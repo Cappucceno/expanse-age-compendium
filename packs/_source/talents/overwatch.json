@@ -1,0 +1,39 @@
+{
+  "name": "Overwatch",
+  "_id": "e90b2cf06245a26b",
+  "_key": "!items!e90b2cf06245a26b",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You may not be the best in a direct fight, but you know how to watch out for your crew, giving the right advice or providing the right aid at the right time. You can use your powers of observation when observing your team by any means, whether it be by drone, security camera, or direct line of sight. You can make sure your allies have the right tools and information to make it back alive.</p><p><em>Synergies:</em> An Overwatch-Hacker uses computers and security systems to clear the way, while an Overwatch-Investigator puts in the legwork in advance to make sure everything goes smoothly. An OverwatchSniper keeps their team safe from afar.</p><p>You do not need to be there in person to assist your crew.</p>",
+    "shortDesc": "",
+    "requirement": "Communication 2+, Intelligence (Tactics) focus, and either the Communication (Leadership) or Communication (Persuasion focus).",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can make an Intelligence (Tactics) test instead of a normal attack when performing a Stunt Attack, with the target’s Defense as the TN. You can make this test against any single target you can see, and if you use any stunt related to damage, it benefits the next successful attack. (Visual contact can be direct sight or through electronic means such as a surveillance camera or drone.) In addition, the Group Tactics, Double Team, Shock and Awe, and Over Here! Stunts cost 1 SP less when you use this talent.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>As long as you can see your crew you can lend a hand. You can cooperate in advanced tests even beyond the maximum number of characters who can cooperate in the test, provided your allies can hear your instructions or advice. In addition, you can re-roll a failed Intelligence or Perception test that would reveal information relevant to your allies’ current actions (such as spotting hidden enemies and finding leads in an investigation), but you must keep the result of your second roll.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can quickly make up for your crew’s mistakes. When an ally you can perceive fails a test, you can make an Intelligence (Tactics) test with a TN equal to the original test’s TN +2. If you succeed, it counts as if your ally had succeeded, but this roll cannot generate any SP. You can do this once per scene or encounter.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

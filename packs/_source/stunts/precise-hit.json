@@ -1,8 +1,8 @@
 {
   "name": "Precise Hit",
-  "_id": "kf0AgStszTgtmY6a",
-  "_key": "!items!kf0AgStszTgtmY6a",
-  "folder": "dPhyZYcxqCcyUgIT",
+  "_id": "6683fc09f42ab7b8",
+  "_key": "!items!6683fc09f42ab7b8",
+  "folder": "148550387751e9f4",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,8 +14,8 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>One of your successful weapon attacks results in an additional Loss, even if the target’s Hull completely eliminated the damage.</p>",
-    "type": "Space Combat Command",
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p><em>A gunner has access to the Weapon Online and On-Target Command stunts.</em></p><p>One of your successful weapon attacks results in an additional Loss, even if the target’s Hull completely eliminated the damage.</p>",
+    "type": "Gunnery",
     "stuntPoints": 4,
     "stuntPointsMax": 4,
     "costType": "fixed"

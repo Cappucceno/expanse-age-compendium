@@ -1,0 +1,17 @@
+{
+  "name": "Supporting Characters",
+  "type": "Actor",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "4fc72d0aee69b5a5",
+  "_key": "!folders!4fc72d0aee69b5a5",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

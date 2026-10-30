@@ -1,8 +1,8 @@
 {
   "name": "High Tech Hustle",
-  "_id": "4DCG7YWHBnc3DEi7",
-  "_key": "!items!4DCG7YWHBnc3DEi7",
-  "folder": "i9FAKCYRBr8cJoGO",
+  "_id": "5d5ec60fd993dea5",
+  "_key": "!items!5d5ec60fd993dea5",
+  "folder": "e6a09dfc5152643c",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>With an injection of technobabble or a quick mod to a device, you sidestep one minor complication impeding your current goal, or give yourself the ability to perform one task you otherwise couldn’t in the current situation, at the GM’s discretion.</p>",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p><em>Infiltration stunts may apply when physically breaking in somewhere or exploring a new place, hacking into a computer or network, pulling a con job, or otherwise evading consequences and getting away with things.</em></p><p>With an injection of technobabble or a quick mod to a device, you sidestep one minor complication impeding your current goal, or give yourself the ability to perform one task you otherwise couldn’t in the current situation, at the GM’s discretion.</p>",
     "type": "Infiltration",
     "stuntPoints": 3,
     "stuntPointsMax": 3,

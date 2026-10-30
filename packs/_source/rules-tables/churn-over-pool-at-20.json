@@ -4,7 +4,7 @@
   "description": "Roll 1d6 when the Churn Pool reaches 20. At 30 an Epic Effect occurs automatically and the pool resets to 0.",
   "results": [
     {
-      "_id": "Ph94AACODarjVz3H",
+      "_id": "89b1d0e566a33211",
       "type": "text",
       "name": "Major Effect",
       "description": "",
@@ -18,13 +18,13 @@
       "flags": {},
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       },
-      "_key": "!tables.results!LemkaLZLOWdHuTOr.Ph94AACODarjVz3H"
+      "_key": "!tables.results!43b1327aeceb4cf6.89b1d0e566a33211"
     },
     {
-      "_id": "WqRnleEqdzNrd0Ml",
+      "_id": "33d54734ea2e21b1",
       "type": "text",
       "name": "Minor Effect",
       "description": "",
@@ -38,17 +38,17 @@
       "flags": {},
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       },
-      "_key": "!tables.results!LemkaLZLOWdHuTOr.WqRnleEqdzNrd0Ml"
+      "_key": "!tables.results!43b1327aeceb4cf6.33d54734ea2e21b1"
     }
   ],
   "formula": "1d6",
   "replacement": true,
   "displayRoll": true,
   "flags": {},
-  "folder": null,
+  "folder": "6afccbb1166651e5",
   "sort": 0,
   "ownership": {
     "default": 0
@@ -58,6 +58,6 @@
     "systemId": "age-system",
     "systemVersion": "5.0.0"
   },
-  "_id": "LemkaLZLOWdHuTOr",
-  "_key": "!tables!LemkaLZLOWdHuTOr"
+  "_id": "43b1327aeceb4cf6",
+  "_key": "!tables!43b1327aeceb4cf6"
 }

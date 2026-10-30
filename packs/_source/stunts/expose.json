@@ -1,8 +1,8 @@
 {
   "name": "Expose",
-  "_id": "ZqMXqcqsztt3JWon",
-  "_key": "!items!ZqMXqcqsztt3JWon",
-  "folder": "iUVfhOY02Hq2jOoj",
+  "_id": "96bb3da4e28a3e07",
+  "_key": "!items!96bb3da4e28a3e07",
+  "folder": "5905993f12458e24",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Destroy or move any one object in weapon range, such as a door or crate, that could provide cover. This can take out small sections of larger objects like pillars or walls. The GM may rule some objects are too heavy or tough to be removed by this stunt, such as the bulkheads of spaceships and stations.</p>",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p>Destroy or move any one object in weapon range, such as a door or crate, that could provide cover. This can take out small sections of larger objects like pillars or walls. The GM may rule some objects are too heavy or tough to be removed by this stunt, such as the bulkheads of spaceships and stations.</p>",
     "type": "General Combat",
     "stuntPoints": 3,
     "stuntPointsMax": 3,

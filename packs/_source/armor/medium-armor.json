@@ -1,7 +1,7 @@
 {
   "name": "Medium Armor",
-  "_id": "MkXCnzOSjP0g8PGB",
-  "_key": "!items!MkXCnzOSjP0g8PGB",
+  "_id": "68890d2ffb347f6a",
+  "_key": "!items!68890d2ffb347f6a",
   "folder": null,
   "sort": 0,
   "flags": {},
@@ -14,13 +14,13 @@
   "type": "equipment",
   "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
   "system": {
-    "longDesc": "<p>Bullet-resistant chest and thigh plates strapped over light armor, with a reinforced helmet. Usually limited to security forces and military personnel.</p>",
+    "longDesc": "<p>Bullet-resistant chest- and thigh-plates strapped over light armor, and a helmet with a reinforced face plate provides medium armor, usually limited to security forces expecting a riot or on a raid where they expect violent resistance, or military personnel on security detail.</p><p>Armor bonus +4, armor penalty -2, Income TN 14.</p>",
     "weight": 0,
     "cost": 14,
     "quantity": 1,
     "equiped": false,
     "modifiers": {
-      "nxEiNG8HHpnmRmNa": {
+      "168f4679891e723b": {
         "type": "impactArmor",
         "formula": "4",
         "flavor": "",
@@ -28,9 +28,9 @@
         "valid": true,
         "conditions": {},
         "ftype": "",
-        "key": "nxEiNG8HHpnmRmNa"
+        "key": "168f4679891e723b"
       },
-      "vppsvndgvWdrDGZy": {
+      "2fefd58bdd0a1773": {
         "type": "armorPenalty",
         "formula": "2",
         "flavor": "",
@@ -38,7 +38,7 @@
         "valid": true,
         "conditions": {},
         "ftype": "",
-        "key": "vppsvndgvWdrDGZy"
+        "key": "2fefd58bdd0a1773"
       }
     }
   },

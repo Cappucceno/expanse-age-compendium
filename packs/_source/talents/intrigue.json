@@ -1,8 +1,8 @@
 {
   "name": "Intrigue",
-  "_id": "enkBx2SE1ewqc6HU",
-  "_key": "!items!enkBx2SE1ewqc6HU",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "c6a6316b8f6ac8b6",
+  "_key": "!items!c6a6316b8f6ac8b6",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,12 +16,12 @@
   "system": {
     "longDesc": "<p>You are a master of secrets.</p>",
     "shortDesc": "",
-    "requirement": "Communication 2 or higher",
+    "requirement": "Communication 2+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You understand how to navigate complex social situations. Choose one of the following Communication focuses: Deception, Etiquette, or Seduction. If you fail a Communication test with your chosen focus, you can re-roll it but must keep the result of the second roll.</p>",
+      "desc": "<p>You understand how to navigate the sharkinfested waters of social situations. Choose one of the following Communication focuses: Deception, Etiquette, or Seduction. If you fail a Communication test with your chosen focus, you can re-roll it but must keep the result of the second roll.</p>",
       "isActive": true
     },
     "degree1": {

@@ -1,0 +1,26 @@
+{
+  "name": "Too Close",
+  "_id": "39c99d2ad8ff7c62",
+  "_key": "!items!39c99d2ad8ff7c62",
+  "folder": "a4b3612d20ccffc7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p><em>In addition to the stunts listed here, pilots also have access to the following Command stunts at the same SP cost: Blinding Maneuver, Evasive Action, On-Target, Misdirect, and Set-Up.</em></p><p>To perform this Stunt, you must be engaged against multiple enemy ships and be within Close range to one that is of at least one size class larger. A space station can also count as a larger ship. The pilot maneuvers into a position that makes it difficult for enemies to target your ship without risking damage to the other. During the Maneuver Phase, the pilot must make a successful opposed TN 15 Dexterity (Piloting) test against the larger ship at −2. The difficulty is reduced by 1 for every additional size class of the enemy ship compared to yours. If successful, the pilot gains a+2 to their evasion test against any ships other than the ship they are using for cover. In addition, any attacks that miss the crew’s ship hit the larger ship if the pilot rolls a 5 or 6 on the Drama Die. If both ships fail the piloting test, the ships collide, causing 2d6 damage to the larger ship and 4d6 damage to the smaller ship.</p>",
+    "type": "Pilot",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

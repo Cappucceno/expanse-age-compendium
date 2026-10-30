@@ -1,0 +1,27 @@
+{
+  "name": "Emergency Airlock",
+  "_id": "ac02aec40fd2effa",
+  "_key": "!items!ac02aec40fd2effa",
+  "folder": "959b4153636fe8b2",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>This collapsible plastic kit unfolds into a flexible enclosure that attaches to a ship or habitat to allow a person to enter it from a vacuum (usually after cutting through the hull) without causing a loss of atmosphere. The airlock looks like a plastic bubble and is large enough for one person to pass through at a time, using zippers to open and close the inner and outer layers.</p>",
+    "weight": 0,
+    "cost": 12,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

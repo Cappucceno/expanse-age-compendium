@@ -1,7 +1,7 @@
 {
   "name": "Padding",
-  "_id": "WqGA8i2UoxoEyMBm",
-  "_key": "!items!WqGA8i2UoxoEyMBm",
+  "_id": "418f841d4925a4a5",
+  "_key": "!items!418f841d4925a4a5",
   "folder": null,
   "sort": 0,
   "flags": {},
@@ -14,13 +14,13 @@
   "type": "equipment",
   "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
   "system": {
-    "longDesc": "<p>Any heavy or thick material a character wears that can serve as armor, such as heavy leather. An ordinary vac suit provides padding as well. Bulky and only of limited benefit.</p>",
+    "longDesc": "<p>This is any kind of heavy or thick material a character wears that can serve as armor, such as heavy leather or similar artificial material. Lacking the benefits of engineered anti-ballistic or impact-absorbing materials, padding tends to be fairly bulky and obvious and of only limited benefit.</p><p>Armor bonus +1, armor penalty 0, Income TN 8.</p>",
     "weight": 0,
     "cost": 8,
     "quantity": 1,
     "equiped": false,
     "modifiers": {
-      "d4jb7cmoSkVwq7e8": {
+      "2698511f5f777cf7": {
         "type": "impactArmor",
         "formula": "1",
         "flavor": "",
@@ -28,7 +28,17 @@
         "valid": true,
         "conditions": {},
         "ftype": "",
-        "key": "d4jb7cmoSkVwq7e8"
+        "key": "2698511f5f777cf7"
+      },
+      "aa42be17f5c3d4ae": {
+        "type": "armorPenalty",
+        "formula": "0",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "aa42be17f5c3d4ae"
       }
     }
   },

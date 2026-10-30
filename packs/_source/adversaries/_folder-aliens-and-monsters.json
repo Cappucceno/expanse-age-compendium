@@ -1,0 +1,17 @@
+{
+  "name": "Aliens and Monsters",
+  "type": "Actor",
+  "folder": null,
+  "sorting": "a",
+  "sort": 700000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "4004dd723b44d73e",
+  "_key": "!folders!4004dd723b44d73e",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

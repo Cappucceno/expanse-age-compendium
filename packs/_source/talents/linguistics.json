@@ -1,8 +1,8 @@
 {
   "name": "Linguistics",
-  "_id": "DrEVIdQFrQ8jIoRK",
-  "_key": "!items!DrEVIdQFrQ8jIoRK",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "9b55f0768f742aaf",
+  "_key": "!items!9b55f0768f742aaf",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "longDesc": "<p>You pick up new languages easily. When you learn a new language, you learn to both speak and read it.</p>",
     "shortDesc": "",
-    "requirement": "Intelligence 1 or higher",
+    "requirement": "Intelligence 1+",
     "type": "talent",
     "degree": 0,
     "activate": true,
@@ -25,11 +25,11 @@
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>You learn an additional language. You learn two additional languages for a total of three plus your native language(s). You can also imitate a specific dialect with a successful Communication (Performance) test.</p>",
+      "desc": "<p>You learn two additional languages for a total of three plus your native language(s). You can also imitate a specific dialect with a successful Communication (Performance) test.</p>",
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>You learn three additional languages for a total of six plus your native language(s). You can also pick any one additional language you know and speak it like a native—that is, without any trace of an accent.</p>",
+      "desc": "<p>You learn three additional languages for a total of six plus your native language (s). You can also pick any one additional language you know and speak it like a native—that is, without any trace of an accent.</p>",
       "isActive": true
     }
   },

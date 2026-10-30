@@ -1,8 +1,8 @@
 {
   "name": "Single Weapon Style",
-  "_id": "KWn2j2B99YsD5rFz",
-  "_key": "!items!KWn2j2B99YsD5rFz",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "af7e54019d7bfc6c",
+  "_key": "!items!af7e54019d7bfc6c",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "longDesc": "<p>You can fight more effectively wielding a single-handed melee weapon.</p>",
     "shortDesc": "",
-    "requirement": "Perception 2 or higher",
+    "requirement": "Perception 2+",
     "type": "talent",
     "degree": 0,
     "activate": true,

@@ -1,8 +1,8 @@
 {
   "name": "Hinder",
-  "_id": "XUTeeQfQ7HFSCLXc",
-  "_key": "!items!XUTeeQfQ7HFSCLXc",
-  "folder": "hgBf5TCh65XH0uak",
+  "_id": "5233f7f39ced2f58",
+  "_key": "!items!5233f7f39ced2f58",
+  "folder": "2f16f3061def0478",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Core stunt.</em> Melee attacks your opponent makes before the start of your next turn reduce their damage by 2 per SP spent.</p>",
+    "longDesc": "<p><em>Cost: 1–3 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making a Fighting (Grappling) attack.</em></p><p>Melee attacks your opponent makes before the start of your next turn reduce their damage by 2 per SP spent.</p>",
     "type": "Grappling",
     "stuntPoints": 1,
     "stuntPointsMax": 3,

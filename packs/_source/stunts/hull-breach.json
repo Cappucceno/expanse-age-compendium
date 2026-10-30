@@ -1,8 +1,8 @@
 {
   "name": "Hull Breach",
-  "_id": "9k2EfFsmVT1v9YJv",
-  "_key": "!items!9k2EfFsmVT1v9YJv",
-  "folder": "fbhZaRhBv5ffJFzO",
+  "_id": "59cf10b0393ebd34",
+  "_key": "!items!59cf10b0393ebd34",
+  "folder": "eddb77218243b5e9",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,11 +14,11 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Cost: 3+ SP</em></p><p>You inflict significant damage to the vehicle, reducing its Hull rating by 1 per 3 SP spent. The loss of Hull rating lasts until repaired.</p>",
+    "longDesc": "<p><em>Cost: 3+ SP</em></p><p><em>Stunts from this table are used when attacking or sabotaging a vehicle.</em></p><p>You inflict significant damage to the vehicle, reducing its Hull rating by 1 per 3 SP spent. The loss of Hull rating lasts until repaired.</p>",
     "type": "Vehicle Combat",
     "stuntPoints": 3,
     "stuntPointsMax": 3,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

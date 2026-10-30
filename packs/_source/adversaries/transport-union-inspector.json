@@ -1,0 +1,231 @@
+{
+  "name": "Transport Union Inspector",
+  "_id": "3adca1cc28563b62",
+  "_key": "!actors!3adca1cc28563b62",
+  "folder": "c5a37520f25f718c",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 0
+      },
+      "comm": {
+        "value": 3
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 1
+      },
+      "fight": {
+        "value": 0
+      },
+      "int": {
+        "value": 3
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 1
+      },
+      "will": {
+        "value": 2
+      }
+    },
+    "speed": {
+      "base": 11
+    },
+    "defense": {
+      "base": 12
+    },
+    "health": {
+      "set": 11,
+      "value": 11
+    },
+    "features": "<p>With the ever-increasing volume of traffic through the slow zone, keeping a close eye on ships and cargo is crucial. Inspectors check manifests and ensure everyone follows regulations within the TU’s jurisdiction, appearing anywhere</p><p><strong>Favored Stunts:</strong> Making an Entrance, Meddle, Read the Room</p><p><strong>Talents:</strong> Know-It-All (Novice), Observation (Novice)</p><p><strong>Equipment:</strong> encrypted hand terminal, stun baton, uniform</p><p><strong>Armor + Toughness:</strong> 1</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Transport Union Inspector",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Etiquette",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "a8bb1ad99a90a60e",
+      "_key": "!actors.items!3adca1cc28563b62.a8bb1ad99a90a60e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Investigation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "b8dfd2aea3045bfb",
+      "_key": "!actors.items!3adca1cc28563b62.b8dfd2aea3045bfb",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Light Weapons",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "2967bc59fb190b95",
+      "_key": "!actors.items!3adca1cc28563b62.2967bc59fb190b95",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Evaluation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "6b119931fe99b456",
+      "_key": "!actors.items!3adca1cc28563b62.6b119931fe99b456",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Law",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "56d1a31a90bd7765",
+      "_key": "!actors.items!3adca1cc28563b62.56d1a31a90bd7765",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Searching",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "eb3373ba4165e20b",
+      "_key": "!actors.items!3adca1cc28563b62.eb3373ba4165e20b",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stun Baton",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "896292a3f7f51487",
+      "_key": "!actors.items!3adca1cc28563b62.896292a3f7f51487",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +2; Penetrating</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 4,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "penetrating",
+        "damageFormula": "1d6+4",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    }
+  ]
+}

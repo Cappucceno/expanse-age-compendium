@@ -1,8 +1,8 @@
 {
   "name": "Disable Drive",
-  "_id": "L2NfsE2Who8J0hKp",
-  "_key": "!items!L2NfsE2Who8J0hKp",
-  "folder": "fbhZaRhBv5ffJFzO",
+  "_id": "c84bc7b59d3c7160",
+  "_key": "!items!c84bc7b59d3c7160",
+  "folder": "eddb77218243b5e9",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your attack disables the vehicle’s propulsion. The operator must make a TN 15 test to maintain control and, even if they succeed, must deal with a vehicle that can no longer move or maneuver under its own power. The vehicle is helpless. Damage control with a TN 13 Intelligence (Engineering) test can restore the vehicle’s propulsion for rounds equal to the Drama Die result.</p>",
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p><em>Stunts from this table are used when attacking or sabotaging a vehicle.</em></p><p>Your attack disables the vehicle’s propulsion. The operator must make a TN 15 test to maintain control and, even if they succeed, must deal with a vehicle that can no longer move or maneuver under its own power. The vehicle is helpless. Damage control with a TN 13 Intelligence (Engineering) test can restore the vehicle’s Speed at one degree lower than usual for rounds equal to the Drama Die result.</p>",
     "type": "Vehicle Combat",
     "stuntPoints": 4,
     "stuntPointsMax": 4,

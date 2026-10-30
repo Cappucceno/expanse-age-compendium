@@ -1,8 +1,8 @@
 {
   "name": "Drop Ship",
-  "_id": "6OlFExwNqFIFpeea",
-  "_key": "!actors!6OlFExwNqFIFpeea",
-  "folder": "MF5fkx6kakqh8OzS",
+  "_id": "8aa068cc021c947a",
+  "_key": "!actors!8aa068cc021c947a",
+  "folder": "ed051f0764cce6db",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -15,8 +15,8 @@
   "img": "systems/age-system/resources/imgs/actor-icon/rocket.svg",
   "system": {
     "size": 3,
-    "drive": "Thrusters (surface-to-orbit and ship-to-ship only)",
-    "description": "<p><strong>Weapons:</strong> None. A military drop ship might have a PDC. <strong>Competence:</strong> Average to Capable Thrusters (surface-to-orbit</p><p><strong>Qualities:</strong> Usually none. A military drop ship might have Hull Plating, possibly an Advanced Sensor Package.</p><p><strong>Flaws:</strong> Usually none.</p><p><strong>Crew:</strong> 2 (4)</p><p><strong>Size:</strong> Medium (25 meters long)</p>",
+    "drive": "Thrusters",
+    "description": "<p><strong>Competence:</strong> Average to Capable</p><p><strong>Qualities:</strong> Usually none. A military drop ship might have Hull Plating I and a Point Defense Cannon, possibly an Advanced Sensor Package.</p><p><strong>Flaws:</strong> Usually none</p><p><strong>Crew:</strong> 2 (4)</p><p><strong>Size:</strong> Medium (25 meters long)</p>",
     "hull": {
       "nrDice": 1,
       "diceType": 6,
@@ -34,12 +34,12 @@
       }
     }
   },
-  "items": [],
   "prototypeToken": {
     "name": "Drop Ship",
     "actorLink": true
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "items": []
 }

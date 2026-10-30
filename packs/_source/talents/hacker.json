@@ -1,8 +1,8 @@
 {
   "name": "Hacker",
-  "_id": "NhcDgJjDXQdnPqdp",
-  "_key": "!items!NhcDgJjDXQdnPqdp",
-  "folder": "y88XXvdfe5pCOOAm",
+  "_id": "d299b4df73b13e25",
+  "_key": "!items!d299b4df73b13e25",
+  "folder": "80ce7cbdc4864d90",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,9 +14,9 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>You excel at the use and abuse of computer systems.</p><p>For some, computers are opaque, just appliances, but to you they speak a language you understand intimately. For you, code is intuitive, almost lyrical, and you know how to make it sing your own compositions. You might be a digital Robin Hood, breaking into systems to share the secrets of the powerful with desperate people. You could be a security professional instead, keeping other hackers out whether you work for the police or organized crime, or a government “cyber-soldier” specializing in a unique kind of warfare.</p><p><em>Synergies:</em> A Hacker-Academic is a true master of information in all its forms. A Hacker-Sniper supplements a keen eye and a steady hand with the technical knowledge necessary to know exactly when and where a target will be. A Hacker-Performer might be able to make some amazing electronic music.</p>",
+    "longDesc": "<p>For some, computers are opaque, just appliances, but to you they speak a language you understand intimately. For you, code is intuitive, almost lyrical, and you know how to make it sing your own compositions. You might be a digital Robin Hood, breaking into systems to share the secrets of the powerful with desperate people. You could be a security professional instead, keeping other hackers out, whether you work for the police or organized crime, or a government “cyber-soldier” specializing in a unique kind of warfare.</p><p><em>Synergies:</em> A Hacker-Academic is a true master of information in all its forms. A Hacker-Sniper supplements a keen eye and a steady hand with the technical knowledge necessary to know exactly when and where a target will be. A Hacker-Star might be able to make some amazing electronic music.</p><p>You excel at the use and abuse of computer systems.</p>",
     "shortDesc": "",
-    "requirement": "Intelligence 2 or higher and the Intelligence (Technology) focus",
+    "requirement": "Intelligence 2+ and the Intelligence (Technology) focus.",
     "type": "spec",
     "degree": 0,
     "activate": true,
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>Breaking into a system is one thing, but getting in and then out without getting caught is another. While using a computer system, you may perform the Cover Your Tracks stunt for 1 SP. Add another +1 to your Drama Die result while performing advanced tests for a total of +2, otherwise the same as the Expert degree benefit.</p>",
+      "desc": "<p>Breaking into a system is one thing, but getting out without getting caught is another. While using a computer system, you may perform the Cover Your Tracks stunt for 1 SP. Add another +1 to your Drama Die result while performing advanced tests for a total of +2, otherwise the same as the expert degree benefit.</p>",
       "isActive": true
     }
   },

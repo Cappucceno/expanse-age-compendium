@@ -1,0 +1,168 @@
+{
+  "name": "Ultrasalix",
+  "_id": "a226731a512ea724",
+  "_key": "!actors!a226731a512ea724",
+  "folder": "4004dd723b44d73e",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 1
+      },
+      "comm": {
+        "value": 0
+      },
+      "cons": {
+        "value": 5
+      },
+      "dex": {
+        "value": 1
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 3
+      },
+      "str": {
+        "value": 4
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "speed": {
+      "base": 11
+    },
+    "defense": {
+      "base": 11
+    },
+    "health": {
+      "set": 10,
+      "value": 10
+    },
+    "features": "<p><strong>Favored Stunts:</strong> Hinder, Release Pollen (2 SP), Take Cover</p><p><strong>Camouflage:</strong> The ultrasalix is invisible to the naked eye unless directly exposed to ultraviolet radiation.</p><p><strong>Release Pollen (2 Sp):</strong> An ultrasalix fills a ten-meter-square space with pollen. All living creatures in range without protective equipment must make a TN 11 Constitution (Tolerance) test or be disoriented, resulting in 1d6 damage and the deafened condition.</p><p><strong>Talents:</strong> Fringer</p><p><strong>Armor + Toughness:</strong> 5</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Ultrasalix",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Tolerance",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "c79f231fb486281f",
+      "_key": "!actors.items!a226731a512ea724.c79f231fb486281f",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Intuition",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "5e72e1acc44db443",
+      "_key": "!actors.items!a226731a512ea724.5e72e1acc44db443",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Survival",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "851545354dc75768",
+      "_key": "!actors.items!a226731a512ea724.851545354dc75768",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Barbed Branch",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "5cf2bfbc776a9388",
+      "_key": "!actors.items!a226731a512ea724.5cf2bfbc776a9388",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +2</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 4,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+4",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    }
+  ]
+}

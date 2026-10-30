@@ -1,0 +1,114 @@
+{
+  "name": "Chapter 3: Character Traits",
+  "pages": [
+    {
+      "_id": "843ffd91a1b162a8",
+      "name": "Introduction",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>3: Character Traits haracter traits like focuses, talents, and specializations are the building blocks of your <em>Expanse </em>character. All provide ways to define and make your character unique. Your character starts with <strong>focuses</strong> and <strong>talents</strong> through the process of character creation and earns more of each by gaining levels during gameplay (see <strong>Advancement</strong> in <strong>Chapter 2</strong>). Focuses and talents provide game system benefits but also give you background and story hooks. Let’s say your character has the Hacking talent. Well, where did you learn such cutting-edge skills? Perhaps you have an advanced degree in computer science from a prestigious university in the System, or maybe you learned to code on your own—and possibly did something with those skills that will come back to haunt you later in the campaign. You can come up with anything you like, but answering such questions tells you more about your character. You further customize your character with <strong>specializations</strong>. They represent advanced training and experience, so you do not start with any at level 1. You earn them at higher levels, and each one adds special talent ranks unavailable to characters without the specialization.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!62eed769f9ac78a6.843ffd91a1b162a8",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "3c581d7bbf8a2250",
+      "name": "Ability Focuses",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>As noted in <strong>Chapter 2: Character Creation</strong>, a focus is an area of expertise within a larger ability. A character with Communication 3 and the Deception focus is a good communicator in general, but they excel at fooling others. Some focuses represent special knowledge and at times the GM may decide to give extra information to characters with specific focuses. Lastly, some focuses allow characters to attempt tests those lacking the focus cannot, as detailed in <strong>Chapter </strong></p><p><strong>1: Game Basics</strong>.</p><p>Everything had depended</p><p>If you have a focus, you get a +2 bonus when making an ability test related to it. The GM will usually let you know what focus applies to a test, but if it isn’t clear, don’t be afraid to ask if a focus applies. If upon her talent and sharpness you are level 6 or higher, the focus also adds to the Drama Die for the test’s degree of success.of mind. And now it did again.</p><p>LEvEL 6+ = YOuR ABILITY FOCuS AddS TO THE dRAMA dIE FOR dEGREE OF SuCCESS<em>—Tiamat’s Wrath</em></p><p>The ability focuses available to <em>Expanse</em> characters are as follows:</p><h4>Accuracy Focuses</h4><p><strong>BOWS:</strong>Proficiency with string-fired weapons, from a hand-drawn compound bow to a mechanical crossbow.</p><p><strong>GUNNERY:</strong>Proficiency with precision heavy ranged weapons, including ship-mounted weapons.</p><p><strong>PISTOLS:</strong>Proficiency with single-grip, short-barrel ballistic weapons.</p><p><strong>RIFLES:</strong>Proficiency with double-grip, long-barrel ballistic weapons.</p><p><strong>THROWING:</strong>Proficiency with thrown weapons, including grenades.</p><h4>Communication Focuses</h4><p><strong>BARGAINING:</strong>Negotiating with others and making deals.</p><p><strong>DECEPTION:</strong>Tricking and lying to other people.</p><p><strong>DISGUISE:</strong>Changing your appearance to look like someone else.</p><p><strong>ETIQUETTE:</strong>Knowing the social niceties of various cultures.</p><p><strong>EXPRESSION:</strong>Conveying thoughts and ideas effectively through words.</p><p><strong>GAMBLING:</strong>Playing games of chance and profiting from them.</p><p><strong>INVESTIGATION:</strong>Interviewing people for information and finding and deciphering clues.</p><p><strong>LEADERSHIP:</strong>Guiding, directing, and inspiring others.</p><p><strong>PERFORMING:</strong>Entertaining an audience with a type of performance art.</p><p><strong>PERSUASION:</strong>Convincing others to agree with you.</p><p><strong>SEDUCTION:</strong> Getting attention through romantic and sexual allure.</p><h4>Constitution Focuses</h4><p><strong>RUNNING:</strong>Moving quickly in both short sprints and long-distance hauls.</p><p><strong>STAMINA:</strong> Enduring fatigue, disease, and privation.</p><p><strong>SWIMMING:</strong>Moving across water and staying afloat.</p><p><strong>TOLERANCE:</strong>Withstanding the effects of potentially toxic substances, imbibed for recreation or unwitting exposure.</p><h4>Dexterity Focuses</h4><p><strong>ACROBATICS:</strong>Executing gymnastic, balancing, and tumbling maneuvers.</p><p><strong>CRAFTING:</strong>Making things with manual skills, including the various fine and plastic arts. Examples of specific Crafting focuses include Carpentry, Carving, Drawing, Glass-blowing, Leather-working, Painting, Origami, Sculpting, and so forth, but feel free to come up with your own. See the <strong>Unusual Focuses</strong> sidebar for more.</p><p><strong>DRIVING:</strong>Handling surface vehicles like cars, trucks, or motorized carts, to name a few.</p><p><strong>FREE-FALL:</strong> Maneuvering and moving while in free-fall, usually in microgravity.</p><p><strong>INITIATIVE:</strong>Reacting quickly under pressure.</p><p><strong>PILOTING:</strong>Operating vehicles that move in three dimensions like aircraft, drones, and spaceships.</p><p><strong>SLEIGHT OF HAND:</strong>Using sleight of hand and deft movements to trick others, hide things, or pick pockets.</p><p><strong>STEALTH:</strong> Moving around without being noticed.</p><h4>Fighting Focuses</h4><p><strong>BRAWLING:</strong>Proficiency in fighting unarmed, from bare-knuckle boxing to various styles of martial arts.</p><p><strong>GRAPPLING:</strong>Proficiency in unarmed techniques intended to immobilize and restrain.</p><p><strong>HEAVY WEAPONS:</strong>Proficiency with large or heavy close combat weapons like axes, clubs, hammers, and large swords, to name a few.</p><p><strong>LIGHT WEAPONS:</strong>Proficiency with light close combat weapons like batons, knives, light staffs, and swords, among others.</p><h4>Optional: Unusual Focuses</h4><p>The ability focuses in <em>The Expanse</em> are fairly broad but still do not cover every aspect of human endeavor, just the major sorts of things characters might be good at. If you come up with a particular area where you’d like to focus your character’s abilities that’s not given on the list in this chapter, feel free to ask the Game Master if you can make it a suitable focus for your character anyway. For example, Horticulture is an example of a Science focus for Intelligence, and building small scale models is a specific kind of Crafting focus for Dexterity, but what about playing video games or sailing? The latter might be a sort of Piloting focus, but seems more like its own thing, even if sailing on water isn’t likely to come up much in <em>The Expanse. </em>Likewise, video games don’t really fall under Gambling, so you ask the GM and get permission to make it a new Dexterity focus. Who knows? It might even come in handy when dealing with some video game-like interfaces or test situations. Other <em>AGE System </em>games, particularly <em>Modern AGE,</em> offer more detailed lists of ability focuses applicable to settings and situations outside of those usually encountered in an <em>Expanse</em> series. Feel free to use them as resources for unusual focuses in your game.</p><h4>Intelligence Focuses</h4><p><strong>ART:</strong>Knowledge of artistic movements, styles, artists, and works in any of the fine arts. Making art uses the Crafting focus.</p><p><strong>BUSINESS:</strong>Knowledge of running a business as well as of the business and corporate world.</p><p><strong>CRYPTOGRAPHY:</strong>Creating and deciphering codes and ciphers.</p><p><strong>CURRENT AFFAIRS:</strong>Knowledge of politics, newsworthy events, and popular culture.</p><p><strong>DEMOLITIONS:</strong>Identifying, using and safely handling explosives, as well as understanding their effects and detonation methods.</p><p><strong>ENGINEERING:</strong>Making, repairing, and maintaining technological items as well as knowledge of the principles and practicalities of their design and development.</p><p><strong>EVALUATION:</strong>Knowledge of the value of goods, works of art, and other valuables.</p><p><strong>LAW:</strong>Knowledge of codes, regulations, and different legal proceedings of all levels of the judiciary and law enforcement.</p><p><strong>MEDICINE:</strong>Tending to the sick and injured, and understanding medical and anatomical knowledge.</p><p><strong>NAVIGATION:</strong>Planning and following a route from one place to another, interpreting maps and cartographic data, and figuring out where you are.</p><p><strong>RESEARCH:</strong>Conducting a systematic search for information, usually using records, archives, and books.</p><p><strong>SCIENCE:</strong>Knowledge of an organized field of study and the ability to understand things related to it. Examples of Science focuses include: Anthropology, Astronomy, Botany, Biology, Chemistry, Economics, Genetics, History, Planetary or “Earth” Sciences, Physics, Psychology, and Theology, but you can choose another scientific field, if you wish (see the <strong>Unusual Focuses</strong> sidebar).</p><p><strong>SECURITY:</strong>Knowledge of different security devices, systems, protocols, and personnel.</p><p><strong>TACTICS:</strong>Knowledge of strategy, tactics, and famous applications thereof.</p><h2>Improving Focuses</h2><p>The strength of a person is defined by their resilience in the face of adversity. <em>—Tiamat’s Wrath</em></p><p><strong>TECHNOLOGY:</strong> Knowledge of the design and operation of technology, particular computers, which are incorporated into nearly all technological items in <em>The Expanse.</em></p><h4>Perception Focuses</h4><p><strong>EMPATHY:</strong>Picking up on and interpreting the feelings and emotions of others.</p><p><strong>HEARING:</strong>Perceiving using your auditory sense.</p><p><strong>INTUITION:</strong> Having a “gut feeling” about certain things you can’t otherwise sense.</p><p><strong>SEARCHING:</strong>Finding things that are hidden or obscured, such as hidden compartments.</p><p><strong>SEEING:</strong>Perceiving using your visual sense.</p><p><strong>SMELLING:</strong>Perceiving using your olfactory sense.</p><p><strong>SURVIVAL:</strong> Practical skills of wilderness survival.</p><p><strong>TASTING:</strong>Perceiving using your gustatory sense.</p><p><strong>TOUCHING:</strong>Perceiving using your tactile sense.</p><p><strong>TRACKING:</strong> Following tracks and other signs of passage.</p><h4>Strength Focuses</h4><p><strong>CLIMBING:</strong>Scaling walls and other vertical obstacles.</p><p><strong>INTIMIDATION:</strong>Overawing others with your physical presence and threats.</p><p><strong>JUMPING:</strong>Making standing or running jumps.</p><p><strong>MIGHT:</strong>Feats of raw power, such as lifting or holding up heavy objects.</p><h4>Willpower Focuses</h4><p><strong>COURAGE:</strong>Overcoming fear in the face of adversity.</p><p><strong>FAITH:</strong>Deriving inner strength through spiritual or moral belief.</p><p><strong>SELF-DISCIPLINE:</strong> Focusing your mental energy or controlling your impulses and emotions.</p><p>Focuses grant a flat +2 bonus to ability tests. At higher levels, characters can take a focus a second time to improve their bonus. Starting at level 11, when you would gain a new focus you may instead select a focus you already have and increase your bonus with that focus to +3 instead of +2. Underline the focus on your sheet to indicate you’ve chosen it a second time and have an increased bonus with it. Remember that you cannot select a focus from the same ability two levels in a row.</p><p>LEvEL 11 = MAY IMPROvE A FOCuS FROM +2 TO +3 IN PLACE OF TAkING A NEW FOCuS.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!62eed769f9ac78a6.3c581d7bbf8a2250",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "ac71ddf2c19e367e",
+      "name": "Talents",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Your character has areas of natural aptitude and special training called</p><h4>Talent Name</h4><p><strong>talents</strong>. They provide a way to customize your character that goes beyond their background. Choosing talents is thus an important part of <strong>REQUIREMENTS:</strong> You cannot take this talent developing your character.</p><p>through advancement unless you have the</p><p>Each talent is divided into three degrees: Novice, Expert, and Master. specified requirement(s). (Note that “Expert” replaces the “Journeyman” degree found in other <em>Adventure Game Engine System</em> games, and they should be considered A short description of the talent. equivalent.) Each degree provides a game system benefit. You have to</p><p><strong>NOVICE</strong> The benefit gained when you be a Novice in a talent before you can become an Expert, and an Expert before you can become a Master.</p><p>acquire the talent and become a Novice.</p><p>You acquire your initial talents at character creation, from your back-EXPERTThe benefit gained when you ground, profession, and drive (see <strong>Chapter 2</strong>). You gain new talents and become an Expert in the talent. new degrees by gaining levels (see <strong>Advancement</strong> in <strong>Chapter 2</strong>). Most talents also have requirements, like a score in an ability or having a specific MASTERThe benefit gained when you ability focus. Unless you acquire the talent at character creation, you cannot become a Master of the talent. take the talent through advancement unless you meet these requirements. When talents are listed for a character, the standard format is talent name followed by the degree achieved in parentheses, such as Command (Expert) or Hacking (Novice). For shorthand, the degree can be abbreviated by its first letter: Novice (N), Expert (E), and Master (M), such as Command (E) and Hacking (N). A listing of available talents follows. They use the format shown at right. A number of talents refer to particular stunts. See</p><p><strong>Chapter 5: Gameplay</strong></p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!62eed769f9ac78a6.ac71ddf2c19e367e",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "5f5a5634479292a9",
+      "name": "Specializations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Specializations help you to realize your character’s full potential. Each specialization has a theme on which you can build your character concept. Your character might work for a government agency or corporation, for example, but that could mean you could be a computer expert, or a researcher, or a master of unarmed combat, among other things. Every specialization has its own unique talent. You can take your first specialization at level 4, gaining the Novice degree in the specialization’s talent. At levels 6, 8, 12, 14, and 16, you may either improve the specialization you acquired or improve a second specialization, which also starts at the Novice degree. You can never acquire more than two specializations. For instance, you might start with Academic at level 4, improve it to Expert at level 6, but then switch to Socialite at level 8. Specialization talents are acquired like other talents and take up your talent choice for that level. Since specializations are not acquired during character creation, characters must meet their requirements in order to take them. This is something to keep in mind for your character’s advancement (see <strong>Advancement</strong> in <strong>Chapter 2</strong>). When you take a second specialization, think about how the two might work together, and what the combination says about your character. You might, for instance, imagine your character as a Martial Artist-Gunfighter action hero or as an Agent-Executive spymaster. Combinations that might not seem to make immediate sense can create some interesting concepts—consider an heiress who moonlights as an assassin (Socialite-Sniper), a musician who solves crimes (Star-Investigator), or a peerless miner of data (Academic-Hacker). The “Yes, sir. My spouse is a nanotech <strong>Synergies</strong> section of each specialization suggests some possible ideas. The specializations in this book are as follows: scientist with the lab in Laconia City. She specializes in genetics.” ACADEMIC, ACE, AGENT, COMMANDO, EXECUTIVE, GUNFIGHTER, HACKER, INVESTIGATOR, MARTIAL ARTIST, OVERWATCH, SNIPER, SOCIALITE, SPIN DOCTOR, STAR, THIEF <em>—Persepolis Rising</em></p><p>Supplements for <em>The Expanse </em>may include additional specializations. Check with your Game Master whether a particular specialization might be allowed in your game.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!62eed769f9ac78a6.5f5a5634479292a9",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "62eed769f9ac78a6",
+  "_key": "!journal!62eed769f9ac78a6",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

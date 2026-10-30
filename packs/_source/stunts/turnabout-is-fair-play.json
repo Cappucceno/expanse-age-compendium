@@ -1,0 +1,26 @@
+{
+  "name": "Turnabout Is Fair Play",
+  "_id": "d8aa95d3be4b006b",
+  "_key": "!items!d8aa95d3be4b006b",
+  "folder": "dbd03bf508e08c25",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 2+ SP</em></p><p><em>The character conducting electronic warfare on the ship has access to the Misdirect Command stunt and the Perceived S Weakness Gunnery stunt.</em></p><p>Most torpedoes have their own internal guidance systems making them impossible to hack. However, if a torpedo is being manually controlled, the sensors operator can attempt to wrest control of the torpedo from the other ship. If there is more than one torpedo, 2 SP can be spent to attempt to control each. See Electronic Warfare later in this chapter for details.</p>",
+    "type": "Electronic Warfare",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

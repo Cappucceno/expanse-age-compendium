@@ -1,0 +1,39 @@
+{
+  "name": "Incendiary Grenade",
+  "_id": "0ef47b8a2c2ab965",
+  "_key": "!items!0ef47b8a2c2ab965",
+  "folder": "1144c14e1a28e8de",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p><strong>Area of Effect 2m/5m</strong></p><p>Utilizing a self-oxidizing flammable gel that produces intense heat, these grenades inflict an additional 1d6 damage for 2d6 rounds following the grenade’s detonation—unless someone can scrub off the gel.</p><p><em>Thrown: short range 4 m, long range 8 m (Accuracy (Throwing) test, TN 11).</em></p>",
+    "useAbl": "acc",
+    "useFocus": "throwing",
+    "minStr": 0,
+    "nrDice": "4",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "4d6",
+    "weight": 0,
+    "cost": 14,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 4,
+    "rangeMax": 8
+  },
+  "ownership": {
+    "default": 0
+  }
+}

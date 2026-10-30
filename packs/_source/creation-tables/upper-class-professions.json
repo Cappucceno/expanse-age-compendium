@@ -1,0 +1,143 @@
+{
+  "name": "Upper Class Professions",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Professions of the upper class social class.",
+  "results": [
+    {
+      "_id": "8067239527d9badd",
+      "type": "text",
+      "name": "Commander",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!40615ffce6c12dc8.8067239527d9badd"
+    },
+    {
+      "_id": "848999aa384dee62",
+      "type": "text",
+      "name": "Explorer",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!40615ffce6c12dc8.848999aa384dee62"
+    },
+    {
+      "_id": "5402ea508cf4d29f",
+      "type": "text",
+      "name": "Dilettante",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!40615ffce6c12dc8.5402ea508cf4d29f"
+    },
+    {
+      "_id": "2838db8b03ca1674",
+      "type": "text",
+      "name": "Expert",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!40615ffce6c12dc8.2838db8b03ca1674"
+    },
+    {
+      "_id": "efca0edbc6c4d147",
+      "type": "text",
+      "name": "Executive",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!40615ffce6c12dc8.efca0edbc6c4d147"
+    },
+    {
+      "_id": "2b88bb4445cb6e7e",
+      "type": "text",
+      "name": "Socialite",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!40615ffce6c12dc8.2b88bb4445cb6e7e"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "0d1789835cb40bc6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "40615ffce6c12dc8",
+  "_key": "!tables!40615ffce6c12dc8"
+}

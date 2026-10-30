@@ -95,9 +95,12 @@ def para(lines, pdf):
 def smallcaps(s):
     """Headings set in small capitals come out with stray lowercase capitals ('ACAdEMIC'): restore the title case."""
     s = s.strip()
+    small = ("of", "and", "the", "in", "to", "a", "an", "on", "for", "with", "as", "at", "by", "or")
+
     def cap(w):
-        return "-".join(x.capitalize() if i == 0 or x not in ("and", "of", "the", "in", "to") else x for i, x in enumerate(w.split("-")))
-    out = " ".join(cap(w) if w.lower() not in ("of", "and", "the", "in", "to", "a") else w.lower() for w in s.lower().split())
+        return "-".join("/".join(y.capitalize() for y in x.split("/")) if i == 0 or x not in small else x for i, x in enumerate(w.split("-")))
+    out = " ".join(cap(w) if (i == 0 or w.lower() not in small) else w.lower() for i, w in enumerate(s.lower().split()))
+    out = out.replace("Free-Fall", "Free-fall")
     return re.sub(r"\((\w)", lambda m: "(" + m.group(1).upper(), out).replace("’S", "’s")
 
 
@@ -180,6 +183,8 @@ def build_talents(pdf):
     prev_end = 0
     for b in blocks_:
         name = smallcaps(b["name"])
+        if name == "Protect":       # the book prints the heading cut short; its table of contents and the drives call the talent Protector
+            name = "Protector"
         flavor = spec_flavor(lines, b["name"], prev_end, b["idx"], pdf)
         prev_end = b["idx"]
         spec = flavor is not None
@@ -624,7 +629,7 @@ def build_ships(pdf):
                 cur = []
         competence_txt = comp.group(0).split(None, 1)[1] if " " in comp.group(0) else comp.group(1)
         desc = (f"<p><strong>Competence:</strong> {esc(competence_txt)}</p>"
-                f"<p><strong>Qualities:</strong> {esc(squash(qual.group(1)))}</p><p><strong>Flaws:</strong> {esc(squash(qual.group(2)))}</p>"
+                f"<p><strong>Qualities:</strong> {esc(re.sub(r'(?<=\w)- (?=[A-Z])', '-', squash(qual.group(1))))}</p><p><strong>Flaws:</strong> {esc(re.sub(r'(?<=\w)- (?=[A-Z])', '-', squash(qual.group(2))))}</p>"
                 f"<p><strong>Crew:</strong> {crew.group(1)} ({crew.group(2)})</p><p><strong>Size:</strong> {esc(size.group(1))} ({size.group(2)} meters long)</p>")
         did = make_id("ships", name)
         folder = next((f for f, names in SHIP_FOLDERS.items() if name in names), "Other Ships")
@@ -951,6 +956,8 @@ def parse_origins(pdf):
 
 def build_creation(pdf):
     pack = Pack("character-creation", "JournalEntry")
+    covered = make_dropper(raw_lines(pdf, 29, 34) + raw_lines(pdf, 34, 41) + raw_lines(pdf, 38, 42) + raw_lines(pdf, 27, 28)[:0])
+    journal_doc(pack, "Chapter 2: Character Creation", clean_pages(chapter_pages(pdf, 24, 44, drop=covered)))
     journal_doc(pack, "Origins", [(o["name"], p(o["desc"]) + p(o["intro"]) + "<ul>" + "".join(f"<li>{esc(t)}</li>" for t in o["traits"]) + "</ul>") for o in parse_origins(pdf)])
     journal_doc(pack, "Backgrounds", [
         (b["name"], f"<p><em>{b['cls']}</em></p>" + p(b["desc"]) + "<ul>" + li("Ability", b["ability"]) + li("Focus", b["focus"]) + li("Talent", b["talent"]) + "</ul>"
@@ -1058,6 +1065,8 @@ def chapter_pages(pdf, first, last, skip=(), skip_pages=(), stop_at=(), limit=16
             bl = bl[:i]
             break
     bl = prose.merge_paragraphs(bl, words_)
+    cells = re.compile(r"^(\d{1,2}|[1-3]?D6|D6|ROLL|BENEFIT|BACKGROUND|PROFESSION|COLUMN [12]|[A-Z]{1,2})$")
+    bl = [b for b in bl if not (b[0] == "p" and cells.match(prose.plain(b[1]).strip()))]      # cells of tables that the layout cannot rebuild
     if drop:
         bl = [b for b in bl if not drop(b)]
     bl = prose._drop_sections(bl, set(skip))

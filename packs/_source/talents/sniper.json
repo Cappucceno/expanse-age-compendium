@@ -1,8 +1,8 @@
 {
   "name": "Sniper",
-  "_id": "SK35wkEMnymaimFm",
-  "_key": "!items!SK35wkEMnymaimFm",
-  "folder": "y88XXvdfe5pCOOAm",
+  "_id": "4f8464469fb00e83",
+  "_key": "!items!4f8464469fb00e83",
+  "folder": "80ce7cbdc4864d90",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,9 +14,9 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>You are a crack shot.</p><p>While the Gunfighter dazzles with speed and accuracy at short range, it’s the Sniper who makes the most difficult shots. A Sniper could be an assassin or someone trained in supplying covering fire. Snipers often work for the police, military, security, or some informal militia (often after being drummed out of one of the previous jobs).</p><p><em>Synergies:</em> A Sniper-Martial Artist probably has strong opinions about who, what, and how to shoot, while a Sniper-Investigator relentlessly tracks quarry; no more peerless hunter exists.</p>",
+    "longDesc": "<p>While the Gunfighter dazzles with speed and accuracy at short range, it’s the Sniper who makes the most difficult shots with patience and steady hands. A Sniper could be an assassin or someone trained in supplying covering fire. Snipers often work for the police, military, security, or some informal militia, often after being drummed out of one of the previous jobs.</p><p><em>Synergies:</em> A Sniper-Martial Artist probably has strong opinions about who, what, and how to shoot, while a Sniper-Investigator relentlessly tracks quarry; no more peerless of a hunter exists.</p><p>You are a crack shot.</p>",
     "shortDesc": "",
-    "requirement": "Accuracy 3 or better and the Accuracy (Rifles) focus",
+    "requirement": "Accuracy 3 or better and the Accuracy (Rifles) focus.",
     "type": "spec",
     "degree": 0,
     "activate": true,

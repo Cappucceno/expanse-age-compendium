@@ -1,0 +1,27 @@
+{
+  "name": "Environment Suit",
+  "_id": "bf57c0fa8c358404",
+  "_key": "!items!bf57c0fa8c358404",
+  "folder": "959b4153636fe8b2",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>The cheapest and most common spacesuit is the hooded environment suit found by the dozen in emergency lockers on every ship and station. The thin plastic suits are airtight and have integrated short-duration air bladders with rebreathers, but they provide little radiation or thermal shielding and are prone to tearing. Environment suits are designed to help wearers survive in an area of failing life support long enough for rescue or repair, although in extreme emergencies, they have been used for treks across the surface of Mars and asteroids in the Belt in search of shelter.</p>",
+    "weight": 0,
+    "cost": 9,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

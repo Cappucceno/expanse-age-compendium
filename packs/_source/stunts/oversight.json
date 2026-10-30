@@ -1,0 +1,26 @@
+{
+  "name": "Oversight",
+  "_id": "7b3e73992978e044",
+  "_key": "!items!7b3e73992978e044",
+  "folder": "0c23c3a9338525c5",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p>The commander can spend their own Fortune to affect the test of any other crew members for the duration of the round.</p>",
+    "type": "Command",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

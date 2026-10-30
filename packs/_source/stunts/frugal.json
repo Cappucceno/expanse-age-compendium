@@ -1,8 +1,8 @@
 {
   "name": "Frugal",
-  "_id": "SxwVoiZdRLivHpnJ",
-  "_key": "!items!SxwVoiZdRLivHpnJ",
-  "folder": "jWxRAT01MmI484Bb",
+  "_id": "160a526563c5b82c",
+  "_key": "!items!160a526563c5b82c",
+  "folder": "5abc8d2c694b22f5",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>You use only what you must to get the job done, saving resources for a rainy day. This Income test doesn’t deplete your Income even if it normally would.</p>",
+    "longDesc": "<p><em>Cost: 5 SP</em></p><p>You use only what you must to get the job done, saving resources for a rainy day. This Income test doesn’t deplete your Income even if it normally would.</p>",
     "type": "General Exploration",
     "stuntPoints": 5,
     "stuntPointsMax": 5,

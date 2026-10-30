@@ -1,8 +1,8 @@
 {
   "name": "Grappling Style",
-  "_id": "xBtVHCruT7Q2q5fn",
-  "_key": "!items!xBtVHCruT7Q2q5fn",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "e4cc4f5431855f46",
+  "_key": "!items!e4cc4f5431855f46",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -21,11 +21,11 @@
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>If you fail an opposed Fighting (Grappling) test to avoid being grappled, as per the Grapple stunt’s description in Chapter 5, you can re-roll it, but must keep the results of the second roll.</p>",
+      "desc": "<p>If you fail an opposed Fighting (Grappling) test to avoid being grappled, as per the Grapple stunt’s description in Chapter 5, you can re-roll it but must keep the results of the second roll.</p>",
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>If you successfully hit an opponent with an unarmed attack and choose a stunt from the Grappling category, you gain 1 additional SP to apply.</p>",
+      "desc": "<p>If you successfully hit an opponent with an unarmed attack and choose a stunt from the grappling category, you gain 1 additional SP to apply.</p>",
       "isActive": true
     },
     "degree2": {

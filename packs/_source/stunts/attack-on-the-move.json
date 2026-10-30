@@ -1,8 +1,8 @@
 {
   "name": "Attack on the Move",
-  "_id": "RaEHhJjMuaDiSd0J",
-  "_key": "!items!RaEHhJjMuaDiSd0J",
-  "folder": "WC7yZ0ygjULwOXGj",
+  "_id": "45b2763d2ba2e2b5",
+  "_key": "!items!45b2763d2ba2e2b5",
+  "folder": "2c98a2e4bc945069",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>You can make a bonus melee or ranged attack, or use a bonus Activate action to use an in-built weapon system. You must have a loaded missile weapon to make a ranged attack.</p>",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p>You can make a bonus melee or ranged attack, use the bonus Activate action to use an in-built weapon system, or make a bonus Ram attack against an enemy within range and line of sight, at a −2 penalty to the roll. You must have a loaded missile weapon to make a ranged attack.</p>",
     "type": "Chase",
     "stuntPoints": 3,
     "stuntPointsMax": 3,

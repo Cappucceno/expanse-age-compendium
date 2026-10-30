@@ -1,8 +1,8 @@
 {
   "name": "Long Burst (Automatic)",
-  "_id": "2Qlg6DToMHP1wreR",
-  "_key": "!items!2Qlg6DToMHP1wreR",
-  "folder": "HjZS0NpKrp9ecqIY",
+  "_id": "043400a6f1b4dfcf",
+  "_key": "!items!043400a6f1b4dfcf",
+  "folder": "50729435b57d6849",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Make a second attack against the same target or a different one within 5 meters of the first; take a -2 to this attack roll, but gain a +2 to the damage roll if you hit. Roll a separate test for Weapon Capacity afterward (see p. 75).</p>",
+    "longDesc": "<p><em>Cost: 2 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making an attack with a gun. Some gun stunts require a specific type of gun, such as a pistol, rifle, or automatic weapon.</em></p><p>Make a second attack against the same target or a different one within 5 meters of the first; take a 2 to this attack roll, but gain a +2 to the damage roll if you hit. Immediately check ammo against Capacity afterward.</p>",
     "type": "Gun",
     "stuntPoints": 2,
     "stuntPointsMax": 2,

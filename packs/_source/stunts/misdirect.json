@@ -1,0 +1,26 @@
+{
+  "name": "Misdirect",
+  "_id": "a28f10c71eb40033",
+  "_key": "!items!a28f10c71eb40033",
+  "folder": "0c23c3a9338525c5",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 7 SP</em></p><p>When attempting to outrun a torpedo, you can fly close to another ship to try to get the torpedo to hit that ship instead of your own. You perform a flip and burn when near another ship. The pilot must make a successful opposed Dexterity (Piloting) test against the other ship and another member of the crew must make a TN 17 Technology (Intelligence) test. If both are successful, the torpedo impacts the other ship instead.</p>",
+    "type": "Command",
+    "stuntPoints": 7,
+    "stuntPointsMax": 7,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

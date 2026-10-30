@@ -1,8 +1,8 @@
 {
   "name": "Flashback",
-  "_id": "8wFaSmqV0gt6ievZ",
-  "_key": "!items!8wFaSmqV0gt6ievZ",
-  "folder": "emDfthNa99SyoHpm",
+  "_id": "285c904e71ce8342",
+  "_key": "!items!285c904e71ce8342",
+  "folder": "f19d512036b73b4c",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>This test reminds you of something important you forgot. The GM reveals the identity or existence of another source of information you didn’t know about (Simple); treat one of your tangential focuses as a primary one on the next test you make to unlock a lead related to this test (Detailed).</p>",
+    "longDesc": "<p><em>Cost: 1 SP</em></p><p><em>Some investigation stunts have different effects depending on whether you are pursuing a simple or detailed investigation, denoted by parenthetical tags.</em></p><p>This test reminds you of something important you forgot. The GM reveals the identity or existence of another source of information you didn’t know about (Simple); treat one of your tangential focuses as a primary one on the next test you make to unlock a lead related to this test (Detailed).</p>",
     "type": "Investigation",
     "stuntPoints": 1,
     "stuntPointsMax": 1,

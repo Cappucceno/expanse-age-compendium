@@ -1,0 +1,92 @@
+{
+  "name": "Heavy Frigate",
+  "_id": "5b520b0d7740175a",
+  "_key": "!actors!5b520b0d7740175a",
+  "folder": "a4e1452b7f1ca471",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "spaceship",
+  "img": "systems/age-system/resources/imgs/actor-icon/rocket.svg",
+  "system": {
+    "size": 4,
+    "drive": "Epstein, Thrusters",
+    "description": "<p><strong>Competence:</strong> Skilled</p><p><strong>Qualities:</strong> Atmosphere Capable, Good Juice, Hull Plating I, Medical Expert System, Redundant Hull (Double), Self-Destruct System, Stealth</p><p><strong>Flaws:</strong> None</p><p><strong>Crew:</strong> 6 (20)</p><p><strong>Size:</strong> Large (52 meters long)</p>",
+    "hull": {
+      "nrDice": 2,
+      "diceType": 6,
+      "extraValue": 3
+    },
+    "crew": {
+      "min": 6,
+      "current": 6,
+      "typical": 6,
+      "competence": 4
+    },
+    "systems": {
+      "sensors": {
+        "mod": 2
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Heavy Frigate",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Point Defense Network",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "3afddc5dcb58180b",
+      "_key": "!actors.items!5b520b0d7740175a.3afddc5dcb58180b",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "2d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": "<p>Full Coverage, Close Range, 2d6 Damage</p>"
+      }
+    },
+    {
+      "name": "4 × Torpedo Tubes",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "376bbcfdba941fc0",
+      "_key": "!actors.items!5b520b0d7740175a.376bbcfdba941fc0",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "4d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": "<p>Fore, Long Range, 4d6 Damage</p>"
+      }
+    }
+  ]
+}

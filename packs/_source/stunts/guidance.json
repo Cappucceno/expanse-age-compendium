@@ -1,8 +1,8 @@
 {
   "name": "Guidance",
-  "_id": "7jchDmVr338U0440",
-  "_key": "!items!7jchDmVr338U0440",
-  "folder": "dPhyZYcxqCcyUgIT",
+  "_id": "8e540a548dbb5854",
+  "_key": "!items!8e540a548dbb5854",
+  "folder": "0c23c3a9338525c5",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,11 +14,11 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Cost: 1+ SP</em></p><p><em>Core stunt.</em> You grant a +1 bonus to a chosen ship combat test this round for each 1 SP you spend. Choose one of the following: maneuver test, electronic warfare test, evasion test, point defense test, or damage control test.</p>",
-    "type": "Space Combat Command",
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p>You grant a +1 bonus to a chosen ship combat test this round for each 1 SP you spend. Choose one of the following: maneuver test, electronic warfare test, evasion test, point defense test, or damage control test.</p>",
+    "type": "Command",
     "stuntPoints": 1,
     "stuntPointsMax": 1,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

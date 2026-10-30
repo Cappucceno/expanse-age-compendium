@@ -1,8 +1,8 @@
 {
   "name": "Cruiser",
-  "_id": "NxpaoWtnehREDBWU",
-  "_key": "!actors!NxpaoWtnehREDBWU",
-  "folder": "tDRTDSD1PdCpoxfe",
+  "_id": "0f93c6e1df350830",
+  "_key": "!actors!0f93c6e1df350830",
+  "folder": "a4e1452b7f1ca471",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "size": 6,
     "drive": "Epstein, Thrusters",
-    "description": "<p><strong>Competence:</strong> Skilled to Elite</p><p><strong>Qualities:</strong> Advanced Sensor Package (+2), Good Juice, Hangar Bay, Improved Stores, Medical Expert System, Plasma Torpedoes, Self-Destruct System</p><p><strong>Flaws:</strong> None.</p><p><strong>Crew:</strong> 64 (512)</p><p><strong>Size:</strong> Gigantic (250 meters long)</p>",
+    "description": "<p><strong>Competence:</strong> Skilled to Elite</p><p><strong>Qualities:</strong> Advanced Sensor Package II, Good Juice, Hangar Bay, Hull Plating III, Improved Stores, Medical Expert System, Plasma Torpedoes, Self-Destruct System</p><p><strong>Flaws:</strong> None</p><p><strong>Crew:</strong> 64 (512)</p><p><strong>Size:</strong> Gigantic (250 meters long)</p>",
     "hull": {
       "nrDice": 4,
       "diceType": 6,
@@ -34,13 +34,20 @@
       }
     }
   },
+  "prototypeToken": {
+    "name": "Cruiser",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  },
   "items": [
     {
       "name": "Point Defense Network",
       "type": "shipfeatures",
       "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
-      "_id": "n1CVWN1uHPaDJjMi",
-      "_key": "!actors.items!NxpaoWtnehREDBWU.n1CVWN1uHPaDJjMi",
+      "_id": "abfe9f3d5a385bc6",
+      "_key": "!actors.items!0f93c6e1df350830.abfe9f3d5a385bc6",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -55,15 +62,15 @@
         "damage": "2d6",
         "quality": "quality",
         "isActive": true,
-        "longDesc": ""
+        "longDesc": "<p>Full Coverage, Close Range, 2d6 Damage</p>"
       }
     },
     {
-      "name": "Rail Gun Turret",
+      "name": "1 × Rail Gun Turret",
       "type": "shipfeatures",
       "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
-      "_id": "Azfo3ufv84CyyPhq",
-      "_key": "!actors.items!NxpaoWtnehREDBWU.Azfo3ufv84CyyPhq",
+      "_id": "36787ec091811dab",
+      "_key": "!actors.items!0f93c6e1df350830.36787ec091811dab",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -78,15 +85,15 @@
         "damage": "3d6",
         "quality": "quality",
         "isActive": true,
-        "longDesc": ""
+        "longDesc": "<p>Medium Range, 3d6 Damage</p>"
       }
     },
     {
-      "name": "Three Torpedo Tubes",
+      "name": "6 × Torpedo Tubes",
       "type": "shipfeatures",
       "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
-      "_id": "uG563IkiUkG8vyId",
-      "_key": "!actors.items!NxpaoWtnehREDBWU.uG563IkiUkG8vyId",
+      "_id": "f303291cbc887242",
+      "_key": "!actors.items!0f93c6e1df350830.f303291cbc887242",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -101,15 +108,8 @@
         "damage": "4d6",
         "quality": "quality",
         "isActive": true,
-        "longDesc": ""
+        "longDesc": "<p>Long Range, 4d6 Damage</p>"
       }
     }
-  ],
-  "prototypeToken": {
-    "name": "Cruiser",
-    "actorLink": true
-  },
-  "ownership": {
-    "default": 0
-  }
+  ]
 }

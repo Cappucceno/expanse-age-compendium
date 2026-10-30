@@ -1,0 +1,26 @@
+{
+  "name": "Dauntless",
+  "_id": "95f59bc60215547b",
+  "_key": "!items!95f59bc60215547b",
+  "folder": "a4b3612d20ccffc7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 5 SP</em></p><p><em>In addition to the stunts listed here, pilots also have access to the following Command stunts at the same SP cost: Blinding Maneuver, Evasive Action, On-Target, Misdirect, and Set-Up.</em></p><p>The pilot aims their ship at an enemy’s as if to ram it, causing it to veer off course and miss their attack opportunity. This maneuver can only be used when the ships are already at Close range. The enemy ship must make a successful TN 15 Dexterity (Piloting) test or not be able to take any other action as they recover from the threat of being rammed. If the enemy ship doesn’t flinch, the pilot must make a successful TN 17 Dexterity (Piloting) test to avoid hitting the ship they were aiming at although their ship still gets to take other actions.</p>",
+    "type": "Pilot",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

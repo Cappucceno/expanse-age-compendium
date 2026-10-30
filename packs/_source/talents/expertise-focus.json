@@ -1,8 +1,8 @@
 {
   "name": "Expertise (Focus)",
-  "_id": "cx9chPzSgf5YyLgg",
-  "_key": "!items!cx9chPzSgf5YyLgg",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "081768d9e60a243a",
+  "_key": "!items!081768d9e60a243a",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,20 +16,20 @@
   "system": {
     "longDesc": "<p>You are a specialist in your field.</p>",
     "shortDesc": "",
-    "requirement": "",
+    "requirement": "None",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>Select an ability focus you have and choose a narrower task or field within it. For example, You can choose “hacking” for Intelligence (Technology) or “drones” for Dexterity (Piloting). You gain a +1 bonus for ability tests covered by the narrower task. You can select this talent multiple times, each time applicable to a different focus You can only choose Expertise once for a particular focus.</p>",
+      "desc": "<p>Select an ability focus you have and choose a narrower task or field. For example, You can choose “hacking” for Intelligence (Technology) or “drones” for Dexterity (Piloting). You gain a +1 bonus for ability tests covered by the narrower task. You can select this talent multiple times, each time applicable to a different focus. You can only choose Expertise once for a particular focus.</p>",
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>If you fail an ability test covered by your chosen expertise, you can re-roll it, but must keep the results of the second roll.</p>",
+      "desc": "<p>If you fail an ability test covered by your chosen expertise, you can re-roll it but must keep the results of the second roll.</p>",
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>Select one type of stunt (action, exploration, social, or command) relevant to your chosen expertise. When generating stunt points with ability tests involving your chosen expertise, you gain +1 SP for the chosen type of stunt.</p>",
+      "desc": "<p>Pick one type of stunt (action, exploration, or social) relevant to your chosen expertise. When generating stunt points with ability tests involving your chosen expertise, you gain +1 SP.</p>",
       "isActive": true
     }
   },

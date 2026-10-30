@@ -1,0 +1,28 @@
+{
+  "name": "Combat Reflexes",
+  "_id": "ce353c9133f79305",
+  "_key": "!items!ce353c9133f79305",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Enhanced muscle memory and amped-up reflexes built for combat situations allow you to make melee attacks as a minor action rather than a major action. This means you can make two such attacks per turn using both your major and minor actions or take a different major action and still make a melee attack as a minor action. This augmentation does not benefit ranged attacks.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

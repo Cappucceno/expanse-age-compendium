@@ -1,0 +1,92 @@
+{
+  "name": "Heavy Scout",
+  "_id": "c956768ebf872caa",
+  "_key": "!actors!c956768ebf872caa",
+  "folder": "9999963295060039",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "spaceship",
+  "img": "systems/age-system/resources/imgs/actor-icon/rocket.svg",
+  "system": {
+    "size": 4,
+    "drive": "Epstein, Thrusters",
+    "description": "<p><strong>Competence:</strong> Average</p><p><strong>Qualities:</strong> Drone Bay, Improved Stores, Medical Expert System, Redundant Hull (Double)</p><p><strong>Flaws:</strong> Usually none</p><p><strong>Crew:</strong> 3 (6)</p><p><strong>Size:</strong> Large (51 meters long)</p>",
+    "hull": {
+      "nrDice": 2,
+      "diceType": 6,
+      "extraValue": 0
+    },
+    "crew": {
+      "min": 3,
+      "current": 3,
+      "typical": 3,
+      "competence": 2
+    },
+    "systems": {
+      "sensors": {
+        "mod": 5
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Heavy Scout",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Point Defense Network",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "cd8b8c1130d31051",
+      "_key": "!actors.items!c956768ebf872caa.cd8b8c1130d31051",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "2d6",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": "<p>Aft Coverage, Close Range, 2d6 Damage</p>"
+      }
+    },
+    {
+      "name": "2 × Grapplers",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "bea395fb21d6a69c",
+      "_key": "!actors.items!c956768ebf872caa.bea395fb21d6a69c",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "0",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": "<p>Aft, Close Range, 0 Damage</p>"
+      }
+    }
+  ]
+}

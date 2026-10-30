@@ -1,8 +1,8 @@
 {
   "name": "Self-Defense Style",
-  "_id": "g52C6CyfC1CwZTD8",
-  "_key": "!items!g52C6CyfC1CwZTD8",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "7ce95220dade73c8",
+  "_key": "!items!7ce95220dade73c8",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -25,11 +25,11 @@
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>Your grip is difficult to break. If you fail a Fighting (Grappling) test, you can re-roll it, but must keep the results of the second roll.</p>",
+      "desc": "<p>Your grip is difficult to break. If you fail a Fighting (Grappling) test, you can re-roll it but must keep the results of the second roll.</p>",
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>You counter an opponent with grace and skill. When you perform the Disarm stunt, you can retain hold of the weapon. In addition, when you spend SP on Knock Prone after making a Fighting (Grappling) attack, you may automatically move your opponent 2 yards for no additional SP cost. You may increase this distance with the Skirmish stunt. The enemy falls prone after being moved.</p>",
+      "desc": "<p>You counter an opponent with grace and skill. When you perform the Disarm stunt, you can retain hold of the weapon. In addition, when you spend SP on Knock Prone after making a Fighting (Grappling) attack, you may automatically move your opponent 2 meters for no additional SP cost. You may increase this distance with the Skirmish stunt. The enemy falls prone after being moved.</p>",
       "isActive": true
     }
   },

@@ -1,0 +1,37 @@
+name: Release
+
+# Run manually from the Actions tab (or with the API) to publish module.zip as a GitHub release.
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag (must match "version" in module.json)
+        default: v2.0.0
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check version
+        run: |
+          version=$(jq -r .version module.json)
+          [ "v$version" = "${{ inputs.tag }}" ] || { echo "module.json version $version does not match ${{ inputs.tag }}"; exit 1; }
+      - name: Build module.zip
+        run: |
+          mkdir -p build/expanse-age-compendium/scripts build/expanse-age-compendium/packs
+          cp module.json LICENSE.txt NOTICE.md README.md build/expanse-age-compendium/
+          cp scripts/babele.js build/expanse-age-compendium/scripts/
+          cp -r lang build/expanse-age-compendium/
+          for d in packs/*/; do [ "$(basename "$d")" = "_source" ] || cp -r "$d" build/expanse-age-compendium/packs/; done
+          cd build/expanse-age-compendium && zip -qr ../../module.zip .
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ inputs.tag }}" module.zip module.json \
+            --target "${{ github.sha }}" --title "${{ inputs.tag }}" \
+            --notes "Work in progress release of the Expanse (Transport Union Edition) compendium for the AGE System. Not tested in Foundry yet."

@@ -1,0 +1,27 @@
+{
+  "name": "Night Vision Goggles",
+  "_id": "2fed85710913528e",
+  "_key": "!items!2fed85710913528e",
+  "folder": "a824f49866272be9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>This piece of fashionable spyware uses illumination enhancement and computer modeling software to eliminate attack roll modifiers and other penalties related to darkness. Spacesuit helmets can also be outfitted with nightvision technology. (Add +3 to the cost of a spacesuit for this upgrade.)</p>",
+    "weight": 0,
+    "cost": 14,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

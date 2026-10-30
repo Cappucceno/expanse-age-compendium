@@ -1,0 +1,17 @@
+{
+  "name": "Membership and Reputation",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 1200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "ee6463460422c182",
+  "_key": "!folders!ee6463460422c182",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Construction Mech (Standard)",
+  "_id": "213d8a2335be02c8",
+  "_key": "!items!213d8a2335be02c8",
+  "folder": "c906dfff0ed9e7bf",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Construction mechs come in two sizes; the smaller variety is “standard” mech-sized, designed to hold a human driver. These safety-yellow-and-orange mechs are used for the construction and repair of spacecraft and habitats, featuring welders, industrial-strength work lights, and numerous other tools. Spaceships often keep a stock of these held in racks along with vac suits. Construction mech drivers must wear their own environment suits, as the mech itself is only an enclosure with straps and spider-like limbs.</p>",
+    "weight": 0,
+    "cost": 16,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

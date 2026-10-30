@@ -1,0 +1,27 @@
+{
+  "name": "Toolkit, Engineering",
+  "_id": "8a0a2c25b15f9d64",
+  "_key": "!items!8a0a2c25b15f9d64",
+  "folder": "58f127634f188c6b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>These toolkits are generally larger and bulkier than an electronics toolkit but contain everything a ship engineer needs to test and repair a ship’s systems.</p>",
+    "weight": 0,
+    "cost": 8,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "It Wasn’t Me",
-  "_id": "4V76CGtEXk12jhKk",
-  "_key": "!items!4V76CGtEXk12jhKk",
-  "folder": "i9FAKCYRBr8cJoGO",
+  "_id": "efc7d481d59a4501",
+  "_key": "!items!efc7d481d59a4501",
+  "folder": "e6a09dfc5152643c",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>You leave evidence another character is responsible for the results of your test, such as breaking and entering, cheating at cards, or uploading a computer virus. All failed tests to investigate the truth reveal that person as the culprit, and such tests suffer a −2 penalty.</p>",
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p><em>Infiltration stunts may apply when physically breaking in somewhere or exploring a new place, hacking into a computer or network, pulling a con job, or otherwise evading consequences and getting away with things.</em></p><p>You leave evidence another character is responsible for the results of your test, such as breaking and entering, cheating at cards, or uploading a computer virus. All failed tests to investigate the truth reveal that person as the culprit, and such tests suffer a 2 penalty.</p>",
     "type": "Infiltration",
     "stuntPoints": 4,
     "stuntPointsMax": 4,

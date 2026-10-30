@@ -1,8 +1,8 @@
 {
   "name": "Good Cop/Bad Cop",
-  "_id": "jEaa2WRGkbTVu62g",
-  "_key": "!items!jEaa2WRGkbTVu62g",
-  "folder": "RYCI0kZp4Uq2YPRL",
+  "_id": "d46a00efddfcdbd6",
+  "_key": "!items!d46a00efddfcdbd6",
+  "folder": "a7eaf3a981654930",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Choose an ally to immediately make a test in seeming opposition to the one you just made, with the same target. If they succeed, rather than garnering the usual results, they prompt the target to give up a secret you didn’t already know.</p>",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p>Choose an ally to immediately make a test in seeming opposition to the one you just made, with the same target. If they succeed, rather than garnering the usual results, they prompt the target to give up a secret you didn’t already know.</p>",
     "type": "General Social",
     "stuntPoints": 3,
     "stuntPointsMax": 3,

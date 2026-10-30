@@ -1,0 +1,27 @@
+{
+  "name": "Relay Drone",
+  "_id": "873e6b80689fb8ad",
+  "_key": "!items!873e6b80689fb8ad",
+  "folder": "7d5d9b37ac4c4e55",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Communication focused relay drones convey radar or tight beam laser signals from one or more sources to one or more destinations, and they can do so on a complex, ever changing, pre programmed flight path. This can be for typical signal propagation or to help obscure one or both ends of a transmission circuit.</p>",
+    "weight": 0,
+    "cost": 14,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

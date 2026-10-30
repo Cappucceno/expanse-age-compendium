@@ -1,8 +1,8 @@
 {
   "name": "Agility",
-  "_id": "uwYnQ32OZe23s0lg",
-  "_key": "!items!uwYnQ32OZe23s0lg",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "9bcbceb0c35bb717",
+  "_key": "!items!9bcbceb0c35bb717",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "longDesc": "<p>You move with grace, speed, and ease.</p>",
     "shortDesc": "",
-    "requirement": "Dexterity 2 and the Dexterity (Acrobatics) focus",
+    "requirement": "Dexterity 2, Dexterity (Acrobatics) focus",
     "type": "talent",
     "degree": 0,
     "activate": true,

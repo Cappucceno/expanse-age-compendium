@@ -1,8 +1,8 @@
 {
   "name": "Shock and Awe",
-  "_id": "FZQX39Me68V18RVs",
-  "_key": "!items!FZQX39Me68V18RVs",
-  "folder": "iUVfhOY02Hq2jOoj",
+  "_id": "82ccda5037536d3d",
+  "_key": "!items!82ccda5037536d3d",
+  "folder": "5905993f12458e24",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>When you succeed at a non-attack physical feat or take an opponent out, anyone who witnesses it rolls Willpower (Courage or Morale) vs. your Strength (Intimidation). If you win, they suffer a −1 to the next opposed roll they make against you, or a −1 to their Defense vs. your next attack against them, whichever comes first.</p>",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p>When you succeed at a non-attack physical feat or take an opponent out, anyone who witnesses it rolls Willpower (Courage) or (Morale) vs. your Strength (Intimidation). If you win, they suffer a −1 to the next opposed roll they make against you, or a −1 to their Defense vs. your next attack against them, whichever comes first.</p>",
     "type": "General Combat",
     "stuntPoints": 3,
     "stuntPointsMax": 3,

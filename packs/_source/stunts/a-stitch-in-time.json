@@ -1,8 +1,8 @@
 {
   "name": "A Stitch in Time",
-  "_id": "LlqCxeauHJQe5sJV",
-  "_key": "!items!LlqCxeauHJQe5sJV",
-  "folder": "jWxRAT01MmI484Bb",
+  "_id": "f70aaf9c138cd947",
+  "_key": "!items!f70aaf9c138cd947",
+  "folder": "5abc8d2c694b22f5",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,11 +14,11 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Cost: 1+ SP</em></p><p>You put in the effort to do it right the first time, setting yourself up for greater success later. Gain +1 per SP spent on your next test related to this one during this encounter, as long as this roll was part of an advanced test.</p>",
+    "longDesc": "<p><em>Cost: 1+ SP</em></p><p>You put in the effort to do it right the first time, setting yourself up for greater success later. Gain +1 per SP spent on your next test related to this one during this encounter so long as this roll was part of an advanced test.</p>",
     "type": "General Exploration",
     "stuntPoints": 1,
     "stuntPointsMax": 1,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

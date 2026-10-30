@@ -1,0 +1,17 @@
+{
+  "name": "Command",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 1300000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "0c23c3a9338525c5",
+  "_key": "!folders!0c23c3a9338525c5",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

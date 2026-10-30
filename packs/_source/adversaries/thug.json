@@ -1,8 +1,8 @@
 {
   "name": "Thug",
-  "_id": "QzZolXmVI51WG4fo",
-  "_key": "!actors!QzZolXmVI51WG4fo",
-  "folder": "N3WRoFwp0q9l0Jar",
+  "_id": "f95f80a05fd127a6",
+  "_key": "!actors!f95f80a05fd127a6",
+  "folder": "0a0697cfb3499f42",
   "sort": 0,
   "flags": {
     "core": {
@@ -49,25 +49,32 @@
       }
     },
     "speed": {
-      "base": 10
+      "base": 11
     },
     "defense": {
-      "base": 10
+      "base": 11
     },
     "health": {
       "set": 17,
       "value": 17
     },
-    "features": "<p><strong>AKA:</strong> Gang Member, Drug Dealer</p><p>Thugs run the gamut from heavies working for organized crime to drug dealers operating out of seedy dens in the outer planets, or opportunists stealing water from reclamae o d . d t t d e tion facilities. Typically armed with a handgun to fend off rival criminals, these gangsters are less prone to attacking innocents, knowing that attention from the law is detrimental to business. A thug acts as a valuable source of information if his loyalty is successfully bought, but snitches tend to disappear if their employers and allies discover their duplicity.</p><p><strong>Stunts:</strong> Adrenaline Rush, Benefit of the Doubt, Taunt</p><p><strong>Talents:</strong> Contacts (Novice), Intrigue (Novice)</p><p><strong>Equipment:</strong> knife, knuckle dusters, hand terminal, pistol</p>",
+    "features": "<p><strong>Favored Stunts:</strong> Adrenaline Rush, Benefit of the Doubt, Taunt</p><p><strong>Talents:</strong> Contacts (Novice), Intrigue (Novice)</p><p><strong>Equipment:</strong> knife, knuckle dusters, hand terminal, pistol</p><p><strong>Armor + Toughness:</strong> 2</p>",
     "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Thug",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
   },
   "items": [
     {
       "name": "Pistols",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "3aOEWmdDrFyoef3D",
-      "_key": "!actors.items!QzZolXmVI51WG4fo.3aOEWmdDrFyoef3D",
+      "_id": "1e7eef13adaac005",
+      "_key": "!actors.items!f95f80a05fd127a6.1e7eef13adaac005",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -87,8 +94,8 @@
       "name": "Bargaining",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "yw7SZRYO7cbQGnwU",
-      "_key": "!actors.items!QzZolXmVI51WG4fo.yw7SZRYO7cbQGnwU",
+      "_id": "2f5a86d136d25cfc",
+      "_key": "!actors.items!f95f80a05fd127a6.2f5a86d136d25cfc",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -108,8 +115,8 @@
       "name": "Deception",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "gVCMuJJvvA1u9XLl",
-      "_key": "!actors.items!QzZolXmVI51WG4fo.gVCMuJJvvA1u9XLl",
+      "_id": "c2c4215fb012612b",
+      "_key": "!actors.items!f95f80a05fd127a6.c2c4215fb012612b",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -129,8 +136,8 @@
       "name": "Knife",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "nEBzpMazbqDqDTCU",
-      "_key": "!actors.items!QzZolXmVI51WG4fo.nEBzpMazbqDqDTCU",
+      "_id": "3741e0aec595087d",
+      "_key": "!actors.items!f95f80a05fd127a6.3741e0aec595087d",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -141,9 +148,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +2, damage 1d6+2.</p>",
+        "longDesc": "<p>Attack roll +2</p>",
         "useAbl": "fight",
-        "useFocus": "light weapons",
         "nrDice": "1",
         "diceType": "6",
         "extraValue": 2,
@@ -154,15 +160,16 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": false
       }
     },
     {
       "name": "Knuckle Dusters",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "3VraRy4lG8jCHLvE",
-      "_key": "!actors.items!QzZolXmVI51WG4fo.3VraRy4lG8jCHLvE",
+      "_id": "90fed3ccf48c7afb",
+      "_key": "!actors.items!f95f80a05fd127a6.90fed3ccf48c7afb",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -173,9 +180,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +2, damage 1d3+2.</p>",
+        "longDesc": "<p>Attack roll +2</p>",
         "useAbl": "fight",
-        "useFocus": "light weapons",
         "nrDice": "1",
         "diceType": "3",
         "extraValue": 2,
@@ -186,15 +192,16 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": false
       }
     },
     {
       "name": "Pistol",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "Oqd2etijaq2ReMkz",
-      "_key": "!actors.items!QzZolXmVI51WG4fo.Oqd2etijaq2ReMkz",
+      "_id": "efc6e2f0209bea58",
+      "_key": "!actors.items!f95f80a05fd127a6.efc6e2f0209bea58",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -205,9 +212,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +2, damage 2d6+1.</p>",
+        "longDesc": "<p>Attack roll +2</p>",
         "useAbl": "acc",
-        "useFocus": "pistols",
         "nrDice": "2",
         "diceType": "6",
         "extraValue": 1,
@@ -218,15 +224,9 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": true
       }
     }
-  ],
-  "prototypeToken": {
-    "name": "Thug",
-    "actorLink": false
-  },
-  "ownership": {
-    "default": 0
-  }
+  ]
 }

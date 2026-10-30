@@ -1,0 +1,37 @@
+{
+  "name": "Stun Baton",
+  "_id": "6e09e20fd21bc4fe",
+  "_key": "!items!6e09e20fd21bc4fe",
+  "folder": "bd112ac0955d347d",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>This bludgeoning weapon discharges paralyzing electrical shocks in close combat. A stun baton has no effect on a target in armor. If it hits a target without armor, it paralyzes the individual for 1d6 rounds unless they succeed on a Constitution (Stamina) test with a TN of 10 + the damage inflicted by the weapon. Strength does not add to a stun baton’s damage.</p><p><em>Damage as a light close weapon (Strength does not add to the damage).</em></p>",
+    "useAbl": "fight",
+    "useFocus": "light weapons",
+    "minStr": 0,
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "1d6",
+    "weight": 0,
+    "cost": 10,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

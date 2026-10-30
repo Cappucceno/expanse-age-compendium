@@ -1,0 +1,28 @@
+{
+  "name": "Kill-Switch",
+  "_id": "2befc5ab674739b2",
+  "_key": "!items!2befc5ab674739b2",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 0 Slots</p><p>Augmentations make it possible to install a “kill-switch” in a subject, from a tiny explosive at the base of the brainstem to a time- or signal-release toxin, an electrical jolt that stops the heart, or an artificial stroke from blood vessel constriction. In some cases, a kill-switch might also be able to merely render you unconscious or incapacitate you with overwhelming pain instead of killing you. Usually, a kill-switch can be activated remotely, although it might also be on a timer, or keyed to some other conditions, such as a GPS sensor for when you leave or enter a particular place, or if you are exposed to a particular trigger. These types of self-destruct implants are often used as “insurance policies” to protect investments and prevent augments from absconding with expensive hardware. Game Masters can use kill-switch implants as a complication for characters who exceed their Capacity (see Exceeding Capacity at the start of this section). In essence, the character is beholden to whomever holds the control for their Kill-Switch. This provides the story explanation for why the character has augmentations in excess of their normal Capacity, and how they are “paying” for them. The existence of a Kill Switch could also be introduced as the result of an epic Churn effect. For example, during the course of the adventure, the character discovers that they have a Kill- Switch, which creates new story possibilities.</p>",
+    "shortDesc": "0 Slots",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

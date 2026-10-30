@@ -1,0 +1,138 @@
+{
+  "name": "Chapter 14: Rewards",
+  "pages": [
+    {
+      "_id": "ac67c4b587d6e015",
+      "name": "Introduction",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>14: Rewards haracters in <em>The Expanse Roleplaying Game</em> live exciting, dangerous lives. They face threats to themselves (and potentially all of humanity) that force them to grow and overcome lest they get swept away by the tide of events. Overcoming these challenges brings many rewards in terms of personal development as well as swelling bank accounts and the respect of galaxy-spanning organizations. Some rewards carry mechanical benefits. Characters raise their Abilities over time and increase their Income or gain access to special gear when they get paid for a job. They can also gain the perks of membership in various organizations or recognition by one of the major political groups. This can lead to improved reputations and bonuses when dealing with members of those groups (though it may make things more difficult when dealing with opposing groups). Other times, rewards are more intangible and personal. These rewards affect interaction with specific NPCs, or build off of a character’s background to continue their personal story. The rate at which the GM hands out both types of rewards can affect the pacing of a campaign.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ee52ca0b4e42497d.ac67c4b587d6e015",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "06d1b9026a30b978",
+      "name": "Income Rewards",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>As detailed in <strong>Chapter 2, </strong>Income is an important part of any campaign. Regardless</p><h4>Temporary Income Bonuses</h4><p>of any other motivations they may have, many characters take on a life of danger and Instead of increasing characters’ scores, adventure at least partly for the money. Even those characters who aren’t in it for the GMs may opt to grant a temporary bonus money still need to make ends meet. Because of this, GMs should take care to award that represents a limited windfall. The char-Income carefully and fairly. Hand out too few and the players may feel like their charac-acter gains a +1 to +3 bonus to the next test. ters can’t improve their equipment and meet their goals. Hand out too much and many If the test succeeds, the bonus is used up and gone. A character has the option of dividing challenges can simply be overcome with Income, reducing the story’s tension. up a temporary Income bonus among different Most adventures should increase the characters’ Income scores by +1. GMs may opt to Income tests but, once the test succeeds, that boost the Income increase to +2 in the case of significant windfalls or provide temporary portion of the bonus is gone. Also, any deple-Income (see sidebar). Particularly challenging adventures may call for greater rewards, tion of the character’s Income comes off the but GMs should be careful only to do so if the story supports the characters accessing temporary bonus <em>first</em>, and lost bonus points cannot be recovered.such riches. A better way to improve characters’ buying power may be to grant them access to an organization’s resources, as described in <strong>Membership</strong> later in this chapter<strong>.</strong></p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ee52ca0b4e42497d.06d1b9026a30b978",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "90a6f1e0ae4d8452",
+      "name": "Reputation",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Rewards don’t always need to be in the form of Income or levels. Characters earn renown and Reputation through great deeds (or at least the rumor of them). Whether they’re called the “Butcher of Anderson Station” after a brutal military assault, or just known as the best private eye in the Belt, characters can leverage their Reputation to smooth social interactions or get access to things out of the reach of other people. This can make the difference between being treated as a suspicious outsider or a trusted ally based on name alone. Reputation may be tied to a character’s specialization or talents. A hotshot racing pilot’s reputation for resisting high-gravity maneuvers speaks to her innate toughness, while a glory hungry political firebrand’s reputation for rousing speeches speaks to his skill at reading and molding crowds of supporters. Reputation can also be linked to a particular organization or location such as a station or colony. These reputations arise from the characters’ actions in play and usually grant some kind of mechanical benefit when they engage in their area of expertise. It’s important to remember that reputations are rarely permanent, especially when they run up against conflicting evidence. When the racing pilot loses a widely watched race, or the political firebrand makes an embarrassing gaffe during a live broadcast, their reputations can fade or change entirely. Characters who face this shift in fortunes may not have an easy time reclaiming former titles. It is also notable that reputations do not need to be entirely deserved, or even true. Some characters pick up unearned reputations, or they manage to fool people into thinking they are something they are not. Others carry the burden of others’ opinions or even accusations, which can prove difficult to shake. Interludes offer characters the opportunity to grow or change their reputations, as detailed in the <strong>Interlude Activities</strong> section in <strong>Chapter 5</strong>. Characters who choose the Reputation activity during an interlude may work to bolster or diminish a current or nascent honorific. The GM decides when the character has done enough to gain or lose a specific reputation, but anything short of System-wide notoriety shouldn’t take more than a few interludes to influence.</p><h2>Honorifics</h2><p>Reputation is often represented in the titles a character carries. These honorifics are potent—but entirely situational. A champion athlete can’t usually count on their notoriety on the field to help sway people to their side in a tense political debate, for example, unless the policy being discussed somehow relates to their sport. The GM has the final say over whether an honorific provides its mechanical benefits within any given situation, though creative applications should always be encouraged and rewarded.</p><h3>Personal Reputation</h3><p>Characters can invoke their reputation to gain an advantage in a conflict. When they tell someone of their honorific, or impart the story of how they gained it, they gain a psychological edge. In an opposed test involving the character’s famed skill or natural ability, opponents suffer a 1 penalty to their opposing roll as they second-guess their actions while up against a known expert.</p><h3>Supportive Reputation</h3><p>Characters also benefit mechanically when others, friends or foes, invoke their honorific in support of their actions. This use of reputation requires someone other than the character talks up their title or tells convincing stories of the deeds required to earn it to someone outside of the character’s party. During the scene in which this occurs, the character with the reputation being supported gains a +2 bonus to any roll in which they demonstrate the abilities they’re known for. A renowned hacker gets in the zone when the chat room they’re in posts nothing but memes about them, while a superlative lover is at their most seductive when approaching a potential one night stand in view of an awed rival.</p><h3>Inspired Reputation</h3><p>A character using their honorific outside of their field of interest or expertise is calling on it for an <em>inspired</em> purpose. Examples include the Bane of the Belt telling stories of their assaults on OPA terrorist cells to win the trust of a group of Martian mercenaries, or a famously loyal bodyguard invoking numerous injuries they received in the line of duty to convince a reluctant doctor to trust them during a tense triage. Inspired use of reputation grants a character a +1 bonus to the result of the Drama Die when the player rolls it to achieve an aim in which they demonstrate smart use of the honorific.</p><h3>Passive Reputation</h3><p>Characters generally make passive use of their honorifics more often than active use. When dealing with a group or individual aware of a character’s reputation, and likely to be affected by it directly, GMs should color the interaction appropriately. A character considered true OPA is likely to be warmly received in a bar near the center of Ceres, but security contractors working for Earth are likely to stop and frisk them with little provocation. In social situations, characters benefit from a free single step attitude shift in the direction suited to their reputation. Note that this step isn’t always positive, as some people will dislike or mistrust a given honorific.</p><h2>Sample Honorifics</h2><p>Honorifics are simple titles or nickname characters can earn for many reasons. Sample honorifics are provided here, along with alternative options for similar reputations. Game Masters and players may also devise their own honorifics based on events of a campaign.</p><h4>The Absolute</h4><p>The character is a paragon of a particular subculture or cause, and this honorific is a somewhat tongue-in-cheek acknowledgment. The character embodies their group’s preferred traits and is beloved by friends and contemporaries as a champion of their cause. Those opposing that cause or group also accept the character as its champion. They attack the character relentlessly and look for any betrayal of their stated traits to publicly reveal them as a hypocrite.</p><p><em>The Absolute Punk, The Absolute </em> ALTERNATIVES <em>Union, The Absolute Coyo</em></p><h4>Pirate Hunter</h4><p>The character’s crusade against pirates earns them a reputation as someone who enforces the law in a lawless region. They may ruthlessly pursue those they hunt, or perhaps they merely keep an ear to the comings and goings of criminal groups; regardless, they have earned the gratitude of those who want the 1300 worlds to be safe and profitable without fear of piracy.</p><p><em>Bane of Earth, Bane of Mars, Bane of </em> ALTERNATIVES <em>Star Helix</em></p><h4>Champion Athlete</h4><p>The character is a star in their chosen sport, having won a notable trophy or title event. They’re known throughout the sport itself, as well as potentially across their planet or station. This makes the character both an admired figure and a target for jealous rivals to unseat. Until that happens, they receive recognition for their prowess.</p><p><em>Champion Go Player, Judo Champion, </em> ALTERNATIVES <em>Doyen of the Catwalk Competition</em></p><h4>Destined for Greatness</h4><p>No matter what the character attempts, they succeed beyond anyone’s expectations. Such an unstoppable rise to fame is sure to create rivals and enemies who believe the character’s glory is undeserved, and who will work to end their streak of successes.</p><p><em>Deal with the Devil, Guardian Angel, </em> ALTERNATIVES <em>Marked by Misfortune, Charmed Life</em></p><h4>Expert in the Field</h4><p>Characters who dedicate themselves to a single professional pursuit or area of study can become recognized for their knowledge and achievements. Such a professional reputation doesn’t always translate to name recognition with the general public, but no one who sees them work can doubt their competence. Of course, this expertise can be recognized by rivals in their field who still disagree with their results and want to discredit them.</p><p><em>Technical Genius, Famous Polymath, </em> ALTERNATIVES <em>Oddball Professor</em></p><h4>Extremely Online</h4><p>A character who is extremely online is embedded deeply in the web of information flowing through the Solar System and beyond the Ring. They’re recognized for their prowess with technology or media, whether it’s for legal or illegal ends, as well as their connection to many divergent streams of information. Such characters attract a wide range of enemies, from members looking to insult and mislead, to rival hackers and coders who want them exposed and arrested.</p><p><em>Drive Whisperer, Social Media </em> ALTERNATIVES <em>Personality, Luddite, Truth-Teller</em></p><h4>Loyal</h4><p>The character has a reputation for sticking to their friends no matter what, even when doing so is clearly a bad idea. This reputation can also be earned for dogged service, but only if the character goes above and beyond what’s expected of them, taking a metaphorical (or maybe literal) bullet for their employer. Many people respect such loyalty and seek to reward it, but other see it as a trait to be exploited and taken advantage of.</p><p><em>Swore an Oath, Ride or Die, Looks </em> ALTERNATIVES <em>Out for Number One</em></p><h4>Lucky</h4><p>Things always seem to work out for this character. They may not rise to the pinnacle of greatness like some , but things always seem to turn out well for them, even in the face of overwhelming odds. A lucky character escapes criminal charges due to technicalities or goes on to win the whole pot after betting their last credits in a card game. Such constant winning breeds resentment, and many people who lose to such a character may go out of their way to bring them low.</p><p><strong>ALTERNATIVES</strong> <em>Blessed, Hustler, Jinxed</em></p><h4>Natural Aptitude</h4><p>A character admired for their natural aptitude is seen as succeeding due to innate ability rather than long training. This reputation may take a long time to build up, slowly amassing credence as the character racks up victories against equallyor better-trained opponents. Of course, such a reputation can vanish immediately should the character ever become impaired or lose spectacularly.</p><p><em>Perfect Body Type, Natural Genius, </em> ALTERNATIVES <em>Naturally Deficient</em></p><h4>Protector of Innocents</h4><p>The character is known for defending those who cannot defend themselves. Whether it was one small group, a whole town, or an entire station, they are praised for their bravery and righteousness by everyone who has heard of their actions. Due to their fame, characters with this honorific have access to important people in the government and media, but fame can be a two-edged sword. Certain elements of the public are always waiting to bring their heroes low, and whomever it was the character thwarted to gain the reputation is likely to seek revenge.</p><p><em>Hero of Io, The Workers’ Shield, T </em> ALTERNATIVES <em>he Butcher of Anderson Station</em></p><h4>Transport Union Loyalist</h4><p>A character with this superlative is known to be a staunch member or supporter of the Transport Union. They may have been involved with its founding or otherwise assisted the</p><p>Union. This earns them the respect of other Union members but potentially the enmity of certain colonies or even ships or stations that feel stifled by the Union’s bureaucracy.</p><p><em>Bureaucrat, Civil Servant, Pencil </em> ALTERNATIVES <em>Pusher</em></p><h4>Superlative Lover</h4><p>A character known as a superlative lover has a reputation for romantic and sexual prowess, certainly, but is also known for their compassion and generosity in a relationship. Such characters can wave their reputation like a banner to attract people to them, or wield it more subtly to get just what they want in a conversation. People can become jealous of romantic rivals, though, and go to great lengths to discredit them when they feel jilted or ignored.</p><p><strong>ALTERNATIVES</strong> <em>Libertine, Soulmate, Abuser, Player</em></p><h4>Survivor</h4><p>The character has faced a litany of disasters and tragedies, but they have come through the experience unscathed–or at least alive. It seems that no matter what odds they face, whether they ultimately succeed or fail, they’ll still find a way through to face the next challenge. Stories of their tenacity tend to impress others and earn their respect, but some will view the character’s reputation as a challenge to be overcome.</p><p><em>Unkillable, Walking Disaster, Bullet </em> ALTERNATIVES <em>Magnet</em></p><h4>Visionary Artist</h4><p>A character honored as a visionary artist has earned fame in a particular medium through great skill and clever marketing. They likely have the attention of wealthy patrons looking to show off their cultural cachet, as well as legions of up and coming artists who want to follow the path they blazed. That said, critics are always eager to proclaim an artistic misstep or lament a descent in comfortable mediocrity. Newer artists are also likely to see an established visionary as the tired status quo they need to rebel against.</p><p><em>Unappreciated Genius, Infamous </em> ALTERNATIVES <em>Taboo Breaker, Hack</em></p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ee52ca0b4e42497d.90a6f1e0ae4d8452",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "ee1aa834cb748b41",
+      "name": "Membership",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Exceptional individuals in <em>The Expanse</em> can act as the fulcrums of important events, but the larger organizations they represent are the levers that truly move history. No one person has the reach and impact of an organization that spans a station, a planet, or the whole Solar System. Characters can obtain membership in organizations based on their backgrounds or professions, but their influence within those organizations depends upon their rank. Game Masters can decide a character’s rank based on their accomplishments on behalf of the organization, as well as the length of their tenure and the strength of their reputation. For example, a miner’s union will recognize a character’s length of time on the job and their work ethic, but they’re unlikely to support that character representing the union in political circles if they’re gruff and have few friends in the union. Organizations have great diversity in their structures and reasons for existing. Many seek greater social control for their members, but one may try to achieve this through strict regimentation and collaboration while another is a loose conglomeration of people with similar political philosophies. Such organizations can likewise differ greatly in scope. One may wield sway over a single profession throughout the System but be completely unknown by everyone else while a local political group may have name recognition in the media but only wield power in a small area. Characters move through the ranks of organizations only after the GM has awarded them a rank increase and they spend an interlude performing the Advancement activity, as detailed in the <strong>Interlude Activities</strong> section in <strong>Chapter 5</strong>.</p><h4>Differing Ranks Rank 1: Recruit</h4><p>GMs should take care when awarding characters Characters newly inducted into an organization’s ranks receive a +1 bonus to disparate ranks across their respective organiza-all rolls related to positive dealings within the ranks. This bonus builds upon tions—or even within a single one. One character may come to wield more power than the others, creating any prior good relations with the group, rising to a total +2 bonus for such undesirable conflict within the group. Similarly,characters. different groups may come into conflict during the New recruits are often kept at arm’s length for a while. They are tested and events of the campaign, pitting the characters against evaluated—sometimes openly, sometimes covertly—before being trusted one another. Both of these situations can result in with greater access to the organization and its inner workings. They rarely great roleplaying opportunities, but groups should know anyone beyond their fellow recruits and immediate superiors. Even at consider if they want them to be the focus of play. As in all such cases, GMs need to consult the this level, membership brings perks. Characters may access the group’s basic players to determine their comfort with such conflicts.resources, including things like provided services, shared credit accounts, or company housing. Political groups may offer access to related people in positions of power, while professional groups may provide certain services at a discount or even for free. Security and military organizations provide many of their members’ needs, as well as granting them access to equipment and weapons not readily available to civilians. It’s understood that new recruits often have an outsized sense of their role in an organization. That’s why groups limit the support of their new members, thereby limiting the degree to which the organization’s resources can be expended just to brag in a bar. New members are expected to prove themselves and earn greater trust. Should they fail to live up to expectations, many organizations won’t hesitate to sever ties.</p><h4>Rank 2: Respected Member</h4><p>After passing through the trials of their early tenure and gaining the respect of their superiors, characters can rise to the rank of respected member of an organization. Organizations differ greatly in terms of which traits they prize in members, but most make clear what actions characters should undertake to get ahead. When they have finally reached this level, characters gain a +2 bonus to any tests involving other members of their organization at their rank or lower. Respected members also gain a +1 bonus in social interactions with non-members who have reason to respect or fear the organization. At this rank, characters gain access to their group’s full organizational resources, usually including other personnel. They may command subordinates to perform easy encounters on their behalf, or use organization resources to pay recruits to handle encounters of average difficulty. These members are not totally subservient (unless they’re members of a cult, or something similar). They work for the respected member in order to gain recognition within the organization, as well as the pay. Finally, full members have access to all of their group’s resources, within reason. This includes wealth and equipment, as well as information and access to high-ranking people with connections to the organization. At this rank, most groups expect characters to act in the group’s best interests and not to waste resources on their own goals. Should a character abuse these resources, the leaders of the group may step in.</p><h4>Rank 3: Authority Figure</h4><p>The true height of power within an organization, Rank 3 can be difficult to reach unless a character started the group themselves. Members of this rank wield tremendous power over other members of the organization, setting policy and controlling access to the group’s resources and personnel. There is no mechanical bonus granted to characters with this level of control; instead, they have full control over the group’s priorities and actions. GMs should keep in mind that this control doesn’t extend to what members think about the group, only what they must do in order to remain loyal. Characters in a position of authority over a group do gain a +1 bonus in social situations where their control of the group would impress non-members, in addition to the social bonus from Rank 2, for a total of +2. Authority figures who focus their organization’s resources only on their own personal interests or vendettas may find the group’s power or influence begins to slip. They may face greater opposition from allies or other members of the group who disagree with its new direction. Should the character continue their selfish course, they could face a full-blown internal coup.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ee52ca0b4e42497d.ee1aa834cb748b41",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "be43b0085812e24c",
+      "name": "Relationships",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Where honorifics describe how the world reacts to a character, and membership in organizations models that character’s connection to large groups of people, relationships represent more intimate connections. Such relationships may be deliberately cultivated or the result of larger forces beyond a character’s control, but all relationships are personal and intimate, to some degree. Relationships should ideally form during play, arising from how a character treats another individual over time. Recurring non-player characters can provide memorable opportunities for roleplaying, and those experiences can be made more enjoyable by basing them on ongoing relationships. From the surly mechanic who regularly works on the crew’s ship, to the annoyingly cheery security chief who routinely tosses one of them in the drunk tank, relationships should form naturally and mean something to the NPCs and PCs alike. In addition to those that grow out of roleplaying, GMs can use relationships as rewards. These rewards are measured by their Bond and Intensity. The Bond is the nature of the relationship between the characters, such as friendship, hatred, or romance. The Intensity is the measure of that relationship’s strength. See<strong> Relationships </strong>in <strong>Chapter 12</strong> for more information on adding and increasing relationships.</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ee52ca0b4e42497d.be43b0085812e24c",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "ee52ca0b4e42497d",
+  "_key": "!journal!ee52ca0b4e42497d",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

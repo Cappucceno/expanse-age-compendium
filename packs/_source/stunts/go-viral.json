@@ -1,8 +1,8 @@
 {
   "name": "Go Viral",
-  "_id": "rGlSu6tsjZeEGrkz",
-  "_key": "!items!rGlSu6tsjZeEGrkz",
-  "folder": "cML2W7TSvQfzGtww",
+  "_id": "603e1a610ec657e1",
+  "_key": "!items!603e1a610ec657e1",
+  "folder": "ee6463460422c182",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,8 +14,8 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Whether via you or others sharing a video or audio recording, news gets out quickly about what you’ve just done. For the rest of the session, the honorific most related to this test applies even in situations where it seems unrelated.</p>",
-    "type": "Membership & Reputation",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p>Whether via you or others sharing a video or audio recording, news gets out quickly about what you’ve just done. For the rest of the session, the honorific most related to this test applies even in situations where it seems unrelated.</p>",
+    "type": "Membership and Reputation",
     "stuntPoints": 3,
     "stuntPointsMax": 3,
     "costType": "fixed"

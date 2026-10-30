@@ -1,8 +1,8 @@
 {
   "name": "Set-Up",
-  "_id": "HCQbaKAWcrRpQgXJ",
-  "_key": "!items!HCQbaKAWcrRpQgXJ",
-  "folder": "dPhyZYcxqCcyUgIT",
+  "_id": "7b99c92ec0535b6d",
+  "_key": "!items!7b99c92ec0535b6d",
+  "folder": "0c23c3a9338525c5",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,11 +14,11 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Cost: 4+ SP</em></p><p>You maneuver an opposing ship into a hazard, such as a normally shorter range weapon, a field of debris, or even a floating rock. This stunt is considered a weapon attack (see Weapon Attacks) inflicting damage dice equal to half the SP spent (round down). The Set-Up can be evaded (see Evasion under Defensive Actions); the TN is 10 + your Intelligence + Leadership focus (if any) + half the SP spent. So if a character with Intelligence 2 and Leadership spends 5 SP on this stunt, the TN to evade the Set-Up is (10 + 2 + 2 + 2.5, rounded down to 2) or 16, and a failure on the evasion test results in 2d6 damage to the target ship.</p>",
-    "type": "Space Combat Command",
+    "longDesc": "<p><em>Cost: 4+ SP</em></p><p>You coordinate with the pilot to maneuver an opposing ship into a hazard, such as a normally shorter-range weapon, a field of debris, or even a floating rock. This stunt is considered a weapon attack (see Weapon Attacks) inflicting damage dice equal to half the SP spent (round down). The Set-Up can be evaded (see Evasion under Defensive Actions); the TN is 10 + your Intelligence + Leadership focus (if any) + half the SP spent. So, if a character with Intelligence 2 and Leadership spends 5 SP on this stunt, the TN to evade the Set-Up is (10 + 2 + 2 + 2.5, rounded down to 2) or 16, and a failure on the evasion test results in 2d6 damage to the target ship.</p>",
+    "type": "Command",
     "stuntPoints": 4,
     "stuntPointsMax": 4,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

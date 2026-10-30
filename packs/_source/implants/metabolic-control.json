@@ -1,0 +1,28 @@
+{
+  "name": "Metabolic Control",
+  "_id": "5e34716dae7cf5c6",
+  "_key": "!items!5e34716dae7cf5c6",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>You can exercise conscious control over your autonomic and metabolic functions. You can slow your respiration to one-quarter normal while remaining conscious and functional, although you cannot Run or Charge. You gain a +2 bonus on tests to fool equipment scanning your vital signs, such as polygraphs. You can also put yourself into a state of metabolic suspension, temporarily halting the effects of any disease or toxin in your system and consuming virtually no air. It requires a TN 17 Intelligence (Medicine) test to determine you are not actually deceased. You can revive from this state at will or at a preset time.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

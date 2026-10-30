@@ -1,8 +1,8 @@
 {
   "name": "Makeshift Weapon",
-  "_id": "z1xw9DYKqxrrclUh",
-  "_key": "!items!z1xw9DYKqxrrclUh",
-  "folder": "nVXpwC2wCbC7TDSa",
+  "_id": "7e0ed724cea669e8",
+  "_key": "!items!7e0ed724cea669e8",
+  "folder": "f7d0a20963996302",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,9 +14,10 @@
   "type": "weapon",
   "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
   "system": {
-    "longDesc": "<p>Any object not designed for combat, from construction rebar to a heavy galley mug. The GM may apply the Fragile, Ineffective or Poor flaws and may change the damage or ability modifier.</p><p><strong>Quality:</strong> Fragile / Ineffective / Poor (GM's choice)</p>",
+    "longDesc": "<p>An object not made for combat. The GM may apply the Clumsy, Fragile or Weak drawbacks.</p>",
     "useAbl": "fight",
     "useFocus": "",
+    "minStr": 0,
     "nrDice": "1",
     "diceType": "6",
     "extraValue": 0,
@@ -27,7 +28,8 @@
     "weight": 0,
     "cost": 0,
     "quantity": 1,
-    "equiped": false
+    "equiped": false,
+    "ranged": false
   },
   "ownership": {
     "default": 0

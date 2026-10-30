@@ -1,0 +1,27 @@
+{
+  "name": "Machine Shop",
+  "_id": "9a977dcae2ae8f1c",
+  "_key": "!items!9a977dcae2ae8f1c",
+  "folder": "58f127634f188c6b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Most spaceships have a small machine shop, but they are also common on stations, colonies, or anywhere that might need to tool or manufacture replacement parts. They usually contain an assortment of manual tools, power tools, welding equipment, a 3-D printer capable of making small replacement parts, and heavy equipment such as bandsaws, lathes, and presses. They also contain wiring, sealants, binders, and raw materials for printing.</p>",
+    "weight": 0,
+    "cost": 10,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

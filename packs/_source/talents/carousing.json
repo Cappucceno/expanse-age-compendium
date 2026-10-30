@@ -1,8 +1,8 @@
 {
   "name": "Carousing",
-  "_id": "YEB5vWhGtSTL9nyj",
-  "_key": "!items!YEB5vWhGtSTL9nyj",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "d1e531ebc1a944eb",
+  "_key": "!items!d1e531ebc1a944eb",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,12 +16,12 @@
   "system": {
     "longDesc": "<p>You take your fun seriously, and use it to good effect.</p>",
     "shortDesc": "",
-    "requirement": "Communication and Constitution 1 or higher",
+    "requirement": "Communication and Constitution 1+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You can drink other people under the table. When making Constitution (Tolerance) tests as part of an advanced test, you gain a +1 bonus to the result of each Drama Die.</p>",
+      "desc": "<p>You can drink other people under the table. When making Constitution (Tolerance) tests as part of an advanced test, you gain a +1 bonus to the result of the Drama Die.</p>",
       "isActive": true
     },
     "degree1": {

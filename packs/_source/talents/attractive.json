@@ -1,8 +1,8 @@
 {
   "name": "Attractive",
-  "_id": "JJs2Oe4O8UDu5sKV",
-  "_key": "!items!JJs2Oe4O8UDu5sKV",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "011c30f031368ba4",
+  "_key": "!items!011c30f031368ba4",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "longDesc": "<p>You have that special something that catches and holds people’s attention and interest.</p>",
     "shortDesc": "",
-    "requirement": "",
+    "requirement": "None",
     "type": "talent",
     "degree": 0,
     "activate": true,

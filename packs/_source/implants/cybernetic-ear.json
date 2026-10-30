@@ -1,0 +1,28 @@
+{
+  "name": "Cybernetic Ear",
+  "_id": "90ebf553d0fc4380",
+  "_key": "!items!90ebf553d0fc4380",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1+ Slot</p><p>One or both of your ears are replaced or improved with implanted technology. For each enhancement applied, choose one of the following: • You gain the Perception (Hearing) focus, or increase its bonus by +1, if you already have it. • Yougaina×2ForceMultiplierforyourhearing,abletohear over twice normal distances. Additional enhancements can improve this multiplier. • You gain the ability to hear especially high- or low-pitched sounds (choose one) beyond the normal human hearing range. • Your ears automatically compensate for extremely loud noises and other overstimulation. Your hearing cannot be disabled by such attacks or environmental hazards. • If you fail a test involving your hearing, you can re-roll and use the second result. A cybernetic ear that simply replaces your existing ears or restores your hearing to normal human levels counts as a 0-slot cosmetic alteration. The same is also true for alterations to the shape and appearance of your ears, from pointed “elf ears” to more animalistic designs to removing your exterior ears entirely while retaining your normal hearing.</p>",
+    "shortDesc": "1+ Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

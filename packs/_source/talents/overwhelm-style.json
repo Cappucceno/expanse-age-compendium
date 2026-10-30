@@ -1,8 +1,8 @@
 {
   "name": "Overwhelm Style",
-  "_id": "4dzapmaliVexP15O",
-  "_key": "!items!4dzapmaliVexP15O",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "215d0f03e408911e",
+  "_key": "!items!215d0f03e408911e",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,14 +14,14 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>In hand-to-hand combat, you are relentless and overwhelming.</p>",
+    "longDesc": "<p>You are relentless and overwhelming in melee combat.</p>",
     "shortDesc": "",
-    "requirement": "Fighting 2 or higher",
+    "requirement": "Fighting 2+",
     "type": "talent",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>When you make a close combat attack, you can take up to a –3 penalty on your attack roll to receive a corresponding bonus to your damage roll.</p>",
+      "desc": "<p>When you make a close combat attack, you can take up to a −3 penalty on your attack roll to receive a corresponding bonus to your damage roll.</p>",
       "isActive": true
     },
     "degree1": {
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>You break opponent’s defenses with brutal or relentless attacks. If you spend 3 SP after a successful attack, your target must make an opposed Strength (Might) test against your attack roll; if they fail, they suffer a –2 penalty to Defense until the end of your next turn.</p>",
+      "desc": "<p>You break through your opponent’s defense with brutal or relentless attacks. By spending 3 SP after a successful attack, your target must make an opposed Strength (Might) test against your attack roll. If they fail, they suffer a −2 penalty to Defense until the end of your next turn.</p>",
       "isActive": true
     }
   },

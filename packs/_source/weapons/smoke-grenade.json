@@ -1,0 +1,39 @@
+{
+  "name": "Smoke Grenade",
+  "_id": "0c79c66bf4aa6fca",
+  "_key": "!items!0c79c66bf4aa6fca",
+  "folder": "1144c14e1a28e8de",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p><strong>Area of Effect 15-Meter Radius</strong></p><p>Instead of dealing their blast damage, smoke grenades create a colored cloud of obscuring smoke that expands up to 15 meters from the detonation point. Characters caught in the area of effect or trying to see through the smoke suffer a −5 penalty to vision-based tests until the smoke clears. The cloud dissipates after a number of rounds dependent upon the local conditions: 2d6 rounds in Earth-like conditions outdoors or in a well-ventilated room; 3d6 rounds in an area with poor ventilation or no atmosphere; or only 1 or 2 rounds under very high or low gravity conditions. In a well-ventilated area (such as a ship or space station), reduce the duration by 1d6.</p><p><em>Thrown: short range 4 m, long range 8 m (Accuracy (Throwing) test, TN 11).</em></p>",
+    "useAbl": "acc",
+    "useFocus": "throwing",
+    "minStr": 0,
+    "nrDice": "0",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "0",
+    "weight": 0,
+    "cost": 8,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 4,
+    "rangeMax": 8
+  },
+  "ownership": {
+    "default": 0
+  }
+}

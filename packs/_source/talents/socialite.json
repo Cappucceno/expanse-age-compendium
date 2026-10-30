@@ -1,8 +1,8 @@
 {
   "name": "Socialite",
-  "_id": "2sl1xow0AdXgiZ75",
-  "_key": "!items!2sl1xow0AdXgiZ75",
-  "folder": "y88XXvdfe5pCOOAm",
+  "_id": "c069c9bf95e56585",
+  "_key": "!items!c069c9bf95e56585",
+  "folder": "80ce7cbdc4864d90",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,9 +14,9 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>You know people, and how to get what you want from them.</p><p>f there’s a party, you are there, and likely the life of it. You know how to talk to people and get your way with them. It’s not about your social class, although that might play a part, or about how much money you’ve got (although you know how to look like you’ve got plenty). You’ve got a magnetic personality and people know you, and want to know you. You might be a corporate mover-and-shaker, a political negotiator, the face of a black market syndicate, or a souless manipulator but, regardless, you know how to work a oom and get people talking.</p><p><em>Synergies:</em> A Socialite-Performer could be a wellknown artist or simply an arbiter of fashion. On the other hand, the Socialite-Sniper might be a debonair assassin. The Socialite-Hacker can relate to people online as easily as face to face, and can probably mobilize plenty of aid on short notice.</p>",
+    "longDesc": "<p>If there’s a party, you are there—and likely the life of it. You know how to talk to people and get your way with them. It’s not about your social class, although that might play a part, or about how much money you’ve got (although you know how to look like you’ve got plenty). You’ve got a magnetic personality and people know you, and want to know you. You might be a corporate mover-and-shaker, a political negotiator, the face of a black market syndicate, or a soulless manipulator but, regardless, you know how work a room and get people talking.</p><p><em>Synergies:</em> A Socialite-Star could be a well-known artist or simply an arbiter of fashion. On the other hand, the Socialite-Sniper might be a debonair assassin. The Socialite-Hacker can relate to people online as easily as face to face and can probably mobilize plenty of aid on short notice.</p><p>You know people and how to get what you want from them.</p>",
     "shortDesc": "",
-    "requirement": "Communication and Perception 2 or higher",
+    "requirement": "Communication and Perception 2+.",
     "type": "spec",
     "degree": 0,
     "activate": true,
@@ -25,7 +25,7 @@
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>When you attempt a detailed social maneuver (see Chapter 5: Game Play), you require one fewer shift (to a minimum of 1) to succeed. If the situation only requires a simple social maneuver, add +1 to your roll.</p>",
+      "desc": "<p>When you attempt a detailed social maneuver (see Chapter 5: Gameplay), you require one fewer shift (to a minimum of 1) to succeed. If the situation only requires a simple social maneuver, add +1 to your roll.</p>",
       "isActive": true
     },
     "degree2": {

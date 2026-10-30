@@ -1,8 +1,8 @@
 {
   "name": "Agent",
-  "_id": "BxFvTQV3lHqFdhdq",
-  "_key": "!items!BxFvTQV3lHqFdhdq",
-  "folder": "y88XXvdfe5pCOOAm",
+  "_id": "040a64d2971afc0e",
+  "_key": "!items!040a64d2971afc0e",
+  "folder": "80ce7cbdc4864d90",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,14 +14,14 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>You’re a skilled spy and infiltrator.</p><p>You hide in plain sight and deal in secrets. You work undercover and make few friends, and lying is second nature to you. You might have been in place for years, gaining authority in a group you are supposed to subvert, or even starting a family.</p><p><em>Synergies:</em> An Agent-Sniper is a peerless assassin. An Agent-Socialite is the suave sophisticate, as much at home in a casino or ballroom as in the field. An Agent-Ace is a great getaway artist, while an Agent-Investigator is the classic spy-catcher, or a delver into mysteries the police cannot touch. An Agent-Thief is a shadowy chameleon who avoids detection.</p>",
+    "longDesc": "<p>You hide in plain sight and deal in secrets. You work undercover and make few friends, and lying is second nature to you. You might have been in place for years, gaining authority in a group you are supposed to subvert, or even starting a family.</p><p><em>Synergies:</em> An Agent-Sniper is a peerless assassin. An Agent-Socialite is the suave sophisticate, as much at home in a casino or ballroom as in the field. An AgentAce is a great getaway artist, while an Agent-Investigator is the classic spy-catcher, or a delver into mysteries the police cannot touch. An Agent-Thief is a shadowy chameleon who avoids detection.</p><p>You’re a skilled spy and infiltrator.</p>",
     "shortDesc": "",
-    "requirement": "Perception 2 or higher and the Perception (Empathy) and Communication (Deception) focuses",
+    "requirement": "Perception 2+ and the Perception (Empathy) and Communication (Deception) focuses.",
     "type": "spec",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You built your life on lies. If you fail a Communication (Deception) test, you can re-roll it, but must keep the result of the second roll.</p>",
+      "desc": "<p>You built your life on lies. If you fail a Communication (Deception) test, you can re-roll it but must keep the result of the second roll.</p>",
       "isActive": true
     },
     "degree1": {
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>You are a masterful spy. You gain two of the following focuses if you don’t have them already: Communication (Disguise), Communication (Investigation), Dexterity (Stealth), Intelligence (Cryptography), and Intelligence (Security). If you already have all of these, pick two and add +1 to all rolls made using them.</p>",
+      "desc": "<p>You are a masterful spy. You gain two of the following focuses if you don’t have them already: Communication (Disguise), Communication (Investigation), Dexterity (Stealth), Intelligence (Cryptography), and Intelligence (Security). If you already have all these, pick two and add +1 to all rolls made using them.</p>",
       "isActive": true
     }
   },

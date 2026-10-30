@@ -1,8 +1,8 @@
 {
   "name": "Pay Dirt",
-  "_id": "NAI2FDHfzL2KtW23",
-  "_key": "!items!NAI2FDHfzL2KtW23",
-  "folder": "jWxRAT01MmI484Bb",
+  "_id": "a61362b0d379648f",
+  "_key": "!items!a61362b0d379648f",
+  "folder": "5abc8d2c694b22f5",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -18,7 +18,7 @@
     "type": "General Exploration",
     "stuntPoints": 1,
     "stuntPointsMax": 1,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

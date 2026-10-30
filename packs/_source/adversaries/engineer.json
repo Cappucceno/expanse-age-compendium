@@ -1,0 +1,242 @@
+{
+  "name": "Engineer",
+  "_id": "96d0436935439468",
+  "_key": "!actors!96d0436935439468",
+  "folder": "4c637dca0422b145",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "abilities": {
+      "acc": {
+        "value": 1
+      },
+      "comm": {
+        "value": 0
+      },
+      "cons": {
+        "value": 2
+      },
+      "dex": {
+        "value": 3
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 3
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 2
+      },
+      "will": {
+        "value": 1
+      }
+    },
+    "speed": {
+      "base": 13
+    },
+    "defense": {
+      "base": 13
+    },
+    "health": {
+      "set": 12,
+      "value": 12
+    },
+    "features": "<p>Every ship or station needs an experienced hand to keep things running smoothly—or simply running, with kinks to be worked out later. Engineers pack an array of skills as impressive as a toolkit, simply through the experience of finding You can treat some combat drones as having no Fortune score and instead capable of taking multiple injured and wounded conditions to deal with damage that gets past their armor—until the drone suffers enough losses to be rendered non-functional. Stats for three tiers of combat drone are presented here. creative solutions to mechanical problems. They might be non-commissioned officers on a battleship, corporate employees, or the sole occupant of a freighter’s engine room.</p><p><strong>Favored Stunts:</strong> A Stitch in Time, Jury Rig, Whatever’s Handy</p><p><strong>Talents:</strong> Expertise (Engineering, Expert), Improvisation (Novice)</p><p><strong>Equipment:</strong> credentials, heavy tools, pistol, tool bag, uniform</p><p><strong>Armor + Toughness:</strong> 2</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Engineer",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "Tolerance",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ac7cf42346d82970",
+      "_key": "!actors.items!96d0436935439468.ac7cf42346d82970",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Crafting",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "68ea53df40f547bf",
+      "_key": "!actors.items!96d0436935439468.68ea53df40f547bf",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Heavy Weapons",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "e52b0b5fdb9d932c",
+      "_key": "!actors.items!96d0436935439468.e52b0b5fdb9d932c",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Engineering",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "aa4c8f5671e28f7f",
+      "_key": "!actors.items!96d0436935439468.aa4c8f5671e28f7f",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Might",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "7373012a986a28b1",
+      "_key": "!actors.items!96d0436935439468.7373012a986a28b1",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Heavy Tool",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "2a720a659061134f",
+      "_key": "!actors.items!96d0436935439468.2a720a659061134f",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "b6db9f6ba17822b2",
+      "_key": "!actors.items!96d0436935439468.b6db9f6ba17822b2",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +1</p>",
+        "useAbl": "acc",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": true
+      }
+    }
+  ]
+}

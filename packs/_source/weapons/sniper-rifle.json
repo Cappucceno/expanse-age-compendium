@@ -1,0 +1,39 @@
+{
+  "name": "Sniper Rifle",
+  "_id": "503219fd7bcc49c7",
+  "_key": "!items!503219fd7bcc49c7",
+  "folder": "32c00cbe9751ea6e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>This is an extremely accurate, long-range rifle intended to take out a target from far away. They are more commonly found “down the well” of a planet since they have little use on a space station or ship. This weapon has the Long Range quality and inflicts +1d6 damage.</p>",
+    "useAbl": "acc",
+    "useFocus": "rifles",
+    "minStr": 0,
+    "nrDice": "4",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "4d6",
+    "weight": 0,
+    "cost": 15,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 200,
+    "rangeMax": 300
+  },
+  "ownership": {
+    "default": 0
+  }
+}

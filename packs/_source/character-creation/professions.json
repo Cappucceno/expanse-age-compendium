@@ -2,7 +2,7 @@
   "name": "Professions",
   "pages": [
     {
-      "_id": "QYivknDxXjSriujY",
+      "_id": "56eb72cfa1578a5e",
       "name": "Artist",
       "type": "text",
       "title": {
@@ -11,22 +11,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Social, Outsider</em></p><p>You are about expression, whether it is sharing your sense of what is beautiful or expressing your pain or outrage in a form others can understand. You may or may not be making a living at it, but you need to express yourself regardless.</p><ul><li><strong>Focus:</strong> Communication (Expression) or Intelligence (Art)</li><li><strong>Talent:</strong> Artistry or Performance</li></ul>"
+        "content": "<p><em>Social, Outsider</em></p><p>You are concerned greatly about expression, whether it is sharing your sense of what is beautiful or expressing your pain or outrage in a form others can understand. You may or may not be making a living at it, but you need to express yourself regardless.</p><ul><li><strong>Focus:</strong> Communication (Expression) or Intelligence (Art)</li><li><strong>Talent:</strong> Artistry or Performance</li></ul>"
       },
       "sort": 100000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.QYivknDxXjSriujY",
+      "_key": "!journal.pages!ad7e1acea4c3614b.56eb72cfa1578a5e",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "skL5Rbxm634Bg2Z4",
+      "_id": "487f5675e76e43f5",
       "name": "Athlete",
       "type": "text",
       "title": {
@@ -42,15 +42,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.skL5Rbxm634Bg2Z4",
+      "_key": "!journal.pages!ad7e1acea4c3614b.487f5675e76e43f5",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "8nkHGcKyaVjTmued",
+      "_id": "1265c9ccf2993e0b",
       "name": "Brawler",
       "type": "text",
       "title": {
@@ -66,15 +66,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.8nkHGcKyaVjTmued",
+      "_key": "!journal.pages!ad7e1acea4c3614b.1265c9ccf2993e0b",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "PWBu4SCanvrbo40i",
+      "_id": "ea47d18959c41fb3",
       "name": "Clergy",
       "type": "text",
       "title": {
@@ -83,22 +83,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Social, Lower Class</em></p><p>People need faith. They need someone to look after their hearts and souls just as much as bodies or minds, perhaps even more so in some ways. You have a calling to do this work, along with tending to your own faith—whatever form that might take.</p><ul><li><strong>Focus:</strong> Intelligence (Theology) or Willpower (Faith)</li><li><strong>Talent:</strong> Inspire or Oratory</li></ul>"
+        "content": "<p><em>Social, Lower Class</em></p><p>People need faith. They need someone to look after their hearts and souls just as much as their bodies or minds, perhaps even more so, in some ways. You have a calling to do this work along with tending to your own faith, however that might look.</p><ul><li><strong>Focus:</strong> Intelligence (Theology) or Willpower (Faith)</li><li><strong>Talent:</strong> Inspire or Oratory</li></ul>"
       },
       "sort": 400000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.PWBu4SCanvrbo40i",
+      "_key": "!journal.pages!ad7e1acea4c3614b.ea47d18959c41fb3",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "V7G0ZlZWhS80iStJ",
+      "_id": "015da1375271be57",
       "name": "Commander",
       "type": "text",
       "title": {
@@ -114,15 +114,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.V7G0ZlZWhS80iStJ",
+      "_key": "!journal.pages!ad7e1acea4c3614b.015da1375271be57",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "Mi0E2HGTKGrcRIGX",
+      "_id": "148f21db6bbbefc0",
       "name": "Criminal",
       "type": "text",
       "title": {
@@ -138,15 +138,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.Mi0E2HGTKGrcRIGX",
+      "_key": "!journal.pages!ad7e1acea4c3614b.148f21db6bbbefc0",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "iWXNSdNtpMVPv4qO",
+      "_id": "300c4e2a7ad2e88b",
       "name": "Dilettante",
       "type": "text",
       "title": {
@@ -162,15 +162,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.iWXNSdNtpMVPv4qO",
+      "_key": "!journal.pages!ad7e1acea4c3614b.300c4e2a7ad2e88b",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "TLIEwSgASheHTjx7",
+      "_id": "4a37a3d2ef6e66f2",
       "name": "Executive",
       "type": "text",
       "title": {
@@ -186,15 +186,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.TLIEwSgASheHTjx7",
+      "_key": "!journal.pages!ad7e1acea4c3614b.4a37a3d2ef6e66f2",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "JPGBr5Y4dHVIPl38",
+      "_id": "86e78e60910a2f86",
       "name": "Expert",
       "type": "text",
       "title": {
@@ -203,22 +203,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Skilled, Upper Class</em></p><p>There used to be a time when you could know everything, or nearly so, but that’s long gone. Still, you’re an expert in your chosen field. Experts tend to belong to highly paid and complex fields including finance, law, medicine, and the sciences.</p><ul><li><strong>Focus:</strong> Intelligence (choose one)</li><li><strong>Talent:</strong> Expertise or Know-It-All</li></ul>"
+        "content": "<p><em>Skilled, Upper Class</em></p><p>There used to be a time when you could know everything, or nearly so, but that’s long gone. Still, you’re an expert in your chosen field. Experts tend to belong to high-paid and complex fields including finance, law, medicine, and the sciences.</p><ul><li><strong>Focus:</strong> Intelligence (choose one)</li><li><strong>Talent:</strong> Expertise or Know-It-All</li></ul>"
       },
       "sort": 900000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.JPGBr5Y4dHVIPl38",
+      "_key": "!journal.pages!ad7e1acea4c3614b.86e78e60910a2f86",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "c1P5H2UR8FYqD5AI",
+      "_id": "52d4521a7d0a7230",
       "name": "Explorer",
       "type": "text",
       "title": {
@@ -234,15 +234,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.c1P5H2UR8FYqD5AI",
+      "_key": "!journal.pages!ad7e1acea4c3614b.52d4521a7d0a7230",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "tdTvFgKu5kOEsmXf",
+      "_id": "71f7fb884871eb97",
       "name": "Fixer",
       "type": "text",
       "title": {
@@ -251,22 +251,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Social, Outsider</em></p><p>You are good at getting things done, often in a less-thanstrictly-legal fashion or outside of the normal channels. While some Fixers are motivated by profit, others do what they can to help people within the context of a restrictive and often corrupt system.</p><ul><li><strong>Focus:</strong> Communication (Bargaining) or Intelligence (Evaluation)</li><li><strong>Talent:</strong> Fringer or Improvisation</li></ul>"
+        "content": "<p><em>Social, Outsider</em></p><p>You are good at getting things done, often in a less-than-strictly-legal fashion, or outside of the normal channels. While some Fixers are motivated by profit, others do what they can to help people within the context of a restrictive and often corrupt system.</p><ul><li><strong>Focus:</strong> Communication (Bargaining) or Intelligence (Evaluation)</li><li><strong>Talent:</strong> Fringer or Improvisation</li></ul>"
       },
       "sort": 1100000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.tdTvFgKu5kOEsmXf",
+      "_key": "!journal.pages!ad7e1acea4c3614b.71f7fb884871eb97",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "k3vDIJMMNtItJyjl",
+      "_id": "effbb221152da3e3",
       "name": "Investigator",
       "type": "text",
       "title": {
@@ -282,15 +282,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.k3vDIJMMNtItJyjl",
+      "_key": "!journal.pages!ad7e1acea4c3614b.effbb221152da3e3",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "mxiigQlRlA7Ssbe3",
+      "_id": "9af92733af462dcc",
       "name": "Merchant",
       "type": "text",
       "title": {
@@ -306,15 +306,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.mxiigQlRlA7Ssbe3",
+      "_key": "!journal.pages!ad7e1acea4c3614b.9af92733af462dcc",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "do4tk7q667IMPf47",
+      "_id": "54bd2b3296ff7a37",
       "name": "Negotiator",
       "type": "text",
       "title": {
@@ -330,15 +330,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.do4tk7q667IMPf47",
+      "_key": "!journal.pages!ad7e1acea4c3614b.54bd2b3296ff7a37",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "a167KnG2Sa9OwYaA",
+      "_id": "3bf40f51d2195779",
       "name": "Pilot",
       "type": "text",
       "title": {
@@ -354,15 +354,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.a167KnG2Sa9OwYaA",
+      "_key": "!journal.pages!ad7e1acea4c3614b.3bf40f51d2195779",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "q3QiN0ruF0s9W391",
+      "_id": "38766cf95cd2dbaf",
       "name": "Politician",
       "type": "text",
       "title": {
@@ -371,22 +371,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Social, Middle Class</em></p><p>From neighborhoods to nations, people need to be organized for society to function. You know the tricks it takes to get people to cooperate in that process, sometimes whether they want to or not. Your speeches help people devise collective political dreams, but behind closed doors you deal in the art of the possible. You might be virtuous or corrupt, but isn’t that a matter of perspective?</p><ul><li><strong>Focus:</strong> Communication (Deception or Persuasion) or Intelligence (Current Affairs or Law)</li><li><strong>Talent:</strong> Contacts or Oratory</li></ul>"
+        "content": "<p><em>Social, Middle Class</em></p><p>From neighborhoods to nations, people need to be organized for society to function. You know the tricks it takes to get people to cooperate in that process, sometimes whether they want to or not. Your speeches help people devise collective political dreams, but behind closed doors, you deal in the art of the possible. You might be virtuous or corrupt, but isn’t that a matter of perspective?</p><ul><li><strong>Focus:</strong> Communication (Deception or Persuasion) or Intelligence (Current Affairs or Law)</li><li><strong>Talent:</strong> Contacts or Oratory</li></ul>"
       },
       "sort": 1600000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.q3QiN0ruF0s9W391",
+      "_key": "!journal.pages!ad7e1acea4c3614b.38766cf95cd2dbaf",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "1BmkEfXlDkGsWdpT",
+      "_id": "b4616e6062f88b76",
       "name": "Professional",
       "type": "text",
       "title": {
@@ -395,22 +395,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Skilled, Middle Class</em></p><p>Whether from time toiling in a cubicle farm or your own private office, you know the “white collar” professional world. You might see it as a career path or a stepping stone towards something else, but you know your job and the skills and challenges that come with it.</p><ul><li><strong>Focus:</strong> Communication (Bargaining or Expression) or Intelligence (Business, Computers, or Research)</li><li><strong>Talent:</strong> Affluent or Expertise</li></ul>"
+        "content": "<p><em>Skilled, Middle Class</em></p><p>Whether in a cubical farm or an office, you know the “white collar” professional world. You might see it as a career path or a stepping stone towards something else, but you know your job and the skills and challenges that come with it.</p><ul><li><strong>Focus:</strong> Communication (Bargaining or Expression) or Intelligence (one of Business, Research, or Technology</li><li><strong>Talent:</strong> Affluent or Expertise</li></ul>"
       },
       "sort": 1700000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.1BmkEfXlDkGsWdpT",
+      "_key": "!journal.pages!ad7e1acea4c3614b.b4616e6062f88b76",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "mWnRri5jyx0D53Gd",
+      "_id": "5f71e5dddcf58214",
       "name": "Scavenger",
       "type": "text",
       "title": {
@@ -419,22 +419,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Skilled, Outsider</em></p><p>Most people would be amazed at the things that get thrown away and forgotten, but not you. You are all too familiar with that bounty: how to find it, salvage it, and make the best use of it.</p><ul><li><strong>Focus:</strong> Intelligence (Technology) or Perception (Searching)</li><li><strong>Talent:</strong> Evaluation or Maker</li></ul>"
+        "content": "<p><em>Skilled, Outsider</em></p><p>Most people would be amazed at the things that get thrown away and forgotten, but not you. You are all too familiar with that bounty: how to find it, salvage it, and make the best use of it.</p><ul><li><strong>Focus:</strong> Intelligence (Technology) or Perception (Searching)</li><li><strong>Talent:</strong> Improvisation or Maker</li></ul>"
       },
       "sort": 1800000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.mWnRri5jyx0D53Gd",
+      "_key": "!journal.pages!ad7e1acea4c3614b.5f71e5dddcf58214",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "ktZptAi0OYuDtdcE",
+      "_id": "a1b612bcd8a871f5",
       "name": "Scholar",
       "type": "text",
       "title": {
@@ -443,22 +443,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Skilled, Middle Class</em></p><p>Knowledge and understanding are your fields, focused on a specific area of interest. Whereas the expert profession tends to be about applied knowledge, you focus on knowledge for knowledge’s sake. You might work in a university, or have an amateur obsession. You look to expand your own understanding of your field and, in so doing, perhaps expand the world’s understanding as well.</p><ul><li><strong>Focus:</strong> Intelligence (choose one)</li><li><strong>Talent:</strong> Expertise or Knowledge</li></ul>"
+        "content": "<p><em>Skilled, Middle Class</em></p><p>Knowledge and understanding are your fields, focused on a specific area of interest. Whereas the expert profession tends to be about applied knowledge, you focus on knowledge for knowledge’s sake. You might work in a university, or have an amateur obsession. You look to expand your own understanding of your field and, in so doing, perhaps expend the world’s understanding as well.</p><ul><li><strong>Focus:</strong> Intelligence (choose one)</li><li><strong>Talent:</strong> Expertise or Knowledge</li></ul>"
       },
       "sort": 1900000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.ktZptAi0OYuDtdcE",
+      "_key": "!journal.pages!ad7e1acea4c3614b.a1b612bcd8a871f5",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "G7M2nQfD1nF0EDkN",
+      "_id": "5f5e03677670ef96",
       "name": "Security",
       "type": "text",
       "title": {
@@ -467,22 +467,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Physical, Middle Class</em></p><p>You work to protect things—and people—providing the peace of mind others need to get their jobs done, or even just to live their lives. You might be a law-enforcement officer or a private security guard or consultant, but either way you focus on keeping the bad guys from getting what they want and keeping your charges safe.</p><ul><li><strong>Focus:</strong> Intelligence (Security) or Perception (Empathy, Intuition, or Seeing)</li><li><strong>Talent:</strong> One Fighting Style or Protector</li></ul>"
+        "content": "<p><em>Physical, Middle Class</em></p><p>You work to protect things—and people—providing the peace of mind others need to get their jobs done, or even just to live their lives. You might be a law-enforcement officer or a private security guard or consultant, but either way, you focus on keeping the bad guys from getting what they want and keeping your charges safe.</p><ul><li><strong>Focus:</strong> Intelligence (Security) or Perception (Empathy, Intuition, or Seeing)</li><li><strong>Talent:</strong> One Fighting Style or Protector</li></ul>"
       },
       "sort": 2000000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.G7M2nQfD1nF0EDkN",
+      "_key": "!journal.pages!ad7e1acea4c3614b.5f5e03677670ef96",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "MWHcdSAmpEfIxv9E",
+      "_id": "22287d87cc697be4",
       "name": "Socialite",
       "type": "text",
       "title": {
@@ -491,22 +491,22 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Social, Upper Class</em></p><p>Life is a never-ending series of social engagements, from parties and receptions to fundraisers, weddings, and even funerals, and you navigate all of them with style. Your social obligations might be a burden or a source of enjoyment for you but, whatever the case, they’re yours, and you handle them well. You might lead a life of pure recreation, but your engagements could have political or charitable dimensions as well.</p><ul><li><strong>Focus:</strong> Communication (Etiquette or Seduction) or Constitution (Tolerance)</li><li><strong>Talent:</strong> Attractive or Contacts</li></ul>"
+        "content": "<p><em>Social, Upper Class</em></p><p>Life is a neverending series of social engagements, from parties and receptions to fundraisers, weddings, and even funerals, and you navigate all of them with style. Your social obligations might be a burden or a source of enjoyment for you, but, whatever the case, they’re yours, and you handle them well. You might lead a life of pure recreation, but your engagements could have political or charitable dimensions as well.</p><ul><li><strong>Focus:</strong> Communication (Etiquette or Seduction) or Constitution (Tolerance)</li><li><strong>Talent:</strong> Attractive or Contacts</li></ul>"
       },
       "sort": 2100000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.MWHcdSAmpEfIxv9E",
+      "_key": "!journal.pages!ad7e1acea4c3614b.22287d87cc697be4",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "bAi91tungLn7KBZd",
+      "_id": "654141008d2a4d9e",
       "name": "Soldier",
       "type": "text",
       "title": {
@@ -522,15 +522,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.bAi91tungLn7KBZd",
+      "_key": "!journal.pages!ad7e1acea4c3614b.654141008d2a4d9e",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "iUWRhMnux5JXFlPw",
+      "_id": "085fcebc6c42d3e4",
       "name": "Survivalist",
       "type": "text",
       "title": {
@@ -546,15 +546,15 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.iUWRhMnux5JXFlPw",
+      "_key": "!journal.pages!ad7e1acea4c3614b.085fcebc6c42d3e4",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     },
     {
-      "_id": "0jsLmAuD4bCkR2me",
+      "_id": "bd7ebf7860bca770",
       "name": "Technician",
       "type": "text",
       "title": {
@@ -570,11 +570,11 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!nfkld5zluMxJjs2q.0jsLmAuD4bCkR2me",
+      "_key": "!journal.pages!ad7e1acea4c3614b.bd7ebf7860bca770",
       "_stats": {
         "coreVersion": "14",
-        "systemId": "expanse",
-        "systemVersion": "4.0.0"
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
       }
     }
   ],
@@ -584,8 +584,8 @@
   "ownership": {
     "default": 0
   },
-  "_id": "nfkld5zluMxJjs2q",
-  "_key": "!journal!nfkld5zluMxJjs2q",
+  "_id": "ad7e1acea4c3614b",
+  "_key": "!journal!ad7e1acea4c3614b",
   "_stats": {
     "coreVersion": "14",
     "systemId": "age-system",

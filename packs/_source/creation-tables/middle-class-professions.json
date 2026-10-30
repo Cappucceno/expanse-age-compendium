@@ -1,0 +1,143 @@
+{
+  "name": "Middle Class Professions",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Professions of the middle class social class.",
+  "results": [
+    {
+      "_id": "3c774678d8c92949",
+      "type": "text",
+      "name": "Pilot",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e31b559bd34df432.3c774678d8c92949"
+    },
+    {
+      "_id": "74e63b6636f3a1d6",
+      "type": "text",
+      "name": "Security",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e31b559bd34df432.74e63b6636f3a1d6"
+    },
+    {
+      "_id": "32896ca631a68c76",
+      "type": "text",
+      "name": "Professional",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e31b559bd34df432.32896ca631a68c76"
+    },
+    {
+      "_id": "e7bd625f078f422a",
+      "type": "text",
+      "name": "Scholar",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e31b559bd34df432.e7bd625f078f422a"
+    },
+    {
+      "_id": "6d4043eaae791d83",
+      "type": "text",
+      "name": "Merchant",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e31b559bd34df432.6d4043eaae791d83"
+    },
+    {
+      "_id": "3368c9c1ef78f8fa",
+      "type": "text",
+      "name": "Politician",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e31b559bd34df432.3368c9c1ef78f8fa"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "0d1789835cb40bc6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "e31b559bd34df432",
+  "_key": "!tables!e31b559bd34df432"
+}

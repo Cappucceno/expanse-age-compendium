@@ -1,0 +1,83 @@
+{
+  "name": "Outsider Backgrounds",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Backgrounds of the outsider social class.",
+  "results": [
+    {
+      "_id": "2adc59abdc9d1f02",
+      "type": "text",
+      "name": "Bohemian",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5fc29dcd992c25a3.2adc59abdc9d1f02"
+    },
+    {
+      "_id": "87ae13cb9cf876fc",
+      "type": "text",
+      "name": "Exile",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5fc29dcd992c25a3.87ae13cb9cf876fc"
+    },
+    {
+      "_id": "2ca7c68845802176",
+      "type": "text",
+      "name": "Outcast",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5fc29dcd992c25a3.2ca7c68845802176"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e40bfc57fae3ea33",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "5fc29dcd992c25a3",
+  "_key": "!tables!5fc29dcd992c25a3"
+}

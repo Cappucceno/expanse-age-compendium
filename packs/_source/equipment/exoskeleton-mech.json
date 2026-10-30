@@ -1,0 +1,27 @@
+{
+  "name": "Exoskeleton Mech",
+  "_id": "481085cebd6e4d4e",
+  "_key": "!items!481085cebd6e4d4e",
+  "folder": "c906dfff0ed9e7bf",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Also called a half-mech or half-suit mech, this mech variant is a framework that envelops a person’s upper half to provide the functionality of a salvage mech. The user straps it across their back before fitting it over the chest and arms, but it does not cover the legs. Like a standard salvage mech, the half-mech incorporates a cutting torch and metal claws that impart great strength for tasks such as gripping, bending, and tearing metal. The user controls these metal hands by using waldoes in the mech’s forearms. When folded up, this yellow exoskeleton is small and light enough to carry easily. It can provide a degree of protection in combat, but maneuvering it in a fight is unwieldy.</p>",
+    "weight": 0,
+    "cost": 15,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

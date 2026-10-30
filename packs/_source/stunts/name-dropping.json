@@ -1,8 +1,8 @@
 {
   "name": "Name-Dropping",
-  "_id": "7caSK0JfQ5DqLTec",
-  "_key": "!items!7caSK0JfQ5DqLTec",
-  "folder": "cML2W7TSvQfzGtww",
+  "_id": "20a4fb804b6fab64",
+  "_key": "!items!20a4fb804b6fab64",
+  "folder": "ee6463460422c182",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,8 +14,8 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your action displays your affiliation with someone whose Membership rank is higher than yours in an organization to which you belong, or who has a relevant honorific you don’t. You may use their Reputation or Membership benefits with that honorific or organization as your own for the rest of the session; if they find out and disapprove, worsen their Attitude toward you by one shift.</p>",
-    "type": "Membership & Reputation",
+    "longDesc": "<p><em>Cost: 5 SP</em></p><p>Your action displays your affiliation with someone whose Membership rank is higher than yours in an organization to which you belong, or who has a relevant honorific you don’t. You may use their Reputation or Membership benefits with that honorific or organization as your own for the rest of the session; if they find out and disapprove, worsen their Attitude toward you by one shift. 125</p>",
+    "type": "Membership and Reputation",
     "stuntPoints": 5,
     "stuntPointsMax": 5,
     "costType": "fixed"

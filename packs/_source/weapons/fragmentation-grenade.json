@@ -1,0 +1,39 @@
+{
+  "name": "Fragmentation Grenade",
+  "_id": "4033e3c122a7927e",
+  "_key": "!items!4033e3c122a7927e",
+  "folder": "1144c14e1a28e8de",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p><strong>Area of Effect 5m/15m</strong></p><p>Frag grenades explode into pieces of cutting shrapnel, either by the design of the grenade’s shell or by packing an explosive with bits of metal or other material that amplifies damage when flung at high speed. Their blast radius is increased to 15 meters, and in addition to dealing their blast damage, they may cause a hull breach. Roll 1d6; on a roll of 1 or 2, a breach occurs, and the air begins rushing out of the compartment. See the Threats chapter for details on suffocation hazards.</p><p><em>Thrown: short range 4 m, long range 8 m (Accuracy (Throwing) test, TN 11).</em></p>",
+    "useAbl": "acc",
+    "useFocus": "throwing",
+    "minStr": 0,
+    "nrDice": "4",
+    "diceType": "6",
+    "extraValue": 6,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "4d6+6",
+    "weight": 0,
+    "cost": 12,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 4,
+    "rangeMax": 8
+  },
+  "ownership": {
+    "default": 0
+  }
+}

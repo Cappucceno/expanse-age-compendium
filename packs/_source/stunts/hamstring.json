@@ -1,8 +1,8 @@
 {
   "name": "Hamstring",
-  "_id": "g7MeuGFa3t8m7p3h",
-  "_key": "!items!g7MeuGFa3t8m7p3h",
-  "folder": "5WLkOpAoM7Q1uty9",
+  "_id": "ffd43dffebd6b5ce",
+  "_key": "!items!ffd43dffebd6b5ce",
+  "folder": "39317e98651d4677",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Cumulatively reduce your target’s Speed by 3 for the rest of the encounter. If it’s reduced to 0, they become restrained for the rest of the encounter and cannot move.</p>",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making a melee attack.</em></p><p>Cumulatively reduce your target’s Speed by 3 for the rest of the encounter. If it’s reduced to 0, they become restrained for the rest of the encounter and cannot move.</p>",
     "type": "Melee",
     "stuntPoints": 3,
     "stuntPointsMax": 3,

@@ -1,0 +1,48 @@
+{
+  "name": "Light Vacuum Armor",
+  "_id": "4475b612231508be",
+  "_key": "!items!4475b612231508be",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Also known as an LVA suit, this is a combination of a vac suit and light combat armor. It is a rubberized body suit equipped with a few strategically positioned Kevlar and ceramic plates. Its HUD can identify and track hostile targets while recognizing friendly ones. An LVA suit also provides mobility in the form of compressed-nitrogen-fueled thrusters. It can hold an air bottle that contains a 30-minute supply.</p><p>Armor bonus +4, armor penalty -3, Income TN 17.</p>",
+    "weight": 0,
+    "cost": 17,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {
+      "168f4679891e723b": {
+        "type": "impactArmor",
+        "formula": "4",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "168f4679891e723b"
+      },
+      "703b091b8ee139ab": {
+        "type": "armorPenalty",
+        "formula": "3",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "703b091b8ee139ab"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "Bounty Hunter",
-  "_id": "Ax2TI7BlDQ0ksB8L",
-  "_key": "!actors!Ax2TI7BlDQ0ksB8L",
-  "folder": "N3WRoFwp0q9l0Jar",
+  "_id": "6c1af20a577e98bb",
+  "_key": "!actors!6c1af20a577e98bb",
+  "folder": "0a0697cfb3499f42",
   "sort": 0,
   "flags": {
     "core": {
@@ -49,25 +49,32 @@
       }
     },
     "speed": {
-      "base": 10
+      "base": 12
     },
     "defense": {
-      "base": 10
+      "base": 12
     },
     "health": {
       "set": 22,
       "value": 22
     },
-    "features": "<p><strong>AKA:</strong> Hound, Recovery Agent, Tracker</p><p>When people slip past security, evade the authorities, and escape the military, they become prey for bounty hunters. Sample Adversaries dversaries wish to disable, obstruct, or kill the characters. The type sary who would use their fists instead of the law, or a gun instead e room bargain, is an action adversary. While security guards, and thugs are all ostensibly capable of communication, indepenught, and even reason, they excel in the field of violence. Some of PCs are low-threat hired muscle, while others fit the bill of a “boss he GM should adjust any traits they see fit for the purposes of the o, using the guidelines under Adversary Improvement. d Bounty hunters are kept on retainer by corporations, including some security providers, and operate on their own or as a part of a larger team of hunters. Depending on their level of ethics, many prefer to earn their pay by bringing in the target dead rather than alive. Most of the time, it’s just easier that way. These stats represent a fairly professional bounty hunter, as opposed to a hooligan or a pirate looking to make some quick credits or a security guard or soldier with a side job. See those adversaries for less “formal” bounty hunters. Those with years of experience have a correspondingly higher threat level (see Adversary Improvement).</p><p><strong>Stunts:</strong> Skirmish, Efficient Gunner, Called Shot</p><p><strong>Talents:</strong> Expertise (Tracking, Expert), Living on the Fringe (Expert), Scouting (Expert)</p><p><strong>Equipment:</strong> knife, pistol, stun gun, light body armor, hand terminal, survival gear</p>",
+    "features": "<p>When people slip past security, evade the authorities, or escape the military, they become prey for bounty hunters. Bounty hunters are often kept on retainer by corporations, including some security providers, or operate on their own or as a part of a larger team. Depending on their level of ethics, many prefer to earn their pay by bringing in the target dead rather than alive. Sometimes, that’s simply easier. Likewise, most professional bounty hunters cannot be paid off; however, part-time and amateur hunters might be willing to accept payment in lieu of capture. Of course, the bounty hunter might accept the bribe and turn in their quarry for payment. These stats represent a professional bounty hunter as opposed to an opportunistic pirate or a soldier with a side job. Those with years of experience have a correspondingly higher threat level (see The More Threatening Adversary).</p><p><strong>Favored Stunts:</strong> Called Shot, Efficient Gunner, Skirmish</p><p><strong>Talents:</strong> Expertise - Tracking (Expert), Living on the Fringe (Expert), Scouting (Expert)</p><p><strong>Equipment:</strong> knife, pistol, stun gun, light body armor, hand terminal, survival gear</p><p><strong>Armor + Toughness:</strong> 4</p>",
     "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Bounty Hunter",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
   },
   "items": [
     {
       "name": "Pistols",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "aqkAimsz2CKp2jTt",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.aqkAimsz2CKp2jTt",
+      "_id": "774ba5fcbf47acc2",
+      "_key": "!actors.items!6c1af20a577e98bb.774ba5fcbf47acc2",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -87,8 +94,8 @@
       "name": "Bargaining",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "oDwkk5YxmkqK9P2F",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.oDwkk5YxmkqK9P2F",
+      "_id": "4004d9c9a651d5f7",
+      "_key": "!actors.items!6c1af20a577e98bb.4004d9c9a651d5f7",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -108,8 +115,8 @@
       "name": "Stamina",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "sg3ukizdd2iZuNZ9",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.sg3ukizdd2iZuNZ9",
+      "_id": "719dbbb88fa7ad82",
+      "_key": "!actors.items!6c1af20a577e98bb.719dbbb88fa7ad82",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -129,8 +136,8 @@
       "name": "Piloting",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "HIRxNwzvWmCoeWf7",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.HIRxNwzvWmCoeWf7",
+      "_id": "e18c339cb747244d",
+      "_key": "!actors.items!6c1af20a577e98bb.e18c339cb747244d",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -150,8 +157,8 @@
       "name": "Stealth",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "lEmpxXTD7bwZmVsM",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.lEmpxXTD7bwZmVsM",
+      "_id": "a34935e7047dc396",
+      "_key": "!actors.items!6c1af20a577e98bb.a34935e7047dc396",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -171,8 +178,8 @@
       "name": "Light Weapons",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "A6TI27esAHfsDx5z",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.A6TI27esAHfsDx5z",
+      "_id": "0be47d928d134b3d",
+      "_key": "!actors.items!6c1af20a577e98bb.0be47d928d134b3d",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -192,8 +199,8 @@
       "name": "Law",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "3Cp87KGCfxKiM3Q9",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.3Cp87KGCfxKiM3Q9",
+      "_id": "e55a3dd64df84fdb",
+      "_key": "!actors.items!6c1af20a577e98bb.e55a3dd64df84fdb",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -213,8 +220,8 @@
       "name": "Seeing",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "XgsAqf7amcDZnZgz",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.XgsAqf7amcDZnZgz",
+      "_id": "e468060c9a0e3138",
+      "_key": "!actors.items!6c1af20a577e98bb.e468060c9a0e3138",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -234,8 +241,8 @@
       "name": "Tracking",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "6uwwHqjkrR3Ek5aE",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.6uwwHqjkrR3Ek5aE",
+      "_id": "c2f4cf879c586cf6",
+      "_key": "!actors.items!6c1af20a577e98bb.c2f4cf879c586cf6",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -255,8 +262,8 @@
       "name": "Knife",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "1qaDOg4cYKWTTUMo",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.1qaDOg4cYKWTTUMo",
+      "_id": "b28849c97d6ad754",
+      "_key": "!actors.items!6c1af20a577e98bb.b28849c97d6ad754",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -267,9 +274,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +4, damage 1d6+2.</p>",
+        "longDesc": "<p>Attack roll +4</p>",
         "useAbl": "fight",
-        "useFocus": "light weapons",
         "nrDice": "1",
         "diceType": "6",
         "extraValue": 2,
@@ -280,15 +286,16 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": false
       }
     },
     {
       "name": "Pistol",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "7242RoMHIXmniV94",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.7242RoMHIXmniV94",
+      "_id": "b708e5d51b5b468a",
+      "_key": "!actors.items!6c1af20a577e98bb.b708e5d51b5b468a",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -299,9 +306,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +4, damage 2d6+3.</p>",
+        "longDesc": "<p>Attack roll +4</p>",
         "useAbl": "acc",
-        "useFocus": "pistols",
         "nrDice": "2",
         "diceType": "6",
         "extraValue": 3,
@@ -312,15 +318,16 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": true
       }
     },
     {
       "name": "Stun Gun",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "JrHF6YhsmVDRa6wE",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.JrHF6YhsmVDRa6wE",
+      "_id": "cbf7ddeb620a4cd9",
+      "_key": "!actors.items!6c1af20a577e98bb.cbf7ddeb620a4cd9",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -331,9 +338,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +4, damage 1d6+3.</p>",
+        "longDesc": "<p>Attack roll +4</p>",
         "useAbl": "acc",
-        "useFocus": "pistols",
         "nrDice": "1",
         "diceType": "6",
         "extraValue": 3,
@@ -344,47 +350,9 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
-      }
-    },
-    {
-      "name": "Armor",
-      "type": "equipment",
-      "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
-      "_id": "o6mSVKQ4f0qRZUrL",
-      "_key": "!actors.items!Ax2TI7BlDQ0ksB8L.o6mSVKQ4f0qRZUrL",
-      "flags": {},
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "_stats": {
-        "coreVersion": "14",
-        "systemId": "age-system",
-        "systemVersion": "5.0.0"
-      },
-      "system": {
-        "equiped": true,
-        "modifiers": {
-          "ue1X1X6OVJywYlmE": {
-            "type": "impactArmor",
-            "formula": "2",
-            "flavor": "",
-            "isActive": true,
-            "valid": true,
-            "conditions": {},
-            "ftype": "",
-            "key": "ue1X1X6OVJywYlmE"
-          }
-        },
-        "longDesc": ""
+        "equiped": false,
+        "ranged": true
       }
     }
-  ],
-  "prototypeToken": {
-    "name": "Bounty Hunter",
-    "actorLink": false
-  },
-  "ownership": {
-    "default": 0
-  }
+  ]
 }

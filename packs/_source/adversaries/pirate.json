@@ -1,8 +1,8 @@
 {
   "name": "Pirate",
-  "_id": "ySFkvHvYF1Krs03M",
-  "_key": "!actors!ySFkvHvYF1Krs03M",
-  "folder": "N3WRoFwp0q9l0Jar",
+  "_id": "41d9ea7b0db44ef0",
+  "_key": "!actors!41d9ea7b0db44ef0",
+  "folder": "0a0697cfb3499f42",
   "sort": 0,
   "flags": {
     "core": {
@@ -49,25 +49,32 @@
       }
     },
     "speed": {
-      "base": 10
+      "base": 13
     },
     "defense": {
-      "base": 10
+      "base": 13
     },
     "health": {
       "set": 22,
       "value": 22
     },
-    "features": "<p><strong>AKA:</strong> Ship Raider, Hijacker</p><p>Ships hauling materials, fuel, and ice through the outer planets are targets for piracy. Pirates hide in the midst of small planetoids and debris along normal trade routes, waiting to ambush vessels with little to no security or defense. Many are part of independent crews, but some h r n l , r f , r e also work as arms of criminal organizations or corrupt corporations. Dealing with pirates out in the Belt was one of the primary duties of the navies of Earth and Mars prior to more recent conflicts, but now piracy is on the rise and patrols are fewer.</p><p><strong>Stunts:</strong> Knock Prone, Lightning Attack</p><p><strong>Talents:</strong> Living on the Fringe (Novice), Quick Reflexes (Novice)</p><p><strong>Equipment:</strong> flight coveralls, machine tools, makeshift club, pistol, utility knife</p>",
+    "features": "<p>Ships hauling materials, fuel, and ice through the outer planets or ring network are targets for piracy. Pirates hide amid small planetoids and debris along normal trade routes, waiting to ambush vessels with little to no security or defense. Many pirates are part of independent crews, but some work as arms of criminal organizations or corrupt corporations. No pirate crew lasts long without someone calling the shots. A pirate captain relies on some combination of loyalty, intimidation, or demonstrating prowess to stay in charge. Prior to the Transport Union era, conflict between Earth, Mars and the Belt provided ample distraction for pirate activity to rise in the Belt, allowing new captains to make their name. And with the Union stretched thin, catching a ship at or near their destined gate often only requires careful planning and speed.</p><p><strong>Favored Stunts:</strong> Knock Prone, Lightning Attack</p><p><strong>Talents:</strong> Living on the Fringe (Novice), Quick Reflexes (Novice)</p><p><strong>Equipment:</strong> flight coveralls, machine tools, makeshift club, pistol, utility knife</p><p><strong>Armor + Toughness:</strong> 4</p>",
     "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Pirate",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
   },
   "items": [
     {
       "name": "Pistols",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "e4IDads8FKPQebI8",
-      "_key": "!actors.items!ySFkvHvYF1Krs03M.e4IDads8FKPQebI8",
+      "_id": "450b9771d258b18e",
+      "_key": "!actors.items!41d9ea7b0db44ef0.450b9771d258b18e",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -84,11 +91,32 @@
       }
     },
     {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "e3fd70506edaa9b4",
+      "_key": "!actors.items!41d9ea7b0db44ef0.e3fd70506edaa9b4",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
       "name": "Piloting",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "9Zqa6azlrh7VVhqA",
-      "_key": "!actors.items!ySFkvHvYF1Krs03M.9Zqa6azlrh7VVhqA",
+      "_id": "f4888a8ae139760b",
+      "_key": "!actors.items!41d9ea7b0db44ef0.f4888a8ae139760b",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -108,8 +136,8 @@
       "name": "Stealth",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "wlrTIepc2fJWabnn",
-      "_key": "!actors.items!ySFkvHvYF1Krs03M.wlrTIepc2fJWabnn",
+      "_id": "91f3f4f8981b6217",
+      "_key": "!actors.items!41d9ea7b0db44ef0.91f3f4f8981b6217",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -129,8 +157,8 @@
       "name": "Engineering",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "KEu2GqYo4bhPDEfi",
-      "_key": "!actors.items!ySFkvHvYF1Krs03M.KEu2GqYo4bhPDEfi",
+      "_id": "6bf4af8db2586c07",
+      "_key": "!actors.items!41d9ea7b0db44ef0.6bf4af8db2586c07",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -150,8 +178,8 @@
       "name": "Evaluation",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "n7qh4Ovy3pEOOrnA",
-      "_key": "!actors.items!ySFkvHvYF1Krs03M.n7qh4Ovy3pEOOrnA",
+      "_id": "bb8062a78825dc71",
+      "_key": "!actors.items!41d9ea7b0db44ef0.bb8062a78825dc71",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -171,8 +199,8 @@
       "name": "Seeing",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "s6FtLVIUPKjm2QlJ",
-      "_key": "!actors.items!ySFkvHvYF1Krs03M.s6FtLVIUPKjm2QlJ",
+      "_id": "5139f4d73405dee9",
+      "_key": "!actors.items!41d9ea7b0db44ef0.5139f4d73405dee9",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -192,8 +220,8 @@
       "name": "Intimidation",
       "type": "focus",
       "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
-      "_id": "wW93QeGKqHo5Kn52",
-      "_key": "!actors.items!ySFkvHvYF1Krs03M.wW93QeGKqHo5Kn52",
+      "_id": "016c5a7be5d68143",
+      "_key": "!actors.items!41d9ea7b0db44ef0.016c5a7be5d68143",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -213,8 +241,8 @@
       "name": "Club",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "6tkDRpYSWjGLeNOK",
-      "_key": "!actors.items!ySFkvHvYF1Krs03M.6tkDRpYSWjGLeNOK",
+      "_id": "de788269f398800f",
+      "_key": "!actors.items!41d9ea7b0db44ef0.de788269f398800f",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -225,9 +253,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +2, damage 1d6+1.</p>",
+        "longDesc": "<p>Attack roll +2</p>",
         "useAbl": "fight",
-        "useFocus": "",
         "nrDice": "1",
         "diceType": "6",
         "extraValue": 1,
@@ -238,15 +265,16 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": false
       }
     },
     {
       "name": "Knife",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "9CCLDBTh2GzbTi5R",
-      "_key": "!actors.items!ySFkvHvYF1Krs03M.9CCLDBTh2GzbTi5R",
+      "_id": "8251d974472c1b90",
+      "_key": "!actors.items!41d9ea7b0db44ef0.8251d974472c1b90",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -257,9 +285,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +2, damage 1d6+2.</p>",
+        "longDesc": "<p>Attack roll +2</p>",
         "useAbl": "fight",
-        "useFocus": "light weapons",
         "nrDice": "1",
         "diceType": "6",
         "extraValue": 2,
@@ -270,15 +297,16 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": false
       }
     },
     {
       "name": "Pistol",
       "type": "weapon",
       "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
-      "_id": "qN0VFwWUDcRu4bWJ",
-      "_key": "!actors.items!ySFkvHvYF1Krs03M.qN0VFwWUDcRu4bWJ",
+      "_id": "bdbe3a96ba0b4e85",
+      "_key": "!actors.items!41d9ea7b0db44ef0.bdbe3a96ba0b4e85",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -289,9 +317,8 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "longDesc": "<p>Attack roll +4, damage 2d6+1.</p>",
+        "longDesc": "<p>Attack roll +4</p>",
         "useAbl": "acc",
-        "useFocus": "pistols",
         "nrDice": "2",
         "diceType": "6",
         "extraValue": 1,
@@ -302,15 +329,16 @@
         "weight": 0,
         "cost": 0,
         "quantity": 1,
-        "equiped": true
+        "equiped": false,
+        "ranged": true
       }
     },
     {
-      "name": "Armor",
-      "type": "equipment",
-      "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
-      "_id": "WF3m80cxXPbDgfr0",
-      "_key": "!actors.items!ySFkvHvYF1Krs03M.WF3m80cxXPbDgfr0",
+      "name": "Stun Baton",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "7d4699e6fdae41c1",
+      "_key": "!actors.items!41d9ea7b0db44ef0.7d4699e6fdae41c1",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -321,28 +349,21 @@
         "systemVersion": "5.0.0"
       },
       "system": {
-        "equiped": true,
-        "modifiers": {
-          "qS2vayvEIFXKAfcc": {
-            "type": "impactArmor",
-            "formula": "3",
-            "flavor": "",
-            "isActive": true,
-            "valid": true,
-            "conditions": {},
-            "ftype": "",
-            "key": "qS2vayvEIFXKAfcc"
-          }
-        },
-        "longDesc": ""
+        "longDesc": "<p>Attack roll +2; Penetrating</p>",
+        "useAbl": "fight",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 4,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "penetrating",
+        "damageFormula": "1d6+4",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": false,
+        "ranged": false
       }
     }
-  ],
-  "prototypeToken": {
-    "name": "Pirate",
-    "actorLink": false
-  },
-  "ownership": {
-    "default": 0
-  }
+  ]
 }

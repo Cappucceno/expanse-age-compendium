@@ -1,0 +1,27 @@
+{
+  "name": "Hand Terminal",
+  "_id": "3eb126a0e046b056",
+  "_key": "!items!3eb126a0e046b056",
+  "folder": "a824f49866272be9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Almost everyone has a hand terminal—a palm-sized portable computer used to display information or run programs. Hand terminals have onboard processing and memory, allowing them to run “simple experts” to help organize the user’s daily life, play games and other entertainment software, or let the user read books, listen to music, or watch videos from the network or its internal library. A hand terminal can be used via controls displayed on its touchscreen, or through voice recognition, letting the user give it commands in everyday language. Hand terminals are cheap and ubiquitously available, and when one is lost or damaged, it is easily replaced, with the user’s profile reloaded from a partitioned backup.</p>",
+    "weight": 0,
+    "cost": 8,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

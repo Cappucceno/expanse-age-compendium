@@ -1,0 +1,39 @@
+{
+  "name": "Grenade Launcher",
+  "_id": "4cc8f07e2b595b19",
+  "_key": "!items!4cc8f07e2b595b19",
+  "folder": "32c00cbe9751ea6e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>A character can fire any kind of grenade from a grenade launcher instead of throwing it. Grenade launchers come.</p><p><em>Damage is the same as the grenade fired.</em></p>",
+    "useAbl": "acc",
+    "useFocus": "grenades",
+    "minStr": 0,
+    "nrDice": "0",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "0",
+    "weight": 0,
+    "cost": 15,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 150,
+    "rangeMax": 350
+  },
+  "ownership": {
+    "default": 0
+  }
+}

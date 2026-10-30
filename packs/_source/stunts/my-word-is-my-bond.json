@@ -1,8 +1,8 @@
 {
   "name": "My Word Is My Bond",
-  "_id": "bkJm3Ul9ypV1fwst",
-  "_key": "!items!bkJm3Ul9ypV1fwst",
-  "folder": "RYCI0kZp4Uq2YPRL",
+  "_id": "55d13eb2ba3baa0e",
+  "_key": "!items!55d13eb2ba3baa0e",
+  "folder": "a7eaf3a981654930",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Applies to a test relevant to completing a task you’ve promised someone you have a Relationship with you’ll perform. Gain +2 to tests directly related to completing this task until the end of the session. This stunt requires bonus SP available from a Relationship in order to meet the necessary cost.</p>",
+    "longDesc": "<p><em>Cost: 7 SP</em></p><p>Applies to a test relevant to completing a task you’ve promised someone you have a Relationship with you’ll perform. Gain +2 to tests directly related to completing this task until the end of the session. This stunt requires bonus SP available from a Relationship in order to meet the necessary cost.</p>",
     "type": "General Social",
     "stuntPoints": 7,
     "stuntPointsMax": 7,

@@ -1,8 +1,8 @@
 {
   "name": "Group Tactics",
-  "_id": "zBn34aztGQjckSpC",
-  "_key": "!items!zBn34aztGQjckSpC",
-  "folder": "iUVfhOY02Hq2jOoj",
+  "_id": "225150df535be70e",
+  "_key": "!items!225150df535be70e",
+  "folder": "5905993f12458e24",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -18,7 +18,7 @@
     "type": "General Combat",
     "stuntPoints": 2,
     "stuntPointsMax": 2,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

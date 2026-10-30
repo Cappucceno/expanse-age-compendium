@@ -1,8 +1,8 @@
 {
   "name": "Hacking",
-  "_id": "AjggeAJZTuPwm4jJ",
-  "_key": "!items!AjggeAJZTuPwm4jJ",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "3c7da7bfe52e30cc",
+  "_key": "!items!3c7da7bfe52e30cc",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -25,7 +25,7 @@
       "isActive": true
     },
     "degree1": {
-      "desc": "<p>If you fail an Intelligence (Technology) test, you can re-roll it, but must keep the results of the second roll.</p>",
+      "desc": "<p>If you fail an Intelligence (Technology) test, you can re-roll it but must keep the results of the second roll.</p>",
       "isActive": true
     },
     "degree2": {

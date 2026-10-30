@@ -1,0 +1,26 @@
+{
+  "name": "Burn Them",
+  "_id": "cff2b8d2e38084f7",
+  "_key": "!items!cff2b8d2e38084f7",
+  "folder": "a4b3612d20ccffc7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 5 SP</em></p><p><em>In addition to the stunts listed here, pilots also have access to the following Command stunts at the same SP cost: Blinding Maneuver, Evasive Action, On-Target, Misdirect, and Set-Up.</em></p><p>An Epstein drive emits a powerful drive plume that can, in a pinch, be used as a weapon. To do this successfully, the ship must be at Close range and able to perform a sudden flip and burn that points the drive plume directly at the enemy ship. Because the ships must be precariously close, this maneuver can’t be used in normal engagements—only if circumstances have dictated that the ships are under 1 km apart. Unfortunately, this maneuver leaves the crew’s ship vulnerable and open to attack. To successfully perform this maneuver, the pilot must also make a successful opposed TN 19 Dexterity (Piloting) test against the other ship at 2. If successful, the other ship is engulfed in your drive plume, causing 6d6 damage. The downside is that only rear-facing weapons can fire while the ship performs this maneuver, and enemy ships have a +2 to their evasion tests. Also, due to being in an exposed position, all evasion tests are at 2. If the pilot fails this test, they fail to engulf the enemy ship with the drive plume but still suffer all of the associated penalties. CREW STuNTS Only the commander of a ship generates SP. As described previously, under Command, the commander makes a test and either uses those SPs or distributes them to the crew. A character who uses SP given to them in a round can still make their usual action unless the stunt somehow supersedes that action.</p>",
+    "type": "Pilot",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

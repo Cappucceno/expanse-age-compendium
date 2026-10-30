@@ -1,0 +1,37 @@
+{
+  "name": "Generic Light Close Weapon",
+  "_id": "2a3be8cff84afb23",
+  "_key": "!items!2a3be8cff84afb23",
+  "folder": "f7d0a20963996302",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Simplified weapon of the Generic Weapons table, for games that do not need the details of individual weapons.</p>",
+    "useAbl": "fight",
+    "useFocus": "light weapons",
+    "minStr": 0,
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "str",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "1d6",
+    "weight": 0,
+    "cost": 6,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

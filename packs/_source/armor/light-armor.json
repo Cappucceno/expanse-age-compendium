@@ -1,7 +1,7 @@
 {
   "name": "Light Armor",
-  "_id": "7lhdVs0ahiUrmSjU",
-  "_key": "!items!7lhdVs0ahiUrmSjU",
+  "_id": "edf1552b81b080d5",
+  "_key": "!items!edf1552b81b080d5",
   "folder": null,
   "sort": 0,
   "flags": {},
@@ -14,13 +14,13 @@
   "type": "equipment",
   "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
   "system": {
-    "longDesc": "<p>Modern anti-ballistic materials, similar in weight to a light jacket or lined jumpsuit, easy to wear without drawing notice.</p>",
+    "longDesc": "<p>Light body armor is made from modern anti-ballistic materials intended to stop bullets and other weapons from penetrating to minimize damage. It is similar in weight to a light jacket or lined jumpsuit and thus fairly easy to wear without drawing a great deal of notice. The thermal and micrometeor protection of a vac suit offers the equivalent of light armor protection (see Space Suit Protection, following).</p><p>Armor bonus +2, armor penalty -1, Income TN 12.</p>",
     "weight": 0,
     "cost": 12,
     "quantity": 1,
     "equiped": false,
     "modifiers": {
-      "ue1X1X6OVJywYlmE": {
+      "3c0077cba1a6c765": {
         "type": "impactArmor",
         "formula": "2",
         "flavor": "",
@@ -28,9 +28,9 @@
         "valid": true,
         "conditions": {},
         "ftype": "",
-        "key": "ue1X1X6OVJywYlmE"
+        "key": "3c0077cba1a6c765"
       },
-      "7Rl0HMiJvxLusB6G": {
+      "a3d776e00ea4b8a0": {
         "type": "armorPenalty",
         "formula": "1",
         "flavor": "",
@@ -38,7 +38,7 @@
         "valid": true,
         "conditions": {},
         "ftype": "",
-        "key": "7Rl0HMiJvxLusB6G"
+        "key": "a3d776e00ea4b8a0"
       }
     }
   },

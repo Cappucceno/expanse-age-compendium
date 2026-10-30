@@ -1,0 +1,28 @@
+{
+  "name": "AV Memory",
+  "_id": "57ff0733846e31e2",
+  "_key": "!items!57ff0733846e31e2",
+  "folder": "6431f3390016b896",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>You can record everything you see and hear as if you were a high-res video camera and download it to external digital storage through a concealed port. With the Commlink augmentation (following), you can also download and transmit your sensory feed wirelessly like a live video broadcast.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

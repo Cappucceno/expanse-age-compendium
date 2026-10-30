@@ -1,8 +1,8 @@
 {
   "name": "Called Shot",
-  "_id": "kkwV6z7WLZokmf0f",
-  "_key": "!items!kkwV6z7WLZokmf0f",
-  "folder": "HjZS0NpKrp9ecqIY",
+  "_id": "1c2eaea6c3a5d44c",
+  "_key": "!items!1c2eaea6c3a5d44c",
+  "folder": "50729435b57d6849",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>You target an exposed part of your opponent’s body. The attack’s damage becomes penetrating.</p>",
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p><em>NOTE: You may only choose stunts from this list when you earn the SP while making an attack with a gun. Some gun stunts require a specific type of gun, such as a pistol, rifle, or automatic weapon.</em></p><p>You target an exposed part of your opponent’s body. The attack’s damage becomes penetrating.</p>",
     "type": "Gun",
     "stuntPoints": 4,
     "stuntPointsMax": 4,

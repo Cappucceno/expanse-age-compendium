@@ -1,8 +1,8 @@
 {
   "name": "Commando",
-  "_id": "gI3h74ipsJG9GEBs",
-  "_key": "!items!gI3h74ipsJG9GEBs",
-  "folder": "y88XXvdfe5pCOOAm",
+  "_id": "571599424cff806d",
+  "_key": "!items!571599424cff806d",
+  "folder": "80ce7cbdc4864d90",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,14 +14,14 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>You are trained to fight, and to win, no matter the odds.</p><p>For as long as there have been people, there have been wars, and there have been soldiers to fight them. You’re not just any soldier, however. You are one of the best there is: the elite special forces, like a UN commando or Martian Marine, or perhaps an OPA veteran of countless conflicts who knows all of the tricks. You might also be a mercenary, either working for corporate security or your latest client. SYNERGIES: A Commando-Executive might be a commanding officer while a Commando-Gunfighter or Commando-Sniper is probably a weapon specialist. A Commando-Thief might be a trained infiltration expert; the same for a Commando-Agent.</p>",
+    "longDesc": "<p>For as long as there have been people, there have been wars—and the soldiers to fight them. You’re not just any soldier, however, you are one of the best there is, the elite special forces, like a UN commando or Martian Marine, or perhaps an OPA veteran of countless conflicts who knows all of the tricks. You might also be a mercenary, either working for corporate security or your latest client.</p><p><em>Synergies:</em> A Commando-Executive might be a commanding officer while a Commando-Gunfighter or Commando-Sniper is probably a weapon specialist. A Commando-Thief might be a trained infiltration expert, the same for a Commando-Agent.</p><p>You are trained to fight, and to win, no matter the odds.</p>",
     "shortDesc": "",
-    "requirement": "Constitution 2 or higher and the Willpower (Self-Discipline) focus",
+    "requirement": "Constitution 2+, Willpower (Self-Discipline) focus.",
     "type": "spec",
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>If you fail a Constitution or Willpower (SelfDiscipline) test, you can re-roll, but must keep the result of the second roll.</p>",
+      "desc": "<p>If you fail a Constitution or Willpower (Self-Discipline) test, you can re-roll, but must keep the result of the second roll.</p>",
       "isActive": true
     },
     "degree1": {
@@ -29,7 +29,7 @@
       "isActive": true
     },
     "degree2": {
-      "desc": "<p>You can overcome the effects of some conditions through sheer grit. When you acquire the exhausted, fatigued, injured, or wounded conditions, make a TN 13 Constitution (Stamina) or Willpower (SelfDiscipline) test; if you succeed, you ignore the effects of the condition for the remainder of the encounter, although the condition itself remains.</p>",
+      "desc": "<p>You can overcome the effects of some conditions through sheer grit. When you acquire the exhausted, fatigued, injured, or wounded conditions, make a TN 13 Constitution (Stamina) or Willpower (Self-Discipline) test; if you succeed, you ignore the effects of the condition for the remainder of the encounter, although the condition itself remains.</p>",
       "isActive": true
     }
   },

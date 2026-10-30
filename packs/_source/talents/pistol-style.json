@@ -1,8 +1,8 @@
 {
   "name": "Pistol Style",
-  "_id": "a1E5AFTPHmoDClHx",
-  "_key": "!items!a1E5AFTPHmoDClHx",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "0b6f84652666c38a",
+  "_key": "!items!0b6f84652666c38a",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -21,7 +21,7 @@
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You are deadlier close-up. You gain a +1 bonus to damage with pistols against targets within 6 meters.</p>",
+      "desc": "<p>You are deadlier when you’re closer. You gain a +1 bonus to damage with pistols against targets within 6 meters.</p>",
       "isActive": true
     },
     "degree1": {

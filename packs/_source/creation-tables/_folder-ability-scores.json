@@ -1,14 +1,14 @@
 {
   "name": "Ability Scores",
-  "type": "RollTable",
+  "type": "Item",
   "folder": null,
   "sorting": "a",
-  "sort": 100000,
+  "sort": 500000,
   "color": null,
   "description": "",
   "flags": {},
-  "_id": "FEDqoEiJUhDeJKIZ",
-  "_key": "!folders!FEDqoEiJUhDeJKIZ",
+  "_id": "5a9a8813416ea9c1",
+  "_key": "!folders!5a9a8813416ea9c1",
   "_stats": {
     "coreVersion": "14",
     "systemId": "age-system",

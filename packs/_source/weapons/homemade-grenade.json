@@ -1,0 +1,39 @@
+{
+  "name": "Homemade Grenade",
+  "_id": "ec9f208279ed7ec9",
+  "_key": "!items!ec9f208279ed7ec9",
+  "folder": "1144c14e1a28e8de",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p><strong>Area of Effect 5 M/15m</strong></p><p>Amateur makeshift grenades sometimes appear as a part of emergency defense. They have the Unreliable flaw and usually inflict less damage than standard grenades. The GM can change the damage or area of effect of a homemade grenade depending on the quality and materials used.</p><p><em>Thrown: short range 4 m, long range 8 m (Accuracy (Throwing) test, TN 11).</em></p>",
+    "useAbl": "acc",
+    "useFocus": "throwing",
+    "minStr": 0,
+    "nrDice": "3",
+    "diceType": "6",
+    "extraValue": 6,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "3d6+6",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 4,
+    "rangeMax": 8
+  },
+  "ownership": {
+    "default": 0
+  }
+}

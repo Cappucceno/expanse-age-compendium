@@ -1,8 +1,8 @@
 {
   "name": "Lucky Break (Detailed)",
-  "_id": "WshRKrzOYk0sBx92",
-  "_key": "!items!WshRKrzOYk0sBx92",
-  "folder": "emDfthNa99SyoHpm",
+  "_id": "40da1780e9344c80",
+  "_key": "!items!40da1780e9344c80",
+  "folder": "f19d512036b73b4c",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>This test’s result leads fortuitously to putting two and two together later. Treat one irrelevant focus as a tangential one on the next test you make to unlock a lead related to this test.</p>",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p><em>Some investigation stunts have different effects depending on whether you are pursuing a simple or detailed investigation, denoted by parenthetical tags.</em></p><p>This test’s result fortuitously leads to putting two and two together. Treat one irrelevant focus as a tangential one on the next test you make to unlock a lead related to this test.</p>",
     "type": "Investigation",
     "stuntPoints": 3,
     "stuntPointsMax": 3,

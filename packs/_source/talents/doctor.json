@@ -1,8 +1,8 @@
 {
   "name": "Doctor",
-  "_id": "4CtO6zGnFJjMuc37",
-  "_key": "!items!4CtO6zGnFJjMuc37",
-  "folder": "opoX9skfsSqnhBs0",
+  "_id": "f6592f05b729b87e",
+  "_key": "!items!f6592f05b729b87e",
+  "folder": "b9e9d42ddcbba321",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "talent",
   "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
   "system": {
-    "longDesc": "<p>You have the skills to heal wounds and treat illness and other conditions. See Interludes in Chapter 5 for addiional details.</p>",
+    "longDesc": "<p>You can heal wounds and treat illness and other conditions. See Interludes in Chapter 5 for additional details.</p>",
     "shortDesc": "",
     "requirement": "Intelligence (Medicine) focus",
     "type": "talent",

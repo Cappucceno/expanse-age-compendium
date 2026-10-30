@@ -1,8 +1,8 @@
 {
   "name": "Battleship",
-  "_id": "GKEGJCOQnZ9oZdCO",
-  "_key": "!actors!GKEGJCOQnZ9oZdCO",
-  "folder": "tDRTDSD1PdCpoxfe",
+  "_id": "a7f21fbf0e3da4d0",
+  "_key": "!actors!a7f21fbf0e3da4d0",
+  "folder": "a4e1452b7f1ca471",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -16,7 +16,7 @@
   "system": {
     "size": 7,
     "drive": "Epstein, Thrusters",
-    "description": "<p><strong>Competence:</strong> Skilled to Elite</p><p><strong>Qualities:</strong> Advanced Sensor Package (+2), Good Juice, Hangar Bay, Improved Stores, Medical Expert System, Plasma Torpedoes, Self- Destruct System</p><p><strong>Flaws:</strong> None.</p><p><strong>Crew:</strong> 256 (2,048)</p><p><strong>Size:</strong> Colossal (500 meters long)</p>",
+    "description": "<p><strong>Competence:</strong> Skilled to Elite</p><p><strong>Qualities:</strong> Advanced Sensor Package II, Good Juice, Hangar Bay, Hull Plating III, Improved Acceleration, Improved Stores, Medical Expert System, Plasma Torpedoes, Redundant Hull (Double), Self-Destruct System</p><p><strong>Flaws:</strong> None</p><p><strong>Crew:</strong> 256 (2048)</p><p><strong>Size:</strong> Colossal (500 meters long)</p>",
     "hull": {
       "nrDice": 5,
       "diceType": 6,
@@ -34,13 +34,20 @@
       }
     }
   },
+  "prototypeToken": {
+    "name": "Battleship",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  },
   "items": [
     {
       "name": "Point Defense Network",
       "type": "shipfeatures",
       "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
-      "_id": "fYn8kKlb9gPNSIXH",
-      "_key": "!actors.items!GKEGJCOQnZ9oZdCO.fYn8kKlb9gPNSIXH",
+      "_id": "c9d1525ffbb60685",
+      "_key": "!actors.items!a7f21fbf0e3da4d0.c9d1525ffbb60685",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -55,15 +62,15 @@
         "damage": "2d6",
         "quality": "quality",
         "isActive": true,
-        "longDesc": ""
+        "longDesc": "<p>Full Coverage, Close Range, 2d6 Damage</p>"
       }
     },
     {
-      "name": "Two Rail Gun Turrets",
+      "name": "2 × Rail Gun Turrets",
       "type": "shipfeatures",
       "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
-      "_id": "IxDi64KJ3afB2ke7",
-      "_key": "!actors.items!GKEGJCOQnZ9oZdCO.IxDi64KJ3afB2ke7",
+      "_id": "1b640a0c6afa2354",
+      "_key": "!actors.items!a7f21fbf0e3da4d0.1b640a0c6afa2354",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -78,15 +85,15 @@
         "damage": "3d6",
         "quality": "quality",
         "isActive": true,
-        "longDesc": ""
+        "longDesc": "<p>Medium Range, 3d6 Damage</p>"
       }
     },
     {
-      "name": "Four Torpedo Tubes",
+      "name": "12 × Torpedo Tubes",
       "type": "shipfeatures",
       "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
-      "_id": "lhm4wegAvNG2cnMU",
-      "_key": "!actors.items!GKEGJCOQnZ9oZdCO.lhm4wegAvNG2cnMU",
+      "_id": "30d15c4b90dbe6b4",
+      "_key": "!actors.items!a7f21fbf0e3da4d0.30d15c4b90dbe6b4",
       "flags": {},
       "effects": [],
       "folder": null,
@@ -101,15 +108,8 @@
         "damage": "4d6",
         "quality": "quality",
         "isActive": true,
-        "longDesc": ""
+        "longDesc": "<p>Long Range, 4d6 Damage</p>"
       }
     }
-  ],
-  "prototypeToken": {
-    "name": "Battleship",
-    "actorLink": true
-  },
-  "ownership": {
-    "default": 0
-  }
+  ]
 }

@@ -1,0 +1,39 @@
+{
+  "name": "Assault Rifle",
+  "_id": "04dcb801321da7a3",
+  "_key": "!items!04dcb801321da7a3",
+  "folder": "32c00cbe9751ea6e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Extremely powerful and versatile, this rifle is fully capable of automatic fire while also being capable of several other modes (single shot, short burst, and fully automatic). This weapon has the Automatic Quality.</p>",
+    "useAbl": "acc",
+    "useFocus": "rifles",
+    "minStr": 0,
+    "nrDice": "3",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "3d6",
+    "weight": 0,
+    "cost": 12,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 200,
+    "rangeMax": 300
+  },
+  "ownership": {
+    "default": 0
+  }
+}

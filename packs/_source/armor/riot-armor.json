@@ -1,0 +1,48 @@
+{
+  "name": "Riot Armor",
+  "_id": "b604773d86bdacee",
+  "_key": "!items!b604773d86bdacee",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>This standard light armor sees use among many civilian security and police forces in crowd control situations. It consists of bullet-resistant armored plates for the chest, thighs, and shins, plus a helmet with face guard. The armor is commonly paired with riot shields and stun batons, collectively called riot gear. The helmet incorporates a radio and speakers. Weak points on this armor include the throat and the inner thigh.</p><p>Armor bonus +5, armor penalty -3, Income TN 13.</p>",
+    "weight": 0,
+    "cost": 13,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {
+      "03b28555faa68f11": {
+        "type": "impactArmor",
+        "formula": "5",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "03b28555faa68f11"
+      },
+      "703b091b8ee139ab": {
+        "type": "armorPenalty",
+        "formula": "3",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "703b091b8ee139ab"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

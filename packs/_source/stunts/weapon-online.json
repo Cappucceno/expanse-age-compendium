@@ -1,0 +1,26 @@
+{
+  "name": "Weapon Online",
+  "_id": "b122fa0c6e1269bb",
+  "_key": "!items!b122fa0c6e1269bb",
+  "folder": "0c23c3a9338525c5",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cost: 5 SP</em></p><p>One of the crew can temporarily bring a damaged weapon, or a weapon that has run out of ammo, (possibly the result of the GM using a Churn Effect) back online. A character can attempt a TN 14 Intelligence (Engineering) or Accuracy (Gunnery) test to bring a weapon back online. The weapon can make 1d3 shots before giving up the ghost for good and requiring a proper repair. The weapon cannot be brought back online again without the ship receiving full maintenance at a spaceport.</p>",
+    "type": "Command",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

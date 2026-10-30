@@ -1,8 +1,8 @@
 {
   "name": "Class Clown",
-  "_id": "jRKPUr7uyDdxRdoR",
-  "_key": "!items!jRKPUr7uyDdxRdoR",
-  "folder": "RYCI0kZp4Uq2YPRL",
+  "_id": "c1ed3a1319d4b38e",
+  "_key": "!items!c1ed3a1319d4b38e",
+  "folder": "a7eaf3a981654930",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your words lighten the mood, imposing a –2 penalty to all enemies’ initiative rolls if a fight breaks out during this encounter.</p>",
+    "longDesc": "<p><em>Cost: 4 SP</em></p><p>Your words lighten the mood, imposing a 2 penalty to all enemies’ initiative rolls if a fight breaks out during this encounter.</p>",
     "type": "General Social",
     "stuntPoints": 4,
     "stuntPointsMax": 4,

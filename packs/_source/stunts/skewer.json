@@ -1,8 +1,8 @@
 {
   "name": "Skewer",
-  "_id": "Le4HuHo0KG34Hdii",
-  "_key": "!items!Le4HuHo0KG34Hdii",
-  "folder": "fbhZaRhBv5ffJFzO",
+  "_id": "34e6e17154d3b7a1",
+  "_key": "!items!34e6e17154d3b7a1",
+  "folder": "eddb77218243b5e9",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,11 +14,11 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p><em>Cost: 4+ SP</em></p><p>Your attack is in just the right place to do serious damage inside the vehicle: One character suffers 4d6 damage for 4 SP, or for 6 SP, 6d6 damage or the full damage of your weapon +2d6, whichever is less.</p>",
+    "longDesc": "<p><em>Cost: 4+ SP</em></p><p><em>Stunts from this table are used when attacking or sabotaging a vehicle.</em></p><p>Your attack is in just the right place to do serious damage inside the vehicle: One character suffers 4d6 damage for 4 SP, or 6d6 damage for 6 SP, or the full damage of your weapon +2d6, whichever is less.</p>",
     "type": "Vehicle Combat",
     "stuntPoints": 4,
     "stuntPointsMax": 4,
-    "costType": "fixed"
+    "costType": "variable"
   },
   "ownership": {
     "default": 0

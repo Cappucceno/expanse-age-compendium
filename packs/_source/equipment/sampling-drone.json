@@ -1,0 +1,27 @@
+{
+  "name": "Sampling Drone",
+  "_id": "cbe65f048276789c",
+  "_key": "!items!cbe65f048276789c",
+  "folder": "7d5d9b37ac4c4e55",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>One of a variety of drones created for scientific use, these drones collect samples from their environment using sampling arms in a variety of sizes and configurations—some can cut stone, others can scoop up insects, and still others can take blood samples. The body of the drone is reconfigurable, made of a network of flexible and movable connectors.</p>",
+    "weight": 0,
+    "cost": 14,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

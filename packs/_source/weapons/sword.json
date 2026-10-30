@@ -1,0 +1,37 @@
+{
+  "name": "Sword",
+  "_id": "2f64bb3309e8f692",
+  "_key": "!items!2f64bb3309e8f692",
+  "folder": "bd112ac0955d347d",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>This can be any long-bladed weapon that is designed for slashing and piercing.</p><p><em>Damage as a heavy close weapon.</em></p>",
+    "useAbl": "fight",
+    "useFocus": "heavy weapons",
+    "minStr": 0,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "str",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "2d6",
+    "weight": 0,
+    "cost": 7,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

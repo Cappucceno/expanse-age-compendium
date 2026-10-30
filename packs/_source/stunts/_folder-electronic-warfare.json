@@ -1,0 +1,17 @@
+{
+  "name": "Electronic Warfare",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 1500000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "dbd03bf508e08c25",
+  "_key": "!folders!dbd03bf508e08c25",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

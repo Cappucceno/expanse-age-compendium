@@ -1,0 +1,163 @@
+{
+  "name": "Determining Abilities",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Roll once per ability (in order) and read the ability score.",
+  "results": [
+    {
+      "_id": "505cae8ad1ea7d80",
+      "type": "text",
+      "name": "Ability score -2",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!434a8beecf963811.505cae8ad1ea7d80"
+    },
+    {
+      "_id": "552a66fd681b8c6f",
+      "type": "text",
+      "name": "Ability score -1",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!434a8beecf963811.552a66fd681b8c6f"
+    },
+    {
+      "_id": "ee1068350b2b4ace",
+      "type": "text",
+      "name": "Ability score 0",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        6,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!434a8beecf963811.ee1068350b2b4ace"
+    },
+    {
+      "_id": "09d5813d93c3af24",
+      "type": "text",
+      "name": "Ability score +1",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        9,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!434a8beecf963811.09d5813d93c3af24"
+    },
+    {
+      "_id": "b64238011be7563e",
+      "type": "text",
+      "name": "Ability score +2",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        12,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!434a8beecf963811.b64238011be7563e"
+    },
+    {
+      "_id": "159d51e7690596f6",
+      "type": "text",
+      "name": "Ability score +3",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        15,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!434a8beecf963811.159d51e7690596f6"
+    },
+    {
+      "_id": "ed80b2ec2da32b9e",
+      "type": "text",
+      "name": "Ability score +4",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!434a8beecf963811.ed80b2ec2da32b9e"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5a9a8813416ea9c1",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "434a8beecf963811",
+  "_key": "!tables!434a8beecf963811"
+}

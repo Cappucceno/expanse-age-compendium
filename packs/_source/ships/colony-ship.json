@@ -1,0 +1,69 @@
+{
+  "name": "Colony Ship",
+  "_id": "2ab0cd17ed3d93cd",
+  "_key": "!actors!2ab0cd17ed3d93cd",
+  "folder": "9999963295060039",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "spaceship",
+  "img": "systems/age-system/resources/imgs/actor-icon/rocket.svg",
+  "system": {
+    "size": 7,
+    "drive": "Epstein, Thrusters",
+    "description": "<p><strong>Competence:</strong> Poor to Average</p><p><strong>Qualities:</strong> Drone Bay, Hangar Bay, Reduced Crew Requirements</p><p><strong>Flaws:</strong> Bad Juice, High Maintenance, Lumbering, Poor Acceleration III, Weak Hull</p><p><strong>Crew:</strong> 55 (80)</p><p><strong>Size:</strong> Colossal (815 meters long)</p>",
+    "hull": {
+      "nrDice": 5,
+      "diceType": 6,
+      "extraValue": 0
+    },
+    "crew": {
+      "min": 55,
+      "current": 55,
+      "typical": 55,
+      "competence": 1
+    },
+    "systems": {
+      "sensors": {
+        "mod": 0
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Colony Ship",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": [
+    {
+      "name": "2 × Grapplers",
+      "type": "shipfeatures",
+      "img": "systems/age-system/resources/imgs/item-icon/processor.svg",
+      "_id": "d3e8fed04cb82db0",
+      "_key": "!actors.items!2ab0cd17ed3d93cd.d3e8fed04cb82db0",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "type": "weapon",
+        "damage": "0",
+        "quality": "quality",
+        "isActive": true,
+        "longDesc": "<p>Aft, Close Range, 0 Damage</p>"
+      }
+    }
+  ]
+}

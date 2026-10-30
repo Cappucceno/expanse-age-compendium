@@ -1,0 +1,27 @@
+{
+  "name": "Computer Terminal",
+  "_id": "ae9bd2641fcb0a41",
+  "_key": "!items!ae9bd2641fcb0a41",
+  "folder": "a824f49866272be9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Standard computer terminals range from portable networked data pads to fixed location terminals set on a desk- or tabletop, or mounted on an articulated swing arm at the workstation, particularly on board a ship or station. Terminals can be paired with a stylus used to draw or write on the screen, processed by software able to turn handwriting into plain text or calligraphy. Users can use gestures to “flick” or throw files across the network to nearby devices as easily as tossing a physical object. Earbuds or headsets allow a wearer to privately listen to audio feeds or communicate and control the terminal subvocally via built-in microphones. Keyboards are available for those who prefer them as a form of input, and many professions have their own unique keyboard layouts, like the programing keyboards preferred by software engineers and hackers. On terminals with a fixed location, like home terminals, privacy baffles can be attached, preventing anyone other than the current user from seeing or interacting with what’s on the display. In technical environments, terminals can be attached to smart tables, facilitating the collection of data and letting the user view and interact with three-dimensional visualizations of data in real time.</p>",
+    "weight": 0,
+    "cost": 7,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

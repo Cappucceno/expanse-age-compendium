@@ -1,0 +1,72 @@
+{
+  "name": "Zeroes",
+  "_id": "c706a58e887a550a",
+  "_key": "!actors!c706a58e887a550a",
+  "folder": "4fc72d0aee69b5a5",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Zero",
+    "abilities": {
+      "acc": {
+        "value": 0
+      },
+      "comm": {
+        "value": 0
+      },
+      "cons": {
+        "value": 0
+      },
+      "dex": {
+        "value": 0
+      },
+      "fight": {
+        "value": 0
+      },
+      "int": {
+        "value": 0
+      },
+      "per": {
+        "value": 0
+      },
+      "str": {
+        "value": 0
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "speed": {
+      "base": 10
+    },
+    "defense": {
+      "base": 10
+    },
+    "health": {
+      "set": 10,
+      "value": 10
+    },
+    "features": "<p>Most NPCs in The Expanse are Zeroes. This does not make them inferior to other characters; they still live rich, dramatic lives. Zeroes simply don’t interact with the rules and story of the game beyond the basic function of everyday people, such as informants, clerks, passersby on a station, or the victims of an alien weapon. This includes non-combatants seeking cover during a combat encounter. Zeroes use the same stat block, presented here.</p><p><strong>Field:</strong> Instead of focuses, a Zero has a field with a simple description, such as “Arms Dealer” or “Local Celebrity.” They gain a +2 to ability tests the Game Master feels would benefit from their field. They also possess common knowledge suitable to their field, as well as any other less common knowledge the GM sees fit to give them.</p><p><strong>Optional Potential:</strong> If the Zero takes on increased dramatic importance, the GM can expand their stats into a more detailed NPC or even a Player Character. In such cases, they lose the field quality but not the accompanying knowledge. These new stats should be consistent with the character’s prior actions and shouldn’t make their past role unbelievable.</p><p><strong>Armor + Toughness:</strong> 0</p>",
+    "statBlockView": true
+  },
+  "prototypeToken": {
+    "name": "Zeroes",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "items": []
+}

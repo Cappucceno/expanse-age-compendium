@@ -1,8 +1,8 @@
 {
   "name": "Disable Engine",
-  "_id": "Z3xLDMZV20g5gCA5",
-  "_key": "!items!Z3xLDMZV20g5gCA5",
-  "folder": "fbhZaRhBv5ffJFzO",
+  "_id": "a3ce6f0fe1d80fb8",
+  "_key": "!items!a3ce6f0fe1d80fb8",
+  "folder": "eddb77218243b5e9",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your attack disables the vehicle’s engine or main power, such as a ship’s reactor, causing the effect of a Disable Drive stunt and leaving the vehicle completely without power other than emergency back-ups and essentially helpless. Damage control with a TN 13 Intelligence (Engineering) test can restore power for rounds equal to the Drama Die result. Otherwise the power remains offline until repaired. Note: Stunts from this table are used when attacking or sabotaging a vehicle.</p>",
+    "longDesc": "<p><em>Cost: 6 SP</em></p><p><em>Stunts from this table are used when attacking or sabotaging a vehicle.</em></p><p>Your attack disables the vehicle’s engine or main power, such as a ship’s reactor, causing the effect of a Disable Drive stunt and leaving the vehicle completely without power other than emergency back-ups and essentially helpless. Damage control with a TN 13 Intelligence (Engineering) test can restore power for rounds equal to the Drama Die result. Otherwise the power remains offline until repaired.</p>",
     "type": "Vehicle Combat",
     "stuntPoints": 6,
     "stuntPointsMax": 6,

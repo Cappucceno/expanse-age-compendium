@@ -1,8 +1,8 @@
 {
   "name": "Benefit of the Doubt",
-  "_id": "eRMA3MHVQl1Op4Gw",
-  "_key": "!items!eRMA3MHVQl1Op4Gw",
-  "folder": "cML2W7TSvQfzGtww",
+  "_id": "a25e9e7f98e382da",
+  "_key": "!items!a25e9e7f98e382da",
+  "folder": "ee6463460422c182",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,8 +14,8 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your action impresses or charms any one character present. Roll Communication (Persuasion) vs. Willpower (Self-Discipline) to affect someone with an Attitude of Hostile or worse; no roll is necessary for others. Increase all relevant Membership and Reputation bonuses by +1 while interacting with that character for the rest of the session; this may improve their Attitude toward you, at the GM’s discretion.</p>",
-    "type": "Membership & Reputation",
+    "longDesc": "<p><em>Cost: 3 SP</em></p><p>Your action impresses or charms any one character present. Roll Communications (Persuasion) vs. Willpower (Self Discipline) to affect someone with an Attitude of Hostile or worse; no roll is necessary for others. Increase all relevant Membership and Reputation bonuses by +1 while interacting with that character for the rest of the session; may improve their Attitude toward you, at the GM’s discretion.</p>",
+    "type": "Membership and Reputation",
     "stuntPoints": 3,
     "stuntPointsMax": 3,
     "costType": "fixed"

@@ -1,0 +1,39 @@
+{
+  "name": "Submachine Gun (SMG)",
+  "_id": "0f2c2c49edbab262",
+  "_key": "!items!0f2c2c49edbab262",
+  "folder": "32c00cbe9751ea6e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>This automatic weapon fires rifle cartridges from a magazine. They are shorter and more compact than assault rifles but do not have the same range or stopping power. They have been popular with organized crime since the early 20th century, and this tradition continues on. This weapon has the Automatic quality and the Ineffective flaw.</p>",
+    "useAbl": "acc",
+    "useFocus": "rifles",
+    "minStr": 0,
+    "nrDice": "3",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "normalDamage",
+    "damageFormula": "3d6",
+    "weight": 0,
+    "cost": 13,
+    "quantity": 1,
+    "equiped": false,
+    "ranged": true,
+    "range": 200,
+    "rangeMax": 300
+  },
+  "ownership": {
+    "default": 0
+  }
+}

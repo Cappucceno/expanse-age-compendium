@@ -1,0 +1,17 @@
+{
+  "name": "Pilot",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 1400000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "a4b3612d20ccffc7",
+  "_key": "!folders!a4b3612d20ccffc7",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

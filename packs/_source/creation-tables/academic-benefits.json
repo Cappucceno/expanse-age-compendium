@@ -1,0 +1,183 @@
+{
+  "name": "Academic Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Academic background (Middle Class).",
+  "results": [
+    {
+      "_id": "5b84a3812eec0cd8",
+      "type": "text",
+      "name": "+1 Communication",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!14c7ac0dbfb1a061.5b84a3812eec0cd8"
+    },
+    {
+      "_id": "52c53f4461d13549",
+      "type": "text",
+      "name": "Focus: Intelligence (Research)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!14c7ac0dbfb1a061.52c53f4461d13549"
+    },
+    {
+      "_id": "d4b9bf8d738d5970",
+      "type": "text",
+      "name": "+2 Income",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!14c7ac0dbfb1a061.d4b9bf8d738d5970"
+    },
+    {
+      "_id": "dd6149b667294fc5",
+      "type": "text",
+      "name": "Focus: Intelligence (History)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!14c7ac0dbfb1a061.dd6149b667294fc5"
+    },
+    {
+      "_id": "27de4e05ba5bfe24",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!14c7ac0dbfb1a061.27de4e05ba5bfe24"
+    },
+    {
+      "_id": "90d4b464a3407a46",
+      "type": "text",
+      "name": "Focus: Willpower (Self-Discipline)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!14c7ac0dbfb1a061.90d4b464a3407a46"
+    },
+    {
+      "_id": "fb6dfbd1d51852c0",
+      "type": "text",
+      "name": "Focus: Intelligence (choose one)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!14c7ac0dbfb1a061.fb6dfbd1d51852c0"
+    },
+    {
+      "_id": "2e7bdc56b33f3d1e",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!14c7ac0dbfb1a061.2e7bdc56b33f3d1e"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "14c7ac0dbfb1a061",
+  "_key": "!tables!14c7ac0dbfb1a061"
+}

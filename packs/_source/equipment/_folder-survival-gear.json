@@ -1,0 +1,17 @@
+{
+  "name": "Survival Gear",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "959b4153636fe8b2",
+  "_key": "!folders!959b4153636fe8b2",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

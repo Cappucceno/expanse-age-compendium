@@ -1,8 +1,8 @@
 {
   "name": "Meddle",
-  "_id": "YazVcjFmpSHXUztb",
-  "_key": "!items!YazVcjFmpSHXUztb",
-  "folder": "nODsSBHTTvTskkj6",
+  "_id": "fcac910e1126bf16",
+  "_key": "!items!fcac910e1126bf16",
+  "folder": "d4cdcee684a7d10b",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Your action brings others together or drives a wedge between them. Choose two other characters present and shift their Attitudes toward each other up or down by one (both in the same direction).</p>",
+    "longDesc": "<p><em>Cost: 5 SP</em></p><p>Your action brings others together or drives a wedge between them. Choose two other characters present and shift their Attitudes toward each other up or down by one (both in the same direction).</p>",
     "type": "Attitude",
     "stuntPoints": 5,
     "stuntPointsMax": 5,

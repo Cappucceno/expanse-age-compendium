@@ -1,8 +1,8 @@
 {
   "name": "Fancy Meeting You Here",
-  "_id": "qHgm3e3budDQ8AVl",
-  "_key": "!items!qHgm3e3budDQ8AVl",
-  "folder": "i9FAKCYRBr8cJoGO",
+  "_id": "d9bf36c03d9c8ae8",
+  "_key": "!items!d9bf36c03d9c8ae8",
+  "folder": "e6a09dfc5152643c",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -14,7 +14,7 @@
   "type": "stunts",
   "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
   "system": {
-    "longDesc": "<p>Choose a focus or talent your character doesn’t possess. An NPC of the GM’s choice with that focus or talent appears in the scene within a few minutes, or a few rounds if your action leads directly to action time. This doesn’t dictate anything about their situation, attitude, or identity; these are all up to the GM.</p>",
+    "longDesc": "<p><em>Cost: 5 SP</em></p><p><em>Infiltration stunts may apply when physically breaking in somewhere or exploring a new place, hacking into a computer or network, pulling a con job, or otherwise evading consequences and getting away with things.</em></p><p>Choose a focus or talent your character doesn’t possess. An NPC of the GM’s choice with that focus or talent appears in the scene within a few minutes—or a few rounds later if your action leads directly to action time. This doesn’t dictate anything about their situation, attitude, or identity; these are all up to the GM</p>",
     "type": "Infiltration",
     "stuntPoints": 5,
     "stuntPointsMax": 5,
